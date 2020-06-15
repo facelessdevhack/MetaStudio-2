@@ -48781,8 +48781,8 @@ object-assign
                       l.default.createElement(
                         "img",
                         { className: "hover-effect",
-                          src: "https://facelessdevhack.github.io/MetaStudio-2/imgs/tw.png",
-                          alt: "Tw",
+                          src: "https://facelessdevhack.github.io/MetaStudio-2/imgs/fb.png",
+                          alt: "FB",
                         },
                       ),
                     ),
@@ -48795,8 +48795,8 @@ object-assign
                       l.default.createElement(
                         "img",
                         { className: "hover-effect",
-                          src: "https://facelessdevhack.github.io/MetaStudio-2/imgs/tw.png",
-                          alt: "Tw",
+                          src: "https://facelessdevhack.github.io/MetaStudio-2/imgs/ig.png",
+                          alt: "IG",
                         },
                       ),
                     ),
@@ -48810,7 +48810,7 @@ object-assign
                         "img",
                         { className: "hover-effect",
                           src: "https://facelessdevhack.github.io/MetaStudio-2/imgs/tw.png",
-                          alt: "Tw",
+                          alt: "TW",
                         },
                       ),
                     )
