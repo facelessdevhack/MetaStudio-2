@@ -863,6 +863,56 @@ h3 {
     bottom: 0;
   }
 }
+.scroll-indicate {
+  position: fixed;
+  left: 5%;
+  bottom: 0;
+  z-index: 340;
+  display: inline-block;
+  width: 4.16667%;
+  height: 6.66667%;
+  width: 50px;
+  min-height: 60px;
+  font-family: "rajdhani", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  color: #fff;
+  font-size: 16px;
+}
+.scroll-indicate .border-grey1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  width: 2px;
+  height: 100%;
+  background: #333;
+}
+.scroll-indicate .border1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 200;
+  width: 2px;
+  height: 100%;
+  background: #ffffff;
+}
+.scroll-indicate em1 {
+  display: inline-block;
+  font-style: normal;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  position: absolute;
+  left: 0px;
+  top: 12px;
+}
+@media screen and (max-width: 800px) {
+  .scroll-indicate {
+    bottom: 0;
+  }
+}
 
 .audio-button {
   position: fixed;
@@ -1747,7 +1797,7 @@ transform-origin: left center;
   bottom: 26.66667%;
   z-index: 100;
   margin: 0 0 -50px 0;
-  font-size: 3.65pt;
+  font-size: 1.25em !important;
   color: rgba(182, 188, 206, 0.7);
   line-height: 32px;
 }

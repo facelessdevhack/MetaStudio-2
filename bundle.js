@@ -14365,8 +14365,8 @@ object-assign
                         onClick: this.onClick,
                       },
                       d.default.createElement("img", {
-                        src: "https://www.ankoku-toshi-jutsu.com/assets/images/sine.png",
-                        className: "sine",
+                        src: "https://facelessdevhack.github.io/MetaStudio-2/imgs/lang.png",
+                        className: "lang",
                       })
                     )
                   );
@@ -47939,17 +47939,22 @@ object-assign
         })(),
         l = n(2),
         d = a(l),
-        p = n(8),
+        p = n(20),
         c = n(5),
         u = a(c),
-        m = (function (t) {
-          function n() {
+        m = n(8),
+        f = (function (t) {
+          function n(e) {
+            o(this, n);
+            var t = i(
+              this,
+              (n.__proto__ || Object.getPrototypeOf(n)).call(this, e)
+            );
             return (
-              o(this, n),
-              i(
-                this,
-                (n.__proto__ || Object.getPrototypeOf(n)).apply(this, arguments)
-              )
+              (t.onIconHover = t.onIconHover.bind(t)),
+              (t.onIconOut = t.onIconOut.bind(t)),
+              (t.onClick = t.onClick.bind(t)),
+              t
             );
           }
           return (
@@ -47959,27 +47964,71 @@ object-assign
                 key: "componentDidMount",
                 value: function () {
                   (this.$element = e(this.refs.element)),
-                    TweenMax.set(this.$element, { opacity: 0 });
+                    (this.$border = this.$element.find(".border")),
+                    TweenMax.set(this.$element, { opacity: 0 }),
+                    window.APP.isMobile ||
+                      (this.$element.on("mouseenter", this.onIconHover),
+                      this.$element.on("mouseleave", this.onIconOut));
+                },
+              },
+              {
+                key: "onIconHover",
+                value: function (t) {
+                  t.preventDefault();
+                  var e = this.$element.height();
+                  TweenMax.to(this.$element, 0.3, {
+                    height: 1.25 * e,
+                    ease: Back.easeOut.config(0.2),
+                  });
+                },
+              },
+              {
+                key: "onIconOut",
+                value: function (t) {
+                  t.preventDefault();
+                  var e = this.$element.height();
+                  TweenMax.to(this.$element, 0.3, {
+                    height: e / 1.25,
+                    ease: Power2.easeOut,
+                  });
                 },
               },
               {
                 key: "componentWillEnter",
                 value: function (e) {
-                  p.elementAnimations.leftInDelayed(this.$element, e);
+                  m.elementAnimations.bottomIn(this.$element, e);
                 },
               },
-              { key: "componentDidEnter", value: function () {} },
+              {
+                key: "componentDidEnter",
+                value: function () {
+                  var e = new p.TimelineMax({
+                    align: "sequence",
+                    repeat: -1,
+                    repeatDelay: 0.8,
+                  });
+                  e.to(this.$border, 0.3, {
+                    scaleY: 0,
+                    transformOrigin: "0% 100%",
+                  }).to(this.$border, 0.3, {
+                    delay: 0.8,
+                    scaleY: 1,
+                    transformOrigin: "0% 0%",
+                  });
+                },
+              },
               {
                 key: "componentWillLeave",
                 value: function (e) {
-                  p.elementAnimations.leftOut(this.$element, e);
+                  m.elementAnimations.bottomOut(this.$element, e);
                 },
               },
               { key: "componentDidLeave", value: function () {} },
               {
                 key: "onClick",
                 value: function (t) {
-                  t.preventDefault(), u.default.sendTo("goToPageHash", "home");
+                  t.preventDefault(),
+                    u.default.sendTo("moveToDirection", "down");
                 },
               },
               {
@@ -47988,17 +48037,16 @@ object-assign
                   return d.default.createElement(
                     "a",
                     {
-                      href: "/#home",
-                      target: "_blank",
-                      className: "adidas-link playclicksound",
-                      ref: "element",
+                      href: "javascript:void(0);",
                       onClick: this.onClick,
+                      className: "scroll-indicate playclicksound",
+                      ref: "element",
                     },
-                    d.default.createElement("img", {
-                      src: "https://www.ankoku-toshi-jutsu.com/assets/images/adidas-logo.png",
-                      alt: "Adidas",
-                      className: "adidas-logo",
-                    })
+                    d.default.createElement("em1", null, "scroll"),
+                    d.default.createElement("div", {
+                      className: "border-grey1",
+                    }),
+                    d.default.createElement("div", { className: "border1" }),
                   );
                 },
               },
@@ -48006,19 +48054,19 @@ object-assign
             n
           );
         })(d.default.Component),
-        f = m;
-      t.default = f;
+        g = f;
+      t.default = g;
       (function () {
         "undefined" == typeof __REACT_HOT_LOADER__ ||
           (__REACT_HOT_LOADER__.register(
-            m,
-            "AdidasLogo",
-            "/Users/ehrhart/htdocs/kunden.webroot/dayy/adidas-ankoku/app/components/AdidasLogo.jsx"
+            f,
+            "ScrollIndicator",
+            "/Users/ehrhart/htdocs/kunden.webroot/dayy/adidas-ankoku/app/components/ScrollIndicator.jsx"
           ),
           __REACT_HOT_LOADER__.register(
-            f,
+            g,
             "default",
-            "/Users/ehrhart/htdocs/kunden.webroot/dayy/adidas-ankoku/app/components/AdidasLogo.jsx"
+            "/Users/ehrhart/htdocs/kunden.webroot/dayy/adidas-ankoku/app/components/ScrollIndicator.jsx"
           ));
       })();
     }.call(t, n(1)));
