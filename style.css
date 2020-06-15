@@ -920,14 +920,14 @@ h3 {
   bottom: 6.66667%;
   z-index: 450;
   display: block;
-  height: 23px;
+  height: 32px !important;
   width: 46px;
   overflow: hidden;
 }
 .audio-button .btn {
   display: block;
   background: rgba(0, 0, 0, 0);
-  height: 23px;
+  height: 28px !important;
   width: 46px;
   overflow: hidden;
   /*
@@ -958,7 +958,7 @@ path {
 .audio-button .btn img.sine {
   width: 319px;
   max-width: 319px;
-  height: 23px;
+  height: 28px !important;
   position: absolute;
   right: -130px;
   top: 0;
