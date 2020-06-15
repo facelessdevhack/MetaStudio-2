@@ -1014,9 +1014,9 @@ main.Howtobuy .audio-button .btn.play svg path {
   left: 50%;
   top: 50%;
   z-index: 200;
-  margin: -13px 0 0 -11px;
-  width: 22px;
-  height: 25px;
+  margin: -9.5px 0 0 -10px !important;
+  width: 20px !important;
+  height: 18px !important;
 }
 .shop-button:hover .icon-container .circle {
   width: 50px;
@@ -1747,7 +1747,7 @@ transform-origin: left center;
   bottom: 26.66667%;
   z-index: 100;
   margin: 0 0 -50px 0;
-  font-size: 20px;
+  font-size: 3.65pt;
   color: rgba(182, 188, 206, 0.7);
   line-height: 32px;
 }
