@@ -47348,9 +47348,9 @@ object-assign
                               d.default.createElement(
                                 "span",
                                 { className: "title" },
-                                "\u2014 Ankoku",
+                                "\u2014 Home",
                                 d.default.createElement("br", null),
-                                "Toshi Jutsu"
+                                ""
                               )
                             ),
                             d.default.createElement(
@@ -47371,9 +47371,9 @@ object-assign
                               d.default.createElement(
                                 "span",
                                 { className: "title" },
-                                "The",
+                                "\u2014 OUR",
                                 d.default.createElement("br", null),
-                                "Artefact"
+                                "VIZION"
                               )
                             ),
                             d.default.createElement(
@@ -47394,7 +47394,7 @@ object-assign
                               d.default.createElement(
                                 "span",
                                 { className: "title" },
-                                "_Items"
+                                "_PROJECTS"
                               )
                             ),
                             d.default.createElement(
@@ -47415,7 +47415,7 @@ object-assign
                               d.default.createElement(
                                 "span",
                                 { className: "title" },
-                                "The Journey_"
+                                "MULTIMEDIA_"
                               )
                             ),
                             d.default.createElement(
@@ -47436,7 +47436,28 @@ object-assign
                               d.default.createElement(
                                 "span",
                                 { className: "title" },
-                                "G-llery"
+                                "JOBS"
+                              )
+                            ),
+                            d.default.createElement(
+                              "li",
+                              {
+                                className:
+                                  "Gallery" === this.props.current
+                                    ? "active"
+                                    : "",
+                                onClick: this.onClick,
+                                "data-pagehash": "/",
+                              },
+                              d.default.createElement(
+                                "span",
+                                { className: "number" },
+                                ".06"
+                              ),
+                              d.default.createElement(
+                                "span",
+                                { className: "title" },
+                                "BLOG"
                               )
                             ),
                             d.default.createElement(
@@ -47452,12 +47473,12 @@ object-assign
                               d.default.createElement(
                                 "span",
                                 { className: "number" },
-                                ".06"
+                                ".07"
                               ),
                               d.default.createElement(
                                 "span",
                                 { className: "title" },
-                                "Contact Us"
+                                "E-MAIL"
                               )
                             ),
                             d.default.createElement(
@@ -47473,7 +47494,7 @@ object-assign
                               d.default.createElement(
                                 "span",
                                 { className: "number" },
-                                ".07"
+                                ".08"
                               ),
                               d.default.createElement(
                                 "span",
@@ -47549,10 +47570,10 @@ object-assign
                             d.default.createElement(
                               "span",
                               { className: "title" },
-                              "\u2014 Ankoku",
+                              "\u2014 Home",
                               d.default.createElement("br", null),
-                              "Toshi Jutsu"
-                            )
+                              ""
+                            ),
                           ),
                           d.default.createElement(
                             "li",
@@ -47572,9 +47593,9 @@ object-assign
                             d.default.createElement(
                               "span",
                               { className: "title" },
-                              "The",
+                              "\u2014 OUR",
                               d.default.createElement("br", null),
-                              "Artefact"
+                              "VIZION"
                             )
                           ),
                           d.default.createElement(
@@ -47593,7 +47614,7 @@ object-assign
                             d.default.createElement(
                               "span",
                               { className: "title" },
-                              "_Items"
+                              "_PROJECTS"
                             )
                           ),
                           d.default.createElement(
@@ -47614,7 +47635,7 @@ object-assign
                             d.default.createElement(
                               "span",
                               { className: "title" },
-                              "The Journey_"
+                              "MULTIMEDIA_"
                             )
                           ),
                           d.default.createElement(
@@ -47635,7 +47656,28 @@ object-assign
                             d.default.createElement(
                               "span",
                               { className: "title" },
-                              "G-llery"
+                              "JOBS"
+                            )
+                          ),
+                          d.default.createElement(
+                            "li",
+                            {
+                              className:
+                                "Blog" === this.props.current
+                                  ? "active"
+                                  : "",
+                              onClick: this.onClick,
+                              "data-pagehash": "blog",
+                            },
+                            d.default.createElement(
+                              "span",
+                              { className: "number" },
+                              ".06"
+                            ),
+                            d.default.createElement(
+                              "span",
+                              { className: "title" },
+                              "BLOG"
                             )
                           )
                         ),
@@ -47660,10 +47702,6 @@ object-assign
                               onClick: this.onShopButtonClick,
                               "data-pagehash": "howtobuy",
                             },
-                            d.default.createElement("img", {
-                              src: "https://facelessdevhack.github.io/MetaStudio-2/imgs/Layer%2017.png",
-                              alt: "Contact Us",
-                            }),
                             d.default.createElement("span", null, "Contact Us")
                           )
                         ),
@@ -47705,7 +47743,7 @@ object-assign
                               d.default.createElement(
                                 "span",
                                 { className: "hover-effect" },
-                                "Credits"
+                                "futurevizion.jp"
                               )
                             )
                           ),
@@ -47722,7 +47760,7 @@ object-assign
                               d.default.createElement(
                                 "span",
                                 { className: "hover-effect" },
-                                "Imprint"
+                                "Blog"
                               )
                             )
                           )
