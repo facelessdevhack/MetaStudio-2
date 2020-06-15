@@ -40219,10 +40219,10 @@ object-assign
                         d.default.createElement(
                           "span",
                           { className: "white jsigns" },
-                          "\u6697\u9ED2\u900F\u8996\u8853"
+                          "見る芸術"
                         ),
                         d.default.createElement("br", null),
-                        "The Art Of Seeing Through Darkness"
+                        "3 - 6 - 9 Master Key of the Universe"
                       )
                     ),
                     d.default.createElement(
