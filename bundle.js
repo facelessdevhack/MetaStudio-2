@@ -10448,7 +10448,7 @@ object-assign
         "https://www.ankoku-toshi-jutsu.com/assets/images/soundwave-long.png",
         "https://www.ankoku-toshi-jutsu.com/assets/images/story-thumb.jpg",
         "https://www.ankoku-toshi-jutsu.com/assets/images/tgwo-logo-black.png",
-        "/imgs/meta-logo.png",
+        "https://facelessdevhack.github.io/MetaStudio-2/imgs/meta-logo.png",
         "https://www.ankoku-toshi-jutsu.com/assets/images/trailer-bg.png",
         "https://www.ankoku-toshi-jutsu.com/assets/sounds/bg.mp3",
         "https://www.ankoku-toshi-jutsu.com/assets/sounds/bg.ogg",
@@ -32744,7 +32744,7 @@ object-assign
                         )
                       ),
                       p.default.createElement("img", {
-                        src: "/imgs/meta-logo.png",
+                        src: "https://facelessdevhack.github.io/MetaStudio-2/imgs/meta-logo.png",
                         alt: "Meta-Studio",
                         className: "tgwo-logo logo-right",
                       })
@@ -45584,7 +45584,7 @@ object-assign
                               target: "_blank",
                             },
                             d.default.createElement("img", {
-                              src: "/imgs/meta-logo.png",
+                              src: "https://facelessdevhack.github.io/MetaStudio-2/imgs/meta-logo.png",
                               className: "tgwo",
                               alt: "meta",
                             })
@@ -47859,7 +47859,7 @@ object-assign
                       onClick: this.onClick,
                     },
                     d.default.createElement("img", {
-                      src: "/imgs/meta-logo.png",
+                      src: "https://facelessdevhack.github.io/MetaStudio-2/imgs/meta-logo.png",
                       alt: "Meta-Studios",
                       className: "tgwo-logo",
                     })
