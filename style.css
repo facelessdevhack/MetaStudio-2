@@ -16,6 +16,13 @@
   top: 50%;
   margin: -16px 0 0 -16px;
 }
+.stripe {
+  width: 5%;
+  height: 2.5%;
+  position: absolute;
+  left: 17%;
+  top: 22%;
+}
 @font-face {
   font-family: "rajdhani";
   src: url("https://www.ankoku-toshi-jutsu.com/fonts/rajdhani-bold-webfont.eot");
@@ -2013,8 +2020,8 @@ transform-origin: left center;
   position: fixed;
   left: 16.66667%;
   bottom: 20%;
-  width: 240px;
-  font-size: 24px;
+  width: 440px !important;
+  font-size: 13pt !important;
   line-height: 32px;
 }
 
@@ -3670,7 +3677,6 @@ section.page,
 .animation-slice .char {
   display: inline-block;
 }
-
 .flag-container .signs-container {
   position: absolute;
   left: 0;
