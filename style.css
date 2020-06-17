@@ -2313,10 +2313,24 @@ transform-origin: left center;
   margin-top: 6px;
   color: #fff;
 }
+#btn {
+  position: fixed;
+  right: 16.66667%;
+  top: 66.66667%;
+  text-align: right;
+  width: 190px;
+}
 .page-items .btn.btn-longsleeve {
   position: fixed;
   right: 16.66667%;
   top: 26.66667%;
+  text-align: right;
+  width: 190px;
+}
+.page-items .btn.btn-longsleeve2 {
+  position: fixed;
+  right: 16.66667%;
+  top: 46.66667%;
   text-align: right;
   width: 190px;
 }
@@ -2371,9 +2385,21 @@ transform-origin: left center;
 .page-journey .intro {
   position: fixed;
   left: 16.66667%;
-  bottom: 20%;
+  bottom: 28% !important;
   width: 100%;
-  max-width: 420px;
+  max-width: 520px !important;
+}
+.sneakPeek {
+  width: 215px;
+  max-width: 250px;
+  text-align: right;
+}
+.page-journey .intro2 {
+    position: fixed;
+    left: 16.66667%;
+    bottom: 11%;
+    width: 100%;
+    max-width: 520px;
 }
 
 .page-journey .video-container {
@@ -2436,6 +2462,9 @@ transform-origin: left center;
     display: none;
   }
   .page-journey .intro {
+    display: none;
+  }
+  .page-journey .intro2 {
     display: none;
   }
   .page-journey .btn.btn-story {
@@ -3580,18 +3609,31 @@ p.copy {
 
 .big-white-copy,
 .page-journey .intro {
-  font-size: 24px;
+  font-size: 22px !important;
   line-height: 32px;
   color: #ffffff;
 }
-@media screen and (max-width: 1300px) {
+
+@media screen and (max-width: 1500px) {
   .big-white-copy,
   .page-journey .intro {
+    font-size: 18px !important;
+    line-height: 24px;
+  }
+}
+.big-white-copy,
+.page-journey .intro2 {
+  font-size: 22px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1500px) {
+  .page-journey .intro2 {
     font-size: 18px;
     line-height: 24px;
   }
 }
-
 img {
   max-width: 100%;
   height: auto;
@@ -3710,8 +3752,9 @@ span.hover-effect {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
-.btn-flag:hover .flag-container svg.flag path.characters {
+.btn-flag:hover .flag-container svg.flag path.characters .texts {
   fill: #000000;
+  filter: invert(50%);
 }
 .btn-flag:hover .flag-container svg.flag rect {
   -webkit-transform: rotate(45deg) translate(-150px, -150px) scale(1);

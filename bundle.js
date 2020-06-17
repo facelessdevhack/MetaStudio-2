@@ -41235,10 +41235,10 @@ object-assign
                         d.default.createElement(
                           "span",
                           { className: "white" },
-                          "Essential apparel items"
+                          "現実はあなたの考えの投影です"
                         ),
                         d.default.createElement("br", null),
-                        "accompany the release"
+                        "Reality is a projection of your thoughts"
                       )
                     ),
                     d.default.createElement(
@@ -41360,12 +41360,12 @@ object-assign
                       d.default.createElement(
                         "h3",
                         { className: "animation-default" },
-                        "Longsleeve"
+                        "Video Maping"
                       ),
                       d.default.createElement(
                         "p",
                         { className: "copy animation-lines" },
-                        "100% organic cotton, Interlock knit, crew neckline etc."
+                        "Responsive multimedia art meets projections"
                       )
                     ),
                     d.default.createElement(
@@ -41395,7 +41395,7 @@ object-assign
                           d.default.createElement("path", {
                             className: "characters",
                             d:
-                              "M30.248,16.592 C31,17.28 31.592,18 32.024,18.736 L31.144,19.376 C30.664,18.576 30.104,17.856 29.448,17.216 L30.248,16.592 Z M28.664,17.664 C29.368,18.32 29.96,19.04 30.408,19.84 L29.544,20.464 C29.08,19.664 28.504,18.944 27.832,18.304 L28.664,17.664 Z M20.52,17.952 C22.472,18.48 24.152,19.184 25.56,20.064 L24.648,21.36 C23.4,20.592 21.8,19.936 19.816,19.424 L20.52,17.952 Z M30.04,20.96 L31.592,21.552 C30.6,23.808 29.16,25.744 27.272,27.376 C25.224,29.136 22.856,30.32 20.168,30.96 L19.4,29.44 C21.88,28.864 24.088,27.776 26.008,26.208 C27.832,24.704 29.176,22.96 30.04,20.96 Z M19.112,21.52 C20.776,21.904 22.456,22.576 24.136,23.52 L23.272,24.912 C21.88,24.112 20.264,23.456 18.424,22.976 L19.112,21.52 Z M29.288,46.64 L24.184,47.504 L23.624,44.64 L22.024,44.944 L22.584,47.776 L19.688,48.272 L19.992,49.744 L22.872,49.232 L23.96,54.72 L25.544,54.448 L24.472,48.96 L27.992,48.336 C27.448,49.072 26.728,49.808 25.864,50.544 L27,51.632 C28.232,50.64 29.336,49.232 30.312,47.408 L29.288,46.64 Z M21.832,69.808 L25.72,69.808 C25.496,71.568 25.032,73.024 24.296,74.192 C23.384,75.616 21.976,76.784 20.088,77.68 L21.16,78.976 C23.288,77.904 24.856,76.528 25.88,74.848 C26.68,73.488 27.176,71.808 27.4,69.808 L31.688,69.808 L31.688,68.272 L22.728,68.272 C23.176,67.376 23.56,66.496 23.848,65.6 L22.28,65.136 C21.848,66.448 21.24,67.712 20.456,68.928 C19.592,70.24 18.616,71.312 17.544,72.112 L18.68,73.296 C19.8,72.464 20.84,71.312 21.816,69.824 C21.816,69.808 21.816,69.808 21.832,69.808 Z M23.928,93.12 C24.36,93.728 24.744,94.304 25.096,94.88 C25.448,95.44 25.784,96 26.088,96.576 L24.792,97.376 C24.152,96.176 23.432,95.008 22.648,93.856 L23.928,93.12 Z M28.568,93.536 L30.168,93.808 C29.72,96.064 28.984,97.888 27.96,99.296 C26.776,100.88 25.112,102.048 23,102.8 L22.088,101.504 C24.04,100.784 25.544,99.76 26.584,98.432 C27.512,97.216 28.168,95.584 28.568,93.536 Z M21.112,94 C21.944,95.152 22.664,96.32 23.272,97.472 L21.992,98.272 C21.288,96.992 20.552,95.84 19.8,94.784 L21.112,94 Z M21.88,113.52 L21.88,126.992 L23.544,126.992 L23.544,120.064 C24.68,120.272 25.848,120.576 27.032,120.976 C28.088,121.328 29.144,121.744 30.184,122.224 L30.904,120.848 C29.752,120.288 28.568,119.824 27.384,119.44 C26.088,118.992 24.808,118.672 23.544,118.464 L23.544,113.52 L21.88,113.52 Z",
+                              "&#29694;&#23455;&#12399;&#12354;&#12394;&#12383;&#12398;&#32771;&#12360;&#12398;&#25237;&#24433;&#12391;&#12377;",
                           }),
                           d.default.createElement("path", {
                             d:
@@ -41406,21 +41406,61 @@ object-assign
                       d.default.createElement(
                         "h3",
                         { className: "animation-default" },
-                        "Kimoto Jacket"
+                        "Design"
                       ),
                       d.default.createElement(
                         "p",
                         { className: "copy animation-lines" },
-                        "Kimono pattern construction, Stotz EtaProof fabric etc."
+                        "Design is the fuel of intelligence."
                       )
                     ),
                     d.default.createElement(
-                      "div",
-                      { className: "animation-lines limited" },
-                      "Limited \u2014 ",
-                      d.default.createElement("br", null),
-                      " Only available at The Good Will Out."
-                    )
+                      "a",
+                      {
+                        href: "javascript:void(0);",
+                        id: "btn",
+                        className: "btn btn-flag btn-longsleeve",
+                        onClick: this.onClick,
+                        "data-pagehash": "itemsdetails/longsleeve",
+                      },
+                      d.default.createElement(
+                        "div",
+                        { className: "flag-container animation-default" },
+                        d.default.createElement(
+                          "svg",
+                          {
+                            className: "flag",
+                            width: "175px",
+                            height: "50px",
+                            viewBox: "0 0 175 50",
+                            version: "1.1",
+                          },
+                          d.default.createElement("rect", {
+                            width: "400",
+                            height: "400",
+                          }),
+                          d.default.createElement("path", {
+                            className: "characters",
+                            d:
+                              "私たちについて",
+                          }),
+                          d.default.createElement("path", {
+                            d:
+                              "M2,2 L2,48 L173,48 L173,2 L2,2 Z M0,0 L175,0 L175,50 L0,50 L0,0 Z",
+                          })
+                        )
+                      ),
+                      d.default.createElement(
+                        "h3",
+                        { className: "animation-default" },
+                        "Apps"
+                      ),
+                      d.default.createElement(
+                        "p",
+                        { className: "copy animation-lines" },
+                        "Some of our industry dirsupting Apps we have developed"
+                      )
+                    ),
                   );
                 },
               },
@@ -41962,10 +42002,10 @@ object-assign
                         d.default.createElement(
                           "span",
                           { className: "white" },
-                          "Trained in being deprived"
+                          "私達の旅"
                         ),
                         d.default.createElement("br", null),
-                        "of one of your senses"
+                        "Pixels are the resolvanle unit of the universe"
                       )
                     ),
                     d.default.createElement(
@@ -41974,7 +42014,7 @@ object-assign
                       d.default.createElement(
                         "span",
                         { className: "animation-slice" },
-                        "The"
+                        "Visual"
                       ),
                       d.default.createElement("br", null),
                       d.default.createElement(
@@ -41986,7 +42026,13 @@ object-assign
                     d.default.createElement(
                       "div",
                       { className: "intro animation-lines" },
-                      "Once upon a time there was an old village called Ny\u014Dk\u014D. It was surrounded by six beautiful mountains, which were entirely covered into warm, glistening sunlight during daytime. None of the citizens ever experienced the world behind the mountains\u2026"
+                      "French sociologist Jean Baudrillard, wrote a thesis novel called “Simulacra and Simulation” in 1981, in which it claims that our current society has replaced all reality and meaning with symbols and signs, and that human experience is a simulation of reality."
+                    ),
+                    d.default.createElement("br", null),
+                    d.default.createElement(
+                      "span",
+                      { className: "intro2 animation-lines" },
+                      "Our entire construct of reality is filled with meaningless symbols, but what if we could change that by using higher frequency imagery, then the semantics of design could change reality itself."
                     ),
                     d.default.createElement(
                       "a",
@@ -42000,8 +42046,17 @@ object-assign
                       d.default.createElement(
                         "p",
                         { className: "big-white-copy" },
-                        "Watch the film"
-                      )
+                        "Watch the Trailer"
+                      ),
+                      d.default.createElement("br",null),
+                      d.default.createElement(
+                        "p",
+                        { className: "sneakPeek" },
+                        "Sneak peak preview of Guillermo Alarcon’s upcoming",
+                        ),
+                      d.default.createElement("p", null,
+                      "Sci-fi Short Film",
+                      ),
                     ),
                     d.default.createElement(
                       "a",
@@ -42041,11 +42096,11 @@ object-assign
                       d.default.createElement(
                         "p",
                         { className: "copy animation-lines" },
-                        "The journey of Izuya raised in Ny\u014Dk\u014D and the  legendary artefact",
+                        "Experience some of our Films and Music videos we have created",
                         d.default.createElement(
                           "span",
                           null,
-                          "Explore the story"
+                          "OUR FILM WORK"
                         )
                       )
                     ),
@@ -42092,7 +42147,7 @@ object-assign
                       d.default.createElement(
                         "p",
                         { className: "copy animation-lines" },
-                        "The journey of Izuya raised in Ny\u014Dk\u014D and the  legendary artefact"
+                        "Experience some of our Films and Music videos we have created"
                       )
                     )
                   );
