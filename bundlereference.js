@@ -10418,105 +10418,85 @@ object-assign
     Object.defineProperty(t, "__esModule", { value: !0 });
     var n = {
       default: [
-        "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/1.jpg",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/2.jpg",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/3.jpg",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/4.jpg",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/5.jpg",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/6.jpg",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/7.jpg",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/8.jpg",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/9.jpg",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/10.jpg",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/j-signs/artefact.png",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/j-signs/headhome.png",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/j-signs/sign1.png",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/adidas-logo-black.png",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/adidas-logo.png",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/arrow-down-black.png",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/black-line.png",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/credits-logos.png",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/dayy-logo.png",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/homevideo-bg.jpg",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/journeyvideo-bg.jpg",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/loading-simple.gif",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/mouseicon.cur",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/noise.png",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/og_image.jpg",
-        "https://facelessdevhack.github.io/MetaStudio-2/imgs/Layer%2017.png",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/shop-icon.png",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/soundwave-long.png",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/story-thumb.jpg",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/tgwo-logo-black.png",
-        "https://facelessdevhack.github.io/MetaStudio-2/imgs/meta-logo.png",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/trailer-bg.png",
-        "https://www.ankoku-toshi-jutsu.com/assets/sounds/bg.mp3",
-        "https://www.ankoku-toshi-jutsu.com/assets/sounds/bg.ogg",
-        "https://www.ankoku-toshi-jutsu.com/assets/svg/nav.svg",
-        "https://www.ankoku-toshi-jutsu.com/assets/svg/soundwave-long.svg",
-        "https://www.ankoku-toshi-jutsu.com/assets/svg/soundwave.svg",
+        "/assets/images/gallery/1.jpg",
+        "/assets/images/gallery/2.jpg",
+        "/assets/images/gallery/3.jpg",
+        "/assets/images/gallery/4.jpg",
+        "/assets/images/gallery/5.jpg",
+        "/assets/images/gallery/6.jpg",
+        "/assets/images/gallery/7.jpg",
+        "/assets/images/gallery/8.jpg",
+        "/assets/images/gallery/9.jpg",
+        "/assets/images/gallery/10.jpg",
+        "/assets/images/j-signs/artefact.png",
+        "/assets/images/j-signs/headhome.png",
+        "/assets/images/j-signs/sign1.png",
+        "/assets/images/adidas-logo-black.png",
+        "/assets/images/adidas-logo.png",
+        "/assets/images/arrow-down-black.png",
+        "/assets/images/black-line.png",
+        "/assets/images/credits-logos.png",
+        "/assets/images/dayy-logo.png",
+        "/assets/images/homevideo-bg.jpg",
+        "/assets/images/journeyvideo-bg.jpg",
+        "/assets/images/loading-simple.gif",
+        "/assets/images/mouseicon.cur",
+        "/assets/images/noise.png",
+        "/assets/images/og_image.jpg",
+        "/assets/images/shop-icon.gif",
+        "/assets/images/shop-icon.png",
+        "/assets/images/soundwave-long.png",
+        "/assets/images/story-thumb.jpg",
+        "/assets/images/tgwo-logo-black.png",
+        "/assets/images/tgwo-logo.png",
+        "/assets/images/trailer-bg.png",
+        "/assets/sounds/bg.mp3",
+        "/assets/sounds/bg.ogg",
+        "/assets/svg/nav.svg",
+        "/assets/svg/soundwave-long.svg",
+        "/assets/svg/soundwave.svg",
       ],
       defaultDesktop: [
-        "https://www.ankoku-toshi-jutsu.com/assets/videos/flags/flag_black.mp4",
-        "https://www.ankoku-toshi-jutsu.com/assets/videos/flags/flag_white.mp4",
-        "https://www.ankoku-toshi-jutsu.com/assets/sounds/big_hover_01_01.mp3",
-        "https://www.ankoku-toshi-jutsu.com/assets/sounds/big_hover_01_01.ogg",
-        "https://www.ankoku-toshi-jutsu.com/assets/sounds/big_hover_02_01.mp3",
-        "https://www.ankoku-toshi-jutsu.com/assets/sounds/big_hover_02_01.ogg",
-        "https://www.ankoku-toshi-jutsu.com/assets/sounds/big_hover_03_01.mp3",
-        "https://www.ankoku-toshi-jutsu.com/assets/sounds/big_hover_03_01.ogg",
-        "https://www.ankoku-toshi-jutsu.com/assets/sounds/click_01.mp3",
-        "https://www.ankoku-toshi-jutsu.com/assets/sounds/click_01.ogg",
-        "https://www.ankoku-toshi-jutsu.com/assets/sounds/jump_to_detail_transition_01.mp3",
-        "https://www.ankoku-toshi-jutsu.com/assets/sounds/jump_to_detail_transition_01.ogg",
+        "/assets/videos/flags/flag_black.mp4",
+        "/assets/videos/flags/flag_white.mp4",
+        "/assets/sounds/big_hover_01_01.mp3",
+        "/assets/sounds/big_hover_01_01.ogg",
+        "/assets/sounds/big_hover_02_01.mp3",
+        "/assets/sounds/big_hover_02_01.ogg",
+        "/assets/sounds/big_hover_03_01.mp3",
+        "/assets/sounds/big_hover_03_01.ogg",
+        "/assets/sounds/click_01.mp3",
+        "/assets/sounds/click_01.ogg",
+        "/assets/sounds/jump_to_detail_transition_01.mp3",
+        "/assets/sounds/jump_to_detail_transition_01.ogg",
       ],
       defaultMobile: [
-        "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/flags/flag_black.mp4",
-        "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/flags/flag_white.mp4",
+        "/assets/videos/_mobile/flags/flag_black.mp4",
+        "/assets/videos/_mobile/flags/flag_white.mp4",
       ],
-      videoTrailer:
-        "https://www.ankoku-toshi-jutsu.com/assets/videos/trailer/trailer.mp4",
-      videoTrailerMobile:
-        "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/trailer/trailer.mp4",
+      videoTrailer: "/assets/videos/trailer/trailer.mp4",
+      videoTrailerMobile: "/assets/videos/_mobile/trailer/trailer.mp4",
       videos: {
-        videoHome:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/01_start_overview.mp4",
-        videoProduct:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/02_shoe_overview.mp4",
-        videoProductdetails:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/02_shoe_details.mp4",
-        videoItems:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/03_items.mp4",
-        videoLongsleeve:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/03_longsleeve.mp4",
-        videoJacket:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/03_jacket.mp4",
-        videoJourney:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/04_journey_overview.mp4",
-        videoJourneyChapter1:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/04_journey_one.mp4",
-        videoJourneyChapter2:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/04_journey_two.mp4",
-        videoJourneyChapter3:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/04_journey_three.mp4",
-        videoJourneyChapter4:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/04_journey_four.mp4",
-        videoCredits:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/05_credits.mp4",
+        videoHome: "/assets/videos/01_start_overview.mp4",
+        videoProduct: "/assets/videos/02_shoe_overview.mp4",
+        videoProductdetails: "/assets/videos/02_shoe_details.mp4",
+        videoItems: "/assets/videos/03_items.mp4",
+        videoLongsleeve: "/assets/videos/03_longsleeve.mp4",
+        videoJacket: "/assets/videos/03_jacket.mp4",
+        videoJourney: "/assets/videos/04_journey_overview.mp4",
+        videoJourneyChapter1: "/assets/videos/04_journey_one.mp4",
+        videoJourneyChapter2: "/assets/videos/04_journey_two.mp4",
+        videoJourneyChapter3: "/assets/videos/04_journey_three.mp4",
+        videoJourneyChapter4: "/assets/videos/04_journey_four.mp4",
+        videoCredits: "/assets/videos/05_credits.mp4",
       },
       videosMobile: {
-        videoHome:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/01_start.mp4",
-        videoProduct:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/02_shoe.mp4",
-        videoItems:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/03_items-overview.mp4",
-        videoItemsdetails:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/03_item-details.mp4",
-        videoJourney:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/04_journey.mp4",
-        videoCredits:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/04_journey.mp4",
+        videoHome: "/assets/videos/_mobile/01_start.mp4",
+        videoProduct: "/assets/videos/_mobile/02_shoe.mp4",
+        videoItems: "/assets/videos/_mobile/03_items-overview.mp4",
+        videoItemsdetails: "/assets/videos/_mobile/03_item-details.mp4",
+        videoJourney: "/assets/videos/_mobile/04_journey.mp4",
+        videoCredits: "/assets/videos/_mobile/04_journey.mp4",
       },
     };
     t.default = n;
@@ -13282,26 +13262,23 @@ object-assign
                 window.APP.isIos ||
                 ((n.transitionAudio = new y.Howl({
                   src: [
-                    "https://www.ankoku-toshi-jutsu.com/assets/sounds/jump_to_detail_transition_01.mp3",
-                    "https://www.ankoku-toshi-jutsu.com/assets/sounds/jump_to_detail_transition_01.ogg",
+                    "/assets/sounds/jump_to_detail_transition_01.mp3",
+                    "/assets/sounds/jump_to_detail_transition_01.ogg",
                   ],
                   autoplay: !1,
                   volume: 0.7,
                   loop: !1,
                 })),
                 (n.bgAudio = new y.Howl({
-                  src: [
-                    "https://www.ankoku-toshi-jutsu.com/assets/sounds/bg.mp3",
-                    "https://www.ankoku-toshi-jutsu.com/assets/sounds/bg.ogg",
-                  ],
+                  src: ["/assets/sounds/bg.mp3", "/assets/sounds/bg.ogg"],
                   autoplay: !1,
                   volume: 0.6,
                   loop: !0,
                 })),
                 (n.clickAudio = new y.Howl({
                   src: [
-                    "https://www.ankoku-toshi-jutsu.com/assets/sounds/click_01.mp3",
-                    "https://www.ankoku-toshi-jutsu.com/assets/sounds/click_01.ogg",
+                    "/assets/sounds/click_01.mp3",
+                    "/assets/sounds/click_01.ogg",
                   ],
                   autoplay: !1,
                   volume: 0.7,
@@ -13586,7 +13563,7 @@ object-assign
                           showMainMenu: !1,
                           showPageIndicator: !0,
                           showBackgroundVideo: !0,
-                          backgroundVideo: "#",
+                          backgroundVideo: "videoHome",
                           showTgwoLogo: !0,
                           showHeadHintHome: !0,
                           showHeadHintConsortium: !1,
@@ -13606,7 +13583,7 @@ object-assign
                           showMainMenu: !1,
                           showPageIndicator: !0,
                           showBackgroundVideo: !0,
-                          backgroundVideo: "#",
+                          backgroundVideo: "videoProduct",
                           showTgwoLogo: !0,
                           showHeadHintHome: !1,
                           showHeadHintConsortium: !0,
@@ -13640,7 +13617,7 @@ object-assign
                           showMainMenu: !1,
                           showPageIndicator: !0,
                           showBackgroundVideo: !0,
-                          backgroundVideo: "",
+                          backgroundVideo: "videoItems",
                           showTgwoLogo: !0,
                           showAdidasLogo: !0,
                           showShopButton: !0,
@@ -13673,7 +13650,7 @@ object-assign
                             showMainMenu: !1,
                             showPageIndicator: !0,
                             showBackgroundVideo: !0,
-                            backgroundVideo: "#",
+                            backgroundVideo: "videoJourney",
                             showTgwoLogo: !0,
                             showAdidasLogo: !0,
                             showShopButton: !0,
@@ -13778,7 +13755,7 @@ object-assign
                             page: "Credits",
                             showMainMenu: !1,
                             showBackgroundVideo: !0,
-                            backgroundVideo: "#",
+                            backgroundVideo: "videoCredits",
                             showTgwoLogo: !1,
                             showAdidasLogo: !1,
                             showShopButton: !1,
@@ -13793,7 +13770,7 @@ object-assign
                             showMainMenu: !1,
                             showPageIndicator: !1,
                             showBackgroundVideo: !0,
-                            backgroundVideo: "#",
+                            backgroundVideo: "videoCredits",
                             showTgwoLogo: !1,
                             showAdidasLogo: !1,
                             showShopButton: !1,
@@ -14172,8 +14149,7 @@ object-assign
                         "div",
                         null,
                         d.default.createElement("img", {
-                          src:
-                            "https://www.ankoku-toshi-jutsu.com/assets/images/rotate_icon.png",
+                          src: "assets/images/rotate_icon.png",
                         }),
                         d.default.createElement(
                           "p",
@@ -14389,9 +14365,8 @@ object-assign
                         onClick: this.onClick,
                       },
                       d.default.createElement("img", {
-                        src:
-                          "https://facelessdevhack.github.io/MetaStudio-2/imgs/lang.png",
-                        className: "lang",
+                        src: "/assets/images/sine.png",
+                        className: "sine",
                       })
                     )
                   );
@@ -16144,9 +16119,12 @@ object-assign
     }.call(t, n(21)));
   },
   function (e, t, n) {
-    const newLocal =
-      "@font-face {\n  font-family: 'rajdhani';\n  src: url(\"/fonts/rajdhani-bold-webfont.eot\");\n  src: url(\"/fonts/rajdhani-bold-webfont.eot?#iefix\") format(\"embedded-opentype\"), url(\"/fonts/rajdhani-bold-webfont.woff2\") format(\"woff2\"), url(\"/fonts/rajdhani-bold-webfont.woff\") format(\"woff\"), url(\"/fonts/rajdhani-bold-webfont.ttf\") format(\"truetype\"), url(\"/fonts/rajdhani-bold-webfont.svg#rajdhanibold\") format(\"svg\");\n  font-weight: bold;\n  font-style: normal; }\n\n@font-face {\n  font-family: 'rajdhani';\n  src: url(\"/fonts/rajdhani-semibold-webfont.eot\");\n  src: url(\"/fonts/rajdhani-semibold-webfont.eot?#iefix\") format(\"embedded-opentype\"), url(\"/fonts/rajdhani-semibold-webfont.woff2\") format(\"woff2\"), url(\"/fonts/rajdhani-semibold-webfont.woff\") format(\"woff\"), url(\"/fonts/rajdhani-semibold-webfont.ttf\") format(\"truetype\"), url(\"/fonts/rajdhani-semibold-webfont.svg#rajdhanisemibold\") format(\"svg\");\n  font-weight: normal;\n  font-style: normal; }\n\n@font-face {\n  font-family: 'DIN Next Pro Medium';\n  src: url(\"/fonts/DINNextLTPro-Medium.eot\");\n  src: url(\"/fonts/DINNextLTPro-Medium.eot?#iefix\") format(\"embedded-opentype\"), url(\"/fonts/DINNextLTPro-Medium.woff2\") format(\"woff2\"), url(\"/fonts/DINNextLTPro-Medium.woff\") format(\"woff\"), url(\"/fonts/DINNextLTPro-Medium.ttf\") format(\"truetype\");\n  font-weight: normal;\n  font-style: normal; }\n\nh1 {\n  display: inline-block;\n  font-family: 'rajdhani', 'Helvetica Neue', Helvetica, sans-serif;\n  font-weight: bold;\n  font-style: normal;\n  font-size: 110px;\n  line-height: 80px;\n  text-transform: uppercase;\n  margin: 0 0 -7px 0;\n  padding: 0;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n  cursor: inherit; }\n  @media screen and (max-width: 1300px) {\n    h1 {\n      font-size: 70px;\n      line-height: 50px; } }\n  @media screen and (max-width: 800px) {\n    h1 {\n      font-size: 42px;\n      line-height: 36px; } }\n  @media screen and (min-width: 580px) and (max-width: 800px) {\n    h1 {\n      font-size: 70px;\n      line-height: 50px; } }\n\nh2 {\n  display: inline-block;\n  font-family: 'DIN Next Pro Medium', 'Helvetica', Helvetica, sans-serif;\n  font-weight: normal;\n  font-style: normal;\n  color: #ffffff;\n  font-size: 48px;\n  line-height: 50px;\n  margin: 0;\n  padding: 0; }\n  @media screen and (max-width: 1300px) {\n    h2 {\n      font-size: 30px;\n      line-height: 40px; } }\n  @media screen and (min-width: 580px) and (max-width: 800px) {\n    h2 {\n      font-size: 30px;\n      line-height: 40px; } }\n\nh3 {\n  display: inline-block;\n  font-family: 'DIN Next Pro Medium', 'Helvetica', Helvetica, sans-serif;\n  font-weight: normal;\n  font-style: normal;\n  color: #ffffff;\n  font-size: 24px;\n  line-height: 20px;\n  margin: 0;\n  padding: 0; }\n\n/* Slider */\n.slick-slider {\n  position: relative;\n  display: block;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n  -webkit-touch-callout: none;\n  -khtml-user-select: none;\n  -ms-touch-action: pan-y;\n  touch-action: pan-y;\n  -webkit-tap-highlight-color: transparent; }\n\n.slick-list {\n  position: relative;\n  display: block;\n  overflow: hidden;\n  margin: 0;\n  padding: 0; }\n\n.slick-list:focus {\n  outline: none; }\n\n.slick-list.dragging {\n  cursor: pointer;\n  cursor: hand; }\n\n.slick-slider .slick-track,\n.slick-slider .slick-list {\n  -webkit-transform: translate3d(0, 0, 0);\n  transform: translate3d(0, 0, 0); }\n\n.slick-track {\n  position: relative;\n  top: 0;\n  left: 0;\n  display: block;\n  margin-left: auto;\n  margin-right: auto; }\n\n.slick-track:before,\n.slick-track:after {\n  display: table;\n  content: ''; }\n\n.slick-track:after {\n  clear: both; }\n\n.slick-loading .slick-track {\n  visibility: hidden; }\n\n.slick-slide {\n  display: none;\n  float: left;\n  height: 100%;\n  min-height: 1px; }\n\n[dir='rtl'] .slick-slide {\n  float: right; }\n\n.slick-slide img {\n  display: block; }\n\n.slick-slide.slick-loading img {\n  display: none; }\n\n.slick-slide.dragging img {\n  pointer-events: none; }\n\n.slick-initialized .slick-slide {\n  display: block; }\n\n.slick-loading .slick-slide {\n  visibility: hidden; }\n\n.slick-vertical .slick-slide {\n  display: block;\n  height: auto;\n  border: 1px solid transparent; }\n\n.slick-arrow.slick-hidden {\n  display: none; }\n\n.video-background {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 100; }\n  .video-background video {\n    position: absolute;\n    left: 50%;\n    top: 50%;\n    -webkit-transform: translate(-50%, -50%);\n            transform: translate(-50%, -50%);\n    z-index: 200;\n    -o-object-fit: cover;\n       object-fit: cover;\n    opacity: 0;\n    pointer-events: none; }\n  .video-background.menu-bg {\n    z-index: 249; }\n  .video-background .noise {\n    mix-blend-mode: multiply;\n    background-image: url(https://www.ankoku-toshi-jutsu.com/assets/images/noise.png);\n    opacity: 0;\n    height: 100%;\n    width: 100%;\n    position: absolute;\n    left: 0;\n    top: 0;\n    z-index: 500; }\n\n@media screen and (max-width: 800px) {\n  body.android main .video-background {\n    background-size: cover !important; }\n    body.android main .video-background video {\n      display: none !important; }\n  body.android main.Home .video-background {\n    background-image: url(https://cdn.ankoku-toshi-jutsu.com/assets/images/videofallbackmobile/01_overview.jpg); }\n  body.android main.Product .video-background {\n    background-image: url(https://cdn.ankoku-toshi-jutsu.com/assets/images/videofallbackmobile/02_product_overview.jpg); }\n  body.android main.Productdetails .video-background {\n    background-image: url(https://cdn.ankoku-toshi-jutsu.com/assets/images/videofallbackmobile/02_product_details.jpg); }\n  body.android main.Items .video-background {\n    background-image: url(https://cdn.ankoku-toshi-jutsu.com/assets/images/videofallbackmobile/03_items_overview.jpg); }\n  body.android main.Itemsdetails .video-background {\n    background-image: url(https://cdn.ankoku-toshi-jutsu.com/assets/images/videofallbackmobile/03_jacket.jpg); }\n  body.android main.Journey .video-background {\n    background-image: url(https://cdn.ankoku-toshi-jutsu.com/assets/images/videofallbackmobile/04_journey_overview.jpg); }\n  body.android main.Journeydetails .video-background {\n    background-image: url(https://cdn.ankoku-toshi-jutsu.com/assets/images/videofallbackmobile/04_journey_02.jpg); }\n  body.android main.Credits .video-background {\n    background-image: url(https://cdn.ankoku-toshi-jutsu.com/assets/images/videofallbackmobile/05_credits.jpg); } }\n\n.main-menu {\n  position: absolute;\n  left: 0;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 510;\n  display: none;\n  background: transparent; }\n  .main-menu video {\n    position: absolute;\n    left: 50%;\n    top: 50%;\n    -webkit-transform: translate(-50%, -50%);\n            transform: translate(-50%, -50%);\n    -o-object-fit: cover;\n       object-fit: cover;\n    z-index: 100;\n    -webkit-transform-origin: 50% 50%;\n            transform-origin: 50% 50%; }\n  .main-menu ul.nav {\n    list-style: none;\n    margin: 0;\n    padding: 0;\n    width: 100%;\n    height: auto;\n    position: absolute;\n    left: 0;\n    top: 50%;\n    z-index: 200;\n    -webkit-transform: translateY(-50%);\n            transform: translateY(-50%); }\n    .main-menu ul.nav li {\n      display: block;\n      -webkit-box-sizing: border-box;\n              box-sizing: border-box;\n      list-style: none;\n      width: 100%;\n      height: 140px;\n      padding: 0 0 0 29.16667%;\n      margin: 0;\n      clear: left;\n      position: relative;\n      cursor: pointer;\n      overflow: hidden;\n      vertical-align: top; }\n      .main-menu ul.nav li span {\n        display: inline-block;\n        overflow: hidden;\n        -webkit-box-sizing: border-box;\n                box-sizing: border-box;\n        pointer-events: none;\n        -webkit-user-select: none;\n           -moz-user-select: none;\n            -ms-user-select: none;\n                user-select: none;\n        color: #5F5E66;\n        -webkit-transition: color 100ms linear;\n        transition: color 100ms linear; }\n        .main-menu ul.nav li span.number {\n          position: absolute;\n          left: 20.83333%;\n          width: 4.16667%;\n          text-align: right; }\n        .main-menu ul.nav li span.title {\n          display: inline-block;\n          font-family: 'rajdhani', 'Helvetica Neue', Helvetica, sans-serif;\n          font-weight: bold;\n          font-style: normal;\n          font-size: 36px;\n          line-height: 26px;\n          text-transform: uppercase;\n          margin: 0;\n          padding: 0;\n          overflow: visible; }\n      .main-menu ul.nav li:last-child {\n        margin-bottom: 0;\n        height: auto; }\n      .main-menu ul.nav li.active span.number {\n        color: #ffffff; }\n      .main-menu ul.nav li.active span.title {\n        color: #ffffff; }\n    .main-menu ul.nav.withhovers li:hover span.number {\n      color: #ffffff; }\n    .main-menu ul.nav.withhovers li:hover span.title {\n      color: #ffffff; }\n  .main-menu .close-button {\n    position: fixed;\n    left: 4.16667%;\n    top: 80%;\n    top: 50%;\n    -webkit-transform: translateY(-50%);\n            transform: translateY(-50%); }\n    .main-menu .close-button .icon-container {\n      float: left; }\n    .main-menu .close-button span {\n      float: right; }\n  .main-menu .shop-container {\n    position: fixed;\n    left: 66.66667%;\n    top: 80%;\n    top: 50%;\n    -webkit-transform: translateY(-50%);\n            transform: translateY(-50%);\n    width: 280px;\n    z-index: 300;\n    font-size: 16px;\n    line-height: 20px; }\n    .main-menu .shop-container .copy {\n      margin-bottom: 16px; }\n    .main-menu .shop-container .white {\n      color: #ffffff;\n      font-size: 24px;\n      line-height: 32px;\n      margin-bottom: 18px; }\n    .main-menu .shop-container .btn-white {\n      width: auto;\n      margin-top: 20px;\n      text-align: center;\n      -webkit-transition: -webkit-transform 150ms ease-out;\n      transition: -webkit-transform 150ms ease-out;\n      transition: transform 150ms ease-out;\n      transition: transform 150ms ease-out, -webkit-transform 150ms ease-out; }\n      .main-menu .shop-container .btn-white img {\n        margin: -7px 10px -7px 0;\n        float: none; }\n      .main-menu .shop-container .btn-white:hover {\n        -webkit-transform: scale(1.05);\n                transform: scale(1.05); }\n  .main-menu ul.small {\n    display: inline-block;\n    width: 180px;\n    list-style: none;\n    margin: 0;\n    padding: 0;\n    position: fixed;\n    right: 12.5%;\n    bottom: 6.66667%;\n    z-index: 450; }\n    .main-menu ul.small li {\n      text-align: right;\n      list-style: none;\n      margin: 0;\n      padding: 0;\n      display: inline-block;\n      float: left;\n      width: 90px; }\n      .main-menu ul.small li a {\n        text-align: right;\n        color: #ffffff;\n        display: inline-block; }\n        .main-menu ul.small li a span {\n          text-align: right;\n          display: inline-block;\n          color: #ffffff; }\n  @media screen and (max-width: 800px) {\n    .main-menu {\n      background-color: #000;\n      overflow: hidden; }\n      .main-menu video {\n        position: fixed; }\n      .main-menu .scroll-container {\n        position: absolute;\n        top: 0;\n        left: 0;\n        width: 100%;\n        height: 100%;\n        z-index: 100;\n        overflow: hidden;\n        overflow-y: auto;\n        -webkit-overflow-scrolling: touch; }\n      .main-menu ul.nav {\n        position: relative;\n        top: auto;\n        -webkit-transform: translateY(0);\n                transform: translateY(0);\n        padding-top: 120px;\n        padding-bottom: 120px; }\n        .main-menu ul.nav li {\n          height: 120px;\n          padding-left: 25%; }\n          .main-menu ul.nav li span.number {\n            width: 26px;\n            left: 12%; }\n      .main-menu .shop-container {\n        display: none; }\n      .main-menu .close-button {\n        top: 30px;\n        left: auto;\n        right: 32px;\n        -webkit-transform: translateY(0%);\n                transform: translateY(0%); }\n        .main-menu .close-button .icon-container {\n          float: right; }\n        .main-menu .close-button span {\n          float: left; }\n      .main-menu ul.small {\n        position: relative;\n        right: auto;\n        bottom: auto;\n        width: 90%;\n        text-align: right;\n        padding-bottom: 40px; }\n        .main-menu ul.small li {\n          float: none; }\n          .main-menu ul.small li a {\n            opacity: 0.3; } }\n  @media screen and (min-width: 580px) and (max-width: 800px) {\n    .main-menu .close-button {\n      position: fixed;\n      right: 4.16667%;\n      top: 6.66667%; } }\n\n.tgwo-link {\n  display: block;\n  position: fixed;\n  left: 4.16667%;\n  top: 6.66667%;\n  z-index: 310;\n  width: 60px;\n  height: 60px; }\n  @media screen and (max-width: 800px) {\n    .tgwo-link {\n      width: 32px;\n      height: 32px;\n      bottom: 40px;\n      left: 32px; } }\n  @media screen and (min-width: 580px) and (max-width: 800px) {\n    .tgwo-link {\n      position: fixed;\n      left: 4.16667%;\n      top: 6.66667%;\n      width: 60px;\n      height: 60px; } }\n\n.tgwo-logo {\n  width: inherit;\n  height: inherit; }\n\n.nav-icon {\n  display: inline-block;\n  overflow: visible;\n  position: fixed;\n  left: 4.16667%;\n  top: 40%;\n  z-index: 320;\n  top: 50%;\n  -webkit-transform: translateY(-50%);\n          transform: translateY(-50%);\n  width: 37px;\n  height: 100px; }\n  .nav-icon a {\n    display: block;\n    width: 37px;\n    height: 24px;\n    z-index: 900;\n    position: absolute;\n    left: 0;\n    top: 50%;\n    margin: -12px 0 0 0; }\n  .nav-icon svg {\n    display: block; }\n    .nav-icon svg path {\n      -webkit-transform-origin: 0 0;\n              transform-origin: 0 0;\n      fill: #ffffff;\n      stroke: #ffffff;\n      stroke-width: 2px; }\n  .nav-icon .page, .nav-icon .pages {\n    width: 37px;\n    font-size: 16px;\n    height: 16px;\n    overflow: hidden !important; }\n  .nav-icon .page {\n    position: relative; }\n    .nav-icon .page .numbers {\n      width: 100%;\n      height: 80px;\n      position: absolute;\n      left: 0;\n      z-index: 100;\n      -webkit-transition: top 400ms ease-out;\n      transition: top 400ms ease-out; }\n      .nav-icon .page .numbers > div {\n        width: 100%;\n        height: 16px;\n        clear: left; }\n    .nav-icon .page.number1 .numbers {\n      top: 0; }\n    .nav-icon .page.number2 .numbers {\n      top: -16px; }\n    .nav-icon .page.number3 .numbers {\n      top: -32px; }\n    .nav-icon .page.number4 .numbers {\n      top: -48px; }\n    .nav-icon .page.number5 .numbers {\n      top: -64px; }\n  .nav-icon .pages {\n    color: rgba(182, 188, 206, 0.7);\n    position: absolute;\n    left: 0;\n    bottom: 0; }\n  @media screen and (max-width: 800px) {\n    .nav-icon {\n      left: auto;\n      right: 0px;\n      top: 0px;\n      -webkit-transform: none;\n              transform: none;\n      position: fixed;\n      width: 90px;\n      height: 70px;\n      overflow: hidden; }\n      .nav-icon a {\n        margin: 0;\n        overflow: hidden;\n        top: 40px; }\n      .nav-icon svg {\n        margin: 0;\n        -webkit-transform-origin: center center;\n                transform-origin: center center;\n        -webkit-transform: rotateY(180deg);\n                transform: rotateY(180deg); }\n      .nav-icon .page, .nav-icon .pages {\n        position: absolute;\n        pointer-events: none;\n        top: 56px;\n        right: 32px;\n        left: auto;\n        width: 10px;\n        font-size: 18px; }\n      .nav-icon .page {\n        top: 32px;\n        height: 19px;\n        border-bottom: 2px solid rgba(182, 188, 206, 0.7); }\n        .nav-icon .page .numbers {\n          width: 100%;\n          height: 95px;\n          position: absolute;\n          left: 0;\n          top: 0;\n          z-index: 100;\n          -webkit-transition: top 400ms ease-out;\n          transition: top 400ms ease-out; }\n          .nav-icon .page .numbers > div {\n            width: 100%;\n            height: 19px;\n            clear: left;\n            font-size: 18px; }\n        .nav-icon .page.number1 .numbers {\n          top: 0; }\n        .nav-icon .page.number2 .numbers {\n          top: -19px; }\n        .nav-icon .page.number3 .numbers {\n          top: -38px; }\n        .nav-icon .page.number4 .numbers {\n          top: -57px; }\n        .nav-icon .page.number5 .numbers {\n          top: -76px; }\n        .nav-icon .page.number6 .numbers {\n          top: -95px; } }\n  @media screen and (min-width: 580px) and (max-width: 800px) {\n    .nav-icon {\n      overflow: visible;\n      position: fixed;\n      right: 4.16667%;\n      top: 6.66667%;\n      z-index: 320;\n      width: 37px;\n      height: 100px; }\n      .nav-icon a {\n        top: 10px; }\n      .nav-icon .page, .nav-icon .pages {\n        right: 50px; }\n      .nav-icon .page {\n        top: 2px; }\n      .nav-icon .pages {\n        top: 25px; } }\n\n@media screen and (max-width: 800px) {\n  main.Getthechance .nav-icon svg path {\n    fill: #000000;\n    stroke: #000000; }\n  main.Getthechance .nav-icon .page {\n    color: #000; } }\n\n.adidas-link {\n  display: block;\n  position: fixed;\n  left: 4.16667%;\n  bottom: 6.66667%;\n  z-index: 330;\n  width: 60px;\n  height: 59px; }\n  @media screen and (max-width: 800px) {\n    .adidas-link {\n      width: 33px;\n      height: 33px;\n      left: 32px;\n      bottom: 32px; } }\n  @media screen and (min-width: 580px) and (max-width: 800px) {\n    .adidas-link {\n      position: fixed;\n      left: 4.16667%;\n      bottom: 6.66667%;\n      width: 60px;\n      height: 59px; } }\n\n.adidas-logo {\n  width: inherit;\n  height: auto; }\n\n.scroll-indicator {\n  position: fixed;\n  left: 50%;\n  bottom: 0;\n  z-index: 340;\n  display: inline-block;\n  width: 4.16667%;\n  height: 6.66667%;\n  width: 50px;\n  min-height: 60px;\n  font-family: 'rajdhani', 'Helvetica Neue', Helvetica, sans-serif;\n  font-weight: bold;\n  font-style: normal;\n  color: #fff;\n  font-size: 16px; }\n  .scroll-indicator .border-grey {\n    position: absolute;\n    left: 0;\n    top: 0;\n    z-index: 100;\n    width: 2px;\n    height: 100%;\n    background: #333; }\n  .scroll-indicator .border {\n    position: absolute;\n    left: 0;\n    top: 0;\n    z-index: 200;\n    width: 2px;\n    height: 100%;\n    background: #ffffff; }\n  .scroll-indicator em {\n    display: inline-block;\n    font-style: normal;\n    -webkit-transform: rotate(-90deg);\n            transform: rotate(-90deg);\n    -webkit-transform-origin: center center;\n            transform-origin: center center;\n    position: absolute;\n    left: 0px;\n    top: 12px; }\n  @media screen and (max-width: 800px) {\n    .scroll-indicator {\n      bottom: 0; } }\n\n.audio-button {\n  position: fixed;\n  right: 4.16667%;\n  bottom: 6.66667%;\n  z-index: 450;\n  display: block;\n  height: 23px;\n  width: 46px;\n  overflow: hidden; }\n  .audio-button .btn {\n    display: block;\n    background: rgba(0, 0, 0, 0);\n    height: 23px;\n    width: 46px;\n    overflow: hidden;\n    /*\n    .bar {\n      position: absolute;\n      left: 0;\n      top: 50%;\n      z-index: 200;\n      width: 100%;\n      height: 2px;\n      background: $color-font-grey;\n      margin-top: -3px;\n      opacity: 1;\n      transition: opacity 200ms linear;\n    }\n    \n    svg {\n      z-index: 100;\n      path {\n        transform-origin: 50% 50%;\n        stroke-width: 2px;\n        stroke: $color-font-grey;\n        fill: none;\n      }\n    }\n    */ }\n    .audio-button .btn img.sine {\n      width: 319px;\n      max-width: 319px;\n      height: 23px;\n      position: absolute;\n      right: -130px;\n      top: 0;\n      z-index: 100;\n      -webkit-transition: right 1200ms ease-in-out;\n      transition: right 1200ms ease-in-out; }\n    .audio-button .btn.play {\n      /*\n      .bar {\n        opacity: 0;\n      }\n      svg {\n        path {\n          stroke: #ffffff;\n        }\n      }\n      */ }\n      .audio-button .btn.play img.sine {\n        right: 0; }\n    .audio-button .btn:hover {\n      /*\n      .bar {\n        opacity: 0;\n      }\n      */ }\n  @media screen and (max-width: 800px) {\n    .audio-button {\n      display: none; } }\n\nmain.Getthechance .audio-button .btn.play .bar, main.Howtobuy .audio-button .btn.play .bar {\n  opacity: 0; }\n\nmain.Getthechance .audio-button .btn.play svg path, main.Howtobuy .audio-button .btn.play svg path {\n  stroke: #000000; }\n\n.shop-button {\n  display: inline-block;\n  width: 140px;\n  position: fixed;\n  right: 4.16667%;\n  top: 6.66667%;\n  z-index: 360;\n  overflow: visible;\n  background: rgba(0, 0, 0, 0); }\n  .shop-button span {\n    display: inline-block;\n    margin-top: 14px;\n    text-align: left;\n    float: left;\n    color: #fff; }\n    .shop-button span:after {\n      display: block;\n      content: '';\n      margin-top: 1px;\n      border-bottom: solid 2px #ffffff;\n      -webkit-transform: scaleX(0);\n              transform: scaleX(0);\n      -webkit-transition: -webkit-transform 150ms ease-in-out;\n      transition: -webkit-transform 150ms ease-in-out;\n      transition: transform 150ms ease-in-out;\n      transition: transform 150ms ease-in-out, -webkit-transform 150ms ease-in-out;\n      -webkit-transform-origin: left center;\n              transform-origin: left center; }\n  .shop-button .icon-container {\n    float: right;\n    position: relative;\n    width: 43px;\n    height: 43px;\n    overflow: visible; }\n    .shop-button .icon-container .circle {\n      background: #ffffff;\n      width: 44px;\n      height: 44px;\n      border-radius: 22px;\n      position: absolute;\n      left: 50%;\n      top: 50%;\n      z-index: 100;\n      -webkit-transform-origin: center center;\n              transform-origin: center center;\n      -webkit-transform: translate(-50%, -50%);\n              transform: translate(-50%, -50%);\n      -webkit-transition: all 150ms ease-in-out;\n      transition: all 150ms ease-in-out; }\n    .shop-button .icon-container img {\n      display: inline-block;\n      position: absolute;\n      left: 50%;\n      top: 50%;\n      z-index: 200;\n      margin: -13px 0 0 -11px;\n      width: 22px;\n      height: 25px; }\n  .shop-button:hover .icon-container .circle {\n    width: 50px;\n    height: 50px;\n    border-radius: 25px; }\n  @media screen and (max-width: 800px) {\n    .shop-button {\n      display: block;\n      top: auto;\n      bottom: 32px;\n      right: 32px;\n      width: 90px; } }\n  @media screen and (min-width: 580px) and (max-width: 800px) {\n    .shop-button {\n      position: fixed;\n      right: 4.16667%;\n      bottom: 6.66667%; } }\n\n.share-icons {\n  display: inline-block;\n  position: fixed;\n  left: 16.66667%;\n  bottom: 6.66667%;\n  z-index: 335;\n  -webkit-transition: left 200ms ease-in-out;\n  transition: left 200ms ease-in-out;\n  text-align: left; }\n  .share-icons a {\n    color: #ffffff;\n    display: inline-block;\n    margin: 0 20px 0 0; }\n  @media screen and (max-width: 800px) {\n    .share-icons {\n      display: none; } }\n\nmain.Prolog .share-icons, main.Trailer .share-icons {\n  position: fixed;\n  left: 4.16667%;\n  bottom: 6.66667%; }\n\n.back-button {\n  display: inline-block;\n  position: fixed;\n  left: 0%;\n  top: 6.66667%;\n  width: 4.16667%;\n  height: 6.66667%;\n  z-index: 350;\n  text-align: right;\n  color: #ffffff; }\n  .back-button .border {\n    width: 100%;\n    height: 2px;\n    background: #ffffff;\n    margin-bottom: 4px; }\n  .back-button svg path {\n    stroke-width: 2px;\n    stroke: #ffffff; }\n\n.head-hint {\n  display: inline-block;\n  position: fixed;\n  left: 16.66667%;\n  top: 6.66667%;\n  z-index: 200;\n  overflow: hidden; }\n  .head-hint .copy {\n    display: block;\n    clear: left; }\n    .head-hint .copy .jsigns {\n      font-weight: bold;\n      letter-spacing: 4px; }\n  .head-hint a {\n    display: inline;\n    width: auto; }\n  .head-hint.date .date {\n    display: inline-block;\n    color: #ffffff; }\n  @media screen and (max-width: 800px) {\n    .head-hint {\n      display: none; } }\n\n.close-button {\n  display: inline-block;\n  width: 95px;\n  position: fixed;\n  right: 4.16667%;\n  top: 6.66667%;\n  z-index: 500;\n  overflow: visible;\n  background: rgba(0, 0, 0, 0); }\n  .close-button span {\n    display: inline-block;\n    margin-top: 14px;\n    text-align: left;\n    float: left;\n    color: #fff;\n    /*\n    &:after {\n      display:block;\n      content: '';\n      margin-top: 1px;\n      border-bottom: solid 2px #ffffff;\n      transform: scaleX(0);\n      transition: transform 150ms ease-in-out;\n      transform-origin: left center;\n    }\n    */ }\n  .close-button .icon-container {\n    float: right;\n    position: relative;\n    width: 43px;\n    height: 43px;\n    overflow: visible; }\n    .close-button .icon-container .circle {\n      background: #ffffff;\n      width: 44px;\n      height: 44px;\n      border-radius: 22px;\n      position: absolute;\n      left: 50%;\n      top: 50%;\n      z-index: 100;\n      -webkit-transform-origin: center center;\n              transform-origin: center center;\n      -webkit-transform: translate(-50%, -50%);\n              transform: translate(-50%, -50%);\n      -webkit-transition: all 300ms ease-out;\n      transition: all 300ms ease-out; }\n    .close-button .icon-container .line {\n      display: block;\n      position: absolute;\n      left: 50%;\n      top: 50%;\n      z-index: 200;\n      margin: -1px 0 0 -9px;\n      width: 18px;\n      height: 2px;\n      background: #000000;\n      -webkit-transition: all 300ms ease-out;\n      transition: all 300ms ease-out; }\n  .close-button:hover .line.line1 {\n    -webkit-transform: rotate(45deg);\n            transform: rotate(45deg); }\n  .close-button:hover .line.line2 {\n    -webkit-transform: rotate(-45deg);\n            transform: rotate(-45deg); }\n  .close-button:hover span {\n    /*\n      &:after {\n        transform: scaleX(1);\n      }\n      */ }\n  .close-button:hover .icon-container .circle {\n    width: 50px;\n    height: 50px;\n    border-radius: 25px; }\n  @media screen and (max-width: 800px) {\n    .close-button {\n      top: 30px;\n      right: 32px; } }\n  @media screen and (min-width: 580px) and (max-width: 800px) {\n    .close-button {\n      position: fixed;\n      right: 4.16667%;\n      top: 6.66667%; } }\n\n.page-indicator {\n  list-style: none;\n  margin: -100px 0 0 0;\n  padding: 0;\n  display: block;\n  overflow: hidden;\n  height: auto;\n  position: fixed;\n  right: 70px;\n  top: 50%;\n  z-index: 380; }\n  .page-indicator li {\n    list-style: none;\n    margin: 2px 0 3px 0;\n    padding: 0;\n    display: block;\n    clear: left;\n    width: 2px;\n    height: 30px;\n    background: rgba(182, 188, 206, 0.7);\n    position: relative;\n    overflow: hidden; }\n    .page-indicator li .bar {\n      height: 60px;\n      width: 2px;\n      background: #FFFFFF;\n      -webkit-transform: scaleY(0);\n              transform: scaleY(0); }\n  @media screen and (max-width: 800px) {\n    .page-indicator {\n      display: none; } }\n\n.page-preloadingpage {\n  background: #0F0F0F url(/assets/images/trailer-bg.png) no-repeat center center;\n  background-size: auto 100%; }\n  .page-preloadingpage .intro-container {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    z-index: 100; }\n    .page-preloadingpage .intro-container img.tgwo-logo {\n      display: block;\n      position: fixed;\n      right: 25%;\n      top: 53.33333%;\n      top: 50%;\n      -webkit-transform: translateY(-50%);\n              transform: translateY(-50%);\n      z-index: 100;\n      width: 60px;\n      height: 59px;\n      margin-top: -28px; }\n    .page-preloadingpage .intro-container img.adidas-logo {\n      display: block;\n      position: fixed;\n      left: 25%;\n      top: 53.33333%;\n      top: 50%;\n      -webkit-transform: translateY(-50%);\n              transform: translateY(-50%);\n      z-index: 100;\n      width: 60px;\n      height: 59px;\n      margin-top: -28px; }\n    .page-preloadingpage .intro-container .hint, .page-preloadingpage .intro-container .hint-mobile {\n      width: 140px;\n      position: absolute;\n      left: 50%;\n      top: 50%;\n      margin: 30px 0 0 -70px;\n      font-size: 15px;\n      line-height: 20px;\n      z-index: 450;\n      text-align: center; }\n    .page-preloadingpage .intro-container .preloading-for-mobile {\n      display: none;\n      color: rgba(182, 188, 206, 0.7);\n      font-size: 18px;\n      width: 120px;\n      text-align: center;\n      position: absolute;\n      left: 50%;\n      top: 50%;\n      margin: -22px 0 0 -68px;\n      z-index: 450;\n      height: 30px;\n      line-height: 1;\n      font-family: 'DIN Next Pro Medium', 'Helvetica', Helvetica, sans-serif;\n      font-weight: normal;\n      font-style: normal; }\n      .page-preloadingpage .intro-container .preloading-for-mobile .status-for-mobile {\n        display: inline-block;\n        width: 40px;\n        height: 30px;\n        text-align: right;\n        color: #ffffff;\n        font-weight: bold;\n        position: relative;\n        overflow: hidden; }\n        .page-preloadingpage .intro-container .preloading-for-mobile .status-for-mobile > span {\n          width: 40px;\n          height: 30px;\n          font-size: 18px;\n          position: absolute;\n          left: -2px;\n          top: 5px;\n          z-index: 100;\n          padding-top: 10px; }\n    .page-preloadingpage .intro-container .hint-mobile {\n      display: none;\n      color: rgba(182, 188, 206, 0.7);\n      font-size: 12px; }\n      .page-preloadingpage .intro-container .hint-mobile span {\n        font-size: 14px;\n        color: #ffffff; }\n    .page-preloadingpage .intro-container #status {\n      width: 150px;\n      height: 150px;\n      position: absolute;\n      left: 50%;\n      top: 50%;\n      margin: -75px 0 0 -75px;\n      z-index: 400; }\n      .page-preloadingpage .intro-container #status svg {\n        fill: #000;\n        position: absolute;\n        left: 50%;\n        top: 50%;\n        margin-left: -12px;\n        margin-top: -11px; }\n    .page-preloadingpage .intro-container .loader {\n      width: 150px;\n      height: 150px;\n      position: absolute;\n      border: #5b5b5b 1px solid;\n      border-radius: 50%;\n      -webkit-animation-name: loader;\n              animation-name: loader;\n      -webkit-animation-duration: 4s;\n              animation-duration: 4s;\n      -webkit-animation-iteration-count: infinite;\n              animation-iteration-count: infinite;\n      -webkit-animation-timing-function: cubic-bezier(0.55, 0.23, 0.62, 1);\n              animation-timing-function: cubic-bezier(0.55, 0.23, 0.62, 1); }\n    .page-preloadingpage .intro-container .second {\n      -webkit-animation-delay: 2s;\n              animation-delay: 2s;\n      -webkit-transform: scale(0.4);\n              transform: scale(0.4);\n      opacity: 0; }\n\n@-webkit-keyframes loader {\n  0% {\n    -webkit-transform: scale(0.4);\n            transform: scale(0.4);\n    opacity: 0; }\n  50% {\n    opacity: 1; }\n  100% {\n    -webkit-transform: scale(1.3);\n            transform: scale(1.3);\n    opacity: 0; } }\n\n@keyframes loader {\n  0% {\n    -webkit-transform: scale(0.4);\n            transform: scale(0.4);\n    opacity: 0; }\n  50% {\n    opacity: 1; }\n  100% {\n    -webkit-transform: scale(1.3);\n            transform: scale(1.3);\n    opacity: 0; } }\n    .page-preloadingpage .intro-container img.desktop-icon {\n      display: none; }\n    @media screen and (max-width: 800px) {\n      .page-preloadingpage .intro-container img.adidas-logo {\n        top: 10%;\n        left: 50%;\n        -webkit-transform: translate(-50%, -50%);\n                transform: translate(-50%, -50%);\n        margin-top: 0; }\n      .page-preloadingpage .intro-container img.tgwo-logo {\n        top: 80%;\n        left: 50%;\n        -webkit-transform: translate(-50%, -50%);\n                transform: translate(-50%, -50%);\n        margin-top: 0; }\n      .page-preloadingpage .intro-container .hint, .page-preloadingpage .intro-container #status {\n        top: 45%; }\n      .page-preloadingpage .intro-container .hint {\n        display: none; }\n      .page-preloadingpage .intro-container .hint-mobile {\n        display: block; }\n      .page-preloadingpage .intro-container #status svg path {\n        display: none; }\n      .page-preloadingpage .intro-container img.desktop-icon {\n        display: none;\n        width: 48px;\n        height: auto;\n        position: absolute;\n        left: 50%;\n        top: 50%;\n        margin: -18px 0 0 -24px;\n        z-index: 450; }\n      .page-preloadingpage .intro-container .preloading-for-mobile {\n        display: block; } }\n  .page-preloadingpage .trailer-container {\n    width: 100%;\n    height: 100%;\n    position: relative; }\n  .page-preloadingpage .audio-button {\n    display: none; }\n  .page-preloadingpage .playpausecontrols {\n    position: fixed;\n    left: 4.16667%;\n    bottom: 6.66667%;\n    z-index: 300;\n    width: 100px;\n    height: 20px; }\n    .page-preloadingpage .playpausecontrols a {\n      display: none;\n      width: auto; }\n      .page-preloadingpage .playpausecontrols a span {\n        display: inline-block;\n        width: auto; }\n  .page-preloadingpage .video-container {\n    opacity: 0;\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    z-index: 120;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    padding: 0; }\n    .page-preloadingpage .video-container .video-wrapper {\n      position: relative;\n      width: 100%;\n      height: 100%;\n      margin: 0; }\n      .page-preloadingpage .video-container .video-wrapper video {\n        display: block;\n        height: auto;\n        width: 100%;\n        position: absolute;\n        left: 50%;\n        top: 50%;\n        -webkit-transform: translate(-50%, -50%);\n                transform: translate(-50%, -50%);\n        z-index: 100; }\n      .page-preloadingpage .video-container .video-wrapper .progress-bar {\n        opacity: 0;\n        position: absolute;\n        left: 0;\n        bottom: 0;\n        z-index: 200;\n        width: 0;\n        height: 2px;\n        background: #ffffff;\n        -webkit-transition: opacity 200ms linear;\n        transition: opacity 200ms linear; }\n      .page-preloadingpage .video-container .video-wrapper:hover .progress-bar {\n        opacity: 1; }\n  .page-preloadingpage .preload-container {\n    opacity: 0;\n    display: inline-block;\n    position: fixed;\n    left: 4.16667%;\n    bottom: 6.66667%;\n    z-index: 200;\n    left: 50%;\n    -webkit-transform: translateX(-50%);\n            transform: translateX(-50%);\n    font-size: 20px;\n    text-align: center; }\n    .page-preloadingpage .preload-container .preloading {\n      display: block;\n      color: rgba(182, 188, 206, 0.7);\n      font-size: 16px;\n      line-height: 1;\n      font-family: 'DIN Next Pro Medium', 'Helvetica', Helvetica, sans-serif;\n      font-weight: normal;\n      font-style: normal; }\n      .page-preloadingpage .preload-container .preloading .status {\n        display: inline-block;\n        width: 40px;\n        height: 18px;\n        text-align: right;\n        color: #ffffff;\n        font-weight: bold;\n        position: relative;\n        overflow: hidden; }\n        .page-preloadingpage .preload-container .preloading .status > span {\n          width: 40px;\n          height: 18px;\n          font-size: 16px;\n          position: absolute;\n          left: -2px;\n          top: 4px;\n          z-index: 100; }\n      .page-preloadingpage .preload-container .preloading .percentage100 {\n        display: inline-block;\n        padding-bottom: 2px;\n        vertical-align: 1px; }\n    .page-preloadingpage .preload-container .finished {\n      display: none;\n      opacity: 0;\n      line-height: 1;\n      font-size: 18px; }\n\n.page-prolog .video-container {\n  position: absolute;\n  left: 0;\n  top: 0;\n  z-index: 100;\n  width: 100%;\n  height: 100%; }\n  .page-prolog .video-container video {\n    position: absolute;\n    left: 0;\n    top: 0;\n    -o-object-fit: cover;\n       object-fit: cover; }\n  .page-prolog .video-container video.video1 {\n    opacity: 0;\n    z-index: 100; }\n  .page-prolog .video-container video.video2 {\n    opacity: 0;\n    z-index: 200; }\n\n.page-prolog .signs-first {\n  position: absolute;\n  left: 50%;\n  bottom: 110px;\n  -webkit-transform: translateX(-50%);\n          transform: translateX(-50%);\n  z-index: 200;\n  display: none;\n  opacity: 0; }\n  .page-prolog .signs-first svg path {\n    fill: white;\n    stroke: none; }\n\n.page-prolog .start-button {\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  z-index: 240;\n  -webkit-transform: translate(-50%, -50%);\n          transform: translate(-50%, -50%);\n  display: none;\n  width: 280px;\n  overflow: visible; }\n  .page-prolog .start-button .circles {\n    width: 280px;\n    height: 280px;\n    position: relative;\n    overflow: visible; }\n    .page-prolog .start-button .circles svg {\n      overflow: visible; }\n      .page-prolog .start-button .circles svg circle {\n        cursor: pointer;\n        fill: rgba(255, 255, 255, 0);\n        stroke-width: 2;\n        -webkit-transform-origin: 50% 50%;\n                transform-origin: 50% 50%;\n        -webkit-transform: rotate(-90deg);\n                transform: rotate(-90deg); }\n        .page-prolog .start-button .circles svg circle.outer {\n          stroke: #7A7A7A; }\n        .page-prolog .start-button .circles svg circle.inner {\n          stroke: #ffffff; }\n\n.page-prolog .desc {\n  margin: 25px 0 0 0;\n  font-family: 'DIN Next Pro Medium', 'Helvetica', Helvetica, sans-serif;\n  font-weight: normal;\n  font-style: normal;\n  text-align: center;\n  font-size: 15px;\n  line-height: 120%;\n  color: #ffffff;\n  height: 35px; }\n\n.page-home h1 {\n  display: inline-block;\n  position: fixed;\n  left: 16.66667%;\n  bottom: 26.66667%;\n  z-index: 100; }\n\n.page-home .hl-info {\n  position: absolute;\n  display: none;\n  max-width: 200px;\n  top: 329px;\n  left: 16%;\n  color: rgba(182, 188, 206, 0.7); }\n\n.page-home .video-overlay {\n  display: none; }\n\n.page-home .video-container {\n  position: fixed;\n  right: 16.66667%;\n  top: 26.66667%;\n  z-index: 210;\n  width: 220px;\n  text-align: left; }\n  .page-home .video-container .video {\n    width: 210px;\n    height: 118px;\n    background: url(/assets/images/homevideo-bg.jpg) no-repeat center center;\n    background-size: 210px 118px; }\n    .page-home .video-container .video video {\n      width: 210px;\n      height: 118px;\n      -webkit-transition: -webkit-transform 150ms ease-out;\n      transition: -webkit-transform 150ms ease-out;\n      transition: transform 150ms ease-out;\n      transition: transform 150ms ease-out, -webkit-transform 150ms ease-out; }\n  .page-home .video-container:hover video {\n    -webkit-transform: scale(1.05);\n            transform: scale(1.05); }\n  @media screen and (min-width: 801px) and (max-width: 1000px) {\n    .page-home .video-container {\n      position: fixed;\n      right: 12.5%;\n      top: 26.66667%; } }\n\n.page-home .hl-info-desktop {\n  display: inline-block;\n  position: fixed;\n  left: 16.66667%;\n  bottom: 26.66667%;\n  z-index: 100;\n  margin: 0 0 -50px 0;\n  font-size: 20px;\n  color: rgba(182, 188, 206, 0.7);\n  line-height: 32px; }\n  @media screen and (max-width: 1300px) {\n    .page-home .hl-info-desktop {\n      font-size: 14px;\n      line-height: 23px;\n      margin-bottom: -30px; } }\n\n.page-home .btn-explore {\n  position: fixed;\n  right: 16.66667%;\n  bottom: 26.66667%;\n  z-index: 210;\n  width: 220px;\n  text-align: left;\n  margin: 0 0 -50px 0; }\n  .page-home .btn-explore .copy {\n    text-align: right;\n    color: #ffffff;\n    font-size: 24px;\n    line-height: 32px;\n    margin: 5px 0 0 0; }\n    @media screen and (max-width: 1300px) {\n      .page-home .btn-explore .copy {\n        font-size: 18px;\n        line-height: 24px; } }\n  @media screen and (min-width: 801px) and (max-width: 1000px) {\n    .page-home .btn-explore {\n      position: fixed;\n      right: 12.5%;\n      bottom: 26.66667%; } }\n\n.page-home .playfilm-btn {\n  position: relative;\n  display: none;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  width: 220px;\n  height: 50px;\n  border: 2px solid #fff;\n  font-size: 18px;\n  text-align: center;\n  padding-top: 14px;\n  margin: 465px auto 0;\n  color: #fff;\n  cursor: pointer; }\n  .page-home .playfilm-btn .play-icon {\n    display: inline-block;\n    font-size: 42px;\n    line-height: 0;\n    vertical-align: middle;\n    padding-top: 4px;\n    padding-right: 7px; }\n  .page-home .playfilm-btn .play-btn-bg {\n    position: absolute;\n    display: block;\n    bottom: 0;\n    left: 0;\n    width: 100%;\n    height: 0;\n    background-color: #fff;\n    z-index: -1;\n    will-change: height;\n    -webkit-transition: height 0.1s ease-out;\n    transition: height 0.1s ease-out; }\n\n@media screen and (max-width: 800px) {\n  .page-home h1 {\n    bottom: auto;\n    top: 25%;\n    left: 16%; }\n  .page-home .hl-info-desktop {\n    display: none; }\n  .page-home .hl-info {\n    display: block;\n    top: 45%; }\n  .page-home .video-overlay {\n    display: none;\n    position: fixed;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    background-color: #000;\n    z-index: 400; }\n    .page-home .video-overlay video {\n      position: relative;\n      display: block;\n      width: 100%;\n      height: 100%; }\n  .page-home .video-container {\n    display: none; }\n  .page-home .btn-explore {\n    display: none; }\n  .page-home .countdown-container {\n    position: relative;\n    top: auto;\n    left: auto;\n    margin-left: 16%;\n    margin-top: 143px;\n    width: 218px; }\n    .page-home .countdown-container .countdown {\n      font-size: 32px; }\n  .page-home .story-container {\n    display: none; }\n  .page-home .playfilm-btn {\n    display: block;\n    top: 65%;\n    left: 16%;\n    margin: 0; } }\n\n.page-product h1 {\n  display: inline-block;\n  position: fixed;\n  left: 16.66667%;\n  top: 26.66667%;\n  z-index: 100; }\n\n.page-product .teaser {\n  position: fixed;\n  left: 16.66667%;\n  bottom: 20%;\n  width: 240px;\n  font-size: 24px;\n  line-height: 32px; }\n\n.page-product a.btn {\n  display: inline-block;\n  width: 130px; }\n  .page-product a.btn.btn-viewmore {\n    display: none;\n    position: absolute;\n    left: 62px;\n    top: 290px; }\n    .page-product a.btn.btn-viewmore .copy {\n      width: 136px;\n      margin-top: 6px; }\n      .page-product a.btn.btn-viewmore .copy span {\n        display: block;\n        margin-top: 6px;\n        color: #fff; }\n  .page-product a.btn.btn-design {\n    position: fixed;\n    left: 50%;\n    bottom: 20%; }\n  .page-product a.btn.btn-details {\n    position: fixed;\n    left: 62.5%;\n    bottom: 20%; }\n  .page-product a.btn.btn-materials {\n    position: fixed;\n    left: 75%;\n    bottom: 20%; }\n  @media screen and (min-width: 801px) and (max-width: 1000px) {\n    .page-product a.btn.btn-design {\n      position: fixed;\n      left: 45.83333%;\n      bottom: 20%; }\n    .page-product a.btn.btn-materials {\n      position: fixed;\n      left: 79.16667%;\n      bottom: 20%; } }\n\n@media screen and (max-width: 800px) {\n  .page-product h1 {\n    left: 16%;\n    top: 25%; }\n  .page-product .teaser {\n    display: none; }\n  .page-product a.btn.btn-design, .page-product a.btn.btn-details, .page-product a.btn.btn-materials {\n    display: none; }\n  .page-product a.btn.btn-viewmore {\n    display: block;\n    top: 46%;\n    left: 16%; }\n    .page-product a.btn.btn-viewmore .flag-container {\n      display: block; }\n  .page-product a.btn.btn-flag .flag-container {\n    display: block; } }\n\n.page-design h1 {\n  display: inline-block;\n  position: fixed;\n  left: 20.83333%;\n  top: 33.33333%;\n  z-index: 100; }\n\n.page-details h1 {\n  display: inline-block;\n  position: fixed;\n  left: 20.83333%;\n  top: 33.33333%;\n  z-index: 100; }\n\n.page-details nav {\n  position: fixed;\n  left: 4.16667%;\n  top: 6.66667%;\n  z-index: 300; }\n  .page-details nav ul {\n    list-style: none;\n    margin: 0;\n    padding: 0;\n    display: block; }\n    .page-details nav ul li {\n      display: inline-block;\n      float: left;\n      margin: 0 40px 0 0;\n      padding: 0; }\n      .page-details nav ul li a {\n        display: inline-block;\n        line-height: 1;\n        color: rgba(182, 188, 206, 0.7);\n        padding: 0 0 10px 0;\n        border-bottom: solid 2px rgba(182, 188, 206, 0.7);\n        position: relative;\n        -webkit-transition: color 150ms ease-in-out;\n        transition: color 150ms ease-in-out; }\n        .page-details nav ul li a:after {\n          position: absolute;\n          width: 100%;\n          height: 2px;\n          left: 0;\n          bottom: -2px;\n          z-index: 100;\n          display: block;\n          content: '';\n          background: #FFFFFF;\n          -webkit-transition: -webkit-transform 150ms ease-in-out;\n          transition: -webkit-transform 150ms ease-in-out;\n          transition: transform 150ms ease-in-out;\n          transition: transform 150ms ease-in-out, -webkit-transform 150ms ease-in-out;\n          -webkit-transform: scaleX(0);\n                  transform: scaleX(0);\n          -webkit-transform-origin: left center;\n                  transform-origin: left center; }\n        .page-details nav ul li a.active {\n          color: #ffffff; }\n          .page-details nav ul li a.active:after {\n            -webkit-transform: scaleX(1);\n                    transform: scaleX(1); }\n        .page-details nav ul li a:hover {\n          color: #ffffff; }\n          .page-details nav ul li a:hover:after {\n            -webkit-transform: scaleX(1);\n                    transform: scaleX(1); }\n\n.page-details .detail {\n  position: fixed;\n  left: 4.16667%;\n  bottom: 6.66667%;\n  width: 400px;\n  max-width: 100%;\n  color: #ffffff;\n  display: none;\n  opacity: 0;\n  font-size: 20px;\n  line-height: 28px; }\n  .page-details .detail h3 {\n    display: none;\n    margin-bottom: 28px; }\n\n.page-details .readmore-btn,\n.page-details .readless-btn {\n  position: fixed;\n  left: 34px;\n  bottom: 0;\n  z-index: 340;\n  display: none;\n  height: 72px;\n  width: 50px;\n  font-family: 'rajdhani', 'Helvetica Neue', Helvetica, sans-serif;\n  font-weight: bold;\n  font-style: normal;\n  color: #fff;\n  font-size: 16px; }\n  .page-details .readmore-btn .border,\n  .page-details .readless-btn .border {\n    width: 2px;\n    height: 100%;\n    background: #ffffff; }\n  .page-details .readmore-btn em,\n  .page-details .readless-btn em {\n    display: inline-block;\n    font-style: normal;\n    -webkit-transform-origin: top left;\n            transform-origin: top left;\n    -webkit-transform: rotate(-90deg);\n            transform: rotate(-90deg);\n    position: absolute;\n    width: 80px;\n    height: 0px;\n    left: 10px;\n    bottom: 10px; }\n\n.page-details .readless-btn {\n  bottom: auto;\n  top: 0px;\n  height: 66px; }\n  .page-details .readless-btn em {\n    -webkit-transform: rotate(90deg);\n            transform: rotate(90deg);\n    bottom: auto;\n    top: 10px;\n    left: 24px; }\n\n@media screen and (max-width: 800px) {\n  .page-details nav {\n    opacity: 0;\n    display: none; }\n  .page-details .detail-container {\n    position: fixed;\n    display: none;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    height: 100%;\n    width: 100%;\n    padding-top: 200px;\n    padding-bottom: 50px;\n    overflow: hidden;\n    overflow-y: auto;\n    -webkit-overflow-scrolling: touch;\n    background-color: rgba(0, 0, 0, 0.6); }\n  .page-details .detail {\n    position: relative;\n    left: auto;\n    bottom: auto;\n    display: block;\n    opacity: 1;\n    width: 65%;\n    margin: 0 auto 70px auto;\n    color: rgba(182, 188, 206, 0.7);\n    text-align: justify;\n    font-size: 16px;\n    line-height: 24px; }\n    .page-details .detail h3 {\n      display: block; }\n  .page-details .readmore-btn,\n  .page-details .readless-btn {\n    display: inline-block; } }\n\n.page-materials h1 {\n  display: inline-block;\n  position: fixed;\n  left: 20.83333%;\n  top: 33.33333%;\n  z-index: 100; }\n\n.page-items h1 {\n  display: inline-block;\n  position: fixed;\n  left: 16.66667%;\n  top: 26.66667%;\n  z-index: 100; }\n\n.page-items .btn {\n  display: inline-block; }\n  .page-items .btn h2 {\n    margin: 27px 0; }\n  .page-items .btn.btn-viewmore {\n    display: none;\n    position: absolute;\n    left: 62px;\n    top: 290px; }\n    .page-items .btn.btn-viewmore .copy {\n      width: 136px;\n      margin-top: 6px; }\n      .page-items .btn.btn-viewmore .copy span {\n        display: block;\n        margin-top: 6px;\n        color: #fff; }\n  .page-items .btn.btn-longsleeve {\n    position: fixed;\n    right: 16.66667%;\n    top: 26.66667%;\n    text-align: right;\n    width: 190px; }\n  .page-items .btn.btn-jacket {\n    position: fixed;\n    left: 16.66667%;\n    bottom: 20%;\n    width: 160px; }\n\n.page-items .limited {\n  position: fixed;\n  right: 16.66667%;\n  bottom: 20%;\n  width: 210px;\n  text-align: right;\n  font-size: 24px;\n  line-height: 32px;\n  color: #ffffff; }\n\n@media screen and (max-width: 800px) {\n  .page-items h1 {\n    left: 16%;\n    top: 25%; }\n  .page-items .btn.btn-longsleeve, .page-items .btn.btn-jacket {\n    display: none; }\n  .page-items .btn.btn-viewmore {\n    display: block;\n    top: 46%;\n    left: 16%; }\n    .page-items .btn.btn-viewmore .flag-container {\n      display: block; }\n  .page-items .limited {\n    display: none; } }\n\n.page-journey h1 {\n  display: inline-block;\n  position: fixed;\n  left: 16.66667%;\n  top: 26.66667%;\n  z-index: 100; }\n\n.page-journey .intro {\n  position: fixed;\n  left: 16.66667%;\n  bottom: 20%;\n  width: 100%;\n  max-width: 420px; }\n\n.page-journey .video-container {\n  position: fixed;\n  right: 16.66667%;\n  top: 26.66667%;\n  z-index: 210;\n  width: 210px;\n  text-align: right; }\n  .page-journey .video-container .img {\n    width: 210px;\n    height: 118px;\n    -webkit-transition: -webkit-transform 150ms ease-out;\n    transition: -webkit-transform 150ms ease-out;\n    transition: transform 150ms ease-out;\n    transition: transform 150ms ease-out, -webkit-transform 150ms ease-out;\n    background: url(/assets/images/journeyvideo-bg.jpg) no-repeat center center;\n    background-size: 210px 118px;\n    margin-bottom: 5px; }\n  .page-journey .video-container:hover .img {\n    -webkit-transform: scale(1.05);\n            transform: scale(1.05); }\n\n.page-journey .btn.btn-viewmore {\n  display: none;\n  position: absolute;\n  left: 62px;\n  top: 343px; }\n  .page-journey .btn.btn-viewmore .copy {\n    display: block;\n    width: 136px;\n    margin-top: 6px; }\n    .page-journey .btn.btn-viewmore .copy span {\n      display: block;\n      margin-top: 6px;\n      color: #fff; }\n\n.page-journey .btn.btn-story {\n  position: fixed;\n  right: 16.66667%;\n  bottom: 20%;\n  width: 100%;\n  max-width: 210px;\n  text-align: right; }\n\n@media screen and (max-width: 800px) {\n  .page-journey h1 {\n    left: 16%;\n    top: 25%; }\n  .page-journey .video-container {\n    display: none; }\n  .page-journey .intro {\n    display: none; }\n  .page-journey .btn.btn-story {\n    display: none; }\n  .page-journey .btn.btn-viewmore {\n    display: block;\n    top: 46%;\n    left: 16%; } }\n\n.page-gallery h1 {\n  display: inline-block;\n  position: fixed;\n  left: 16.66667%;\n  top: 33.33333%;\n  z-index: 200;\n  -webkit-transform-origin: 0 100%;\n          transform-origin: 0 100%; }\n\n.page-gallery .intro {\n  display: inline-block;\n  position: fixed;\n  left: 16.66667%;\n  bottom: 33.33333%;\n  width: 12.5%;\n  z-index: 210;\n  -webkit-transform-origin: 0 0;\n          transform-origin: 0 0; }\n  .page-gallery .intro h2 {\n    font-size: 24px;\n    line-height: 1;\n    margin: 0 0 20px 0; }\n\n.page-gallery .slider-container {\n  position: absolute;\n  left: 0;\n  top: 50%;\n  width: 100%;\n  height: auto;\n  z-index: 300;\n  -webkit-transform: translateY(-50%);\n          transform: translateY(-50%); }\n  .page-gallery .slider-container .slick-list {\n    cursor: hand; }\n  .page-gallery .slider-container .slide {\n    width: 50%;\n    height: 100%;\n    outline: none;\n    overflow: hidden; }\n    .page-gallery .slider-container .slide a {\n      display: block;\n      overflow: hidden;\n      width: 100%;\n      height: 100%; }\n    .page-gallery .slider-container .slide .img-wrapper {\n      overflow: hidden;\n      width: 100%;\n      height: 100%; }\n    .page-gallery .slider-container .slide img {\n      width: 100%;\n      height: auto;\n      -webkit-transition: -webkit-transform 1400ms ease-in-out;\n      transition: -webkit-transform 1400ms ease-in-out;\n      transition: transform 1400ms ease-in-out;\n      transition: transform 1400ms ease-in-out, -webkit-transform 1400ms ease-in-out;\n      -webkit-transform-origin: center center;\n              transform-origin: center center; }\n    .page-gallery .slider-container .slide:hover img {\n      -webkit-transform: scale(1.1);\n              transform: scale(1.1); }\n\n.page-gallery .drag-indicator, .page-gallery .go-button {\n  border-top: solid 2px #ffffff;\n  width: 4.16667%;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  position: absolute;\n  z-index: 400;\n  -webkit-transform: translateY(-50%);\n          transform: translateY(-50%);\n  text-align: left;\n  padding-top: 5px;\n  overflow: hidden;\n  -webkit-transition: width 300ms cubic-bezier(0.24, 0.715, 0.285, 0.94), -webkit-transform 200ms ease-in-out;\n  transition: width 300ms cubic-bezier(0.24, 0.715, 0.285, 0.94), -webkit-transform 200ms ease-in-out;\n  transition: transform 200ms ease-in-out, width 300ms cubic-bezier(0.24, 0.715, 0.285, 0.94);\n  transition: transform 200ms ease-in-out, width 300ms cubic-bezier(0.24, 0.715, 0.285, 0.94), -webkit-transform 200ms ease-in-out; }\n  .page-gallery .drag-indicator:hover, .page-gallery .go-button:hover {\n    width: 5.20833%; }\n  .page-gallery .drag-indicator.prev, .page-gallery .go-button.prev {\n    position: fixed;\n    left: 4.16667%;\n    bottom: 26.66667%;\n    left: 0;\n    text-align: right;\n    -webkit-transform: translateX(0);\n            transform: translateX(0); }\n    .page-gallery .drag-indicator.prev.hidden, .page-gallery .go-button.prev.hidden {\n      -webkit-transform: translateX(-100%);\n              transform: translateX(-100%); }\n  .page-gallery .drag-indicator.next, .page-gallery .go-button.next {\n    position: fixed;\n    right: 4.16667%;\n    bottom: 26.66667%;\n    right: 0;\n    -webkit-transform: translateX(0);\n            transform: translateX(0); }\n    .page-gallery .drag-indicator.next.hidden, .page-gallery .go-button.next.hidden {\n      -webkit-transform: translateX(100%);\n              transform: translateX(100%); }\n\n@media screen and (max-width: 800px) {\n  .page-gallery h1 {\n    left: 16%;\n    top: 25%; }\n  .page-gallery .intro {\n    display: none; }\n  .page-gallery .drag-indicator {\n    display: none; }\n  .page-gallery .slider-container {\n    top: 60%; }\n  .page-gallery .mobile-swipe-info {\n    position: absolute;\n    width: 100%;\n    height: 50%;\n    background-color: rgba(0, 0, 0, 0);\n    z-index: 500;\n    top: 35%; }\n    .page-gallery .mobile-swipe-info p {\n      -webkit-transform: rotate(-90deg);\n              transform: rotate(-90deg);\n      -webkit-transform-origin: center;\n              transform-origin: center;\n      display: inline-block;\n      position: absolute;\n      top: 50%;\n      left: 10%;\n      opacity: 0.3;\n      pointer-events: none;\n      -webkit-user-select: none;\n         -moz-user-select: none;\n          -ms-user-select: none;\n              user-select: none; }\n      .page-gallery .mobile-swipe-info p span {\n        display: block;\n        position: absolute;\n        width: 32px;\n        height: 2px;\n        background-color: #fff;\n        -webkit-transform-origin: top left;\n                transform-origin: top left;\n        -webkit-transform: rotate(90deg);\n                transform: rotate(90deg);\n        left: 50%;\n        top: 30px; }\n  .page-gallery .slider-fullview {\n    display: none;\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    overflow: hidden;\n    z-index: 500;\n    background-color: #000; }\n    .page-gallery .slider-fullview .img-container {\n      display: block;\n      position: absolute;\n      left: 0;\n      top: 0;\n      width: 100%;\n      height: 100%;\n      overflow: hidden;\n      overflow-x: auto;\n      -webkit-overflow-scrolling: touch; }\n    .page-gallery .slider-fullview img {\n      width: auto;\n      height: 100%;\n      max-width: 8000px; } }\n\n.page-image {\n  background: #111111; }\n  .page-image .slider-container {\n    position: absolute;\n    left: 0;\n    top: 0;\n    z-index: 200;\n    width: 100%;\n    height: 100%;\n    z-index: 300; }\n    .page-image .slider-container .slick-list {\n      height: 100%;\n      cursor: hand; }\n    .page-image .slider-container .slick-track {\n      height: 100%;\n      cursor: hand; }\n    .page-image .slider-container .slide, .page-image .slider-container .slick-slide {\n      width: 100%;\n      height: 100%;\n      outline: none;\n      overflow: hidden;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center; }\n      .page-image .slider-container .slide div, .page-image .slider-container .slick-slide div {\n        width: 100%;\n        height: 100%; }\n      .page-image .slider-container .slide .img, .page-image .slider-container .slick-slide .img {\n        background-position: center;\n        background-size: cover; }\n      .page-image .slider-container .slide img, .page-image .slider-container .slick-slide img {\n        width: 100%;\n        height: auto; }\n  .page-image .btn {\n    border-top: solid 2px #ffffff;\n    width: 4.16667%;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    z-index: 400;\n    height: 18px;\n    padding-top: 5px;\n    -webkit-transition: width 300ms cubic-bezier(0.24, 0.715, 0.285, 0.94);\n    transition: width 300ms cubic-bezier(0.24, 0.715, 0.285, 0.94);\n    -webkit-transform: translateY(-50%);\n            transform: translateY(-50%); }\n    .page-image .btn.prev-btn {\n      position: fixed;\n      left: 4.16667%;\n      top: 93.33333%;\n      left: 0;\n      text-align: right; }\n    .page-image .btn.next-btn {\n      position: fixed;\n      right: 4.16667%;\n      top: 93.33333%;\n      right: 0;\n      text-align: left; }\n    .page-image .btn:hover {\n      width: 5.20833%; }\n  .page-image .image-indicator {\n    list-style: none;\n    margin: -8px 0 0 0;\n    padding: 0;\n    display: block;\n    overflow: hidden;\n    height: 18px;\n    position: fixed;\n    left: 4.16667%;\n    top: 93.33333%;\n    left: 50%;\n    z-index: 500;\n    -webkit-transform: translateX(-50%);\n            transform: translateX(-50%); }\n    .page-image .image-indicator li {\n      list-style: none;\n      margin: 0 3px 0 2px;\n      padding: 0;\n      display: block;\n      float: left;\n      width: 30px;\n      height: 2px;\n      background: rgba(182, 188, 206, 0.7);\n      position: relative;\n      overflow: hidden; }\n      .page-image .image-indicator li .bar {\n        height: 2px;\n        width: 60px;\n        background: #FFFFFF;\n        -webkit-transform: scaleX(0);\n                transform: scaleX(0); }\n    @media screen and (max-width: 800px) {\n      .page-image .image-indicator {\n        display: none; } }\n\n.page-container.Getthechance {\n  z-index: 500; }\n\n.page-getthechance {\n  color: #000000;\n  background: transparent; }\n  .page-getthechance video {\n    position: absolute;\n    left: 50%;\n    top: 50%;\n    -webkit-transform: translate(-50%, -50%);\n            transform: translate(-50%, -50%);\n    z-index: 100;\n    -webkit-transform-origin: 50% 50%;\n            transform-origin: 50% 50%; }\n  .page-getthechance .overview, .page-getthechance .shops {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    left: 0;\n    top: 0;\n    z-index: 100; }\n  .page-getthechance .overview {\n    display: block; }\n  .page-getthechance .shops {\n    display: none;\n    overflow: auto; }\n    .page-getthechance .shops .back-button {\n      display: block;\n      position: fixed;\n      left: 0;\n      top: 50%;\n      width: 70px;\n      height: 26px;\n      text-align: right;\n      color: #000000;\n      padding: 12px 0 0 0;\n      border-top: solid 2px black;\n      -webkit-transition: all 300ms ease-out;\n      transition: all 300ms ease-out; }\n      .page-getthechance .shops .back-button:hover {\n        width: 105px; }\n    .page-getthechance .shops h1 {\n      position: absolute; }\n  .page-getthechance .shops-lists {\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    margin: 0 0 0 16.66667%; }\n    .page-getthechance .shops-lists ul {\n      list-style: none;\n      margin: 0 0 100px 0;\n      padding: 0;\n      width: 400px;\n      float: left; }\n      .page-getthechance .shops-lists ul li {\n        display: block;\n        width: 100%;\n        margin: 0 0 25px 0;\n        line-height: 1; }\n        .page-getthechance .shops-lists ul li em {\n          display: inline-block;\n          margin: 0 0 0 10px;\n          color: rgba(182, 188, 206, 0.7);\n          font-style: normal; }\n        .page-getthechance .shops-lists ul li.header {\n          font-size: 24px; }\n        .page-getthechance .shops-lists ul li.spacer {\n          height: 10px; }\n  .page-getthechance h1 {\n    display: inline-block;\n    position: fixed;\n    left: 16.66667%;\n    top: 26.66667%;\n    z-index: 200;\n    color: #000000; }\n  .page-getthechance .close-button span {\n    color: #000000; }\n  .page-getthechance .close-button .icon-container .circle {\n    background: #000000; }\n  .page-getthechance .close-button .icon-container .line {\n    background: #ffffff; }\n  .page-getthechance .sub {\n    position: fixed;\n    left: 16.66667%;\n    top: 40%;\n    z-index: 200; }\n    .page-getthechance .sub ul {\n      list-style: none;\n      margin: 0;\n      padding: 0;\n      display: block; }\n      .page-getthechance .sub ul li {\n        display: block;\n        float: left;\n        width: 210px; }\n        .page-getthechance .sub ul li.article-details {\n          line-height: 28px; }\n        @media screen and (min-width: 801px) and (max-width: 1200px) {\n          .page-getthechance .sub ul li {\n            width: 160px; } }\n    .page-getthechance .sub small {\n      color: #9B9B9B;\n      display: block;\n      margin: 0 0 5px 0; }\n      .page-getthechance .sub small.article-head {\n        margin-bottom: 10px;\n        line-height: 1; }\n    .page-getthechance .sub span {\n      color: #000000; }\n      .page-getthechance .sub span.date {\n        font-size: 24px;\n        line-height: 32px; }\n  .page-getthechance .intro {\n    position: fixed;\n    left: 16.66667%;\n    bottom: 20%;\n    z-index: 220;\n    width: 210px; }\n    .page-getthechance .intro .first {\n      color: #000000;\n      font-size: 16px;\n      line-height: 20px; }\n    .page-getthechance .intro .second {\n      display: block;\n      clear: left;\n      color: #9B9B9B;\n      font-size: 16px;\n      line-height: 20px;\n      margin: 10px 0 0 0; }\n  .page-getthechance .form-head, .page-getthechance .shops-head {\n    position: fixed;\n    left: 66.66667%;\n    top: 40%;\n    z-index: 220;\n    width: 280px;\n    color: #000000;\n    font-size: 24px;\n    line-height: 32px; }\n  .page-getthechance .shops-button-wrapper {\n    position: fixed;\n    left: 66.66667%;\n    bottom: 20%;\n    z-index: 220; }\n  .page-getthechance .form-container {\n    position: fixed;\n    left: 66.66667%;\n    bottom: 20%;\n    z-index: 220;\n    width: 280px;\n    color: #000000; }\n    .page-getthechance .form-container form {\n      display: block;\n      width: 100%; }\n      .page-getthechance .form-container form .group {\n        display: block;\n        width: 100%;\n        clear: left; }\n      .page-getthechance .form-container form input, .page-getthechance .form-container form select {\n        -webkit-box-sizing: border-box;\n                box-sizing: border-box;\n        background: transparent;\n        outline: none;\n        border: none;\n        width: 100%;\n        border-bottom: solid 2px #000000;\n        padding: 5px 2px 13px 2px;\n        line-height: 1;\n        font-size: 16px;\n        color: #000000;\n        border-radius: 0px;\n        margin: 0 0 20px 0;\n        display: block;\n        -webkit-appearance: none;\n        -moz-appearance: none;\n        background: transparent; }\n        .page-getthechance .form-container form input::-webkit-input-placeholder, .page-getthechance .form-container form select::-webkit-input-placeholder {\n          color: #000000; }\n        .page-getthechance .form-container form input::-moz-placeholder, .page-getthechance .form-container form select::-moz-placeholder {\n          color: #000000; }\n        .page-getthechance .form-container form input::-ms-input-placeholder, .page-getthechance .form-container form select::-ms-input-placeholder {\n          color: #000000; }\n        .page-getthechance .form-container form input::placeholder, .page-getthechance .form-container form select::placeholder {\n          color: #000000; }\n        .page-getthechance .form-container form input.select, .page-getthechance .form-container form select.select {\n          background: transparent url(/assets/images/arrow-down-black.png) no-repeat right 5px top 10px;\n          background-size: 12px 8px;\n          text-indent: 0.01px;\n          text-overflow: ''; }\n          .page-getthechance .form-container form input.select option, .page-getthechance .form-container form select.select option {\n            background: #ffffff;\n            color: #000000; }\n        .page-getthechance .form-container form input.button, .page-getthechance .form-container form select.button {\n          display: inline-block;\n          background: #000000;\n          border-bottom: none;\n          color: white;\n          width: auto;\n          padding: 20px 35px 20px 35px;\n          cursor: pointer;\n          -webkit-transition: -webkit-transform 150ms ease-out;\n          transition: -webkit-transform 150ms ease-out;\n          transition: transform 150ms ease-out;\n          transition: transform 150ms ease-out, -webkit-transform 150ms ease-out;\n          margin-bottom: 0; }\n          .page-getthechance .form-container form input.button:hover, .page-getthechance .form-container form select.button:hover {\n            -webkit-transform: scale(1.05);\n                    transform: scale(1.05); }\n        .page-getthechance .form-container form input.error, .page-getthechance .form-container form select.error {\n          border-bottom: solid 2px #CE3232;\n          color: #CE3232; }\n          .page-getthechance .form-container form input.error::-webkit-input-placeholder, .page-getthechance .form-container form select.error::-webkit-input-placeholder {\n            color: #CE3232; }\n          .page-getthechance .form-container form input.error::-moz-placeholder, .page-getthechance .form-container form select.error::-moz-placeholder {\n            color: #CE3232; }\n          .page-getthechance .form-container form input.error::-ms-input-placeholder, .page-getthechance .form-container form select.error::-ms-input-placeholder {\n            color: #CE3232; }\n          .page-getthechance .form-container form input.error::placeholder, .page-getthechance .form-container form select.error::placeholder {\n            color: #CE3232; }\n  @media screen and (max-width: 800px) {\n    .page-getthechance {\n      background: #ffffff; }\n      .page-getthechance .tgwo-link,\n      .page-getthechance .adidas-link {\n        display: none; }\n      .page-getthechance .close-button {\n        display: none; }\n      .page-getthechance .form-head {\n        position: relative;\n        left: auto;\n        top: auto;\n        font-size: 18px;\n        width: 100%;\n        line-height: 28px; }\n      .page-getthechance .form-container {\n        position: relative;\n        bottom: auto;\n        left: auto;\n        margin-top: 20px;\n        width: 100%; }\n      .page-getthechance h1 {\n        left: 10%;\n        width: 80%;\n        top: 18%;\n        font-size: 32px;\n        line-height: 26px; }\n      .page-getthechance .shops-lists {\n        margin: 130px 0 0 0 !important;\n        overflow: hidden; }\n        .page-getthechance .shops-lists ul {\n          width: 100%;\n          margin-bottom: 40px; }\n          .page-getthechance .shops-lists ul li {\n            margin-bottom: 15px; }\n      .page-getthechance .sub {\n        left: 10%;\n        top: 32%;\n        width: 80%; }\n        .page-getthechance .sub ul li {\n          width: 45%; }\n        .page-getthechance .sub span.date {\n          font-size: 16px;\n          line-height: 32px; }\n        .page-getthechance .sub span.article-details {\n          line-height: 28px; }\n        .page-getthechance .sub .button {\n          -webkit-box-sizing: border-box;\n                  box-sizing: border-box;\n          background: transparent;\n          outline: none;\n          border: none;\n          line-height: 1;\n          font-size: 16px;\n          border-radius: 0px;\n          margin: 10px 0 0;\n          display: inline-block;\n          background: #000000;\n          color: white;\n          width: auto;\n          padding: 16px 20px;\n          cursor: pointer;\n          -webkit-transition: -webkit-transform 150ms ease-out;\n          transition: -webkit-transform 150ms ease-out;\n          transition: transform 150ms ease-out;\n          transition: transform 150ms ease-out, -webkit-transform 150ms ease-out; }\n      .page-getthechance .intro {\n        position: relative;\n        left: 0px;\n        bottom: auto;\n        top: 20px; }\n      .page-getthechance .mobile-first {\n        position: absolute;\n        display: block;\n        width: 100%;\n        height: 100%;\n        z-index: 200; }\n      .page-getthechance .mobile-second {\n        position: absolute;\n        display: block;\n        width: 100%;\n        height: 100%;\n        z-index: 200;\n        -webkit-transform: translateX(100%);\n                transform: translateX(100%);\n        padding: 100px 10% 40px;\n        -webkit-box-sizing: border-box;\n                box-sizing: border-box;\n        overflow-y: auto;\n        -webkit-overflow-scrolling: touch; }\n        .page-getthechance .mobile-second .close-button {\n          display: block;\n          position: fixed !important; }\n      .page-getthechance .form-info {\n        margin-top: 30px; } }\n\n.page-credits div {\n  overflow: visible; }\n\n.page-credits .content-container {\n  width: 100%;\n  height: 100%;\n  overflow-y: scroll;\n  -webkit-overflow-scrolling: touch; }\n\n.page-credits h1 {\n  font-size: 90px;\n  line-height: 75px;\n  display: inline-block;\n  margin-top: 46.66667%;\n  width: 100%;\n  z-index: 200;\n  text-align: center; }\n  .page-credits h1 small {\n    color: rgba(182, 188, 206, 0.7);\n    font-size: 16px;\n    text-align: center;\n    display: block;\n    clear: left;\n    margin: 10px 0 0 0;\n    line-height: 1; }\n\n.page-credits .logos {\n  margin: 120px auto;\n  width: 548px;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -ms-flex-wrap: nowrap;\n      flex-wrap: nowrap;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -ms-flex-pack: distribute;\n      justify-content: space-around; }\n  .page-credits .logos a {\n    -webkit-transition: -webkit-transform 150ms ease-out;\n    transition: -webkit-transform 150ms ease-out;\n    transition: transform 150ms ease-out;\n    transition: transform 150ms ease-out, -webkit-transform 150ms ease-out; }\n    .page-credits .logos a:hover {\n      -webkit-transform: scale(1.05);\n              transform: scale(1.05); }\n  .page-credits .logos img.dayy {\n    width: 129px;\n    float: left; }\n  .page-credits .logos img.adidas {\n    width: 63px; }\n  .page-credits .logos img.tgwo {\n    width: 70px;\n    float: right; }\n\n.page-credits .line {\n  width: 60px;\n  height: 2px;\n  background: #ffffff;\n  clear: left;\n  margin: 120px 0 120px calc(50% - 30px); }\n\n.page-credits .spacer {\n  width: 100%;\n  height: 120px;\n  clear: left; }\n\n.page-credits .block {\n  clear: left;\n  width: 70.83333%;\n  margin: 0 auto 90px auto; }\n  .page-credits .block .row {\n    width: 100%;\n    padding: 0 0 20px 0;\n    line-height: 120%;\n    overflow: hidden; }\n    .page-credits .block .row > .left {\n      width: 50%;\n      float: left;\n      font-size: 20px;\n      color: rgba(182, 188, 206, 0.7);\n      text-align: right;\n      -webkit-box-sizing: border-box;\n              box-sizing: border-box;\n      padding: 0 35px 0 0; }\n    .page-credits .block .row > .right {\n      width: 50%;\n      float: left;\n      font-size: 20px;\n      -webkit-box-sizing: border-box;\n              box-sizing: border-box;\n      padding: 0 0 0 35px; }\n\n@media screen and (max-width: 800px) {\n  .page-credits h1 {\n    font-size: 48px;\n    line-height: 37px; }\n  .page-credits .logos {\n    width: 100%; }\n    .page-credits .logos a {\n      width: 33.3%;\n      display: block;\n      text-align: center; }\n    .page-credits .logos img.dayy {\n      width: 89px;\n      float: none; }\n    .page-credits .logos img.adidas {\n      width: 53px; }\n    .page-credits .logos img.tgwo {\n      width: 60px;\n      float: none; }\n  .page-credits .block {\n    width: 90%; }\n    .page-credits .block .row > .left {\n      font-size: 14px;\n      padding: 0 20px 0 0; }\n    .page-credits .block .row > .right {\n      font-size: 14px;\n      padding: 0 0 0 20px; } }\n\n.page-imprint .content-container {\n  width: 100%;\n  max-width: 600px;\n  margin: 0 auto;\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  -webkit-transform: translate(-50%, -50%);\n          transform: translate(-50%, -50%); }\n  .page-imprint .content-container h2 {\n    display: block;\n    width: 100%;\n    margin: 0 0 50px 0; }\n  .page-imprint .content-container a {\n    display: inline-block;\n    width: auto;\n    position: relative; }\n    .page-imprint .content-container a span {\n      display: inline-block;\n      width: auto; }\n\n@media screen and (max-width: 800px) {\n  .page-imprint .content-container {\n    width: 80%; } }\n\n.page-viewtrailer .trailer-container {\n  width: 100%;\n  height: 100%;\n  position: relative; }\n\n.page-viewtrailer .video-container {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 120;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  padding: 175px 0; }\n  .page-viewtrailer .video-container .video-wrapper {\n    position: relative;\n    width: 100%;\n    height: 100%;\n    margin: 0; }\n    .page-viewtrailer .video-container .video-wrapper video {\n      display: block;\n      height: 100%;\n      width: auto;\n      margin: 0 auto;\n      /*\n        position: absolute;\n        left: 50%;\n        top: 50%;\n        transform: translate(-50%, -50%);\n        //object-fit: cover;\n        z-index: 100;\n        */ }\n    .page-viewtrailer .video-container .video-wrapper .progress-bar {\n      opacity: 0;\n      position: absolute;\n      left: 0;\n      bottom: 0;\n      z-index: 200;\n      width: 0;\n      height: 2px;\n      background: #ffffff;\n      -webkit-transition: opacity 200ms linear;\n      transition: opacity 200ms linear; }\n    .page-viewtrailer .video-container .video-wrapper:hover .progress-bar {\n      opacity: 1; }\n\n.page-viewtrailer .playpausecontrols {\n  position: fixed;\n  left: 4.16667%;\n  bottom: 6.66667%;\n  z-index: 300;\n  width: 100px;\n  height: 20px; }\n  .page-viewtrailer .playpausecontrols a {\n    display: none;\n    width: auto; }\n    .page-viewtrailer .playpausecontrols a span {\n      display: inline-block;\n      width: auto; }\n\n.page-viewtrailer .time {\n  position: fixed;\n  left: 4.16667%;\n  bottom: 6.66667%;\n  z-index: 310;\n  left: 50%;\n  -webkit-transform: translateX(-50%);\n          transform: translateX(-50%);\n  color: rgba(182, 188, 206, 0.7); }\n  .page-viewtrailer .time .current {\n    color: #ffffff;\n    font-weight: bold; }\n\n.page-viewtrailer .fullscreen {\n  position: fixed;\n  right: 12.5%;\n  bottom: 6.66667%;\n  z-index: 310; }\n\nbody {\n  background: #000;\n  color: #fff;\n  font-family: 'DIN Next Pro Medium', 'Helvetica', Helvetica, sans-serif;\n  font-weight: normal;\n  font-style: normal;\n  font-size: 16px;\n  line-height: 1;\n  width: 100%;\n  height: 100%;\n  padding: 0;\n  margin: 0;\n  overflow: hidden; }\n\nbody, div, span {\n  text-rendering: optimizeLegibility !important;\n  -webkit-font-smoothing: antialiased !important; }\n\na {\n  color: #fff;\n  text-decoration: none; }\n  a .hover-effect {\n    display: inline-block; }\n    a .hover-effect:after {\n      display: block;\n      content: '';\n      margin-top: 1px;\n      border-bottom: solid 2px #ffffff;\n      -webkit-transform: scaleX(0);\n              transform: scaleX(0);\n      -webkit-transition: -webkit-transform 150ms ease-in-out;\n      transition: -webkit-transform 150ms ease-in-out;\n      transition: transform 150ms ease-in-out;\n      transition: transform 150ms ease-in-out, -webkit-transform 150ms ease-in-out;\n      -webkit-transform-origin: left center;\n              transform-origin: left center; }\n  a .hover-effect-dark {\n    display: inline-block; }\n    a .hover-effect-dark:after {\n      display: block;\n      content: '';\n      margin-top: 1px;\n      border-bottom: solid 2px #000000;\n      -webkit-transform: scaleX(0);\n              transform: scaleX(0);\n      -webkit-transition: -webkit-transform 150ms ease-in-out;\n      transition: -webkit-transform 150ms ease-in-out;\n      transition: transform 150ms ease-in-out;\n      transition: transform 150ms ease-in-out, -webkit-transform 150ms ease-in-out;\n      -webkit-transform-origin: left center;\n              transform-origin: left center; }\n  a:hover .hover-effect:after, a:hover .hover-effect-dark:after {\n    -webkit-transform: scaleX(1);\n            transform: scaleX(1); }\n\n.btn-white {\n  background: #ffffff;\n  color: #000000;\n  display: inline-block;\n  width: 100%;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  padding: 18px 22px; }\n  .btn-white img {\n    width: 22px;\n    height: 25px;\n    float: left;\n    margin: -2px 10px 0 0; }\n\n.btn-black {\n  background: #000000;\n  display: inline-block;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  border-bottom: none;\n  color: white;\n  width: auto;\n  padding: 20px 35px 20px 35px;\n  cursor: pointer;\n  -webkit-transition: -webkit-transform 150ms ease-out;\n  transition: -webkit-transform 150ms ease-out;\n  transition: transform 150ms ease-out;\n  transition: transform 150ms ease-out, -webkit-transform 150ms ease-out;\n  margin-bottom: 0; }\n  .btn-black:hover {\n    -webkit-transform: scale(1.05);\n            transform: scale(1.05); }\n\np {\n  margin: 0 0 10px 0;\n  overflow: visible; }\n\np.copy {\n  display: inline-block;\n  clear: left;\n  font-family: 'DIN Next Pro Medium', 'Helvetica', Helvetica, sans-serif;\n  font-weight: normal;\n  font-style: normal;\n  font-size: 16px;\n  line-height: 20px;\n  color: rgba(182, 188, 206, 0.7); }\n\n.white {\n  color: #ffffff; }\n\n.big-white-copy, .page-journey .intro {\n  font-size: 24px;\n  line-height: 32px;\n  color: #ffffff; }\n  @media screen and (max-width: 1300px) {\n    .big-white-copy, .page-journey .intro {\n      font-size: 18px;\n      line-height: 24px; } }\n\nimg {\n  max-width: 100%;\n  height: auto; }\n\nmain {\n  position: fixed;\n  left: 0;\n  top: 0;\n  z-index: 500;\n  width: 100%;\n  height: 100%; }\n\n#app {\n  position: fixed;\n  left: 0;\n  top: 0;\n  z-index: 510;\n  width: 100%;\n  height: 100%; }\n\nsection.page, .page-container {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 200; }\n\n.animation-slice .char {\n  display: inline-block; }\n\n.flag-container .signs-container {\n  position: absolute;\n  left: 0;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 200; }\n\n.flag-container img.sign {\n  display: block; }\n\n.flag-container.flag-vertical img.sign {\n  margin: 21px auto; }\n\n.flag-container.flag-vertical.flag-big {\n  width: 54px;\n  height: 134px; }\n  .flag-container.flag-vertical.flag-big .signs-container {\n    width: 54px;\n    height: 134px; }\n\n.animation-line, .line {\n  display: inline-block;\n  clear: left; }\n\nspan.hover-effect {\n  line-height: 1; }\n\n/* FLAG BUTTONS */\n.btn-flag .flag-container {\n  display: inline-block;\n  width: auto;\n  height: auto;\n  position: relative;\n  overflow: visible; }\n  .btn-flag .flag-container svg.flag {\n    z-index: 200;\n    -webkit-transition: 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275);\n    transition: 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275); }\n    .btn-flag .flag-container svg.flag path {\n      fill: #ffffff;\n      border: none;\n      stroke: none; }\n    .btn-flag .flag-container svg.flag path.characters {\n      -webkit-transition: fill 150ms linear 150ms;\n      transition: fill 150ms linear 150ms; }\n    .btn-flag .flag-container svg.flag rect {\n      fill: #ffffff;\n      border-right: 50px solid transparent;\n      border-bottom: 100px solid #ffffff;\n      -webkit-transform: rotate(45deg) translate(-50%, -50%) scale(0);\n              transform: rotate(45deg) translate(-50%, -50%) scale(0);\n      -webkit-transition: 300ms linear 0ms;\n      transition: 300ms linear 0ms; }\n\n.btn-flag h3 {\n  display: inline-block;\n  width: 100%;\n  clear: both;\n  margin: 20px 0 10px 0;\n  font-size: 24px;\n  line-height: 1; }\n\n.btn-flag:hover .flag-container svg.flag {\n  -webkit-transform: scale(1.1);\n          transform: scale(1.1); }\n  .btn-flag:hover .flag-container svg.flag path.characters {\n    fill: #000000; }\n  .btn-flag:hover .flag-container svg.flag rect {\n    -webkit-transform: rotate(45deg) translate(-150px, -150px) scale(1);\n            transform: rotate(45deg) translate(-150px, -150px) scale(1); }\n\nbody.ie-edge .btn-flag .flag-container svg.flag rect {\n  opacity: 0;\n  -webkit-transition: opacity 150ms ease-out;\n  transition: opacity 150ms ease-out; }\n\nbody.ie-edge .btn-flag:hover .flag-container svg.flag rect {\n  -webkit-transform: none;\n          transform: none;\n  opacity: 1; }\n\n.mobile-rotation-info {\n  display: none;\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  overflow: hidden;\n  color: #fff;\n  background: #000;\n  z-index: 9000; }\n  .mobile-rotation-info div {\n    position: absolute;\n    display: block;\n    text-align: center;\n    left: 50%;\n    top: 50%;\n    -webkit-transform: translate(-50%, -50%);\n            transform: translate(-50%, -50%); }\n    .mobile-rotation-info div img {\n      width: 200px; }\n    .mobile-rotation-info div p {\n      margin-top: 10px; }\n      .mobile-rotation-info div p span {\n        color: rgba(182, 188, 206, 0.7); }\n  @media screen and (max-width: 800px) and (orientation: landscape) {\n    .mobile-rotation-info {\n      display: block; } }\n";
-    (t = e.exports = n(253)(!1)), t.push([e.i, newLocal, ""]);
+    (t = e.exports = n(253)(!1)),
+      t.push([
+        e.i,
+        "@font-face {\n  font-family: 'rajdhani';\n  src: url(\"/fonts/rajdhani-bold-webfont.eot\");\n  src: url(\"/fonts/rajdhani-bold-webfont.eot?#iefix\") format(\"embedded-opentype\"), url(\"/fonts/rajdhani-bold-webfont.woff2\") format(\"woff2\"), url(\"/fonts/rajdhani-bold-webfont.woff\") format(\"woff\"), url(\"/fonts/rajdhani-bold-webfont.ttf\") format(\"truetype\"), url(\"/fonts/rajdhani-bold-webfont.svg#rajdhanibold\") format(\"svg\");\n  font-weight: bold;\n  font-style: normal; }\n\n@font-face {\n  font-family: 'rajdhani';\n  src: url(\"/fonts/rajdhani-semibold-webfont.eot\");\n  src: url(\"/fonts/rajdhani-semibold-webfont.eot?#iefix\") format(\"embedded-opentype\"), url(\"/fonts/rajdhani-semibold-webfont.woff2\") format(\"woff2\"), url(\"/fonts/rajdhani-semibold-webfont.woff\") format(\"woff\"), url(\"/fonts/rajdhani-semibold-webfont.ttf\") format(\"truetype\"), url(\"/fonts/rajdhani-semibold-webfont.svg#rajdhanisemibold\") format(\"svg\");\n  font-weight: normal;\n  font-style: normal; }\n\n@font-face {\n  font-family: 'DIN Next Pro Medium';\n  src: url(\"/fonts/DINNextLTPro-Medium.eot\");\n  src: url(\"/fonts/DINNextLTPro-Medium.eot?#iefix\") format(\"embedded-opentype\"), url(\"/fonts/DINNextLTPro-Medium.woff2\") format(\"woff2\"), url(\"/fonts/DINNextLTPro-Medium.woff\") format(\"woff\"), url(\"/fonts/DINNextLTPro-Medium.ttf\") format(\"truetype\");\n  font-weight: normal;\n  font-style: normal; }\n\nh1 {\n  display: inline-block;\n  font-family: 'rajdhani', 'Helvetica Neue', Helvetica, sans-serif;\n  font-weight: bold;\n  font-style: normal;\n  font-size: 110px;\n  line-height: 80px;\n  text-transform: uppercase;\n  margin: 0 0 -7px 0;\n  padding: 0;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n  cursor: inherit; }\n  @media screen and (max-width: 1300px) {\n    h1 {\n      font-size: 70px;\n      line-height: 50px; } }\n  @media screen and (max-width: 800px) {\n    h1 {\n      font-size: 42px;\n      line-height: 36px; } }\n  @media screen and (min-width: 580px) and (max-width: 800px) {\n    h1 {\n      font-size: 70px;\n      line-height: 50px; } }\n\nh2 {\n  display: inline-block;\n  font-family: 'DIN Next Pro Medium', 'Helvetica', Helvetica, sans-serif;\n  font-weight: normal;\n  font-style: normal;\n  color: #ffffff;\n  font-size: 48px;\n  line-height: 50px;\n  margin: 0;\n  padding: 0; }\n  @media screen and (max-width: 1300px) {\n    h2 {\n      font-size: 30px;\n      line-height: 40px; } }\n  @media screen and (min-width: 580px) and (max-width: 800px) {\n    h2 {\n      font-size: 30px;\n      line-height: 40px; } }\n\nh3 {\n  display: inline-block;\n  font-family: 'DIN Next Pro Medium', 'Helvetica', Helvetica, sans-serif;\n  font-weight: normal;\n  font-style: normal;\n  color: #ffffff;\n  font-size: 24px;\n  line-height: 20px;\n  margin: 0;\n  padding: 0; }\n\n/* Slider */\n.slick-slider {\n  position: relative;\n  display: block;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n  -webkit-touch-callout: none;\n  -khtml-user-select: none;\n  -ms-touch-action: pan-y;\n  touch-action: pan-y;\n  -webkit-tap-highlight-color: transparent; }\n\n.slick-list {\n  position: relative;\n  display: block;\n  overflow: hidden;\n  margin: 0;\n  padding: 0; }\n\n.slick-list:focus {\n  outline: none; }\n\n.slick-list.dragging {\n  cursor: pointer;\n  cursor: hand; }\n\n.slick-slider .slick-track,\n.slick-slider .slick-list {\n  -webkit-transform: translate3d(0, 0, 0);\n  transform: translate3d(0, 0, 0); }\n\n.slick-track {\n  position: relative;\n  top: 0;\n  left: 0;\n  display: block;\n  margin-left: auto;\n  margin-right: auto; }\n\n.slick-track:before,\n.slick-track:after {\n  display: table;\n  content: ''; }\n\n.slick-track:after {\n  clear: both; }\n\n.slick-loading .slick-track {\n  visibility: hidden; }\n\n.slick-slide {\n  display: none;\n  float: left;\n  height: 100%;\n  min-height: 1px; }\n\n[dir='rtl'] .slick-slide {\n  float: right; }\n\n.slick-slide img {\n  display: block; }\n\n.slick-slide.slick-loading img {\n  display: none; }\n\n.slick-slide.dragging img {\n  pointer-events: none; }\n\n.slick-initialized .slick-slide {\n  display: block; }\n\n.slick-loading .slick-slide {\n  visibility: hidden; }\n\n.slick-vertical .slick-slide {\n  display: block;\n  height: auto;\n  border: 1px solid transparent; }\n\n.slick-arrow.slick-hidden {\n  display: none; }\n\n.video-background {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 100; }\n  .video-background video {\n    position: absolute;\n    left: 50%;\n    top: 50%;\n    -webkit-transform: translate(-50%, -50%);\n            transform: translate(-50%, -50%);\n    z-index: 200;\n    -o-object-fit: cover;\n       object-fit: cover;\n    opacity: 0;\n    pointer-events: none; }\n  .video-background.menu-bg {\n    z-index: 249; }\n  .video-background .noise {\n    mix-blend-mode: multiply;\n    background-image: url(/assets/images/noise.png);\n    opacity: 0;\n    height: 100%;\n    width: 100%;\n    position: absolute;\n    left: 0;\n    top: 0;\n    z-index: 500; }\n\n@media screen and (max-width: 800px) {\n  body.android main .video-background {\n    background-size: cover !important; }\n    body.android main .video-background video {\n      display: none !important; }\n  body.android main.Home .video-background {\n    background-image: url(https://cdn.ankoku-toshi-jutsu.com/assets/images/videofallbackmobile/01_overview.jpg); }\n  body.android main.Product .video-background {\n    background-image: url(https://cdn.ankoku-toshi-jutsu.com/assets/images/videofallbackmobile/02_product_overview.jpg); }\n  body.android main.Productdetails .video-background {\n    background-image: url(https://cdn.ankoku-toshi-jutsu.com/assets/images/videofallbackmobile/02_product_details.jpg); }\n  body.android main.Items .video-background {\n    background-image: url(https://cdn.ankoku-toshi-jutsu.com/assets/images/videofallbackmobile/03_items_overview.jpg); }\n  body.android main.Itemsdetails .video-background {\n    background-image: url(https://cdn.ankoku-toshi-jutsu.com/assets/images/videofallbackmobile/03_jacket.jpg); }\n  body.android main.Journey .video-background {\n    background-image: url(https://cdn.ankoku-toshi-jutsu.com/assets/images/videofallbackmobile/04_journey_overview.jpg); }\n  body.android main.Journeydetails .video-background {\n    background-image: url(https://cdn.ankoku-toshi-jutsu.com/assets/images/videofallbackmobile/04_journey_02.jpg); }\n  body.android main.Credits .video-background {\n    background-image: url(https://cdn.ankoku-toshi-jutsu.com/assets/images/videofallbackmobile/05_credits.jpg); } }\n\n.main-menu {\n  position: absolute;\n  left: 0;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 510;\n  display: none;\n  background: transparent; }\n  .main-menu video {\n    position: absolute;\n    left: 50%;\n    top: 50%;\n    -webkit-transform: translate(-50%, -50%);\n            transform: translate(-50%, -50%);\n    -o-object-fit: cover;\n       object-fit: cover;\n    z-index: 100;\n    -webkit-transform-origin: 50% 50%;\n            transform-origin: 50% 50%; }\n  .main-menu ul.nav {\n    list-style: none;\n    margin: 0;\n    padding: 0;\n    width: 100%;\n    height: auto;\n    position: absolute;\n    left: 0;\n    top: 50%;\n    z-index: 200;\n    -webkit-transform: translateY(-50%);\n            transform: translateY(-50%); }\n    .main-menu ul.nav li {\n      display: block;\n      -webkit-box-sizing: border-box;\n              box-sizing: border-box;\n      list-style: none;\n      width: 100%;\n      height: 140px;\n      padding: 0 0 0 29.16667%;\n      margin: 0;\n      clear: left;\n      position: relative;\n      cursor: pointer;\n      overflow: hidden;\n      vertical-align: top; }\n      .main-menu ul.nav li span {\n        display: inline-block;\n        overflow: hidden;\n        -webkit-box-sizing: border-box;\n                box-sizing: border-box;\n        pointer-events: none;\n        -webkit-user-select: none;\n           -moz-user-select: none;\n            -ms-user-select: none;\n                user-select: none;\n        color: #5F5E66;\n        -webkit-transition: color 100ms linear;\n        transition: color 100ms linear; }\n        .main-menu ul.nav li span.number {\n          position: absolute;\n          left: 20.83333%;\n          width: 4.16667%;\n          text-align: right; }\n        .main-menu ul.nav li span.title {\n          display: inline-block;\n          font-family: 'rajdhani', 'Helvetica Neue', Helvetica, sans-serif;\n          font-weight: bold;\n          font-style: normal;\n          font-size: 36px;\n          line-height: 26px;\n          text-transform: uppercase;\n          margin: 0;\n          padding: 0;\n          overflow: visible; }\n      .main-menu ul.nav li:last-child {\n        margin-bottom: 0;\n        height: auto; }\n      .main-menu ul.nav li.active span.number {\n        color: #ffffff; }\n      .main-menu ul.nav li.active span.title {\n        color: #ffffff; }\n    .main-menu ul.nav.withhovers li:hover span.number {\n      color: #ffffff; }\n    .main-menu ul.nav.withhovers li:hover span.title {\n      color: #ffffff; }\n  .main-menu .close-button {\n    position: fixed;\n    left: 4.16667%;\n    top: 80%;\n    top: 50%;\n    -webkit-transform: translateY(-50%);\n            transform: translateY(-50%); }\n    .main-menu .close-button .icon-container {\n      float: left; }\n    .main-menu .close-button span {\n      float: right; }\n  .main-menu .shop-container {\n    position: fixed;\n    left: 66.66667%;\n    top: 80%;\n    top: 50%;\n    -webkit-transform: translateY(-50%);\n            transform: translateY(-50%);\n    width: 280px;\n    z-index: 300;\n    font-size: 16px;\n    line-height: 20px; }\n    .main-menu .shop-container .copy {\n      margin-bottom: 16px; }\n    .main-menu .shop-container .white {\n      color: #ffffff;\n      font-size: 24px;\n      line-height: 32px;\n      margin-bottom: 18px; }\n    .main-menu .shop-container .btn-white {\n      width: auto;\n      margin-top: 20px;\n      text-align: center;\n      -webkit-transition: -webkit-transform 150ms ease-out;\n      transition: -webkit-transform 150ms ease-out;\n      transition: transform 150ms ease-out;\n      transition: transform 150ms ease-out, -webkit-transform 150ms ease-out; }\n      .main-menu .shop-container .btn-white img {\n        margin: -7px 10px -7px 0;\n        float: none; }\n      .main-menu .shop-container .btn-white:hover {\n        -webkit-transform: scale(1.05);\n                transform: scale(1.05); }\n  .main-menu ul.small {\n    display: inline-block;\n    width: 180px;\n    list-style: none;\n    margin: 0;\n    padding: 0;\n    position: fixed;\n    right: 12.5%;\n    bottom: 6.66667%;\n    z-index: 450; }\n    .main-menu ul.small li {\n      text-align: right;\n      list-style: none;\n      margin: 0;\n      padding: 0;\n      display: inline-block;\n      float: left;\n      width: 90px; }\n      .main-menu ul.small li a {\n        text-align: right;\n        color: #ffffff;\n        display: inline-block; }\n        .main-menu ul.small li a span {\n          text-align: right;\n          display: inline-block;\n          color: #ffffff; }\n  @media screen and (max-width: 800px) {\n    .main-menu {\n      background-color: #000;\n      overflow: hidden; }\n      .main-menu video {\n        position: fixed; }\n      .main-menu .scroll-container {\n        position: absolute;\n        top: 0;\n        left: 0;\n        width: 100%;\n        height: 100%;\n        z-index: 100;\n        overflow: hidden;\n        overflow-y: auto;\n        -webkit-overflow-scrolling: touch; }\n      .main-menu ul.nav {\n        position: relative;\n        top: auto;\n        -webkit-transform: translateY(0);\n                transform: translateY(0);\n        padding-top: 120px;\n        padding-bottom: 120px; }\n        .main-menu ul.nav li {\n          height: 120px;\n          padding-left: 25%; }\n          .main-menu ul.nav li span.number {\n            width: 26px;\n            left: 12%; }\n      .main-menu .shop-container {\n        display: none; }\n      .main-menu .close-button {\n        top: 30px;\n        left: auto;\n        right: 32px;\n        -webkit-transform: translateY(0%);\n                transform: translateY(0%); }\n        .main-menu .close-button .icon-container {\n          float: right; }\n        .main-menu .close-button span {\n          float: left; }\n      .main-menu ul.small {\n        position: relative;\n        right: auto;\n        bottom: auto;\n        width: 90%;\n        text-align: right;\n        padding-bottom: 40px; }\n        .main-menu ul.small li {\n          float: none; }\n          .main-menu ul.small li a {\n            opacity: 0.3; } }\n  @media screen and (min-width: 580px) and (max-width: 800px) {\n    .main-menu .close-button {\n      position: fixed;\n      right: 4.16667%;\n      top: 6.66667%; } }\n\n.tgwo-link {\n  display: block;\n  position: fixed;\n  left: 4.16667%;\n  top: 6.66667%;\n  z-index: 310;\n  width: 60px;\n  height: 60px; }\n  @media screen and (max-width: 800px) {\n    .tgwo-link {\n      width: 32px;\n      height: 32px;\n      bottom: 40px;\n      left: 32px; } }\n  @media screen and (min-width: 580px) and (max-width: 800px) {\n    .tgwo-link {\n      position: fixed;\n      left: 4.16667%;\n      top: 6.66667%;\n      width: 60px;\n      height: 60px; } }\n\n.tgwo-logo {\n  width: inherit;\n  height: inherit; }\n\n.nav-icon {\n  display: inline-block;\n  overflow: visible;\n  position: fixed;\n  left: 4.16667%;\n  top: 40%;\n  z-index: 320;\n  top: 50%;\n  -webkit-transform: translateY(-50%);\n          transform: translateY(-50%);\n  width: 37px;\n  height: 100px; }\n  .nav-icon a {\n    display: block;\n    width: 37px;\n    height: 24px;\n    z-index: 900;\n    position: absolute;\n    left: 0;\n    top: 50%;\n    margin: -12px 0 0 0; }\n  .nav-icon svg {\n    display: block; }\n    .nav-icon svg path {\n      -webkit-transform-origin: 0 0;\n              transform-origin: 0 0;\n      fill: #ffffff;\n      stroke: #ffffff;\n      stroke-width: 2px; }\n  .nav-icon .page, .nav-icon .pages {\n    width: 37px;\n    font-size: 16px;\n    height: 16px;\n    overflow: hidden !important; }\n  .nav-icon .page {\n    position: relative; }\n    .nav-icon .page .numbers {\n      width: 100%;\n      height: 80px;\n      position: absolute;\n      left: 0;\n      z-index: 100;\n      -webkit-transition: top 400ms ease-out;\n      transition: top 400ms ease-out; }\n      .nav-icon .page .numbers > div {\n        width: 100%;\n        height: 16px;\n        clear: left; }\n    .nav-icon .page.number1 .numbers {\n      top: 0; }\n    .nav-icon .page.number2 .numbers {\n      top: -16px; }\n    .nav-icon .page.number3 .numbers {\n      top: -32px; }\n    .nav-icon .page.number4 .numbers {\n      top: -48px; }\n    .nav-icon .page.number5 .numbers {\n      top: -64px; }\n  .nav-icon .pages {\n    color: rgba(182, 188, 206, 0.7);\n    position: absolute;\n    left: 0;\n    bottom: 0; }\n  @media screen and (max-width: 800px) {\n    .nav-icon {\n      left: auto;\n      right: 0px;\n      top: 0px;\n      -webkit-transform: none;\n              transform: none;\n      position: fixed;\n      width: 90px;\n      height: 70px;\n      overflow: hidden; }\n      .nav-icon a {\n        margin: 0;\n        overflow: hidden;\n        top: 40px; }\n      .nav-icon svg {\n        margin: 0;\n        -webkit-transform-origin: center center;\n                transform-origin: center center;\n        -webkit-transform: rotateY(180deg);\n                transform: rotateY(180deg); }\n      .nav-icon .page, .nav-icon .pages {\n        position: absolute;\n        pointer-events: none;\n        top: 56px;\n        right: 32px;\n        left: auto;\n        width: 10px;\n        font-size: 18px; }\n      .nav-icon .page {\n        top: 32px;\n        height: 19px;\n        border-bottom: 2px solid rgba(182, 188, 206, 0.7); }\n        .nav-icon .page .numbers {\n          width: 100%;\n          height: 95px;\n          position: absolute;\n          left: 0;\n          top: 0;\n          z-index: 100;\n          -webkit-transition: top 400ms ease-out;\n          transition: top 400ms ease-out; }\n          .nav-icon .page .numbers > div {\n            width: 100%;\n            height: 19px;\n            clear: left;\n            font-size: 18px; }\n        .nav-icon .page.number1 .numbers {\n          top: 0; }\n        .nav-icon .page.number2 .numbers {\n          top: -19px; }\n        .nav-icon .page.number3 .numbers {\n          top: -38px; }\n        .nav-icon .page.number4 .numbers {\n          top: -57px; }\n        .nav-icon .page.number5 .numbers {\n          top: -76px; }\n        .nav-icon .page.number6 .numbers {\n          top: -95px; } }\n  @media screen and (min-width: 580px) and (max-width: 800px) {\n    .nav-icon {\n      overflow: visible;\n      position: fixed;\n      right: 4.16667%;\n      top: 6.66667%;\n      z-index: 320;\n      width: 37px;\n      height: 100px; }\n      .nav-icon a {\n        top: 10px; }\n      .nav-icon .page, .nav-icon .pages {\n        right: 50px; }\n      .nav-icon .page {\n        top: 2px; }\n      .nav-icon .pages {\n        top: 25px; } }\n\n@media screen and (max-width: 800px) {\n  main.Getthechance .nav-icon svg path {\n    fill: #000000;\n    stroke: #000000; }\n  main.Getthechance .nav-icon .page {\n    color: #000; } }\n\n.adidas-link {\n  display: block;\n  position: fixed;\n  left: 4.16667%;\n  bottom: 6.66667%;\n  z-index: 330;\n  width: 60px;\n  height: 59px; }\n  @media screen and (max-width: 800px) {\n    .adidas-link {\n      width: 33px;\n      height: 33px;\n      left: 32px;\n      bottom: 32px; } }\n  @media screen and (min-width: 580px) and (max-width: 800px) {\n    .adidas-link {\n      position: fixed;\n      left: 4.16667%;\n      bottom: 6.66667%;\n      width: 60px;\n      height: 59px; } }\n\n.adidas-logo {\n  width: inherit;\n  height: auto; }\n\n.scroll-indicator {\n  position: fixed;\n  left: 50%;\n  bottom: 0;\n  z-index: 340;\n  display: inline-block;\n  width: 4.16667%;\n  height: 6.66667%;\n  width: 50px;\n  min-height: 60px;\n  font-family: 'rajdhani', 'Helvetica Neue', Helvetica, sans-serif;\n  font-weight: bold;\n  font-style: normal;\n  color: #fff;\n  font-size: 16px; }\n  .scroll-indicator .border-grey {\n    position: absolute;\n    left: 0;\n    top: 0;\n    z-index: 100;\n    width: 2px;\n    height: 100%;\n    background: #333; }\n  .scroll-indicator .border {\n    position: absolute;\n    left: 0;\n    top: 0;\n    z-index: 200;\n    width: 2px;\n    height: 100%;\n    background: #ffffff; }\n  .scroll-indicator em {\n    display: inline-block;\n    font-style: normal;\n    -webkit-transform: rotate(-90deg);\n            transform: rotate(-90deg);\n    -webkit-transform-origin: center center;\n            transform-origin: center center;\n    position: absolute;\n    left: 0px;\n    top: 12px; }\n  @media screen and (max-width: 800px) {\n    .scroll-indicator {\n      bottom: 0; } }\n\n.audio-button {\n  position: fixed;\n  right: 4.16667%;\n  bottom: 6.66667%;\n  z-index: 450;\n  display: block;\n  height: 23px;\n  width: 46px;\n  overflow: hidden; }\n  .audio-button .btn {\n    display: block;\n    background: rgba(0, 0, 0, 0);\n    height: 23px;\n    width: 46px;\n    overflow: hidden;\n    /*\n    .bar {\n      position: absolute;\n      left: 0;\n      top: 50%;\n      z-index: 200;\n      width: 100%;\n      height: 2px;\n      background: $color-font-grey;\n      margin-top: -3px;\n      opacity: 1;\n      transition: opacity 200ms linear;\n    }\n    \n    svg {\n      z-index: 100;\n      path {\n        transform-origin: 50% 50%;\n        stroke-width: 2px;\n        stroke: $color-font-grey;\n        fill: none;\n      }\n    }\n    */ }\n    .audio-button .btn img.sine {\n      width: 319px;\n      max-width: 319px;\n      height: 23px;\n      position: absolute;\n      right: -130px;\n      top: 0;\n      z-index: 100;\n      -webkit-transition: right 1200ms ease-in-out;\n      transition: right 1200ms ease-in-out; }\n    .audio-button .btn.play {\n      /*\n      .bar {\n        opacity: 0;\n      }\n      svg {\n        path {\n          stroke: #ffffff;\n        }\n      }\n      */ }\n      .audio-button .btn.play img.sine {\n        right: 0; }\n    .audio-button .btn:hover {\n      /*\n      .bar {\n        opacity: 0;\n      }\n      */ }\n  @media screen and (max-width: 800px) {\n    .audio-button {\n      display: none; } }\n\nmain.Getthechance .audio-button .btn.play .bar, main.Howtobuy .audio-button .btn.play .bar {\n  opacity: 0; }\n\nmain.Getthechance .audio-button .btn.play svg path, main.Howtobuy .audio-button .btn.play svg path {\n  stroke: #000000; }\n\n.shop-button {\n  display: inline-block;\n  width: 140px;\n  position: fixed;\n  right: 4.16667%;\n  top: 6.66667%;\n  z-index: 360;\n  overflow: visible;\n  background: rgba(0, 0, 0, 0); }\n  .shop-button span {\n    display: inline-block;\n    margin-top: 14px;\n    text-align: left;\n    float: left;\n    color: #fff; }\n    .shop-button span:after {\n      display: block;\n      content: '';\n      margin-top: 1px;\n      border-bottom: solid 2px #ffffff;\n      -webkit-transform: scaleX(0);\n              transform: scaleX(0);\n      -webkit-transition: -webkit-transform 150ms ease-in-out;\n      transition: -webkit-transform 150ms ease-in-out;\n      transition: transform 150ms ease-in-out;\n      transition: transform 150ms ease-in-out, -webkit-transform 150ms ease-in-out;\n      -webkit-transform-origin: left center;\n              transform-origin: left center; }\n  .shop-button .icon-container {\n    float: right;\n    position: relative;\n    width: 43px;\n    height: 43px;\n    overflow: visible; }\n    .shop-button .icon-container .circle {\n      background: #ffffff;\n      width: 44px;\n      height: 44px;\n      border-radius: 22px;\n      position: absolute;\n      left: 50%;\n      top: 50%;\n      z-index: 100;\n      -webkit-transform-origin: center center;\n              transform-origin: center center;\n      -webkit-transform: translate(-50%, -50%);\n              transform: translate(-50%, -50%);\n      -webkit-transition: all 150ms ease-in-out;\n      transition: all 150ms ease-in-out; }\n    .shop-button .icon-container img {\n      display: inline-block;\n      position: absolute;\n      left: 50%;\n      top: 50%;\n      z-index: 200;\n      margin: -13px 0 0 -11px;\n      width: 22px;\n      height: 25px; }\n  .shop-button:hover .icon-container .circle {\n    width: 50px;\n    height: 50px;\n    border-radius: 25px; }\n  @media screen and (max-width: 800px) {\n    .shop-button {\n      display: block;\n      top: auto;\n      bottom: 32px;\n      right: 32px;\n      width: 90px; } }\n  @media screen and (min-width: 580px) and (max-width: 800px) {\n    .shop-button {\n      position: fixed;\n      right: 4.16667%;\n      bottom: 6.66667%; } }\n\n.share-icons {\n  display: inline-block;\n  position: fixed;\n  left: 16.66667%;\n  bottom: 6.66667%;\n  z-index: 335;\n  -webkit-transition: left 200ms ease-in-out;\n  transition: left 200ms ease-in-out;\n  text-align: left; }\n  .share-icons a {\n    color: #ffffff;\n    display: inline-block;\n    margin: 0 20px 0 0; }\n  @media screen and (max-width: 800px) {\n    .share-icons {\n      display: none; } }\n\nmain.Prolog .share-icons, main.Trailer .share-icons {\n  position: fixed;\n  left: 4.16667%;\n  bottom: 6.66667%; }\n\n.back-button {\n  display: inline-block;\n  position: fixed;\n  left: 0%;\n  top: 6.66667%;\n  width: 4.16667%;\n  height: 6.66667%;\n  z-index: 350;\n  text-align: right;\n  color: #ffffff; }\n  .back-button .border {\n    width: 100%;\n    height: 2px;\n    background: #ffffff;\n    margin-bottom: 4px; }\n  .back-button svg path {\n    stroke-width: 2px;\n    stroke: #ffffff; }\n\n.head-hint {\n  display: inline-block;\n  position: fixed;\n  left: 16.66667%;\n  top: 6.66667%;\n  z-index: 200;\n  overflow: hidden; }\n  .head-hint .copy {\n    display: block;\n    clear: left; }\n    .head-hint .copy .jsigns {\n      font-weight: bold;\n      letter-spacing: 4px; }\n  .head-hint a {\n    display: inline;\n    width: auto; }\n  .head-hint.date .date {\n    display: inline-block;\n    color: #ffffff; }\n  @media screen and (max-width: 800px) {\n    .head-hint {\n      display: none; } }\n\n.close-button {\n  display: inline-block;\n  width: 95px;\n  position: fixed;\n  right: 4.16667%;\n  top: 6.66667%;\n  z-index: 500;\n  overflow: visible;\n  background: rgba(0, 0, 0, 0); }\n  .close-button span {\n    display: inline-block;\n    margin-top: 14px;\n    text-align: left;\n    float: left;\n    color: #fff;\n    /*\n    &:after {\n      display:block;\n      content: '';\n      margin-top: 1px;\n      border-bottom: solid 2px #ffffff;\n      transform: scaleX(0);\n      transition: transform 150ms ease-in-out;\n      transform-origin: left center;\n    }\n    */ }\n  .close-button .icon-container {\n    float: right;\n    position: relative;\n    width: 43px;\n    height: 43px;\n    overflow: visible; }\n    .close-button .icon-container .circle {\n      background: #ffffff;\n      width: 44px;\n      height: 44px;\n      border-radius: 22px;\n      position: absolute;\n      left: 50%;\n      top: 50%;\n      z-index: 100;\n      -webkit-transform-origin: center center;\n              transform-origin: center center;\n      -webkit-transform: translate(-50%, -50%);\n              transform: translate(-50%, -50%);\n      -webkit-transition: all 300ms ease-out;\n      transition: all 300ms ease-out; }\n    .close-button .icon-container .line {\n      display: block;\n      position: absolute;\n      left: 50%;\n      top: 50%;\n      z-index: 200;\n      margin: -1px 0 0 -9px;\n      width: 18px;\n      height: 2px;\n      background: #000000;\n      -webkit-transition: all 300ms ease-out;\n      transition: all 300ms ease-out; }\n  .close-button:hover .line.line1 {\n    -webkit-transform: rotate(45deg);\n            transform: rotate(45deg); }\n  .close-button:hover .line.line2 {\n    -webkit-transform: rotate(-45deg);\n            transform: rotate(-45deg); }\n  .close-button:hover span {\n    /*\n      &:after {\n        transform: scaleX(1);\n      }\n      */ }\n  .close-button:hover .icon-container .circle {\n    width: 50px;\n    height: 50px;\n    border-radius: 25px; }\n  @media screen and (max-width: 800px) {\n    .close-button {\n      top: 30px;\n      right: 32px; } }\n  @media screen and (min-width: 580px) and (max-width: 800px) {\n    .close-button {\n      position: fixed;\n      right: 4.16667%;\n      top: 6.66667%; } }\n\n.page-indicator {\n  list-style: none;\n  margin: -100px 0 0 0;\n  padding: 0;\n  display: block;\n  overflow: hidden;\n  height: auto;\n  position: fixed;\n  right: 70px;\n  top: 50%;\n  z-index: 380; }\n  .page-indicator li {\n    list-style: none;\n    margin: 2px 0 3px 0;\n    padding: 0;\n    display: block;\n    clear: left;\n    width: 2px;\n    height: 30px;\n    background: rgba(182, 188, 206, 0.7);\n    position: relative;\n    overflow: hidden; }\n    .page-indicator li .bar {\n      height: 60px;\n      width: 2px;\n      background: #FFFFFF;\n      -webkit-transform: scaleY(0);\n              transform: scaleY(0); }\n  @media screen and (max-width: 800px) {\n    .page-indicator {\n      display: none; } }\n\n.page-preloadingpage {\n  background: #0F0F0F url(/assets/images/trailer-bg.png) no-repeat center center;\n  background-size: auto 100%; }\n  .page-preloadingpage .intro-container {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    z-index: 100; }\n    .page-preloadingpage .intro-container img.tgwo-logo {\n      display: block;\n      position: fixed;\n      right: 25%;\n      top: 53.33333%;\n      top: 50%;\n      -webkit-transform: translateY(-50%);\n              transform: translateY(-50%);\n      z-index: 100;\n      width: 60px;\n      height: 59px;\n      margin-top: -28px; }\n    .page-preloadingpage .intro-container img.adidas-logo {\n      display: block;\n      position: fixed;\n      left: 25%;\n      top: 53.33333%;\n      top: 50%;\n      -webkit-transform: translateY(-50%);\n              transform: translateY(-50%);\n      z-index: 100;\n      width: 60px;\n      height: 59px;\n      margin-top: -28px; }\n    .page-preloadingpage .intro-container .hint, .page-preloadingpage .intro-container .hint-mobile {\n      width: 140px;\n      position: absolute;\n      left: 50%;\n      top: 50%;\n      margin: 30px 0 0 -70px;\n      font-size: 15px;\n      line-height: 20px;\n      z-index: 450;\n      text-align: center; }\n    .page-preloadingpage .intro-container .preloading-for-mobile {\n      display: none;\n      color: rgba(182, 188, 206, 0.7);\n      font-size: 18px;\n      width: 120px;\n      text-align: center;\n      position: absolute;\n      left: 50%;\n      top: 50%;\n      margin: -22px 0 0 -68px;\n      z-index: 450;\n      height: 30px;\n      line-height: 1;\n      font-family: 'DIN Next Pro Medium', 'Helvetica', Helvetica, sans-serif;\n      font-weight: normal;\n      font-style: normal; }\n      .page-preloadingpage .intro-container .preloading-for-mobile .status-for-mobile {\n        display: inline-block;\n        width: 40px;\n        height: 30px;\n        text-align: right;\n        color: #ffffff;\n        font-weight: bold;\n        position: relative;\n        overflow: hidden; }\n        .page-preloadingpage .intro-container .preloading-for-mobile .status-for-mobile > span {\n          width: 40px;\n          height: 30px;\n          font-size: 18px;\n          position: absolute;\n          left: -2px;\n          top: 5px;\n          z-index: 100;\n          padding-top: 10px; }\n    .page-preloadingpage .intro-container .hint-mobile {\n      display: none;\n      color: rgba(182, 188, 206, 0.7);\n      font-size: 12px; }\n      .page-preloadingpage .intro-container .hint-mobile span {\n        font-size: 14px;\n        color: #ffffff; }\n    .page-preloadingpage .intro-container #status {\n      width: 150px;\n      height: 150px;\n      position: absolute;\n      left: 50%;\n      top: 50%;\n      margin: -75px 0 0 -75px;\n      z-index: 400; }\n      .page-preloadingpage .intro-container #status svg {\n        fill: #000;\n        position: absolute;\n        left: 50%;\n        top: 50%;\n        margin-left: -12px;\n        margin-top: -11px; }\n    .page-preloadingpage .intro-container .loader {\n      width: 150px;\n      height: 150px;\n      position: absolute;\n      border: #5b5b5b 1px solid;\n      border-radius: 50%;\n      -webkit-animation-name: loader;\n              animation-name: loader;\n      -webkit-animation-duration: 4s;\n              animation-duration: 4s;\n      -webkit-animation-iteration-count: infinite;\n              animation-iteration-count: infinite;\n      -webkit-animation-timing-function: cubic-bezier(0.55, 0.23, 0.62, 1);\n              animation-timing-function: cubic-bezier(0.55, 0.23, 0.62, 1); }\n    .page-preloadingpage .intro-container .second {\n      -webkit-animation-delay: 2s;\n              animation-delay: 2s;\n      -webkit-transform: scale(0.4);\n              transform: scale(0.4);\n      opacity: 0; }\n\n@-webkit-keyframes loader {\n  0% {\n    -webkit-transform: scale(0.4);\n            transform: scale(0.4);\n    opacity: 0; }\n  50% {\n    opacity: 1; }\n  100% {\n    -webkit-transform: scale(1.3);\n            transform: scale(1.3);\n    opacity: 0; } }\n\n@keyframes loader {\n  0% {\n    -webkit-transform: scale(0.4);\n            transform: scale(0.4);\n    opacity: 0; }\n  50% {\n    opacity: 1; }\n  100% {\n    -webkit-transform: scale(1.3);\n            transform: scale(1.3);\n    opacity: 0; } }\n    .page-preloadingpage .intro-container img.desktop-icon {\n      display: none; }\n    @media screen and (max-width: 800px) {\n      .page-preloadingpage .intro-container img.adidas-logo {\n        top: 10%;\n        left: 50%;\n        -webkit-transform: translate(-50%, -50%);\n                transform: translate(-50%, -50%);\n        margin-top: 0; }\n      .page-preloadingpage .intro-container img.tgwo-logo {\n        top: 80%;\n        left: 50%;\n        -webkit-transform: translate(-50%, -50%);\n                transform: translate(-50%, -50%);\n        margin-top: 0; }\n      .page-preloadingpage .intro-container .hint, .page-preloadingpage .intro-container #status {\n        top: 45%; }\n      .page-preloadingpage .intro-container .hint {\n        display: none; }\n      .page-preloadingpage .intro-container .hint-mobile {\n        display: block; }\n      .page-preloadingpage .intro-container #status svg path {\n        display: none; }\n      .page-preloadingpage .intro-container img.desktop-icon {\n        display: none;\n        width: 48px;\n        height: auto;\n        position: absolute;\n        left: 50%;\n        top: 50%;\n        margin: -18px 0 0 -24px;\n        z-index: 450; }\n      .page-preloadingpage .intro-container .preloading-for-mobile {\n        display: block; } }\n  .page-preloadingpage .trailer-container {\n    width: 100%;\n    height: 100%;\n    position: relative; }\n  .page-preloadingpage .audio-button {\n    display: none; }\n  .page-preloadingpage .playpausecontrols {\n    position: fixed;\n    left: 4.16667%;\n    bottom: 6.66667%;\n    z-index: 300;\n    width: 100px;\n    height: 20px; }\n    .page-preloadingpage .playpausecontrols a {\n      display: none;\n      width: auto; }\n      .page-preloadingpage .playpausecontrols a span {\n        display: inline-block;\n        width: auto; }\n  .page-preloadingpage .video-container {\n    opacity: 0;\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    z-index: 120;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    padding: 0; }\n    .page-preloadingpage .video-container .video-wrapper {\n      position: relative;\n      width: 100%;\n      height: 100%;\n      margin: 0; }\n      .page-preloadingpage .video-container .video-wrapper video {\n        display: block;\n        height: auto;\n        width: 100%;\n        position: absolute;\n        left: 50%;\n        top: 50%;\n        -webkit-transform: translate(-50%, -50%);\n                transform: translate(-50%, -50%);\n        z-index: 100; }\n      .page-preloadingpage .video-container .video-wrapper .progress-bar {\n        opacity: 0;\n        position: absolute;\n        left: 0;\n        bottom: 0;\n        z-index: 200;\n        width: 0;\n        height: 2px;\n        background: #ffffff;\n        -webkit-transition: opacity 200ms linear;\n        transition: opacity 200ms linear; }\n      .page-preloadingpage .video-container .video-wrapper:hover .progress-bar {\n        opacity: 1; }\n  .page-preloadingpage .preload-container {\n    opacity: 0;\n    display: inline-block;\n    position: fixed;\n    left: 4.16667%;\n    bottom: 6.66667%;\n    z-index: 200;\n    left: 50%;\n    -webkit-transform: translateX(-50%);\n            transform: translateX(-50%);\n    font-size: 20px;\n    text-align: center; }\n    .page-preloadingpage .preload-container .preloading {\n      display: block;\n      color: rgba(182, 188, 206, 0.7);\n      font-size: 16px;\n      line-height: 1;\n      font-family: 'DIN Next Pro Medium', 'Helvetica', Helvetica, sans-serif;\n      font-weight: normal;\n      font-style: normal; }\n      .page-preloadingpage .preload-container .preloading .status {\n        display: inline-block;\n        width: 40px;\n        height: 18px;\n        text-align: right;\n        color: #ffffff;\n        font-weight: bold;\n        position: relative;\n        overflow: hidden; }\n        .page-preloadingpage .preload-container .preloading .status > span {\n          width: 40px;\n          height: 18px;\n          font-size: 16px;\n          position: absolute;\n          left: -2px;\n          top: 4px;\n          z-index: 100; }\n      .page-preloadingpage .preload-container .preloading .percentage100 {\n        display: inline-block;\n        padding-bottom: 2px;\n        vertical-align: 1px; }\n    .page-preloadingpage .preload-container .finished {\n      display: none;\n      opacity: 0;\n      line-height: 1;\n      font-size: 18px; }\n\n.page-prolog .video-container {\n  position: absolute;\n  left: 0;\n  top: 0;\n  z-index: 100;\n  width: 100%;\n  height: 100%; }\n  .page-prolog .video-container video {\n    position: absolute;\n    left: 0;\n    top: 0;\n    -o-object-fit: cover;\n       object-fit: cover; }\n  .page-prolog .video-container video.video1 {\n    opacity: 0;\n    z-index: 100; }\n  .page-prolog .video-container video.video2 {\n    opacity: 0;\n    z-index: 200; }\n\n.page-prolog .signs-first {\n  position: absolute;\n  left: 50%;\n  bottom: 110px;\n  -webkit-transform: translateX(-50%);\n          transform: translateX(-50%);\n  z-index: 200;\n  display: none;\n  opacity: 0; }\n  .page-prolog .signs-first svg path {\n    fill: white;\n    stroke: none; }\n\n.page-prolog .start-button {\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  z-index: 240;\n  -webkit-transform: translate(-50%, -50%);\n          transform: translate(-50%, -50%);\n  display: none;\n  width: 280px;\n  overflow: visible; }\n  .page-prolog .start-button .circles {\n    width: 280px;\n    height: 280px;\n    position: relative;\n    overflow: visible; }\n    .page-prolog .start-button .circles svg {\n      overflow: visible; }\n      .page-prolog .start-button .circles svg circle {\n        cursor: pointer;\n        fill: rgba(255, 255, 255, 0);\n        stroke-width: 2;\n        -webkit-transform-origin: 50% 50%;\n                transform-origin: 50% 50%;\n        -webkit-transform: rotate(-90deg);\n                transform: rotate(-90deg); }\n        .page-prolog .start-button .circles svg circle.outer {\n          stroke: #7A7A7A; }\n        .page-prolog .start-button .circles svg circle.inner {\n          stroke: #ffffff; }\n\n.page-prolog .desc {\n  margin: 25px 0 0 0;\n  font-family: 'DIN Next Pro Medium', 'Helvetica', Helvetica, sans-serif;\n  font-weight: normal;\n  font-style: normal;\n  text-align: center;\n  font-size: 15px;\n  line-height: 120%;\n  color: #ffffff;\n  height: 35px; }\n\n.page-home h1 {\n  display: inline-block;\n  position: fixed;\n  left: 16.66667%;\n  bottom: 26.66667%;\n  z-index: 100; }\n\n.page-home .hl-info {\n  position: absolute;\n  display: none;\n  max-width: 200px;\n  top: 329px;\n  left: 16%;\n  color: rgba(182, 188, 206, 0.7); }\n\n.page-home .video-overlay {\n  display: none; }\n\n.page-home .video-container {\n  position: fixed;\n  right: 16.66667%;\n  top: 26.66667%;\n  z-index: 210;\n  width: 220px;\n  text-align: left; }\n  .page-home .video-container .video {\n    width: 210px;\n    height: 118px;\n    background: url(/assets/images/homevideo-bg.jpg) no-repeat center center;\n    background-size: 210px 118px; }\n    .page-home .video-container .video video {\n      width: 210px;\n      height: 118px;\n      -webkit-transition: -webkit-transform 150ms ease-out;\n      transition: -webkit-transform 150ms ease-out;\n      transition: transform 150ms ease-out;\n      transition: transform 150ms ease-out, -webkit-transform 150ms ease-out; }\n  .page-home .video-container:hover video {\n    -webkit-transform: scale(1.05);\n            transform: scale(1.05); }\n  @media screen and (min-width: 801px) and (max-width: 1000px) {\n    .page-home .video-container {\n      position: fixed;\n      right: 12.5%;\n      top: 26.66667%; } }\n\n.page-home .hl-info-desktop {\n  display: inline-block;\n  position: fixed;\n  left: 16.66667%;\n  bottom: 26.66667%;\n  z-index: 100;\n  margin: 0 0 -50px 0;\n  font-size: 20px;\n  color: rgba(182, 188, 206, 0.7);\n  line-height: 32px; }\n  @media screen and (max-width: 1300px) {\n    .page-home .hl-info-desktop {\n      font-size: 14px;\n      line-height: 23px;\n      margin-bottom: -30px; } }\n\n.page-home .btn-explore {\n  position: fixed;\n  right: 16.66667%;\n  bottom: 26.66667%;\n  z-index: 210;\n  width: 220px;\n  text-align: left;\n  margin: 0 0 -50px 0; }\n  .page-home .btn-explore .copy {\n    text-align: right;\n    color: #ffffff;\n    font-size: 24px;\n    line-height: 32px;\n    margin: 5px 0 0 0; }\n    @media screen and (max-width: 1300px) {\n      .page-home .btn-explore .copy {\n        font-size: 18px;\n        line-height: 24px; } }\n  @media screen and (min-width: 801px) and (max-width: 1000px) {\n    .page-home .btn-explore {\n      position: fixed;\n      right: 12.5%;\n      bottom: 26.66667%; } }\n\n.page-home .playfilm-btn {\n  position: relative;\n  display: none;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  width: 220px;\n  height: 50px;\n  border: 2px solid #fff;\n  font-size: 18px;\n  text-align: center;\n  padding-top: 14px;\n  margin: 465px auto 0;\n  color: #fff;\n  cursor: pointer; }\n  .page-home .playfilm-btn .play-icon {\n    display: inline-block;\n    font-size: 42px;\n    line-height: 0;\n    vertical-align: middle;\n    padding-top: 4px;\n    padding-right: 7px; }\n  .page-home .playfilm-btn .play-btn-bg {\n    position: absolute;\n    display: block;\n    bottom: 0;\n    left: 0;\n    width: 100%;\n    height: 0;\n    background-color: #fff;\n    z-index: -1;\n    will-change: height;\n    -webkit-transition: height 0.1s ease-out;\n    transition: height 0.1s ease-out; }\n\n@media screen and (max-width: 800px) {\n  .page-home h1 {\n    bottom: auto;\n    top: 25%;\n    left: 16%; }\n  .page-home .hl-info-desktop {\n    display: none; }\n  .page-home .hl-info {\n    display: block;\n    top: 45%; }\n  .page-home .video-overlay {\n    display: none;\n    position: fixed;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    background-color: #000;\n    z-index: 400; }\n    .page-home .video-overlay video {\n      position: relative;\n      display: block;\n      width: 100%;\n      height: 100%; }\n  .page-home .video-container {\n    display: none; }\n  .page-home .btn-explore {\n    display: none; }\n  .page-home .countdown-container {\n    position: relative;\n    top: auto;\n    left: auto;\n    margin-left: 16%;\n    margin-top: 143px;\n    width: 218px; }\n    .page-home .countdown-container .countdown {\n      font-size: 32px; }\n  .page-home .story-container {\n    display: none; }\n  .page-home .playfilm-btn {\n    display: block;\n    top: 65%;\n    left: 16%;\n    margin: 0; } }\n\n.page-product h1 {\n  display: inline-block;\n  position: fixed;\n  left: 16.66667%;\n  top: 26.66667%;\n  z-index: 100; }\n\n.page-product .teaser {\n  position: fixed;\n  left: 16.66667%;\n  bottom: 20%;\n  width: 240px;\n  font-size: 24px;\n  line-height: 32px; }\n\n.page-product a.btn {\n  display: inline-block;\n  width: 130px; }\n  .page-product a.btn.btn-viewmore {\n    display: none;\n    position: absolute;\n    left: 62px;\n    top: 290px; }\n    .page-product a.btn.btn-viewmore .copy {\n      width: 136px;\n      margin-top: 6px; }\n      .page-product a.btn.btn-viewmore .copy span {\n        display: block;\n        margin-top: 6px;\n        color: #fff; }\n  .page-product a.btn.btn-design {\n    position: fixed;\n    left: 50%;\n    bottom: 20%; }\n  .page-product a.btn.btn-details {\n    position: fixed;\n    left: 62.5%;\n    bottom: 20%; }\n  .page-product a.btn.btn-materials {\n    position: fixed;\n    left: 75%;\n    bottom: 20%; }\n  @media screen and (min-width: 801px) and (max-width: 1000px) {\n    .page-product a.btn.btn-design {\n      position: fixed;\n      left: 45.83333%;\n      bottom: 20%; }\n    .page-product a.btn.btn-materials {\n      position: fixed;\n      left: 79.16667%;\n      bottom: 20%; } }\n\n@media screen and (max-width: 800px) {\n  .page-product h1 {\n    left: 16%;\n    top: 25%; }\n  .page-product .teaser {\n    display: none; }\n  .page-product a.btn.btn-design, .page-product a.btn.btn-details, .page-product a.btn.btn-materials {\n    display: none; }\n  .page-product a.btn.btn-viewmore {\n    display: block;\n    top: 46%;\n    left: 16%; }\n    .page-product a.btn.btn-viewmore .flag-container {\n      display: block; }\n  .page-product a.btn.btn-flag .flag-container {\n    display: block; } }\n\n.page-design h1 {\n  display: inline-block;\n  position: fixed;\n  left: 20.83333%;\n  top: 33.33333%;\n  z-index: 100; }\n\n.page-details h1 {\n  display: inline-block;\n  position: fixed;\n  left: 20.83333%;\n  top: 33.33333%;\n  z-index: 100; }\n\n.page-details nav {\n  position: fixed;\n  left: 4.16667%;\n  top: 6.66667%;\n  z-index: 300; }\n  .page-details nav ul {\n    list-style: none;\n    margin: 0;\n    padding: 0;\n    display: block; }\n    .page-details nav ul li {\n      display: inline-block;\n      float: left;\n      margin: 0 40px 0 0;\n      padding: 0; }\n      .page-details nav ul li a {\n        display: inline-block;\n        line-height: 1;\n        color: rgba(182, 188, 206, 0.7);\n        padding: 0 0 10px 0;\n        border-bottom: solid 2px rgba(182, 188, 206, 0.7);\n        position: relative;\n        -webkit-transition: color 150ms ease-in-out;\n        transition: color 150ms ease-in-out; }\n        .page-details nav ul li a:after {\n          position: absolute;\n          width: 100%;\n          height: 2px;\n          left: 0;\n          bottom: -2px;\n          z-index: 100;\n          display: block;\n          content: '';\n          background: #FFFFFF;\n          -webkit-transition: -webkit-transform 150ms ease-in-out;\n          transition: -webkit-transform 150ms ease-in-out;\n          transition: transform 150ms ease-in-out;\n          transition: transform 150ms ease-in-out, -webkit-transform 150ms ease-in-out;\n          -webkit-transform: scaleX(0);\n                  transform: scaleX(0);\n          -webkit-transform-origin: left center;\n                  transform-origin: left center; }\n        .page-details nav ul li a.active {\n          color: #ffffff; }\n          .page-details nav ul li a.active:after {\n            -webkit-transform: scaleX(1);\n                    transform: scaleX(1); }\n        .page-details nav ul li a:hover {\n          color: #ffffff; }\n          .page-details nav ul li a:hover:after {\n            -webkit-transform: scaleX(1);\n                    transform: scaleX(1); }\n\n.page-details .detail {\n  position: fixed;\n  left: 4.16667%;\n  bottom: 6.66667%;\n  width: 400px;\n  max-width: 100%;\n  color: #ffffff;\n  display: none;\n  opacity: 0;\n  font-size: 20px;\n  line-height: 28px; }\n  .page-details .detail h3 {\n    display: none;\n    margin-bottom: 28px; }\n\n.page-details .readmore-btn,\n.page-details .readless-btn {\n  position: fixed;\n  left: 34px;\n  bottom: 0;\n  z-index: 340;\n  display: none;\n  height: 72px;\n  width: 50px;\n  font-family: 'rajdhani', 'Helvetica Neue', Helvetica, sans-serif;\n  font-weight: bold;\n  font-style: normal;\n  color: #fff;\n  font-size: 16px; }\n  .page-details .readmore-btn .border,\n  .page-details .readless-btn .border {\n    width: 2px;\n    height: 100%;\n    background: #ffffff; }\n  .page-details .readmore-btn em,\n  .page-details .readless-btn em {\n    display: inline-block;\n    font-style: normal;\n    -webkit-transform-origin: top left;\n            transform-origin: top left;\n    -webkit-transform: rotate(-90deg);\n            transform: rotate(-90deg);\n    position: absolute;\n    width: 80px;\n    height: 0px;\n    left: 10px;\n    bottom: 10px; }\n\n.page-details .readless-btn {\n  bottom: auto;\n  top: 0px;\n  height: 66px; }\n  .page-details .readless-btn em {\n    -webkit-transform: rotate(90deg);\n            transform: rotate(90deg);\n    bottom: auto;\n    top: 10px;\n    left: 24px; }\n\n@media screen and (max-width: 800px) {\n  .page-details nav {\n    opacity: 0;\n    display: none; }\n  .page-details .detail-container {\n    position: fixed;\n    display: none;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    height: 100%;\n    width: 100%;\n    padding-top: 200px;\n    padding-bottom: 50px;\n    overflow: hidden;\n    overflow-y: auto;\n    -webkit-overflow-scrolling: touch;\n    background-color: rgba(0, 0, 0, 0.6); }\n  .page-details .detail {\n    position: relative;\n    left: auto;\n    bottom: auto;\n    display: block;\n    opacity: 1;\n    width: 65%;\n    margin: 0 auto 70px auto;\n    color: rgba(182, 188, 206, 0.7);\n    text-align: justify;\n    font-size: 16px;\n    line-height: 24px; }\n    .page-details .detail h3 {\n      display: block; }\n  .page-details .readmore-btn,\n  .page-details .readless-btn {\n    display: inline-block; } }\n\n.page-materials h1 {\n  display: inline-block;\n  position: fixed;\n  left: 20.83333%;\n  top: 33.33333%;\n  z-index: 100; }\n\n.page-items h1 {\n  display: inline-block;\n  position: fixed;\n  left: 16.66667%;\n  top: 26.66667%;\n  z-index: 100; }\n\n.page-items .btn {\n  display: inline-block; }\n  .page-items .btn h2 {\n    margin: 27px 0; }\n  .page-items .btn.btn-viewmore {\n    display: none;\n    position: absolute;\n    left: 62px;\n    top: 290px; }\n    .page-items .btn.btn-viewmore .copy {\n      width: 136px;\n      margin-top: 6px; }\n      .page-items .btn.btn-viewmore .copy span {\n        display: block;\n        margin-top: 6px;\n        color: #fff; }\n  .page-items .btn.btn-longsleeve {\n    position: fixed;\n    right: 16.66667%;\n    top: 26.66667%;\n    text-align: right;\n    width: 190px; }\n  .page-items .btn.btn-jacket {\n    position: fixed;\n    left: 16.66667%;\n    bottom: 20%;\n    width: 160px; }\n\n.page-items .limited {\n  position: fixed;\n  right: 16.66667%;\n  bottom: 20%;\n  width: 210px;\n  text-align: right;\n  font-size: 24px;\n  line-height: 32px;\n  color: #ffffff; }\n\n@media screen and (max-width: 800px) {\n  .page-items h1 {\n    left: 16%;\n    top: 25%; }\n  .page-items .btn.btn-longsleeve, .page-items .btn.btn-jacket {\n    display: none; }\n  .page-items .btn.btn-viewmore {\n    display: block;\n    top: 46%;\n    left: 16%; }\n    .page-items .btn.btn-viewmore .flag-container {\n      display: block; }\n  .page-items .limited {\n    display: none; } }\n\n.page-journey h1 {\n  display: inline-block;\n  position: fixed;\n  left: 16.66667%;\n  top: 26.66667%;\n  z-index: 100; }\n\n.page-journey .intro {\n  position: fixed;\n  left: 16.66667%;\n  bottom: 20%;\n  width: 100%;\n  max-width: 420px; }\n\n.page-journey .video-container {\n  position: fixed;\n  right: 16.66667%;\n  top: 26.66667%;\n  z-index: 210;\n  width: 210px;\n  text-align: right; }\n  .page-journey .video-container .img {\n    width: 210px;\n    height: 118px;\n    -webkit-transition: -webkit-transform 150ms ease-out;\n    transition: -webkit-transform 150ms ease-out;\n    transition: transform 150ms ease-out;\n    transition: transform 150ms ease-out, -webkit-transform 150ms ease-out;\n    background: url(/assets/images/journeyvideo-bg.jpg) no-repeat center center;\n    background-size: 210px 118px;\n    margin-bottom: 5px; }\n  .page-journey .video-container:hover .img {\n    -webkit-transform: scale(1.05);\n            transform: scale(1.05); }\n\n.page-journey .btn.btn-viewmore {\n  display: none;\n  position: absolute;\n  left: 62px;\n  top: 343px; }\n  .page-journey .btn.btn-viewmore .copy {\n    display: block;\n    width: 136px;\n    margin-top: 6px; }\n    .page-journey .btn.btn-viewmore .copy span {\n      display: block;\n      margin-top: 6px;\n      color: #fff; }\n\n.page-journey .btn.btn-story {\n  position: fixed;\n  right: 16.66667%;\n  bottom: 20%;\n  width: 100%;\n  max-width: 210px;\n  text-align: right; }\n\n@media screen and (max-width: 800px) {\n  .page-journey h1 {\n    left: 16%;\n    top: 25%; }\n  .page-journey .video-container {\n    display: none; }\n  .page-journey .intro {\n    display: none; }\n  .page-journey .btn.btn-story {\n    display: none; }\n  .page-journey .btn.btn-viewmore {\n    display: block;\n    top: 46%;\n    left: 16%; } }\n\n.page-gallery h1 {\n  display: inline-block;\n  position: fixed;\n  left: 16.66667%;\n  top: 33.33333%;\n  z-index: 200;\n  -webkit-transform-origin: 0 100%;\n          transform-origin: 0 100%; }\n\n.page-gallery .intro {\n  display: inline-block;\n  position: fixed;\n  left: 16.66667%;\n  bottom: 33.33333%;\n  width: 12.5%;\n  z-index: 210;\n  -webkit-transform-origin: 0 0;\n          transform-origin: 0 0; }\n  .page-gallery .intro h2 {\n    font-size: 24px;\n    line-height: 1;\n    margin: 0 0 20px 0; }\n\n.page-gallery .slider-container {\n  position: absolute;\n  left: 0;\n  top: 50%;\n  width: 100%;\n  height: auto;\n  z-index: 300;\n  -webkit-transform: translateY(-50%);\n          transform: translateY(-50%); }\n  .page-gallery .slider-container .slick-list {\n    cursor: hand; }\n  .page-gallery .slider-container .slide {\n    width: 50%;\n    height: 100%;\n    outline: none;\n    overflow: hidden; }\n    .page-gallery .slider-container .slide a {\n      display: block;\n      overflow: hidden;\n      width: 100%;\n      height: 100%; }\n    .page-gallery .slider-container .slide .img-wrapper {\n      overflow: hidden;\n      width: 100%;\n      height: 100%; }\n    .page-gallery .slider-container .slide img {\n      width: 100%;\n      height: auto;\n      -webkit-transition: -webkit-transform 1400ms ease-in-out;\n      transition: -webkit-transform 1400ms ease-in-out;\n      transition: transform 1400ms ease-in-out;\n      transition: transform 1400ms ease-in-out, -webkit-transform 1400ms ease-in-out;\n      -webkit-transform-origin: center center;\n              transform-origin: center center; }\n    .page-gallery .slider-container .slide:hover img {\n      -webkit-transform: scale(1.1);\n              transform: scale(1.1); }\n\n.page-gallery .drag-indicator, .page-gallery .go-button {\n  border-top: solid 2px #ffffff;\n  width: 4.16667%;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  position: absolute;\n  z-index: 400;\n  -webkit-transform: translateY(-50%);\n          transform: translateY(-50%);\n  text-align: left;\n  padding-top: 5px;\n  overflow: hidden;\n  -webkit-transition: width 300ms cubic-bezier(0.24, 0.715, 0.285, 0.94), -webkit-transform 200ms ease-in-out;\n  transition: width 300ms cubic-bezier(0.24, 0.715, 0.285, 0.94), -webkit-transform 200ms ease-in-out;\n  transition: transform 200ms ease-in-out, width 300ms cubic-bezier(0.24, 0.715, 0.285, 0.94);\n  transition: transform 200ms ease-in-out, width 300ms cubic-bezier(0.24, 0.715, 0.285, 0.94), -webkit-transform 200ms ease-in-out; }\n  .page-gallery .drag-indicator:hover, .page-gallery .go-button:hover {\n    width: 5.20833%; }\n  .page-gallery .drag-indicator.prev, .page-gallery .go-button.prev {\n    position: fixed;\n    left: 4.16667%;\n    bottom: 26.66667%;\n    left: 0;\n    text-align: right;\n    -webkit-transform: translateX(0);\n            transform: translateX(0); }\n    .page-gallery .drag-indicator.prev.hidden, .page-gallery .go-button.prev.hidden {\n      -webkit-transform: translateX(-100%);\n              transform: translateX(-100%); }\n  .page-gallery .drag-indicator.next, .page-gallery .go-button.next {\n    position: fixed;\n    right: 4.16667%;\n    bottom: 26.66667%;\n    right: 0;\n    -webkit-transform: translateX(0);\n            transform: translateX(0); }\n    .page-gallery .drag-indicator.next.hidden, .page-gallery .go-button.next.hidden {\n      -webkit-transform: translateX(100%);\n              transform: translateX(100%); }\n\n@media screen and (max-width: 800px) {\n  .page-gallery h1 {\n    left: 16%;\n    top: 25%; }\n  .page-gallery .intro {\n    display: none; }\n  .page-gallery .drag-indicator {\n    display: none; }\n  .page-gallery .slider-container {\n    top: 60%; }\n  .page-gallery .mobile-swipe-info {\n    position: absolute;\n    width: 100%;\n    height: 50%;\n    background-color: rgba(0, 0, 0, 0);\n    z-index: 500;\n    top: 35%; }\n    .page-gallery .mobile-swipe-info p {\n      -webkit-transform: rotate(-90deg);\n              transform: rotate(-90deg);\n      -webkit-transform-origin: center;\n              transform-origin: center;\n      display: inline-block;\n      position: absolute;\n      top: 50%;\n      left: 10%;\n      opacity: 0.3;\n      pointer-events: none;\n      -webkit-user-select: none;\n         -moz-user-select: none;\n          -ms-user-select: none;\n              user-select: none; }\n      .page-gallery .mobile-swipe-info p span {\n        display: block;\n        position: absolute;\n        width: 32px;\n        height: 2px;\n        background-color: #fff;\n        -webkit-transform-origin: top left;\n                transform-origin: top left;\n        -webkit-transform: rotate(90deg);\n                transform: rotate(90deg);\n        left: 50%;\n        top: 30px; }\n  .page-gallery .slider-fullview {\n    display: none;\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    overflow: hidden;\n    z-index: 500;\n    background-color: #000; }\n    .page-gallery .slider-fullview .img-container {\n      display: block;\n      position: absolute;\n      left: 0;\n      top: 0;\n      width: 100%;\n      height: 100%;\n      overflow: hidden;\n      overflow-x: auto;\n      -webkit-overflow-scrolling: touch; }\n    .page-gallery .slider-fullview img {\n      width: auto;\n      height: 100%;\n      max-width: 8000px; } }\n\n.page-image {\n  background: #111111; }\n  .page-image .slider-container {\n    position: absolute;\n    left: 0;\n    top: 0;\n    z-index: 200;\n    width: 100%;\n    height: 100%;\n    z-index: 300; }\n    .page-image .slider-container .slick-list {\n      height: 100%;\n      cursor: hand; }\n    .page-image .slider-container .slick-track {\n      height: 100%;\n      cursor: hand; }\n    .page-image .slider-container .slide, .page-image .slider-container .slick-slide {\n      width: 100%;\n      height: 100%;\n      outline: none;\n      overflow: hidden;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center; }\n      .page-image .slider-container .slide div, .page-image .slider-container .slick-slide div {\n        width: 100%;\n        height: 100%; }\n      .page-image .slider-container .slide .img, .page-image .slider-container .slick-slide .img {\n        background-position: center;\n        background-size: cover; }\n      .page-image .slider-container .slide img, .page-image .slider-container .slick-slide img {\n        width: 100%;\n        height: auto; }\n  .page-image .btn {\n    border-top: solid 2px #ffffff;\n    width: 4.16667%;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    z-index: 400;\n    height: 18px;\n    padding-top: 5px;\n    -webkit-transition: width 300ms cubic-bezier(0.24, 0.715, 0.285, 0.94);\n    transition: width 300ms cubic-bezier(0.24, 0.715, 0.285, 0.94);\n    -webkit-transform: translateY(-50%);\n            transform: translateY(-50%); }\n    .page-image .btn.prev-btn {\n      position: fixed;\n      left: 4.16667%;\n      top: 93.33333%;\n      left: 0;\n      text-align: right; }\n    .page-image .btn.next-btn {\n      position: fixed;\n      right: 4.16667%;\n      top: 93.33333%;\n      right: 0;\n      text-align: left; }\n    .page-image .btn:hover {\n      width: 5.20833%; }\n  .page-image .image-indicator {\n    list-style: none;\n    margin: -8px 0 0 0;\n    padding: 0;\n    display: block;\n    overflow: hidden;\n    height: 18px;\n    position: fixed;\n    left: 4.16667%;\n    top: 93.33333%;\n    left: 50%;\n    z-index: 500;\n    -webkit-transform: translateX(-50%);\n            transform: translateX(-50%); }\n    .page-image .image-indicator li {\n      list-style: none;\n      margin: 0 3px 0 2px;\n      padding: 0;\n      display: block;\n      float: left;\n      width: 30px;\n      height: 2px;\n      background: rgba(182, 188, 206, 0.7);\n      position: relative;\n      overflow: hidden; }\n      .page-image .image-indicator li .bar {\n        height: 2px;\n        width: 60px;\n        background: #FFFFFF;\n        -webkit-transform: scaleX(0);\n                transform: scaleX(0); }\n    @media screen and (max-width: 800px) {\n      .page-image .image-indicator {\n        display: none; } }\n\n.page-container.Getthechance {\n  z-index: 500; }\n\n.page-getthechance {\n  color: #000000;\n  background: transparent; }\n  .page-getthechance video {\n    position: absolute;\n    left: 50%;\n    top: 50%;\n    -webkit-transform: translate(-50%, -50%);\n            transform: translate(-50%, -50%);\n    z-index: 100;\n    -webkit-transform-origin: 50% 50%;\n            transform-origin: 50% 50%; }\n  .page-getthechance .overview, .page-getthechance .shops {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    left: 0;\n    top: 0;\n    z-index: 100; }\n  .page-getthechance .overview {\n    display: block; }\n  .page-getthechance .shops {\n    display: none;\n    overflow: auto; }\n    .page-getthechance .shops .back-button {\n      display: block;\n      position: fixed;\n      left: 0;\n      top: 50%;\n      width: 70px;\n      height: 26px;\n      text-align: right;\n      color: #000000;\n      padding: 12px 0 0 0;\n      border-top: solid 2px black;\n      -webkit-transition: all 300ms ease-out;\n      transition: all 300ms ease-out; }\n      .page-getthechance .shops .back-button:hover {\n        width: 105px; }\n    .page-getthechance .shops h1 {\n      position: absolute; }\n  .page-getthechance .shops-lists {\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    margin: 0 0 0 16.66667%; }\n    .page-getthechance .shops-lists ul {\n      list-style: none;\n      margin: 0 0 100px 0;\n      padding: 0;\n      width: 400px;\n      float: left; }\n      .page-getthechance .shops-lists ul li {\n        display: block;\n        width: 100%;\n        margin: 0 0 25px 0;\n        line-height: 1; }\n        .page-getthechance .shops-lists ul li em {\n          display: inline-block;\n          margin: 0 0 0 10px;\n          color: rgba(182, 188, 206, 0.7);\n          font-style: normal; }\n        .page-getthechance .shops-lists ul li.header {\n          font-size: 24px; }\n        .page-getthechance .shops-lists ul li.spacer {\n          height: 10px; }\n  .page-getthechance h1 {\n    display: inline-block;\n    position: fixed;\n    left: 16.66667%;\n    top: 26.66667%;\n    z-index: 200;\n    color: #000000; }\n  .page-getthechance .close-button span {\n    color: #000000; }\n  .page-getthechance .close-button .icon-container .circle {\n    background: #000000; }\n  .page-getthechance .close-button .icon-container .line {\n    background: #ffffff; }\n  .page-getthechance .sub {\n    position: fixed;\n    left: 16.66667%;\n    top: 40%;\n    z-index: 200; }\n    .page-getthechance .sub ul {\n      list-style: none;\n      margin: 0;\n      padding: 0;\n      display: block; }\n      .page-getthechance .sub ul li {\n        display: block;\n        float: left;\n        width: 210px; }\n        .page-getthechance .sub ul li.article-details {\n          line-height: 28px; }\n        @media screen and (min-width: 801px) and (max-width: 1200px) {\n          .page-getthechance .sub ul li {\n            width: 160px; } }\n    .page-getthechance .sub small {\n      color: #9B9B9B;\n      display: block;\n      margin: 0 0 5px 0; }\n      .page-getthechance .sub small.article-head {\n        margin-bottom: 10px;\n        line-height: 1; }\n    .page-getthechance .sub span {\n      color: #000000; }\n      .page-getthechance .sub span.date {\n        font-size: 24px;\n        line-height: 32px; }\n  .page-getthechance .intro {\n    position: fixed;\n    left: 16.66667%;\n    bottom: 20%;\n    z-index: 220;\n    width: 210px; }\n    .page-getthechance .intro .first {\n      color: #000000;\n      font-size: 16px;\n      line-height: 20px; }\n    .page-getthechance .intro .second {\n      display: block;\n      clear: left;\n      color: #9B9B9B;\n      font-size: 16px;\n      line-height: 20px;\n      margin: 10px 0 0 0; }\n  .page-getthechance .form-head, .page-getthechance .shops-head {\n    position: fixed;\n    left: 66.66667%;\n    top: 40%;\n    z-index: 220;\n    width: 280px;\n    color: #000000;\n    font-size: 24px;\n    line-height: 32px; }\n  .page-getthechance .shops-button-wrapper {\n    position: fixed;\n    left: 66.66667%;\n    bottom: 20%;\n    z-index: 220; }\n  .page-getthechance .form-container {\n    position: fixed;\n    left: 66.66667%;\n    bottom: 20%;\n    z-index: 220;\n    width: 280px;\n    color: #000000; }\n    .page-getthechance .form-container form {\n      display: block;\n      width: 100%; }\n      .page-getthechance .form-container form .group {\n        display: block;\n        width: 100%;\n        clear: left; }\n      .page-getthechance .form-container form input, .page-getthechance .form-container form select {\n        -webkit-box-sizing: border-box;\n                box-sizing: border-box;\n        background: transparent;\n        outline: none;\n        border: none;\n        width: 100%;\n        border-bottom: solid 2px #000000;\n        padding: 5px 2px 13px 2px;\n        line-height: 1;\n        font-size: 16px;\n        color: #000000;\n        border-radius: 0px;\n        margin: 0 0 20px 0;\n        display: block;\n        -webkit-appearance: none;\n        -moz-appearance: none;\n        background: transparent; }\n        .page-getthechance .form-container form input::-webkit-input-placeholder, .page-getthechance .form-container form select::-webkit-input-placeholder {\n          color: #000000; }\n        .page-getthechance .form-container form input::-moz-placeholder, .page-getthechance .form-container form select::-moz-placeholder {\n          color: #000000; }\n        .page-getthechance .form-container form input::-ms-input-placeholder, .page-getthechance .form-container form select::-ms-input-placeholder {\n          color: #000000; }\n        .page-getthechance .form-container form input::placeholder, .page-getthechance .form-container form select::placeholder {\n          color: #000000; }\n        .page-getthechance .form-container form input.select, .page-getthechance .form-container form select.select {\n          background: transparent url(/assets/images/arrow-down-black.png) no-repeat right 5px top 10px;\n          background-size: 12px 8px;\n          text-indent: 0.01px;\n          text-overflow: ''; }\n          .page-getthechance .form-container form input.select option, .page-getthechance .form-container form select.select option {\n            background: #ffffff;\n            color: #000000; }\n        .page-getthechance .form-container form input.button, .page-getthechance .form-container form select.button {\n          display: inline-block;\n          background: #000000;\n          border-bottom: none;\n          color: white;\n          width: auto;\n          padding: 20px 35px 20px 35px;\n          cursor: pointer;\n          -webkit-transition: -webkit-transform 150ms ease-out;\n          transition: -webkit-transform 150ms ease-out;\n          transition: transform 150ms ease-out;\n          transition: transform 150ms ease-out, -webkit-transform 150ms ease-out;\n          margin-bottom: 0; }\n          .page-getthechance .form-container form input.button:hover, .page-getthechance .form-container form select.button:hover {\n            -webkit-transform: scale(1.05);\n                    transform: scale(1.05); }\n        .page-getthechance .form-container form input.error, .page-getthechance .form-container form select.error {\n          border-bottom: solid 2px #CE3232;\n          color: #CE3232; }\n          .page-getthechance .form-container form input.error::-webkit-input-placeholder, .page-getthechance .form-container form select.error::-webkit-input-placeholder {\n            color: #CE3232; }\n          .page-getthechance .form-container form input.error::-moz-placeholder, .page-getthechance .form-container form select.error::-moz-placeholder {\n            color: #CE3232; }\n          .page-getthechance .form-container form input.error::-ms-input-placeholder, .page-getthechance .form-container form select.error::-ms-input-placeholder {\n            color: #CE3232; }\n          .page-getthechance .form-container form input.error::placeholder, .page-getthechance .form-container form select.error::placeholder {\n            color: #CE3232; }\n  @media screen and (max-width: 800px) {\n    .page-getthechance {\n      background: #ffffff; }\n      .page-getthechance .tgwo-link,\n      .page-getthechance .adidas-link {\n        display: none; }\n      .page-getthechance .close-button {\n        display: none; }\n      .page-getthechance .form-head {\n        position: relative;\n        left: auto;\n        top: auto;\n        font-size: 18px;\n        width: 100%;\n        line-height: 28px; }\n      .page-getthechance .form-container {\n        position: relative;\n        bottom: auto;\n        left: auto;\n        margin-top: 20px;\n        width: 100%; }\n      .page-getthechance h1 {\n        left: 10%;\n        width: 80%;\n        top: 18%;\n        font-size: 32px;\n        line-height: 26px; }\n      .page-getthechance .shops-lists {\n        margin: 130px 0 0 0 !important;\n        overflow: hidden; }\n        .page-getthechance .shops-lists ul {\n          width: 100%;\n          margin-bottom: 40px; }\n          .page-getthechance .shops-lists ul li {\n            margin-bottom: 15px; }\n      .page-getthechance .sub {\n        left: 10%;\n        top: 32%;\n        width: 80%; }\n        .page-getthechance .sub ul li {\n          width: 45%; }\n        .page-getthechance .sub span.date {\n          font-size: 16px;\n          line-height: 32px; }\n        .page-getthechance .sub span.article-details {\n          line-height: 28px; }\n        .page-getthechance .sub .button {\n          -webkit-box-sizing: border-box;\n                  box-sizing: border-box;\n          background: transparent;\n          outline: none;\n          border: none;\n          line-height: 1;\n          font-size: 16px;\n          border-radius: 0px;\n          margin: 10px 0 0;\n          display: inline-block;\n          background: #000000;\n          color: white;\n          width: auto;\n          padding: 16px 20px;\n          cursor: pointer;\n          -webkit-transition: -webkit-transform 150ms ease-out;\n          transition: -webkit-transform 150ms ease-out;\n          transition: transform 150ms ease-out;\n          transition: transform 150ms ease-out, -webkit-transform 150ms ease-out; }\n      .page-getthechance .intro {\n        position: relative;\n        left: 0px;\n        bottom: auto;\n        top: 20px; }\n      .page-getthechance .mobile-first {\n        position: absolute;\n        display: block;\n        width: 100%;\n        height: 100%;\n        z-index: 200; }\n      .page-getthechance .mobile-second {\n        position: absolute;\n        display: block;\n        width: 100%;\n        height: 100%;\n        z-index: 200;\n        -webkit-transform: translateX(100%);\n                transform: translateX(100%);\n        padding: 100px 10% 40px;\n        -webkit-box-sizing: border-box;\n                box-sizing: border-box;\n        overflow-y: auto;\n        -webkit-overflow-scrolling: touch; }\n        .page-getthechance .mobile-second .close-button {\n          display: block;\n          position: fixed !important; }\n      .page-getthechance .form-info {\n        margin-top: 30px; } }\n\n.page-credits div {\n  overflow: visible; }\n\n.page-credits .content-container {\n  width: 100%;\n  height: 100%;\n  overflow-y: scroll;\n  -webkit-overflow-scrolling: touch; }\n\n.page-credits h1 {\n  font-size: 90px;\n  line-height: 75px;\n  display: inline-block;\n  margin-top: 46.66667%;\n  width: 100%;\n  z-index: 200;\n  text-align: center; }\n  .page-credits h1 small {\n    color: rgba(182, 188, 206, 0.7);\n    font-size: 16px;\n    text-align: center;\n    display: block;\n    clear: left;\n    margin: 10px 0 0 0;\n    line-height: 1; }\n\n.page-credits .logos {\n  margin: 120px auto;\n  width: 548px;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -ms-flex-wrap: nowrap;\n      flex-wrap: nowrap;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -ms-flex-pack: distribute;\n      justify-content: space-around; }\n  .page-credits .logos a {\n    -webkit-transition: -webkit-transform 150ms ease-out;\n    transition: -webkit-transform 150ms ease-out;\n    transition: transform 150ms ease-out;\n    transition: transform 150ms ease-out, -webkit-transform 150ms ease-out; }\n    .page-credits .logos a:hover {\n      -webkit-transform: scale(1.05);\n              transform: scale(1.05); }\n  .page-credits .logos img.dayy {\n    width: 129px;\n    float: left; }\n  .page-credits .logos img.adidas {\n    width: 63px; }\n  .page-credits .logos img.tgwo {\n    width: 70px;\n    float: right; }\n\n.page-credits .line {\n  width: 60px;\n  height: 2px;\n  background: #ffffff;\n  clear: left;\n  margin: 120px 0 120px calc(50% - 30px); }\n\n.page-credits .spacer {\n  width: 100%;\n  height: 120px;\n  clear: left; }\n\n.page-credits .block {\n  clear: left;\n  width: 70.83333%;\n  margin: 0 auto 90px auto; }\n  .page-credits .block .row {\n    width: 100%;\n    padding: 0 0 20px 0;\n    line-height: 120%;\n    overflow: hidden; }\n    .page-credits .block .row > .left {\n      width: 50%;\n      float: left;\n      font-size: 20px;\n      color: rgba(182, 188, 206, 0.7);\n      text-align: right;\n      -webkit-box-sizing: border-box;\n              box-sizing: border-box;\n      padding: 0 35px 0 0; }\n    .page-credits .block .row > .right {\n      width: 50%;\n      float: left;\n      font-size: 20px;\n      -webkit-box-sizing: border-box;\n              box-sizing: border-box;\n      padding: 0 0 0 35px; }\n\n@media screen and (max-width: 800px) {\n  .page-credits h1 {\n    font-size: 48px;\n    line-height: 37px; }\n  .page-credits .logos {\n    width: 100%; }\n    .page-credits .logos a {\n      width: 33.3%;\n      display: block;\n      text-align: center; }\n    .page-credits .logos img.dayy {\n      width: 89px;\n      float: none; }\n    .page-credits .logos img.adidas {\n      width: 53px; }\n    .page-credits .logos img.tgwo {\n      width: 60px;\n      float: none; }\n  .page-credits .block {\n    width: 90%; }\n    .page-credits .block .row > .left {\n      font-size: 14px;\n      padding: 0 20px 0 0; }\n    .page-credits .block .row > .right {\n      font-size: 14px;\n      padding: 0 0 0 20px; } }\n\n.page-imprint .content-container {\n  width: 100%;\n  max-width: 600px;\n  margin: 0 auto;\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  -webkit-transform: translate(-50%, -50%);\n          transform: translate(-50%, -50%); }\n  .page-imprint .content-container h2 {\n    display: block;\n    width: 100%;\n    margin: 0 0 50px 0; }\n  .page-imprint .content-container a {\n    display: inline-block;\n    width: auto;\n    position: relative; }\n    .page-imprint .content-container a span {\n      display: inline-block;\n      width: auto; }\n\n@media screen and (max-width: 800px) {\n  .page-imprint .content-container {\n    width: 80%; } }\n\n.page-viewtrailer .trailer-container {\n  width: 100%;\n  height: 100%;\n  position: relative; }\n\n.page-viewtrailer .video-container {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 120;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  padding: 175px 0; }\n  .page-viewtrailer .video-container .video-wrapper {\n    position: relative;\n    width: 100%;\n    height: 100%;\n    margin: 0; }\n    .page-viewtrailer .video-container .video-wrapper video {\n      display: block;\n      height: 100%;\n      width: auto;\n      margin: 0 auto;\n      /*\n        position: absolute;\n        left: 50%;\n        top: 50%;\n        transform: translate(-50%, -50%);\n        //object-fit: cover;\n        z-index: 100;\n        */ }\n    .page-viewtrailer .video-container .video-wrapper .progress-bar {\n      opacity: 0;\n      position: absolute;\n      left: 0;\n      bottom: 0;\n      z-index: 200;\n      width: 0;\n      height: 2px;\n      background: #ffffff;\n      -webkit-transition: opacity 200ms linear;\n      transition: opacity 200ms linear; }\n    .page-viewtrailer .video-container .video-wrapper:hover .progress-bar {\n      opacity: 1; }\n\n.page-viewtrailer .playpausecontrols {\n  position: fixed;\n  left: 4.16667%;\n  bottom: 6.66667%;\n  z-index: 300;\n  width: 100px;\n  height: 20px; }\n  .page-viewtrailer .playpausecontrols a {\n    display: none;\n    width: auto; }\n    .page-viewtrailer .playpausecontrols a span {\n      display: inline-block;\n      width: auto; }\n\n.page-viewtrailer .time {\n  position: fixed;\n  left: 4.16667%;\n  bottom: 6.66667%;\n  z-index: 310;\n  left: 50%;\n  -webkit-transform: translateX(-50%);\n          transform: translateX(-50%);\n  color: rgba(182, 188, 206, 0.7); }\n  .page-viewtrailer .time .current {\n    color: #ffffff;\n    font-weight: bold; }\n\n.page-viewtrailer .fullscreen {\n  position: fixed;\n  right: 12.5%;\n  bottom: 6.66667%;\n  z-index: 310; }\n\nbody {\n  background: #000;\n  color: #fff;\n  font-family: 'DIN Next Pro Medium', 'Helvetica', Helvetica, sans-serif;\n  font-weight: normal;\n  font-style: normal;\n  font-size: 16px;\n  line-height: 1;\n  width: 100%;\n  height: 100%;\n  padding: 0;\n  margin: 0;\n  overflow: hidden; }\n\nbody, div, span {\n  text-rendering: optimizeLegibility !important;\n  -webkit-font-smoothing: antialiased !important; }\n\na {\n  color: #fff;\n  text-decoration: none; }\n  a .hover-effect {\n    display: inline-block; }\n    a .hover-effect:after {\n      display: block;\n      content: '';\n      margin-top: 1px;\n      border-bottom: solid 2px #ffffff;\n      -webkit-transform: scaleX(0);\n              transform: scaleX(0);\n      -webkit-transition: -webkit-transform 150ms ease-in-out;\n      transition: -webkit-transform 150ms ease-in-out;\n      transition: transform 150ms ease-in-out;\n      transition: transform 150ms ease-in-out, -webkit-transform 150ms ease-in-out;\n      -webkit-transform-origin: left center;\n              transform-origin: left center; }\n  a .hover-effect-dark {\n    display: inline-block; }\n    a .hover-effect-dark:after {\n      display: block;\n      content: '';\n      margin-top: 1px;\n      border-bottom: solid 2px #000000;\n      -webkit-transform: scaleX(0);\n              transform: scaleX(0);\n      -webkit-transition: -webkit-transform 150ms ease-in-out;\n      transition: -webkit-transform 150ms ease-in-out;\n      transition: transform 150ms ease-in-out;\n      transition: transform 150ms ease-in-out, -webkit-transform 150ms ease-in-out;\n      -webkit-transform-origin: left center;\n              transform-origin: left center; }\n  a:hover .hover-effect:after, a:hover .hover-effect-dark:after {\n    -webkit-transform: scaleX(1);\n            transform: scaleX(1); }\n\n.btn-white {\n  background: #ffffff;\n  color: #000000;\n  display: inline-block;\n  width: 100%;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  padding: 18px 22px; }\n  .btn-white img {\n    width: 22px;\n    height: 25px;\n    float: left;\n    margin: -2px 10px 0 0; }\n\n.btn-black {\n  background: #000000;\n  display: inline-block;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  border-bottom: none;\n  color: white;\n  width: auto;\n  padding: 20px 35px 20px 35px;\n  cursor: pointer;\n  -webkit-transition: -webkit-transform 150ms ease-out;\n  transition: -webkit-transform 150ms ease-out;\n  transition: transform 150ms ease-out;\n  transition: transform 150ms ease-out, -webkit-transform 150ms ease-out;\n  margin-bottom: 0; }\n  .btn-black:hover {\n    -webkit-transform: scale(1.05);\n            transform: scale(1.05); }\n\np {\n  margin: 0 0 10px 0;\n  overflow: visible; }\n\np.copy {\n  display: inline-block;\n  clear: left;\n  font-family: 'DIN Next Pro Medium', 'Helvetica', Helvetica, sans-serif;\n  font-weight: normal;\n  font-style: normal;\n  font-size: 16px;\n  line-height: 20px;\n  color: rgba(182, 188, 206, 0.7); }\n\n.white {\n  color: #ffffff; }\n\n.big-white-copy, .page-journey .intro {\n  font-size: 24px;\n  line-height: 32px;\n  color: #ffffff; }\n  @media screen and (max-width: 1300px) {\n    .big-white-copy, .page-journey .intro {\n      font-size: 18px;\n      line-height: 24px; } }\n\nimg {\n  max-width: 100%;\n  height: auto; }\n\nmain {\n  position: fixed;\n  left: 0;\n  top: 0;\n  z-index: 500;\n  width: 100%;\n  height: 100%; }\n\n#app {\n  position: fixed;\n  left: 0;\n  top: 0;\n  z-index: 510;\n  width: 100%;\n  height: 100%; }\n\nsection.page, .page-container {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 200; }\n\n.animation-slice .char {\n  display: inline-block; }\n\n.flag-container .signs-container {\n  position: absolute;\n  left: 0;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 200; }\n\n.flag-container img.sign {\n  display: block; }\n\n.flag-container.flag-vertical img.sign {\n  margin: 21px auto; }\n\n.flag-container.flag-vertical.flag-big {\n  width: 54px;\n  height: 134px; }\n  .flag-container.flag-vertical.flag-big .signs-container {\n    width: 54px;\n    height: 134px; }\n\n.animation-line, .line {\n  display: inline-block;\n  clear: left; }\n\nspan.hover-effect {\n  line-height: 1; }\n\n/* FLAG BUTTONS */\n.btn-flag .flag-container {\n  display: inline-block;\n  width: auto;\n  height: auto;\n  position: relative;\n  overflow: visible; }\n  .btn-flag .flag-container svg.flag {\n    z-index: 200;\n    -webkit-transition: 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275);\n    transition: 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275); }\n    .btn-flag .flag-container svg.flag path {\n      fill: #ffffff;\n      border: none;\n      stroke: none; }\n    .btn-flag .flag-container svg.flag path.characters {\n      -webkit-transition: fill 150ms linear 150ms;\n      transition: fill 150ms linear 150ms; }\n    .btn-flag .flag-container svg.flag rect {\n      fill: #ffffff;\n      border-right: 50px solid transparent;\n      border-bottom: 100px solid #ffffff;\n      -webkit-transform: rotate(45deg) translate(-50%, -50%) scale(0);\n              transform: rotate(45deg) translate(-50%, -50%) scale(0);\n      -webkit-transition: 300ms linear 0ms;\n      transition: 300ms linear 0ms; }\n\n.btn-flag h3 {\n  display: inline-block;\n  width: 100%;\n  clear: both;\n  margin: 20px 0 10px 0;\n  font-size: 24px;\n  line-height: 1; }\n\n.btn-flag:hover .flag-container svg.flag {\n  -webkit-transform: scale(1.1);\n          transform: scale(1.1); }\n  .btn-flag:hover .flag-container svg.flag path.characters {\n    fill: #000000; }\n  .btn-flag:hover .flag-container svg.flag rect {\n    -webkit-transform: rotate(45deg) translate(-150px, -150px) scale(1);\n            transform: rotate(45deg) translate(-150px, -150px) scale(1); }\n\nbody.ie-edge .btn-flag .flag-container svg.flag rect {\n  opacity: 0;\n  -webkit-transition: opacity 150ms ease-out;\n  transition: opacity 150ms ease-out; }\n\nbody.ie-edge .btn-flag:hover .flag-container svg.flag rect {\n  -webkit-transform: none;\n          transform: none;\n  opacity: 1; }\n\n.mobile-rotation-info {\n  display: none;\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  overflow: hidden;\n  color: #fff;\n  background: #000;\n  z-index: 9000; }\n  .mobile-rotation-info div {\n    position: absolute;\n    display: block;\n    text-align: center;\n    left: 50%;\n    top: 50%;\n    -webkit-transform: translate(-50%, -50%);\n            transform: translate(-50%, -50%); }\n    .mobile-rotation-info div img {\n      width: 200px; }\n    .mobile-rotation-info div p {\n      margin-top: 10px; }\n      .mobile-rotation-info div p span {\n        color: rgba(182, 188, 206, 0.7); }\n  @media screen and (max-width: 800px) and (orientation: landscape) {\n    .mobile-rotation-info {\n      display: block; } }\n",
+        "",
+      ]);
   },
   function (e, t, n) {
     "use strict";
@@ -32675,8 +32653,7 @@ object-assign
                       "div",
                       { className: "intro-container" },
                       p.default.createElement("img", {
-                        src:
-                          "https://www.ankoku-toshi-jutsu.com/assets/images/adidas-logo.png",
+                        src: "/assets/images/adidas-logo.png",
                         alt: "Adidias",
                         className: "adidas-logo logo-left",
                       }),
@@ -32734,8 +32711,7 @@ object-assign
                           )
                         ),
                         p.default.createElement("img", {
-                          src:
-                            "https://www.ankoku-toshi-jutsu.com/assets/images/desktop_icon.png",
+                          src: "/assets/images/desktop_icon.png",
                           className: "desktop-icon",
                         }),
                         p.default.createElement(
@@ -32767,9 +32743,8 @@ object-assign
                         )
                       ),
                       p.default.createElement("img", {
-                        src:
-                          "https://facelessdevhack.github.io/MetaStudio-2/imgs/meta-logo.png",
-                        alt: "Meta-Studio",
+                        src: "/assets/images/tgwo-logo.png",
+                        alt: "The Good Will Out",
                         className: "tgwo-logo logo-right",
                       })
                     ),
@@ -39113,13 +39088,15 @@ object-assign
         })),
         P.extend(P.Defs, {
           pattern: function (e, t, n) {
-            return this.put(new P.Pattern()).update(n).attr({
-              x: 0,
-              y: 0,
-              width: e,
-              height: t,
-              patternUnits: "userSpaceOnUse",
-            });
+            return this.put(new P.Pattern())
+              .update(n)
+              .attr({
+                x: 0,
+                y: 0,
+                width: e,
+                height: t,
+                patternUnits: "userSpaceOnUse",
+              });
           },
         }),
         (P.Shape = P.invent({
@@ -40241,10 +40218,10 @@ object-assign
                         d.default.createElement(
                           "span",
                           { className: "white jsigns" },
-                          "見る芸術"
+                          "\u6697\u9ED2\u900F\u8996\u8853"
                         ),
                         d.default.createElement("br", null),
-                        "3 - 6 - 9 Master Key of the Universe"
+                        "The Art Of Seeing Through Darkness"
                       )
                     ),
                     d.default.createElement(
@@ -40253,13 +40230,13 @@ object-assign
                       d.default.createElement(
                         "span",
                         { className: "animation-slice" },
-                        "\u2014 MATTER "
+                        "\u2014 Ankoku "
                       ),
                       d.default.createElement("br", null),
                       d.default.createElement(
                         "span",
                         { className: "animation-slice" },
-                        "IS\xA0ENERGY"
+                        "Toshi\xA0Jutsu"
                       )
                     ),
                     d.default.createElement(
@@ -40300,18 +40277,18 @@ object-assign
                       d.default.createElement(
                         "p",
                         { className: "copy animation-default" },
-                        "Decode our vizion"
+                        "Explore the sneaker"
                       )
                     ),
                     d.default.createElement(
                       "p",
                       { className: "hl-info" },
-                      "We are Meta Studios Creative Agency located in the Harajuku District of Neo Tokyo, Japan"
+                      "adidas Consortium x The Good Will Out NMD_CS1 PK"
                     ),
                     d.default.createElement(
                       "p",
                       { className: "hl-info-desktop animation-default" },
-                      "We are Meta Studios Creative Agency located in the Harajuku District of Neo Tokyo, Japan"
+                      "adidas Consortium x The Good Will Out NMD_CS1 PK"
                     ),
                     d.default.createElement(
                       "div",
@@ -40443,6 +40420,7 @@ object-assign
                   f.pageAnimations.defaultIn(this.$element, e);
                 },
               },
+              { key: "componentDidEnter", value: function () {} },
               {
                 key: "componentWillLeave",
                 value: function (e) {
@@ -40475,64 +40453,234 @@ object-assign
                         d.default.createElement(
                           "span",
                           { className: "date" },
-                          "コアな信念"
+                          "23\xA0\u2014\xA009\xA0\u2014\xA017"
                         ),
                         d.default.createElement("br", null),
-                        d.default.createElement("span", null, "Core beliefs")
+                        d.default.createElement(
+                          "span",
+                          null,
+                          "Worldwide release"
+                        )
                       )
                     ),
                     d.default.createElement(
-                      "div",
-                      { className: "stripe" },
-                      d.default.createElement("img", {
-                        src: "./imgs/stripes.png",
-                        className: "stripes",
-                      }),
+                      "h1",
+                      { className: "animation-wrapper" },
                       d.default.createElement(
-                        "h1",
-                        { className: "animation-wrapper" },
-                        d.default.createElement(
-                          "span",
-                          { className: "animation-slice" },
-                          "Decode"
-                        ),
-                        d.default.createElement("br", null),
-                        d.default.createElement(
-                          "span",
-                          { className: "animation-slice" },
-                          "Our"
-                        ),
-                        d.default.createElement("span", { className: "" }, " "),
-                        d.default.createElement(
-                          "span",
-                          { className: "animation-slice" },
-                          "Vision _"
-                        )
+                        "span",
+                        { className: "animation-slice" },
+                        "The"
+                      ),
+                      d.default.createElement("br", null),
+                      d.default.createElement(
+                        "span",
+                        { className: "animation-slice" },
+                        "Artefact_"
                       )
                     ),
                     d.default.createElement(
                       "div",
                       { className: "teaser animation-lines" },
-                      "Meta Studios Creative Agency was born in 2017 with the goal to manifest intentional design that can reconnect science and spirituality, merging energy field optics with interactive multimedia for a emerging Neo technolgical Singularity society.  "
-                    ),
-                    d.default.createElement("img", {
-                      src: "./imgs/dot-circle.png",
-                      className: "dot-circle",
-                    }),
-                    d.default.createElement(
-                      "a",
-                      { className: "link-decode" },
-                      "Our Team"
+                      "The Good Will Out x adidas Consortium NMD_CS1 PK Ankoku Toshi Jutsu."
                     ),
                     d.default.createElement(
                       "a",
-                      { className: "link-decode-1" },
-                      "Corporate Profile"
+                      {
+                        href: "javascript:void(0);",
+                        className: "btn btn-flag btn-viewmore",
+                        onClick: this.onClick,
+                        "data-pagehash": "productdetails/",
+                      },
+                      d.default.createElement(
+                        "div",
+                        { className: "flag-container animation-default" },
+                        d.default.createElement(
+                          "svg",
+                          {
+                            width: "120px",
+                            height: "50px",
+                            viewBox: "0 0 120 50",
+                            version: "1.1",
+                          },
+                          d.default.createElement(
+                            "g",
+                            {
+                              id: "Page-1",
+                              stroke: "none",
+                              strokeWidth: "1",
+                              fill: "none",
+                              fillRule: "evenodd",
+                            },
+                            d.default.createElement(
+                              "g",
+                              { id: "Artboard-2" },
+                              d.default.createElement(
+                                "g",
+                                { id: "Group-7" },
+                                d.default.createElement("path", {
+                                  d:
+                                    "M24.136,23.4 L33.336,23.4 L33.336,21.944 L29.96,21.944 L29.96,17.88 L28.472,17.88 L28.472,21.944 L24.136,21.944 L24.136,18.344 L22.616,18.344 L22.616,24.248 C22.584,27.624 21.768,30.088 20.168,31.624 L21.336,32.648 C22.648,31.368 23.496,29.56 23.896,27.224 L29.928,27.224 L29.928,32.68 L31.448,32.68 L31.448,25.768 L24.072,25.768 C24.104,25.288 24.136,24.792 24.136,24.248 L24.136,23.4 Z M41.1279998,20.12 L41.1279998,21.592 L45.5279998,21.592 C45.4959998,22.072 45.4639998,22.76 45.4319998,23.64 C45.3519998,25.144 45.0479998,26.504 44.5039998,27.72 C43.9599998,28.936 42.8399998,30.248 41.1439998,31.672 L42.2479998,32.728 C43.6559998,31.576 44.7599998,30.312 45.5439998,28.936 C46.1199998,27.912 46.5039998,26.776 46.7279998,25.544 L51.9599998,25.544 C51.9279998,27.752 51.8799998,29.144 51.7839998,29.688 C51.5919998,30.648 51.1599998,31.128 50.4879998,31.16 C49.9119998,31.16 49.1919998,31.128 48.3439998,31.096 L48.7919998,32.472 C49.4959998,32.52 50.1199998,32.552 50.6319998,32.552 C51.8959998,32.52 52.6959998,31.864 53.0479998,30.584 C53.3039998,29.704 53.4479998,27.544 53.4959998,24.104 L46.9039998,24.104 L47.0319998,21.592 L55.3519998,21.592 L55.3519998,20.12 L49.4159998,20.12 C49.0639998,19.224 48.6639998,18.456 48.2319998,17.8 L46.7919998,18.328 C47.2079998,18.904 47.5599998,19.496 47.8639998,20.12 L41.1279998,20.12 Z M69.7359996,19.784 C71.5599996,19.784 73.0799996,20.328 74.3279996,21.416 C75.5439996,22.504 76.1519996,23.864 76.1519996,25.496 C76.1519996,27.32 75.5759996,28.76 74.4559996,29.784 C73.4639996,30.648 71.8959996,31.304 69.7839996,31.752 L69.2719996,30.296 C71.1599996,29.944 72.5199996,29.384 73.3519996,28.648 C74.1519996,27.912 74.5679996,26.856 74.5679996,25.496 C74.5679996,24.216 74.0559996,23.176 73.0479996,22.376 C72.2479996,21.736 71.3199996,21.368 70.2639996,21.272 L69.9119996,24.248 C69.6399996,26.04 69.2559996,27.432 68.7439996,28.456 C68.0399996,29.912 67.1119996,30.648 65.9599996,30.648 C64.9519996,30.648 64.1359996,30.216 63.5119996,29.368 C62.9359996,28.552 62.6479996,27.56 62.6479996,26.408 C62.6479996,24.648 63.2559996,23.144 64.5039996,21.88 C65.8479996,20.472 67.5919996,19.784 69.7359996,19.784 Z M65.9599996,29.192 C66.8559996,29.192 67.5919996,27.864 68.1519996,25.24 C68.4079996,24.008 68.5999996,22.696 68.7279996,21.304 C67.6399996,21.464 66.6959996,21.928 65.8799996,22.696 C64.7759996,23.688 64.2319996,24.936 64.2319996,26.408 C64.2319996,27.24 64.4079996,27.928 64.7599996,28.456 C65.0799996,28.936 65.4799996,29.192 65.9599996,29.192 Z M92.5839994,26.664 L92.5839994,25 C92.9359994,24.792 93.2879994,24.568 93.6239994,24.344 L93.6239994,18.12 L95.0479994,18.12 L95.0479994,23.176 C95.6879994,22.568 96.3119994,21.88 96.9199994,21.128 L97.8479994,22.408 C96.8719994,23.432 95.9439994,24.312 95.0479994,25.032 L95.0479994,30.616 C95.0479994,30.936 95.1919994,31.096 95.4799994,31.096 L96.0399994,31.096 C96.2319994,31.096 96.3759994,30.968 96.4719994,30.728 C96.5679994,30.456 96.6479994,29.624 96.6799994,28.248 L98.0399994,28.664 C97.9279994,30.488 97.7359994,31.576 97.4799994,31.928 C97.2239994,32.248 96.8239994,32.424 96.2959994,32.424 L95.0319994,32.424 C94.0879994,32.424 93.6239994,31.912 93.6239994,30.92 L93.6239994,26.056 C93.2559994,26.28 92.9039994,26.488 92.5839994,26.664 Z M91.7039994,17.784 L93.0159994,18.408 C92.7599994,19.528 92.4559994,20.6 92.0719994,21.624 L92.0719994,32.664 L90.6959994,32.664 L90.6959994,24.568 C90.4719994,24.952 90.2319994,25.336 90.0079994,25.704 L89.5279994,24.136 C90.5199994,22.328 91.2399994,20.216 91.7039994,17.784 Z M83.3679994,19.016 L84.2959994,19.016 L84.2959994,17.864 L85.6239994,17.864 L85.6239994,19.016 L87.4959994,19.016 L87.4959994,17.864 L88.8399994,17.864 L88.8399994,19.016 L89.7519994,19.016 L89.7519994,20.36 L88.8399994,20.36 L88.8399994,22.584 L87.2719994,22.584 L87.2719994,23.496 L89.3999994,23.496 L89.3999994,27.832 L87.2559994,27.832 L87.2559994,28.936 L89.8319994,28.936 L89.8319994,30.264 L87.2559994,30.264 L87.2559994,32.648 L85.8159994,32.648 L85.8159994,30.264 L83.2719994,30.264 L83.2719994,28.936 L85.8159994,28.936 L85.8159994,27.832 L83.7199994,27.832 L83.7199994,23.496 L85.8319994,23.496 L85.8319994,22.584 L84.2959994,22.584 L84.2959994,20.36 L83.3679994,20.36 L83.3679994,19.016 Z M85.6239994,20.36 L85.6239994,21.432 L87.4959994,21.432 L87.4959994,20.36 L85.6239994,20.36 Z M88.1359994,26.632 L88.1359994,24.696 L87.1759994,24.696 L87.1759994,26.632 L88.1359994,26.632 Z M85.9279994,26.632 L85.9279994,24.696 L84.9839994,24.696 L84.9839994,26.632 L85.9279994,26.632 Z",
+                                  id: "\u7247\u65B9\u306E\u9774",
+                                  fill: "#FFFFFF",
+                                }),
+                                d.default.createElement("rect", {
+                                  id: "Rectangle",
+                                  stroke: "#FFFFFF",
+                                  strokeWidth: "2",
+                                  x: "1",
+                                  y: "1",
+                                  width: "118",
+                                  height: "48",
+                                })
+                              )
+                            )
+                          )
+                        )
+                      ),
+                      d.default.createElement(
+                        "p",
+                        { className: "copy animation-lines" },
+                        "Homage to the shinobi of feudal Japan.",
+                        d.default.createElement("span", null, "View more")
+                      )
                     ),
                     d.default.createElement(
                       "a",
-                      { className: "link-decode-2" },
-                      "Visual Communicator"
+                      {
+                        href: "javascript:void(0);",
+                        className: "btn btn-flag btn-design",
+                        onClick: this.onClick,
+                        "data-pagehash": "productdetails/design",
+                      },
+                      d.default.createElement(
+                        "div",
+                        { className: "flag-container animation-default" },
+                        d.default.createElement(
+                          "svg",
+                          {
+                            className: "flag",
+                            width: "50px",
+                            height: "133px",
+                            viewBox: "0 0 50 133",
+                            version: "1.1",
+                          },
+                          d.default.createElement("rect", {
+                            width: "300",
+                            height: "300",
+                          }),
+                          d.default.createElement("path", {
+                            d:
+                              "M2,2 L2,131 L48,131 L48,2 L2,2 Z M0,0 L50,0 L50,133 L0,133 L0,0 Z",
+                          }),
+                          d.default.createElement("path", {
+                            className: "characters",
+                            d:
+                              "M31.176,23.368 C31.928,24.056 32.52,24.776 32.936,25.512 L32.056,26.152 C31.576,25.352 31.016,24.632 30.36,23.992 L31.176,23.368 Z M29.464,24.104 C30.168,24.744 30.76,25.48 31.208,26.28 L30.344,26.888 C29.88,26.104 29.304,25.384 28.632,24.744 L29.464,24.104 Z M19.592,25.464 L29.08,25.464 L29.08,27 L19.592,27 L19.592,25.464 Z M18.184,29.24 L18.184,30.76 L24.232,30.76 C24.136,32.168 23.8,33.304 23.24,34.184 C22.632,35.128 21.544,36.008 19.992,36.84 L21.08,38.072 C22.888,37.08 24.152,35.96 24.872,34.728 C25.448,33.704 25.8,32.392 25.896,30.76 L31.624,30.76 L31.624,29.24 L18.184,29.24 Z M31.16,47.368 C31.896,48.056 32.488,48.776 32.92,49.512 L32.04,50.152 C31.56,49.352 31,48.632 30.344,47.992 L31.16,47.368 Z M29.784,48.44 C30.488,49.08 31.08,49.816 31.528,50.616 L30.664,51.224 C30.2,50.44 29.624,49.72 28.952,49.064 L29.784,48.44 Z M17.832,51.496 L20.92,51.496 L20.92,48.456 L22.584,48.456 L22.584,51.496 L27.192,51.496 L27.192,48.264 L28.792,48.264 L28.792,51.496 L32.168,51.496 L32.168,53.032 L28.792,53.032 L28.792,54.856 C28.792,56.632 28.408,58.072 27.64,59.16 C26.824,60.344 25.48,61.272 23.608,61.96 L22.712,60.6 C24.344,60.008 25.512,59.272 26.2,58.392 C26.856,57.512 27.192,56.328 27.192,54.856 L27.192,53.032 L22.584,53.032 L22.584,56.776 L20.92,56.776 L20.92,53.032 L17.832,53.032 L17.832,51.496 Z M29.272,72.424 C27.976,73.784 26.296,75.176 24.232,76.584 C22.152,77.992 20.12,79.096 18.168,79.928 L19.032,81.32 C20.856,80.552 22.664,79.608 24.456,78.472 L24.456,85.816 L26.12,85.816 L26.12,77.336 C27.816,76.12 29.288,74.84 30.504,73.512 L29.272,72.424 Z M19.4,97.256 C20.92,98.024 22.584,99.08 24.408,100.408 L23.368,101.672 C21.576,100.392 19.976,99.4 18.584,98.664 L19.4,97.256 Z M30.152,99.576 L31.688,100.184 C30.584,102.696 29.128,104.76 27.304,106.392 C25.336,108.104 22.968,109.304 20.184,109.976 L19.416,108.504 C21.864,107.928 24.04,106.84 25.944,105.24 C27.768,103.672 29.16,101.784 30.152,99.576 Z",
+                          })
+                        )
+                      ),
+                      d.default.createElement(
+                        "h3",
+                        { className: "animation-default" },
+                        "Design"
+                      ),
+                      d.default.createElement(
+                        "p",
+                        { className: "copy animation-lines" },
+                        "Homage to the shinobi of feudal Japan."
+                      )
+                    ),
+                    d.default.createElement(
+                      "a",
+                      {
+                        href: "javascript:void(0);",
+                        className: "btn btn-flag btn-details",
+                        onClick: this.onClick,
+                        "data-pagehash": "productdetails/details",
+                      },
+                      d.default.createElement(
+                        "div",
+                        { className: "flag-container animation-default" },
+                        d.default.createElement(
+                          "svg",
+                          {
+                            className: "flag",
+                            width: "50px",
+                            height: "84px",
+                            viewBox: "0 0 50 84",
+                            version: "1.1",
+                          },
+                          d.default.createElement("rect", {
+                            width: "300",
+                            height: "300",
+                          }),
+                          d.default.createElement("path", {
+                            d:
+                              "M2,2 L2,82 L48,82 L48,2 L2,2 Z M0,0 L50,0 L50,84 L0,84 L0,0 Z",
+                          }),
+                          d.default.createElement("path", {
+                            className: "characters",
+                            d:
+                              "M19.512,36.704 L19.512,37.616 L18.12,37.616 L18.12,31.808 L22.536,31.808 L22.536,37.392 L21.144,37.392 L21.144,36.704 L19.512,36.704 Z M21.144,35.328 L21.144,33.152 L19.512,33.152 L19.512,35.328 L21.144,35.328 Z M17.752,24.8 L17.752,26.208 L22.888,26.208 L22.888,24.8 L21.24,24.8 C21.08,24.208 20.856,23.552 20.536,22.848 L19.064,23.232 C19.336,23.744 19.576,24.272 19.8,24.8 L17.752,24.8 Z M18.232,27.184 L18.232,28.512 L22.424,28.512 L22.424,27.184 L18.232,27.184 Z M18.232,29.408 L18.232,30.752 L22.424,30.752 L22.424,29.408 L18.232,29.408 Z M26.952,27.024 L26.952,29.024 L23.928,29.024 L23.928,30.464 L26.952,30.464 L26.952,32.528 L23.064,32.528 L23.064,33.984 L26.952,33.984 L26.952,37.696 L28.456,37.696 L28.456,33.984 L32.36,33.984 L32.36,32.528 L28.456,32.528 L28.456,30.464 L31.464,30.464 L31.464,29.024 L28.456,29.024 L28.456,27.024 L31.944,27.024 L31.944,25.584 L29.912,25.584 C30.312,24.912 30.68,24.16 31.016,23.328 L29.576,22.832 C29.24,23.792 28.856,24.72 28.424,25.584 L26.04,25.584 L26.952,25.136 C26.52,24.32 26.072,23.568 25.608,22.88 L24.344,23.488 C24.792,24.096 25.224,24.8 25.64,25.584 L23.448,25.584 L23.448,27.024 L26.952,27.024 Z M27.048,49.456 L25.08,49.456 L25.08,53.552 L27.048,53.552 L27.048,49.456 Z M27.048,54.928 L25.08,54.928 L25.08,59.248 L27.048,59.248 L27.048,54.928 Z M28.424,59.248 L30.472,59.248 L30.472,54.928 L28.424,54.928 L28.424,59.248 Z M28.424,53.552 L30.472,53.552 L30.472,49.456 L28.424,49.456 L28.424,53.552 Z M30.472,60.624 L25.08,60.624 L25.08,61.536 L23.704,61.536 L23.704,48.064 L31.88,48.064 L31.88,61.552 L30.472,61.552 L30.472,60.624 Z M18.2,57.456 C18.12,58.8 17.944,59.984 17.672,61.024 L19,61.44 C19.224,60.32 19.352,59.04 19.416,57.6 L18.2,57.456 Z M21.08,57.344 L19.928,57.488 C20.024,58.288 20.088,59.44 20.104,60.944 L21.4,60.784 C21.336,59.328 21.24,58.176 21.08,57.344 Z M22.584,56.832 L21.544,57.248 C21.768,58.048 21.992,58.96 22.2,60 L23.336,59.52 C23.128,58.56 22.872,57.664 22.584,56.832 Z M22.28,53.056 L21.192,53.488 C21.352,53.888 21.528,54.336 21.688,54.832 C21.032,55.024 20.376,55.184 19.72,55.312 C20.616,54.224 21.736,52.384 23.08,49.808 L21.784,49.312 C21.48,49.952 21.192,50.528 20.92,51.072 C20.376,51.2 19.832,51.296 19.288,51.376 C19.96,50.352 20.632,49.024 21.288,47.392 L19.912,46.848 C19.432,48.352 18.872,49.728 18.232,50.944 C18.072,51.2 17.88,51.36 17.656,51.456 L17.992,52.736 C18.76,52.624 19.512,52.512 20.216,52.384 C19.512,53.648 18.92,54.544 18.44,55.056 C18.28,55.216 18.072,55.344 17.816,55.44 L18.184,56.704 C19.4,56.576 20.68,56.304 22.024,55.904 C22.088,56.128 22.168,56.384 22.232,56.656 L23.432,56.144 C23.112,55.056 22.728,54.016 22.28,53.056 Z",
+                          })
+                        )
+                      ),
+                      d.default.createElement(
+                        "h3",
+                        { className: "animation-default" },
+                        "Details"
+                      ),
+                      d.default.createElement(
+                        "p",
+                        { className: "copy animation-lines" },
+                        "Urban use of functional apparel."
+                      )
+                    ),
+                    d.default.createElement(
+                      "a",
+                      {
+                        href: "javascript:void(0);",
+                        className: "btn btn-flag btn-materials",
+                        onClick: this.onClick,
+                        "data-pagehash": "productdetails/materials",
+                      },
+                      d.default.createElement(
+                        "div",
+                        { className: "flag-container animation-default" },
+                        d.default.createElement(
+                          "svg",
+                          {
+                            className: "flag",
+                            width: "50px",
+                            height: "151px",
+                            viewBox: "0 0 50 151",
+                            version: "1.1",
+                          },
+                          d.default.createElement("rect", {
+                            width: "300",
+                            height: "300",
+                          }),
+                          d.default.createElement("path", {
+                            d:
+                              "M2,2 L2,149 L48,149 L48,2 L2,2 Z M0,0 L50,0 L50,151 L0,151 L0,0 Z",
+                          }),
+                          d.default.createElement("path", {
+                            className: "characters",
+                            d:
+                              "M18.328,21.72 L18.328,23.256 L29.352,23.256 C28.728,24.216 27.976,25.224 27.112,26.264 C26.44,27.048 25.704,27.832 24.904,28.632 C23.672,27.64 22.424,26.744 21.176,25.96 L20.152,27.192 C21.448,28.024 22.856,29.096 24.392,30.392 C25.928,31.72 27.224,32.968 28.264,34.152 L29.544,33.064 C28.456,31.848 27.32,30.728 26.152,29.688 C27.08,28.76 28.04,27.704 29.032,26.488 C30.152,25.08 31.032,23.816 31.672,22.696 L30.76,21.72 L18.328,21.72 Z M19.592,45.464 L19.592,47 L29.816,47 L29.816,45.464 L19.592,45.464 Z M18.184,49.24 L18.184,50.76 L24.232,50.76 C24.136,52.168 23.8,53.304 23.24,54.184 C22.632,55.128 21.544,56.008 19.992,56.84 L21.08,58.072 C22.888,57.08 24.152,55.96 24.872,54.728 C25.448,53.704 25.8,52.392 25.896,50.76 L31.624,50.76 L31.624,49.24 L18.184,49.24 Z M28.024,69.112 L28.024,74.232 C28.024,75.864 27.64,77.176 26.888,78.168 C26.024,79.288 24.616,80.072 22.648,80.552 L23.416,82.024 C25.544,81.48 27.128,80.568 28.184,79.272 C29.176,78.008 29.688,76.376 29.688,74.36 L29.688,69.112 L28.024,69.112 Z M20.312,69.448 L20.312,77.192 L21.976,77.192 L21.976,69.448 L20.312,69.448 Z M18.888,93.544 L30.888,93.544 L31.72,94.296 C31.112,95.512 30.52,96.52 29.944,97.32 C29.208,98.312 28.344,99.176 27.384,99.928 L26.2,98.792 C27.672,97.64 28.744,96.392 29.416,95.08 L18.888,95.08 L18.888,93.544 Z M23.944,96.36 L25.608,96.36 L25.608,98.536 C25.608,100.328 25.256,101.8 24.568,102.984 C23.848,104.216 22.696,105.208 21.096,105.944 L20.056,104.664 C21.448,103.992 22.44,103.208 23.048,102.28 C23.64,101.336 23.944,100.088 23.944,98.536 L23.944,96.36 Z M25.576,117.144 L25.576,128.968 L26.584,129.528 C27.672,128.984 28.808,128.168 29.992,127.08 C31.064,126.056 31.992,124.984 32.776,123.864 L31.448,122.92 C30.264,124.68 28.872,126.152 27.24,127.352 L27.24,117.144 L25.576,117.144 Z M21.016,117.496 L21.016,122.424 C21.016,123.96 20.808,125.176 20.424,126.04 C19.992,126.968 19.208,127.864 18.088,128.712 L19.144,129.944 C20.488,128.984 21.416,127.928 21.944,126.776 C22.424,125.688 22.68,124.248 22.68,122.424 L22.68,117.496 L21.016,117.496 Z",
+                          })
+                        )
+                      ),
+                      d.default.createElement(
+                        "h3",
+                        { className: "animation-default" },
+                        "Materials"
+                      ),
+                      d.default.createElement(
+                        "p",
+                        { className: "copy animation-lines" },
+                        "All black, interconnected prime knit."
+                      )
                     )
                   );
                 },
@@ -41077,10 +41225,6 @@ object-assign
                   return d.default.createElement(
                     "section",
                     { className: "page page-items", ref: "element" },
-                    d.default.createElement("img", {
-                      className: "project-back",
-                      src: "./imgs/mesh-background.png",
-                    }),
                     d.default.createElement(
                       "div",
                       { className: "head-hint items" },
@@ -41090,10 +41234,10 @@ object-assign
                         d.default.createElement(
                           "span",
                           { className: "white" },
-                          "現実はあなたの考えの投影です"
+                          "Essential apparel items"
                         ),
                         d.default.createElement("br", null),
-                        "Reality is a projection of your thoughts"
+                        "accompany the release"
                       )
                     ),
                     d.default.createElement(
@@ -41102,7 +41246,7 @@ object-assign
                       d.default.createElement(
                         "span",
                         { className: "animation-slice" },
-                        "_Projects"
+                        "_Items"
                       )
                     ),
                     d.default.createElement(
@@ -41203,7 +41347,8 @@ object-assign
                           }),
                           d.default.createElement("path", {
                             className: "characters",
-                            d: "私たちについて",
+                            d:
+                              "M17.256,21.6 L28.744,21.6 L28.744,31.888 L17.256,31.888 L17.256,21.6 Z M18.92,23.136 L18.92,30.352 L27.08,30.352 L27.08,23.136 L18.92,23.136 Z M38.4,20.256 C39.92,21.024 41.584,22.08 43.408,23.408 L42.368,24.672 C40.576,23.392 38.976,22.4 37.584,21.664 L38.4,20.256 Z M49.152,22.576 L50.688,23.184 C49.584,25.696 48.128,27.76 46.304,29.392 C44.336,31.104 41.968,32.304 39.184,32.976 L38.416,31.504 C40.864,30.928 43.04,29.84 44.944,28.24 C46.768,26.672 48.16,24.784 49.152,22.576 Z M71.16,18.384 C71.896,19.072 72.488,19.792 72.92,20.528 L72.04,21.168 C71.56,20.368 71,19.648 70.344,19.024 L71.16,18.384 Z M68.792,18.432 C69.496,19.072 70.088,19.808 70.536,20.608 L69.672,21.216 C69.208,20.432 68.632,19.712 67.96,19.056 L68.792,18.432 Z M63.512,19.344 L65.048,19.84 C64.856,20.384 64.632,20.912 64.408,21.424 L69.544,21.424 L70.52,21.936 C70.04,24.624 69.048,26.88 67.544,28.736 C66.008,30.56 63.992,31.968 61.48,32.96 L60.6,31.552 C62.664,30.784 64.36,29.728 65.672,28.384 C67.144,26.912 68.12,25.104 68.632,22.976 L63.56,22.976 C63.352,23.312 63.128,23.632 62.904,23.952 C62.056,25.104 60.984,26.176 59.672,27.184 L58.52,26.096 C59.72,25.152 60.744,24.128 61.592,23.008 C62.44,21.856 63.08,20.624 63.512,19.344 Z M86.448,28.224 C87.376,28.848 88.24,29.488 89.056,30.128 C90.272,31.088 91.28,32 92.08,32.864 L93.376,31.792 C92.592,30.928 91.52,29.984 90.176,28.944 C89.36,28.304 88.464,27.648 87.488,26.976 C88.656,25.44 89.68,23.616 90.544,21.504 L89.552,20.848 L80.624,20.848 L80.624,22.384 L88.32,22.384 C86.464,26.448 83.344,29.504 78.928,31.584 L79.936,32.912 C82.592,31.616 84.752,30.048 86.448,28.224 Z M110.024,20.112 L110.024,25.232 C110.024,26.864 109.64,28.176 108.888,29.168 C108.024,30.288 106.616,31.072 104.648,31.552 L105.416,33.024 C107.544,32.48 109.128,31.568 110.184,30.272 C111.176,29.008 111.688,27.376 111.688,25.36 L111.688,20.112 L110.024,20.112 Z M102.312,20.448 L102.312,28.192 L103.976,28.192 L103.976,20.448 L102.312,20.448 Z M121.904,25.456 L121.904,26.992 L134.112,26.992 L134.112,25.456 L121.904,25.456 Z M155.176,18.32 C155.928,19.008 156.52,19.728 156.952,20.464 L156.056,21.104 C155.592,20.304 155.032,19.584 154.376,18.944 L155.176,18.32 Z M153.656,19.264 C154.36,19.92 154.952,20.64 155.4,21.44 L154.536,22.048 C154.072,21.264 153.496,20.544 152.824,19.904 L153.656,19.264 Z M142.456,21.056 L153.224,21.056 L154.056,21.712 C153.4,24.416 152.44,26.64 151.16,28.4 C149.704,30.384 147.752,31.904 145.288,32.992 L144.216,31.712 C146.296,30.784 148.008,29.536 149.32,27.984 C150.536,26.528 151.464,24.736 152.12,22.592 L142.456,22.592 L142.456,21.056 Z",
                           }),
                           d.default.createElement("path", {
                             d:
@@ -41214,21 +41359,12 @@ object-assign
                       d.default.createElement(
                         "h3",
                         { className: "animation-default" },
-                        "Video Maping"
+                        "Longsleeve"
                       ),
                       d.default.createElement(
-                        "div",
-                        { className: "paras" },
-                        d.default.createElement(
-                          "p",
-                          { className: "copy animation-lines" },
-                          "Responsive multimedia"
-                        ),
-                        d.default.createElement(
-                          "p",
-                          { className: "copy animation-lines" },
-                          "art meets projections"
-                        )
+                        "p",
+                        { className: "copy animation-lines" },
+                        "100% organic cotton, Interlock knit, crew neckline etc."
                       )
                     ),
                     d.default.createElement(
@@ -41258,7 +41394,7 @@ object-assign
                           d.default.createElement("path", {
                             className: "characters",
                             d:
-                              "&#29694;&#23455;&#12399;&#12354;&#12394;&#12383;&#12398;&#32771;&#12360;&#12398;&#25237;&#24433;&#12391;&#12377;",
+                              "M30.248,16.592 C31,17.28 31.592,18 32.024,18.736 L31.144,19.376 C30.664,18.576 30.104,17.856 29.448,17.216 L30.248,16.592 Z M28.664,17.664 C29.368,18.32 29.96,19.04 30.408,19.84 L29.544,20.464 C29.08,19.664 28.504,18.944 27.832,18.304 L28.664,17.664 Z M20.52,17.952 C22.472,18.48 24.152,19.184 25.56,20.064 L24.648,21.36 C23.4,20.592 21.8,19.936 19.816,19.424 L20.52,17.952 Z M30.04,20.96 L31.592,21.552 C30.6,23.808 29.16,25.744 27.272,27.376 C25.224,29.136 22.856,30.32 20.168,30.96 L19.4,29.44 C21.88,28.864 24.088,27.776 26.008,26.208 C27.832,24.704 29.176,22.96 30.04,20.96 Z M19.112,21.52 C20.776,21.904 22.456,22.576 24.136,23.52 L23.272,24.912 C21.88,24.112 20.264,23.456 18.424,22.976 L19.112,21.52 Z M29.288,46.64 L24.184,47.504 L23.624,44.64 L22.024,44.944 L22.584,47.776 L19.688,48.272 L19.992,49.744 L22.872,49.232 L23.96,54.72 L25.544,54.448 L24.472,48.96 L27.992,48.336 C27.448,49.072 26.728,49.808 25.864,50.544 L27,51.632 C28.232,50.64 29.336,49.232 30.312,47.408 L29.288,46.64 Z M21.832,69.808 L25.72,69.808 C25.496,71.568 25.032,73.024 24.296,74.192 C23.384,75.616 21.976,76.784 20.088,77.68 L21.16,78.976 C23.288,77.904 24.856,76.528 25.88,74.848 C26.68,73.488 27.176,71.808 27.4,69.808 L31.688,69.808 L31.688,68.272 L22.728,68.272 C23.176,67.376 23.56,66.496 23.848,65.6 L22.28,65.136 C21.848,66.448 21.24,67.712 20.456,68.928 C19.592,70.24 18.616,71.312 17.544,72.112 L18.68,73.296 C19.8,72.464 20.84,71.312 21.816,69.824 C21.816,69.808 21.816,69.808 21.832,69.808 Z M23.928,93.12 C24.36,93.728 24.744,94.304 25.096,94.88 C25.448,95.44 25.784,96 26.088,96.576 L24.792,97.376 C24.152,96.176 23.432,95.008 22.648,93.856 L23.928,93.12 Z M28.568,93.536 L30.168,93.808 C29.72,96.064 28.984,97.888 27.96,99.296 C26.776,100.88 25.112,102.048 23,102.8 L22.088,101.504 C24.04,100.784 25.544,99.76 26.584,98.432 C27.512,97.216 28.168,95.584 28.568,93.536 Z M21.112,94 C21.944,95.152 22.664,96.32 23.272,97.472 L21.992,98.272 C21.288,96.992 20.552,95.84 19.8,94.784 L21.112,94 Z M21.88,113.52 L21.88,126.992 L23.544,126.992 L23.544,120.064 C24.68,120.272 25.848,120.576 27.032,120.976 C28.088,121.328 29.144,121.744 30.184,122.224 L30.904,120.848 C29.752,120.288 28.568,119.824 27.384,119.44 C26.088,118.992 24.808,118.672 23.544,118.464 L23.544,113.52 L21.88,113.52 Z",
                           }),
                           d.default.createElement("path", {
                             d:
@@ -41269,82 +41405,20 @@ object-assign
                       d.default.createElement(
                         "h3",
                         { className: "animation-default" },
-                        "Design"
+                        "Kimoto Jacket"
                       ),
                       d.default.createElement(
-                        "div",
-                        { className: "paras" },
-                        d.default.createElement(
-                          "p",
-                          { className: "copy animation-lines" },
-                          "Design is the fuel of"
-                        ),
-                        d.default.createElement(
-                          "p",
-                          { className: "copy animation-lines" },
-                          "intelligence."
-                        )
+                        "p",
+                        { className: "copy animation-lines" },
+                        "Kimono pattern construction, Stotz EtaProof fabric etc."
                       )
                     ),
                     d.default.createElement(
-                      "a",
-                      {
-                        href: "javascript:void(0);",
-                        id: "btn",
-                        className: "btn btn-flag btn-longsleeve",
-                        onClick: this.onClick,
-                        "data-pagehash": "itemsdetails/longsleeve",
-                      },
-                      d.default.createElement(
-                        "div",
-                        { className: "flag-container animation-default" },
-                        d.default.createElement(
-                          "svg",
-                          {
-                            className: "flag",
-                            width: "175px",
-                            height: "50px",
-                            viewBox: "0 0 175 50",
-                            version: "1.1",
-                          },
-                          d.default.createElement("rect", {
-                            width: "400",
-                            height: "400",
-                          }),
-                          d.default.createElement("path", {
-                            className: "characters",
-                            d: "私たちについて",
-                          }),
-                          d.default.createElement("path", {
-                            d:
-                              "M2,2 L2,48 L173,48 L173,2 L2,2 Z M0,0 L175,0 L175,50 L0,50 L0,0 Z",
-                          })
-                        )
-                      ),
-                      d.default.createElement(
-                        "h3",
-                        { className: "animation-default" },
-                        "Apps"
-                      ),
-                      d.default.createElement(
-                        "div",
-                        { className: "paras" },
-                        d.default.createElement(
-                          "p",
-                          { className: "copy animation-lines" },
-                          "Some of our industry"
-                        ),
-                        d.default.createElement(
-                          "p",
-                          { className: "copy animation-lines" },
-                          "dirsupting Apps"
-                        ),
-                        d.default.createElement(
-                          "p",
-                          { className: "copy animation-lines" },
-                          "we have developed"
-                        )
-                      )
+                      "div",
+                      { className: "animation-lines limited" },
+                      "Limited \u2014 ",
+                      d.default.createElement("br", null),
+                      " Only available at The Good Will Out."
                     )
                   );
                 },
@@ -41887,10 +41961,10 @@ object-assign
                         d.default.createElement(
                           "span",
                           { className: "white" },
-                          "私達の旅"
+                          "Trained in being deprived"
                         ),
                         d.default.createElement("br", null),
-                        "Pixels are the resolvanle unit of the universe"
+                        "of one of your senses"
                       )
                     ),
                     d.default.createElement(
@@ -41899,7 +41973,7 @@ object-assign
                       d.default.createElement(
                         "span",
                         { className: "animation-slice" },
-                        "Visual"
+                        "The"
                       ),
                       d.default.createElement("br", null),
                       d.default.createElement(
@@ -41911,61 +41985,7 @@ object-assign
                     d.default.createElement(
                       "div",
                       { className: "intro animation-lines" },
-                      d.default.createElement(
-                        "p",
-                        { className: "copy animation-lines" },
-                        "French sociologist Jean Baudrillard, wrote a thesis novel"
-                      ),
-                      d.default.createElement(
-                        "p",
-                        { className: "copy animation-lines" },
-                        "called",
-                        d.default.createElement(
-                          "i",
-                          null,
-                          "“Simulacra and Simulation”"
-                        ),
-                        "in 1981, in which it claims"
-                      ),
-                      d.default.createElement(
-                        "p",
-                        { className: "copy animation-lines" },
-                        "that our current society has replaced all reality and meaning"
-                      ),
-                      d.default.createElement(
-                        "p",
-                        { className: "copy animation-lines" },
-                        "with symbols and signs, and that human experience is a"
-                      ),
-                      d.default.createElement(
-                        "p",
-                        { className: "copy animation-lines" },
-                        "simulation of reality."
-                      )
-                    ),
-                    d.default.createElement(
-                      "div",
-                      { className: "intro2 animation-lines paras2" },
-                      d.default.createElement(
-                        "p",
-                        { className: "copy animation-lines" },
-                        "Our entire construct of reality is filled with meaningless"
-                      ),
-                      d.default.createElement(
-                        "p",
-                        { className: "copy animation-lines" },
-                        "symbols, but what if we could change that by using higher"
-                      ),
-                      d.default.createElement(
-                        "p",
-                        { className: "copy animation-lines" },
-                        "frequency imagery, then the semantics of design could"
-                      ),
-                      d.default.createElement(
-                        "p",
-                        { className: "copy animation-lines" },
-                        "change reality itself."
-                      )
+                      "Once upon a time there was an old village called Ny\u014Dk\u014D. It was surrounded by six beautiful mountains, which were entirely covered into warm, glistening sunlight during daytime. None of the citizens ever experienced the world behind the mountains\u2026"
                     ),
                     d.default.createElement(
                       "a",
@@ -41979,15 +41999,8 @@ object-assign
                       d.default.createElement(
                         "p",
                         { className: "big-white-copy" },
-                        "Watch the Trailer"
-                      ),
-                      d.default.createElement("br", null),
-                      d.default.createElement(
-                        "p",
-                        { className: "sneakPeek" },
-                        "Sneak peak preview of Guillermo Alarcon’s upcoming"
-                      ),
-                      d.default.createElement("p", null, "Sci-fi Short Film")
+                        "Watch the film"
+                      )
                     ),
                     d.default.createElement(
                       "a",
@@ -42027,8 +42040,12 @@ object-assign
                       d.default.createElement(
                         "p",
                         { className: "copy animation-lines" },
-                        // "Experience some of our Films and Music videos we have created",
-                        d.default.createElement("span", null, "OUR FILM WORK")
+                        "The journey of Izuya raised in Ny\u014Dk\u014D and the  legendary artefact",
+                        d.default.createElement(
+                          "span",
+                          null,
+                          "Explore the story"
+                        )
                       )
                     ),
                     d.default.createElement(
@@ -42069,26 +42086,12 @@ object-assign
                       d.default.createElement(
                         "h3",
                         { className: "animation-default" },
-                        "OUR FILM WORK"
+                        "Explore the story"
                       ),
                       d.default.createElement(
-                        "div",
-                        { className: "paras" },
-                        d.default.createElement(
-                          "p",
-                          { className: "copy animation-lines" },
-                          "Experience some of our"
-                        ),
-                        d.default.createElement(
-                          "p",
-                          { className: "copy animation-lines" },
-                          "Films and Music videos we"
-                        ),
-                        d.default.createElement(
-                          "p",
-                          { className: "copy animation-lines" },
-                          "created"
-                        )
+                        "p",
+                        { className: "copy animation-lines" },
+                        "The journey of Izuya raised in Ny\u014Dk\u014D and the  legendary artefact"
                       )
                     )
                   );
@@ -42327,25 +42330,25 @@ object-assign
                           showBackgroundVideo: !0,
                           backgroundVideo: "videoJourney",
                         })
-                      : "spiritualMachines" == e
+                      : "chapter1" == e
                       ? g.default.sendTo("setGlobalState", {
                           showBackgroundVideo: !0,
-                          backgroundVideo: "/",
+                          backgroundVideo: "videoJourneyChapter1",
                         })
-                      : "uberEatsJapan" == e
+                      : "chapter2" == e
                       ? g.default.sendTo("setGlobalState", {
                           showBackgroundVideo: !0,
-                          backgroundVideo: "/",
+                          backgroundVideo: "videoJourneyChapter2",
                         })
-                      : "Music-Video-1" == e
+                      : "chapter3" == e
                       ? g.default.sendTo("setGlobalState", {
                           showBackgroundVideo: !0,
-                          backgroundVideo: "/",
+                          backgroundVideo: "videoJourneyChapter3",
                         })
-                      : "Music-Video-2" == e &&
+                      : "chapter4" == e &&
                         g.default.sendTo("setGlobalState", {
                           showBackgroundVideo: !0,
-                          backgroundVideo: "/",
+                          backgroundVideo: "videoJourneyChapter4",
                         });
                   var t = this.$element.find(".detail." + e);
                   if ("" == this.detailpage) b.pageAnimations.detailsCopyIn(t);
@@ -42427,7 +42430,7 @@ object-assign
                               "data-detail": "chapter1",
                               className: "chapter1",
                             },
-                            "Spiritual Machines"
+                            "Chapter 1"
                           )
                         ),
                         p.default.createElement(
@@ -42441,7 +42444,7 @@ object-assign
                               "data-detail": "chapter2",
                               className: "chapter2",
                             },
-                            "Uber Eats Japan"
+                            "Chapter 2"
                           )
                         ),
                         p.default.createElement(
@@ -42455,7 +42458,7 @@ object-assign
                               "data-detail": "chapter3",
                               className: "chapter3",
                             },
-                            "Music Video 1"
+                            "Chapter 3"
                           )
                         ),
                         p.default.createElement(
@@ -42464,12 +42467,12 @@ object-assign
                           p.default.createElement(
                             "a",
                             {
-                              href: "/#journeydetails/chapter3",
+                              href: "/#journeydetails/chapter4",
                               onClick: this.onNavClick,
                               "data-detail": "chapter4",
                               className: "chapter4",
                             },
-                            "Music Video 2"
+                            "Chapter 4"
                           )
                         )
                       )
@@ -42480,95 +42483,56 @@ object-assign
                       p.default.createElement(
                         "div",
                         { className: "detail chapter1" },
+                        p.default.createElement("h3", null, "Chapter 1"),
                         p.default.createElement(
-                          "h3",
+                          "p",
                           null,
-                          "Spiritual Machines"
+                          "The citizens of Ny\u014Dk\u014D said, that it was dangerous and cold outside the village. Who dares to go beyond the mountains, would be doomed to die. The mountains were considered as a protecting shield around Ny\u014Dk\u014D and its inhabitants. But there was another certainty about the world behind the mountains."
                         ),
                         p.default.createElement(
                           "p",
                           null,
-                          "Spiritual Machines is Guillermo Alarcon highly anticipated cyberpunk Sci-Fi debut short the film, initial shooting began in 2018 and it was finalized mid-2020 after a long journey in post production and color grading."
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "Spiritual Machines takes place in the year 2076 the United Nations has ordered mandatory cerebral uplink to the Cyber Simulation due to Earth’s resources depleted and mutation due to biological warfare. Meanwhile the resistance lead by Calum is underway to demolish the sinister plans of the Proxy Master to plug everyone into the simulation. But is the proxy master the plan is to save humanity or slave it? Find out by watching the short film coming late 2020."
+                          "Izuya, son of a simple carpenter, heard it for the first time when he sat behind a rock, observing the older ones working. They mentioned an artifact, lying in a distant cave that could only be found by those, who have the courage, the strength and the willingness to compete a dangerous journey. A journey, leading far beyond the protecting mountains. Over country and sea, over cliffs and stones, through cold and wind. No one ever considered taking the apparently impossible test."
                         )
                       ),
-
                       p.default.createElement(
                         "div",
                         { className: "detail chapter2" },
-                        p.default.createElement("img", {
-                          src: "./imgs/stripes.png",
-                          className: "uber-stripe",
-                        }),
-                        p.default.createElement("h3", null, "Uber Eats Japan"),
+                        p.default.createElement("h3", null, "Chapter 2"),
                         p.default.createElement(
                           "p",
                           null,
-                          "Uber Eats Campaign ad shot and directed by Guillermo Alarcon, the ad peaks into how far would an uber eats delivery will cross Japan from the bursting city of Tokyo to the outskirts of mount Fuji, to deliver in time and satisfy the needs of Uber Eats customers."
+                          "It was the moment little Izuya knew, he would embark this dangerous journey as soon as he would be old enough. He would be brave, strong and energetic enough to reach the artifact. He would be the hero of Ny\u014Dk\u014D. Day by day he worked on improving his strength, his endurance and his fighting ability."
                         ),
                         p.default.createElement(
                           "p",
                           null,
-                          "Omotenashi お持もて成なし in Japanese means the act of servitude towards the customer not expecting anything in return, this is the foundation of Japanese culture so we wanted the story to highlight this important part of Japanese society."
-                        ),
-                        p.default.createElement(
-                          "p",
-                          { className: "italic" },
-                          "Shot | Directed: Guillermo Alarcon\
-                          Producer: Jonathan Ealey\
-                          Assistant Camera: Rodger Sono &  Hagen Van  Holland\
-                          Audio: Ian Rever "
+                          "At the time, when he was a child, the villagers sneered at him. His mother was concerned, because she knew about her sons\u2019 ambition. When he set his mind on something, he would do anything to achieve his aim. However, she did not believe that anyone would be able to survive the dangerous road leading to the artifact."
                         )
                       ),
                       p.default.createElement(
                         "div",
                         { className: "detail chapter3" },
-                        p.default.createElement("h3", null, "Music Video 1"),
-                        p.default.createElement("img", {
-                          src: "./imgs/stripes.png",
-                          className: "uber-stripe",
-                        }),
+                        p.default.createElement("h3", null, "Chapter 3"),
                         p.default.createElement(
                           "p",
                           null,
-                          "Music video produced for American famous\
-                          YouTuber, gamer, and rapper. He has over 5 Million\
-                          subscribers on his gaming channel, XpertThief, and\
-                          over 1.8 million followers subscribers on his rap channel,\
-                          KevinLaSean."
+                          "The years went by and Izuya became taller and stronger. On some days he left the village at a distance the old and experienced hikers never reached before."
                         ),
                         p.default.createElement(
                           "p",
                           null,
-                          "Kevin Lasean a big anime and gamer wanted to have a\
-                          music video with cyberpunk influence and to showcase \
-                          his love for Tokyo and gaming culture."
+                          "On his 22nd birthday, which applied as the legal age of majority in Ny\u014Dk\u014D and enabled him to follow his own path and leave the village, his grandfather Hiroshi gave an amulet to him. It was made of Ny\u014Dkah, a special  kind of stone, which can only be found in the mountain caves of Ny\u014Dk\u014D. \u201CIf you leave, take a piece of home with you. As you arrive and take something that belongs to this place, leave your piece instead. It will be connected to your soul and your home forever. With these final words, Haroshi said goodbye to his brave grandson"
                         )
                       ),
                       p.default.createElement(
                         "div",
                         { className: "detail chapter4" },
-                        p.default.createElement("h3", null, "Music Video 2"),
+                        p.default.createElement("h3", null, "Chapter 4"),
                         p.default.createElement(
                           "p",
                           null,
-                          "Oluse is a Nigerian-American rapper based in\
-                          Los Angeles, CA. Oluse is an artist that you want\
-                          to know more about, to dive into what inspired him\
-                          to be the person he is today."
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "As a Nigerian-American, you can hear subtle hints\
-                          that his style is not like the typical rapper. each song\
-                          is different and good in its own right. It has different\
-                          elements and a different style of cadence than what\
-                          we are used to in the world of music today."
+                          "As Izuya left Ny\u014Dk\u014D and saw his village becoming smaller from a distance, his willingness to find the artifact grew larger. When he arrived at the top of one of the six mountains, which surrounded his village, he looked at what lay ahead of him. A long, dangerous journey."
                         )
                       )
                     ),
@@ -42934,80 +42898,70 @@ object-assign
                             "div",
                             { className: "slide", onClick: this.onSlideClick },
                             d.default.createElement("img", {
-                              src:
-                                "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/1.jpg",
+                              src: "/assets/images/gallery/1.jpg",
                             })
                           ),
                           d.default.createElement(
                             "div",
                             { className: "slide", onClick: this.onSlideClick },
                             d.default.createElement("img", {
-                              src:
-                                "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/2.jpg",
+                              src: "/assets/images/gallery/2.jpg",
                             })
                           ),
                           d.default.createElement(
                             "div",
                             { className: "slide", onClick: this.onSlideClick },
                             d.default.createElement("img", {
-                              src:
-                                "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/3.jpg",
+                              src: "/assets/images/gallery/3.jpg",
                             })
                           ),
                           d.default.createElement(
                             "div",
                             { className: "slide", onClick: this.onSlideClick },
                             d.default.createElement("img", {
-                              src:
-                                "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/4.jpg",
+                              src: "/assets/images/gallery/4.jpg",
                             })
                           ),
                           d.default.createElement(
                             "div",
                             { className: "slide", onClick: this.onSlideClick },
                             d.default.createElement("img", {
-                              src:
-                                "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/5.jpg",
+                              src: "/assets/images/gallery/5.jpg",
                             })
                           ),
                           d.default.createElement(
                             "div",
                             { className: "slide", onClick: this.onSlideClick },
                             d.default.createElement("img", {
-                              src:
-                                "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/6.jpg",
+                              src: "/assets/images/gallery/6.jpg",
                             })
                           ),
                           d.default.createElement(
                             "div",
                             { className: "slide", onClick: this.onSlideClick },
                             d.default.createElement("img", {
-                              src:
-                                "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/7.jpg",
+                              src: "/assets/images/gallery/7.jpg",
                             })
                           ),
                           d.default.createElement(
                             "div",
                             { className: "slide", onClick: this.onSlideClick },
                             d.default.createElement("img", {
-                              src:
-                                "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/8.jpg",
+                              src: "/assets/images/gallery/8.jpg",
                             })
                           ),
                           d.default.createElement(
                             "div",
                             { className: "slide", onClick: this.onSlideClick },
                             d.default.createElement("img", {
-                              src:
-                                "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/9.jpg",
+                              src: "/assets/images/gallery/9.jpg",
                             })
                           ),
                           d.default.createElement(
                             "div",
                             { className: "slide", onClick: this.onSlideClick },
                             d.default.createElement("img", {
-                              src:
-                                "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/10.jpg",
+                              src: "/assets/images/gallery/10.jpg",
                             })
                           )
                         ),
@@ -43077,8 +43031,7 @@ object-assign
                                   onClick: this.onClick,
                                 },
                                 d.default.createElement("img", {
-                                  src:
-                                    "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/1.jpg",
+                                  src: "/assets/images/gallery/1.jpg",
                                 })
                               )
                             )
@@ -43094,8 +43047,7 @@ object-assign
                                 onClick: this.onClick,
                               },
                               d.default.createElement("img", {
-                                src:
-                                  "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/2.jpg",
+                                src: "/assets/images/gallery/2.jpg",
                               })
                             )
                           ),
@@ -43110,8 +43062,7 @@ object-assign
                                 onClick: this.onClick,
                               },
                               d.default.createElement("img", {
-                                src:
-                                  "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/3.jpg",
+                                src: "/assets/images/gallery/3.jpg",
                               })
                             )
                           ),
@@ -43126,8 +43077,7 @@ object-assign
                                 onClick: this.onClick,
                               },
                               d.default.createElement("img", {
-                                src:
-                                  "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/4.jpg",
+                                src: "/assets/images/gallery/4.jpg",
                               })
                             )
                           ),
@@ -43142,8 +43092,7 @@ object-assign
                                 onClick: this.onClick,
                               },
                               d.default.createElement("img", {
-                                src:
-                                  "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/5.jpg",
+                                src: "/assets/images/gallery/5.jpg",
                               })
                             )
                           ),
@@ -43158,8 +43107,7 @@ object-assign
                                 onClick: this.onClick,
                               },
                               d.default.createElement("img", {
-                                src:
-                                  "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/6.jpg",
+                                src: "/assets/images/gallery/6.jpg",
                               })
                             )
                           ),
@@ -43174,8 +43122,7 @@ object-assign
                                 onClick: this.onClick,
                               },
                               d.default.createElement("img", {
-                                src:
-                                  "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/7.jpg",
+                                src: "/assets/images/gallery/7.jpg",
                               })
                             )
                           ),
@@ -43190,8 +43137,7 @@ object-assign
                                 onClick: this.onClick,
                               },
                               d.default.createElement("img", {
-                                src:
-                                  "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/8.jpg",
+                                src: "/assets/images/gallery/8.jpg",
                               })
                             )
                           ),
@@ -43206,8 +43152,7 @@ object-assign
                                 onClick: this.onClick,
                               },
                               d.default.createElement("img", {
-                                src:
-                                  "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/9.jpg",
+                                src: "/assets/images/gallery/9.jpg",
                               })
                             )
                           ),
@@ -43222,8 +43167,7 @@ object-assign
                                 onClick: this.onClick,
                               },
                               d.default.createElement("img", {
-                                src:
-                                  "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/10.jpg",
+                                src: "/assets/images/gallery/10.jpg",
                               })
                             )
                           )
@@ -43496,8 +43440,87 @@ object-assign
                         p.default.createElement("div", {
                           className: "img",
                           style: {
-                            backgroundImage:
-                              "url(https://www.ankoku-toshi-jutsu.com/assets/images/gallery/1.jpg",
+                            backgroundImage: "url(/assets/images/gallery/1.jpg",
+                          },
+                        })
+                      ),
+                      p.default.createElement(
+                        "div",
+                        { className: "slide" },
+                        p.default.createElement("div", {
+                          className: "img",
+                          style: {
+                            backgroundImage: "url(/assets/images/gallery/2.jpg",
+                          },
+                        })
+                      ),
+                      p.default.createElement(
+                        "div",
+                        { className: "slide" },
+                        p.default.createElement("div", {
+                          className: "img",
+                          style: {
+                            backgroundImage: "url(/assets/images/gallery/3.jpg",
+                          },
+                        })
+                      ),
+                      p.default.createElement(
+                        "div",
+                        { className: "slide" },
+                        p.default.createElement("div", {
+                          className: "img",
+                          style: {
+                            backgroundImage: "url(/assets/images/gallery/4.jpg",
+                          },
+                        })
+                      ),
+                      p.default.createElement(
+                        "div",
+                        { className: "slide" },
+                        p.default.createElement("div", {
+                          className: "img",
+                          style: {
+                            backgroundImage: "url(/assets/images/gallery/5.jpg",
+                          },
+                        })
+                      ),
+                      p.default.createElement(
+                        "div",
+                        { className: "slide" },
+                        p.default.createElement("div", {
+                          className: "img",
+                          style: {
+                            backgroundImage: "url(/assets/images/gallery/6.jpg",
+                          },
+                        })
+                      ),
+                      p.default.createElement(
+                        "div",
+                        { className: "slide" },
+                        p.default.createElement("div", {
+                          className: "img",
+                          style: {
+                            backgroundImage: "url(/assets/images/gallery/7.jpg",
+                          },
+                        })
+                      ),
+                      p.default.createElement(
+                        "div",
+                        { className: "slide" },
+                        p.default.createElement("div", {
+                          className: "img",
+                          style: {
+                            backgroundImage: "url(/assets/images/gallery/8.jpg",
+                          },
+                        })
+                      ),
+                      p.default.createElement(
+                        "div",
+                        { className: "slide" },
+                        p.default.createElement("div", {
+                          className: "img",
+                          style: {
+                            backgroundImage: "url(/assets/images/gallery/9.jpg",
                           },
                         })
                       ),
@@ -43508,95 +43531,7 @@ object-assign
                           className: "img",
                           style: {
                             backgroundImage:
-                              "url(https://www.ankoku-toshi-jutsu.com/assets/images/gallery/2.jpg",
-                          },
-                        })
-                      ),
-                      p.default.createElement(
-                        "div",
-                        { className: "slide" },
-                        p.default.createElement("div", {
-                          className: "img",
-                          style: {
-                            backgroundImage:
-                              "url(https://www.ankoku-toshi-jutsu.com/assets/images/gallery/3.jpg",
-                          },
-                        })
-                      ),
-                      p.default.createElement(
-                        "div",
-                        { className: "slide" },
-                        p.default.createElement("div", {
-                          className: "img",
-                          style: {
-                            backgroundImage:
-                              "url(https://www.ankoku-toshi-jutsu.com/assets/images/gallery/4.jpg",
-                          },
-                        })
-                      ),
-                      p.default.createElement(
-                        "div",
-                        { className: "slide" },
-                        p.default.createElement("div", {
-                          className: "img",
-                          style: {
-                            backgroundImage:
-                              "url(https://www.ankoku-toshi-jutsu.com/assets/images/gallery/5.jpg",
-                          },
-                        })
-                      ),
-                      p.default.createElement(
-                        "div",
-                        { className: "slide" },
-                        p.default.createElement("div", {
-                          className: "img",
-                          style: {
-                            backgroundImage:
-                              "url(https://www.ankoku-toshi-jutsu.com/assets/images/gallery/6.jpg",
-                          },
-                        })
-                      ),
-                      p.default.createElement(
-                        "div",
-                        { className: "slide" },
-                        p.default.createElement("div", {
-                          className: "img",
-                          style: {
-                            backgroundImage:
-                              "url(https://www.ankoku-toshi-jutsu.com/assets/images/gallery/7.jpg",
-                          },
-                        })
-                      ),
-                      p.default.createElement(
-                        "div",
-                        { className: "slide" },
-                        p.default.createElement("div", {
-                          className: "img",
-                          style: {
-                            backgroundImage:
-                              "url(https://www.ankoku-toshi-jutsu.com/assets/images/gallery/8.jpg",
-                          },
-                        })
-                      ),
-                      p.default.createElement(
-                        "div",
-                        { className: "slide" },
-                        p.default.createElement("div", {
-                          className: "img",
-                          style: {
-                            backgroundImage:
-                              "url(https://www.ankoku-toshi-jutsu.com/assets/images/gallery/9.jpg",
-                          },
-                        })
-                      ),
-                      p.default.createElement(
-                        "div",
-                        { className: "slide" },
-                        p.default.createElement("div", {
-                          className: "img",
-                          style: {
-                            backgroundImage:
-                              "url(https://www.ankoku-toshi-jutsu.com/assets/images/gallery/10.jpg",
+                              "url(/assets/images/gallery/10.jpg",
                           },
                         })
                       )
@@ -43986,8 +43921,7 @@ object-assign
                             preload: "auto",
                           },
                           p.default.createElement("source", {
-                            src:
-                              "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/flags/flag_white.mp4",
+                            src: "/assets/videos/_mobile/flags/flag_white.mp4",
                             type: "video/mp4",
                           })
                         ),
@@ -44000,8 +43934,7 @@ object-assign
                             ref: "element",
                           },
                           p.default.createElement("img", {
-                            src:
-                              "https://www.ankoku-toshi-jutsu.com/assets/images/tgwo-logo-black.png",
+                            src: "/assets/images/tgwo-logo-black.png",
                             alt: "The Good Will Out",
                             className: "tgwo-logo",
                           })
@@ -44015,8 +43948,7 @@ object-assign
                             ref: "element",
                           },
                           p.default.createElement("img", {
-                            src:
-                              "https://www.ankoku-toshi-jutsu.com/assets/images/adidas-logo-black.png",
+                            src: "/assets/images/adidas-logo-black.png",
                             alt: "Adidas",
                             className: "adidas-logo",
                           })
@@ -44710,8 +44642,7 @@ object-assign
                             preload: "auto",
                           },
                           p.default.createElement("source", {
-                            src:
-                              "https://www.ankoku-toshi-jutsu.com/assets/videos/flags/flag_white.mp4",
+                            src: "/assets/videos/flags/flag_white.mp4",
                             type: "video/mp4",
                           })
                         ),
@@ -44732,8 +44663,7 @@ object-assign
                             onClick: this.onLogoClick,
                           },
                           p.default.createElement("img", {
-                            src:
-                              "https://www.ankoku-toshi-jutsu.com/assets/images/tgwo-logo-black.png",
+                            src: "/assets/images/tgwo-logo-black.png",
                             alt: "The Good Will Out",
                             className: "tgwo-logo",
                           })
@@ -44748,8 +44678,7 @@ object-assign
                             onClick: this.onLogoClick,
                           },
                           p.default.createElement("img", {
-                            src:
-                              "https://www.ankoku-toshi-jutsu.com/assets/images/adidas-logo-black.png",
+                            src: "/assets/images/adidas-logo-black.png",
                             alt: "Adidas",
                             className: "adidas-logo",
                           })
@@ -44792,12 +44721,12 @@ object-assign
                                 p.default.createElement(
                                   "small",
                                   null,
-                                  "Core beliefs"
+                                  "worldwide release"
                                 ),
                                 p.default.createElement(
                                   "span",
                                   { className: "date" },
-                                  "コアな信念"
+                                  "23\xA0\u2014\xA009\xA0\u2014\xA017"
                                 )
                               ),
                               p.default.createElement(
@@ -45633,8 +45562,7 @@ object-assign
                             "a",
                             { href: "http://www.dayy.de/", target: "_blank" },
                             d.default.createElement("img", {
-                              src:
-                                "https://www.ankoku-toshi-jutsu.com/assets/images/dayy-logo.png",
+                              src: "/assets/images/dayy-logo.png",
                               className: "dayy",
                               alt: "dayy",
                             })
@@ -45643,8 +45571,7 @@ object-assign
                             "a",
                             { href: "http://www.adidas.de/", target: "_blank" },
                             d.default.createElement("img", {
-                              src:
-                                "https://www.ankoku-toshi-jutsu.com/assets/images/adidas-logo.png",
+                              src: "/assets/images/adidas-logo.png",
                               className: "adidas",
                               alt: "adidas",
                             })
@@ -45656,10 +45583,9 @@ object-assign
                               target: "_blank",
                             },
                             d.default.createElement("img", {
-                              src:
-                                "https://facelessdevhack.github.io/MetaStudio-2/imgs/meta-logo.png",
+                              src: "/assets/images/tgwo-logo.png",
                               className: "tgwo",
-                              alt: "meta",
+                              alt: "tgwo",
                             })
                           )
                         ),
@@ -47395,8 +47321,7 @@ object-assign
                             preload: "auto",
                           },
                           d.default.createElement("source", {
-                            src:
-                              "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/flags/flag_black.mp4",
+                            src: "/assets/videos/_mobile/flags/flag_black.mp4",
                             type: "video/mp4",
                           })
                         ),
@@ -47422,9 +47347,9 @@ object-assign
                               d.default.createElement(
                                 "span",
                                 { className: "title" },
-                                "\u2014 Home",
+                                "\u2014 Ankoku",
                                 d.default.createElement("br", null),
-                                ""
+                                "Toshi Jutsu"
                               )
                             ),
                             d.default.createElement(
@@ -47445,9 +47370,9 @@ object-assign
                               d.default.createElement(
                                 "span",
                                 { className: "title" },
-                                "\u2014 OUR",
+                                "The",
                                 d.default.createElement("br", null),
-                                "VIZION"
+                                "Artefact"
                               )
                             ),
                             d.default.createElement(
@@ -47468,7 +47393,7 @@ object-assign
                               d.default.createElement(
                                 "span",
                                 { className: "title" },
-                                "_PROJECTS"
+                                "_Items"
                               )
                             ),
                             d.default.createElement(
@@ -47489,7 +47414,7 @@ object-assign
                               d.default.createElement(
                                 "span",
                                 { className: "title" },
-                                "MULTIMEDIA_"
+                                "The Journey_"
                               )
                             ),
                             d.default.createElement(
@@ -47510,28 +47435,7 @@ object-assign
                               d.default.createElement(
                                 "span",
                                 { className: "title" },
-                                "JOBS"
-                              )
-                            ),
-                            d.default.createElement(
-                              "li",
-                              {
-                                className:
-                                  "Gallery" === this.props.current
-                                    ? "active"
-                                    : "",
-                                onClick: this.onClick,
-                                "data-pagehash": "/",
-                              },
-                              d.default.createElement(
-                                "span",
-                                { className: "number" },
-                                ".06"
-                              ),
-                              d.default.createElement(
-                                "span",
-                                { className: "title" },
-                                "BLOG"
+                                "G-llery"
                               )
                             ),
                             d.default.createElement(
@@ -47547,12 +47451,12 @@ object-assign
                               d.default.createElement(
                                 "span",
                                 { className: "number" },
-                                ".07"
+                                ".06"
                               ),
                               d.default.createElement(
                                 "span",
                                 { className: "title" },
-                                "E-MAIL"
+                                "How to buy"
                               )
                             ),
                             d.default.createElement(
@@ -47568,7 +47472,7 @@ object-assign
                               d.default.createElement(
                                 "span",
                                 { className: "number" },
-                                ".08"
+                                ".07"
                               ),
                               d.default.createElement(
                                 "span",
@@ -47621,8 +47525,7 @@ object-assign
                             preload: "auto",
                           },
                           d.default.createElement("source", {
-                            src:
-                              "https://www.ankoku-toshi-jutsu.com/assets/videos/flags/flag_black.mp4",
+                            src: "/assets/videos/flags/flag_black.mp4",
                             type: "video/mp4",
                           })
                         ),
@@ -47645,9 +47548,9 @@ object-assign
                             d.default.createElement(
                               "span",
                               { className: "title" },
-                              "\u2014 Home",
+                              "\u2014 Ankoku",
                               d.default.createElement("br", null),
-                              ""
+                              "Toshi Jutsu"
                             )
                           ),
                           d.default.createElement(
@@ -47668,9 +47571,9 @@ object-assign
                             d.default.createElement(
                               "span",
                               { className: "title" },
-                              "\u2014 OUR",
+                              "The",
                               d.default.createElement("br", null),
-                              "VIZION"
+                              "Artefact"
                             )
                           ),
                           d.default.createElement(
@@ -47689,7 +47592,7 @@ object-assign
                             d.default.createElement(
                               "span",
                               { className: "title" },
-                              "_PROJECTS"
+                              "_Items"
                             )
                           ),
                           d.default.createElement(
@@ -47710,7 +47613,7 @@ object-assign
                             d.default.createElement(
                               "span",
                               { className: "title" },
-                              "MULTIMEDIA_"
+                              "The Journey_"
                             )
                           ),
                           d.default.createElement(
@@ -47731,26 +47634,7 @@ object-assign
                             d.default.createElement(
                               "span",
                               { className: "title" },
-                              "JOBS"
-                            )
-                          ),
-                          d.default.createElement(
-                            "li",
-                            {
-                              className:
-                                "Blog" === this.props.current ? "active" : "",
-                              onClick: this.onClick,
-                              "data-pagehash": "blog",
-                            },
-                            d.default.createElement(
-                              "span",
-                              { className: "number" },
-                              ".06"
-                            ),
-                            d.default.createElement(
-                              "span",
-                              { className: "title" },
-                              "BLOG"
+                              "G-llery"
                             )
                           )
                         ),
@@ -47775,7 +47659,11 @@ object-assign
                               onClick: this.onShopButtonClick,
                               "data-pagehash": "howtobuy",
                             },
-                            d.default.createElement("span", null, "Contact Us")
+                            d.default.createElement("img", {
+                              src: "/assets/images/shop-icon.gif",
+                              alt: "How to buy",
+                            }),
+                            d.default.createElement("span", null, "How to buy")
                           )
                         ),
                         d.default.createElement(
@@ -47816,7 +47704,7 @@ object-assign
                               d.default.createElement(
                                 "span",
                                 { className: "hover-effect" },
-                                "futurevizion.jp"
+                                "Credits"
                               )
                             )
                           ),
@@ -47833,7 +47721,7 @@ object-assign
                               d.default.createElement(
                                 "span",
                                 { className: "hover-effect" },
-                                "Blog"
+                                "Imprint"
                               )
                             )
                           )
@@ -47970,9 +47858,8 @@ object-assign
                       onClick: this.onClick,
                     },
                     d.default.createElement("img", {
-                      src:
-                        "https://facelessdevhack.github.io/MetaStudio-2/imgs/meta-logo.png",
-                      alt: "Meta-Studios",
+                      src: "/assets/images/tgwo-logo.png",
+                      alt: "The Good Will Out",
                       className: "tgwo-logo",
                     })
                   );
@@ -48106,11 +47993,11 @@ object-assign
                       ref: "element",
                       onClick: this.onClick,
                     },
-                    // d.default.createElement("img", {
-                    //   src: "/assets/images/adidas-logo.png",
-                    //   alt: "Adidas",
-                    //   className: "adidas-logo",
-                    // })
+                    d.default.createElement("img", {
+                      src: "/assets/images/adidas-logo.png",
+                      alt: "Adidas",
+                      className: "adidas-logo",
+                    })
                   );
                 },
               },
@@ -48742,9 +48629,8 @@ object-assign
                             className: "circle",
                           }),
                           d.default.createElement("img", {
-                            src:
-                              "https://facelessdevhack.github.io/MetaStudio-2/imgs/Layer%2017.png",
-                            alt: "Contact Us",
+                            src: "/assets/images/shop-icon.gif",
+                            alt: "How to buy",
                           })
                         )
                       )
@@ -48757,7 +48643,7 @@ object-assign
                           ref: "element",
                           onClick: this.onClick,
                         },
-                        d.default.createElement("span", null, "Contact Us"),
+                        d.default.createElement("span", null, "How to buy"),
                         d.default.createElement(
                           "div",
                           { className: "icon-container" },
@@ -48765,9 +48651,8 @@ object-assign
                             className: "circle",
                           }),
                           d.default.createElement("img", {
-                            src:
-                              "https://facelessdevhack.github.io/MetaStudio-2/imgs/Layer%2017.png",
-                            alt: "Contact Us",
+                            src: "/assets/images/shop-icon.gif",
+                            alt: "How to buy",
                           })
                         )
                       );
@@ -48889,43 +48774,38 @@ object-assign
                     l.default.createElement(
                       "a",
                       {
-                        href:
-                          "https://www.facebook.com/futurevizionphotography",
+                        href: "https://www.facebook.com/thegoodwillout.de/",
                         target: "_blank",
-                        className: "hover-social hover-slide",
                       },
-                      l.default.createElement("img", {
-                        className: "hover-effect",
-                        src:
-                          "https://facelessdevhack.github.io/MetaStudio-2/imgs/fb.png",
-                        alt: "FB",
-                      })
+                      l.default.createElement(
+                        "span",
+                        { className: "hover-effect" },
+                        "Fb"
+                      )
                     ),
                     l.default.createElement(
                       "a",
                       {
-                        href: "https://instagram.com/future_vizion",
+                        href: "https://twitter.com/tgwo_com",
                         target: "_blank",
-                        className: "",
                       },
-                      l.default.createElement("img", {
-                        src:
-                          "https://facelessdevhack.github.io/MetaStudio-2/imgs/ig.png",
-                        alt: "IG",
-                      })
+                      l.default.createElement(
+                        "span",
+                        { className: "hover-effect" },
+                        "Tw"
+                      )
                     ),
                     l.default.createElement(
                       "a",
                       {
-                        href: "https://twitter.com/future_vizion",
+                        href: "https://www.instagram.com/thegoodwillout/",
                         target: "_blank",
-                        className: "",
                       },
-                      l.default.createElement("img", {
-                        src:
-                          "https://facelessdevhack.github.io/MetaStudio-2/imgs/tw.png",
-                        alt: "TW",
-                      })
+                      l.default.createElement(
+                        "span",
+                        { className: "hover-effect" },
+                        "In"
+                      )
                     )
                   );
                 },
@@ -49358,8 +49238,8 @@ object-assign
                       ((this.bigHoversAudio = [
                         new u.Howl({
                           src: [
-                            "https://www.ankoku-toshi-jutsu.com/assets/sounds/big_hover_01_01.mp3",
-                            "https://www.ankoku-toshi-jutsu.com/assets/sounds/big_hover_01_01.ogg",
+                            "/assets/sounds/big_hover_01_01.mp3",
+                            "/assets/sounds/big_hover_01_01.ogg",
                           ],
                           autoplay: !1,
                           volume: 0.2,
@@ -49367,8 +49247,8 @@ object-assign
                         }),
                         new u.Howl({
                           src: [
-                            "https://www.ankoku-toshi-jutsu.com/assets/sounds/big_hover_02_01.mp3",
-                            "https://www.ankoku-toshi-jutsu.com/assets/sounds/big_hover_02_01.ogg",
+                            "/assets/sounds/big_hover_02_01.mp3",
+                            "/assets/sounds/big_hover_02_01.ogg",
                           ],
                           autoplay: !1,
                           volume: 0.2,
@@ -49376,8 +49256,8 @@ object-assign
                         }),
                         new u.Howl({
                           src: [
-                            "https://www.ankoku-toshi-jutsu.com/assets/sounds/big_hover_03_01.mp3",
-                            "https://www.ankoku-toshi-jutsu.com/assets/sounds/big_hover_03_01.ogg",
+                            "/assets/sounds/big_hover_03_01.mp3",
+                            "/assets/sounds/big_hover_03_01.ogg",
                           ],
                           autoplay: !1,
                           volume: 0.2,
@@ -49386,8 +49266,8 @@ object-assign
                       ]),
                       (this.clickAudio = new u.Howl({
                         src: [
-                          "https://www.ankoku-toshi-jutsu.com/assets/sounds/click_01.mp3",
-                          "https://www.ankoku-toshi-jutsu.com/assets/sounds/click_01.ogg",
+                          "/assets/sounds/click_01.mp3",
+                          "/assets/sounds/click_01.ogg",
                         ],
                         autoplay: !1,
                         volume: 0.5,
@@ -49758,525 +49638,5 @@ object-assign
       return o;
     };
   },
-  // function (e, t, n) {
-  //   "use strict";
-  //   (function (a, e) {
-  //     function o(e) {
-  //       return e && e.__esModule ? e : { default: e };
-  //     }
-  //     function i(e, t) {
-  //       if (!(e instanceof t))
-  //         throw new TypeError("Cannot call a class as a function");
-  //     }
-  //     function r(e, t) {
-  //       if (!e)
-  //         throw new ReferenceError(
-  //           "this hasn't been initialised - super() hasn't been called"
-  //         );
-  //       return t && ("object" == typeof t || "function" == typeof t) ? t : e;
-  //     }
-  //     function s(e, t) {
-  //       if ("function" != typeof t && null !== t)
-  //         throw new TypeError(
-  //           "Super expression must either be null or a function, not " +
-  //             typeof t
-  //         );
-  //       (e.prototype = Object.create(t && t.prototype, {
-  //         constructor: {
-  //           value: e,
-  //           enumerable: !1,
-  //           writable: !0,
-  //           configurable: !0,
-  //         },
-  //       })),
-  //         t &&
-  //           (Object.setPrototypeOf
-  //             ? Object.setPrototypeOf(e, t)
-  //             : (e.__proto__ = t));
-  //     }
-  //     Object.defineProperty(t, "__esModule", { value: !0 });
-  //     var l = (function () {
-  //         function e(e, t) {
-  //           for (var n = 0, a; n < t.length; n++)
-  //             (a = t[n]),
-  //               (a.enumerable = a.enumerable || !1),
-  //               (a.configurable = !0),
-  //               "value" in a && (a.writable = !0),
-  //               Object.defineProperty(e, a.key, a);
-  //         }
-  //         return function (t, n, a) {
-  //           return n && e(t.prototype, n), a && e(t, a), t;
-  //         };
-  //       })(),
-  //       d = n(2),
-  //       p = o(d),
-  //       c = n(11),
-  //       u = o(c),
-  //       m = n(9);
-  //     n(40);
-  //     var f = n(5),
-  //       g = o(f),
-  //       h = n(15),
-  //       y = o(h),
-  //       b = n(8),
-  //       _ = (function (t) {
-  //         function n(e) {
-  //           i(this, n);
-  //           var t = r(
-  //             this,
-  //             (n.__proto__ || Object.getPrototypeOf(n)).call(this, e)
-  //           );
-  //           return (
-  //             (t.onCloseButtonClick = t.onCloseButtonClick.bind(t)),
-  //             (t.onNavClick = t.onNavClick.bind(t)),
-  //             (t.showDetail = t.showDetail.bind(t)),
-  //             (t.onReadMoreButtonClick = t.onReadMoreButtonClick.bind(t)),
-  //             (t.onReadLessButtonClick = t.onReadLessButtonClick.bind(t)),
-  //             (t.detailpage = ""),
-  //             t
-  //           );
-  //         }
-  //         return (
-  //           s(n, t),
-  //           l(n, [
-  //             {
-  //               key: "componentDidMount",
-  //               value: function () {
-  //                 (this.$element = a(this.refs.element)),
-  //                   (this.$nav = this.$element.find("nav")),
-  //                   TweenMax.set(this.$nav, { opacity: 0 }),
-  //                   (this.$navButtons = this.$element.find(
-  //                     "nav > ul > li > a"
-  //                   )),
-  //                   (this.$detailCopies = this.$element.find(".detail")),
-  //                   (this.$detailContainer = this.$element.find(
-  //                     ".detail-container"
-  //                   )),
-  //                   (this.$readMoreButton = this.$element.find(
-  //                     ".readmore-btn"
-  //                   )),
-  //                   (this.$readLessButton = this.$element.find(
-  //                     ".readless-btn"
-  //                   )),
-  //                   TweenMax.set(this.$readMoreButton, {
-  //                     y: this.$readMoreButton.height() + 20,
-  //                   }),
-  //                   TweenMax.set(this.$readLessButton, {
-  //                     y: -this.$readLessButton.height() - 20,
-  //                   }),
-  //                   window.APP.isMobile &&
-  //                     (TweenMax.set(this.$detailContainer, { opacity: 0 }),
-  //                     this.addMobileSwipeOnce()),
-  //                   TweenMax.set(this.$element, { opacity: 0 });
-  //               },
-  //             },
-  //             {
-  //               key: "componentWillEnter",
-  //               value: function (t) {
-  //                 TweenMax.to(this.$element, 1, { opacity: 1, onComplete: t }),
-  //                   e.delay(
-  //                     function () {
-  //                       if (window.APP.isMobile)
-  //                         g.default.sendTo("setGlobalState", {
-  //                           showBackgroundVideo: !0,
-  //                           backgroundVideo: "/",
-  //                         }),
-  //                           TweenMax.to(this.$readMoreButton, 0.5, {
-  //                             y: 0,
-  //                             delay: 0.2,
-  //                             ease: Power2.easeOut,
-  //                           });
-  //                       else {
-  //                         var e = window.location.hash
-  //                           .trim()
-  //                           .replace("#", "")
-  //                           .split("/");
-  //                         this.showDetail(e[1]),
-  //                           b.elementAnimations.subnavIn(this.$nav);
-  //                       }
-  //                     }.bind(this),
-  //                     500
-  //                   );
-  //               },
-  //             },
-  //             { key: "componentDidEnter", value: function () {} },
-  //             {
-  //               key: "componentWillLeave",
-  //               value: function (e) {
-  //                 b.pageAnimations.defaultOut(this.$element, e);
-  //               },
-  //             },
-  //             { key: "componentDidLeave", value: function () {} },
-  //             {
-  //               key: "onCloseButtonClick",
-  //               value: function (t) {
-  //                 t.preventDefault(),
-  //                   g.default.sendTo("goToPageHash", "journey");
-  //               },
-  //             },
-  //             {
-  //               key: "onNavClick",
-  //               value: function (t) {
-  //                 t.preventDefault(),
-  //                   this.showDetail(a(t.currentTarget).data("detail"));
-  //               },
-  //             },
-  //             {
-  //               key: "onReadMoreButtonClick",
-  //               value: function (t) {
-  //                 t.preventDefault(), this.showDetailMobile();
-  //               },
-  //             },
-  //             {
-  //               key: "onReadLessButtonClick",
-  //               value: function (t) {
-  //                 t.preventDefault(), this.hideDetailMobile();
-  //               },
-  //             },
-  //             {
-  //               key: "addMobileSwipeOnce",
-  //               value: function () {
-  //                 var e = this;
-  //                 a(e.$element).swipe({
-  //                   threshold: window.APP.swipeThreshold,
-  //                   swipeUp: function () {
-  //                     e.showDetailMobile();
-  //                   },
-  //                 });
-  //               },
-  //             },
-  //             {
-  //               key: "enableMobileSwipe",
-  //               value: function () {
-  //                 this.$element.swipe("enable");
-  //               },
-  //             },
-  //             {
-  //               key: "disableMobileSwipe",
-  //               value: function () {
-  //                 this.$element.swipe("disable");
-  //               },
-  //             },
-  //             {
-  //               key: "showDetail",
-  //               value: function (e) {
-  //                 this.$navButtons.removeClass("active"),
-  //                   this.$element
-  //                     .find("nav > ul > li > a." + e)
-  //                     .addClass("active"),
-  //                   (window.location.hash = "journeydetails/" + e),
-  //                   window.APP.isMobile
-  //                     ? g.default.sendTo("setGlobalState", {
-  //                         showBackgroundVideo: !0,
-  //                         backgroundVideo: "videoJourney",
-  //                       })
-  //                     : "spiritualMachines" == e
-  //                     ? g.default.sendTo("setGlobalState", {
-  //                         showBackgroundVideo: !0,
-  //                         backgroundVideo: "/",
-  //                       })
-  //                     : "uberEatsJapan" == e
-  //                     ? g.default.sendTo("setGlobalState", {
-  //                         showBackgroundVideo: !0,
-  //                         backgroundVideo: "/",
-  //                       })
-  //                     : "Music-Video-1" == e
-  //                     ? g.default.sendTo("setGlobalState", {
-  //                         showBackgroundVideo: !0,
-  //                         backgroundVideo: "/",
-  //                       })
-  //                     : "Music-Video-2" == e &&
-  //                       g.default.sendTo("setGlobalState", {
-  //                         showBackgroundVideo: !0,
-  //                         backgroundVideo: "/",
-  //                       });
-  //                 var t = this.$element.find(".detail." + e);
-  //                 if ("" == this.detailpage) b.pageAnimations.detailsCopyIn(t);
-  //                 else {
-  //                   var n = this.$element.find(".detail." + this.detailpage);
-  //                   b.pageAnimations.detailsCopyOutIn(n, t);
-  //                 }
-  //                 this.detailpage = e;
-  //               },
-  //             },
-  //             {
-  //               key: "showDetailMobile",
-  //               value: function () {
-  //                 this.disableMobileSwipe(),
-  //                   TweenMax.set(this.$detailContainer, { display: "block" }),
-  //                   TweenMax.to(this.$detailContainer, 0.5, {
-  //                     y: 0,
-  //                     opacity: 1,
-  //                     ease: Power2.easeOut,
-  //                   }),
-  //                   TweenMax.to(this.$readMoreButton, 0.5, {
-  //                     y: this.$readMoreButton.height() + 20,
-  //                     ease: Power2.easeOut,
-  //                   }),
-  //                   TweenMax.to(this.$readLessButton, 0.5, {
-  //                     y: 0,
-  //                     delay: 0.1,
-  //                     ease: Power2.easeOut,
-  //                   });
-  //               },
-  //             },
-  //             {
-  //               key: "hideDetailMobile",
-  //               value: function () {
-  //                 var e = this;
-  //                 TweenMax.to(this.$detailContainer, 0.3, {
-  //                   opacity: 0,
-  //                   ease: Power2.easeOut,
-  //                   onComplete: function () {
-  //                     e.$detailContainer.scrollTop(0),
-  //                       TweenMax.set(e.$detailContainer, { display: "none" });
-  //                   },
-  //                 }),
-  //                   TweenMax.to(this.$readMoreButton, 0.5, {
-  //                     y: 0,
-  //                     delay: 0.1,
-  //                     ease: Power2.easeOut,
-  //                   }),
-  //                   TweenMax.to(this.$readLessButton, 0.5, {
-  //                     y: -this.$readLessButton.height() - 20,
-  //                     ease: Power2.easeOut,
-  //                   }),
-  //                   e.enableMobileSwipe();
-  //               },
-  //             },
-  //             {
-  //               key: "render",
-  //               value: function () {
-  //                 return p.default.createElement(
-  //                   "section",
-  //                   {
-  //                     className: "page page-details page-productdetails",
-  //                     ref: "element",
-  //                   },
-  //                   p.default.createElement(
-  //                     "nav",
-  //                     null,
-  //                     p.default.createElement(
-  //                       "ul",
-  //                       null,
-  //                       p.default.createElement(
-  //                         "li",
-  //                         null,
-  //                         p.default.createElement(
-  //                           "a",
-  //                           {
-  //                             href: "/#journeydetails/chapter1",
-  //                             onClick: this.onNavClick,
-  //                             "data-detail": "chapter1",
-  //                             className: "chapter1",
-  //                           },
-  //                           "Spiritual Machines"
-  //                         )
-  //                       ),
-  //                       p.default.createElement(
-  //                         "li",
-  //                         null,
-  //                         p.default.createElement(
-  //                           "a",
-  //                           {
-  //                             href: "/#journeydetails/chapter2",
-  //                             onClick: this.onNavClick,
-  //                             "data-detail": "chapter2",
-  //                             className: "chapter2",
-  //                           },
-  //                           "Uber Eats Japan"
-  //                         )
-  //                       ),
-  //                       p.default.createElement(
-  //                         "li",
-  //                         null,
-  //                         p.default.createElement(
-  //                           "a",
-  //                           {
-  //                             href: "/#journeydetails/chapter3",
-  //                             onClick: this.onNavClick,
-  //                             "data-detail": "chapter3",
-  //                             className: "chapter3",
-  //                           },
-  //                           "Music Video 1"
-  //                         )
-  //                       ),
-  //                       p.default.createElement(
-  //                         "li",
-  //                         null,
-  //                         p.default.createElement(
-  //                           "a",
-  //                           {
-  //                             href: "/#journeydetails/chapter3",
-  //                             onClick: this.onNavClick,
-  //                             "data-detail": "chapter4",
-  //                             className: "chapter4",
-  //                           },
-  //                           "Music Video 2"
-  //                         )
-  //                       )
-  //                     )
-  //                   ),
-  //                   p.default.createElement(
-  //                     "div",
-  //                     { className: "detail-container" },
-  //                     p.default.createElement(
-  //                       "div",
-  //                       { className: "detail chapter1" },
-  //                       p.default.createElement("h3", null, "Spiritual Machines"),p.default.createElement(
-  //                         "img",
-  //                         { src: "./imgs/stripes.png",
-  //                           className: "sm-stripes", }
-  //                       ),
-  //                       p.default.createElement(
-  //                         "p",
-  //                         null,
-  //                         "Spiritual Machines is Guillermo Alarcon highly anticipated cyberpunk Sci-Fi debut short the film, initial shooting began in 2018 and it was finalized mid-2020 after a long journey in post production and color grading."
-  //                       ),
-  //                       p.default.createElement(
-  //                         "p",
-  //                         null,
-  //                         "Spiritual Machines takes place in the year 2076 the United Nations has ordered mandatory cerebral uplink to the Cyber Simulation due to Earth’s resources depleted and mutation due to biological warfare. Meanwhile the resistance lead by Calum is underway to demolish the sinister plans of the Proxy Master to plug everyone into the simulation. But is the proxy master the plan is to save humanity or slave it? Find out by watching the short film coming late 2020."
-  //                       )
-  //                     ),
-
-  //                     p.default.createElement(
-  //                       "div",
-  //                       { className: "detail chapter2" },
-  //                       p.default.createElement(
-  //                         "img",
-  //                         { src: "./imgs/stripes.png",
-  //                           className: "uber-stripe", }
-  //                       ),
-  //                       p.default.createElement("h3", null, "Uber Eats Japan"),
-  //                       p.default.createElement(
-  //                         "p",
-  //                         null,
-  //                         "Uber Eats Campaign ad shot and directed by Guillermo Alarcon, the ad peaks into how far would an uber eats delivery will cross Japan from the bursting city of Tokyo to the outskirts of mount Fuji, to deliver in time and satisfy the needs of Uber Eats customers."
-  //                       ),
-  //                       p.default.createElement(
-  //                         "p",
-  //                         null,
-  //                         "Omotenashi お持もて成なし in Japanese means the act of servitude towards the customer not expecting anything in return, this is the foundation of Japanese culture so we wanted the story to highlight this important part of Japanese society."
-  //                       ),
-  //                       p.default.createElement(
-  //                         "p",
-  //                         { className: "italic" },
-  //                         "Shot | Directed: Guillermo Alarcon\
-  //                         Producer: Jonathan Ealey\
-  //                         Assistant Camera: Rodger Sono &  Hagen Van  Holland\
-  //                         Audio: Ian Rever "
-  //                       )
-  //                     ),
-  //                     p.default.createElement(
-  //                       "div",
-  //                       { className: "detail chapter3" },
-  //                       p.default.createElement("h3", null, "Music Video 1"),
-  //                       p.default.createElement(
-  //                         "img",
-  //                         { src: "./imgs/stripes.png",
-  //                           className: "uber-stripe", }
-  //                       ),
-  //                       p.default.createElement(
-  //                         "p",
-  //                         null,
-  //                         "Music video produced for American famous\
-  //                         YouTuber, gamer, and rapper. He has over 5 Million\
-  //                         subscribers on his gaming channel, XpertThief, and\
-  //                         over 1.8 million followers subscribers on his rap channel,\
-  //                         KevinLaSean."
-  //                       ),
-  //                       p.default.createElement(
-  //                         "p",
-  //                         null,
-  //                         "Kevin Lasean a big anime and gamer wanted to have a\
-  //                         music video with cyberpunk influence and to showcase \
-  //                         his love for Tokyo and gaming culture."
-  //                       )
-  //                     ),
-  //                     p.default.createElement(
-  //                       "div",
-  //                       { className: "detail chapter4" },
-  //                       p.default.createElement("h3", null, "Music Video 2"),
-  //                       p.default.createElement(
-  //                         "p",
-  //                         null,
-  //                         "Oluse is a Nigerian-American rapper based in\
-  //                         Los Angeles, CA. Oluse is an artist that you want\
-  //                         to know more about, to dive into what inspired him\
-  //                         to be the person he is today."
-  //                       )
-  //                     ),
-  //                     p.default.createElement(
-  //                       "div",
-  //                       { className: "detail chapter4" },
-  //                       p.default.createElement("h3", null, "Music Video 2"),
-  //                       p.default.createElement(
-  //                         "img",
-  //                         { src: "./imgs/stripes.png",
-  //                           className: "uber-stripe", }
-  //                       ),
-  //                       p.default.createElement(
-  //                         "p",
-  //                         null,
-  //                         "As a Nigerian-American, you can hear subtle hints\
-  //                         that his style is not like the typical rapper. each song\
-  //                         is different and good in its own right. It has different\
-  //                         elements and a different style of cadence than what\
-  //                         we are used to in the world of music today."
-  //                       )
-  //                     )
-  //                   ),
-  //                   p.default.createElement(
-  //                     "a",
-  //                     {
-  //                       href: "/",
-  //                       onClick: this.onReadMoreButtonClick,
-  //                       className: "readmore-btn",
-  //                     },
-  //                     p.default.createElement("div", { className: "border" }),
-  //                     p.default.createElement("em", null, "Details")
-  //                   ),
-  //                   p.default.createElement(
-  //                     "a",
-  //                     {
-  //                       href: "/",
-  //                       onClick: this.onReadLessButtonClick,
-  //                       className: "readless-btn",
-  //                     },
-  //                     p.default.createElement("div", { className: "border" }),
-  //                     p.default.createElement("em", null, "Back")
-  //                   ),
-  //                   p.default.createElement(
-  //                     u.default,
-  //                     { component: m.firstChild.get },
-  //                     p.default.createElement(y.default, {
-  //                       clickhandler: this.onCloseButtonClick,
-  //                     })
-  //                   )
-  //                 );
-  //               },
-  //             },
-  //           ]),
-  //           n
-  //         );
-  //       })(p.default.Component),
-  //       v = _;
-  //     t.default = v;
-  //     (function () {
-  //       "undefined" == typeof __REACT_HOT_LOADER__ ||
-  //         (__REACT_HOT_LOADER__.register(
-  //           _,
-  //           "Journeydetails",
-  //           "/Users/ehrhart/htdocs/kunden.webroot/dayy/adidas-ankoku/app/pages/Journeydetails.jsx"
-  //         ),
-  //         __REACT_HOT_LOADER__.register(
-  //           v,
-  //           "default",
-  //           "/Users/ehrhart/htdocs/kunden.webroot/dayy/adidas-ankoku/app/pages/Journeydetails.jsx"
-  //         ));
-  //     })();
-  //   }.call(t, n(1), n(12)));
-  // },
 ]);
 //# sourceMappingURL=bundle.index.js.map
