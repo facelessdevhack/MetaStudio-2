@@ -40265,7 +40265,7 @@ object-assign
                     d.default.createElement(
                       "a",
                       {
-                        href: "file:///C:/Users/Sonu/Documents/GitHub/MetaStudio-2/company-profile.html",
+                        href: "https://facelessdevhack.github.io/MetaStudio-2/company-profile.html",
                         className: "btn btn-flag btn-explore"
                       },
                       d.default.createElement(
@@ -40520,13 +40520,13 @@ object-assign
                     d.default.createElement(
                       "a",
                       { className: "link-decode",
-                        href: "file:///C:/Users/Sonu/Documents/GitHub/MetaStudio-2/index.html#itemsdetails/jacket" },
+                        href: "https://facelessdevhack.github.io/MetaStudio-2/index.html#itemsdetails/jacket" },
                       "Our Team"
                     ),
                     d.default.createElement(
                       "a",
                       { className: "link-decode-1",
-                        href: "file:///C:/Users/Sonu/Documents/GitHub/MetaStudio-2/company-profile.html" },
+                        href: "https://facelessdevhack.github.io/MetaStudio-2/company-profile.html" },
                       "Corporate Profile"
                     ),
                     d.default.createElement(
