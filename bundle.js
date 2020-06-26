@@ -10480,7 +10480,7 @@ object-assign
         "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/trailer/trailer.mp4",
       videos: {
         videoHome:
-          "./videos/Render_1.mp4",
+          "https://www.ankoku-toshi-jutsu.com/assets/videos/01_start_overview.mp4",
         videoProduct:
           "https://www.ankoku-toshi-jutsu.com/assets/videos/02_shoe_overview.mp4",
         videoProductdetails:
@@ -10492,7 +10492,7 @@ object-assign
         videoJacket:
           "https://www.ankoku-toshi-jutsu.com/assets/videos/03_jacket.mp4",
         videoJourney:
-          "./videos/proxy_tunnel_FOR_WEB.mp4",
+          "https://www.ankoku-toshi-jutsu.com/assets/videos/04_journey_overview.mp4",
         videoJourneyChapter1:
           "./videos/spiritual_machines_v_3.mp4",
         videoJourneyChapter2:
@@ -10500,13 +10500,13 @@ object-assign
         videoJourneyChapter3:
           "./videos/music_video_Olush.mp4",
         videoJourneyChapter4:
-          "./videos/",
+          "https://www.ankoku-toshi-jutsu.com/assets/videos/04_journey_four.mp4",
         videoCredits:
           "https://www.ankoku-toshi-jutsu.com/assets/videos/05_credits.mp4",
       },
       videosMobile: {
         videoHome:
-          "./videos/Render_1.mp4",
+          "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/01_start.mp4",
         videoProduct:
           "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/02_shoe.mp4",
         videoItems:
@@ -10514,7 +10514,7 @@ object-assign
         videoItemsdetails:
           "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/03_item-details.mp4",
         videoJourney:
-          "proxy_tunnel_FOR_WEB.mp4",
+          "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/04_journey.mp4",
         videoCredits:
           "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/04_journey.mp4",
       },
@@ -13586,7 +13586,7 @@ object-assign
                           showMainMenu: !1,
                           showPageIndicator: !0,
                           showBackgroundVideo: !0,
-                          backgroundVideo: "videoHome",
+                          backgroundVideo: "#",
                           showTgwoLogo: !0,
                           showHeadHintHome: !0,
                           showHeadHintConsortium: !1,
@@ -13673,7 +13673,7 @@ object-assign
                             showMainMenu: !1,
                             showPageIndicator: !0,
                             showBackgroundVideo: !0,
-                            backgroundVideo: "videoJourney",
+                            backgroundVideo: "#",
                             showTgwoLogo: !0,
                             showAdidasLogo: !0,
                             showShopButton: !0,
