@@ -2196,16 +2196,13 @@ transform-origin: left center;
   position: fixed;
   left: 4.16667%;
   bottom: 6.66667%;
-  width: 600px !important;
+  width: 400px;
   max-width: 100%;
   color: #ffffff;
   display: none;
   opacity: 0;
   font-size: 20px;
   line-height: 28px;
-}
-.IAN p {
-  margin-bottom: 20px;
 }
 .page-details .detail h3 {
   display: none;
