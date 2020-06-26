@@ -10494,11 +10494,11 @@ object-assign
         videoJourney:
           "https://www.ankoku-toshi-jutsu.com/assets/videos/04_journey_overview.mp4",
         videoJourneyChapter1:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/04_journey_one.mp4",
+          "./videos/spiritual_machines_v_3.mp4",
         videoJourneyChapter2:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/04_journey_two.mp4",
+          "./videos/uber_eats_v6.mp4",
         videoJourneyChapter3:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/04_journey_three.mp4",
+          "./videos/music_video_Olush.mp4",
         videoJourneyChapter4:
           "https://www.ankoku-toshi-jutsu.com/assets/videos/04_journey_four.mp4",
         videoCredits:
@@ -40265,7 +40265,7 @@ object-assign
                     d.default.createElement(
                       "a",
                       {
-                        href: "https://facelessdevhack.github.io/MetaStudio-2/company-profile.html",
+                        href: "https://facelessdevhack.github.io/MetaStudio-2/decode.html",
                         className: "btn btn-flag btn-explore"
                       },
                       d.default.createElement(
@@ -40520,7 +40520,7 @@ object-assign
                     d.default.createElement(
                       "a",
                       { className: "link-decode",
-                        href: "https://facelessdevhack.github.io/MetaStudio-2/index.html#itemsdetails/jacket" },
+                        href: "https://facelessdevhack.github.io/MetaStudio-2/index.html#itemsdetails/GUILLERMO" },
                       "Our Team"
                     ),
                     d.default.createElement(
@@ -42468,25 +42468,25 @@ object-assign
                           showBackgroundVideo: !0,
                           backgroundVideo: "videoJourney",
                         })
-                      : "spiritualMachines" == e
+                      : "chapter1" == e
                       ? g.default.sendTo("setGlobalState", {
                           showBackgroundVideo: !0,
-                          backgroundVideo: "/",
+                          backgroundVideo: "videoJourneyChapter1",
                         })
-                      : "uberEatsJapan" == e
+                      : "chapter2" == e
                       ? g.default.sendTo("setGlobalState", {
                           showBackgroundVideo: !0,
-                          backgroundVideo: "/",
+                          backgroundVideo: "videoJourneyChapter2",
                         })
-                      : "Music-Video-1" == e
+                      : "chapter3" == e
                       ? g.default.sendTo("setGlobalState", {
                           showBackgroundVideo: !0,
-                          backgroundVideo: "/",
+                          backgroundVideo: "videoJourneyChapter3",
                         })
-                      : "Music-Video-2" == e &&
+                      : "Chapter4" == e &&
                         g.default.sendTo("setGlobalState", {
                           showBackgroundVideo: !0,
-                          backgroundVideo: "/",
+                          backgroundVideo: "videoJourneyChapter4",
                         });
                   var t = this.$element.find(".detail." + e);
                   if ("" == this.detailpage) b.pageAnimations.detailsCopyIn(t);
