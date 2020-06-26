@@ -40265,15 +40265,8 @@ object-assign
                     d.default.createElement(
                       "a",
                       {
-<<<<<<< HEAD
                         href: "https://facelessdevhack.github.io/MetaStudio-2/decode.html",
                         className: "btn btn-flag btn-explore"
-=======
-                        href: "javascript:void(0);",
-                        className: "btn btn-flag btn-explore",
-                        onClick: this.onClick,
-                        "data-pagehash": "product",
->>>>>>> parent of ac4500e... 26 june update
                       },
                       d.default.createElement(
                         "div",
@@ -40526,17 +40519,14 @@ object-assign
                     }),
                     d.default.createElement(
                       "a",
-<<<<<<< HEAD
                       { className: "link-decode",
                         href: "https://facelessdevhack.github.io/MetaStudio-2/index.html#itemsdetails/GUILLERMO" },
-=======
-                      { className: "link-decode" },
->>>>>>> parent of ac4500e... 26 june update
                       "Our Team"
                     ),
                     d.default.createElement(
                       "a",
-                      { className: "link-decode-1" },
+                      { className: "link-decode-1",
+                        href: "file:///C:/Users/Sonu/Documents/GitHub/MetaStudio-2/company-profile.html" },
                       "Corporate Profile"
                     ),
                     d.default.createElement(
@@ -41678,10 +41668,10 @@ object-assign
                             {
                               href: "/",
                               onClick: this.onNavClick,
-                              "data-detail": "jacket",
-                              className: "jacket",
+                              "data-detail": "GUILLERMO",
+                              className: "GUILLERMO",
                             },
-                            "Kimoto Jacket"
+                            "GUILLERMO"
                           )
                         ),
                         p.default.createElement(
@@ -41692,12 +41682,54 @@ object-assign
                             {
                               href: "/",
                               onClick: this.onNavClick,
-                              "data-detail": "longsleeve",
-                              className: "longsleeve",
+                              "data-detail": "IAN",
+                              className: "IAN",
                             },
-                            "Longsleeve"
+                            "IAN"
                           )
-                        )
+                        ),
+                        p.default.createElement(
+                          "li",
+                          null,
+                          p.default.createElement(
+                            "a",
+                            {
+                              href: "/",
+                              onClick: this.onNavClick,
+                              "data-detail": "HIDEYO",
+                              className: "HIDEYO",
+                            },
+                            "HIDEYO"
+                          )
+                        ),
+                        p.default.createElement(
+                          "li",
+                          null,
+                          p.default.createElement(
+                            "a",
+                            {
+                              href: "/",
+                              onClick: this.onNavClick,
+                              "data-detail": "NANA",
+                              className: "NANA",
+                            },
+                            "NANA"
+                          )
+                        ),
+                        p.default.createElement(
+                          "li",
+                          null,
+                          p.default.createElement(
+                            "a",
+                            {
+                              href: "/",
+                              onClick: this.onNavClick,
+                              "data-detail": "RAFAEL",
+                              className: "RAFAEL",
+                            },
+                            "RAFAEL"
+                          )
+                        ),
                       )
                     ),
                     p.default.createElement(
@@ -41705,31 +41737,130 @@ object-assign
                       { className: "detail-container" },
                       p.default.createElement(
                         "div",
-                        { className: "detail longsleeve" },
+                        { className: "detail RAFAEL" },
                         p.default.createElement(
                           "p",
                           null,
-                          'The all black longsleeve is made of 100% organic cotton. The fabric weighs 190gr/sqm and was knitted in Finland. It comes with a crew neckline. The chest features the The Good Will Out box logo. The back shows the logo stripe as seen on the heel of the NMD CS. It reads "The Good Will Out" and "\u6700\u826F\u306E\u7269\u306F\u5B9F\u73FE\u3059\u308B" (Japanese for "The Good Will Out"). Both prints are reflective. The longsleeve is Made in Germany.'
+                          'Rafael Daly has been part of Meta Studios since the early days in',
+                          p.default.createElement("br"),
+                          "San Francisco, a crucial backbone of the development and",
+                          p.default.createElement("br"),
+                          "establishment of Meta Studios in Japan."
+                        ),
+                        p.default.createElement(
+                          "p",
+                          null,
+                          'Rafael coordinates and manages our video production organizing',
+                          p.default.createElement("br"),
+                          "as line producer.",
+                        ),
+                        p.default.createElement(
+                          "p",
+                          null,
+                          'Rafael originally from Santiago, Chile.'
+                        ),
+                      ),
+                      p.default.createElement(
+                        "div",
+                        { className: "detail GUILLERMO" },
+                        p.default.createElement(
+                          "p",
+                          null,
+                          "Founder and CEO of Meta Studios, Head of",
+                          p.default.createElement(
+                            "br"
+                          ),
+                          "UI & UX Department, IOS Engineer and lover",
+                          p.default.createElement("br"),
+                          "of simple & interactive 3D futuristic design."
+                        ),
+                        p.default.createElement(
+                          "p",
+                          null,
+                          "Constantly foreseeing future innovations and",
+                          p.default.createElement("br"),
+                          "creative solutions, expanding the boundaries",
+                          p.default.createElement("br"),
+                          "of medium and format."
+                        ),
+                        p.default.createElement(
+                          "p",
+                          null,
+                          'His friends call him “Memo”. He spends most',
+                          p.default.createElement("br"),
+                          "of his time exploring Ancient sites,",
+                          p.default.createElement("br"),
+                          "astrophotography, learning languages and",
+                          p.default.createElement("br"),
+                          "exploring Virtual Reality."
                         )
                       ),
                       p.default.createElement(
                         "div",
-                        { className: "detail jacket" },
+                        { className: "detail IAN" },
                         p.default.createElement(
                           "p",
                           null,
-                          "The all black Kimoto Jacket is made of 100% Stotz EtaProof fabric. It brings together year old techniques of Japanese Martial Arts with its silhoutte and the art of pattern making which is still used for the kimono or shozoko today and mastered in a way to have full freedom of movement and offers a timeless look to themselves."
+                          "Meta Studios Chief Technology Officer,",
+                          p.default.createElement("br"),
+                          "Ian Rever co-founded the company along with",
+                          p.default.createElement("br"),
+                          "Guillermo Alarcon."
                         ),
                         p.default.createElement(
                           "p",
                           null,
-                          "The front features a black on black The Good Will Out box logo patch above one of the patch on pockets. The back shows the logo stripe as seen on the heel of the NMD CS."
+                          "Both originally from San Francisco, CA they decided",
+                          p.default.createElement("br"),
+                          "to bring their vision to Japan."
                         ),
                         p.default.createElement(
                           "p",
                           null,
-                          "EtaProof is a development of British traditional performance cotton, extra long staple fibre yarns are gently spun and twisted, then woven into an extremely dense plain weave cloth. The result is a dense all weather fabric which has a natural touch and comfort with rain and wind protection and natural breathability that is recognised worldwide to be the best of its kind."
+                          "Ian Rever a certified Funktion One Sound Engineer,",
+                          p.default.createElement("br"),
+                          "handles Meta Studios Sound Division and equipment",
+                          p.default.createElement("br"),
+                          "rentals for our clientele in Japan."
                         )
+                      ),
+                      p.default.createElement(
+                        "div",
+                        { className: "detail HIDEYO" },
+                        p.default.createElement(
+                          "p",
+                          null,
+                          "Hideyo Tsuda also known as Hideyo Black moon a pioneer in",
+                          p.default.createElement("br"),
+                          "Electronic Music for the past 30 years, she's is Meta Studios",
+                          p.default.createElement("br"),
+                          "Executive Producer."
+                        ),
+                        p.default.createElement(
+                          "p",
+                          null,
+                          "Currently working on her new album and building a new Spiritual",
+                          p.default.createElement("br"),
+                          "multimedia platform coming for 2021."
+                        ),
+                      ),
+                      p.default.createElement(
+                        "div",
+                        { className: "detail NANA" },
+                        p.default.createElement(
+                          "p",
+                          null,
+                          "Nana Kawaguchi currently works for Meta Studios as our Japanese",
+                          p.default.createElement("br"),
+                          "creative development staff and account management."
+                        ),
+                        p.default.createElement(
+                          "p",
+                          null,
+                          "She is an important valuable component to Meta Studios creative",
+                          p.default.createElement("br"),
+                          "vision and our link to Japanese establishment."
+                        ),
                       )
                     ),
                     p.default.createElement(
@@ -45667,7 +45798,7 @@ object-assign
                             },
                             d.default.createElement("img", {
                               src:
-                                "https://facelessdevhack.github.io/MetaStudio-2/imgs/meta-logo.png",
+                                "https://facelessdevhack.github.io/MetaStudio-2/imgs/meta-logo.gif",
                               className: "tgwo",
                               alt: "meta",
                             })
