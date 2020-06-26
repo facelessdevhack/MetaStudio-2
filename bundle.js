@@ -40265,11 +40265,7 @@ object-assign
                     d.default.createElement(
                       "a",
                       {
-<<<<<<< HEAD
                         href: "https://facelessdevhack.github.io/MetaStudio-2/decode.html",
-=======
-                        href: "file:///C:/Users/Sonu/Documents/GitHub/MetaStudio-2/company-profile.html",
->>>>>>> parent of e3e398e... linking
                         className: "btn btn-flag btn-explore"
                       },
                       d.default.createElement(
@@ -40524,11 +40520,7 @@ object-assign
                     d.default.createElement(
                       "a",
                       { className: "link-decode",
-<<<<<<< HEAD
                         href: "https://facelessdevhack.github.io/MetaStudio-2/index.html#itemsdetails/GUILLERMO" },
-=======
-                        href: "file:///C:/Users/Sonu/Documents/GitHub/MetaStudio-2/index.html#itemsdetails/jacket" },
->>>>>>> parent of e3e398e... linking
                       "Our Team"
                     ),
                     d.default.createElement(
