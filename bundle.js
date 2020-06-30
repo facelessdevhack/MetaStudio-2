@@ -40265,6 +40265,7 @@ object-assign
                     d.default.createElement(
                       "a",
                       {
+                        target: "_blank",
                         href: "https://facelessdevhack.github.io/MetaStudio-2/decode.html",
                         className: "btn btn-flag btn-explore"
                       },
@@ -48173,7 +48174,6 @@ object-assign
                         "https://facelessdevhack.github.io/MetaStudio-2/imgs/meta-logo.png",
                       alt: "Meta-Studios",
                       className: "tgwo-logo",
-                      style: "filter: invert(50);"
                     })
                   );
                 },
