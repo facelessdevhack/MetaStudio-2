@@ -3852,6 +3852,7 @@ span.hover-effect {
   line-height: 1;
 }
 .hover-svg:hover {
+  padding-bottom: 4px;
   border-bottom: 2px solid white;
 }
 
