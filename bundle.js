@@ -48173,6 +48173,7 @@ object-assign
                         "https://facelessdevhack.github.io/MetaStudio-2/imgs/meta-logo.png",
                       alt: "Meta-Studios",
                       className: "tgwo-logo",
+                      style: "filter: invert(50);"
                     })
                   );
                 },

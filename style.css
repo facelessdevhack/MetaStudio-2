@@ -1904,9 +1904,9 @@ transform-origin: left center;
   color: rgba(182, 188, 206, 0.7);
   line-height: 32px;
 }
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1400px) {
   .page-home .hl-info-desktop {
-    font-size: 14px;
+    font-size: 10px !important;
     line-height: 23px;
     margin-bottom: -30px;
   }
@@ -3748,7 +3748,18 @@ p.copy {
   line-height: 20px;
   color: rgba(182, 188, 206, 0.7);
 }
-
+@media (max-width: 1400px) {
+  p.copy {
+    display: inline-block;
+    clear: left;
+    font-family: "DIN Next Pro Medium", "Helvetica", Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px !important;
+    line-height: 20px;
+    color: rgba(182, 188, 206, 0.7);
+  }
+}
 .white {
   color: #ffffff;
 }
