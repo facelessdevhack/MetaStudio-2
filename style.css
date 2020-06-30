@@ -465,6 +465,7 @@ h3 {
 }
 .hover-svg {
   /* margin-left: 10px; */
+  fill: white;
 }
 .hover-social:first-child {
   margin-left: 0px;

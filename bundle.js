@@ -47925,60 +47925,54 @@ object-assign
                             d.default.createElement("span", null, "EMAIL"),
                           ),
                           d.default.createElement(
-                            "ul",
-                            { className: "social-networks round to-square rise-up"},
-                            d.default.createElement(
-                              "li", null,
-                              d.default.createElement(
-                                "a",
-                              {
-                                href:
-                                  "https://www.facebook.com/futurevizionphotography",
-                                target: "_blank",
-                                className: "hover-social hover-slide",
-                              },
-                              d.default.createElement("img", {
-                                className: "hover-svg",
-                                src:
-                                  "https://facelessdevhack.github.io/MetaStudio-2/imgs/fb.svg",
-                                alt: "FB",
-                              })),
-                            ),
-                            d.default.createElement(
-                              "li", null,
-                              d.default.createElement(
-                                "a",
-                              {
-                                href:
-                                  "https://www.facebook.com/futurevizionphotography",
-                                target: "_blank",
-                                className: "hover-social hover-slide",
-                              },
-                              d.default.createElement("img", {
-                                className: "hover-svg",
-                                src:
-                                  "https://facelessdevhack.github.io/MetaStudio-2/imgs/ig.svg",
-                                alt: "IG",
-                              })),
-                            ),
-                            d.default.createElement(
-                              "li", null,
-                              d.default.createElement(
-                                "a",
-                              {
-                                href:
-                                  "https://www.facebook.com/futurevizionphotography",
-                                target: "_blank",
-                                className: "hover-social hover-slide",
-                              },
-                              d.default.createElement("img", {
-                                className: "hover-svg",
-                                src:
-                                  "https://facelessdevhack.github.io/MetaStudio-2/imgs/tw.svg",
-                                alt: "TW",
-                              })),
-                            ),
-                          ),
+                            "a",
+                          {
+                            href:
+                              "https://www.facebook.com/futurevizionphotography",
+                            target: "_blank",
+                            className: "hover-social hover-slide",
+                          },
+                          d.default.createElement("img", {
+                            className: "hover-svg",
+                            src:
+                              "https://facelessdevhack.github.io/MetaStudio-2/imgs/fb.svg",
+                            alt: "FB",
+                            width: "25px",
+                            height: "25px"
+                          })),
+                          d.default.createElement(
+                            "a",
+                          {
+                            href:
+                              "https://www.facebook.com/futurevizionphotography",
+                            target: "_blank",
+                            className: "hover-social hover-slide",
+                          },
+                          d.default.createElement("img", {
+                            className: "hover-svg",
+                            src:
+                              "https://facelessdevhack.github.io/MetaStudio-2/imgs/ig.svg",
+                            alt: "IG",
+                            width: "25px",
+                            height: "25px"
+                          })),
+                          d.default.createElement(
+                            "a",
+                          {
+                            href:
+                              "https://www.facebook.com/futurevizionphotography",
+                            target: "_blank",
+                            className: "hover-social hover-slide",
+                          },
+                          d.default.createElement("img", {
+                            className: "hover-svg",
+                            src:
+                              "https://facelessdevhack.github.io/MetaStudio-2/imgs/tw.svg",
+                            alt: "TW",
+                            width: "25px",
+                            height: "25px",
+                            fill: "white"
+                          })),
                         ),
                         d.default.createElement(
                           "a",
@@ -49101,6 +49095,8 @@ object-assign
                         src:
                           "https://facelessdevhack.github.io/MetaStudio-2/imgs/fb.svg",
                         alt: "FB",
+                        width: "25px",
+                        height: "25px"
                       })
                     ),
                     l.default.createElement(
@@ -49115,6 +49111,8 @@ object-assign
                         src:
                           "https://facelessdevhack.github.io/MetaStudio-2/imgs/ig.svg",
                         alt: "IG",
+                        width: "25px",
+                        height: "25px"
                       })
                     ),
                     l.default.createElement(
@@ -49129,6 +49127,8 @@ object-assign
                         src:
                           "https://facelessdevhack.github.io/MetaStudio-2/imgs/tw.svg",
                         alt: "TW",
+                        width: "25px",
+                        height: "25px"
                       })
                     )
                   );
