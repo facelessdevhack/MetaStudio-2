@@ -445,7 +445,7 @@ h3 {
   top: 50%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-  width: 322px;
+  width: 420px !important;
   z-index: 300;
   font-size: 16px;
   line-height: 20px;
@@ -467,8 +467,9 @@ h3 {
   /* margin-left: 10px; */
   fill: white;
 }
-.hover-social:first-child {
-  margin-left: 0px;
+.hover-social {
+  margin-top: 10px;
+  margin-right: 10px;
 }
 .main-menu .shop-container .btn-white {
   width: auto;

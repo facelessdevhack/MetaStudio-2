@@ -47909,10 +47909,10 @@ object-assign
                           ),
                           d.default.createElement(
                             "p",
-                            { className: "copy" },
-                            "Send us an E-mail to discuss your",
+                            { className: "copy white" },
+                            "Send us an E-mail to discuss your next",
                             d.default.createElement("br"),
-                            "next project"
+                            "project"
                           ),
                           d.default.createElement(
                             "a",
@@ -47924,6 +47924,8 @@ object-assign
                             },
                             d.default.createElement("span", null, "EMAIL"),
                           ),
+                          d.default.createElement("br"),
+                          d.default.createElement("br"),
                           d.default.createElement(
                             "a",
                           {
@@ -47944,7 +47946,7 @@ object-assign
                             "a",
                           {
                             href:
-                              "https://www.facebook.com/futurevizionphotography",
+                              "https://instagram.com/future_vizion",
                             target: "_blank",
                             className: "hover-social hover-slide",
                           },
@@ -47960,7 +47962,7 @@ object-assign
                             "a",
                           {
                             href:
-                              "https://www.facebook.com/futurevizionphotography",
+                              "https://twitter.com/future_vizion",
                             target: "_blank",
                             className: "hover-social hover-slide",
                           },
@@ -48022,7 +48024,7 @@ object-assign
                             d.default.createElement(
                               "a",
                               {
-                                href: "/",
+                                href: "https://futurevizion.jp/blog/",
                                 onClick: this.onClick,
                                 "data-pagehash": "imprint",
                               },
@@ -48170,6 +48172,7 @@ object-assign
                         "https://facelessdevhack.github.io/MetaStudio-2/imgs/meta-logo.gif",
                       alt: "Meta-Studios",
                       className: "tgwo-logo",
+                      style: "filer: invert(50);"
                     })
                   );
                 },
