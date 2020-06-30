@@ -445,7 +445,7 @@ h3 {
   top: 50%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-  width: 280px;
+  width: 322px;
   z-index: 300;
   font-size: 16px;
   line-height: 20px;
@@ -458,6 +458,16 @@ h3 {
   font-size: 24px;
   line-height: 32px;
   margin-bottom: 18px;
+}
+.social-networks {
+  list-style: none;
+  display: flex;
+}
+.hover-svg {
+  /* margin-left: 10px; */
+}
+.hover-social:first-child {
+  margin-left: 0px;
 }
 .main-menu .shop-container .btn-white {
   width: auto;
@@ -654,7 +664,7 @@ h3 {
   left: 4.16667%;
   top: 6.66667%;
   z-index: 310;
-  width: 60px;
+  width: 80px;
   height: 60px;
 }
 @media screen and (max-width: 800px) {
@@ -2368,6 +2378,22 @@ transform-origin: left center;
   top: 50%;
   font-size: 14pt;
 }
+.link-decode:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FFF;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+.link-decode:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
 @media (max-width: 1400px) {
   .link-decode {
     position: absolute;
@@ -2381,6 +2407,22 @@ transform-origin: left center;
   left: 78.61%;
   top: 50%;
   font-size: 14pt;
+}
+.link-decode-1:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FFF;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+.link-decode-1:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
 }
 @media (max-width: 1400px) {
   .link-decode-1 {
@@ -2406,11 +2448,11 @@ transform-origin: left center;
 }
 .project-back {
   position: absolute;
-  left: 31%;
-  top: 10%;
+  left: 35%;
+  top: 28%;
   z-index: 3;
-  width: 1000;
-  height: 800;
+  width: 800;
+  height: 600;
 }
 @media (max-width: 1400px) {
   .project-back {
@@ -2421,16 +2463,6 @@ transform-origin: left center;
     width: 600;
     height: 400;
   }
-}
-.hover-social::after {
-  border-radius: 50%;
-  border-top: .1em solid #2F56B0;
-  content: "";
-  position: absolute;
-    right: 2px;
-    top: 20px;
-    bottom: .25em;
-    left: 0;
 }
 .page-items .btn.btn-longsleeve {
   position: fixed;
@@ -3816,6 +3848,9 @@ section.page,
 
 span.hover-effect {
   line-height: 1;
+}
+.hover-svg:hover {
+  border-bottom: 2px solid white;
 }
 
 /* FLAG BUTTONS */
