@@ -3862,6 +3862,7 @@ span.hover-effect {
   height: auto;
   position: relative;
   overflow: visible;
+  vertical-align: middle;
 }
 .btn-flag .flag-container svg.flag {
   z-index: 200;
@@ -3873,6 +3874,10 @@ span.hover-effect {
   border: none;
   stroke: none;
 }
+#app-button {
+  margin-left: 20px;
+}
+
 .btn-flag .flag-container svg.flag path.characters {
   -webkit-transition: fill 150ms linear 150ms;
   transition: fill 150ms linear 150ms;
