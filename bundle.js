@@ -10448,7 +10448,7 @@ object-assign
         "https://www.ankoku-toshi-jutsu.com/assets/images/soundwave-long.png",
         "https://www.ankoku-toshi-jutsu.com/assets/images/story-thumb.jpg",
         "https://www.ankoku-toshi-jutsu.com/assets/images/tgwo-logo-black.png",
-        "https://facelessdevhack.github.io/MetaStudio-2/imgs/meta-logo.gif",
+        "https://facelessdevhack.github.io/MetaStudio-2/imgs/meta-logo.png",
         "https://www.ankoku-toshi-jutsu.com/assets/images/trailer-bg.png",
         "https://www.ankoku-toshi-jutsu.com/assets/sounds/bg.mp3",
         "https://www.ankoku-toshi-jutsu.com/assets/sounds/bg.ogg",
@@ -32768,7 +32768,7 @@ object-assign
                       ),
                       p.default.createElement("img", {
                         src:
-                          "https://facelessdevhack.github.io/MetaStudio-2/imgs/meta-logo.gif",
+                          "https://facelessdevhack.github.io/MetaStudio-2/imgs/meta-logo.png",
                         alt: "Meta-Studio",
                         className: "tgwo-logo logo-right",
                       })
@@ -41317,7 +41317,10 @@ object-assign
                           }),
                           d.default.createElement("path", {
                             className: "characters",
-                            d: "私たちについて",
+                            d: "M20.94 8.78 Q17.70 13.02 14.70 14.86 L13.30 13.14 Q15.59 11.77 18.17 8.64 L3.44 8.64 L3.44 6.69 L20.94 6.69 ZM12.84 10.28 Q12.89 11.28 12.89 12.16 Q12.89 16.66 11.52 19.31 Q10.14 21.97 6.98 23.70 L5.41 22.09 Q7.56 20.92 8.77 19.48 Q9.97 18.05 10.36 16.13 Q10.75 14.20 10.66 10.28 Z\
+                            M46.94 6.81 Q46.94 7.81 46.22 8.52 Q45.50 9.23 44.53 9.23 Q43.61 9.23 42.87 8.56 Q42.13 7.89 42.13 6.81 Q42.13 5.77 42.86 5.09 Q43.59 4.41 44.55 4.41 Q45.50 4.41 46.22 5.10 Q46.94 5.80 46.94 6.81 ZM44.42 8.08 Q44.94 8.08 45.36 7.74 Q45.78 7.41 45.78 6.78 Q45.78 6.23 45.38 5.88 Q44.97 5.53 44.47 5.53 Q43.95 5.53 43.60 5.91 Q43.25 6.30 43.25 6.78 Q43.25 7.31 43.62 7.70 Q43.98 8.08 44.42 8.08 ZM42.22 8.33 Q41.72 15.25 39.02 18.55 Q36.33 21.86 29.84 23.70 L28.63 21.77 Q33.86 20.50 36.51 18.08 Q39.16 15.66 39.84 10.38 L27.31 10.38 L27.31 8.33 Z\
+                            M65.56 15.02 Q65.56 17.88 63.91 20.27 Q62.27 22.67 58.63 24.05 L57.17 22.30 Q60.03 21.13 61.67 19.66 Q63.31 18.19 63.31 15.02 L63.31 5.28 L65.56 5.28 ZM56.73 16.39 L54.58 16.39 L54.58 6.00 L56.73 6.00 Z\
+                            ",
                           }),
                           d.default.createElement("path", {
                             d:
@@ -45802,7 +45805,7 @@ object-assign
                             },
                             d.default.createElement("img", {
                               src:
-                                "https://facelessdevhack.github.io/MetaStudio-2/imgs/meta-logo.gif",
+                                "https://facelessdevhack.github.io/MetaStudio-2/imgs/meta-logo.png",
                               className: "tgwo",
                               alt: "meta",
                             })
@@ -47939,14 +47942,14 @@ object-assign
                             src:
                               "https://facelessdevhack.github.io/MetaStudio-2/imgs/fb.svg",
                             alt: "FB",
-                            width: "25px",
-                            height: "25px"
+                            width: "18px",
+                            height: "18px"
                           })),
                           d.default.createElement(
                             "a",
                           {
                             href:
-                              "https://instagram.com/future_vizion",
+                              "https://www.facebook.com/futurevizionphotography",
                             target: "_blank",
                             className: "hover-social hover-slide",
                           },
@@ -47955,14 +47958,14 @@ object-assign
                             src:
                               "https://facelessdevhack.github.io/MetaStudio-2/imgs/ig.svg",
                             alt: "IG",
-                            width: "25px",
-                            height: "25px"
+                            width: "18px",
+                            height: "18px"
                           })),
                           d.default.createElement(
                             "a",
                           {
                             href:
-                              "https://twitter.com/future_vizion",
+                              "https://www.facebook.com/futurevizionphotography",
                             target: "_blank",
                             className: "hover-social hover-slide",
                           },
@@ -47971,8 +47974,8 @@ object-assign
                             src:
                               "https://facelessdevhack.github.io/MetaStudio-2/imgs/tw.svg",
                             alt: "TW",
-                            width: "25px",
-                            height: "25px",
+                            width: "18px",
+                            height: "18px",
                             fill: "white"
                           })),
                         ),
@@ -48024,7 +48027,7 @@ object-assign
                             d.default.createElement(
                               "a",
                               {
-                                href: "https://futurevizion.jp/blog/",
+                                href: "/",
                                 onClick: this.onClick,
                                 "data-pagehash": "imprint",
                               },
@@ -48169,10 +48172,9 @@ object-assign
                     },
                     d.default.createElement("img", {
                       src:
-                        "https://facelessdevhack.github.io/MetaStudio-2/imgs/meta-logo.gif",
+                        "https://facelessdevhack.github.io/MetaStudio-2/imgs/meta-logo.png",
                       alt: "Meta-Studios",
                       className: "tgwo-logo",
-                      style: "filer: invert(50);"
                     })
                   );
                 },
@@ -49098,8 +49100,8 @@ object-assign
                         src:
                           "https://facelessdevhack.github.io/MetaStudio-2/imgs/fb.svg",
                         alt: "FB",
-                        width: "25px",
-                        height: "25px"
+                        width: "18px",
+                        height: "18px"
                       })
                     ),
                     l.default.createElement(
@@ -49114,8 +49116,8 @@ object-assign
                         src:
                           "https://facelessdevhack.github.io/MetaStudio-2/imgs/ig.svg",
                         alt: "IG",
-                        width: "25px",
-                        height: "25px"
+                        width: "18px",
+                        height: "18px"
                       })
                     ),
                     l.default.createElement(
@@ -49130,8 +49132,8 @@ object-assign
                         src:
                           "https://facelessdevhack.github.io/MetaStudio-2/imgs/tw.svg",
                         alt: "TW",
-                        width: "25px",
-                        height: "25px"
+                        width: "18px",
+                        height: "18px"
                       })
                     )
                   );
