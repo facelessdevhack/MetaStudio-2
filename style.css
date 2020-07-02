@@ -3761,7 +3761,7 @@ p.copy {
   }
 }
 .white {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .big-white-copy,
@@ -3893,6 +3893,7 @@ span.hover-effect {
 .btn-flag .flag-container svg.flag path.characters {
   -webkit-transition: fill 150ms linear 150ms;
   transition: fill 150ms linear 150ms;
+  margin-top: 20px;
 }
 .btn-flag .flag-container svg.flag rect {
   fill: #ffffff;
