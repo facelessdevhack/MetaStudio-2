@@ -10474,13 +10474,10 @@ object-assign
         "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/flags/flag_black.mp4",
         "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/flags/flag_white.mp4",
       ],
-      videoTrailer:
-        "#",
-      videoTrailerMobile:
-        "#",
+      videoTrailer: "#",
+      videoTrailerMobile: "#",
       videos: {
-        videoHome:
-          "./videos/Render_1.mp4",
+        videoHome: "./videos/Render_1.mp4",
         videoProduct:
           "https://www.ankoku-toshi-jutsu.com/assets/videos/02_shoe_overview.mp4",
         videoProductdetails:
@@ -10491,30 +10488,24 @@ object-assign
           "https://www.ankoku-toshi-jutsu.com/assets/videos/03_longsleeve.mp4",
         videoJacket:
           "https://www.ankoku-toshi-jutsu.com/assets/videos/03_jacket.mp4",
-        videoJourney:
-          "./videos/proxy_tunnel_FOR_WEB.mp4",
-        videoJourneyChapter1:
-          "./videos/spiritual_machines_v_3.mp4",
-        videoJourneyChapter2:
-          "./videos/uber_eats_v6.mp4",
-        videoJourneyChapter3:
-          "./videos/music_video_Olush.mp4",
+        videoJourney: "./videos/proxy_tunnel_FOR_WEB.mp4",
+        videoJourneyChapter1: "./videos/spiritual_machines_v_3.mp4",
+        videoJourneyChapter2: "./videos/uber_eats_v6.mp4",
+        videoJourneyChapter3: "./videos/music_video_Olush.mp4",
         videoJourneyChapter4:
           "https://www.ankoku-toshi-jutsu.com/assets/videos/04_journey_four.mp4",
         videoCredits:
           "https://www.ankoku-toshi-jutsu.com/assets/videos/05_credits.mp4",
       },
       videosMobile: {
-        videoHome:
-          "./videos/Render_1.mp4",
+        videoHome: "./videos/Render_1.mp4",
         videoProduct:
           "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/02_shoe.mp4",
         videoItems:
           "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/03_items-overview.mp4",
         videoItemsdetails:
           "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/03_item-details.mp4",
-        videoJourney:
-          "./videos/proxy_tunnel_FOR_WEB.mp4",
+        videoJourney: "./videos/proxy_tunnel_FOR_WEB.mp4",
         videoCredits:
           "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/04_journey.mp4",
       },
@@ -40263,44 +40254,56 @@ object-assign
                       )
                     ),
                     d.default.createElement(
-                      "a",
+                      "div",
                       {
-                        target: "_blank",
-                        href: "https://facelessdevhack.github.io/MetaStudio-2/decode.html",
-                        className: "btn btn-flag btn-explore"
+                        id: "btn-decode"
                       },
                       d.default.createElement(
-                        "div",
-                        { className: "flag-container animation-default" },
+                        "a",
+                        {
+                          target: "_blank",
+                        href:
+                          "https://facelessdevhack.github.io/MetaStudio-2/decode.html",
+                        className: "btn btn-flag btn-explore",
+                        },
                         d.default.createElement(
-                          "svg",
-                          {
-                            className: "flag",
-                            width: "175px",
-                            height: "50px",
-                            viewBox: "0 0 175 50",
-                            version: "1.1",
-                          },
-                          d.default.createElement("rect", {
-                            width: "400",
-                            height: "400",
-                          }),
-                          d.default.createElement("text", {
-                            className: "characters",
-                            d:
-                              "M17.256,21.6 L28.744,21.6 L28.744,31.888 L17.256,31.888 L17.256,21.6 Z M18.92,23.136 L18.92,30.352 L27.08,30.352 L27.08,23.136 L18.92,23.136 Z M38.4,20.256 C39.92,21.024 41.584,22.08 43.408,23.408 L42.368,24.672 C40.576,23.392 38.976,22.4 37.584,21.664 L38.4,20.256 Z M49.152,22.576 L50.688,23.184 C49.584,25.696 48.128,27.76 46.304,29.392 C44.336,31.104 41.968,32.304 39.184,32.976 L38.416,31.504 C40.864,30.928 43.04,29.84 44.944,28.24 C46.768,26.672 48.16,24.784 49.152,22.576 Z M71.16,18.384 C71.896,19.072 72.488,19.792 72.92,20.528 L72.04,21.168 C71.56,20.368 71,19.648 70.344,19.024 L71.16,18.384 Z M68.792,18.432 C69.496,19.072 70.088,19.808 70.536,20.608 L69.672,21.216 C69.208,20.432 68.632,19.712 67.96,19.056 L68.792,18.432 Z M63.512,19.344 L65.048,19.84 C64.856,20.384 64.632,20.912 64.408,21.424 L69.544,21.424 L70.52,21.936 C70.04,24.624 69.048,26.88 67.544,28.736 C66.008,30.56 63.992,31.968 61.48,32.96 L60.6,31.552 C62.664,30.784 64.36,29.728 65.672,28.384 C67.144,26.912 68.12,25.104 68.632,22.976 L63.56,22.976 C63.352,23.312 63.128,23.632 62.904,23.952 C62.056,25.104 60.984,26.176 59.672,27.184 L58.52,26.096 C59.72,25.152 60.744,24.128 61.592,23.008 C62.44,21.856 63.08,20.624 63.512,19.344 Z M86.448,28.224 C87.376,28.848 88.24,29.488 89.056,30.128 C90.272,31.088 91.28,32 92.08,32.864 L93.376,31.792 C92.592,30.928 91.52,29.984 90.176,28.944 C89.36,28.304 88.464,27.648 87.488,26.976 C88.656,25.44 89.68,23.616 90.544,21.504 L89.552,20.848 L80.624,20.848 L80.624,22.384 L88.32,22.384 C86.464,26.448 83.344,29.504 78.928,31.584 L79.936,32.912 C82.592,31.616 84.752,30.048 86.448,28.224 Z M110.024,20.112 L110.024,25.232 C110.024,26.864 109.64,28.176 108.888,29.168 C108.024,30.288 106.616,31.072 104.648,31.552 L105.416,33.024 C107.544,32.48 109.128,31.568 110.184,30.272 C111.176,29.008 111.688,27.376 111.688,25.36 L111.688,20.112 L110.024,20.112 Z M102.312,20.448 L102.312,28.192 L103.976,28.192 L103.976,20.448 L102.312,20.448 Z M121.904,25.456 L121.904,26.992 L134.112,26.992 L134.112,25.456 L121.904,25.456 Z M155.176,18.32 C155.928,19.008 156.52,19.728 156.952,20.464 L156.056,21.104 C155.592,20.304 155.032,19.584 154.376,18.944 L155.176,18.32 Z M153.656,19.264 C154.36,19.92 154.952,20.64 155.4,21.44 L154.536,22.048 C154.072,21.264 153.496,20.544 152.824,19.904 L153.656,19.264 Z M142.456,21.056 L153.224,21.056 L154.056,21.712 C153.4,24.416 152.44,26.64 151.16,28.4 C149.704,30.384 147.752,31.904 145.288,32.992 L144.216,31.712 C146.296,30.784 148.008,29.536 149.32,27.984 C150.536,26.528 151.464,24.736 152.12,22.592 L142.456,22.592 L142.456,21.056 Z",
-                          }),
-                          d.default.createElement("path", {
-                            d:
-                              "M2,2 L2,48 L173,48 L173,2 L2,2 Z M0,0 L175,0 L175,50 L0,50 L0,0 Z",
-                          })
-                        )
+                          "p", null,
+                          d.default.createElement(
+                            "span",
+                            {
+                              className: "bg"
+                            },
+                          ),
+                          d.default.createElement(
+                            "span",
+                            {
+                              className: "base"
+                            },
+                          ),
+                          d.default.createElement(
+                            "span",
+                            {
+                              className: "text"
+                            },
+                            "私たちについて"
+                          ),
+                        ),
                       ),
                       d.default.createElement(
                         "p",
                         { className: "copy animation-default" },
                         "Decode our vizion"
-                      )
+                      ),
+                    ),
+                    d.default.createElement(
+                      "a",
+                      {
+                        target: "_blank",
+                        href:
+                          "https://facelessdevhack.github.io/MetaStudio-2/decode.html",
+                        className: "btn btn-flag btn-explore",
+                      },
+                      
                     ),
                     d.default.createElement(
                       "p",
@@ -40514,23 +40517,35 @@ object-assign
                       { className: "teaser animation-lines" },
                       "Meta Studios Creative Agency was born in 2017 with the goal to manifest intentional design that can reconnect science and spirituality, merging energy field optics with interactive multimedia for a emerging Neo technolgical Singularity society.  "
                     ),
-                    d.default.createElement("img", {
-                      src: "./imgs/dot-circle.png",
+                    d.default.createElement("canvas", {
                       className: "dot-circle",
+                      id: "animation",
+                      width: "400",
+                      height: "400",
                     }),
                     d.default.createElement(
+                      "script",
+                      {
+                        src: "three.js"
+                      }
+                    ),
+                    d.default.createElement(
                       "a",
-                      { className: "link-decode",
-                        href: "file:///C:/Users/Sonu/Documents/GitHub/MetaStudio-2/index.html#itemsdetails/GUILLERMO",
-                        target: "_blank"
+                      {
+                        className: "link-decode",
+                        href:
+                          "file:///C:/Users/Sonu/Documents/GitHub/MetaStudio-2/index.html#itemsdetails/GUILLERMO",
+                        target: "_blank",
                       },
                       "Our Team"
                     ),
                     d.default.createElement(
                       "a",
-                      { className: "link-decode-1",
-                        href: "file:///C:/Users/Sonu/Documents/GitHub/MetaStudio-2/company-profile.html",
-                        target: "_blank"
+                      {
+                        className: "link-decode-1",
+                        href:
+                          "file:///C:/Users/Sonu/Documents/GitHub/MetaStudio-2/company-profile.html",
+                        target: "_blank",
                       },
                       "Corporate Profile"
                     ),
@@ -41183,38 +41198,40 @@ object-assign
                       )
                     ),
                     d.default.createElement(
-                      "a",
+                      "div",
                       {
-                        href: "javascript:void(0);",
-                        className: "btn btn-flag btn-longsleeve",
-                        onClick: this.onClick,
-                        "data-pagehash": "itemsdetails/longsleeve",
+                        id: "btn-mapping"
                       },
                       d.default.createElement(
-                        "div",
-                        { className: "flag-container animation-default" },
+                        "a",
+                        {
+                          href: "javascript:void(0);",
+                          className: "btn btn-flag btn-longsleeve",
+                          onClick: this.onClick,
+                          "data-pagehash": "itemsdetails/longsleeve",
+                        },
                         d.default.createElement(
-                          "svg",
-                          {
-                            className: "flag",
-                            width: "175px",
-                            height: "50px",
-                            viewBox: "0 0 175 50",
-                            version: "1.1",
-                          },
-                          d.default.createElement("rect", {
-                            width: "400",
-                            height: "400",
-                          }),
-                          d.default.createElement("path", {
-                            className: "characters",
-                            d: "M50.69 10.58 Q47.34 14.22 43.08 17.88 Q44.94 19.70 46.33 21.39 L44.59 22.75 Q41.95 19.63 36.53 15.20 L38.14 13.72 Q39.81 15.03 41.41 16.42 Q45.08 13.41 47.64 10.58 L33.45 10.58 L33.45 8.61 L50.69 8.61 ZM65.19 16.23 Q64.16 14.00 63.03 12.41 L64.92 11.42 Q66.39 13.52 67.06 15.27 ZM72.22 11.97 Q71.77 17.55 69.44 20.29 Q67.11 23.03 63.05 24.16 L61.77 22.19 Q64.97 21.48 67.27 19.35 Q69.58 17.22 70.02 11.83 ZM61.16 17.36 Q60.36 15.30 59.06 13.42 L61.02 12.44 Q62.55 14.77 63.13 16.42 ZM100.08 7.42 L100.08 7.48 Q100.08 8.55 99.41 9.25 Q98.73 9.95 97.69 9.95 Q96.63 9.95 95.95 9.23 Q95.27 8.52 95.27 7.48 Q95.27 6.63 95.93 5.86 Q96.59 5.09 97.64 5.09 Q98.64 5.09 99.36 5.79 Q100.08 6.48 100.08 7.42 ZM97.69 8.78 Q98.19 8.78 98.56 8.43 Q98.94 8.08 98.94 7.52 Q98.94 7.02 98.59 6.63 Q98.23 6.25 97.72 6.25 Q97.23 6.25 96.84 6.57 Q96.44 6.89 96.44 7.52 Q96.44 8.06 96.82 8.42 Q97.20 8.78 97.69 8.78 ZM97.25 22.80 L86.55 22.80 Q85.55 22.80 84.81 22.14 Q84.08 21.48 84.08 20.47 L84.08 6.36 L86.33 6.36 L86.33 12.50 Q91.58 11.86 95.94 10.34 L97.03 12.16 Q91.88 13.94 86.33 14.52 L86.33 20.13 Q86.33 20.31 86.56 20.52 Q86.80 20.73 86.98 20.73 L97.25 20.73 ZM112.53 9.86 L111.09 11.59 Q108.31 9.23 106.28 8.20 L107.66 6.50 Q110.42 7.97 112.53 9.86 ZM122.52 11.45 Q120.64 15.45 117.34 18.28 Q114.05 21.11 106.52 22.42 L105.67 20.28 Q111.78 19.42 115.10 17.20 Q118.42 14.97 120.63 10.38 ZM148.52 7.75 L147.17 8.64 Q146.13 7.03 144.64 5.47 L145.97 4.58 Q147.34 5.95 148.52 7.75 ZM143.86 9.19 Q143.45 15.02 141.03 18.54 Q138.61 22.06 133.56 24.89 L132.09 23.20 Q136.06 21.02 138.37 18.49 Q140.67 15.97 141.48 11.17 L134.64 11.17 Q132.78 14.55 130.92 16.72 L129.19 15.34 Q132.63 11.39 135.00 5.20 L137.05 5.86 Q136.58 7.19 135.72 9.19 ZM146.19 9.00 L144.84 9.94 Q143.98 8.44 142.28 6.64 L143.66 5.81 Q145.20 7.30 146.19 9.00 Z",
-                          }),
-                          d.default.createElement("path", {
-                            d:
-                              "M2,2 L2,48 L173,48 L173,2 L2,2 Z M0,0 L175,0 L175,50 L0,50 L0,0 Z",
-                          })
-                        )
+                          "p", null,
+                          d.default.createElement(
+                            "span",
+                            {
+                              className: "bg"
+                            },
+                          ),
+                          d.default.createElement(
+                            "span",
+                            {
+                              className: "base"
+                            },
+                          ),
+                          d.default.createElement(
+                            "span",
+                            {
+                              className: "text"
+                            },
+                            "マッピング"
+                          ),
+                        ),
                       ),
                       d.default.createElement(
                         "h3",
@@ -41235,6 +41252,16 @@ object-assign
                           "art meets projections"
                         )
                       )
+                    ),
+                    d.default.createElement(
+                      "a",
+                      {
+                        href: "javascript:void(0);",
+                        className: "btn btn-flag btn-longsleeve",
+                        onClick: this.onClick,
+                        "data-pagehash": "itemsdetails/longsleeve",
+                      },
+                      
                     ),
                     d.default.createElement(
                       "a",
@@ -41319,7 +41346,8 @@ object-assign
                           d.default.createElement("path", {
                             className: "characters",
                             id: "app-button",
-                            d: "M50.94 8.78 Q47.70 13.02 44.70 14.86 L43.30 13.14 Q45.59 11.77 48.17 8.64 L33.44 8.64 L33.44 6.69 L50.94 6.69 ZM42.84 10.28 Q42.89 11.28 42.89 12.16 Q42.89 16.66 41.52 19.31 Q40.14 21.97 36.98 23.70 L35.41 22.09 Q37.56 20.92 38.77 19.48 Q39.97 18.05 40.36 16.13 Q40.75 14.20 40.66 10.28 ZM76.94 6.81 Q76.94 7.81 76.22 8.52 Q75.50 9.23 74.53 9.23 Q73.61 9.23 72.87 8.56 Q72.13 7.89 72.13 6.81 Q72.13 5.77 72.86 5.09 Q73.59 4.41 74.55 4.41 Q75.50 4.41 76.22 5.10 Q76.94 5.80 76.94 6.81 ZM74.42 8.08 Q74.94 8.08 75.36 7.74 Q75.78 7.41 75.78 6.78 Q75.78 6.23 75.38 5.88 Q74.97 5.53 74.47 5.53 Q73.95 5.53 73.60 5.91 Q73.25 6.30 73.25 6.78 Q73.25 7.31 73.62 7.70 Q73.98 8.08 74.42 8.08 ZM72.22 8.33 Q71.72 15.25 69.02 18.55 Q66.33 21.86 59.84 23.70 L58.63 21.77 Q63.86 20.50 66.51 18.08 Q69.16 15.66 69.84 10.38 L57.31 10.38 L57.31 8.33 ZM95.56 15.02 Q95.56 17.88 93.91 20.27 Q92.27 22.67 88.63 24.05 L87.17 22.30 Q90.03 21.13 91.67 19.66 Q93.31 18.19 93.31 15.02 L93.31 5.28 L95.56 5.28 ZM86.73 16.39 L84.58 16.39 L84.58 6.00 L86.73 6.00 Z",
+                            d:
+                              "M50.94 8.78 Q47.70 13.02 44.70 14.86 L43.30 13.14 Q45.59 11.77 48.17 8.64 L33.44 8.64 L33.44 6.69 L50.94 6.69 ZM42.84 10.28 Q42.89 11.28 42.89 12.16 Q42.89 16.66 41.52 19.31 Q40.14 21.97 36.98 23.70 L35.41 22.09 Q37.56 20.92 38.77 19.48 Q39.97 18.05 40.36 16.13 Q40.75 14.20 40.66 10.28 ZM76.94 6.81 Q76.94 7.81 76.22 8.52 Q75.50 9.23 74.53 9.23 Q73.61 9.23 72.87 8.56 Q72.13 7.89 72.13 6.81 Q72.13 5.77 72.86 5.09 Q73.59 4.41 74.55 4.41 Q75.50 4.41 76.22 5.10 Q76.94 5.80 76.94 6.81 ZM74.42 8.08 Q74.94 8.08 75.36 7.74 Q75.78 7.41 75.78 6.78 Q75.78 6.23 75.38 5.88 Q74.97 5.53 74.47 5.53 Q73.95 5.53 73.60 5.91 Q73.25 6.30 73.25 6.78 Q73.25 7.31 73.62 7.70 Q73.98 8.08 74.42 8.08 ZM72.22 8.33 Q71.72 15.25 69.02 18.55 Q66.33 21.86 59.84 23.70 L58.63 21.77 Q63.86 20.50 66.51 18.08 Q69.16 15.66 69.84 10.38 L57.31 10.38 L57.31 8.33 ZM95.56 15.02 Q95.56 17.88 93.91 20.27 Q92.27 22.67 88.63 24.05 L87.17 22.30 Q90.03 21.13 91.67 19.66 Q93.31 18.19 93.31 15.02 L93.31 5.28 L95.56 5.28 ZM86.73 16.39 L84.58 16.39 L84.58 6.00 L86.73 6.00 Z",
                           }),
                           d.default.createElement("path", {
                             d:
@@ -41735,7 +41763,7 @@ object-assign
                             },
                             "RAFAEL"
                           )
-                        ),
+                        )
                       )
                     ),
                     p.default.createElement(
@@ -41747,7 +41775,7 @@ object-assign
                         p.default.createElement(
                           "p",
                           null,
-                          'Rafael Daly has been part of Meta Studios since the early days in',
+                          "Rafael Daly has been part of Meta Studios since the early days in",
                           p.default.createElement("br"),
                           "San Francisco, a crucial backbone of the development and",
                           p.default.createElement("br"),
@@ -41756,15 +41784,15 @@ object-assign
                         p.default.createElement(
                           "p",
                           null,
-                          'Rafael coordinates and manages our video production organizing',
+                          "Rafael coordinates and manages our video production organizing",
                           p.default.createElement("br"),
-                          "as line producer.",
+                          "as line producer."
                         ),
                         p.default.createElement(
                           "p",
                           null,
-                          'Rafael originally from Santiago, Chile.'
-                        ),
+                          "Rafael originally from Santiago, Chile."
+                        )
                       ),
                       p.default.createElement(
                         "div",
@@ -41773,9 +41801,7 @@ object-assign
                           "p",
                           null,
                           "Founder and CEO of Meta Studios, Head of",
-                          p.default.createElement(
-                            "br"
-                          ),
+                          p.default.createElement("br"),
                           "UI & UX Department, IOS Engineer and lover",
                           p.default.createElement("br"),
                           "of simple & interactive 3D futuristic design."
@@ -41792,7 +41818,7 @@ object-assign
                         p.default.createElement(
                           "p",
                           null,
-                          'His friends call him “Memo”. He spends most',
+                          "His friends call him “Memo”. He spends most",
                           p.default.createElement("br"),
                           "of his time exploring Ancient sites,",
                           p.default.createElement("br"),
@@ -41848,7 +41874,7 @@ object-assign
                           "Currently working on her new album and building a new Spiritual",
                           p.default.createElement("br"),
                           "multimedia platform coming for 2021."
-                        ),
+                        )
                       ),
                       p.default.createElement(
                         "div",
@@ -41866,7 +41892,7 @@ object-assign
                           "She is an important valuable component to Meta Studios creative",
                           p.default.createElement("br"),
                           "vision and our link to Japanese establishment."
-                        ),
+                        )
                       )
                     ),
                     p.default.createElement(
@@ -43061,363 +43087,99 @@ object-assign
                 value: function () {
                   var e = window.APP.isMobile;
                   return e
-                    ? d.default.createElement(
-                        "section",
-                        { className: "page page-gallery", ref: "element" },
-                        d.default.createElement(
-                          "div",
-                          { className: "mobile-swipe-info" },
-                          d.default.createElement(
-                            "p",
-                            null,
-                            "Swipe left",
-                            d.default.createElement("span", null)
-                          )
-                        ),
-                        d.default.createElement(
-                          "div",
-                          { className: "slider-container" },
-                          d.default.createElement(
-                            "div",
-                            { className: "slide", onClick: this.onSlideClick },
-                            d.default.createElement("img", {
-                              src:
-                                "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/1.jpg",
-                            })
-                          ),
-                          d.default.createElement(
-                            "div",
-                            { className: "slide", onClick: this.onSlideClick },
-                            d.default.createElement("img", {
-                              src:
-                                "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/2.jpg",
-                            })
-                          ),
-                          d.default.createElement(
-                            "div",
-                            { className: "slide", onClick: this.onSlideClick },
-                            d.default.createElement("img", {
-                              src:
-                                "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/3.jpg",
-                            })
-                          ),
-                          d.default.createElement(
-                            "div",
-                            { className: "slide", onClick: this.onSlideClick },
-                            d.default.createElement("img", {
-                              src:
-                                "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/4.jpg",
-                            })
-                          ),
-                          d.default.createElement(
-                            "div",
-                            { className: "slide", onClick: this.onSlideClick },
-                            d.default.createElement("img", {
-                              src:
-                                "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/5.jpg",
-                            })
-                          ),
-                          d.default.createElement(
-                            "div",
-                            { className: "slide", onClick: this.onSlideClick },
-                            d.default.createElement("img", {
-                              src:
-                                "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/6.jpg",
-                            })
-                          ),
-                          d.default.createElement(
-                            "div",
-                            { className: "slide", onClick: this.onSlideClick },
-                            d.default.createElement("img", {
-                              src:
-                                "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/7.jpg",
-                            })
-                          ),
-                          d.default.createElement(
-                            "div",
-                            { className: "slide", onClick: this.onSlideClick },
-                            d.default.createElement("img", {
-                              src:
-                                "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/8.jpg",
-                            })
-                          ),
-                          d.default.createElement(
-                            "div",
-                            { className: "slide", onClick: this.onSlideClick },
-                            d.default.createElement("img", {
-                              src:
-                                "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/9.jpg",
-                            })
-                          ),
-                          d.default.createElement(
-                            "div",
-                            { className: "slide", onClick: this.onSlideClick },
-                            d.default.createElement("img", {
-                              src:
-                                "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/10.jpg",
-                            })
-                          )
-                        ),
-                        d.default.createElement(
-                          "h1",
-                          null,
-                          d.default.createElement(
-                            "span",
-                            { className: "animation-slice" },
-                            "G-llery"
-                          )
-                        ),
-                        d.default.createElement(
-                          "div",
-                          { className: "slider-fullview" },
-                          d.default.createElement(
-                            "div",
-                            { className: "img-container" },
-                            d.default.createElement("img", null)
-                          ),
-                          d.default.createElement(
-                            m.default,
-                            { component: f.firstChild.get },
-                            d.default.createElement(b.default, {
-                              clickhandler: this.onCloseButtonClick,
-                            })
-                          )
-                        )
+                    ? d.default.createElement("section", {
+                        className: "page page-gallery",
+                        ref: "element",
+                      },
+                      d.default.createElement("p", null, "Hello Gallery")
                       )
-                    : d.default.createElement(
-                        "section",
-                        { className: "page page-gallery", ref: "element" },
+                    : d.default.createElement("section", {
+                        className: "page page-gallery",
+                        ref: "element",
+                      },
+                      d.default.createElement(
+                        "h2",
+                        {
+                          className: "animation-wrapper",
+                        },
+                        d.default.createElement(
+                          "span",
+                          { className: "animation-slice contact-left-head" },
+                          "Hello"
+                        ),
+                      ),
+                      d.default.createElement(
+                        "p",
+                        { className: "animation-wrapper" },
+                        d.default.createElement(
+                          "span",
+                          { className: "copy animation-default contact-p" },
+                          "Do you need to get a hold of me?"
+                        ),
+                      ),
+                      d.default.createElement(
+                        "p",
+                        {
+                          className: "copy animation-default contact-des"
+                        },
+                        "Do you have any questions related to a future photoshoot?",
+                        d.default.createElement("br"),
+                        "or any of my products on my website, please fill up the form."
+                      ),
+                      d.default.createElement(
+                        "p",
+                        { className: "animation-wrapper" },
+                        d.default.createElement(
+                          "span",
+                          { className: "copy white animation-default contact-us-left-head" },
+                          "Meta Studios Creative Agency K.K 株式会社"
+                        ),
+                      ),
+                      d.default.createElement(
+                        "p",
+                        {
+                          className: "copy animation-default contact-us-des"
+                        },
+                        "6F Tobu Building 6-28-9 Jingumae",
+                        d.default.createElement("br"),
+                        "Shibuya, Tokyo Japan",
+                        d.default.createElement("br"),
+                        "+81-505-539-META [6382]"
+                      ),
+                      d.default.createElement(
+                        "form",null,
                         d.default.createElement(
                           "div",
-                          { className: "head-hint gallery" },
-                          d.default.createElement(
-                            "p",
-                            { className: "copy" },
-                            d.default.createElement(
-                              "span",
-                              { className: "white" },
-                              "TGWO x adidas"
-                            ),
-                            d.default.createElement("br", null),
-                            "Consortium"
-                          )
-                        ),
-                        d.default.createElement(
-                          "div",
-                          { className: "slider-container" },
-                          d.default.createElement(
-                            "div",
-                            { className: "slide" },
-                            "\xA0"
-                          ),
-                          d.default.createElement(
-                            "div",
-                            { className: "slide" },
-                            d.default.createElement(
-                              "div",
-                              { className: "img-wrapper" },
-                              d.default.createElement(
-                                "a",
-                                {
-                                  href: "/#image/1",
-                                  "data-pagehash": "image/1",
-                                  onClick: this.onClick,
-                                },
-                                d.default.createElement("img", {
-                                  src:
-                                    "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/1.jpg",
-                                })
-                              )
-                            )
-                          ),
-                          d.default.createElement(
-                            "div",
-                            { className: "slide" },
-                            d.default.createElement(
-                              "a",
-                              {
-                                href: "/#image/2",
-                                "data-pagehash": "image/2",
-                                onClick: this.onClick,
-                              },
-                              d.default.createElement("img", {
-                                src:
-                                  "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/2.jpg",
-                              })
-                            )
-                          ),
-                          d.default.createElement(
-                            "div",
-                            { className: "slide" },
-                            d.default.createElement(
-                              "a",
-                              {
-                                href: "/#image/3",
-                                "data-pagehash": "image/3",
-                                onClick: this.onClick,
-                              },
-                              d.default.createElement("img", {
-                                src:
-                                  "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/3.jpg",
-                              })
-                            )
-                          ),
-                          d.default.createElement(
-                            "div",
-                            { className: "slide" },
-                            d.default.createElement(
-                              "a",
-                              {
-                                href: "/#image/4",
-                                "data-pagehash": "image/4",
-                                onClick: this.onClick,
-                              },
-                              d.default.createElement("img", {
-                                src:
-                                  "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/4.jpg",
-                              })
-                            )
-                          ),
-                          d.default.createElement(
-                            "div",
-                            { className: "slide" },
-                            d.default.createElement(
-                              "a",
-                              {
-                                href: "/#image/5",
-                                "data-pagehash": "image/5",
-                                onClick: this.onClick,
-                              },
-                              d.default.createElement("img", {
-                                src:
-                                  "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/5.jpg",
-                              })
-                            )
-                          ),
-                          d.default.createElement(
-                            "div",
-                            { className: "slide" },
-                            d.default.createElement(
-                              "a",
-                              {
-                                href: "/#image/6",
-                                "data-pagehash": "image/6",
-                                onClick: this.onClick,
-                              },
-                              d.default.createElement("img", {
-                                src:
-                                  "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/6.jpg",
-                              })
-                            )
-                          ),
-                          d.default.createElement(
-                            "div",
-                            { className: "slide" },
-                            d.default.createElement(
-                              "a",
-                              {
-                                href: "/#image/7",
-                                "data-pagehash": "image/7",
-                                onClick: this.onClick,
-                              },
-                              d.default.createElement("img", {
-                                src:
-                                  "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/7.jpg",
-                              })
-                            )
-                          ),
-                          d.default.createElement(
-                            "div",
-                            { className: "slide" },
-                            d.default.createElement(
-                              "a",
-                              {
-                                href: "/#image/8",
-                                "data-pagehash": "image/8",
-                                onClick: this.onClick,
-                              },
-                              d.default.createElement("img", {
-                                src:
-                                  "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/8.jpg",
-                              })
-                            )
-                          ),
-                          d.default.createElement(
-                            "div",
-                            { className: "slide" },
-                            d.default.createElement(
-                              "a",
-                              {
-                                href: "/#image/9",
-                                "data-pagehash": "image/9",
-                                onClick: this.onClick,
-                              },
-                              d.default.createElement("img", {
-                                src:
-                                  "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/9.jpg",
-                              })
-                            )
-                          ),
-                          d.default.createElement(
-                            "div",
-                            { className: "slide" },
-                            d.default.createElement(
-                              "a",
-                              {
-                                href: "/#image/0",
-                                "data-pagehash": "image/10",
-                                onClick: this.onClick,
-                              },
-                              d.default.createElement("img", {
-                                src:
-                                  "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/10.jpg",
-                              })
-                            )
-                          )
-                        ),
-                        d.default.createElement(
-                          "h1",
-                          null,
-                          d.default.createElement(
-                            "span",
-                            { className: "animation-slice" },
-                            "G-llery"
-                          )
-                        ),
-                        d.default.createElement(
-                          "div",
-                          { className: "btn intro" },
-                          d.default.createElement(
-                            "h2",
-                            { className: "animation-default" },
-                            "NMD_CS1 PK"
-                          ),
-                          d.default.createElement(
-                            "p",
-                            { className: "copy animation-lines" },
-                            "A striking execution of an already iconic sillhouette."
-                          )
-                        ),
-                        d.default.createElement(
-                          "a",
                           {
-                            href: "javascript:void(0);",
-                            className: "go-button prev hidden playclicksound",
-                            onClick: this.onGoButtonClick,
+                            className: "segment"
                           },
-                          "prev"
+                          d.default.createElement(
+                            "h1", null, "_Contact Me"
+                          ),
                         ),
                         d.default.createElement(
-                          "a",
-                          {
-                            href: "javascript:void(0);",
-                            className: "go-button next playclicksound",
-                            onClick: this.onGoButtonClick,
-                          },
-                          "next"
-                        )
-                      );
-                },
+                          "label", null, 
+                          d.default.createElement(
+                            "input",
+                            {
+                              type: "text",
+                              placeholder: "Name",
+                            },
+                          ),
+                        ),
+                        d.default.createElement(
+                          "label", null, 
+                          d.default.createElement(
+                            "input",
+                            {
+                              type: "Email",
+                              placeholder: "Email",
+                            },
+                          ),
+                        ),
+                      ),      
+                    );
+                  },
               },
             ]),
             t
@@ -47924,59 +47686,62 @@ object-assign
                               onClick: this.onShopButtonClick,
                               "data-pagehash": "howtobuy",
                             },
-                            d.default.createElement("span", null, "EMAIL"),
+                            d.default.createElement("span", null, "EMAIL")
                           ),
                           d.default.createElement("br"),
                           d.default.createElement("br"),
                           d.default.createElement(
                             "a",
-                          {
-                            href:
-                              "https://www.facebook.com/futurevizionphotography",
-                            target: "_blank",
-                            className: "hover-social hover-slide",
-                          },
-                          d.default.createElement("img", {
-                            className: "hover-svg",
-                            src:
-                              "https://facelessdevhack.github.io/MetaStudio-2/imgs/fb.svg",
-                            alt: "FB",
-                            width: "18px",
-                            height: "18px"
-                          })),
+                            {
+                              href:
+                                "https://www.facebook.com/futurevizionphotography",
+                              target: "_blank",
+                              className: "hover-social hover-slide",
+                            },
+                            d.default.createElement("img", {
+                              className: "hover-svg",
+                              src:
+                                "https://facelessdevhack.github.io/MetaStudio-2/imgs/fb.svg",
+                              alt: "FB",
+                              width: "18px",
+                              height: "18px",
+                            })
+                          ),
                           d.default.createElement(
                             "a",
-                          {
-                            href:
-                              "https://www.facebook.com/futurevizionphotography",
-                            target: "_blank",
-                            className: "hover-social hover-slide",
-                          },
-                          d.default.createElement("img", {
-                            className: "hover-svg",
-                            src:
-                              "https://facelessdevhack.github.io/MetaStudio-2/imgs/ig.svg",
-                            alt: "IG",
-                            width: "18px",
-                            height: "18px"
-                          })),
+                            {
+                              href:
+                                "https://www.facebook.com/futurevizionphotography",
+                              target: "_blank",
+                              className: "hover-social hover-slide",
+                            },
+                            d.default.createElement("img", {
+                              className: "hover-svg",
+                              src:
+                                "https://facelessdevhack.github.io/MetaStudio-2/imgs/ig.svg",
+                              alt: "IG",
+                              width: "18px",
+                              height: "18px",
+                            })
+                          ),
                           d.default.createElement(
                             "a",
-                          {
-                            href:
-                              "https://www.facebook.com/futurevizionphotography",
-                            target: "_blank",
-                            className: "hover-social hover-slide",
-                          },
-                          d.default.createElement("img", {
-                            className: "hover-svg",
-                            src:
-                              "https://facelessdevhack.github.io/MetaStudio-2/imgs/tw.svg",
-                            alt: "TW",
-                            width: "18px",
-                            height: "18px",
-                            fill: "white"
-                          })),
+                            {
+                              href:
+                                "https://www.facebook.com/futurevizionphotography",
+                              target: "_blank",
+                              className: "hover-social hover-slide",
+                            },
+                            d.default.createElement("img", {
+                              className: "hover-svg",
+                              src:
+                                "https://facelessdevhack.github.io/MetaStudio-2/imgs/tw.svg",
+                              alt: "TW",
+                              width: "18px",
+                              height: "18px",
+                              fill: "white",
+                            })
+                          )
                         ),
                         d.default.createElement(
                           "a",
@@ -48305,7 +48070,7 @@ object-assign
                       className: "adidas-link playclicksound",
                       ref: "element",
                       onClick: this.onClick,
-                    },
+                    }
                     // d.default.createElement("img", {
                     //   src: "/assets/images/adidas-logo.png",
                     //   alt: "Adidas",
@@ -49100,7 +48865,7 @@ object-assign
                           "https://facelessdevhack.github.io/MetaStudio-2/imgs/fb.svg",
                         alt: "FB",
                         width: "18px",
-                        height: "18px"
+                        height: "18px",
                       })
                     ),
                     l.default.createElement(
@@ -49116,7 +48881,7 @@ object-assign
                           "https://facelessdevhack.github.io/MetaStudio-2/imgs/ig.svg",
                         alt: "IG",
                         width: "18px",
-                        height: "18px"
+                        height: "18px",
                       })
                     ),
                     l.default.createElement(
@@ -49132,7 +48897,7 @@ object-assign
                           "https://facelessdevhack.github.io/MetaStudio-2/imgs/tw.svg",
                         alt: "TW",
                         width: "18px",
-                        height: "18px"
+                        height: "18px",
                       })
                     )
                   );
