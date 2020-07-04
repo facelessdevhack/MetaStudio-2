@@ -883,6 +883,7 @@ h3 {
 }
 .paras p {
   margin-bottom: -1px;
+  margin-top: 10;
 }
 .adidas-link {
   display: block;
@@ -2468,14 +2469,14 @@ transform-origin: left center;
 }
 .page-items .btn.btn-longsleeve {
   position: fixed;
-  right: 16.66667%;
+  right: 8.66667% !important;
   top: 26.66667%;
   text-align: right;
   width: 190px;
 }
 .page-items .btn.btn-longsleeve2 {
   position: fixed;
-  right: 16.66667%;
+  right: 8.66667%;
   top: 46.66667%;
   text-align: right;
   width: 190px;
@@ -4089,7 +4090,7 @@ span.hover-effect {
   flex-flow: column;
   position: absolute;
   left: 70%;
-  top: 58%;
+  top: 21%;
   }
 }
 #btn-mapping a {
@@ -4217,7 +4218,568 @@ span.hover-effect {
 #btn-mapping a:hover span.text:after {
   background: black;
 }
+/* Video Mapping Button End  */
+/* Apps Button Start  */
+#btn-apps {
+  width: 177px;
+  flex-flow: column;
+  position: absolute;
+  left: 77%;
+  top: 64%;
+  text-align: right;
+}
+@media (max-width: 1400px) {
+  #btn-apps {
+    display: -webkit-box;
+  display: flex;
+  /* height: 100vh; */
+  width: 150;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-flow: column;
+  position: absolute;
+  left: 70%;
+  top: 61%;
+  }
+}
+#btn-apps a {
+  width: 100%;
+  max-width: 240px;
+  height: 54px;
+  padding: 8px;
+  font-size: 0.8rem;
+  font-weight: 900;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-shadow: 0 0 0 1px inset rgba(236, 232, 225, 0.3);
+  position: relative;
+  margin: 10px 0;
+}
+#btn-apps a.white:hover > p {
+  color: black;
+}
+#btn-apps a.white > p {
+  background: black;
+  color: #0f1923;
+}
+#btn-apps a.white > p span.base {
+  border: 1px solid transparent;
+}
+#btn-apps a.transparent:hover > p {
+  color: black;
+}
+#btn-apps a.transparent:hover > p span.text {
+  box-shadow: 0 0 0 1px black;
+}
+#btn-apps a.transparent > p {
+  background: #0f1923;
+  color: black;
+}
+#btn-apps a.transparent > p span.base {
+  border: 1px solid black;
+}
+#btn-apps a:after, #btn-apps a:before {
+  content: "";
+  width: 1px;
+  position: absolute;
+  height: 8px;
+  background: #0f1923;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+#btn-apps a:before {
+  right: 0;
+  left: initial;
+}
+#btn-apps a p {
+  margin: 0;
+  height: 54px;
+  line-height: 54px;
+  box-sizing: border-box;
+  z-index: 1;
+  left: 0;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+#btn-apps a p span.base {
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  border: 1px solid #fff;
+}
+#btn-apps a p span.base:before {
+  content: "";
+  width: 2px;
+  height: 2px;
+  left: -1px;
+  top: -1px;
+  background: #0f1923;
+  position: absolute;
+  -webkit-transition: 0.3s ease-out all;
+  transition: 0.3s ease-out all;
+}
+#btn-apps a p span.bg {
+  left: -5%;
+  position: absolute;
+  background: #fff;
+  width: 0;
+  height: 100%;
+  z-index: 3;
+  -webkit-transition: 0.3s ease-out all;
+  transition: 0.3s ease-out all;
+  -webkit-transform: skewX(-10deg);
+          transform: skewX(-10deg);
+}
+#btn-apps a p span.text {
+  z-index: 4;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#btn-apps a p span.text:after {
+  content: "";
+  width: 4px;
+  height: 4px;
+  right: 0;
+  bottom: 0;
+  background: #0f1923;
+  position: absolute;
+  -webkit-transition: 0.3s ease-out all;
+  transition: 0.3s ease-out all;
+  z-index: 5;
+}
+#btn-apps a:hover {
+  color: black;
+}
+#btn-apps a:hover span.bg {
+  width: 110%;
+}
+#btn-apps a:hover span.text:after {
+  background: black;
+}
+/* Apps Button End  */
 
+/* Design Button Start  */
+#btn-design {
+  width: 177px;
+  flex-flow: column;
+  position: absolute;
+  left: 17%;
+  top: 51%;
+  text-align: left;
+}
+@media (max-width: 1400px) {
+  #btn-design {
+    display: -webkit-box;
+  display: flex;
+  /* height: 100vh; */
+  width: 150;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-flow: column;
+  position: absolute;
+  left: 17%;
+  top: 51%;
+  }
+}
+#btn-design a {
+  width: 100%;
+  max-width: 50px;
+  height: 120px;
+  padding: 8px;
+  font-size: 0.8rem;
+  font-weight: 900;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-shadow: 0 0 0 1px inset rgba(236, 232, 225, 0.3);
+  position: relative;
+  margin: 10px 0;
+  right: -4px !important
+}
+#btn-design a.white:hover > p {
+  color: black;
+}
+#btn-design a.white > p {
+  background: black;
+  color: #0f1923;
+}
+#btn-design a.white > p span.base {
+  border: 1px solid transparent;
+}
+#btn-design a.transparent:hover > p {
+  color: black;
+}
+#btn-design a.transparent:hover > p span.text {
+  box-shadow: 0 0 0 1px black;
+}
+#btn-design a.transparent > p {
+  background: #0f1923;
+  color: black;
+}
+#btn-design a.transparent > p span.base {
+  border: 1px solid black;
+}
+#btn-design a:after, #btn-design a:before {
+  content: "";
+  width: 1px;
+  position: absolute;
+  height: 8px;
+  background: #0f1923;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+#btn-design a:before {
+  right: 0;
+  left: initial;
+}
+#btn-design a p {
+  margin: 0;
+  height: 120px;
+  line-height: 54px;
+  box-sizing: border-box;
+  z-index: 1;
+  left: 0;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+#btn-design a p span.base {
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  border: 1px solid #fff;
+}
+#btn-design a p span.base:before {
+  content: "";
+  width: 2px;
+  height: 2px;
+  left: -1px;
+  top: -1px;
+  background: #0f1923;
+  position: absolute;
+  -webkit-transition: 0.3s ease-out all;
+  transition: 0.3s ease-out all;
+}
+#btn-design a p span.bg {
+  left: -5%;
+  position: absolute;
+  background: #fff;
+  width: 0;
+  height: 100%;
+  z-index: 3;
+  -webkit-transition: 0.3s ease-out all;
+  transition: 0.3s ease-out all;
+  -webkit-transform: skewX(-3deg);
+          transform: skewX(-3deg);
+}
+#btn-design a p span.text {
+  z-index: 4;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  writing-mode: vertical-rl;
+  letter-spacing: 6;
+}
+#btn-design a p span.text:after {
+  content: "";
+  width: 4px;
+  height: 4px;
+  right: 0;
+  bottom: 0;
+  background: #0f1923;
+  position: absolute;
+  -webkit-transition: 0.3s ease-out all;
+  transition: 0.3s ease-out all;
+  z-index: 5;
+}
+#btn-design a:hover {
+  color: black;
+}
+#btn-design a:hover span.bg {
+  width: 110%;
+}
+#btn-design a:hover span.text:after {
+  background: black;
+}
+/* Design Button End  */
+
+/* Journey Button Start  */
+#btn-journey {
+  width: 177px;
+  flex-flow: column;
+  position: absolute;
+  left: 77%;
+  top: 64%;
+  text-align: right;
+}
+@media (max-width: 1400px) {
+  #btn-journey {
+    display: -webkit-box;
+  display: flex;
+  /* height: 100vh; */
+  width: 150;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-flow: column;
+  position: absolute;
+  left: 70%;
+  top: 61%;
+  }
+}
+#btn-journey a {
+  width: 100%;
+  max-width: 240px;
+  height: 54px;
+  padding: 8px;
+  font-size: 0.8rem;
+  font-weight: 900;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-shadow: 0 0 0 1px inset rgba(236, 232, 225, 0.3);
+  position: relative;
+  margin: 10px 0;
+}
+#btn-journey a.white:hover > p {
+  color: black;
+}
+#btn-journey a.white > p {
+  background: black;
+  color: #0f1923;
+}
+#btn-journey a.white > p span.base {
+  border: 1px solid transparent;
+}
+#btn-journey a.transparent:hover > p {
+  color: black;
+}
+#btn-journey a.transparent:hover > p span.text {
+  box-shadow: 0 0 0 1px black;
+}
+#btn-journey a.transparent > p {
+  background: #0f1923;
+  color: black;
+}
+#btn-journey a.transparent > p span.base {
+  border: 1px solid black;
+}
+#btn-journey a:after, #btn-journey a:before {
+  content: "";
+  width: 1px;
+  position: absolute;
+  height: 8px;
+  background: #0f1923;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+#btn-journey a:before {
+  right: 0;
+  left: initial;
+}
+#btn-journey a p {
+  margin: 0;
+  height: 54px;
+  line-height: 54px;
+  box-sizing: border-box;
+  z-index: 1;
+  left: 0;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+#btn-journey a p span.base {
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  border: 1px solid #fff;
+}
+#btn-journey a p span.base:before {
+  content: "";
+  width: 2px;
+  height: 2px;
+  left: -1px;
+  top: -1px;
+  background: #0f1923;
+  position: absolute;
+  -webkit-transition: 0.3s ease-out all;
+  transition: 0.3s ease-out all;
+}
+#btn-journey a p span.bg {
+  left: -5%;
+  position: absolute;
+  background: #fff;
+  width: 0;
+  height: 100%;
+  z-index: 3;
+  -webkit-transition: 0.3s ease-out all;
+  transition: 0.3s ease-out all;
+  -webkit-transform: skewX(-10deg);
+          transform: skewX(-10deg);
+}
+#btn-journey a p span.text {
+  z-index: 4;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#btn-journey a p span.text:after {
+  content: "";
+  width: 4px;
+  height: 4px;
+  right: 0;
+  bottom: 0;
+  background: #0f1923;
+  position: absolute;
+  -webkit-transition: 0.3s ease-out all;
+  transition: 0.3s ease-out all;
+  z-index: 5;
+}
+#btn-journey a:hover {
+  color: black;
+}
+#btn-journey a:hover span.bg {
+  width: 110%;
+}
+#btn-journey a:hover span.text:after {
+  background: black;
+}
+/* Journey Button End  */
+
+/* Contact Form Start  */
+.contact-form {
+   position: absolute;
+   left: auto;
+   right: 20%;
+   top: 20%;
+}
+.ms-contact {
+  width: 595px;
+}
+.ms-contact .form-control {
+  background: none;
+    border: 1px solid #48484e;
+    height: 73px;
+    border-radius: 4px;
+    padding: 12px 20px;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.segment {
+  margin-bottom: 5%;
+}
+.name {
+  width: 100%;
+  margin-bottom: 5%;
+}
+.second-line {
+  display: flex;
+  margin-bottom: 5%;
+}
+.email {
+  width: 105%;
+}
+.how-find {
+  width: 105%;
+  margin-left: 23%;
+}
+.text-area {
+  width: 100%;
+  height: auto !important;
+}
+.describe-check {
+  padding-top: 25px;
+  display: flex;
+}
+.describe-check label {
+  margin-right: 20px;
+  font-weight: normal;
+  font-size: 15px;
+  display: inline-block;
+  position: relative;
+}
+.describe-check label input {
+  margin-left: 10px;
+  opacity: 1;
+  background-color: black;
+  position: relative;
+  z-index: 3;
+}
+.checkboxs {
+  width: 66.66666666666666%;
+  padding-top: 14px;
+}
+.btn-contact {
+  width: 33.333333%;
+}
+.ms-contact .btn-ms {
+  display: block;
+  background: #a4d1ec;
+  font-size: 25px;
+  color: #3f3c3c;
+  border-radius: 10px;
+  height: 57px;
+  border: 0;
+  width: 100%;
+  letter-spacing: 5px;
+  font-family: 'sf_compact_displayregular', Arial, Helvetica, sans-serif;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+input[type="radio"], input[type="checkbox"] {
+  margin: 4px 0 0;
+  margin-top: 1px \9;
+  line-height: normal;
+}
+
+/* Contact Form End  */
 .input-group {
   display: flex;
   align-items: center;

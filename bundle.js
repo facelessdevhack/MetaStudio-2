@@ -40517,12 +40517,37 @@ object-assign
                       { className: "teaser animation-lines" },
                       "Meta Studios Creative Agency was born in 2017 with the goal to manifest intentional design that can reconnect science and spirituality, merging energy field optics with interactive multimedia for a emerging Neo technolgical Singularity society.  "
                     ),
-                    d.default.createElement("canvas", {
-                      className: "dot-circle",
-                      id: "animation",
-                      width: "400",
-                      height: "400",
-                    }),
+                    // d.default.createElement(
+                    //   "div",
+                    //   {
+                    //     className: "container-fluid fixed-top, header"
+                    //   },
+                    //   d.default.createElement(
+                    //     "div",
+                    //     {
+                    //       className: "row"
+                    //     },
+                    //     d.default.createElement(
+                    //       "div",
+                    //       {
+                    //         className: "col"
+                    //       },
+                    //       d.default.createElement(
+                    //         "h1", null,
+                    //         d.default.createElement(
+                    //           "strong", null, "Perlin Noise"
+                    //         ),
+                            
+                    //       )
+                    //     )
+                    //   )
+                    // ),
+                    d.default.createElement(
+                      "div",
+                      {
+                        className: "container"
+                      },
+                    ),
                     d.default.createElement(
                       "script",
                       {
@@ -40535,7 +40560,6 @@ object-assign
                         className: "link-decode",
                         href:
                           "file:///C:/Users/Sonu/Documents/GitHub/MetaStudio-2/index.html#itemsdetails/GUILLERMO",
-                        target: "_blank",
                       },
                       "Our Team"
                     ),
@@ -41254,50 +41278,42 @@ object-assign
                       )
                     ),
                     d.default.createElement(
-                      "a",
+                      "div",
                       {
-                        href: "javascript:void(0);",
-                        className: "btn btn-flag btn-longsleeve",
-                        onClick: this.onClick,
-                        "data-pagehash": "itemsdetails/longsleeve",
-                      },
-                      
-                    ),
-                    d.default.createElement(
-                      "a",
-                      {
-                        href: "javascript:void(0);",
-                        className: "btn btn-flag btn-jacket",
-                        onClick: this.onClick,
-                        "data-pagehash": "itemsdetails/jacket",
+                        id: "btn-design"
                       },
                       d.default.createElement(
-                        "div",
-                        { className: "flag-container animation-default" },
+                        "a",
+                        {
+                          href: "javascript:void(0);",
+                          className: "btn btn-flag btn-longsleeve",
+                          onClick: this.onClick,
+                          "data-pagehash": "itemsdetails/longsleeve",
+                        },
                         d.default.createElement(
-                          "svg",
-                          {
-                            className: "flag",
-                            width: "50px",
-                            height: "146px",
-                            viewBox: "0 0 50 146",
-                            version: "1.1",
-                          },
-                          d.default.createElement("rect", {
-                            width: "300",
-                            height: "300",
-                          }),
-                          d.default.createElement("path", {
-                            className: "characters",
-                            d:
-                              "M35.06 7.23 L33.59 8.20 Q32.30 6.11 31.22 4.92 L32.69 3.91 Q34.47 5.98 35.06 7.23 ZM32.89 8.50 L31.39 9.45 Q30.42 7.80 29.02 6.11 L30.48 5.16 Q31.81 6.66 32.89 8.50 ZM28.78 8.59 L17.91 8.59 L17.91 6.58 L28.78 6.58 ZM32.61 13.28 L25.30 13.28 Q25.30 16.16 24.95 18.05 Q24.61 19.94 23.33 21.59 Q22.05 23.25 19.39 24.45 L17.95 22.83 Q20.41 21.70 21.51 20.44 Q22.61 19.17 22.86 17.78 Q23.11 16.39 23.09 13.28 L15.08 13.28 L15.08 11.31 L32.61 11.31 Z",
-                          }),
-                          d.default.createElement("path", {
-                            d:
-                              "M2,2 L2,144 L48,144 L48,2 L2,2 Z M0,0 L50,0 L50,146 L0,146 L0,0 Z",
-                          })
-                        )
+                          "p", null,
+                          d.default.createElement(
+                            "span",
+                            {
+                              className: "bg"
+                            },
+                          ),
+                          d.default.createElement(
+                            "span",
+                            {
+                              className: "base"
+                            },
+                          ),
+                          d.default.createElement(
+                            "span",
+                            {
+                              className: "text"
+                            },
+                            "デザイン"
+                          ),
+                        ),
                       ),
+                      d.default.createElement("br"),
                       d.default.createElement(
                         "h3",
                         { className: "animation-default" },
@@ -41305,7 +41321,9 @@ object-assign
                       ),
                       d.default.createElement(
                         "div",
-                        { className: "paras" },
+                        { 
+                          className: "paras",
+                        },
                         d.default.createElement(
                           "p",
                           { className: "copy animation-lines" },
@@ -41319,41 +41337,40 @@ object-assign
                       )
                     ),
                     d.default.createElement(
-                      "a",
+                      "div",
                       {
-                        href: "javascript:void(0);",
-                        id: "btn",
-                        className: "btn btn-flag btn-longsleeve",
-                        onClick: this.onClick,
-                        "data-pagehash": "itemsdetails/longsleeve",
+                        id: "btn-apps"
                       },
                       d.default.createElement(
-                        "div",
-                        { className: "flag-container animation-default" },
+                        "a",
+                        {
+                          href: "javascript:void(0);",
+                          className: "btn btn-flag btn-longsleeve",
+                          onClick: this.onClick,
+                          "data-pagehash": "itemsdetails/longsleeve",
+                        },
                         d.default.createElement(
-                          "svg",
-                          {
-                            className: "flag",
-                            width: "175px",
-                            height: "50px",
-                            viewBox: "0 0 175 50",
-                            version: "1.1",
-                          },
-                          d.default.createElement("rect", {
-                            width: "400",
-                            height: "400",
-                          }),
-                          d.default.createElement("path", {
-                            className: "characters",
-                            id: "app-button",
-                            d:
-                              "M50.94 8.78 Q47.70 13.02 44.70 14.86 L43.30 13.14 Q45.59 11.77 48.17 8.64 L33.44 8.64 L33.44 6.69 L50.94 6.69 ZM42.84 10.28 Q42.89 11.28 42.89 12.16 Q42.89 16.66 41.52 19.31 Q40.14 21.97 36.98 23.70 L35.41 22.09 Q37.56 20.92 38.77 19.48 Q39.97 18.05 40.36 16.13 Q40.75 14.20 40.66 10.28 ZM76.94 6.81 Q76.94 7.81 76.22 8.52 Q75.50 9.23 74.53 9.23 Q73.61 9.23 72.87 8.56 Q72.13 7.89 72.13 6.81 Q72.13 5.77 72.86 5.09 Q73.59 4.41 74.55 4.41 Q75.50 4.41 76.22 5.10 Q76.94 5.80 76.94 6.81 ZM74.42 8.08 Q74.94 8.08 75.36 7.74 Q75.78 7.41 75.78 6.78 Q75.78 6.23 75.38 5.88 Q74.97 5.53 74.47 5.53 Q73.95 5.53 73.60 5.91 Q73.25 6.30 73.25 6.78 Q73.25 7.31 73.62 7.70 Q73.98 8.08 74.42 8.08 ZM72.22 8.33 Q71.72 15.25 69.02 18.55 Q66.33 21.86 59.84 23.70 L58.63 21.77 Q63.86 20.50 66.51 18.08 Q69.16 15.66 69.84 10.38 L57.31 10.38 L57.31 8.33 ZM95.56 15.02 Q95.56 17.88 93.91 20.27 Q92.27 22.67 88.63 24.05 L87.17 22.30 Q90.03 21.13 91.67 19.66 Q93.31 18.19 93.31 15.02 L93.31 5.28 L95.56 5.28 ZM86.73 16.39 L84.58 16.39 L84.58 6.00 L86.73 6.00 Z",
-                          }),
-                          d.default.createElement("path", {
-                            d:
-                              "M2,2 L2,48 L173,48 L173,2 L2,2 Z M0,0 L175,0 L175,50 L0,50 L0,0 Z",
-                          })
-                        )
+                          "p", null,
+                          d.default.createElement(
+                            "span",
+                            {
+                              className: "bg"
+                            },
+                          ),
+                          d.default.createElement(
+                            "span",
+                            {
+                              className: "base"
+                            },
+                          ),
+                          d.default.createElement(
+                            "span",
+                            {
+                              className: "text"
+                            },
+                            "アプリ"
+                          ),
+                        ),
                       ),
                       d.default.createElement(
                         "h3",
@@ -41379,7 +41396,7 @@ object-assign
                           "we have developed"
                         )
                       )
-                    )
+                    ),
                   );
                 },
               },
@@ -43147,35 +43164,158 @@ object-assign
                         "+81-505-539-META [6382]"
                       ),
                       d.default.createElement(
-                        "form",null,
+                        "form", {
+                          className: "contact-form"
+                        },
                         d.default.createElement(
                           "div",
                           {
                             className: "segment"
                           },
                           d.default.createElement(
-                            "h1", null, "_Contact Me"
+                            "h2", null, "_Contact Me"
                           ),
                         ),
                         d.default.createElement(
-                          "label", null, 
+                          "div", 
+                          {
+                            className: "ms-contact"
+                          },
                           d.default.createElement(
-                            "input",
-                            {
-                              type: "text",
-                              placeholder: "Name",
-                            },
+                            "label", null, 
+                            d.default.createElement(
+                              "input",
+                              {
+                                type: "text",
+                                placeholder: "Name",
+                                className: 'form-control name'
+                              },
+                            ),
                           ),
-                        ),
-                        d.default.createElement(
-                          "label", null, 
                           d.default.createElement(
-                            "input",
+                            "div",
                             {
-                              type: "Email",
-                              placeholder: "Email",
+                              className: "form-group second-line",
                             },
+                            d.default.createElement(
+                              "div",
+                              {
+                                className: "email-left",
+                              },
+                              d.default.createElement(
+                                "input",
+                                {
+                                  type: "Email",
+                                  placeholder: "Email",
+                                  className: "form-control email",
+                                  name: "email",
+                                  required: ""
+                                },
+                              ),
+                            ),
+                            d.default.createElement(
+                              "div",
+                              {
+                                className: "sec-right",
+                              },
+                              d.default.createElement(
+                                "input",
+                                {
+                                  type: "text",
+                                  placeholder: "How You Find Me?",
+                                  className: "form-control how-find",
+                                  name: "company_name",
+                                  required: ""
+                                },
+                              ),
+                            ),
                           ),
+                          d.default.createElement(
+                            "div",
+                            {
+                              className: "form-group"
+                            },
+                            d.default.createElement(
+                              "textarea",
+                              {
+                                className: "form-control text-area",
+                                rows: '5',
+                                placeholder: "Your Message",
+                                name: "message",
+                                required: '',
+                              },
+                            ),
+                          ),
+                          d.default.createElement(
+                            "div",
+                            {
+                              className: "form-group describe-check",
+                            },
+                            d.default.createElement(
+                              'div',
+                              {
+                                className: "checkboxs",
+                              },
+                              d.default.createElement('strong'),
+                              d.default.createElement(
+                                "label", {
+                                  for: "m"
+                                },
+                                "Booking Me",
+                                d.default.createElement(
+                                  "input",
+                                  {
+                                    id:"m",
+                                    name: "des",
+                                    type: "checkbox"
+                                  },
+                                ),
+                              ),
+                              d.default.createElement(
+                                "label", {
+                                  for: "mz"
+                                },
+                                "Prints",
+                                d.default.createElement(
+                                  "input",
+                                  {
+                                    id:"mz",
+                                    name: "des",
+                                    type: "checkbox"
+                                  },
+                                ),
+                              ),
+                              d.default.createElement(
+                                "label", {
+                                  for: "fc"
+                                },
+                                "Presets",
+                                d.default.createElement(
+                                  "input",
+                                  {
+                                    id:"fc",
+                                    name: "des",
+                                    type: "checkbox"
+                                  },
+                                ),
+                              ),
+                            ),
+                            d.default.createElement(
+                              "div",
+                              {
+                                className: "btn-contact"
+                              },
+                              d.default.createElement(
+                                "input",
+                                {
+                                  type: "submit",
+                                  className: "btn-ms",
+                                  value: "Send",
+                                  id: "submit_btn"
+                                },
+                              )
+                            )
+                          )
                         ),
                       ),      
                     );
