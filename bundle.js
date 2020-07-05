@@ -40545,38 +40545,50 @@ object-assign
                     d.default.createElement(
                       "div",
                       {
-                        className: "container"
+                        className: "decode-container",
                       },
-                    ),
-                    d.default.createElement(
-                      "script",
-                      {
-                        src: "three.js"
-                      }
-                    ),
-                    d.default.createElement(
-                      "a",
-                      {
-                        className: "link-decode",
-                        href:
-                          "file:///C:/Users/Sonu/Documents/GitHub/MetaStudio-2/index.html#itemsdetails/GUILLERMO",
-                      },
-                      "Our Team"
-                    ),
-                    d.default.createElement(
-                      "a",
-                      {
-                        className: "link-decode-1",
-                        href:
-                          "file:///C:/Users/Sonu/Documents/GitHub/MetaStudio-2/company-profile.html",
-                        target: "_blank",
-                      },
-                      "Corporate Profile"
-                    ),
-                    d.default.createElement(
-                      "a",
-                      { className: "link-decode-2" },
-                      "Visual Communicator"
+                      d.default.createElement(
+                        "div",
+                        {
+                          className: "Team-div"
+                        },
+                        d.default.createElement(
+                          "a",
+                          {
+                            className: "link-decode",
+                            href:
+                              "file:///C:/Users/Sonu/Documents/GitHub/MetaStudio-2/index.html#itemsdetails/GUILLERMO",
+                          },
+                          "Our Team"
+                        ),
+                      ),
+                      d.default.createElement(
+                        "div",
+                        {
+                          className: "orb"
+                        },
+                      ),
+                      d.default.createElement(
+                        "div",
+                        {
+                          className: "Team-div"
+                        },
+                        d.default.createElement(
+                          "a",
+                          {
+                            className: "link-decode-1",
+                            href:
+                              "file:///C:/Users/Sonu/Documents/GitHub/MetaStudio-2/company-profile.html",
+                            target: "_blank",
+                          },
+                          "Corporate Profile"
+                        ),
+                      ),
+                      d.default.createElement(
+                        "a",
+                        { className: "link-decode-2" },
+                        "Visual Communicator"
+                      ),
                     )
                   );
                 },
@@ -41285,10 +41297,9 @@ object-assign
                       d.default.createElement(
                         "a",
                         {
-                          href: "javascript:void(0);",
+                          href: "4d2a.html",
+                          target: "_blank",
                           className: "btn btn-flag btn-longsleeve",
-                          onClick: this.onClick,
-                          "data-pagehash": "itemsdetails/longsleeve",
                         },
                         d.default.createElement(
                           "p", null,
@@ -41344,10 +41355,9 @@ object-assign
                       d.default.createElement(
                         "a",
                         {
-                          href: "javascript:void(0);",
+                          href: "4d2a.html",
+                          target: "_blank",
                           className: "btn btn-flag btn-longsleeve",
-                          onClick: this.onClick,
-                          "data-pagehash": "itemsdetails/longsleeve",
                         },
                         d.default.createElement(
                           "p", null,
