@@ -2967,6 +2967,10 @@ skew to change the 'thickness' of the glitch.*/
   }
 }
 /* Quote Button End  */
+#video-pics {
+  display: flex;
+  justify-content: space-evenly;
+}
 .shop-button .icon-container .circle {
     background: #ffffff;
     width: 44px;
