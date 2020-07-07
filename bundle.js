@@ -43128,6 +43128,12 @@ object-assign
                         ref: "element",
                       },
                       d.default.createElement(
+                        "div",
+                        {
+                          className: "bg"
+                        }
+                      ),
+                      d.default.createElement(
                         "h2",
                         {
                           className: "animation-wrapper",
