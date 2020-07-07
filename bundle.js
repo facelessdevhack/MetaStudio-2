@@ -41244,10 +41244,8 @@ object-assign
                       d.default.createElement(
                         "a",
                         {
-                          href: "javascript:void(0);",
+                          href: "https://facelessdevhack.github.io/MetaStudio-2/videomapping.html",
                           className: "btn btn-flag btn-longsleeve",
-                          onClick: this.onClick,
-                          "data-pagehash": "itemsdetails/longsleeve",
                         },
                         d.default.createElement(
                           "p", null,

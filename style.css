@@ -3968,13 +3968,12 @@ span.hover-effect {
   max-width: 240px;
   height: 54px;
   padding: 8px;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 900;
   color: #fff;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
-  box-shadow: 0 0 0 1px inset rgba(236, 232, 225, 0.3);
   position: relative;
   margin: 10px 0;
 }
@@ -3986,7 +3985,7 @@ span.hover-effect {
   color: #0f1923;
 }
 #btn-decode a.white > p span.base {
-  border: 1px solid transparent;
+  border: 2px solid transparent;
 }
 #btn-decode a.transparent:hover > p {
   color: black;
@@ -3999,22 +3998,7 @@ span.hover-effect {
   color: black;
 }
 #btn-decode a.transparent > p span.base {
-  border: 1px solid black;
-}
-#btn-decode a:after, #btn-decode a:before {
-  content: "";
-  width: 1px;
-  position: absolute;
-  height: 8px;
-  background: #0f1923;
-  left: 0;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-}
-#btn-decode a:before {
-  right: 0;
-  left: initial;
+  border: 2px solid black;
 }
 #btn-decode a p {
   margin: 0;
@@ -4034,18 +4018,7 @@ span.hover-effect {
   width: 100%;
   height: 100%;
   left: 0;
-  border: 1px solid #fff;
-}
-#btn-decode a p span.base:before {
-  content: "";
-  width: 2px;
-  height: 2px;
-  left: -1px;
-  top: -1px;
-  background: #0f1923;
-  position: absolute;
-  -webkit-transition: 0.3s ease-out all;
-  transition: 0.3s ease-out all;
+  border: 2px solid #fff;
 }
 #btn-decode a p span.bg {
   left: -5%;
@@ -4067,26 +4040,11 @@ span.hover-effect {
   left: 0;
   top: 0;
 }
-#btn-decode a p span.text:after {
-  content: "";
-  width: 4px;
-  height: 4px;
-  right: 0;
-  bottom: 0;
-  background: #0f1923;
-  position: absolute;
-  -webkit-transition: 0.3s ease-out all;
-  transition: 0.3s ease-out all;
-  z-index: 5;
-}
 #btn-decode a:hover {
   color: black;
 }
 #btn-decode a:hover span.bg {
   width: 110%;
-}
-#btn-decode a:hover span.text:after {
-  background: black;
 }
  
 /* Video Mapping Button Start  */
@@ -4121,13 +4079,12 @@ span.hover-effect {
   max-width: 240px;
   height: 54px;
   padding: 8px;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 900;
   color: #fff;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
-  box-shadow: 0 0 0 1px inset rgba(236, 232, 225, 0.3);
   position: relative;
   margin: 10px 0;
 }
@@ -4154,21 +4111,6 @@ span.hover-effect {
 #btn-mapping a.transparent > p span.base {
   border: 1px solid black;
 }
-#btn-mapping a:after, #btn-mapping a:before {
-  content: "";
-  width: 1px;
-  position: absolute;
-  height: 8px;
-  background: #0f1923;
-  left: 0;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-}
-#btn-mapping a:before {
-  right: 0;
-  left: initial;
-}
 #btn-mapping a p {
   margin: 0;
   height: 54px;
@@ -4187,18 +4129,7 @@ span.hover-effect {
   width: 100%;
   height: 100%;
   left: 0;
-  border: 1px solid #fff;
-}
-#btn-mapping a p span.base:before {
-  content: "";
-  width: 2px;
-  height: 2px;
-  left: -1px;
-  top: -1px;
-  background: #0f1923;
-  position: absolute;
-  -webkit-transition: 0.3s ease-out all;
-  transition: 0.3s ease-out all;
+  border: 2px solid #fff;
 }
 #btn-mapping a p span.bg {
   left: -5%;
@@ -4220,26 +4151,11 @@ span.hover-effect {
   left: 0;
   top: 0;
 }
-#btn-mapping a p span.text:after {
-  content: "";
-  width: 4px;
-  height: 4px;
-  right: 0;
-  bottom: 0;
-  background: #0f1923;
-  position: absolute;
-  -webkit-transition: 0.3s ease-out all;
-  transition: 0.3s ease-out all;
-  z-index: 5;
-}
 #btn-mapping a:hover {
   color: black;
 }
 #btn-mapping a:hover span.bg {
   width: 110%;
-}
-#btn-mapping a:hover span.text:after {
-  background: black;
 }
 /* Video Mapping Button End  */
 /* Apps Button Start  */
@@ -4274,13 +4190,12 @@ span.hover-effect {
   max-width: 240px;
   height: 54px;
   padding: 8px;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 900;
   color: #fff;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
-  box-shadow: 0 0 0 1px inset rgba(236, 232, 225, 0.3);
   position: relative;
   margin: 10px 0;
 }
@@ -4307,21 +4222,6 @@ span.hover-effect {
 #btn-apps a.transparent > p span.base {
   border: 1px solid black;
 }
-#btn-apps a:after, #btn-apps a:before {
-  content: "";
-  width: 1px;
-  position: absolute;
-  height: 8px;
-  background: #0f1923;
-  left: 0;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-}
-#btn-apps a:before {
-  right: 0;
-  left: initial;
-}
 #btn-apps a p {
   margin: 0;
   height: 54px;
@@ -4340,19 +4240,9 @@ span.hover-effect {
   width: 100%;
   height: 100%;
   left: 0;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
 }
-#btn-apps a p span.base:before {
-  content: "";
-  width: 2px;
-  height: 2px;
-  left: -1px;
-  top: -1px;
-  background: #0f1923;
-  position: absolute;
-  -webkit-transition: 0.3s ease-out all;
-  transition: 0.3s ease-out all;
-}
+
 #btn-apps a p span.bg {
   left: -5%;
   position: absolute;
@@ -4373,26 +4263,11 @@ span.hover-effect {
   left: 0;
   top: 0;
 }
-#btn-apps a p span.text:after {
-  content: "";
-  width: 4px;
-  height: 4px;
-  right: 0;
-  bottom: 0;
-  background: #0f1923;
-  position: absolute;
-  -webkit-transition: 0.3s ease-out all;
-  transition: 0.3s ease-out all;
-  z-index: 5;
-}
 #btn-apps a:hover {
   color: black;
 }
 #btn-apps a:hover span.bg {
   width: 110%;
-}
-#btn-apps a:hover span.text:after {
-  background: black;
 }
 /* Apps Button End  */
 
@@ -4428,13 +4303,12 @@ span.hover-effect {
   max-width: 50px;
   height: 120px;
   padding: 8px;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 900;
   color: #fff;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
-  box-shadow: 0 0 0 1px inset rgba(236, 232, 225, 0.3);
   position: relative;
   margin: 10px 0;
   right: -4px !important
@@ -4462,21 +4336,6 @@ span.hover-effect {
 #btn-design a.transparent > p span.base {
   border: 1px solid black;
 }
-#btn-design a:after, #btn-design a:before {
-  content: "";
-  width: 1px;
-  position: absolute;
-  height: 8px;
-  background: #0f1923;
-  left: 0;
-  top: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-}
-#btn-design a:before {
-  right: 0;
-  left: initial;
-}
 #btn-design a p {
   margin: 0;
   height: 120px;
@@ -4495,18 +4354,7 @@ span.hover-effect {
   width: 100%;
   height: 100%;
   left: 0;
-  border: 1px solid #fff;
-}
-#btn-design a p span.base:before {
-  content: "";
-  width: 2px;
-  height: 2px;
-  left: -1px;
-  top: -1px;
-  background: #0f1923;
-  position: absolute;
-  -webkit-transition: 0.3s ease-out all;
-  transition: 0.3s ease-out all;
+  border: 2px solid #fff;
 }
 #btn-design a p span.bg {
   left: -5%;
@@ -4530,26 +4378,11 @@ span.hover-effect {
   writing-mode: vertical-rl;
   letter-spacing: 6;
 }
-#btn-design a p span.text:after {
-  content: "";
-  width: 4px;
-  height: 4px;
-  right: 0;
-  bottom: 0;
-  background: #0f1923;
-  position: absolute;
-  -webkit-transition: 0.3s ease-out all;
-  transition: 0.3s ease-out all;
-  z-index: 5;
-}
 #btn-design a:hover {
   color: black;
 }
 #btn-design a:hover span.bg {
   width: 110%;
-}
-#btn-design a:hover span.text:after {
-  background: black;
 }
 /* Design Button End  */
 
@@ -4585,13 +4418,12 @@ span.hover-effect {
   max-width: 240px;
   height: 54px;
   padding: 8px;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 900;
   color: #fff;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
-  box-shadow: 0 0 0 1px inset rgba(236, 232, 225, 0.3);
   position: relative;
   margin: 10px 0;
 }
@@ -4618,21 +4450,6 @@ span.hover-effect {
 #btn-journey a.transparent > p span.base {
   border: 1px solid black;
 }
-#btn-journey a:after, #btn-journey a:before {
-  content: "";
-  width: 1px;
-  position: absolute;
-  height: 8px;
-  background: #0f1923;
-  left: 0;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-}
-#btn-journey a:before {
-  right: 0;
-  left: initial;
-}
 #btn-journey a p {
   margin: 0;
   height: 54px;
@@ -4651,18 +4468,7 @@ span.hover-effect {
   width: 100%;
   height: 100%;
   left: 0;
-  border: 1px solid #fff;
-}
-#btn-journey a p span.base:before {
-  content: "";
-  width: 2px;
-  height: 2px;
-  left: -1px;
-  top: -1px;
-  background: #0f1923;
-  position: absolute;
-  -webkit-transition: 0.3s ease-out all;
-  transition: 0.3s ease-out all;
+  border: 2px solid #fff;
 }
 #btn-journey a p span.bg {
   left: -5%;
@@ -4684,26 +4490,11 @@ span.hover-effect {
   left: 0;
   top: 0;
 }
-#btn-journey a p span.text:after {
-  content: "";
-  width: 4px;
-  height: 4px;
-  right: 0;
-  bottom: 0;
-  background: #0f1923;
-  position: absolute;
-  -webkit-transition: 0.3s ease-out all;
-  transition: 0.3s ease-out all;
-  z-index: 5;
-}
 #btn-journey a:hover {
   color: black;
 }
 #btn-journey a:hover span.bg {
   width: 110%;
-}
-#btn-journey a:hover span.text:after {
-  background: black;
 }
 /* Journey Button End  */
 
