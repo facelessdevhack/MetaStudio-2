@@ -40514,8 +40514,16 @@ object-assign
                     ),
                     d.default.createElement(
                       "div",
-                      { className: "teaser animation-lines" },
-                      "Meta Studios Creative Agency was born in 2017 with the goal to manifest intentional design that can reconnect science and spirituality, merging energy field optics with interactive multimedia for a emerging Neo technolgical Singularity society.  "
+                      { className: "teaser-decode animation-lines white",
+                        id: "decode-text"
+                      },
+                      "Meta Studios Creative Agency was born in 2017 with the goal to manifest",
+                      d.default.createElement("br"),
+                      "intentional design that can reconnect science and spirituality, merging",
+                      d.default.createElement("br"),
+                      "energy field optics with interactive multimedia for a emerging Neo technolgical",
+                      d.default.createElement("br"),
+                      "Singularity society."
                     ),
                     // d.default.createElement(
                     //   "div",
@@ -40557,7 +40565,7 @@ object-assign
                           {
                             className: "link-decode",
                             href:
-                              "file:///C:/Users/Sonu/Documents/GitHub/MetaStudio-2/index.html#itemsdetails/GUILLERMO",
+                              "https://facelessdevhack.github.io/MetaStudio-2/index.html#itemsdetails/GUILLERMO",
                           },
                           "Our Team"
                         ),
@@ -40578,16 +40586,11 @@ object-assign
                           {
                             className: "link-decode-1",
                             href:
-                              "file:///C:/Users/Sonu/Documents/GitHub/MetaStudio-2/company-profile.html",
+                              "https://facelessdevhack.github.io/MetaStudio-2/company-profile.html",
                             target: "_blank",
                           },
                           "Corporate Profile"
                         ),
-                      ),
-                      d.default.createElement(
-                        "a",
-                        { className: "link-decode-2" },
-                        "Visual Communicator"
                       ),
                     )
                   );
