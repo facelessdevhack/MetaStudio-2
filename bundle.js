@@ -42114,12 +42114,12 @@ object-assign
                       { className: "intro animation-lines" },
                       d.default.createElement(
                         "p",
-                        { className: "copy animation-lines" },
+                        { className: "copy white animation-lines" },
                         "French sociologist Jean Baudrillard, wrote a thesis novel"
                       ),
                       d.default.createElement(
                         "p",
-                        { className: "copy animation-lines" },
+                        { className: "copy white animation-lines" },
                         "called",
                         d.default.createElement(
                           "i",
@@ -42130,17 +42130,18 @@ object-assign
                       ),
                       d.default.createElement(
                         "p",
-                        { className: "copy animation-lines" },
+                        { className: "copy white animation-lines" },
                         "that our current society has replaced all reality and meaning"
                       ),
                       d.default.createElement(
                         "p",
-                        { className: "copy animation-lines" },
+                        { className: "copy white animation-lines" },
                         "with symbols and signs, and that human experience is a"
                       ),
+                      d.default.createElement("br"),
                       d.default.createElement(
                         "p",
-                        { className: "copy animation-lines" },
+                        { className: "copy white animation-lines" },
                         "simulation of reality."
                       )
                     ),
@@ -42149,22 +42150,23 @@ object-assign
                       { className: "intro2 animation-lines paras2" },
                       d.default.createElement(
                         "p",
-                        { className: "copy animation-lines" },
+                        { className: "copy white animation-lines" },
                         "Our entire construct of reality is filled with meaningless"
                       ),
                       d.default.createElement(
                         "p",
-                        { className: "copy animation-lines" },
+                        { className: "copy white animation-lines" },
                         "symbols, but what if we could change that by using higher"
                       ),
                       d.default.createElement(
                         "p",
-                        { className: "copy animation-lines" },
+                        { className: "copy white animation-lines" },
                         "frequency imagery, then the semantics of design could"
                       ),
+                      d.default.createElement("br"),
                       d.default.createElement(
                         "p",
-                        { className: "copy animation-lines" },
+                        { className: "copy white animation-lines" },
                         "change reality itself."
                       )
                     ),
@@ -43133,7 +43135,7 @@ object-assign
                         d.default.createElement(
                           "span",
                           { className: "animation-slice contact-left-head" },
-                          "Hello"
+                          "Ready To Talk To Us?"
                         ),
                       ),
                       d.default.createElement(
@@ -43142,7 +43144,7 @@ object-assign
                         d.default.createElement(
                           "span",
                           { className: "copy animation-default contact-p" },
-                          "Do you need to get a hold of me?"
+                          "Lets Talk About Your Future Project"
                         ),
                       ),
                       d.default.createElement(
@@ -43150,9 +43152,9 @@ object-assign
                         {
                           className: "copy animation-default contact-des"
                         },
-                        "Do you have any questions related to a future photoshoot?",
+                        "META STUDIOS CREATIVE AGENCY TEAM IS READY TO CREATE YOUR",
                         d.default.createElement("br"),
-                        "or any of my products on my website, please fill up the form."
+                        "EN-VISION YOUR NEXT IDEA INTO WORKING RESULTS."
                       ),
                       d.default.createElement(
                         "p",
@@ -43184,7 +43186,7 @@ object-assign
                             className: "segment"
                           },
                           d.default.createElement(
-                            "h2", null, "_Contact Me"
+                            "h2", null, "_CONTACT US"
                           ),
                         ),
                         d.default.createElement(
@@ -43233,7 +43235,7 @@ object-assign
                                 "input",
                                 {
                                   type: "text",
-                                  placeholder: "How You Find Me?",
+                                  placeholder: "How You Found Us?",
                                   className: "form-control how-find",
                                   name: "company_name",
                                   required: ""
@@ -43262,55 +43264,6 @@ object-assign
                             {
                               className: "form-group describe-check",
                             },
-                            d.default.createElement(
-                              'div',
-                              {
-                                className: "checkboxs",
-                              },
-                              d.default.createElement('strong'),
-                              d.default.createElement(
-                                "label", {
-                                  for: "m"
-                                },
-                                "Booking Me",
-                                d.default.createElement(
-                                  "input",
-                                  {
-                                    id:"m",
-                                    name: "des",
-                                    type: "checkbox"
-                                  },
-                                ),
-                              ),
-                              d.default.createElement(
-                                "label", {
-                                  for: "mz"
-                                },
-                                "Prints",
-                                d.default.createElement(
-                                  "input",
-                                  {
-                                    id:"mz",
-                                    name: "des",
-                                    type: "checkbox"
-                                  },
-                                ),
-                              ),
-                              d.default.createElement(
-                                "label", {
-                                  for: "fc"
-                                },
-                                "Presets",
-                                d.default.createElement(
-                                  "input",
-                                  {
-                                    id:"fc",
-                                    name: "des",
-                                    type: "checkbox"
-                                  },
-                                ),
-                              ),
-                            ),
                             d.default.createElement(
                               "div",
                               {

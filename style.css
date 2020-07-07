@@ -3889,27 +3889,27 @@ span.hover-effect {
 }
 .contact-left-head {
   position: absolute;
-  top: 18%;
+  top: 28%;
   left: 9.9%;
 }
 .contact-p {
   position: absolute;
   left: 10%;
-  top: 25%;
+  top: 31.5%;
 }
 .contact-des {
   position: absolute;
   left: 10%;
-  top: 28%;
+  top: 34%;
 }
 .contact-us-left-head {
   position: absolute;
-  top: 70%;
+  top: 64%;
   left: 10%;
 }
 .contact-us-des {
   position: absolute;
-  top: 72%;
+  top: 66%;
   left: 10%;
 }
 .mht-position {
@@ -4503,7 +4503,7 @@ span.hover-effect {
    position: absolute;
    left: auto;
    right: 20%;
-   top: 20%;
+   top: 37%;
 }
 .ms-contact {
   width: 595px;
