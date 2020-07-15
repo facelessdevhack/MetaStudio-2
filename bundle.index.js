@@ -10481,11 +10481,11 @@ object-assign
       videos: {
         videoHome: "./videos/Render_1.mp4",
         videoProduct:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/02_shoe_overview.mp4",
+          "/",
         videoProductdetails:
           "https://www.ankoku-toshi-jutsu.com/assets/videos/02_shoe_details.mp4",
         videoItems:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/03_items.mp4",
+          "/",
         videoLongsleeve:
           "https://www.ankoku-toshi-jutsu.com/assets/videos/03_longsleeve.mp4",
         videoJacket:
@@ -10503,9 +10503,9 @@ object-assign
         videoHome:
           "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/01_start.mp4",
         videoProduct:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/02_shoe.mp4",
+          "/",
         videoItems:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/03_items-overview.mp4",
+          "/,
         videoItemsdetails:
           "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/03_item-details.mp4",
         videoJourney: "./videos/proxy_tunnel_FOR_WEB.mp4",
