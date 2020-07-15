@@ -673,7 +673,7 @@
   position: absolute;
   left: auto;
   right: 20%;
-  top: 37%;
+  top: 24vh;
 }
 @media screen and (max-width: 1366px) {
   .contact-form {

@@ -42960,9 +42960,9 @@ object-assign
                           {
                             className: "copy animation-default contact-des",
                           },
-                          "META STUDIOS CREATIVE AGENCY TEAM IS READY TO CREATE YOUR",
+                          "Meta Studios Creative Agency Team Is Ready to create your",
                           d.default.createElement("br"),
-                          "EN-VISION YOUR NEXT IDEA INTO WORKING RESULTS."
+                          "En-Vision your next idea into working results."
                         ),
                         d.default.createElement(
                           "p",
