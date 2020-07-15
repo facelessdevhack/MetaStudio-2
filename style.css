@@ -3940,7 +3940,7 @@ span.hover-effect {
   flex-flow: column;
   position: absolute;
   left: 75%;
-  top: 70.5%;
+  top: 60vh;
 }
 @media (max-width: 1400px) {
   #btn-decode {

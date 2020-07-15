@@ -40256,55 +40256,46 @@ object-assign
                     d.default.createElement(
                       "div",
                       {
-                        id: "btn-decode"
+                        id: "btn-decode",
                       },
                       d.default.createElement(
                         "a",
                         {
                           target: "_blank",
-                        href:
-                          "https://facelessdevhack.github.io/MetaStudio-2/decode.html",
-                        className: "btn btn-flag btn-explore",
+                          href:
+                            "https://facelessdevhack.github.io/MetaStudio-2/decode.html",
+                          className: "btn btn-flag btn-explore",
                         },
                         d.default.createElement(
-                          "p", null,
+                          "p",
+                          null,
+                          d.default.createElement("span", {
+                            className: "bg",
+                          }),
+                          d.default.createElement("span", {
+                            className: "base",
+                          }),
                           d.default.createElement(
                             "span",
                             {
-                              className: "bg"
-                            },
-                          ),
-                          d.default.createElement(
-                            "span",
-                            {
-                              className: "base"
-                            },
-                          ),
-                          d.default.createElement(
-                            "span",
-                            {
-                              className: "text"
+                              className: "text",
                             },
                             "私たちについて"
-                          ),
-                        ),
+                          )
+                        )
                       ),
                       d.default.createElement(
                         "p",
                         { className: "copy animation-default" },
                         "Decode our vizion"
-                      ),
+                      )
                     ),
-                    d.default.createElement(
-                      "a",
-                      {
-                        target: "_blank",
-                        href:
-                          "https://facelessdevhack.github.io/MetaStudio-2/decode.html",
-                        className: "btn btn-flag btn-explore",
-                      },
-                      
-                    ),
+                    d.default.createElement("a", {
+                      target: "_blank",
+                      href:
+                        "https://facelessdevhack.github.io/MetaStudio-2/decode.html",
+                      className: "btn btn-flag btn-explore",
+                    }),
                     d.default.createElement(
                       "p",
                       { className: "hl-info" },
@@ -40514,8 +40505,9 @@ object-assign
                     ),
                     d.default.createElement(
                       "div",
-                      { className: "teaser-decode animation-lines white",
-                        id: "decode-text"
+                      {
+                        className: "teaser-decode animation-lines white",
+                        id: "decode-text",
                       },
                       "Meta Studios Creative Agency was born in 2017 with the goal to manifest",
                       d.default.createElement("br"),
@@ -40545,7 +40537,7 @@ object-assign
                     //         d.default.createElement(
                     //           "strong", null, "Perlin Noise"
                     //         ),
-                            
+
                     //       )
                     //     )
                     //   )
@@ -40558,7 +40550,7 @@ object-assign
                       d.default.createElement(
                         "div",
                         {
-                          className: "Team-div"
+                          className: "Team-div",
                         },
                         d.default.createElement(
                           "a",
@@ -40568,18 +40560,15 @@ object-assign
                               "https://facelessdevhack.github.io/MetaStudio-2/index.html#itemsdetails/GUILLERMO",
                           },
                           "Our Team"
-                        ),
+                        )
                       ),
+                      d.default.createElement("div", {
+                        className: "orb",
+                      }),
                       d.default.createElement(
                         "div",
                         {
-                          className: "orb"
-                        },
-                      ),
-                      d.default.createElement(
-                        "div",
-                        {
-                          className: "Team-div"
+                          className: "Team-div",
                         },
                         d.default.createElement(
                           "a",
@@ -40590,8 +40579,8 @@ object-assign
                             target: "_blank",
                           },
                           "Corporate Profile"
-                        ),
-                      ),
+                        )
+                      )
                     )
                   );
                 },
@@ -41239,36 +41228,32 @@ object-assign
                     d.default.createElement(
                       "div",
                       {
-                        id: "btn-mapping"
+                        id: "btn-mapping",
                       },
                       d.default.createElement(
                         "a",
                         {
-                          href: "https://facelessdevhack.github.io/MetaStudio-2/videomapping.html",
+                          href:
+                            "https://facelessdevhack.github.io/MetaStudio-2/videomapping.html",
                           className: "btn btn-flag btn-longsleeve",
                         },
                         d.default.createElement(
-                          "p", null,
+                          "p",
+                          null,
+                          d.default.createElement("span", {
+                            className: "bg",
+                          }),
+                          d.default.createElement("span", {
+                            className: "base",
+                          }),
                           d.default.createElement(
                             "span",
                             {
-                              className: "bg"
-                            },
-                          ),
-                          d.default.createElement(
-                            "span",
-                            {
-                              className: "base"
-                            },
-                          ),
-                          d.default.createElement(
-                            "span",
-                            {
-                              className: "text"
+                              className: "text",
                             },
                             "マッピング"
-                          ),
-                        ),
+                          )
+                        )
                       ),
                       d.default.createElement(
                         "h3",
@@ -41293,7 +41278,7 @@ object-assign
                     d.default.createElement(
                       "div",
                       {
-                        id: "btn-design"
+                        id: "btn-design",
                       },
                       d.default.createElement(
                         "a",
@@ -41303,27 +41288,22 @@ object-assign
                           className: "btn btn-flag btn-longsleeve",
                         },
                         d.default.createElement(
-                          "p", null,
+                          "p",
+                          null,
+                          d.default.createElement("span", {
+                            className: "bg",
+                          }),
+                          d.default.createElement("span", {
+                            className: "base",
+                          }),
                           d.default.createElement(
                             "span",
                             {
-                              className: "bg"
-                            },
-                          ),
-                          d.default.createElement(
-                            "span",
-                            {
-                              className: "base"
-                            },
-                          ),
-                          d.default.createElement(
-                            "span",
-                            {
-                              className: "text"
+                              className: "text",
                             },
                             "デザイン"
-                          ),
-                        ),
+                          )
+                        )
                       ),
                       d.default.createElement("br"),
                       d.default.createElement(
@@ -41333,7 +41313,7 @@ object-assign
                       ),
                       d.default.createElement(
                         "div",
-                        { 
+                        {
                           className: "paras",
                         },
                         d.default.createElement(
@@ -41351,7 +41331,7 @@ object-assign
                     d.default.createElement(
                       "div",
                       {
-                        id: "btn-apps"
+                        id: "btn-apps",
                       },
                       d.default.createElement(
                         "a",
@@ -41361,27 +41341,22 @@ object-assign
                           className: "btn btn-flag btn-longsleeve",
                         },
                         d.default.createElement(
-                          "p", null,
+                          "p",
+                          null,
+                          d.default.createElement("span", {
+                            className: "bg",
+                          }),
+                          d.default.createElement("span", {
+                            className: "base",
+                          }),
                           d.default.createElement(
                             "span",
                             {
-                              className: "bg"
-                            },
-                          ),
-                          d.default.createElement(
-                            "span",
-                            {
-                              className: "base"
-                            },
-                          ),
-                          d.default.createElement(
-                            "span",
-                            {
-                              className: "text"
+                              className: "text",
                             },
                             "アプリ"
-                          ),
-                        ),
+                          )
+                        )
                       ),
                       d.default.createElement(
                         "h3",
@@ -41407,7 +41382,7 @@ object-assign
                           "we have developed"
                         )
                       )
-                    ),
+                    )
                   );
                 },
               },
@@ -43117,179 +43092,168 @@ object-assign
                 value: function () {
                   var e = window.APP.isMobile;
                   return e
-                    ? d.default.createElement("section", {
-                        className: "page page-gallery",
-                        ref: "element",
-                      },
-                      d.default.createElement("p", null, "Hello Gallery")
+                    ? d.default.createElement(
+                        "section",
+                        {
+                          className: "page page-gallery",
+                          ref: "element",
+                        },
+                        d.default.createElement("p", null, "Hello Gallery")
                       )
-                    : d.default.createElement("section", {
-                        className: "page page-gallery",
-                        ref: "element",
-                      },
-                      d.default.createElement(
-                        "div",
+                    : d.default.createElement(
+                        "section",
                         {
-                          className: "bg"
-                        }
-                      ),
-                      d.default.createElement(
-                        "h2",
-                        {
-                          className: "animation-wrapper",
+                          className: "page page-gallery",
+                          ref: "element",
                         },
+                        d.default.createElement("div", {
+                          className: "bg",
+                        }),
                         d.default.createElement(
-                          "span",
-                          { className: "animation-slice contact-left-head" },
-                          "Ready To Talk To Us?"
-                        ),
-                      ),
-                      d.default.createElement(
-                        "p",
-                        { className: "animation-wrapper" },
-                        d.default.createElement(
-                          "span",
-                          { className: "copy animation-default contact-p" },
-                          "Lets Talk About Your Future Project"
-                        ),
-                      ),
-                      d.default.createElement(
-                        "p",
-                        {
-                          className: "copy animation-default contact-des"
-                        },
-                        "META STUDIOS CREATIVE AGENCY TEAM IS READY TO CREATE YOUR",
-                        d.default.createElement("br"),
-                        "EN-VISION YOUR NEXT IDEA INTO WORKING RESULTS."
-                      ),
-                      d.default.createElement(
-                        "p",
-                        { className: "animation-wrapper" },
-                        d.default.createElement(
-                          "span",
-                          { className: "copy white animation-default contact-us-left-head" },
-                          "Meta Studios Creative Agency K.K 株式会社"
-                        ),
-                      ),
-                      d.default.createElement(
-                        "p",
-                        {
-                          className: "copy animation-default contact-us-des"
-                        },
-                        "6F Tobu Building 6-28-9 Jingumae",
-                        d.default.createElement("br"),
-                        "Shibuya, Tokyo Japan",
-                        d.default.createElement("br"),
-                        "+81-505-539-META [6382]"
-                      ),
-                      d.default.createElement(
-                        "form", {
-                          className: "contact-form"
-                        },
-                        d.default.createElement(
-                          "div",
+                          "h2",,
                           {
-                            className: "segment"
+                            className: "animation-wrapper",
                           },
                           d.default.createElement(
-                            "h2", null, "_CONTACT US"
-                          ),
+                            "span",
+                            { className: "animation-slice contact-left-head" },
+                            "Ready To Talk To Us?"
+                          )
                         ),
                         d.default.createElement(
-                          "div", 
+                          "p",
+                          { className: "animation-wrapper" },
+                          d.default.createElement(
+                            "span",
+                            { className: "copy animation-default contact-p" },
+                            "Lets Talk About Your Future Project"
+                          )
+                        ),
+                        d.default.createElement(
+                          "p",
                           {
-                            className: "ms-contact"
+                            className: "copy animation-default contact-des",
+                          },
+                          "META STUDIOS CREATIVE AGENCY TEAM IS READY TO CREATE YOUR",
+                          d.default.createElement("br"),
+                          "EN-VISION YOUR NEXT IDEA INTO WORKING RESULTS."
+                        ),
+                        d.default.createElement(
+                          "p",
+                          { className: "animation-wrapper" },
+                          d.default.createElement(
+                            "span",
+                            {
+                              className:
+                                "copy white animation-default contact-us-left-head",
+                            },
+                            "Meta Studios Creative Agency K.K 株式会社"
+                          )
+                        ),
+                        d.default.createElement(
+                          "p",
+                          {
+                            className: "copy animation-default contact-us-des",
+                          },
+                          "6F Tobu Building 6-28-9 Jingumae",
+                          d.default.createElement("br"),
+                          "Shibuya, Tokyo Japan",
+                          d.default.createElement("br"),
+                          "+81-505-539-META [6382]"
+                        ),
+                        d.default.createElement(
+                          "form",
+                          {
+                            className: "contact-form",
                           },
                           d.default.createElement(
-                            "label", null, 
-                            d.default.createElement(
-                              "input",
-                              {
-                                type: "text",
-                                placeholder: "Name",
-                                className: 'form-control name'
-                              },
-                            ),
+                            "div",
+                            {
+                              className: "segment",
+                            },
+                            d.default.createElement("h2", null, "_CONTACT US")
                           ),
                           d.default.createElement(
                             "div",
                             {
-                              className: "form-group second-line",
+                              className: "ms-contact",
                             },
+                            d.default.createElement(
+                              "label",
+                              null,
+                              d.default.createElement("input", {
+                                type: "text",
+                                placeholder: "Name",
+                                className: "form-control name",
+                              })
+                            ),
                             d.default.createElement(
                               "div",
                               {
-                                className: "email-left",
+                                className: "form-group second-line",
                               },
                               d.default.createElement(
-                                "input",
+                                "div",
                                 {
+                                  className: "email-left",
+                                },
+                                d.default.createElement("input", {
                                   type: "Email",
                                   placeholder: "Email",
                                   className: "form-control email",
                                   name: "email",
-                                  required: ""
-                                },
+                                  required: "",
+                                })
                               ),
-                            ),
-                            d.default.createElement(
-                              "div",
-                              {
-                                className: "sec-right",
-                              },
                               d.default.createElement(
-                                "input",
+                                "div",
                                 {
+                                  className: "sec-right",
+                                },
+                                d.default.createElement("input", {
                                   type: "text",
                                   placeholder: "How You Found Us?",
                                   className: "form-control how-find",
                                   name: "company_name",
-                                  required: ""
-                                },
-                              ),
+                                  required: "",
+                                })
+                              )
                             ),
-                          ),
-                          d.default.createElement(
-                            "div",
-                            {
-                              className: "form-group"
-                            },
-                            d.default.createElement(
-                              "textarea",
-                              {
-                                className: "form-control text-area",
-                                rows: '5',
-                                placeholder: "Your Message",
-                                name: "message",
-                                required: '',
-                              },
-                            ),
-                          ),
-                          d.default.createElement(
-                            "div",
-                            {
-                              className: "form-group describe-check",
-                            },
                             d.default.createElement(
                               "div",
                               {
-                                className: "btn-contact"
+                                className: "form-group",
+                              },
+                              d.default.createElement("textarea", {
+                                className: "form-control text-area",
+                                rows: "5",
+                                placeholder: "Your Message",
+                                name: "message",
+                                required: "",
+                              })
+                            ),
+                            d.default.createElement(
+                              "div",
+                              {
+                                className: "form-group describe-check",
                               },
                               d.default.createElement(
-                                "input",
+                                "div",
                                 {
+                                  className: "btn-contact",
+                                },
+                                d.default.createElement("input", {
                                   type: "submit",
                                   className: "btn-ms",
                                   value: "Send",
-                                  id: "submit_btn"
-                                },
+                                  id: "submit_btn",
+                                })
                               )
                             )
                           )
-                        ),
-                      ),      
-                    );
-                  },
+                        )
+                      );
+                },
               },
             ]),
             t
