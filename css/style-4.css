@@ -2601,7 +2601,7 @@ skew to change the 'thickness' of the glitch.*/
 .video-inner {
     border: 2px solid rgb(97, 194, 226);
     margin: 10px 10px 25px 10px;
-    height: 450px;
+    padding-top: 56.25%;
 }
 #two-video {
     width: 70%;
