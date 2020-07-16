@@ -10505,7 +10505,7 @@ object-assign
         videoProduct:
           "/",
         videoItems:
-          "/",
+          "/,
         videoItemsdetails:
           "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/03_item-details.mp4",
         videoJourney: "./videos/proxy_tunnel_FOR_WEB.mp4",
