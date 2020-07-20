@@ -615,12 +615,14 @@
   position: absolute;
   left: 10%;
   top: 34vh;
+  text-transform: none !important;
 }
 @media screen and (max-width: 1366px) {
   .contact-des {
     position: absolute;
     left: 10%;
     top: 38vh;
+    text-transform: none !important;
   }
 }
 .contact-us-left-head {
@@ -2876,7 +2878,7 @@ main.Trailer .share-icons {
   position: fixed;
   left: 4.16667%;
   bottom: 6.66667%;
-  width: 400px;
+  width: 600px !important;
   max-width: 100%;
   color: #ffffff;
   display: none;
