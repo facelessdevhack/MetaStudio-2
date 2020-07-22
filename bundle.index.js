@@ -10475,9 +10475,9 @@ object-assign
         "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/flags/flag_white.mp4",
       ],
       videoTrailer:
-        "https://www.ankoku-toshi-jutsu.com/assets/videos/trailer/trailer.mp4",
+        "./videos/uber_eats_v6.mp4",
       videoTrailerMobile:
-        "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/trailer/trailer.mp4",
+        "./videos/uber_eats_v6.mp4",
       videos: {
         videoHome: "./videos/Render_1.mp4",
         videoProduct:
@@ -10485,7 +10485,7 @@ object-assign
         videoProductdetails:
           "https://www.ankoku-toshi-jutsu.com/assets/videos/02_shoe_details.mp4",
         videoItems:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/03_items.mp4",
+          "./videos/calum_walking_tunnel_FOR_WEB.mp4",
         videoLongsleeve:
           "https://www.ankoku-toshi-jutsu.com/assets/videos/03_longsleeve.mp4",
         videoJacket:
@@ -10505,7 +10505,7 @@ object-assign
         videoProduct:
           "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/02_shoe.mp4",
         videoItems:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/03_items-overview.mp4",
+          "./videos/calum_walking_tunnel_FOR_WEB.mp4",
         videoItemsdetails:
           "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/03_item-details.mp4",
         videoJourney: "./videos/proxy_tunnel_FOR_WEB.mp4",
@@ -40504,10 +40504,26 @@ object-assign
                       {
                         className: "decode-container",
                       },
+                      // d.default.createElement(
+                      //   "div",
+                      //   {
+                      //     className: "Team-div",
+                      //   },
+                      //   d.default.createElement(
+                      //     "a",
+                      //     {
+                      //       className: "link-decode",
+                      //       href: "javascript:void(0);",
+                      //       onClick: this.onClick,
+                      //       "data-pagehash": "itemsdetails/guillermo",
+                      //     },
+                      //     "Our Team"
+                      //   )
+                      // ),
                       d.default.createElement(
                         "div",
                         {
-                          className: "Team-div",
+                          id: "btn-team",
                         },
                         d.default.createElement(
                           "a",
@@ -40517,16 +40533,43 @@ object-assign
                             onClick: this.onClick,
                             "data-pagehash": "itemsdetails/guillermo",
                           },
+                          d.default.createElement(
+                            "p",
+                            null,
+                            d.default.createElement("span", {
+                              className: "bg",
+                            }),
+                            d.default.createElement("span", {
+                              className: "base",
+                            }),
+                            d.default.createElement(
+                              "span",
+                              {
+                                className: "text",
+                              },
+                              "私たちのチーム"
+                            )
+                          )
+                        ),
+                        d.default.createElement(
+                          "h3",
+                          { className: "animation-default" },
                           "Our Team"
-                        )
+                        ),
+                        d.default.createElement(
+                          "div",
+                          { className: "paras" },
+                          d.default.createElement(
+                            "p",
+                            { className: "copy animation-lines" },
+                            "Meet Our Team"
+                          ),
+                        ),
                       ),
-                      d.default.createElement("div", {
-                        className: "orb",
-                      }),
                       d.default.createElement(
                         "div",
                         {
-                          className: "Team-div",
+                          id: "btn-corporate",
                         },
                         d.default.createElement(
                           "a",
@@ -40536,9 +40579,42 @@ object-assign
                               "https://facelessdevhack.github.io/MetaStudio-2/company-profile.html",
                             target: "_blank",
                           },
+                          d.default.createElement(
+                            "p",
+                            null,
+                            d.default.createElement("span", {
+                              className: "bg",
+                            }),
+                            d.default.createElement("span", {
+                              className: "base",
+                            }),
+                            d.default.createElement(
+                              "span",
+                              {
+                                className: "text",
+                              },
+                              "会社概要"
+                            )
+                          )
+                        ),
+                        d.default.createElement(
+                          "h3",
+                          { className: "animation-default" },
                           "Corporate Profile"
-                        )
-                      )
+                        ),
+                        d.default.createElement(
+                          "div",
+                          { className: "paras" },
+                          d.default.createElement(
+                            "p",
+                            { className: "copy animation-lines" },
+                            "Take A Look At Our Profile"
+                          ),
+                        ),
+                      ),
+                      // d.default.createElement("div", {
+                      //   className: "orb",
+                      // }),
                     )
                   );
                 },
@@ -47738,78 +47814,78 @@ object-assign
                               "data-pagehash": "howtobuy",
                             },
                             d.default.createElement("span", null, "EMAIL")
-                          )
-                        ),
-                        // d.default.createElement("br"),
-                        // d.default.createElement("br"),
-                        d.default.createElement(
-                          "a",
-                          {
-                            href:
-                              "https://www.facebook.com/futurevizionphotography",
-                            target: "_blank",
-                            className: "hover-social hover-slide",
-                          },
-                          d.default.createElement("img", {
-                            className: "hover-svg",
-                            src:
-                              "https://facelessdevhack.github.io/MetaStudio-2/imgs/fb.svg",
-                            alt: "FB",
-                            width: "18px",
-                            height: "18px",
-                          })
-                        ),
-                        d.default.createElement(
-                          "a",
-                          {
-                            href:
-                              "https://www.facebook.com/futurevizionphotography",
-                            target: "_blank",
-                            className: "hover-social hover-slide",
-                          },
-                          d.default.createElement("img", {
-                            className: "hover-svg",
-                            src:
-                              "https://facelessdevhack.github.io/MetaStudio-2/imgs/ig.svg",
-                            alt: "IG",
-                            width: "18px",
-                            height: "18px",
-                          })
-                        ),
-                        d.default.createElement(
-                          "a",
-                          {
-                            href:
-                              "https://www.facebook.com/futurevizionphotography",
-                            target: "_blank",
-                            className: "hover-social hover-slide",
-                          },
-                          d.default.createElement("img", {
-                            className: "hover-svg",
-                            src:
-                              "https://facelessdevhack.github.io/MetaStudio-2/imgs/ig.svg",
-                            alt: "IG",
-                            width: "18px",
-                            height: "18px",
-                          })
-                        ),
-                        d.default.createElement(
-                          "a",
-                          {
-                            href:
-                              "https://www.facebook.com/futurevizionphotography",
-                            target: "_blank",
-                            className: "hover-social hover-slide",
-                          },
-                          d.default.createElement("img", {
-                            className: "hover-svg",
-                            src:
-                              "https://facelessdevhack.github.io/MetaStudio-2/imgs/tw.svg",
-                            alt: "TW",
-                            width: "18px",
-                            height: "18px",
-                            fill: "white",
-                          })
+                          ),
+                          d.default.createElement('br'),
+                          d.default.createElement('br'),
+                          d.default.createElement(
+                            "a",
+                            {
+                              href:
+                                "https://www.facebook.com/futurevizionphotography",
+                              target: "_blank",
+                              className: "hover-social hover-slide",
+                            },
+                            d.default.createElement("img", {
+                              className: "hover-svg",
+                              src:
+                                "./imgs/fb.svg",
+                              alt: "FB",
+                              width: "18px",
+                              height: "18px",
+                            })
+                          ),
+                          d.default.createElement(
+                            "a",
+                            {
+                              href:
+                                "https://www.facebook.com/futurevizionphotography",
+                              target: "_blank",
+                              className: "hover-social hover-slide",
+                            },
+                            d.default.createElement("img", {
+                              className: "hover-svg",
+                              src:
+                                "./imgs/ig.svg",
+                              alt: "IG",
+                              width: "18px",
+                              height: "18px",
+                            })
+                          ),
+                          d.default.createElement(
+                            "a",
+                            {
+                              href:
+                                "https://www.facebook.com/futurevizionphotography",
+                              target: "_blank",
+                              className: "hover-social hover-slide",
+                            },
+                            d.default.createElement("img", {
+                              className: "hover-svg",
+                              src:
+                                "./imgs/ig.svg",
+                              alt: "IG",
+                              width: "18px",
+                              height: "18px",
+                            })
+                          ),
+                          d.default.createElement(
+                            "a",
+                            {
+                              href:
+                                "https://www.facebook.com/futurevizionphotography",
+                              target: "_blank",
+                              className: "hover-social hover-slide",
+                            },
+                            d.default.createElement("img", {
+                              className: "hover-svg",
+                              src:
+                                "./imgs/tw.svg",
+                              alt: "TW",
+                              width: "18px",
+                              height: "18px",
+                              fill: "white",
+                            })
+                          ),
                         ),
                         d.default.createElement(
                           "a",
