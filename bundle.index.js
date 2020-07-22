@@ -40558,7 +40558,7 @@ object-assign
                         ),
                         d.default.createElement(
                           "div",
-                          { className: "paras" },
+                          { className: "paras btn-team" },
                           d.default.createElement(
                             "p",
                             { className: "copy animation-lines" },
@@ -40604,7 +40604,7 @@ object-assign
                         ),
                         d.default.createElement(
                           "div",
-                          { className: "paras" },
+                          { className: "paras btn-corp" },
                           d.default.createElement(
                             "p",
                             { className: "copy animation-lines" },
