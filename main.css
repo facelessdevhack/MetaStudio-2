@@ -174,19 +174,19 @@
 @media (max-width: 1400px) {
   #btn-team {
     display: -webkit-box;
-  display: flex;
-  /* height: 100vh; */
-  width: 240;
-  -webkit-box-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  flex-flow: column;
-  position: absolute;
-  left: 67vw;
-  top: 25vh;
+    display: flex;
+    /* height: 100vh; */
+    width: 240;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-flow: column;
+    position: absolute;
+    left: 67vw;
+    top: 25vh;
   }
 }
 #btn-team a {
@@ -236,7 +236,7 @@
   width: 80%;
   position: relative;
   overflow: hidden;
-      margin-left: 57px;
+  margin-left: 57px;
 }
 @media (max-width: 1400px) {
   #btn-team a p {
@@ -272,7 +272,7 @@
   -webkit-transition: 0.3s ease-out all;
   transition: 0.3s ease-out all;
   -webkit-transform: skewX(-10deg);
-          transform: skewX(-10deg);
+  transform: skewX(-10deg);
 }
 #btn-team a p span.text {
   z-index: 4;
@@ -290,7 +290,7 @@
 }
 #btn-team h3 {
   display: inline-block;
-  font-family: 'DIN Next Pro Medium', 'Helvetica', Helvetica, sans-serif;
+  font-family: "DIN Next Pro Medium", "Helvetica", Helvetica, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #ffffff;
@@ -302,7 +302,7 @@
 @media (max-width: 1400px) {
   #btn-team h3 {
     display: inline-block;
-    font-family: 'DIN Next Pro Medium', 'Helvetica', Helvetica, sans-serif;
+    font-family: "DIN Next Pro Medium", "Helvetica", Helvetica, sans-serif;
     font-weight: normal;
     font-style: normal;
     color: #ffffff;
@@ -328,20 +328,20 @@
 }
 @media (max-width: 1400px) {
   #btn-corporate {
-  display: -webkit-box;
-  display: flex;
-  /* height: 100vh; */
-  width: 240;
-  -webkit-box-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  flex-flow: column;
-  position: absolute;
-  left: 67vw;
-  top: 53vh;
+    display: -webkit-box;
+    display: flex;
+    /* height: 100vh; */
+    width: 240;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-flow: column;
+    position: absolute;
+    left: 67vw;
+    top: 53vh;
   }
 }
 #btn-corporate a {
@@ -427,7 +427,7 @@
   -webkit-transition: 0.3s ease-out all;
   transition: 0.3s ease-out all;
   -webkit-transform: skewX(-10deg);
-          transform: skewX(-10deg);
+  transform: skewX(-10deg);
 }
 #btn-corporate a p span.text {
   z-index: 4;
@@ -445,7 +445,7 @@
 }
 #btn-corporate h3 {
   display: inline-block;
-  font-family: 'DIN Next Pro Medium', 'Helvetica', Helvetica, sans-serif;
+  font-family: "DIN Next Pro Medium", "Helvetica", Helvetica, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #ffffff;
@@ -458,7 +458,7 @@
 @media (max-width: 1400px) {
   #btn-corporate h3 {
     display: inline-block;
-    font-family: 'DIN Next Pro Medium', 'Helvetica', Helvetica, sans-serif;
+    font-family: "DIN Next Pro Medium", "Helvetica", Helvetica, sans-serif;
     font-weight: normal;
     font-style: normal;
     color: #ffffff;
@@ -4637,8 +4637,8 @@ p.copy {
     color: rgba(182, 188, 206, 0.7);
   }
 }
-.italic{
-  font-style: italic,
+.italic {
+  font-style: italic;
 }
 
 .white {
@@ -4647,8 +4647,8 @@ p.copy {
 
 .big-white-copy,
 .page-journey .intro {
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 1.06em;
+  line-height: 1em;
   color: #ffffff;
 }
 @media screen and (max-width: 1300px) {
