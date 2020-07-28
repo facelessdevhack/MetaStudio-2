@@ -144,7 +144,8 @@
   width: 71vw !important;
   font-size: 1.5em !important;
   line-height: 32px;
-  /* font-family: "sf_compact_displayregular", sans-serif; */
+  font-family: "SF Display";
+  font-weight: 400;
 }
 @media (max-width: 1400px) {
   .teaser-decode {
@@ -154,7 +155,7 @@
     width: 71vw !important;
     font-size: 1em !important;
     line-height: 32px;
-    font-family: "sf_compact_displayregular", sans-serif;
+    font-family: "SF Display";
   }
 }
 .decode-container {
@@ -1167,6 +1168,11 @@ form {
 
 /* Contact Form End  */
 /* Page 5 Edits End  */
+@font-face {
+  font-family: "SF Display";
+  font-weight: 400;
+  src: url("https://sf.abarba.me/SF-UI-Display-Regular.otf");
+}
 @font-face {
   font-family: "rajdhani";
   src: url("https://www.ankoku-toshi-jutsu.com/fonts/rajdhani-bold-webfont.eot");
