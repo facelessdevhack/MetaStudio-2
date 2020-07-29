@@ -40481,7 +40481,7 @@ object-assign
                     d.default.createElement(
                       "div",
                       {
-                        className: "teaser-decode animation-lines white",
+                        className: "teaser-decode animation-lines ",
                         id: "decode-text",
                       },
                       "Meta Studios Creative Agency was born in 2017 with the goal to manifest",
