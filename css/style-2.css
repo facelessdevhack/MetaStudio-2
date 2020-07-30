@@ -2003,7 +2003,7 @@ a[target="_blank"].btn:after {
     margin-right: auto;
     font-size: 14px;
   }
-  @media (max-width: 1400px) {
+  /* @media (max-width: 1400px) {
     .block {
       width: 900px;
       margin-left: auto;
@@ -2011,7 +2011,7 @@ a[target="_blank"].btn:after {
       margin-right: auto;
       font-size: 14px;
     }
-  }
+  } */
   .block h3 {
     position: relative;
     font-size: 40px;
@@ -2449,7 +2449,7 @@ a[target="_blank"].btn:after {
     letter-spacing: 0.1em;
     font-size: 20px;
   }
-  @media (max-width: 1400px) {
+  /* @media (max-width: 1400px) {
     .message_text .message_body {
       position: relative;
       background: #fff;
@@ -2461,7 +2461,7 @@ a[target="_blank"].btn:after {
       letter-spacing: 0.1em;
       font-size: 10px;
     }
-  }
+  } */
   .message_text .message_body h3 {
     margin-bottom: 1.5em;
   }
@@ -2479,7 +2479,7 @@ a[target="_blank"].btn:after {
     letter-spacing: 0.1em;
     font-size: 20px;
   }
-  @media (max-width: 1400px) {
+  /* @media (max-width: 1400px) {
     .message_text .message_body_2 {
       position: relative;
       background: #fff;
@@ -2491,7 +2491,7 @@ a[target="_blank"].btn:after {
       letter-spacing: 0.1em;
       font-size: 10px;
     }
-  }
+  } */
   .message_text .message_body_2 h3 {
     margin-bottom: 1.5em;
   }
