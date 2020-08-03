@@ -172,7 +172,7 @@
   top: 30vh; */
 }
 #btn-team {
-  width: 277px;
+  width: 200px;
   flex-flow: column;
   position: absolute;
   left: 73vw;
@@ -244,7 +244,7 @@
   width: 80%;
   position: relative;
   overflow: hidden;
-  margin-left: 57px;
+  margin-left: 42px;
 }
 @media (max-width: 1400px) {
   #btn-team a p {
@@ -327,7 +327,7 @@
   }
 }
 #btn-corporate {
-  width: 277px;
+  width: 200px;
   flex-flow: column;
   position: absolute;
   left: 73vw;
@@ -399,7 +399,7 @@
   width: 80%;
   position: relative;
   overflow: hidden;
-  margin-left: 57px;
+  margin-left: 42px;
 }
 @media (max-width: 1400px) {
   #btn-corporate a p {
@@ -570,7 +570,7 @@
 }
 /* Video Mapping Button Start  */
 #btn-mapping {
-  width: 177px;
+  width: 155px;
   flex-flow: column;
   position: absolute;
   left: 77vw;
@@ -681,7 +681,7 @@
 /* Video Mapping Button End  */
 /* Apps Button Start  */
 #btn-apps {
-  width: 177px;
+  width: 155px;
   flex-flow: column;
   position: absolute;
   left: 77vw;
@@ -3217,6 +3217,19 @@ main.Trailer .share-icons {
 .page-details .detail {
   position: fixed;
   left: 4.16667%;
+  bottom: 32vh;
+  width: 600px !important;
+  max-width: 100%;
+  color: #ffffff;
+  display: none;
+  opacity: 0;
+  font-size: 20px;
+  line-height: 28px;
+}
+@media screen and (max-width: 1440px) {
+  .page-details .detail {
+    position: fixed;
+  left: 4.16667%;
   bottom: 6.66667%;
   width: 600px !important;
   max-width: 100%;
@@ -3225,6 +3238,7 @@ main.Trailer .share-icons {
   opacity: 0;
   font-size: 20px;
   line-height: 28px;
+  }
 }
 .page-details .detail h3 {
   display: none;
@@ -4675,6 +4689,22 @@ p.copy {
 img {
   max-width: 100%;
   height: auto;
+}
+.img2 {
+  max-width: 229%;
+  height: 270px;
+  right: 3.6vw;
+  position: relative;
+  margin-bottom: 10;
+}
+@media screen and (max-width: 1440px) {
+  .img2 {
+    max-width: 100%;
+    height: auto;
+    right: 3.6vw;
+    /* position: relative; */
+    margin-bottom: 10;
+  }
 }
 
 main {
