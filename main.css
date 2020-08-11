@@ -4697,6 +4697,17 @@ img {
   position: relative;
   margin-bottom: 10;
 }
+@media screen and (max-width: 1920px) {
+  .img2 {
+    max-width: 184px;
+    height: 122;
+    left: 13;
+    /* right: 3.6vw; */
+    position: relative;
+    margin-bottom: 10;
+  }
+}
+
 @media screen and (max-width: 1440px) {
   .img2 {
     max-width: 100%;
