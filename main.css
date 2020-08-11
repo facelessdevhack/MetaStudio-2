@@ -189,6 +189,24 @@
   color: rgba(182, 188, 206, 0.7) !important;
   line-height: 32px;
 }
+@media (max-width: 2000px) {
+  .teaser-hiring {
+    position: fixed;
+    left: 16.66667%;
+    bottom: 9%;
+    width: 71vw !important;
+    font-size: 1.5em !important;
+    line-height: 32px;
+    /* font-family: "SF Display"; */
+    font-weight: 400;
+    /* display: inline-block; */
+    z-index: 100;
+    margin: 0 0 -50px 0;
+    font-size: 20px !important;
+    color: rgba(182, 188, 206, 0.7) !important;
+    line-height: 32px;
+  }
+}
 @media (max-width: 1400px) {
   .teaser-hiring {
     position: fixed;
@@ -211,6 +229,19 @@
   display: inline-block;
   font-size: 22px;
   margin-top: 120px;
+}
+@media (max-width: 2000px) {
+  .button-hiring {
+    background-color: #FF69B4; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10%;
+  }
 }
 .decode-container {
   /* display: inline-block;
