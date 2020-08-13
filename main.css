@@ -1,4 +1,19 @@
 /* Nav Elements Edits Start  */
+.social-div {
+  position: absolute;
+    top: 77vh;
+    z-index: 10000;
+    right: 30vw;
+}
+@media screen and (max-width: 1920px){
+  .social-div{
+    position: absolute;
+    top: 71vh;
+    z-index: 10000;
+    right: 28vw;
+  }
+
+}
 .hover-svg:hover {
   padding-bottom: 4px;
   border-bottom: 2px solid white;
@@ -2339,10 +2354,15 @@ main.Getthechance .audio-button .btn.play svg path,
 main.Howtobuy .audio-button .btn.play svg path {
   stroke: #000000;
 }
-
+.job-title{
+  padding: 7px;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  width: 166px;
+}
 .shop-button {
   display: inline-block;
-  width: 140px;
+  width: 150px !important;
   position: fixed;
   right: 4.16667%;
   top: 6.66667%;
@@ -3435,7 +3455,38 @@ main.Trailer .share-icons {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
-
+.GUILLERMO {
+  bottom:28% !important;
+}
+.IAN {
+  bottom: 34% !important;
+}
+.HIDEYO {
+  bottom: 42% !important;
+}
+.NANA {
+  bottom: 44% !important;
+}
+.RAFAEL {
+  bottom: 40% !important;
+}
+@media screen and (max-width: 1920px) {
+  .GUILLERMO {
+    bottom: 16% !important;
+  }
+  .IAN {
+    bottom: 23% !important;
+  }
+  .HIDEYO {
+    bottom: 36% !important;
+  }
+  .NANA {
+    bottom: 40% !important;
+  }
+  .RAFAEL {
+    bottom: 32% !important;
+  }
+}
 .page-details .detail {
   position: fixed;
   left: 4.16667%;
