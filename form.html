@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./form.css" />
+  </head>
+  <body>
+    <form class="contact-form" onsubmit="return send_mail(event)">
+      <div class="segment"><h2>_CONTACT US</h2></div>
+      <div class="ms-contact">
+        <div id="response" style="display: none;">
+          <p style="color: green;">Request submited successfully.</p>
+        </div>
+        <label
+          ><input type="text" placeholder="Name" class="form-control name"
+        /></label>
+        <div class="form-group second-line">
+          <div class="email-left">
+            <input
+              type="Email"
+              placeholder="Email"
+              class="form-control email"
+              name="email"
+            />
+          </div>
+          <div class="sec-right">
+            <input
+              type="text"
+              placeholder="How You Found Us?"
+              class="form-control how-find"
+              name="company_name"
+            />
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea
+            class="form-control text-area"
+            rows="5"
+            placeholder="Your Message"
+            name="message"
+          ></textarea>
+        </div>
+        <div class="form-group describe-check">
+          <div class="btn-contact">
+            <input type="submit" class="btn-ms" value="Send" id="submit_btn" />
+          </div>
+        </div>
+      </div>
+    </form>
+    <div style="display: none;">
+      <div id="email-update">
+        <form
+          class="form-horizontal"
+          id="email_form"
+          onsubmit="return send_e_mail(event)"
+        >
+          <div class="form-group email-update">
+            <div class="col-xs-12"><div id="emailresponce"></div></div>
+            <div class="col-xs-8">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Enter your Email"
+                required=""
+                name="emailup"
+              />
+            </div>
+            <div class="col-xs-4">
+              <input type="submit" value="GO" class="btn-goo" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="https://www.futurevizion.jp/contact/js/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://www.futurevizion.jp/contact/js/bootstrap.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://www.futurevizion.jp/contact/js/modernizr.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://www.futurevizion.jp/contact/js/wow.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://www.futurevizion.jp/contact/js/jquery.easing.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://www.futurevizion.jp/contact/js/ddsmoothmenu.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://www.futurevizion.jp/contact/js/jquery.scrollTo-1.4.2-min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://www.futurevizion.jp/contact/js/jquery.parallax.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://www.futurevizion.jp/contact/js/jquery.parallax-1.1.3.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://www.futurevizion.jp/contact/js/owl.carousel.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://www.futurevizion.jp/contact/js/jquery.colorbox-min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://www.futurevizion.jp/contact/js/lodash.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://www.futurevizion.jp/contact/js/menu.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://www.futurevizion.jp/contact/js/parallax.js"
+      id="rendered-js"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="https://www.futurevizion.jp/contact/js/script.js"
+    ></script>
+    <script>
+      function send_mail(event) {
+        event.preventDefault();
+        //alert('working');
+        $("#response").empty();
+        $("#response").html('<p style="color:blue;">Please Wait....</p>');
+        $("#response").show();
+        $("#submit_btn").prop("disabled", true);
+        $.ajax({
+          url: "contact_mail.php",
+          type: "POST",
+          data: $("#contact_form").serialize(),
+          success: function (res) {
+            if (res == "success") {
+              $("#response").html(
+                '<p style="color:green;">Request submited successfully.</p>'
+              );
+              $("#contact_form")[0].reset();
+            } else {
+              $("#response").html(
+                '<p style="color:red;">Failed to submit request.</p>'
+              );
+            }
+            $("#response").show();
+            $("#response").fadeOut(20000);
+            $("#submit_btn").prop("disabled", false);
+          },
+        });
+      }
+
+      function send_e_mail(event) {
+        event.preventDefault();
+        //alert('working');
+        $("#emailresponce").empty();
+        $("#emailresponce").html('<p style="color:blue;">Please Wait....</p>');
+        $("#emailresponce").show();
+        $(".btn-goo").prop("disabled", true);
+        $.ajax({
+          url: "e_mail.php",
+          type: "POST",
+          data: $("#email_form").serialize(),
+          success: function (res) {
+            if (res == "success") {
+              $("#emailresponce").html(
+                '<p style="color:green;">Request submited successfully.</p>'
+              );
+              $("#email_form")[0].reset();
+              $.colorbox.close();
+            } else {
+              $("#emailresponce").html(
+                '<p style="color:red;">Failed to submit request.</p>'
+              );
+            }
+            $("#emailresponce").show();
+            $("#emailresponce").fadeOut(3000);
+            $(".btn-goo").prop("disabled", false);
+          },
+        });
+      }
+
+      function isNumeric(obj) {
+        var number = obj.value;
+
+        if (number.length > 0) {
+          if ($.isNumeric(number)) {
+            return true;
+          } else {
+            alert("Please enter numeric value.");
+            $(obj).val("");
+            return false;
+          }
+        }
+      }
+    </script>
+
+    <script>
+      "undefined" === typeof _trfq || (window._trfq = []);
+      "undefined" === typeof _trfd && (window._trfd = []),
+        _trfd.push({ "tccl.baseHost": "secureserver.net" }),
+        _trfd.push({ ap: "cpsh" }, { server: "sg2plcpnl0007" }); // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.
+    </script>
+    <script src="https://img1.wsimg.com/tcc/tcc_l.combined.1.0.6.min.js"></script>
+    <div id="cboxOverlay" style="display: none;"></div>
+    <div
+      id="colorbox"
+      class=""
+      role="dialog"
+      tabindex="-1"
+      style="display: none;"
+    >
+      <div id="cboxWrapper">
+        <div>
+          <div id="cboxTopLeft" style="float: left;"></div>
+          <div id="cboxTopCenter" style="float: left;"></div>
+          <div id="cboxTopRight" style="float: left;"></div>
+        </div>
+        <div style="clear: left;">
+          <div id="cboxMiddleLeft" style="float: left;"></div>
+          <div id="cboxContent" style="float: left;">
+            <div id="cboxTitle" style="float: left;"></div>
+            <div id="cboxCurrent" style="float: left;"></div>
+            <button type="button" id="cboxPrevious"></button
+            ><button type="button" id="cboxNext"></button
+            ><button id="cboxSlideshow"></button>
+            <div id="cboxLoadingOverlay" style="float: left;"></div>
+            <div id="cboxLoadingGraphic" style="float: left;"></div>
+          </div>
+          <div id="cboxMiddleRight" style="float: left;"></div>
+        </div>
+        <div style="clear: left;">
+          <div id="cboxBottomLeft" style="float: left;"></div>
+          <div id="cboxBottomCenter" style="float: left;"></div>
+          <div id="cboxBottomRight" style="float: left;"></div>
+        </div>
+      </div>
+      <div
+        style="
+          position: absolute;
+          width: 9999px;
+          visibility: hidden;
+          display: none;
+          max-width: none;
+        "
+      ></div>
+    </div>
+  </body>
+</html>

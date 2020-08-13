@@ -1241,6 +1241,10 @@
   color: #fff;
 }
 /* Contact Form Start  */
+.form-frame{
+  border-width: 0 !important;
+  height: 100vh;
+}
 .contact-form {
   position: absolute;
   left: auto;
