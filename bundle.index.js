@@ -41644,7 +41644,7 @@ object-assign
               {
                 key: "onCloseButtonClick",
                 value: function (t) {
-                  t.preventDefault(), g.default.sendTo("goToPageHash", "items");
+                  t.preventDefault(), g.default.sendTo("goToPageHash", "product");
                 },
               },
               {
