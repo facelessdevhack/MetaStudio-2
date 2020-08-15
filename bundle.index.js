@@ -40270,8 +40270,8 @@ object-assign
                         )
                       ),
                       d.default.createElement(
-                        "p",
-                        { className: "copy animation-default" },
+                        "h3",
+                        { className: "animation-default btn-decode-text" },
                         "Decode our vizion"
                       )
                     ),
@@ -42292,7 +42292,7 @@ object-assign
                           "私達の旅"
                         ),
                         d.default.createElement("br", null),
-                        "Pixels are the resolvanle unit of the universe"
+                        "Pixels are the resolution of the universe"
                       )
                     ),
                     d.default.createElement(
