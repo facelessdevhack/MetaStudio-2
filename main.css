@@ -1155,9 +1155,9 @@
 /* Chapter 1 Edits End  */
 .uber-stripe {
   position: absolute;
-  margin-top: -3vh;
+  margin-top: -4vh;
   width: 12%;
-  height: 4.5%;
+  height: 1rem;
 }
 /* Page 4 Edits End  */
 /* Page 5 Edits Start  */
@@ -3478,6 +3478,12 @@ main.Trailer .share-icons {
 .RAFAEL {
   bottom: 40% !important;
 }
+.ANTONIO {
+  bottom: 30% !important;
+}
+.JOAO {
+  bottom: 38% !important;
+}
 @media screen and (max-width: 1920px) {
   .GUILLERMO {
     bottom: 16% !important;
@@ -3499,7 +3505,7 @@ main.Trailer .share-icons {
   position: fixed;
   left: 4.16667%;
   bottom: 32vh;
-  width: 600px !important;
+  width: 615px !important;
   max-width: 100%;
   color: #ffffff;
   display: none;
@@ -3512,7 +3518,7 @@ main.Trailer .share-icons {
     position: fixed;
   left: 4.16667%;
   bottom: 6.66667%;
-  width: 600px !important;
+  width: 615px !important;
   max-width: 100%;
   color: #ffffff;
   display: none;
