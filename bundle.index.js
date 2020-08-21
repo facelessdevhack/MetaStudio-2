@@ -10418,11 +10418,55 @@ object-assign
     Object.defineProperty(t, "__esModule", { value: !0 });
     var n = {
       default: [
+<<<<<<< HEAD
         "https://facelessdevhack.github.io/MetaStudio-2/imgs/Layer%2017.png",
         "./sounds/bg.mp3",
         "./sounds/bg.ogg",
       ],
       defaultDesktop: [
+=======
+        "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/1.jpg",
+        "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/2.jpg",
+        "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/3.jpg",
+        "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/4.jpg",
+        "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/5.jpg",
+        "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/6.jpg",
+        "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/7.jpg",
+        "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/8.jpg",
+        "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/9.jpg",
+        "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/10.jpg",
+        "https://www.ankoku-toshi-jutsu.com/assets/images/j-signs/artefact.png",
+        "https://www.ankoku-toshi-jutsu.com/assets/images/j-signs/headhome.png",
+        "https://www.ankoku-toshi-jutsu.com/assets/images/j-signs/sign1.png",
+        "https://www.ankoku-toshi-jutsu.com/assets/images/adidas-logo-black.png",
+        "https://www.ankoku-toshi-jutsu.com/assets/images/adidas-logo.png",
+        "https://www.ankoku-toshi-jutsu.com/assets/images/arrow-down-black.png",
+        "https://www.ankoku-toshi-jutsu.com/assets/images/black-line.png",
+        "https://www.ankoku-toshi-jutsu.com/assets/images/credits-logos.png",
+        "https://www.ankoku-toshi-jutsu.com/assets/images/dayy-logo.png",
+        "https://www.ankoku-toshi-jutsu.com/assets/images/homevideo-bg.jpg",
+        "https://www.ankoku-toshi-jutsu.com/assets/images/journeyvideo-bg.jpg",
+        "https://www.ankoku-toshi-jutsu.com/assets/images/loading-simple.gif",
+        "https://www.ankoku-toshi-jutsu.com/assets/images/mouseicon.cur",
+        "https://www.ankoku-toshi-jutsu.com/assets/images/noise.png",
+        "https://www.ankoku-toshi-jutsu.com/assets/images/og_image.jpg",
+        "https://facelessdevhack.github.io/MetaStudio-2/imgs/Layer%2017.png",
+        "https://www.ankoku-toshi-jutsu.com/assets/images/shop-icon.png",
+        "https://www.ankoku-toshi-jutsu.com/assets/images/soundwave-long.png",
+        "https://www.ankoku-toshi-jutsu.com/assets/images/story-thumb.jpg",
+        "https://www.ankoku-toshi-jutsu.com/assets/images/tgwo-logo-black.png",
+        "https://www.ankoku-toshi-jutsu.com/assets/images/tgwo-logo.png",
+        "https://www.ankoku-toshi-jutsu.com/assets/images/trailer-bg.png",
+        "./sounds/bg.mp3",
+        "./sounds/bg.ogg",
+        "https://www.ankoku-toshi-jutsu.com/assets/svg/nav.svg",
+        "https://www.ankoku-toshi-jutsu.com/assets/svg/soundwave-long.svg",
+        "https://www.ankoku-toshi-jutsu.com/assets/svg/soundwave.svg",
+      ],
+      defaultDesktop: [
+        "https://www.ankoku-toshi-jutsu.com/assets/videos/flags/flag_black.mp4",
+        "https://www.ankoku-toshi-jutsu.com/assets/videos/flags/flag_white.mp4",
+>>>>>>> parent of a1eaefe... Cross reference update
         "./sounds/big_hover_01_01.mp3",
         "./sounds/big_hover_01_01.ogg",
         "./sounds/big_hover_02_01.mp3",
@@ -10435,6 +10479,11 @@ object-assign
         "./sounds/jump_to_detail_transition_01.ogg",
       ],
       defaultMobile: [
+<<<<<<< HEAD
+=======
+        "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/flags/flag_black.mp4",
+        "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/flags/flag_white.mp4",
+>>>>>>> parent of a1eaefe... Cross reference update
       ],
       videoTrailer: "./videos/intro.mp4",
       videoTrailerMobile: "./videos/intro.mp4",
@@ -10444,9 +10493,15 @@ object-assign
         videoProductdetails: "./videos/Calum_Tunnel_FOR_WEB.mp4",
         videoItems: "./videos/projects_background_video.MOV",
         videoLongsleeve:
+<<<<<<< HEAD
           "",
         videoJacket:
           "",
+=======
+          "https://www.ankoku-toshi-jutsu.com/assets/videos/03_longsleeve.mp4",
+        videoJacket:
+          "https://www.ankoku-toshi-jutsu.com/assets/videos/03_jacket.mp4",
+>>>>>>> parent of a1eaefe... Cross reference update
         videoJourney: "./videos/proxy_tunnel_FOR_WEB.mp4",
         videoJourneyChapter1: "./videos/spiritual_machines_v_3.mp4",
         videoJourneyChapter2: "./videos/uber_eats_v6.mp4",
@@ -10458,18 +10513,22 @@ object-assign
           "./videos/ADIDAS_UNVAULTED_FOOTACTION_A_061219_FINAL.mp4",
         videoJourneyChapter8: "./videos/Suntory Whisky 1-edited-2.m4v",
         videoCredits:
+<<<<<<< HEAD
           "",
+=======
+          "https://www.ankoku-toshi-jutsu.com/assets/videos/05_credits.mp4",
+>>>>>>> parent of a1eaefe... Cross reference update
       },
       videosMobile: {
         videoHome:
-          "/assets/videos/_mobile/01_start.mp4",
+          "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/01_start.mp4",
         videoProduct: "./videos/Calum_Tunnel_FOR_WEB.mp4",
         videoItems: "./videos/projects_background_video.MOV",
         videoItemsdetails:
-          "/assets/videos/_mobile/03_item-details.mp4",
+          "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/03_item-details.mp4",
         videoJourney: "./videos/proxy_tunnel_FOR_WEB.mp4",
         videoCredits:
-          "/assets/videos/_mobile/04_journey.mp4",
+          "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/04_journey.mp4",
       },
     };
     t.default = n;
@@ -32675,7 +32734,7 @@ object-assign
                         // ),
                         p.default.createElement("img", {
                           src:
-                            "/assets/images/desktop_icon.png",
+                            "https://www.ankoku-toshi-jutsu.com/assets/images/desktop_icon.png",
                           className: "desktop-icon",
                         }),
                         p.default.createElement(
@@ -43897,7 +43956,7 @@ object-assign
                           className: "img",
                           style: {
                             backgroundImage:
-                              "url(/assets/images/gallery/1.jpg",
+                              "url(https://www.ankoku-toshi-jutsu.com/assets/images/gallery/1.jpg",
                           },
                         })
                       ),
@@ -43908,7 +43967,7 @@ object-assign
                           className: "img",
                           style: {
                             backgroundImage:
-                              "url(/assets/images/gallery/2.jpg",
+                              "url(https://www.ankoku-toshi-jutsu.com/assets/images/gallery/2.jpg",
                           },
                         })
                       ),
@@ -43919,7 +43978,7 @@ object-assign
                           className: "img",
                           style: {
                             backgroundImage:
-                              "url(/assets/images/gallery/3.jpg",
+                              "url(https://www.ankoku-toshi-jutsu.com/assets/images/gallery/3.jpg",
                           },
                         })
                       ),
@@ -43930,7 +43989,7 @@ object-assign
                           className: "img",
                           style: {
                             backgroundImage:
-                              "url(/assets/images/gallery/4.jpg",
+                              "url(https://www.ankoku-toshi-jutsu.com/assets/images/gallery/4.jpg",
                           },
                         })
                       ),
@@ -43941,7 +44000,7 @@ object-assign
                           className: "img",
                           style: {
                             backgroundImage:
-                              "url(/assets/images/gallery/5.jpg",
+                              "url(https://www.ankoku-toshi-jutsu.com/assets/images/gallery/5.jpg",
                           },
                         })
                       ),
@@ -43952,7 +44011,7 @@ object-assign
                           className: "img",
                           style: {
                             backgroundImage:
-                              "url(/assets/images/gallery/6.jpg",
+                              "url(https://www.ankoku-toshi-jutsu.com/assets/images/gallery/6.jpg",
                           },
                         })
                       ),
@@ -43963,7 +44022,7 @@ object-assign
                           className: "img",
                           style: {
                             backgroundImage:
-                              "url(/assets/images/gallery/7.jpg",
+                              "url(https://www.ankoku-toshi-jutsu.com/assets/images/gallery/7.jpg",
                           },
                         })
                       ),
@@ -43974,7 +44033,7 @@ object-assign
                           className: "img",
                           style: {
                             backgroundImage:
-                              "url(/assets/images/gallery/8.jpg",
+                              "url(https://www.ankoku-toshi-jutsu.com/assets/images/gallery/8.jpg",
                           },
                         })
                       ),
@@ -43985,7 +44044,7 @@ object-assign
                           className: "img",
                           style: {
                             backgroundImage:
-                              "url(/assets/images/gallery/9.jpg",
+                              "url(https://www.ankoku-toshi-jutsu.com/assets/images/gallery/9.jpg",
                           },
                         })
                       ),
@@ -43996,7 +44055,7 @@ object-assign
                           className: "img",
                           style: {
                             backgroundImage:
-                              "url(/assets/images/gallery/10.jpg",
+                              "url(https://www.ankoku-toshi-jutsu.com/assets/images/gallery/10.jpg",
                           },
                         })
                       )
@@ -44400,7 +44459,7 @@ object-assign
                           },
                           p.default.createElement("img", {
                             src:
-                              "/assets/images/tgwo-logo-black.png",
+                              "https://www.ankoku-toshi-jutsu.com/assets/images/tgwo-logo-black.png",
                             alt: "The Good Will Out",
                             className: "tgwo-logo",
                           })
@@ -44415,7 +44474,7 @@ object-assign
                           },
                           p.default.createElement("img", {
                             src:
-                              "/assets/images/adidas-logo-black.png",
+                              "https://www.ankoku-toshi-jutsu.com/assets/images/adidas-logo-black.png",
                             alt: "Adidas",
                             className: "adidas-logo",
                           })
@@ -45938,7 +45997,7 @@ object-assign
                             { href: "http://www.dayy.de/", target: "_blank" },
                             d.default.createElement("img", {
                               src:
-                                "/assets/images/dayy-logo.png",
+                                "https://www.ankoku-toshi-jutsu.com/assets/images/dayy-logo.png",
                               className: "dayy",
                               alt: "dayy",
                             })
@@ -45948,7 +46007,7 @@ object-assign
                             { href: "http://www.adidas.de/", target: "_blank" },
                             d.default.createElement("img", {
                               src:
-                                "/assets/images/adidas-logo.png",
+                                "https://www.ankoku-toshi-jutsu.com/assets/images/adidas-logo.png",
                               className: "adidas",
                               alt: "adidas",
                             })
@@ -45961,7 +46020,7 @@ object-assign
                             },
                             d.default.createElement("img", {
                               src:
-                                "/assets/images/tgwo-logo.png",
+                                "https://www.ankoku-toshi-jutsu.com/assets/images/tgwo-logo.png",
                               className: "tgwo",
                               alt: "tgwo",
                             })
