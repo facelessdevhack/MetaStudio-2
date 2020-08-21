@@ -13287,7 +13287,10 @@ object-assign
                   loop: !0,
                 })),
                 (n.clickAudio = new y.Howl({
-                  src: ["./sounds/click_01.mp3", "./sounds/click_01.ogg"],
+                  src: [
+                    "./sounds/click_01.mp3",
+                    "./sounds/click_01.ogg",
+                  ],
                   autoplay: !1,
                   volume: 0.7,
                   loop: !1,
@@ -34040,7 +34043,8 @@ object-assign
                 a.setRequestHeader("Origin", location.origin),
               t.values &&
                 t.method == createjs.LoadQueue.POST &&
-                a.setRequestHeader(),
+                a.setRequestHeader(
+                ),
               createjs.LoadQueue.isBinary(t.type) &&
                 (a.responseType = "arraybuffer"),
               (this._request = a),
@@ -43700,13 +43704,9 @@ object-assign
                         // )
                         d.default.createElement("iframe", {
                           className: "form-frame",
-                          src: "formpage.html",
-                          width: "36%",
-                          style: {
-                            borderWidth: "0 !important",
-                            float: "right",
-                            marginRight: "3vw",
-                          },
+                          src: "form.html",
+                          width: "100%",
+                          style: { borderWidth: "0 !important" },
                         })
                       );
                 },
@@ -49744,7 +49744,10 @@ object-assign
                         }),
                       ]),
                       (this.clickAudio = new u.Howl({
-                        src: ["./sounds/click_01.mp3", "./sounds/click_01.ogg"],
+                        src: [
+                          "./sounds/click_01.mp3",
+                          "./sounds/click_01.ogg",
+                        ],
                         autoplay: !1,
                         volume: 0.5,
                         loop: !1,
