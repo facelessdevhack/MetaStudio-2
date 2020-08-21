@@ -1464,8 +1464,6 @@ form {
       format("embedded-opentype"),
     url("https://www.ankoku-toshi-jutsu.com/fonts/DINNextLTPro-Medium.woff2")
       format("woff2"),
-    url("https://www.ankoku-toshi-jutsu.com/fonts/DINNextLTPro-Medium.woff")
-      format("woff"),
     url("https://www.ankoku-toshi-jutsu.com/fonts/DINNextLTPro-Medium.ttf")
       format("truetype");
   font-weight: normal;
