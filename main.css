@@ -1459,12 +1459,12 @@ form {
 
 @font-face {
   font-family: "DIN Next Pro Medium";
-  src: url("https://www.ankoku-toshi-jutsu.com/fonts/DINNextLTPro-Medium.eot");
-  src: url("https://www.ankoku-toshi-jutsu.com/fonts/DINNextLTPro-Medium.eot?#iefix")
+  src: url("./fonts/DINNextLTPro-Medium.eot");
+  src: url("./fonts/DINNextLTPro-Medium.eot?#iefix")
       format("embedded-opentype"),
-    url("https://www.ankoku-toshi-jutsu.com/fonts/DINNextLTPro-Medium.woff2")
+    url("./fonts/DINNextLTPro-Medium.woff2")
       format("woff2"),
-    url("https://www.ankoku-toshi-jutsu.com/fonts/DINNextLTPro-Medium.ttf")
+    url("./fonts/DINNextLTPro-Medium.ttf")
       format("truetype");
   font-weight: normal;
   font-style: normal;
