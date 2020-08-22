@@ -43028,12 +43028,12 @@ object-assign
                       p.default.createElement(
                         "div",
                         { className: "detail chapter6" },
-                        p.default.createElement("h3", null, "Uniqulo"),
+                        p.default.createElement("h3", null, "Uniqlo"),
                         p.default.createElement("img", {
                           src: "./imgs/stripes.png",
                           className: "uber-stripe",
                         }),
-                        p.default.createElement("p", null, "Uniqulo"),
+                        p.default.createElement("p", null, "Uniqlo"),
                         p.default.createElement(
                           "p",
                           null,
