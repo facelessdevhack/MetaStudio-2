@@ -10434,19 +10434,18 @@ object-assign
         "./sounds/jump_to_detail_transition_01.mp3",
         "./sounds/jump_to_detail_transition_01.ogg",
       ],
-      defaultMobile: [
-      ],
-      videoTrailer: "https://facelessdevhack.github.io/MetaStudio-2/videos/intro.mp4",
-      videoTrailerMobile: "https://facelessdevhack.github.io/MetaStudio-2/videos/intro.mp4",
+      defaultMobile: [],
+      videoTrailer:
+        "https://facelessdevhack.github.io/MetaStudio-2/videos/intro.mp4",
+      videoTrailerMobile:
+        "https://facelessdevhack.github.io/MetaStudio-2/videos/intro.mp4",
       videos: {
         videoHome: "./videos/Render_1.mp4",
         videoProduct: "./videos/Calum_Tunnel_FOR_WEB.mp4",
         videoProductdetails: "./videos/Calum_Tunnel_FOR_WEB.mp4",
         videoItems: "./videos/projects_background_video.MOV",
-        videoLongsleeve:
-          "./videos/projects_background_video.MOV",
-        videoJacket:
-          "./videos/projects_background_video.MOV",
+        videoLongsleeve: "./videos/projects_background_video.MOV",
+        videoJacket: "./videos/projects_background_video.MOV",
         videoJourney: "./videos/proxy_tunnel_FOR_WEB.mp4",
         videoJourneyChapter1: "./videos/spiritual_machines_v_3.mp4",
         videoJourneyChapter2: "./videos/uber_eats_v6.mp4",
@@ -10457,19 +10456,15 @@ object-assign
         videoJourneyChapter7:
           "./videos/ADIDAS_UNVAULTED_FOOTACTION_A_061219_FINAL.mp4",
         videoJourneyChapter8: "./videos/Suntory Whisky 1-edited-2.m4v",
-        videoCredits:
-          "./videos/projects_background_video.MOV",
+        videoCredits: "./videos/projects_background_video.MOV",
       },
       videosMobile: {
-        videoHome:
-          "./videos/projects_background_video.MOV",
+        videoHome: "./videos/projects_background_video.MOV",
         videoProduct: "./videos/Calum_Tunnel_FOR_WEB.mp4",
         videoItems: "./videos/projects_background_video.MOV",
-        videoItemsdetails:
-          "./videos/projects_background_video.MOV",
+        videoItemsdetails: "./videos/projects_background_video.MOV",
         videoJourney: "./videos/proxy_tunnel_FOR_WEB.mp4",
-        videoCredits:
-          "./videos/projects_background_video.MOV",
+        videoCredits: "./videos/projects_background_video.MOV",
       },
     };
     t.default = n;
@@ -13241,12 +13236,6 @@ object-assign
                   autoplay: !1,
                   volume: 0.7,
                   loop: !1,
-                })),
-                (n.bgAudio = new y.Howl({
-                  src: ["./sounds/bg.mp3", "./sounds/bg.ogg"],
-                  autoplay: !1,
-                  volume: 0.6,
-                  loop: !0,
                 })),
                 (n.clickAudio = new y.Howl({
                   src: ["./sounds/click_01.mp3", "./sounds/click_01.ogg"],
@@ -32675,8 +32664,7 @@ object-assign
                         //   )
                         // ),
                         p.default.createElement("img", {
-                          src:
-                            "/assets/images/desktop_icon.png",
+                          src: "/assets/images/desktop_icon.png",
                           className: "desktop-icon",
                         }),
                         p.default.createElement(
@@ -43897,8 +43885,7 @@ object-assign
                         p.default.createElement("div", {
                           className: "img",
                           style: {
-                            backgroundImage:
-                              "url(/assets/images/gallery/1.jpg",
+                            backgroundImage: "url(/assets/images/gallery/1.jpg",
                           },
                         })
                       ),
@@ -43908,8 +43895,7 @@ object-assign
                         p.default.createElement("div", {
                           className: "img",
                           style: {
-                            backgroundImage:
-                              "url(/assets/images/gallery/2.jpg",
+                            backgroundImage: "url(/assets/images/gallery/2.jpg",
                           },
                         })
                       ),
@@ -43919,8 +43905,7 @@ object-assign
                         p.default.createElement("div", {
                           className: "img",
                           style: {
-                            backgroundImage:
-                              "url(/assets/images/gallery/3.jpg",
+                            backgroundImage: "url(/assets/images/gallery/3.jpg",
                           },
                         })
                       ),
@@ -43930,8 +43915,7 @@ object-assign
                         p.default.createElement("div", {
                           className: "img",
                           style: {
-                            backgroundImage:
-                              "url(/assets/images/gallery/4.jpg",
+                            backgroundImage: "url(/assets/images/gallery/4.jpg",
                           },
                         })
                       ),
@@ -43941,8 +43925,7 @@ object-assign
                         p.default.createElement("div", {
                           className: "img",
                           style: {
-                            backgroundImage:
-                              "url(/assets/images/gallery/5.jpg",
+                            backgroundImage: "url(/assets/images/gallery/5.jpg",
                           },
                         })
                       ),
@@ -43952,8 +43935,7 @@ object-assign
                         p.default.createElement("div", {
                           className: "img",
                           style: {
-                            backgroundImage:
-                              "url(/assets/images/gallery/6.jpg",
+                            backgroundImage: "url(/assets/images/gallery/6.jpg",
                           },
                         })
                       ),
@@ -43963,8 +43945,7 @@ object-assign
                         p.default.createElement("div", {
                           className: "img",
                           style: {
-                            backgroundImage:
-                              "url(/assets/images/gallery/7.jpg",
+                            backgroundImage: "url(/assets/images/gallery/7.jpg",
                           },
                         })
                       ),
@@ -43974,8 +43955,7 @@ object-assign
                         p.default.createElement("div", {
                           className: "img",
                           style: {
-                            backgroundImage:
-                              "url(/assets/images/gallery/8.jpg",
+                            backgroundImage: "url(/assets/images/gallery/8.jpg",
                           },
                         })
                       ),
@@ -43985,8 +43965,7 @@ object-assign
                         p.default.createElement("div", {
                           className: "img",
                           style: {
-                            backgroundImage:
-                              "url(/assets/images/gallery/9.jpg",
+                            backgroundImage: "url(/assets/images/gallery/9.jpg",
                           },
                         })
                       ),
@@ -44400,8 +44379,7 @@ object-assign
                             ref: "element",
                           },
                           p.default.createElement("img", {
-                            src:
-                              "/assets/images/tgwo-logo-black.png",
+                            src: "/assets/images/tgwo-logo-black.png",
                             alt: "The Good Will Out",
                             className: "tgwo-logo",
                           })
@@ -44415,8 +44393,7 @@ object-assign
                             ref: "element",
                           },
                           p.default.createElement("img", {
-                            src:
-                              "/assets/images/adidas-logo-black.png",
+                            src: "/assets/images/adidas-logo-black.png",
                             alt: "Adidas",
                             className: "adidas-logo",
                           })
@@ -45938,8 +45915,7 @@ object-assign
                             "a",
                             { href: "http://www.dayy.de/", target: "_blank" },
                             d.default.createElement("img", {
-                              src:
-                                "/assets/images/dayy-logo.png",
+                              src: "/assets/images/dayy-logo.png",
                               className: "dayy",
                               alt: "dayy",
                             })
@@ -45948,8 +45924,7 @@ object-assign
                             "a",
                             { href: "http://www.adidas.de/", target: "_blank" },
                             d.default.createElement("img", {
-                              src:
-                                "/assets/images/adidas-logo.png",
+                              src: "/assets/images/adidas-logo.png",
                               className: "adidas",
                               alt: "adidas",
                             })
@@ -45961,8 +45936,7 @@ object-assign
                               target: "_blank",
                             },
                             d.default.createElement("img", {
-                              src:
-                                "/assets/images/tgwo-logo.png",
+                              src: "/assets/images/tgwo-logo.png",
                               className: "tgwo",
                               alt: "tgwo",
                             })
