@@ -13672,6 +13672,39 @@ object-assign
                           }),
                           function () {}
                         ))
+                      : "Getthechance" === e
+                      ? window.APP.isMobile
+                        ? ((this.watchMousewheel = !0),
+                          this.setState({
+                            page: "Getthechance",
+                            pageNumber: 6,
+                            appendVideoBackgrounds: !0,
+                            showMainMenu: !1,
+                            showBackgroundVideo: !1,
+                            backgroundVideo: "",
+                            showTgwoLogo: !1,
+                            showAdidasLogo: !1,
+                            showShopButton: !1,
+                            showScrollIcon: !1,
+                            showNavIcon: !0,
+                            showAudioButton: !0,
+                            showShareIcons: !1,
+                          }))
+                        : ((this.watchMousewheel = !1),
+                          this.setState({
+                            page: "Getthechance",
+                            showMainMenu: !1,
+                            showPageIndicator: !1,
+                            showBackgroundVideo: !1,
+                            backgroundVideo: "",
+                            showTgwoLogo: !0,
+                            showAdidasLogo: !0,
+                            showShopButton: !0,
+                            showScrollIcon: !0,
+                            showNavIcon: !0,
+                            showAudioButton: !0,
+                            showShareIcons: !0,
+                          }))
                       : "Credits" === e
                       ? window.APP.isMobile
                         ? ((this.watchMousewheel = !1),
@@ -47756,6 +47789,48 @@ object-assign
                                 "Contact Us"
                               )
                             ),
+                            d.default.createElement(
+                              "li",
+                              {
+                                className:
+                                  "Getthechance" === this.props.current
+                                    ? "active"
+                                    : "",
+                                onClick: this.onClick,
+                                "data-pagehash": "gallery",
+                              },
+                              d.default.createElement(
+                                "span",
+                                { className: "number" },
+                                ".06"
+                              ),
+                              d.default.createElement(
+                                "span",
+                                { className: "title" },
+                                "BLOG"
+                              )
+                            ),
+                            d.default.createElement(
+                              "li",
+                              {
+                                className:
+                                  "Credits" === this.props.current
+                                    ? "active"
+                                    : "",
+                                onClick: this.onClick,
+                                "data-pagehash": "gallery",
+                              },
+                              d.default.createElement(
+                                "span",
+                                { className: "number" },
+                                ".07"
+                              ),
+                              d.default.createElement(
+                                "span",
+                                { className: "title" },
+                                "E-MAIL"
+                              )
+                            )
                           ),
                           d.default.createElement(
                             "ul",
@@ -47768,12 +47843,12 @@ object-assign
                                 {
                                   href: "/",
                                   onClick: this.onClick,
-                                  "data-pagehash": "gallery",
+                                  "data-pagehash": "imprint",
                                 },
                                 d.default.createElement(
                                   "span",
                                   { className: "hover-effect" },
-                                  "Email Us"
+                                  "Imprint"
                                 )
                               )
                             )
@@ -48554,6 +48629,7 @@ object-assign
                     .removeClass("number3")
                     .removeClass("number4")
                     .removeClass("number5")
+                    .removeClass("number6")
                     .addClass("number" + this.state.pagenumber);
                 },
               },
@@ -48594,6 +48670,11 @@ object-assign
                           { className: "number5" },
                           "5"
                         ),
+                        p.default.createElement(
+                          "div",
+                          { className: "number6" },
+                          "6"
+                        )
                       )
                     ),
                     p.default.createElement(
@@ -48938,7 +49019,7 @@ object-assign
                           ref: "element",
                           onClick: this.onClick,
                         },
-                        d.default.createElement("span", null, "Jobs"),
+                        d.default.createElement("span", null, "Get it"),
                         d.default.createElement(
                           "div",
                           { className: "icon-container" },
