@@ -41681,7 +41681,7 @@ object-assign
                             className: "link-decode",
                             href: "javascript:void(0);",
                             onClick: this.onClick,
-                            "data-pagehash": "itemsdetails/IAN",
+                            "data-pagehash": "itemsdetails/guillermo",
                           },
                           d.default.createElement(
                             "p",
@@ -42922,7 +42922,7 @@ object-assign
                       showBackgroundVideo: !0,
                       backgroundVideo: "videoItemsdetails",
                     }) :
-                    "guillermo" == e ?
+                    "IAN" == e ?
                     g.default.sendTo("setGlobalState", {
                       showBackgroundVideo: !0,
                       backgroundVideo: "videoJacket",
@@ -43011,10 +43011,10 @@ object-assign
                             "a", {
                               href: "/",
                               onClick: this.onNavClick,
-                              "data-detail": "IAN",
-                              className: "IAN",
+                              "data-detail": "guillermo",
+                              className: "guillermo",
                             },
-                            "IAN"
+                            "GUILLERMO"
                           )
                         ),
                         p.default.createElement(
@@ -43024,10 +43024,10 @@ object-assign
                             "a", {
                               href: "/",
                               onClick: this.onNavClick,
-                              "data-detail": "guillermo",
-                              className: "guillermo",
+                              "data-detail": "IAN",
+                              className: "IAN",
                             },
-                            "GUILLERMO"
+                            "IAN"
                           )
                         ),
                         p.default.createElement(
@@ -43095,6 +43095,46 @@ object-assign
                             "JOAO"
                           )
                         )
+                      )
+                    ),
+                    p.default.createElement(
+                      "div", {
+                        className: "detail GUILLERMO"
+                      },
+                      p.default.createElement(
+                        "p", {
+                          className: "job-title",
+                        },
+                        "CTO | Co Founder"
+                      ),
+                      p.default.createElement(
+                        "p",
+                        null,
+                        "Founder and CEO of Meta Studios, Head of",
+                        p.default.createElement("br"),
+                        "UI & UX Department, IOS Engineer and lover",
+                        p.default.createElement("br"),
+                        "of simple & interactive 3D futuristic design."
+                      ),
+                      p.default.createElement(
+                        "p",
+                        null,
+                        "Constantly foreseeing future innovations and",
+                        p.default.createElement("br"),
+                        "creative solutions, expanding the boundaries",
+                        p.default.createElement("br"),
+                        "of medium and format."
+                      ),
+                      p.default.createElement(
+                        "p",
+                        null,
+                        "His friends call him “Memo”. He spends most",
+                        p.default.createElement("br"),
+                        "of his time exploring Ancient sites,",
+                        p.default.createElement("br"),
+                        "astrophotography, learning languages and",
+                        p.default.createElement("br"),
+                        "exploring Virtual Reality."
                       )
                     ),
                     p.default.createElement(
