@@ -10491,11 +10491,14 @@ object-assign
         videoJourneyChapter3: "./videos/music_video_Olush.mp4",
         videoJourneyChapter4:
           "https://www.ankoku-toshi-jutsu.com/assets/videos/04_journey_four.mp4",
-        videoJourneyChapter5: "./videos/Arcadia By Amna.m4v",
-        videoJourneyChapter6: "./videos/FINAL UNIQLO LOGO.mov",
-        videoJourneyChapter7:
+        videoJourneyChapter5:
+          "./videos/Arcadia By Amna.m4v",
+          videoJourneyChapter6:
+          "./videos/FINAL UNIQLO LOGO.mov",
+          videoJourneyChapter7:
           "./videos/ADIDAS_UNVAULTED_FOOTACTION_A_061219_FINAL.mp4",
-        videoJourneyChapter8: "./videos/Suntory Whisky 1-edited-2.m4v",
+          videoJourneyChapter8:
+          "./videos/Suntory Whisky 1-edited-2.m4v",
         videoCredits:
           "https://www.ankoku-toshi-jutsu.com/assets/videos/05_credits.mp4",
       },
@@ -32747,7 +32750,7 @@ object-assign
                           p.default.createElement("br", null),
                           "Use your desktop device for full experience."
                         )
-                      )
+                      ),
                     ),
                     p.default.createElement(
                       "div",
@@ -41641,8 +41644,7 @@ object-assign
               {
                 key: "onCloseButtonClick",
                 value: function (t) {
-                  t.preventDefault(),
-                    g.default.sendTo("goToPageHash", "product");
+                  t.preventDefault(), g.default.sendTo("goToPageHash", "product");
                 },
               },
               {
@@ -41861,7 +41863,7 @@ object-assign
                         p.default.createElement(
                           "p",
                           {
-                            className: "job-title",
+                            className: 'job-title'
                           },
                           "CTO | Co Founder"
                         ),
@@ -41893,7 +41895,7 @@ object-assign
                         p.default.createElement(
                           "p",
                           {
-                            className: "job-title",
+                            className: 'job-title'
                           },
                           "CTO | Co Founder"
                         ),
@@ -41933,7 +41935,7 @@ object-assign
                         p.default.createElement(
                           "p",
                           {
-                            className: "job-title",
+                            className: 'job-title'
                           },
                           "CTO | Co Founder"
                         ),
@@ -41969,7 +41971,7 @@ object-assign
                         p.default.createElement(
                           "p",
                           {
-                            className: "job-title",
+                            className: 'job-title'
                           },
                           "CTO | Co Founder"
                         ),
@@ -41996,7 +41998,7 @@ object-assign
                         p.default.createElement(
                           "p",
                           {
-                            className: "job-title",
+                            className: 'job-title'
                           },
                           "CTO | Co Founder"
                         ),
@@ -42645,22 +42647,22 @@ object-assign
                           showBackgroundVideo: !0,
                           backgroundVideo: "videoJourneyChapter3",
                         })
-                      : "chapter4" == e
+                      : "chapter4" == e 
                       ? g.default.sendTo("setGlobalState", {
                           showBackgroundVideo: !0,
                           backgroundVideo: "videoJourneyChapter4",
                         })
-                      : "chapter5" == e
+                      : "chapter5" == e 
                       ? g.default.sendTo("setGlobalState", {
                           showBackgroundVideo: !0,
                           backgroundVideo: "videoJourneyChapter5",
                         })
-                      : "chapter6" == e
+                      : "chapter6" == e 
                       ? g.default.sendTo("setGlobalState", {
                           showBackgroundVideo: !0,
                           backgroundVideo: "videoJourneyChapter6",
                         })
-                      : "chapter7" == e
+                      : "chapter7" == e 
                       ? g.default.sendTo("setGlobalState", {
                           showBackgroundVideo: !0,
                           backgroundVideo: "videoJourneyChapter7",
@@ -42965,7 +42967,11 @@ object-assign
                           src: "./imgs/stripes.png",
                           className: "uber-stripe",
                         }),
-                        p.default.createElement("p", null, "Arcadia"),
+                        p.default.createElement(
+                          "p",
+                          null,
+                          "Arcadia"
+                        ),
                         p.default.createElement(
                           "p",
                           null,
@@ -42984,7 +42990,11 @@ object-assign
                           src: "./imgs/stripes.png",
                           className: "uber-stripe",
                         }),
-                        p.default.createElement("p", null, "Uniqulo"),
+                        p.default.createElement(
+                          "p",
+                          null,
+                          "Uniqulo"
+                        ),
                         p.default.createElement(
                           "p",
                           null,
@@ -43003,7 +43013,11 @@ object-assign
                           src: "./imgs/stripes.png",
                           className: "uber-stripe",
                         }),
-                        p.default.createElement("p", null, "Adidas"),
+                        p.default.createElement(
+                          "p",
+                          null,
+                          "Adidas"
+                        ),
                         p.default.createElement(
                           "p",
                           null,
@@ -43022,7 +43036,11 @@ object-assign
                           src: "./imgs/stripes.png",
                           className: "uber-stripe",
                         }),
-                        p.default.createElement("p", null, "Suntory"),
+                        p.default.createElement(
+                          "p",
+                          null,
+                          "Suntory"
+                        ),
                         p.default.createElement(
                           "p",
                           null,
@@ -43371,7 +43389,6 @@ object-assign
                     : this.$sliderContainer.slick("slickPrev");
                 },
               },
-              
               {
                 key: "render",
                 value: function () {
@@ -43503,106 +43520,96 @@ object-assign
                           d.default.createElement("br"),
                           "+81-505-539-META [6382]"
                         ),
-                        // d.default.createElement(
-                        //   "form",
-                        //   {
-                        //     className: "contact-form",
-                        //   },
-                        //   d.default.createElement(
-                        //     "div",
-                        //     {
-                        //       className: "segment",
-                        //     },
-                        //     d.default.createElement("h2", null, "_CONTACT US")
-                        //   ),
-                        //   d.default.createElement(
-                        //     "div",
-                        //     {
-                        //       className: "ms-contact",
-                        //     },
-                        //     d.default.createElement(
-                        //       "label",
-                        //       null,
-                        //       d.default.createElement("input", {
-                        //         type: "text",
-                        //         placeholder: "Name",
-                        //         className: "form-control name",
-                        //       })
-                        //     ),
-                        //     d.default.createElement(
-                        //       "div",
-                        //       {
-                        //         className: "form-group second-line",
-                        //       },
-                        //       d.default.createElement(
-                        //         "div",
-                        //         {
-                        //           className: "email-left",
-                        //         },
-                        //         d.default.createElement("input", {
-                        //           type: "Email",
-                        //           placeholder: "Email",
-                        //           className: "form-control email",
-                        //           name: "email",
-                        //           required: "",
-                        //         })
-                        //       ),
-                        //       d.default.createElement(
-                        //         "div",
-                        //         {
-                        //           className: "sec-right",
-                        //         },
-                        //         d.default.createElement("input", {
-                        //           type: "text",
-                        //           placeholder: "How You Found Us?",
-                        //           className: "form-control how-find",
-                        //           name: "company_name",
-                        //           required: "",
-                        //         })
-                        //       )
-                        //     ),
-                        //     d.default.createElement(
-                        //       "div",
-                        //       {
-                        //         className: "form-group",
-                        //       },
-                        //       d.default.createElement("textarea", {
-                        //         className: "form-control text-area",
-                        //         rows: "5",
-                        //         placeholder: "Your Message",
-                        //         name: "message",
-                        //         required: "",
-                        //         onChange: {},
-                        //       })
-                        //     ),
-                        //     d.default.createElement(
-                        //       "div",
-                        //       {
-                        //         className: "form-group describe-check",
-                        //       },
-                        //       d.default.createElement(
-                        //         "div",
-                        //         {
-                        //           className: "btn-contact",
-                        //         },
-                        //         d.default.createElement("input", {
-                        //           type: "submit",
-                        //           className: "btn-ms",
-                        //           value: "Send",
-                        //           id: "submit_btn",
-                        //         })
-                        //       )
-                        //     )
-                        //   )
-                        // )
                         d.default.createElement(
-                          "iframe",
+                          "form",
                           {
-                            className: 'form-frame',
-                            src: 'form.html',
-                            width: "100%",
-                            style: {borderWidth: '0 !important',}
+                            className: "contact-form",
                           },
+                          d.default.createElement(
+                            "div",
+                            {
+                              className: "segment",
+                            },
+                            d.default.createElement("h2", null, "_CONTACT US")
+                          ),
+                          d.default.createElement(
+                            "div",
+                            {
+                              className: "ms-contact",
+                            },
+                            d.default.createElement(
+                              "label",
+                              null,
+                              d.default.createElement("input", {
+                                type: "text",
+                                placeholder: "Name",
+                                className: "form-control name",
+                              })
+                            ),
+                            d.default.createElement(
+                              "div",
+                              {
+                                className: "form-group second-line",
+                              },
+                              d.default.createElement(
+                                "div",
+                                {
+                                  className: "email-left",
+                                },
+                                d.default.createElement("input", {
+                                  type: "Email",
+                                  placeholder: "Email",
+                                  className: "form-control email",
+                                  name: "email",
+                                  required: "",
+                                })
+                              ),
+                              d.default.createElement(
+                                "div",
+                                {
+                                  className: "sec-right",
+                                },
+                                d.default.createElement("input", {
+                                  type: "text",
+                                  placeholder: "How You Found Us?",
+                                  className: "form-control how-find",
+                                  name: "company_name",
+                                  required: "",
+                                })
+                              )
+                            ),
+                            d.default.createElement(
+                              "div",
+                              {
+                                className: "form-group",
+                              },
+                              d.default.createElement("textarea", {
+                                className: "form-control text-area",
+                                rows: "5",
+                                placeholder: "Your Message",
+                                name: "message",
+                                required: "",
+                              })
+                            ),
+                            d.default.createElement(
+                              "div",
+                              {
+                                className: "form-group describe-check",
+                              },
+                              d.default.createElement(
+                                "div",
+                                {
+                                  className: "btn-contact",
+                                },
+                                d.default.createElement("input", {
+                                  type: "submit",
+                                  className: "btn-ms",
+                                  value: "Send",
+                                  id: "submit_btn",
+                                })
+                              )
+                            )
+                          )
                         )
                       );
                 },
@@ -45032,16 +45039,19 @@ object-assign
                     : p.default.createElement(
                         "section",
                         { className: "page page-getthechance", ref: "element" },
-                        p.default.createElement("video", {
-                          className: "cover-video",
-                          id: "cover-video",
-                          "data-origwidth": "292",
-                          "data-origheight": "183",
-                          loop: !0,
-                          muted: !0,
-                          playsInline: !0,
-                          preload: "auto",
-                        }),
+                        p.default.createElement(
+                          "video",
+                          {
+                            className: "cover-video",
+                            id: "cover-video",
+                            "data-origwidth": "292",
+                            "data-origheight": "183",
+                            loop: !0,
+                            muted: !0,
+                            playsInline: !0,
+                            preload: "auto",
+                          },
+                        ),
                         p.default.createElement(
                           u.default,
                           { component: m.firstChild.get },
@@ -45066,7 +45076,7 @@ object-assign
                               { className: "animation-slice" },
                               "Teamwork _"
                             )
-                          )
+                          ),
                         ),
                         p.default.createElement(
                           "div",
@@ -45082,7 +45092,7 @@ object-assign
                           p.default.createElement(
                             "button",
                             {
-                              className: "button-hiring",
+                              className: "button-hiring"
                             },
                             "Learn More"
                           )
@@ -45090,13 +45100,16 @@ object-assign
                         p.default.createElement(
                           "div",
                           {
-                            className: "hiring-back",
+                            className: 'hiring-back'
                           },
-                          p.default.createElement("img", {
-                            src: "./imgs/hiring.png",
-                          })
+                          p.default.createElement(
+                            "img",
+                            {
+                              src: './imgs/hiring.png'
+                            }
+                          )
                         ),
-
+                        
                         p.default.createElement(
                           "div",
                           { className: "shops" },
@@ -47979,12 +47992,12 @@ object-assign
                             d.default.createElement("span", null, "EMAIL")
                           ),
                           d.default.createElement("br"),
-                          d.default.createElement("br")
+                          d.default.createElement("br"),
                         ),
                         d.default.createElement(
                           "div",
                           {
-                            className: "social-div",
+                            className: 'social-div'
                           },
                           d.default.createElement(
                             "a",
@@ -48034,7 +48047,7 @@ object-assign
                               height: "18px",
                               fill: "white",
                             })
-                          )
+                          ),
                         ),
                         d.default.createElement(
                           "a",
