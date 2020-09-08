@@ -40493,7 +40493,7 @@ object-assign
                       d.default.createElement("br"),
                       "intentional design that can reconnect science and spirituality, merging",
                       d.default.createElement("br"),
-                      "energy field optics with interactive multimedia for an emerging Neo technolgical",
+                      "energy field optics with interactive multimedia for a emerging Neo technolgical",
                       d.default.createElement("br"),
                       "Singularity society."
                     ),
