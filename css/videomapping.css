@@ -36,24 +36,11 @@ button,
 input,
 select,
 textarea {
-  font-family: "SF Compact Text", sans-serif;
+  font-family: 'SF Compact Text', sans-serif;
   font-size: 7pt;
 }
-@import url(//db.onlinewebfonts.com/c/1e16b363a6dabda72a084d971738be58?family=SF + Compact + Text);
-@font-face {
-  font-family: "SF Compact Text";
-  src: url("//db.onlinewebfonts.com/t/1e16b363a6dabda72a084d971738be58.eot");
-  src: url("//db.onlinewebfonts.com/t/1e16b363a6dabda72a084d971738be58.eot?#iefix")
-      format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/1e16b363a6dabda72a084d971738be58.woff2")
-      format("woff2"),
-    url("//db.onlinewebfonts.com/t/1e16b363a6dabda72a084d971738be58.woff")
-      format("woff"),
-    url("//db.onlinewebfonts.com/t/1e16b363a6dabda72a084d971738be58.ttf")
-      format("truetype"),
-    url("//db.onlinewebfonts.com/t/1e16b363a6dabda72a084d971738be58.svg#SF Compact Text")
-      format("svg");
-}
+@import url(//db.onlinewebfonts.com/c/1e16b363a6dabda72a084d971738be58?family=SF+Compact+Text);
+@font-face {font-family: "SF Compact Text"; src: url("//db.onlinewebfonts.com/t/1e16b363a6dabda72a084d971738be58.eot"); src: url("//db.onlinewebfonts.com/t/1e16b363a6dabda72a084d971738be58.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1e16b363a6dabda72a084d971738be58.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1e16b363a6dabda72a084d971738be58.woff") format("woff"), url("//db.onlinewebfonts.com/t/1e16b363a6dabda72a084d971738be58.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1e16b363a6dabda72a084d971738be58.svg#SF Compact Text") format("svg"); }
 body {
   margin: 0;
 }
@@ -893,24 +880,24 @@ p.copy {
   height: 100vh;
 }
 .subtitle {
-  position: relative;
-  top: 110;
+    position: relative;
+    top: 110;
 }
 @media (max-width: 1400px) {
-  .subtitle {
-    position: relative;
-    top: 90;
-  }
+    .subtitle {
+        position: relative;
+        top:90;
+    }
 }
 .head-holo {
-  position: relative;
-  top: -170;
+    position: relative;
+    top:-170;
 }
 @media (max-width: 1400px) {
-  .head-holo {
+    .head-holo {
     position: relative;
-    top: -60;
-  }
+    top:-60;
+}
 }
 .intro.type2 .leadbox {
   width: 80%;
@@ -2280,28 +2267,28 @@ a .blurtx .dummy2,
   font-weight: 400;
 }
 .shop-button {
-  display: inline-block;
-  width: 140px;
-  position: fixed;
-  right: 4.16667%;
-  top: 7.2%;
-  z-index: 360;
-  overflow: visible;
-  background: rgba(0, 0, 0, 0);
+    display: inline-block;
+    width: 140px;
+    position: fixed;
+    right: 4.16667%;
+    top: 7.2%;
+    z-index: 360;
+    overflow: visible;
+    background: rgba(0, 0, 0, 0);
 }
 .shop-button span {
-  display: inline-block;
-  margin-top: 14px;
-  text-align: left;
-  float: left;
-  color: #fff;
+    display: inline-block;
+    margin-top: 14px;
+    text-align: left;
+    float: left;
+    color: #fff;
 }
 .shop-button .icon-container {
-  float: right;
-  position: relative;
-  width: 43px;
-  height: 43px;
-  overflow: visible;
+    float: right;
+    position: relative;
+    width: 43px;
+    height: 43px;
+    overflow: visible;
 }
 #app {
   background: #0a0a0a;
@@ -2313,15 +2300,7 @@ a .blurtx .dummy2,
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(rgba(10, 10, 10, 0.6), rgba(0, 0, 0, 0.9)),
-    repeating-linear-gradient(
-      0,
-      transparent,
-      transparent 2px,
-      black 3px,
-      black 3px
-    ),
-    url("https://images.unsplash.com/photo-1506399558188-acca6f8cbf41?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=7118759521e3184778a3b5e010e202c6");
+  background: linear-gradient(rgba(10, 10, 10, 0.6), rgba(0, 0, 0, 0.9)), repeating-linear-gradient(0, transparent, transparent 2px, black 3px, black 3px), url("https://images.unsplash.com/photo-1506399558188-acca6f8cbf41?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=7118759521e3184778a3b5e010e202c6");
   background-size: cover;
   background-position: center;
   z-index: 1;
@@ -2590,51 +2569,52 @@ skew to change the 'thickness' of the glitch.*/
   }
 }
 .section-center {
-  align-items: center;
-  text-align: center;
+    align-items: center;
+    text-align:center;
 }
 .section-head {
-  font-size: 1.5em;
+    font-size: 1.5em;
 }
 #future-head {
-  text-align: center;
-  font-weight: 300;
-  font-size: 36pt;
+    text-align: center;
+    font-weight: 300;
+    font-size: 36pt;
 }
 #dot-img {
-  display: block;
-  width: 50%;
-  margin: 50px auto 50px auto;
+    display: block;
+    width: 50%;
+    margin: 50px auto 50px auto;
 }
 .section-left p {
-  float: left;
+    float: left;
 }
 .section-right p {
-  float: right;
+    float: right;
 }
 #video-center {
-  width: 30%;
-  margin: 0 auto;
+    width: 30%;
+    margin: 0 auto;
 }
 .video-outer {
-  border: 2px solid rgb(97, 194, 226);
+    border: 2px solid rgb(97, 194, 226);
 }
 .video-inner {
-  border: 2px solid rgb(97, 194, 226);
-  margin: 10px 10px 25px 10px;
+    border: 2px solid rgb(97, 194, 226);
+    margin: 10px 10px 25px 10px;
+    padding-top: 56.25%;
 }
 #two-video {
-  width: 70%;
-  margin: 0 auto;
-  height: 500px;
+    width: 70%;
+    margin: 0 auto;
+    height: 500px;
 }
 #video-left {
-  float: left;
-  width: 45%;
+    float: left;
+    width: 45%;
 }
 #video-right {
-  float: right;
-  width: 45%;
+    float: right;
+    width: 45%;
 }
 .carousel {
   height: 300px;
@@ -2644,19 +2624,19 @@ skew to change the 'thickness' of the glitch.*/
   position: relative;
   padding: 0;
   list-style: none;
-  /**
+/**
   * Where the magic happens
   */
-  /**
+/**
     * Control element - right/left arrows
   */
-  /**
+/**
     * Element for holding slide indicators
   */
-  /**
+/**
     * Indicator for indicating active slide
   */
-  /**
+/**
     * Create rules for when slides are contained within a track
   */
 }
@@ -2672,7 +2652,7 @@ skew to change the 'thickness' of the glitch.*/
 }
 .carousel__activator:nth-of-type(1):checked ~ .carousel__track {
   -webkit-transform: translateX(0%);
-  transform: translateX(0%);
+          transform: translateX(0%);
 }
 .carousel__activator:nth-of-type(1):checked ~ .carousel__slide:nth-of-type(1) {
   -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
@@ -2684,21 +2664,18 @@ skew to change the 'thickness' of the glitch.*/
   right: 0;
   opacity: 1;
   -webkit-transform: scale(1);
-  transform: scale(1);
+          transform: scale(1);
 }
-.carousel__activator:nth-of-type(1):checked
-  ~ .carousel__controls:nth-of-type(1) {
+.carousel__activator:nth-of-type(1):checked ~ .carousel__controls:nth-of-type(1) {
   display: block;
   opacity: 1;
 }
-.carousel__activator:nth-of-type(1):checked
-  ~ .carousel__indicators
-  .carousel__indicator:nth-of-type(1) {
+.carousel__activator:nth-of-type(1):checked ~ .carousel__indicators .carousel__indicator:nth-of-type(1) {
   opacity: 1;
 }
 .carousel__activator:nth-of-type(2):checked ~ .carousel__track {
   -webkit-transform: translateX(-100%);
-  transform: translateX(-100%);
+          transform: translateX(-100%);
 }
 .carousel__activator:nth-of-type(2):checked ~ .carousel__slide:nth-of-type(2) {
   -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
@@ -2710,21 +2687,18 @@ skew to change the 'thickness' of the glitch.*/
   right: 0;
   opacity: 1;
   -webkit-transform: scale(1);
-  transform: scale(1);
+          transform: scale(1);
 }
-.carousel__activator:nth-of-type(2):checked
-  ~ .carousel__controls:nth-of-type(2) {
+.carousel__activator:nth-of-type(2):checked ~ .carousel__controls:nth-of-type(2) {
   display: block;
   opacity: 1;
 }
-.carousel__activator:nth-of-type(2):checked
-  ~ .carousel__indicators
-  .carousel__indicator:nth-of-type(2) {
+.carousel__activator:nth-of-type(2):checked ~ .carousel__indicators .carousel__indicator:nth-of-type(2) {
   opacity: 1;
 }
 .carousel__activator:nth-of-type(3):checked ~ .carousel__track {
   -webkit-transform: translateX(-200%);
-  transform: translateX(-200%);
+          transform: translateX(-200%);
 }
 .carousel__activator:nth-of-type(3):checked ~ .carousel__slide:nth-of-type(3) {
   -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
@@ -2736,21 +2710,18 @@ skew to change the 'thickness' of the glitch.*/
   right: 0;
   opacity: 1;
   -webkit-transform: scale(1);
-  transform: scale(1);
+          transform: scale(1);
 }
-.carousel__activator:nth-of-type(3):checked
-  ~ .carousel__controls:nth-of-type(3) {
+.carousel__activator:nth-of-type(3):checked ~ .carousel__controls:nth-of-type(3) {
   display: block;
   opacity: 1;
 }
-.carousel__activator:nth-of-type(3):checked
-  ~ .carousel__indicators
-  .carousel__indicator:nth-of-type(3) {
+.carousel__activator:nth-of-type(3):checked ~ .carousel__indicators .carousel__indicator:nth-of-type(3) {
   opacity: 1;
 }
 .carousel__activator:nth-of-type(4):checked ~ .carousel__track {
   -webkit-transform: translateX(-300%);
-  transform: translateX(-300%);
+          transform: translateX(-300%);
 }
 .carousel__activator:nth-of-type(4):checked ~ .carousel__slide:nth-of-type(4) {
   -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
@@ -2762,21 +2733,18 @@ skew to change the 'thickness' of the glitch.*/
   right: 0;
   opacity: 1;
   -webkit-transform: scale(1);
-  transform: scale(1);
+          transform: scale(1);
 }
-.carousel__activator:nth-of-type(4):checked
-  ~ .carousel__controls:nth-of-type(4) {
+.carousel__activator:nth-of-type(4):checked ~ .carousel__controls:nth-of-type(4) {
   display: block;
   opacity: 1;
 }
-.carousel__activator:nth-of-type(4):checked
-  ~ .carousel__indicators
-  .carousel__indicator:nth-of-type(4) {
+.carousel__activator:nth-of-type(4):checked ~ .carousel__indicators .carousel__indicator:nth-of-type(4) {
   opacity: 1;
 }
 .carousel__activator:nth-of-type(5):checked ~ .carousel__track {
   -webkit-transform: translateX(-400%);
-  transform: translateX(-400%);
+          transform: translateX(-400%);
 }
 .carousel__activator:nth-of-type(5):checked ~ .carousel__slide:nth-of-type(5) {
   -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
@@ -2788,16 +2756,13 @@ skew to change the 'thickness' of the glitch.*/
   right: 0;
   opacity: 1;
   -webkit-transform: scale(1);
-  transform: scale(1);
+          transform: scale(1);
 }
-.carousel__activator:nth-of-type(5):checked
-  ~ .carousel__controls:nth-of-type(5) {
+.carousel__activator:nth-of-type(5):checked ~ .carousel__controls:nth-of-type(5) {
   display: block;
   opacity: 1;
 }
-.carousel__activator:nth-of-type(5):checked
-  ~ .carousel__indicators
-  .carousel__indicator:nth-of-type(5) {
+.carousel__activator:nth-of-type(5):checked ~ .carousel__indicators .carousel__indicator:nth-of-type(5) {
   opacity: 1;
 }
 .carousel__control {
@@ -2821,12 +2786,12 @@ skew to change the 'thickness' of the glitch.*/
 .carousel__control--backward {
   left: 10px;
   -webkit-transform: rotate(-135deg);
-  transform: rotate(-135deg);
+          transform: rotate(-135deg);
 }
 .carousel__control--forward {
   right: 10px;
   -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 .carousel__indicators {
   position: absolute;
@@ -2869,27 +2834,27 @@ skew to change the 'thickness' of the glitch.*/
 }
 .carousel__track .carousel__slide:nth-of-type(1) {
   -webkit-transform: translateX(0%);
-  transform: translateX(0%);
+          transform: translateX(0%);
 }
 .carousel__track .carousel__slide:nth-of-type(2) {
   -webkit-transform: translateX(100%);
-  transform: translateX(100%);
+          transform: translateX(100%);
 }
 .carousel__track .carousel__slide:nth-of-type(3) {
   -webkit-transform: translateX(200%);
-  transform: translateX(200%);
+          transform: translateX(200%);
 }
 .carousel__track .carousel__slide:nth-of-type(4) {
   -webkit-transform: translateX(300%);
-  transform: translateX(300%);
+          transform: translateX(300%);
 }
 .carousel__track .carousel__slide:nth-of-type(5) {
   -webkit-transform: translateX(400%);
-  transform: translateX(400%);
+          transform: translateX(400%);
 }
 .carousel--scale .carousel__slide {
   -webkit-transform: scale(0);
-  transform: scale(0);
+          transform: scale(0);
 }
 .carousel__slide {
   height: 100%;
@@ -2929,76 +2894,76 @@ skew to change the 'thickness' of the glitch.*/
 }
 
 /* Quote Button Start  */
-.box {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.box{
+  position:absolute;
+  left:50%;
+  transform : translate(-50% ,-50%);
 }
 
 .btn:link,
-.btn:visited {
+.btn:visited{
   text-decoration: none;
-  text-transform: uppercase;
-  position: relative;
-  top: 0;
-  left: 0;
-  padding: 20px 40px;
-  border-radius: 100px;
-  display: inline-block;
-  transition: all 0.5s;
+  text-transform:uppercase;
+  position:relative;
+  top:0;
+  left:0;
+  padding:20px 40px;
+  border-radius:100px;
+  display:inline-block;
+  transition: all .5s;
 }
 
-.btn-white {
+.btn-white{
   background: rgb(80, 188, 224);
-  color: #fff;
+  color:#fff;
 }
 
-.btn:hover {
-  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
-  transform: translateY(-3px);
+.btn:hover{
+   box-shadow:0px 10px 10px rgba(0,0,0,0.2);
+   transform : translateY(-3px);
 }
 
-.btn:active {
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-  transform: translateY(-1px);
+.btn:active{
+  box-shadow:0px 5px 10px rgba(0,0,0,0.2);
+  transform:translateY(-1px);
 }
 
-.btn-bottom-animation-1 {
-  animation: comeFromBottom 1s ease-out 0.8s;
+.btn-bottom-animation-1{
+  animation:comeFromBottom 1s ease-out .8s;
 }
 
-.btn::after {
-  content: "";
+.btn::after{
+  content:"";
   text-decoration: none;
-  text-transform: uppercase;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  border-radius: 100px;
-  display: inline-block;
-  z-index: -1;
-  transition: all 0.5s;
+  text-transform:uppercase;
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  border-radius:100px;
+  display:inline-block;
+  z-index:-1;
+  transition: all .5s;
 }
 
 .btn-white::after {
-  background: rgb(80, 188, 224);
+    background: rgb(80, 188, 224);
 }
 
 .btn-animation-1:hover::after {
-  transform: scaleX(1.4) scaleY(1.6);
-  opacity: 0;
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
 }
 
-@keyframes comeFromBottom {
-  0% {
-    opacity: 0;
-    transform: translateY(40px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
+@keyframes comeFromBottom{
+  0%{
+    opacity:0;
+    transform:translateY(40px);
+  } 
+  100%{
+    opacity:1;
+    transform:translateY(0);
   }
 }
 /* Quote Button End  */
@@ -3007,46 +2972,46 @@ skew to change the 'thickness' of the glitch.*/
   justify-content: space-evenly;
 }
 .shop-button .icon-container .circle {
-  background: #ffffff;
-  width: 44px;
-  height: 44px;
-  border-radius: 22px;
-  position: absolute;
-  left: 60%;
-  top: 70%;
-  z-index: 100;
-  -webkit-transform-origin: center center;
-  transform-origin: center center;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  -webkit-transition: all 150ms ease-in-out;
-  transition: all 150ms ease-in-out;
+    background: #ffffff;
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    position: absolute;
+    left: 60%;
+    top: 70%;
+    z-index: 100;
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
 }
 
 .shop-button .icon-container img {
-  display: inline-block;
-  position: absolute;
-  left: 50%;
-  top: 52%;
-  z-index: 200;
-  margin: -13px 0 0 -11px;
-  width: 22px;
-  height: 22px;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 52%;
+    z-index: 200;
+    margin: -13px 0 0 -11px;
+    width: 22px;
+    height: 22px;
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 .deco_num {
   position: absolute;
   left: 50%;
@@ -4148,9 +4113,9 @@ skew to change the 'thickness' of the glitch.*/
   padding: 40px 30px 10px;
   letter-spacing: 0.05em;
   line-height: 1.8;
-  font-family: "YakuHanJP", "SF Compact Text", Helvetica, "游ゴシック",
-    "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3",
-    Meiryo, メイリオ, sans-serif;
+  font-family: "YakuHanJP", "SF Compact Text", Helvetica, "游ゴシック", "Yu Gothic",
+    YuGothic, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo,
+    メイリオ, sans-serif;
 }
 .news_list .title {
   font-size: 16px;
@@ -5091,46 +5056,46 @@ skew to change the 'thickness' of the glitch.*/
   border: none;
 }
 .bounce {
-  -webkit-animation: bounce 2s;
-  animation: bounce 2s;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
+	-webkit-animation: bounce 2s;
+	        animation: bounce 2s;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes bounce {
-  0%,
-  25%,
-  50%,
-  75%,
-  100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  40% {
-    -webkit-transform: translateY(-20px);
-    transform: translateY(-20px);
-  }
-  60% {
-    -webkit-transform: translateY(-12px);
-    transform: translateY(-12px);
-  }
+	0%,
+	25%,
+	50%,
+	75%,
+	100% {
+		-webkit-transform: translateY(0);
+		        transform: translateY(0);
+	}
+	40% {
+		-webkit-transform: translateY(-20px);
+		        transform: translateY(-20px);
+	}
+	60% {
+		-webkit-transform: translateY(-12px);
+		        transform: translateY(-12px);
+	}
 }
 
 @keyframes bounce {
-  0%,
-  25%,
-  50%,
-  75%,
-  100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  40% {
-    -webkit-transform: translateY(-20px);
-    transform: translateY(-20px);
-  }
-  60% {
-    -webkit-transform: translateY(-12px);
-    transform: translateY(-12px);
-  }
+	0%,
+	25%,
+	50%,
+	75%,
+	100% {
+		-webkit-transform: translateY(0);
+		        transform: translateY(0);
+	}
+	40% {
+		-webkit-transform: translateY(-20px);
+		        transform: translateY(-20px);
+	}
+	60% {
+		-webkit-transform: translateY(-12px);
+		        transform: translateY(-12px);
+	}
 }
