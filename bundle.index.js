@@ -10474,13 +10474,13 @@ object-assign
         "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/flags/flag_black.mp4",
         "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/flags/flag_white.mp4",
       ],
-      videoTrailer: "./videos/intro_video.mp4",
-      videoTrailerMobile: "./videos/intro_video.mp4",
+      videoTrailer: "./videos/uber_eats_v6.mp4",
+      videoTrailerMobile: "./videos/uber_eats_v6.mp4",
       videos: {
         videoHome: "./videos/Render_1.mp4",
         videoProduct: "./videos/Calum_Tunnel_FOR_WEB.mp4",
         videoProductdetails: "./videos/Calum_Tunnel_FOR_WEB.mp4",
-        videoItems: "./videos/projects_background_video.MOV",
+        videoItems: "./videos/calum_walking_tunnel_FOR_WEB.mp4",
         videoLongsleeve:
           "https://www.ankoku-toshi-jutsu.com/assets/videos/03_longsleeve.mp4",
         videoJacket:
@@ -10490,7 +10490,7 @@ object-assign
         videoJourneyChapter2: "./videos/uber_eats_v6.mp4",
         videoJourneyChapter3: "./videos/music_video_Olush.mp4",
         videoJourneyChapter4:
-          "./videos/kevin.mp4",
+          "https://www.ankoku-toshi-jutsu.com/assets/videos/04_journey_four.mp4",
         videoJourneyChapter5: "./videos/Arcadia By Amna.m4v",
         videoJourneyChapter6: "./videos/FINAL UNIQLO LOGO.mov",
         videoJourneyChapter7:
@@ -10503,7 +10503,7 @@ object-assign
         videoHome:
           "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/01_start.mp4",
         videoProduct: "./videos/Calum_Tunnel_FOR_WEB.mp4",
-        videoItems: "./videos/projects_background_video.MOV",
+        videoItems: "./videos/calum_walking_tunnel_FOR_WEB.mp4",
         videoItemsdetails:
           "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/03_item-details.mp4",
         videoJourney: "./videos/proxy_tunnel_FOR_WEB.mp4",
@@ -41963,32 +41963,36 @@ object-assign
                           {
                             className: "job-title",
                           },
-                          "Filmmaker"
+                          "CTO | Co Founder"
                         ),
                         p.default.createElement(
                           "p",
                           null,
-                          "Born and raised in central Europe, Antonio started",
+                          "Founder and CEO of Meta Studios, Head of",
                           p.default.createElement("br"),
-                          "his early career between Paris and Geneva.",
+                          "UI & UX Department, IOS Engineer and lover",
                           p.default.createElement("br"),
+                          "of simple & interactive 3D futuristic design."
                         ),
                         p.default.createElement(
                           "p",
                           null,
-                          "He then joined the HypeBeast team in London before",
+                          "Constantly foreseeing future innovations and",
                           p.default.createElement("br"),
-                          "getting into commercial videos in Japan",
+                          "creative solutions, expanding the boundaries",
                           p.default.createElement("br"),
+                          "of medium and format."
                         ),
                         p.default.createElement(
                           "p",
                           null,
-                          "Antonio Joined Meta Studios Team in 2019, working",
+                          "His friends call him “Memo”. He spends most",
                           p.default.createElement("br"),
-                          "along side creating Commercial Videos for major",
+                          "of his time exploring Ancient sites,",
                           p.default.createElement("br"),
-                          "Brands and clients.",
+                          "astrophotography, learning languages and",
+                          p.default.createElement("br"),
+                          "exploring Virtual Reality."
                         )
                       ),
                       p.default.createElement(
@@ -41999,24 +42003,37 @@ object-assign
                           {
                             className: "job-title",
                           },
-                          "Visionary 3d Artist"
+                          "CTO | Co Founder"
                         ),
                         p.default.createElement(
                           "p",
                           null,
-                          "Joao was born in Lisbon, Portugal and has been part of Meta Studios",
+                          "Founder and CEO of Meta Studios, Head of",
                           p.default.createElement("br"),
-                          "creative team for numerous years with many collaborations.",
+                          "UI & UX Department, IOS Engineer and lover",
                           p.default.createElement("br"),
+                          "of simple & interactive 3D futuristic design."
                         ),
                         p.default.createElement(
                           "p",
                           null,
-                          "Joao a crucial member of our team is ready to deliver your next visual",
+                          "Constantly foreseeing future innovations and",
                           p.default.createElement("br"),
-                          "experience.",
+                          "creative solutions, expanding the boundaries",
                           p.default.createElement("br"),
+                          "of medium and format."
                         ),
+                        p.default.createElement(
+                          "p",
+                          null,
+                          "His friends call him “Memo”. He spends most",
+                          p.default.createElement("br"),
+                          "of his time exploring Ancient sites,",
+                          p.default.createElement("br"),
+                          "astrophotography, learning languages and",
+                          p.default.createElement("br"),
+                          "exploring Virtual Reality."
+                        )
                       ),
                       p.default.createElement(
                         "div",
@@ -42066,23 +42083,19 @@ object-assign
                         ),
                         p.default.createElement(
                           "p",
-                          {
-                            style: {width: '790px'}
-                          },
-                          "Hideyo Tsuda, Meta Studios Executive Producer, also known as Hideyo Blackmoon,",
+                          null,
+                          "Hideyo Tsuda also known as Hideyo Black moon a pioneer in",
                           p.default.createElement("br"),
-                          "composer/Vocalist/DJ for electronic music scene worldwide. Founder for a company's",
+                          "Electronic Music for the past 30 years, she's is Meta Studios",
                           p.default.createElement("br"),
-                          "new conscious education multimedia platform project which coming for 2021."
+                          "Executive Producer."
                         ),
                         p.default.createElement(
                           "p",
-                          {
-                            style: {width: '790px'}
-                          },
-                          "She has been innovating lifestyle with Meditation, Toga, Healing Art, Dance Therapy,",
+                          null,
+                          "Currently working on her new album and building a new Spiritual",
                           p.default.createElement("br"),
-                          "Bio Hacking, Tantra, Taoism, etc."
+                          "multimedia platform coming for 2021."
                         )
                       ),
                       p.default.createElement(
@@ -43028,23 +43041,28 @@ object-assign
                       ),
                       p.default.createElement(
                         "div",
-                        { className: "detail chapter4", style: {bottom: "10%"} },
+                        { className: "detail chapter4" },
                         p.default.createElement("h3", null, "Music Video 2"),
                         p.default.createElement("img", {
                           src: "./imgs/stripes.png",
                           className: "uber-stripe",
                         }),
-                        p.default.createElement("p", null, "Kevin Lasean"),
-                        p.default.createElement("br"),
                         p.default.createElement(
                           "p",
                           null,
-                          "World Famous youtuber Kevin Lasean with over 7 million subscribers"
+                          "Oluse is a Nigerian-American rapper based in\
+                          Los Angeles, CA. Oluse is an artist that you want\
+                          to know more about, to dive into what inspired him\
+                          to be the person he is today."
                         ),
                         p.default.createElement(
                           "p",
                           null,
-                          "Meta Studios shot his music video campaign during his visit to Japan."
+                          "As a Nigerian-American, you can hear subtle hints\
+                          that his style is not like the typical rapper. each song\
+                          is different and good in its own right. It has different\
+                          elements and a different style of cadence than what\
+                          we are used to in the world of music today."
                         )
                       ),
                       p.default.createElement(
@@ -43059,9 +43077,12 @@ object-assign
                         p.default.createElement(
                           "p",
                           null,
-                          "An adobe for the unconventional",
-                        ),
-                        p.default.createElement("p", null, "Remember, captivate, and imagine through a collection of dynamice fine fragrances made in Dubai, UAE."),
+                          "As a Nigerian-American, you can hear subtle hints\
+                          that his style is not like the typical rapper. each song\
+                          is different and good in its own right. It has different\
+                          elements and a different style of cadence than what\
+                          we are used to in the world of music today."
+                        )
                       ),
                       p.default.createElement(
                         "div",
@@ -43075,13 +43096,12 @@ object-assign
                         p.default.createElement(
                           "p",
                           null,
-                          "UNIQULO proudly presents the special collection to celebrate the release of this memorable film."
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "All of the arts drawn by acclaimed artists from Japan, US and UK express the world of Star Wars in their own ways."
-                          ),
+                          "As a Nigerian-American, you can hear subtle hints\
+                          that his style is not like the typical rapper. each song\
+                          is different and good in its own right. It has different\
+                          elements and a different style of cadence than what\
+                          we are used to in the world of music today."
+                        )
                       ),
                       p.default.createElement(
                         "div",
@@ -43095,23 +43115,12 @@ object-assign
                         p.default.createElement(
                           "p",
                           null,
-                          "Wear the streets of Tokyo into our visuals."
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "Adidas Originals has unvaulted the Japan exclusive NMD R1 in the US for the first time"
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "Originally released in Japan 2019, the adidas Unvaulted NMD collection was conceived"
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "by the adidas Creation Center in Tokyo through a visual collaboration with Foot Locker Inc."
-                        ),
+                          "As a Nigerian-American, you can hear subtle hints\
+                          that his style is not like the typical rapper. each song\
+                          is different and good in its own right. It has different\
+                          elements and a different style of cadence than what\
+                          we are used to in the world of music today."
+                        )
                       ),
                       p.default.createElement(
                         "div",
@@ -43125,16 +43134,12 @@ object-assign
                         p.default.createElement(
                           "p",
                           null,
-                          "A visual series where renowned Tokyo-based photographer, Yuma Yamashita,\
-                          captures imagery highlighting the country's culture to bring the feel of these\
-                          Japanese high quality whiskies."
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "Upon the first smell of the herbal notes, allow Hakushu® to bring you to its mountain\
-                          forest distillery with the fresh air of spring."
-                        ),
+                          "As a Nigerian-American, you can hear subtle hints\
+                          that his style is not like the typical rapper. each song\
+                          is different and good in its own right. It has different\
+                          elements and a different style of cadence than what\
+                          we are used to in the world of music today."
+                        )
                       )
                     ),
                     p.default.createElement(
@@ -47738,7 +47743,7 @@ object-assign
                           },
                           d.default.createElement("source", {
                             src:
-                              "./videos/menu_background_video.mp4",
+                              "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/flags/flag_black.mp4",
                             type: "video/mp4",
                           })
                         ),
@@ -47943,7 +47948,7 @@ object-assign
                           },
                           d.default.createElement("source", {
                             src:
-                              "./videos/menu_background_video.mp4",
+                              "https://www.ankoku-toshi-jutsu.com/assets/videos/flags/flag_black.mp4",
                             type: "video/mp4",
                           })
                         ),
