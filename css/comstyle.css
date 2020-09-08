@@ -12,22 +12,21 @@ html {
 .row {
   height: 20vh;
 }
-.nav-left {
+.navbar {
   display: flex;
   margin-top: 2vh;
 }
-.nav-left img {
+.navbar img {
   width: 5.555555555555555rem;
   margin-left: 2vw;
 }
-.nav-left ul {
+.navbar ul {
   text-decoration: none;
   float: right;
   display: inline-flex;
 }
 .nav-link {
   color: black !important;
-  padding: 0.5rem 0.6rem !important;
 }
 .top-head {
   padding-top: 4.444444444444445rem;
@@ -82,24 +81,4 @@ a {
   padding-right: 0rem;
   padding-bottom: 5.555555555555555rem;
   padding-left: 0rem;
-}
-.nav-link a {
-  font-family: "FK Grotesk", sans-serif;
-  font-weight: 500;
-  padding: 0;
-  font-style: normal;
-  font-size: 0.8888888888888888rem !important;
-}
-.nav-right {
-  position: absolute;
-  margin-top: 4vh;
-  right: 3.3333333333333335rem;
-}
-.nav-right ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  padding: 0;
-  height: 100%;
-  align-items: center;
 }
