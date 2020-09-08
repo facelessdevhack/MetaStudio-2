@@ -42123,12 +42123,12 @@ object-assign
                       { className: "intro animation-lines" },
                       d.default.createElement(
                         "p",
-                        { className: "copy2 white animation-lines" },
+                        { className: "copy white animation-lines" },
                         "French sociologist Jean Baudrillard, wrote a thesis novel"
                       ),
                       d.default.createElement(
                         "p",
-                        { className: "copy2 white animation-lines" },
+                        { className: "copy white animation-lines" },
                         "called",
                         d.default.createElement(
                           "i",
@@ -42139,18 +42139,18 @@ object-assign
                       ),
                       d.default.createElement(
                         "p",
-                        { className: "copy2 white animation-lines" },
+                        { className: "copy white animation-lines" },
                         "that our current society has replaced all reality and meaning"
                       ),
                       d.default.createElement(
                         "p",
-                        { className: "copy2 white animation-lines" },
+                        { className: "copy white animation-lines" },
                         "with symbols and signs, and that human experience is a"
                       ),
                       d.default.createElement("br"),
                       d.default.createElement(
                         "p",
-                        { className: "copy2 white animation-lines" },
+                        { className: "copy white animation-lines" },
                         "simulation of reality."
                       )
                     ),
@@ -42159,27 +42159,26 @@ object-assign
                       { className: "intro2 animation-lines paras2" },
                       d.default.createElement(
                         "p",
-                        { className: "copy2 white animation-lines" },
+                        { className: "copy white animation-lines" },
                         "Our entire construct of reality is filled with meaningless"
                       ),
                       d.default.createElement(
                         "p",
-                        { className: "copy2 white animation-lines" },
+                        { className: "copy white animation-lines" },
                         "symbols, but what if we could change that by using higher"
                       ),
                       d.default.createElement(
                         "p",
-                        { className: "copy2 white animation-lines" },
+                        { className: "copy white animation-lines" },
                         "frequency imagery, then the semantics of design could"
                       ),
                       d.default.createElement("br"),
                       d.default.createElement(
                         "p",
-                        { className: "copy2 white animation-lines" },
+                        { className: "copy white animation-lines" },
                         "change reality itself."
                       )
                     ),
-
                     d.default.createElement(
                       "a",
                       {
@@ -42188,9 +42187,7 @@ object-assign
                         onClick: this.onClick,
                         "data-pagehash": "viewtrailer",
                       },
-                      d.default.createElement("div", { className: "img" },
-                      d.default.createElement("img", {height: 400, width: 400, src:'./imgs/vidSnip.jpg'})
-                      ),
+                      d.default.createElement("div", { className: "img" }),
                       d.default.createElement(
                         "p",
                         { className: "big-white-copy" },
@@ -47833,6 +47830,23 @@ object-assign
                               src:
                                 "./imgs/fb.svg",
                               alt: "FB",
+                              width: "18px",
+                              height: "18px",
+                            })
+                          ),
+                          d.default.createElement(
+                            "a",
+                            {
+                              href:
+                                "https://www.facebook.com/futurevizionphotography",
+                              target: "_blank",
+                              className: "hover-social hover-slide",
+                            },
+                            d.default.createElement("img", {
+                              className: "hover-svg",
+                              src:
+                                "./imgs/ig.svg",
+                              alt: "IG",
                               width: "18px",
                               height: "18px",
                             })

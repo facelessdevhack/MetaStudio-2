@@ -3419,16 +3419,6 @@ main.Trailer .share-icons {
   width: 100%;
   max-width: 520px;
 }
-@media (max-width: 1400px) {
-  .page-journey .intro2 {
-    position: fixed;
-    left: 16.66667%;
-    bottom: 12vh;
-    width: 100%;
-    max-width: 520px;
-    font-size: 0.7em !important;
-  }
-}
 
 .page-journey .video-container {
   position: fixed;
@@ -4624,21 +4614,6 @@ p.copy {
   font-size: 16px;
   line-height: 20px;
   color: rgba(182, 188, 206, 0.7);
-}
-@media (max-width: 1400px) {
-  p.copy2 {
-    display: inline-block;
-    clear: left;
-    font-family: "DIN Next Pro Medium", "Helvetica", Helvetica, sans-serif;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 16px;
-    color: rgba(182, 188, 206, 0.7);
-  }
-}
-.italic{
-  font-style: italic,
 }
 
 .white {
