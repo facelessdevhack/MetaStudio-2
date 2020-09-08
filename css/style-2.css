@@ -2428,12 +2428,6 @@ a .blurtx .dummy2,
   display: flex;
   justify-content: space-around;
 }
-@media screen and (max-width: 480px) {
-  .content-blocks {
-    display: block;
-    justify-content: space-around;
-  }
-}
 .message_text .message_body {
   position: relative;
   background: #fff;
@@ -2445,41 +2439,8 @@ a .blurtx .dummy2,
   letter-spacing: 0.1em;
   font-size: 14px;
 }
-@media screen and (max-width: 1480px) {
-  .message_text .message_body {
-    position: relative;
-    background: #fff;
-    color: #111;
-    padding: 60px 60px 30px;
-    width: 30vw;
-    box-sizing: border-box;
-    margin-left: -60px;
-    letter-spacing: 0.1em;
-    font-size: 14px;
-  }
-}
-@media screen and (max-width: 480px) {
-  .message_text .message_body {
-    position: relative;
-    background: #fff;
-    color: #111;
-    padding: 60px 60px 30px;
-    width: 86vw;
-    box-sizing: border-box;
-    margin-left: -11px;
-    letter-spacing: 0.1em;
-    font-size: 8px;
-  }
-}
-
 .message_text .message_body h3 {
   margin-bottom: 1.5em;
-}
-@media screen and (max-width: 480px) {
-  .message_text .message_body h1 {
-    margin-bottom: 1.5em;
-    font-size: 36px !important;
-  }
 }
 .message_text .message_body .sign {
   font-size: 12px;
@@ -2495,41 +2456,8 @@ a .blurtx .dummy2,
   letter-spacing: 0.1em;
   font-size: 14px;
 }
-@media screen and (max-width: 1480px) {
-  .message_text .message_body_2 {
-    position: relative;
-    background: #fff;
-    color: #111;
-    padding: 60px 60px 30px;
-    width: 30vw;
-    box-sizing: border-box;
-    margin-left: -60px;
-    letter-spacing: 0.1em;
-    font-size: 14px;
-  }
-}
-@media screen and (max-width: 480px) {
-  .message_text .message_body_2 {
-    position: relative;
-    background: #fff;
-    color: #111;
-    padding: 60px 60px 30px;
-    width: 86vw;
-    box-sizing: border-box;
-    margin-left: -11px;
-    letter-spacing: 0.1em;
-    font-size: 8px;
-    margin-top: 20px;
-  }
-}
 .message_text .message_body_2 h3 {
   margin-bottom: 1.5em;
-}
-@media screen and (max-width: 480px) {
-  .message_text .message_body_2 h1 {
-    margin-bottom: 1.5em;
-    font-size: 30px !important;
-  }
 }
 .message_text .message_body_2 .sign {
   font-size: 12px;
