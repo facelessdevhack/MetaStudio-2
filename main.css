@@ -1705,18 +1705,35 @@ form {
   src: url("https://sf.abarba.me/SF-UI-Display-Regular.otf");
 }
 @font-face {
-  font-family: 'rajdhani';
-  src: url('./fonts/rajdhani-Bold.woff2') format('woff2'),
-      url('./fonts/rajdhani-Bold.woff') format('woff'),
-      url('./fonts/rajdhani-Bold.ttf') format('truetype');
+  font-family: "rajdhani";
+  src: url("https://www.ankoku-toshi-jutsu.com/fonts/rajdhani-bold-webfont.eot");
+  src: url("https://www.ankoku-toshi-jutsu.com/fonts/rajdhani-bold-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://www.ankoku-toshi-jutsu.com/fonts/rajdhani-bold-webfont.woff2")
+      format("woff2"),
+    url("https://www.ankoku-toshi-jutsu.com/fonts/rajdhani-bold-webfont.woff")
+      format("woff"),
+    url("https://www.ankoku-toshi-jutsu.com/fonts/rajdhani-bold-webfont.ttf")
+      format("truetype"),
+    url("https://www.ankoku-toshi-jutsu.com/fonts/rajdhani-bold-webfont.svg#rajdhanibold")
+      format("svg");
   font-weight: bold;
   font-style: normal;
 }
+
 @font-face {
-  font-family: 'rajdhani';
-  src: url('./fonts/rajdhani-SemiBold.woff2') format('woff2'),
-      url('./fonts/rajdhani-SemiBold.woff') format('woff'),
-      url('./fonts/rajdhani-SemiBold.ttf') format('truetype');
+  font-family: "rajdhani";
+  src: url("https://www.ankoku-toshi-jutsu.com/fonts/rajdhani-semibold-webfont.eot");
+  src: url("https://www.ankoku-toshi-jutsu.com/fonts/rajdhani-semibold-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://www.ankoku-toshi-jutsu.com/fonts/rajdhani-semibold-webfont.woff2")
+      format("woff2"),
+    url("https://www.ankoku-toshi-jutsu.com/fonts/rajdhani-semibold-webfont.woff")
+      format("woff"),
+    url("https://www.ankoku-toshi-jutsu.com/fonts/rajdhani-semibold-webfont.ttf")
+      format("truetype"),
+    url("https://www.ankoku-toshi-jutsu.com/fonts/rajdhani-semibold-webfont.svg#rajdhanisemibold")
+      format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -1913,7 +1930,6 @@ h3 {
   width: 100%;
   height: 100%;
   z-index: 100;
-  transform: scaleX(1.07);
 }
 .video-background video {
   position: absolute;
@@ -3677,7 +3693,6 @@ main.Trailer .share-icons {
   left: 4.16667%;
   top: 6.66667%;
   z-index: 300;
-  opacity: 1 !important;
 }
 .page-details nav ul {
   list-style: none;
