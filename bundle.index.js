@@ -32485,7 +32485,7 @@ object-assign
                       (this.$progressBar = this.$videoContainer.find(
                         ".progress-bar"
                       )),
-                      (this.$video = e("<video autoplay playsinline>").append(
+                      (this.$video = e("<video autoplay muted playsinline>").append(
                         '<source src="' +
                           f.default.videoTrailer +
                           '" type="video/mp4" />'
