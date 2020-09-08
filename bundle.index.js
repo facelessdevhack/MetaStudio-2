@@ -10418,99 +10418,53 @@ object-assign
     Object.defineProperty(t, "__esModule", { value: !0 });
     var n = {
       default: [
-        "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/1.jpg",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/2.jpg",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/3.jpg",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/4.jpg",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/5.jpg",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/6.jpg",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/7.jpg",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/8.jpg",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/9.jpg",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/gallery/10.jpg",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/j-signs/artefact.png",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/j-signs/headhome.png",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/j-signs/sign1.png",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/adidas-logo-black.png",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/adidas-logo.png",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/arrow-down-black.png",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/black-line.png",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/credits-logos.png",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/dayy-logo.png",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/homevideo-bg.jpg",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/journeyvideo-bg.jpg",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/loading-simple.gif",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/mouseicon.cur",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/noise.png",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/og_image.jpg",
         "https://facelessdevhack.github.io/MetaStudio-2/imgs/Layer%2017.png",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/shop-icon.png",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/soundwave-long.png",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/story-thumb.jpg",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/tgwo-logo-black.png",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/tgwo-logo.png",
-        "https://www.ankoku-toshi-jutsu.com/assets/images/trailer-bg.png",
-        "https://www.ankoku-toshi-jutsu.com/assets/sounds/bg.mp3",
-        "https://www.ankoku-toshi-jutsu.com/assets/sounds/bg.ogg",
-        "https://www.ankoku-toshi-jutsu.com/assets/svg/nav.svg",
-        "https://www.ankoku-toshi-jutsu.com/assets/svg/soundwave-long.svg",
-        "https://www.ankoku-toshi-jutsu.com/assets/svg/soundwave.svg",
+        "./sounds/bg.mp3",
+        "./sounds/bg.ogg",
       ],
       defaultDesktop: [
-        "https://www.ankoku-toshi-jutsu.com/assets/videos/flags/flag_black.mp4",
-        "https://www.ankoku-toshi-jutsu.com/assets/videos/flags/flag_white.mp4",
-        "https://www.ankoku-toshi-jutsu.com/assets/sounds/big_hover_01_01.mp3",
-        "https://www.ankoku-toshi-jutsu.com/assets/sounds/big_hover_01_01.ogg",
-        "https://www.ankoku-toshi-jutsu.com/assets/sounds/big_hover_02_01.mp3",
-        "https://www.ankoku-toshi-jutsu.com/assets/sounds/big_hover_02_01.ogg",
-        "https://www.ankoku-toshi-jutsu.com/assets/sounds/big_hover_03_01.mp3",
-        "https://www.ankoku-toshi-jutsu.com/assets/sounds/big_hover_03_01.ogg",
-        "https://www.ankoku-toshi-jutsu.com/assets/sounds/click_01.mp3",
-        "https://www.ankoku-toshi-jutsu.com/assets/sounds/click_01.ogg",
-        "https://www.ankoku-toshi-jutsu.com/assets/sounds/jump_to_detail_transition_01.mp3",
-        "https://www.ankoku-toshi-jutsu.com/assets/sounds/jump_to_detail_transition_01.ogg",
+        "./sounds/big_hover_01_01.mp3",
+        "./sounds/big_hover_01_01.ogg",
+        "./sounds/big_hover_02_01.mp3",
+        "./sounds/big_hover_02_01.ogg",
+        "./sounds/big_hover_03_01.mp3",
+        "./sounds/big_hover_03_01.ogg",
+        "./sounds/click_01.mp3",
+        "./sounds/click_01.ogg",
+        "./sounds/jump_to_detail_transition_01.mp3",
+        "./sounds/jump_to_detail_transition_01.ogg",
       ],
       defaultMobile: [
-        "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/flags/flag_black.mp4",
-        "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/flags/flag_white.mp4",
       ],
       videoTrailer:
-        "https://www.ankoku-toshi-jutsu.com/assets/videos/trailer/trailer.mp4",
+        "./videos/intro.mp4",
       videoTrailerMobile:
-        "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/trailer/trailer.mp4",
+        "./videos/intro.mp4",
       videos: {
         videoHome: "./videos/Render_1.mp4",
-        videoProduct:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/02_shoe_overview.mp4",
-        videoProductdetails:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/02_shoe_details.mp4",
-        videoItems:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/03_items.mp4",
-        videoLongsleeve:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/03_longsleeve.mp4",
-        videoJacket:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/03_jacket.mp4",
+        videoProduct: "./videos/Calum_Tunnel_FOR_WEB.mp4",
+        videoProductdetails: "./videos/Calum_Tunnel_FOR_WEB.mp4",
+        videoItems: "./videos/projects_background_video.MOV",
+        videoLongsleeve: "./videos/projects_background_video.MOV",
+        videoJacket: "./videos/projects_background_video.MOV",
         videoJourney: "./videos/proxy_tunnel_FOR_WEB.mp4",
         videoJourneyChapter1: "./videos/spiritual_machines_v_3.mp4",
         videoJourneyChapter2: "./videos/uber_eats_v6.mp4",
         videoJourneyChapter3: "./videos/music_video_Olush.mp4",
-        videoJourneyChapter4:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/04_journey_four.mp4",
-        videoCredits:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/05_credits.mp4",
+        videoJourneyChapter4: "./videos/kevin.mp4",
+        videoJourneyChapter5: "./videos/Arcadia By Amna.m4v",
+        videoJourneyChapter6: "./videos/FINAL UNIQLO LOGO.mov",
+        videoJourneyChapter7: "./videos/adidas.m4v",
+        videoJourneyChapter8: "./videos/suntory.m4v",
+        videoCredits: "./videos/projects_background_video.MOV",
       },
       videosMobile: {
-        videoHome:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/01_start.mp4",
-        videoProduct:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/02_shoe.mp4",
-        videoItems:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/03_items-overview.mp4",
-        videoItemsdetails:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/03_item-details.mp4",
+        videoHome: "./videos/projects_background_video.MOV",
+        videoProduct: "./videos/Calum_Tunnel_FOR_WEB.mp4",
+        videoItems: "./videos/projects_background_video.MOV",
+        videoItemsdetails: "./videos/projects_background_video.MOV",
         videoJourney: "./videos/proxy_tunnel_FOR_WEB.mp4",
-        videoCredits:
-          "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/04_journey.mp4",
+        videoCredits: "./videos/projects_background_video.MOV",
       },
     };
     t.default = n;
@@ -16124,7 +16078,7 @@ object-assign
     (t = e.exports = n(253)(!1)),
       t.push([
         e.i,
-        "@font-face {\n  font-family: 'rajdhani';\n  src: url(\"/fonts/rajdhani-bold-webfont.eot\");\n  src: url(\"/fonts/rajdhani-bold-webfont.eot?#iefix\") format(\"embedded-opentype\"), url(\"/fonts/rajdhani-bold-webfont.woff2\") format(\"woff2\"), url(\"/fonts/rajdhani-bold-webfont.woff\") format(\"woff\"), url(\"/fonts/rajdhani-bold-webfont.ttf\") format(\"truetype\"), url(\"/fonts/rajdhani-bold-webfont.svg#rajdhanibold\") format(\"svg\");\n  font-weight: bold;\n  font-style: normal; }\n\n@font-face {\n  font-family: 'rajdhani';\n  src: url(\"/fonts/rajdhani-semibold-webfont.eot\");\n  src: url(\"/fonts/rajdhani-semibold-webfont.eot?#iefix\") format(\"embedded-opentype\"), url(\"/fonts/rajdhani-semibold-webfont.woff2\") format(\"woff2\"), url(\"/fonts/rajdhani-semibold-webfont.woff\") format(\"woff\"), url(\"/fonts/rajdhani-semibold-webfont.ttf\") format(\"truetype\"), url(\"/fonts/rajdhani-semibold-webfont.svg#rajdhanisemibold\") format(\"svg\");\n  font-weight: normal;\n  font-style: normal; }\n\n@font-face {\n  font-family: 'DIN Next Pro Medium';\n  src: url(\"/fonts/DINNextLTPro-Medium.eot\");\n  src: url(\"/fonts/DINNextLTPro-Medium.eot?#iefix\") format(\"embedded-opentype\"), url(\"/fonts/DINNextLTPro-Medium.woff2\") format(\"woff2\"), url(\"/fonts/DINNextLTPro-Medium.woff\") format(\"woff\"), url(\"/fonts/DINNextLTPro-Medium.ttf\") format(\"truetype\");\n  font-weight: normal;\n  font-style: normal; }\n\nh1 {\n  display: inline-block;\n  font-family: 'rajdhani', 'Helvetica Neue', Helvetica, sans-serif;\n  font-weight: bold;\n  font-style: normal;\n  font-size: 110px;\n  line-height: 80px;\n  text-transform: uppercase;\n  margin: 0 0 -7px 0;\n  padding: 0;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n  cursor: inherit; }\n  @media screen and (max-width: 1300px) {\n    h1 {\n      font-size: 70px;\n      line-height: 50px; } }\n  @media screen and (max-width: 800px) {\n    h1 {\n      font-size: 42px;\n      line-height: 36px; } }\n  @media screen and (min-width: 580px) and (max-width: 800px) {\n    h1 {\n      font-size: 70px;\n      line-height: 50px; } }\n\nh2 {\n  display: inline-block;\n  font-family: 'DIN Next Pro Medium', 'Helvetica', Helvetica, sans-serif;\n  font-weight: normal;\n  font-style: normal;\n  color: #ffffff;\n  font-size: 48px;\n  line-height: 50px;\n  margin: 0;\n  padding: 0; }\n  @media screen and (max-width: 1300px) {\n    h2 {\n      font-size: 30px;\n      line-height: 40px; } }\n  @media screen and (min-width: 580px) and (max-width: 800px) {\n    h2 {\n      font-size: 30px;\n      line-height: 40px; } }\n\nh3 {\n  display: inline-block;\n  font-family: 'DIN Next Pro Medium', 'Helvetica', Helvetica, sans-serif;\n  font-weight: normal;\n  font-style: normal;\n  color: #ffffff;\n  font-size: 24px;\n  line-height: 20px;\n  margin: 0;\n  padding: 0; }\n\n/* Slider */\n.slick-slider {\n  position: relative;\n  display: block;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n  -webkit-touch-callout: none;\n  -khtml-user-select: none;\n  -ms-touch-action: pan-y;\n  touch-action: pan-y;\n  -webkit-tap-highlight-color: transparent; }\n\n.slick-list {\n  position: relative;\n  display: block;\n  overflow: hidden;\n  margin: 0;\n  padding: 0; }\n\n.slick-list:focus {\n  outline: none; }\n\n.slick-list.dragging {\n  cursor: pointer;\n  cursor: hand; }\n\n.slick-slider .slick-track,\n.slick-slider .slick-list {\n  -webkit-transform: translate3d(0, 0, 0);\n  transform: translate3d(0, 0, 0); }\n\n.slick-track {\n  position: relative;\n  top: 0;\n  left: 0;\n  display: block;\n  margin-left: auto;\n  margin-right: auto; }\n\n.slick-track:before,\n.slick-track:after {\n  display: table;\n  content: ''; }\n\n.slick-track:after {\n  clear: both; }\n\n.slick-loading .slick-track {\n  visibility: hidden; }\n\n.slick-slide {\n  display: none;\n  float: left;\n  height: 100%;\n  min-height: 1px; }\n\n[dir='rtl'] .slick-slide {\n  float: right; }\n\n.slick-slide img {\n  display: block; }\n\n.slick-slide.slick-loading img {\n  display: none; }\n\n.slick-slide.dragging img {\n  pointer-events: none; }\n\n.slick-initialized .slick-slide {\n  display: block; }\n\n.slick-loading .slick-slide {\n  visibility: hidden; }\n\n.slick-vertical .slick-slide {\n  display: block;\n  height: auto;\n  border: 1px solid transparent; }\n\n.slick-arrow.slick-hidden {\n  display: none; }\n\n.video-background {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 100; }\n  .video-background video {\n    position: absolute;\n    left: 50%;\n    top: 50%;\n    -webkit-transform: translate(-50%, -50%);\n            transform: translate(-50%, -50%);\n    z-index: 200;\n    -o-object-fit: cover;\n       object-fit: cover;\n    opacity: 0;\n    pointer-events: none; }\n  .video-background.menu-bg {\n    z-index: 249; }\n  .video-background .noise {\n    mix-blend-mode: multiply;\n    background-image: url(/assets/images/noise.png);\n    opacity: 0;\n    height: 100%;\n    width: 100%;\n    position: absolute;\n    left: 0;\n    top: 0;\n    z-index: 500; }\n\n@media screen and (max-width: 800px) {\n  body.android main .video-background {\n    background-size: cover !important; }\n    body.android main .video-background video {\n      display: none !important; }\n  body.android main.Home .video-background {\n    background-image: url(https://cdn.ankoku-toshi-jutsu.com/assets/images/videofallbackmobile/01_overview.jpg); }\n  body.android main.Product .video-background {\n    background-image: url(https://cdn.ankoku-toshi-jutsu.com/assets/images/videofallbackmobile/02_product_overview.jpg); }\n  body.android main.Productdetails .video-background {\n    background-image: url(https://cdn.ankoku-toshi-jutsu.com/assets/images/videofallbackmobile/02_product_details.jpg); }\n  body.android main.Items .video-background {\n    background-image: url(https://cdn.ankoku-toshi-jutsu.com/assets/images/videofallbackmobile/03_items_overview.jpg); }\n  body.android main.Itemsdetails .video-background {\n    background-image: url(https://cdn.ankoku-toshi-jutsu.com/assets/images/videofallbackmobile/03_jacket.jpg); }\n  body.android main.Journey .video-background {\n    background-image: url(https://cdn.ankoku-toshi-jutsu.com/assets/images/videofallbackmobile/04_journey_overview.jpg); }\n  body.android main.Journeydetails .video-background {\n    background-image: url(https://cdn.ankoku-toshi-jutsu.com/assets/images/videofallbackmobile/04_journey_02.jpg); }\n  body.android main.Credits .video-background {\n    background-image: url(https://cdn.ankoku-toshi-jutsu.com/assets/images/videofallbackmobile/05_credits.jpg); } }\n\n.main-menu {\n  position: absolute;\n  left: 0;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 510;\n  display: none;\n  background: transparent; }\n  .main-menu video {\n    position: absolute;\n    left: 50%;\n    top: 50%;\n    -webkit-transform: translate(-50%, -50%);\n            transform: translate(-50%, -50%);\n    -o-object-fit: cover;\n       object-fit: cover;\n    z-index: 100;\n    -webkit-transform-origin: 50% 50%;\n            transform-origin: 50% 50%; }\n  .main-menu ul.nav {\n    list-style: none;\n    margin: 0;\n    padding: 0;\n    width: 100%;\n    height: auto;\n    position: absolute;\n    left: 0;\n    top: 50%;\n    z-index: 200;\n    -webkit-transform: translateY(-50%);\n            transform: translateY(-50%); }\n    .main-menu ul.nav li {\n      display: block;\n      -webkit-box-sizing: border-box;\n              box-sizing: border-box;\n      list-style: none;\n      width: 100%;\n      height: 140px;\n      padding: 0 0 0 29.16667%;\n      margin: 0;\n      clear: left;\n      position: relative;\n      cursor: pointer;\n      overflow: hidden;\n      vertical-align: top; }\n      .main-menu ul.nav li span {\n        display: inline-block;\n        overflow: hidden;\n        -webkit-box-sizing: border-box;\n                box-sizing: border-box;\n        pointer-events: none;\n        -webkit-user-select: none;\n           -moz-user-select: none;\n            -ms-user-select: none;\n                user-select: none;\n        color: #5F5E66;\n        -webkit-transition: color 100ms linear;\n        transition: color 100ms linear; }\n        .main-menu ul.nav li span.number {\n          position: absolute;\n          left: 20.83333%;\n          width: 4.16667%;\n          text-align: right; }\n        .main-menu ul.nav li span.title {\n          display: inline-block;\n          font-family: 'rajdhani', 'Helvetica Neue', Helvetica, sans-serif;\n          font-weight: bold;\n          font-style: normal;\n          font-size: 36px;\n          line-height: 26px;\n          text-transform: uppercase;\n          margin: 0;\n          padding: 0;\n          overflow: visible; }\n      .main-menu ul.nav li:last-child {\n        margin-bottom: 0;\n        height: auto; }\n      .main-menu ul.nav li.active span.number {\n        color: #ffffff; }\n      .main-menu ul.nav li.active span.title {\n        color: #ffffff; }\n    .main-menu ul.nav.withhovers li:hover span.number {\n      color: #ffffff; }\n    .main-menu ul.nav.withhovers li:hover span.title {\n      color: #ffffff; }\n  .main-menu .close-button {\n    position: fixed;\n    left: 4.16667%;\n    top: 80%;\n    top: 50%;\n    -webkit-transform: translateY(-50%);\n            transform: translateY(-50%); }\n    .main-menu .close-button .icon-container {\n      float: left; }\n    .main-menu .close-button span {\n      float: right; }\n  .main-menu .shop-container {\n    position: fixed;\n    left: 66.66667%;\n    top: 80%;\n    top: 50%;\n    -webkit-transform: translateY(-50%);\n            transform: translateY(-50%);\n    width: 280px;\n    z-index: 300;\n    font-size: 16px;\n    line-height: 20px; }\n    .main-menu .shop-container .copy {\n      margin-bottom: 16px; }\n    .main-menu .shop-container .white {\n      color: #ffffff;\n      font-size: 24px;\n      line-height: 32px;\n      margin-bottom: 18px; }\n    .main-menu .shop-container .btn-white {\n      width: auto;\n      margin-top: 20px;\n      text-align: center;\n      -webkit-transition: -webkit-transform 150ms ease-out;\n      transition: -webkit-transform 150ms ease-out;\n      transition: transform 150ms ease-out;\n      transition: transform 150ms ease-out, -webkit-transform 150ms ease-out; }\n      .main-menu .shop-container .btn-white img {\n        margin: -7px 10px -7px 0;\n        float: none; }\n      .main-menu .shop-container .btn-white:hover {\n        -webkit-transform: scale(1.05);\n                transform: scale(1.05); }\n  .main-menu ul.small {\n    display: inline-block;\n    width: 180px;\n    list-style: none;\n    margin: 0;\n    padding: 0;\n    position: fixed;\n    right: 12.5%;\n    bottom: 6.66667%;\n    z-index: 450; }\n    .main-menu ul.small li {\n      text-align: right;\n      list-style: none;\n      margin: 0;\n      padding: 0;\n      display: inline-block;\n      float: left;\n      width: 90px; }\n      .main-menu ul.small li a {\n        text-align: right;\n        color: #ffffff;\n        display: inline-block; }\n        .main-menu ul.small li a span {\n          text-align: right;\n          display: inline-block;\n          color: #ffffff; }\n  @media screen and (max-width: 800px) {\n    .main-menu {\n      background-color: #000;\n      overflow: hidden; }\n      .main-menu video {\n        position: fixed; }\n      .main-menu .scroll-container {\n        position: absolute;\n        top: 0;\n        left: 0;\n        width: 100%;\n        height: 100%;\n        z-index: 100;\n        overflow: hidden;\n        overflow-y: auto;\n        -webkit-overflow-scrolling: touch; }\n      .main-menu ul.nav {\n        position: relative;\n        top: auto;\n        -webkit-transform: translateY(0);\n                transform: translateY(0);\n        padding-top: 120px;\n        padding-bottom: 120px; }\n        .main-menu ul.nav li {\n          height: 120px;\n          padding-left: 25%; }\n          .main-menu ul.nav li span.number {\n            width: 26px;\n            left: 12%; }\n      .main-menu .shop-container {\n        display: none; }\n      .main-menu .close-button {\n        top: 30px;\n        left: auto;\n        right: 32px;\n        -webkit-transform: translateY(0%);\n                transform: translateY(0%); }\n        .main-menu .close-button .icon-container {\n          float: right; }\n        .main-menu .close-button span {\n          float: left; }\n      .main-menu ul.small {\n        position: relative;\n        right: auto;\n        bottom: auto;\n        width: 90%;\n        text-align: right;\n        padding-bottom: 40px; }\n        .main-menu ul.small li {\n          float: none; }\n          .main-menu ul.small li a {\n            opacity: 0.3; } }\n  @media screen and (min-width: 580px) and (max-width: 800px) {\n    .main-menu .close-button {\n      position: fixed;\n      right: 4.16667%;\n      top: 6.66667%; } }\n\n.tgwo-link {\n  display: block;\n  position: fixed;\n  left: 4.16667%;\n  top: 6.66667%;\n  z-index: 310;\n  width: 60px;\n  height: 60px; }\n  @media screen and (max-width: 800px) {\n    .tgwo-link {\n      width: 32px;\n      height: 32px;\n      bottom: 40px;\n      left: 32px; } }\n  @media screen and (min-width: 580px) and (max-width: 800px) {\n    .tgwo-link {\n      position: fixed;\n      left: 4.16667%;\n      top: 6.66667%;\n      width: 60px;\n      height: 60px; } }\n\n.tgwo-logo {\n  width: inherit;\n  height: inherit; }\n\n.nav-icon {\n  display: inline-block;\n  overflow: visible;\n  position: fixed;\n  left: 4.16667%;\n  top: 40%;\n  z-index: 320;\n  top: 50%;\n  -webkit-transform: translateY(-50%);\n          transform: translateY(-50%);\n  width: 37px;\n  height: 100px; }\n  .nav-icon a {\n    display: block;\n    width: 37px;\n    height: 24px;\n    z-index: 900;\n    position: absolute;\n    left: 0;\n    top: 50%;\n    margin: -12px 0 0 0; }\n  .nav-icon svg {\n    display: block; }\n    .nav-icon svg path {\n      -webkit-transform-origin: 0 0;\n              transform-origin: 0 0;\n      fill: #ffffff;\n      stroke: #ffffff;\n      stroke-width: 2px; }\n  .nav-icon .page, .nav-icon .pages {\n    width: 37px;\n    font-size: 16px;\n    height: 16px;\n    overflow: hidden !important; }\n  .nav-icon .page {\n    position: relative; }\n    .nav-icon .page .numbers {\n      width: 100%;\n      height: 80px;\n      position: absolute;\n      left: 0;\n      z-index: 100;\n      -webkit-transition: top 400ms ease-out;\n      transition: top 400ms ease-out; }\n      .nav-icon .page .numbers > div {\n        width: 100%;\n        height: 16px;\n        clear: left; }\n    .nav-icon .page.number1 .numbers {\n      top: 0; }\n    .nav-icon .page.number2 .numbers {\n      top: -16px; }\n    .nav-icon .page.number3 .numbers {\n      top: -32px; }\n    .nav-icon .page.number4 .numbers {\n      top: -48px; }\n    .nav-icon .page.number5 .numbers {\n      top: -64px; }\n  .nav-icon .pages {\n    color: rgba(182, 188, 206, 0.7);\n    position: absolute;\n    left: 0;\n    bottom: 0; }\n  @media screen and (max-width: 800px) {\n    .nav-icon {\n      left: auto;\n      right: 0px;\n      top: 0px;\n      -webkit-transform: none;\n              transform: none;\n      position: fixed;\n      width: 90px;\n      height: 70px;\n      overflow: hidden; }\n      .nav-icon a {\n        margin: 0;\n        overflow: hidden;\n        top: 40px; }\n      .nav-icon svg {\n        margin: 0;\n        -webkit-transform-origin: center center;\n                transform-origin: center center;\n        -webkit-transform: rotateY(180deg);\n                transform: rotateY(180deg); }\n      .nav-icon .page, .nav-icon .pages {\n        position: absolute;\n        pointer-events: none;\n        top: 56px;\n        right: 32px;\n        left: auto;\n        width: 10px;\n        font-size: 18px; }\n      .nav-icon .page {\n        top: 32px;\n        height: 19px;\n        border-bottom: 2px solid rgba(182, 188, 206, 0.7); }\n        .nav-icon .page .numbers {\n          width: 100%;\n          height: 95px;\n          position: absolute;\n          left: 0;\n          top: 0;\n          z-index: 100;\n          -webkit-transition: top 400ms ease-out;\n          transition: top 400ms ease-out; }\n          .nav-icon .page .numbers > div {\n            width: 100%;\n            height: 19px;\n            clear: left;\n            font-size: 18px; }\n        .nav-icon .page.number1 .numbers {\n          top: 0; }\n        .nav-icon .page.number2 .numbers {\n          top: -19px; }\n        .nav-icon .page.number3 .numbers {\n          top: -38px; }\n        .nav-icon .page.number4 .numbers {\n          top: -57px; }\n        .nav-icon .page.number5 .numbers {\n          top: -76px; }\n        .nav-icon .page.number6 .numbers {\n          top: -95px; } }\n  @media screen and (min-width: 580px) and (max-width: 800px) {\n    .nav-icon {\n      overflow: visible;\n      position: fixed;\n      right: 4.16667%;\n      top: 6.66667%;\n      z-index: 320;\n      width: 37px;\n      height: 100px; }\n      .nav-icon a {\n        top: 10px; }\n      .nav-icon .page, .nav-icon .pages {\n        right: 50px; }\n      .nav-icon .page {\n        top: 2px; }\n      .nav-icon .pages {\n        top: 25px; } }\n\n@media screen and (max-width: 800px) {\n  main.Getthechance .nav-icon svg path {\n    fill: #000000;\n    stroke: #000000; }\n  main.Getthechance .nav-icon .page {\n    color: #000; } }\n\n.adidas-link {\n  display: block;\n  position: fixed;\n  left: 4.16667%;\n  bottom: 6.66667%;\n  z-index: 330;\n  width: 60px;\n  height: 59px; }\n  @media screen and (max-width: 800px) {\n    .adidas-link {\n      width: 33px;\n      height: 33px;\n      left: 32px;\n      bottom: 32px; } }\n  @media screen and (min-width: 580px) and (max-width: 800px) {\n    .adidas-link {\n      position: fixed;\n      left: 4.16667%;\n      bottom: 6.66667%;\n      width: 60px;\n      height: 59px; } }\n\n.adidas-logo {\n  width: inherit;\n  height: auto; }\n\n.scroll-indicator {\n  position: fixed;\n  left: 50%;\n  bottom: 0;\n  z-index: 340;\n  display: inline-block;\n  width: 4.16667%;\n  height: 6.66667%;\n  width: 50px;\n  min-height: 60px;\n  font-family: 'rajdhani', 'Helvetica Neue', Helvetica, sans-serif;\n  font-weight: bold;\n  font-style: normal;\n  color: #fff;\n  font-size: 16px; }\n  .scroll-indicator .border-grey {\n    position: absolute;\n    left: 0;\n    top: 0;\n    z-index: 100;\n    width: 2px;\n    height: 100%;\n    background: #333; }\n  .scroll-indicator .border {\n    position: absolute;\n    left: 0;\n    top: 0;\n    z-index: 200;\n    width: 2px;\n    height: 100%;\n    background: #ffffff; }\n  .scroll-indicator em {\n    display: inline-block;\n    font-style: normal;\n    -webkit-transform: rotate(-90deg);\n            transform: rotate(-90deg);\n    -webkit-transform-origin: center center;\n            transform-origin: center center;\n    position: absolute;\n    left: 0px;\n    top: 12px; }\n  @media screen and (max-width: 800px) {\n    .scroll-indicator {\n      bottom: 0; } }\n\n.audio-button {\n  position: fixed;\n  right: 4.16667%;\n  bottom: 6.66667%;\n  z-index: 450;\n  display: block;\n  height: 23px;\n  width: 46px;\n  overflow: hidden; }\n  .audio-button .btn {\n    display: block;\n    background: rgba(0, 0, 0, 0);\n    height: 23px;\n    width: 46px;\n    overflow: hidden;\n    /*\n    .bar {\n      position: absolute;\n      left: 0;\n      top: 50%;\n      z-index: 200;\n      width: 100%;\n      height: 2px;\n      background: $color-font-grey;\n      margin-top: -3px;\n      opacity: 1;\n      transition: opacity 200ms linear;\n    }\n    \n    svg {\n      z-index: 100;\n      path {\n        transform-origin: 50% 50%;\n        stroke-width: 2px;\n        stroke: $color-font-grey;\n        fill: none;\n      }\n    }\n    */ }\n    .audio-button .btn img.sine {\n      width: 319px;\n      max-width: 319px;\n      height: 23px;\n      position: absolute;\n      right: -130px;\n      top: 0;\n      z-index: 100;\n      -webkit-transition: right 1200ms ease-in-out;\n      transition: right 1200ms ease-in-out; }\n    .audio-button .btn.play {\n      /*\n      .bar {\n        opacity: 0;\n      }\n      svg {\n        path {\n          stroke: #ffffff;\n        }\n      }\n      */ }\n      .audio-button .btn.play img.sine {\n        right: 0; }\n    .audio-button .btn:hover {\n      /*\n      .bar {\n        opacity: 0;\n      }\n      */ }\n  @media screen and (max-width: 800px) {\n    .audio-button {\n      display: none; } }\n\nmain.Getthechance .audio-button .btn.play .bar, main.Howtobuy .audio-button .btn.play .bar {\n  opacity: 0; }\n\nmain.Getthechance .audio-button .btn.play svg path, main.Howtobuy .audio-button .btn.play svg path {\n  stroke: #000000; }\n\n.shop-button {\n  display: inline-block;\n  width: 140px;\n  position: fixed;\n  right: 4.16667%;\n  top: 6.66667%;\n  z-index: 360;\n  overflow: visible;\n  background: rgba(0, 0, 0, 0); }\n  .shop-button span {\n    display: inline-block;\n    margin-top: 14px;\n    text-align: left;\n    float: left;\n    color: #fff; }\n    .shop-button span:after {\n      display: block;\n      content: '';\n      margin-top: 1px;\n      border-bottom: solid 2px #ffffff;\n      -webkit-transform: scaleX(0);\n              transform: scaleX(0);\n      -webkit-transition: -webkit-transform 150ms ease-in-out;\n      transition: -webkit-transform 150ms ease-in-out;\n      transition: transform 150ms ease-in-out;\n      transition: transform 150ms ease-in-out, -webkit-transform 150ms ease-in-out;\n      -webkit-transform-origin: left center;\n              transform-origin: left center; }\n  .shop-button .icon-container {\n    float: right;\n    position: relative;\n    width: 43px;\n    height: 43px;\n    overflow: visible; }\n    .shop-button .icon-container .circle {\n      background: #ffffff;\n      width: 44px;\n      height: 44px;\n      border-radius: 22px;\n      position: absolute;\n      left: 50%;\n      top: 50%;\n      z-index: 100;\n      -webkit-transform-origin: center center;\n              transform-origin: center center;\n      -webkit-transform: translate(-50%, -50%);\n              transform: translate(-50%, -50%);\n      -webkit-transition: all 150ms ease-in-out;\n      transition: all 150ms ease-in-out; }\n    .shop-button .icon-container img {\n      display: inline-block;\n      position: absolute;\n      left: 50%;\n      top: 50%;\n      z-index: 200;\n      margin: -13px 0 0 -11px;\n      width: 22px;\n      height: 25px; }\n  .shop-button:hover .icon-container .circle {\n    width: 50px;\n    height: 50px;\n    border-radius: 25px; }\n  @media screen and (max-width: 800px) {\n    .shop-button {\n      display: block;\n      top: auto;\n      bottom: 32px;\n      right: 32px;\n      width: 90px; } }\n  @media screen and (min-width: 580px) and (max-width: 800px) {\n    .shop-button {\n      position: fixed;\n      right: 4.16667%;\n      bottom: 6.66667%; } }\n\n.share-icons {\n  display: inline-block;\n  position: fixed;\n  left: 16.66667%;\n  bottom: 6.66667%;\n  z-index: 335;\n  -webkit-transition: left 200ms ease-in-out;\n  transition: left 200ms ease-in-out;\n  text-align: left; }\n  .share-icons a {\n    color: #ffffff;\n    display: inline-block;\n    margin: 0 20px 0 0; }\n  @media screen and (max-width: 800px) {\n    .share-icons {\n      display: none; } }\n\nmain.Prolog .share-icons, main.Trailer .share-icons {\n  position: fixed;\n  left: 4.16667%;\n  bottom: 6.66667%; }\n\n.back-button {\n  display: inline-block;\n  position: fixed;\n  left: 0%;\n  top: 6.66667%;\n  width: 4.16667%;\n  height: 6.66667%;\n  z-index: 350;\n  text-align: right;\n  color: #ffffff; }\n  .back-button .border {\n    width: 100%;\n    height: 2px;\n    background: #ffffff;\n    margin-bottom: 4px; }\n  .back-button svg path {\n    stroke-width: 2px;\n    stroke: #ffffff; }\n\n.head-hint {\n  display: inline-block;\n  position: fixed;\n  left: 16.66667%;\n  top: 6.66667%;\n  z-index: 200;\n  overflow: hidden; }\n  .head-hint .copy {\n    display: block;\n    clear: left; }\n    .head-hint .copy .jsigns {\n      font-weight: bold;\n      letter-spacing: 4px; }\n  .head-hint a {\n    display: inline;\n    width: auto; }\n  .head-hint.date .date {\n    display: inline-block;\n    color: #ffffff; }\n  @media screen and (max-width: 800px) {\n    .head-hint {\n      display: none; } }\n\n.close-button {\n  display: inline-block;\n  width: 95px;\n  position: fixed;\n  right: 4.16667%;\n  top: 6.66667%;\n  z-index: 500;\n  overflow: visible;\n  background: rgba(0, 0, 0, 0); }\n  .close-button span {\n    display: inline-block;\n    margin-top: 14px;\n    text-align: left;\n    float: left;\n    color: #fff;\n    /*\n    &:after {\n      display:block;\n      content: '';\n      margin-top: 1px;\n      border-bottom: solid 2px #ffffff;\n      transform: scaleX(0);\n      transition: transform 150ms ease-in-out;\n      transform-origin: left center;\n    }\n    */ }\n  .close-button .icon-container {\n    float: right;\n    position: relative;\n    width: 43px;\n    height: 43px;\n    overflow: visible; }\n    .close-button .icon-container .circle {\n      background: #ffffff;\n      width: 44px;\n      height: 44px;\n      border-radius: 22px;\n      position: absolute;\n      left: 50%;\n      top: 50%;\n      z-index: 100;\n      -webkit-transform-origin: center center;\n              transform-origin: center center;\n      -webkit-transform: translate(-50%, -50%);\n              transform: translate(-50%, -50%);\n      -webkit-transition: all 300ms ease-out;\n      transition: all 300ms ease-out; }\n    .close-button .icon-container .line {\n      display: block;\n      position: absolute;\n      left: 50%;\n      top: 50%;\n      z-index: 200;\n      margin: -1px 0 0 -9px;\n      width: 18px;\n      height: 2px;\n      background: #000000;\n      -webkit-transition: all 300ms ease-out;\n      transition: all 300ms ease-out; }\n  .close-button:hover .line.line1 {\n    -webkit-transform: rotate(45deg);\n            transform: rotate(45deg); }\n  .close-button:hover .line.line2 {\n    -webkit-transform: rotate(-45deg);\n            transform: rotate(-45deg); }\n  .close-button:hover span {\n    /*\n      &:after {\n        transform: scaleX(1);\n      }\n      */ }\n  .close-button:hover .icon-container .circle {\n    width: 50px;\n    height: 50px;\n    border-radius: 25px; }\n  @media screen and (max-width: 800px) {\n    .close-button {\n      top: 30px;\n      right: 32px; } }\n  @media screen and (min-width: 580px) and (max-width: 800px) {\n    .close-button {\n      position: fixed;\n      right: 4.16667%;\n      top: 6.66667%; } }\n\n.page-indicator {\n  list-style: none;\n  margin: -100px 0 0 0;\n  padding: 0;\n  display: block;\n  overflow: hidden;\n  height: auto;\n  position: fixed;\n  right: 70px;\n  top: 50%;\n  z-index: 380; }\n  .page-indicator li {\n    list-style: none;\n    margin: 2px 0 3px 0;\n    padding: 0;\n    display: block;\n    clear: left;\n    width: 2px;\n    height: 30px;\n    background: rgba(182, 188, 206, 0.7);\n    position: relative;\n    overflow: hidden; }\n    .page-indicator li .bar {\n      height: 60px;\n      width: 2px;\n      background: #FFFFFF;\n      -webkit-transform: scaleY(0);\n              transform: scaleY(0); }\n  @media screen and (max-width: 800px) {\n    .page-indicator {\n      display: none; } }\n\n.page-preloadingpage {\n  background: #0F0F0F url(/assets/images/trailer-bg.png) no-repeat center center;\n  background-size: auto 100%; }\n  .page-preloadingpage .intro-container {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    z-index: 100; }\n    .page-preloadingpage .intro-container img.tgwo-logo {\n      display: block;\n      position: fixed;\n      right: 25%;\n      top: 53.33333%;\n      top: 50%;\n      -webkit-transform: translateY(-50%);\n              transform: translateY(-50%);\n      z-index: 100;\n      width: 60px;\n      height: 59px;\n      margin-top: -28px; }\n    .page-preloadingpage .intro-container img.adidas-logo {\n      display: block;\n      position: fixed;\n      left: 25%;\n      top: 53.33333%;\n      top: 50%;\n      -webkit-transform: translateY(-50%);\n              transform: translateY(-50%);\n      z-index: 100;\n      width: 60px;\n      height: 59px;\n      margin-top: -28px; }\n    .page-preloadingpage .intro-container .hint, .page-preloadingpage .intro-container .hint-mobile {\n      width: 140px;\n      position: absolute;\n      left: 50%;\n      top: 50%;\n      margin: 30px 0 0 -70px;\n      font-size: 15px;\n      line-height: 20px;\n      z-index: 450;\n      text-align: center; }\n    .page-preloadingpage .intro-container .preloading-for-mobile {\n      display: none;\n      color: rgba(182, 188, 206, 0.7);\n      font-size: 18px;\n      width: 120px;\n      text-align: center;\n      position: absolute;\n      left: 50%;\n      top: 50%;\n      margin: -22px 0 0 -68px;\n      z-index: 450;\n      height: 30px;\n      line-height: 1;\n      font-family: 'DIN Next Pro Medium', 'Helvetica', Helvetica, sans-serif;\n      font-weight: normal;\n      font-style: normal; }\n      .page-preloadingpage .intro-container .preloading-for-mobile .status-for-mobile {\n        display: inline-block;\n        width: 40px;\n        height: 30px;\n        text-align: right;\n        color: #ffffff;\n        font-weight: bold;\n        position: relative;\n        overflow: hidden; }\n        .page-preloadingpage .intro-container .preloading-for-mobile .status-for-mobile > span {\n          width: 40px;\n          height: 30px;\n          font-size: 18px;\n          position: absolute;\n          left: -2px;\n          top: 5px;\n          z-index: 100;\n          padding-top: 10px; }\n    .page-preloadingpage .intro-container .hint-mobile {\n      display: none;\n      color: rgba(182, 188, 206, 0.7);\n      font-size: 12px; }\n      .page-preloadingpage .intro-container .hint-mobile span {\n        font-size: 14px;\n        color: #ffffff; }\n    .page-preloadingpage .intro-container #status {\n      width: 150px;\n      height: 150px;\n      position: absolute;\n      left: 50%;\n      top: 50%;\n      margin: -75px 0 0 -75px;\n      z-index: 400; }\n      .page-preloadingpage .intro-container #status svg {\n        fill: #000;\n        position: absolute;\n        left: 50%;\n        top: 50%;\n        margin-left: -12px;\n        margin-top: -11px; }\n    .page-preloadingpage .intro-container .loader {\n      width: 150px;\n      height: 150px;\n      position: absolute;\n      border: #5b5b5b 1px solid;\n      border-radius: 50%;\n      -webkit-animation-name: loader;\n              animation-name: loader;\n      -webkit-animation-duration: 4s;\n              animation-duration: 4s;\n      -webkit-animation-iteration-count: infinite;\n              animation-iteration-count: infinite;\n      -webkit-animation-timing-function: cubic-bezier(0.55, 0.23, 0.62, 1);\n              animation-timing-function: cubic-bezier(0.55, 0.23, 0.62, 1); }\n    .page-preloadingpage .intro-container .second {\n      -webkit-animation-delay: 2s;\n              animation-delay: 2s;\n      -webkit-transform: scale(0.4);\n              transform: scale(0.4);\n      opacity: 0; }\n\n@-webkit-keyframes loader {\n  0% {\n    -webkit-transform: scale(0.4);\n            transform: scale(0.4);\n    opacity: 0; }\n  50% {\n    opacity: 1; }\n  100% {\n    -webkit-transform: scale(1.3);\n            transform: scale(1.3);\n    opacity: 0; } }\n\n@keyframes loader {\n  0% {\n    -webkit-transform: scale(0.4);\n            transform: scale(0.4);\n    opacity: 0; }\n  50% {\n    opacity: 1; }\n  100% {\n    -webkit-transform: scale(1.3);\n            transform: scale(1.3);\n    opacity: 0; } }\n    .page-preloadingpage .intro-container img.desktop-icon {\n      display: none; }\n    @media screen and (max-width: 800px) {\n      .page-preloadingpage .intro-container img.adidas-logo {\n        top: 10%;\n        left: 50%;\n        -webkit-transform: translate(-50%, -50%);\n                transform: translate(-50%, -50%);\n        margin-top: 0; }\n      .page-preloadingpage .intro-container img.tgwo-logo {\n        top: 80%;\n        left: 50%;\n        -webkit-transform: translate(-50%, -50%);\n                transform: translate(-50%, -50%);\n        margin-top: 0; }\n      .page-preloadingpage .intro-container .hint, .page-preloadingpage .intro-container #status {\n        top: 45%; }\n      .page-preloadingpage .intro-container .hint {\n        display: none; }\n      .page-preloadingpage .intro-container .hint-mobile {\n        display: block; }\n      .page-preloadingpage .intro-container #status svg path {\n        display: none; }\n      .page-preloadingpage .intro-container img.desktop-icon {\n        display: none;\n        width: 48px;\n        height: auto;\n        position: absolute;\n        left: 50%;\n        top: 50%;\n        margin: -18px 0 0 -24px;\n        z-index: 450; }\n      .page-preloadingpage .intro-container .preloading-for-mobile {\n        display: block; } }\n  .page-preloadingpage .trailer-container {\n    width: 100%;\n    height: 100%;\n    position: relative; }\n  .page-preloadingpage .audio-button {\n    display: none; }\n  .page-preloadingpage .playpausecontrols {\n    position: fixed;\n    left: 4.16667%;\n    bottom: 6.66667%;\n    z-index: 300;\n    width: 100px;\n    height: 20px; }\n    .page-preloadingpage .playpausecontrols a {\n      display: none;\n      width: auto; }\n      .page-preloadingpage .playpausecontrols a span {\n        display: inline-block;\n        width: auto; }\n  .page-preloadingpage .video-container {\n    opacity: 0;\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    z-index: 120;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    padding: 0; }\n    .page-preloadingpage .video-container .video-wrapper {\n      position: relative;\n      width: 100%;\n      height: 100%;\n      margin: 0; }\n      .page-preloadingpage .video-container .video-wrapper video {\n        display: block;\n        height: auto;\n        width: 100%;\n        position: absolute;\n        left: 50%;\n        top: 50%;\n        -webkit-transform: translate(-50%, -50%);\n                transform: translate(-50%, -50%);\n        z-index: 100; }\n      .page-preloadingpage .video-container .video-wrapper .progress-bar {\n        opacity: 0;\n        position: absolute;\n        left: 0;\n        bottom: 0;\n        z-index: 200;\n        width: 0;\n        height: 2px;\n        background: #ffffff;\n        -webkit-transition: opacity 200ms linear;\n        transition: opacity 200ms linear; }\n      .page-preloadingpage .video-container .video-wrapper:hover .progress-bar {\n        opacity: 1; }\n  .page-preloadingpage .preload-container {\n    opacity: 0;\n    display: inline-block;\n    position: fixed;\n    left: 4.16667%;\n    bottom: 6.66667%;\n    z-index: 200;\n    left: 50%;\n    -webkit-transform: translateX(-50%);\n            transform: translateX(-50%);\n    font-size: 20px;\n    text-align: center; }\n    .page-preloadingpage .preload-container .preloading {\n      display: block;\n      color: rgba(182, 188, 206, 0.7);\n      font-size: 16px;\n      line-height: 1;\n      font-family: 'DIN Next Pro Medium', 'Helvetica', Helvetica, sans-serif;\n      font-weight: normal;\n      font-style: normal; }\n      .page-preloadingpage .preload-container .preloading .status {\n        display: inline-block;\n        width: 40px;\n        height: 18px;\n        text-align: right;\n        color: #ffffff;\n        font-weight: bold;\n        position: relative;\n        overflow: hidden; }\n        .page-preloadingpage .preload-container .preloading .status > span {\n          width: 40px;\n          height: 18px;\n          font-size: 16px;\n          position: absolute;\n          left: -2px;\n          top: 4px;\n          z-index: 100; }\n      .page-preloadingpage .preload-container .preloading .percentage100 {\n        display: inline-block;\n        padding-bottom: 2px;\n        vertical-align: 1px; }\n    .page-preloadingpage .preload-container .finished {\n      display: none;\n      opacity: 0;\n      line-height: 1;\n      font-size: 18px; }\n\n.page-prolog .video-container {\n  position: absolute;\n  left: 0;\n  top: 0;\n  z-index: 100;\n  width: 100%;\n  height: 100%; }\n  .page-prolog .video-container video {\n    position: absolute;\n    left: 0;\n    top: 0;\n    -o-object-fit: cover;\n       object-fit: cover; }\n  .page-prolog .video-container video.video1 {\n    opacity: 0;\n    z-index: 100; }\n  .page-prolog .video-container video.video2 {\n    opacity: 0;\n    z-index: 200; }\n\n.page-prolog .signs-first {\n  position: absolute;\n  left: 50%;\n  bottom: 110px;\n  -webkit-transform: translateX(-50%);\n          transform: translateX(-50%);\n  z-index: 200;\n  display: none;\n  opacity: 0; }\n  .page-prolog .signs-first svg path {\n    fill: white;\n    stroke: none; }\n\n.page-prolog .start-button {\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  z-index: 240;\n  -webkit-transform: translate(-50%, -50%);\n          transform: translate(-50%, -50%);\n  display: none;\n  width: 280px;\n  overflow: visible; }\n  .page-prolog .start-button .circles {\n    width: 280px;\n    height: 280px;\n    position: relative;\n    overflow: visible; }\n    .page-prolog .start-button .circles svg {\n      overflow: visible; }\n      .page-prolog .start-button .circles svg circle {\n        cursor: pointer;\n        fill: rgba(255, 255, 255, 0);\n        stroke-width: 2;\n        -webkit-transform-origin: 50% 50%;\n                transform-origin: 50% 50%;\n        -webkit-transform: rotate(-90deg);\n                transform: rotate(-90deg); }\n        .page-prolog .start-button .circles svg circle.outer {\n          stroke: #7A7A7A; }\n        .page-prolog .start-button .circles svg circle.inner {\n          stroke: #ffffff; }\n\n.page-prolog .desc {\n  margin: 25px 0 0 0;\n  font-family: 'DIN Next Pro Medium', 'Helvetica', Helvetica, sans-serif;\n  font-weight: normal;\n  font-style: normal;\n  text-align: center;\n  font-size: 15px;\n  line-height: 120%;\n  color: #ffffff;\n  height: 35px; }\n\n.page-home h1 {\n  display: inline-block;\n  position: fixed;\n  left: 16.66667%;\n  bottom: 26.66667%;\n  z-index: 100; }\n\n.page-home .hl-info {\n  position: absolute;\n  display: none;\n  max-width: 200px;\n  top: 329px;\n  left: 16%;\n  color: rgba(182, 188, 206, 0.7); }\n\n.page-home .video-overlay {\n  display: none; }\n\n.page-home .video-container {\n  position: fixed;\n  right: 16.66667%;\n  top: 26.66667%;\n  z-index: 210;\n  width: 220px;\n  text-align: left; }\n  .page-home .video-container .video {\n    width: 210px;\n    height: 118px;\n    background: url(/assets/images/homevideo-bg.jpg) no-repeat center center;\n    background-size: 210px 118px; }\n    .page-home .video-container .video video {\n      width: 210px;\n      height: 118px;\n      -webkit-transition: -webkit-transform 150ms ease-out;\n      transition: -webkit-transform 150ms ease-out;\n      transition: transform 150ms ease-out;\n      transition: transform 150ms ease-out, -webkit-transform 150ms ease-out; }\n  .page-home .video-container:hover video {\n    -webkit-transform: scale(1.05);\n            transform: scale(1.05); }\n  @media screen and (min-width: 801px) and (max-width: 1000px) {\n    .page-home .video-container {\n      position: fixed;\n      right: 12.5%;\n      top: 26.66667%; } }\n\n.page-home .hl-info-desktop {\n  display: inline-block;\n  position: fixed;\n  left: 16.66667%;\n  bottom: 26.66667%;\n  z-index: 100;\n  margin: 0 0 -50px 0;\n  font-size: 20px;\n  color: rgba(182, 188, 206, 0.7);\n  line-height: 32px; }\n  @media screen and (max-width: 1300px) {\n    .page-home .hl-info-desktop {\n      font-size: 14px;\n      line-height: 23px;\n      margin-bottom: -30px; } }\n\n.page-home .btn-explore {\n  position: fixed;\n  right: 16.66667%;\n  bottom: 26.66667%;\n  z-index: 210;\n  width: 220px;\n  text-align: left;\n  margin: 0 0 -50px 0; }\n  .page-home .btn-explore .copy {\n    text-align: right;\n    color: #ffffff;\n    font-size: 24px;\n    line-height: 32px;\n    margin: 5px 0 0 0; }\n    @media screen and (max-width: 1300px) {\n      .page-home .btn-explore .copy {\n        font-size: 18px;\n        line-height: 24px; } }\n  @media screen and (min-width: 801px) and (max-width: 1000px) {\n    .page-home .btn-explore {\n      position: fixed;\n      right: 12.5%;\n      bottom: 26.66667%; } }\n\n.page-home .playfilm-btn {\n  position: relative;\n  display: none;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  width: 220px;\n  height: 50px;\n  border: 2px solid #fff;\n  font-size: 18px;\n  text-align: center;\n  padding-top: 14px;\n  margin: 465px auto 0;\n  color: #fff;\n  cursor: pointer; }\n  .page-home .playfilm-btn .play-icon {\n    display: inline-block;\n    font-size: 42px;\n    line-height: 0;\n    vertical-align: middle;\n    padding-top: 4px;\n    padding-right: 7px; }\n  .page-home .playfilm-btn .play-btn-bg {\n    position: absolute;\n    display: block;\n    bottom: 0;\n    left: 0;\n    width: 100%;\n    height: 0;\n    background-color: #fff;\n    z-index: -1;\n    will-change: height;\n    -webkit-transition: height 0.1s ease-out;\n    transition: height 0.1s ease-out; }\n\n@media screen and (max-width: 800px) {\n  .page-home h1 {\n    bottom: auto;\n    top: 25%;\n    left: 16%; }\n  .page-home .hl-info-desktop {\n    display: none; }\n  .page-home .hl-info {\n    display: block;\n    top: 45%; }\n  .page-home .video-overlay {\n    display: none;\n    position: fixed;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    background-color: #000;\n    z-index: 400; }\n    .page-home .video-overlay video {\n      position: relative;\n      display: block;\n      width: 100%;\n      height: 100%; }\n  .page-home .video-container {\n    display: none; }\n  .page-home .btn-explore {\n    display: none; }\n  .page-home .countdown-container {\n    position: relative;\n    top: auto;\n    left: auto;\n    margin-left: 16%;\n    margin-top: 143px;\n    width: 218px; }\n    .page-home .countdown-container .countdown {\n      font-size: 32px; }\n  .page-home .story-container {\n    display: none; }\n  .page-home .playfilm-btn {\n    display: block;\n    top: 65%;\n    left: 16%;\n    margin: 0; } }\n\n.page-product h1 {\n  display: inline-block;\n  position: fixed;\n  left: 16.66667%;\n  top: 26.66667%;\n  z-index: 100; }\n\n.page-product .teaser {\n  position: fixed;\n  left: 16.66667%;\n  bottom: 20%;\n  width: 240px;\n  font-size: 24px;\n  line-height: 32px; }\n\n.page-product a.btn {\n  display: inline-block;\n  width: 130px; }\n  .page-product a.btn.btn-viewmore {\n    display: none;\n    position: absolute;\n    left: 62px;\n    top: 290px; }\n    .page-product a.btn.btn-viewmore .copy {\n      width: 136px;\n      margin-top: 6px; }\n      .page-product a.btn.btn-viewmore .copy span {\n        display: block;\n        margin-top: 6px;\n        color: #fff; }\n  .page-product a.btn.btn-design {\n    position: fixed;\n    left: 50%;\n    bottom: 20%; }\n  .page-product a.btn.btn-details {\n    position: fixed;\n    left: 62.5%;\n    bottom: 20%; }\n  .page-product a.btn.btn-materials {\n    position: fixed;\n    left: 75%;\n    bottom: 20%; }\n  @media screen and (min-width: 801px) and (max-width: 1000px) {\n    .page-product a.btn.btn-design {\n      position: fixed;\n      left: 45.83333%;\n      bottom: 20%; }\n    .page-product a.btn.btn-materials {\n      position: fixed;\n      left: 79.16667%;\n      bottom: 20%; } }\n\n@media screen and (max-width: 800px) {\n  .page-product h1 {\n    left: 16%;\n    top: 25%; }\n  .page-product .teaser {\n    display: none; }\n  .page-product a.btn.btn-design, .page-product a.btn.btn-details, .page-product a.btn.btn-materials {\n    display: none; }\n  .page-product a.btn.btn-viewmore {\n    display: block;\n    top: 46%;\n    left: 16%; }\n    .page-product a.btn.btn-viewmore .flag-container {\n      display: block; }\n  .page-product a.btn.btn-flag .flag-container {\n    display: block; } }\n\n.page-design h1 {\n  display: inline-block;\n  position: fixed;\n  left: 20.83333%;\n  top: 33.33333%;\n  z-index: 100; }\n\n.page-details h1 {\n  display: inline-block;\n  position: fixed;\n  left: 20.83333%;\n  top: 33.33333%;\n  z-index: 100; }\n\n.page-details nav {\n  position: fixed;\n  left: 4.16667%;\n  top: 6.66667%;\n  z-index: 300; }\n  .page-details nav ul {\n    list-style: none;\n    margin: 0;\n    padding: 0;\n    display: block; }\n    .page-details nav ul li {\n      display: inline-block;\n      float: left;\n      margin: 0 40px 0 0;\n      padding: 0; }\n      .page-details nav ul li a {\n        display: inline-block;\n        line-height: 1;\n        color: rgba(182, 188, 206, 0.7);\n        padding: 0 0 10px 0;\n        border-bottom: solid 2px rgba(182, 188, 206, 0.7);\n        position: relative;\n        -webkit-transition: color 150ms ease-in-out;\n        transition: color 150ms ease-in-out; }\n        .page-details nav ul li a:after {\n          position: absolute;\n          width: 100%;\n          height: 2px;\n          left: 0;\n          bottom: -2px;\n          z-index: 100;\n          display: block;\n          content: '';\n          background: #FFFFFF;\n          -webkit-transition: -webkit-transform 150ms ease-in-out;\n          transition: -webkit-transform 150ms ease-in-out;\n          transition: transform 150ms ease-in-out;\n          transition: transform 150ms ease-in-out, -webkit-transform 150ms ease-in-out;\n          -webkit-transform: scaleX(0);\n                  transform: scaleX(0);\n          -webkit-transform-origin: left center;\n                  transform-origin: left center; }\n        .page-details nav ul li a.active {\n          color: #ffffff; }\n          .page-details nav ul li a.active:after {\n            -webkit-transform: scaleX(1);\n                    transform: scaleX(1); }\n        .page-details nav ul li a:hover {\n          color: #ffffff; }\n          .page-details nav ul li a:hover:after {\n            -webkit-transform: scaleX(1);\n                    transform: scaleX(1); }\n\n.page-details .detail {\n  position: fixed;\n  left: 4.16667%;\n  bottom: 6.66667%;\n  width: 400px;\n  max-width: 100%;\n  color: #ffffff;\n  display: none;\n  opacity: 0;\n  font-size: 20px;\n  line-height: 28px; }\n  .page-details .detail h3 {\n    display: none;\n    margin-bottom: 28px; }\n\n.page-details .readmore-btn,\n.page-details .readless-btn {\n  position: fixed;\n  left: 34px;\n  bottom: 0;\n  z-index: 340;\n  display: none;\n  height: 72px;\n  width: 50px;\n  font-family: 'rajdhani', 'Helvetica Neue', Helvetica, sans-serif;\n  font-weight: bold;\n  font-style: normal;\n  color: #fff;\n  font-size: 16px; }\n  .page-details .readmore-btn .border,\n  .page-details .readless-btn .border {\n    width: 2px;\n    height: 100%;\n    background: #ffffff; }\n  .page-details .readmore-btn em,\n  .page-details .readless-btn em {\n    display: inline-block;\n    font-style: normal;\n    -webkit-transform-origin: top left;\n            transform-origin: top left;\n    -webkit-transform: rotate(-90deg);\n            transform: rotate(-90deg);\n    position: absolute;\n    width: 80px;\n    height: 0px;\n    left: 10px;\n    bottom: 10px; }\n\n.page-details .readless-btn {\n  bottom: auto;\n  top: 0px;\n  height: 66px; }\n  .page-details .readless-btn em {\n    -webkit-transform: rotate(90deg);\n            transform: rotate(90deg);\n    bottom: auto;\n    top: 10px;\n    left: 24px; }\n\n@media screen and (max-width: 800px) {\n  .page-details nav {\n    opacity: 0;\n    display: none; }\n  .page-details .detail-container {\n    position: fixed;\n    display: none;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    height: 100%;\n    width: 100%;\n    padding-top: 200px;\n    padding-bottom: 50px;\n    overflow: hidden;\n    overflow-y: auto;\n    -webkit-overflow-scrolling: touch;\n    background-color: rgba(0, 0, 0, 0.6); }\n  .page-details .detail {\n    position: relative;\n    left: auto;\n    bottom: auto;\n    display: block;\n    opacity: 1;\n    width: 65%;\n    margin: 0 auto 70px auto;\n    color: rgba(182, 188, 206, 0.7);\n    text-align: justify;\n    font-size: 16px;\n    line-height: 24px; }\n    .page-details .detail h3 {\n      display: block; }\n  .page-details .readmore-btn,\n  .page-details .readless-btn {\n    display: inline-block; } }\n\n.page-materials h1 {\n  display: inline-block;\n  position: fixed;\n  left: 20.83333%;\n  top: 33.33333%;\n  z-index: 100; }\n\n.page-items h1 {\n  display: inline-block;\n  position: fixed;\n  left: 16.66667%;\n  top: 26.66667%;\n  z-index: 100; }\n\n.page-items .btn {\n  display: inline-block; }\n  .page-items .btn h2 {\n    margin: 27px 0; }\n  .page-items .btn.btn-viewmore {\n    display: none;\n    position: absolute;\n    left: 62px;\n    top: 290px; }\n    .page-items .btn.btn-viewmore .copy {\n      width: 136px;\n      margin-top: 6px; }\n      .page-items .btn.btn-viewmore .copy span {\n        display: block;\n        margin-top: 6px;\n        color: #fff; }\n  .page-items .btn.btn-longsleeve {\n    position: fixed;\n    right: 16.66667%;\n    top: 26.66667%;\n    text-align: right;\n    width: 190px; }\n  .page-items .btn.btn-jacket {\n    position: fixed;\n    left: 16.66667%;\n    bottom: 20%;\n    width: 160px; }\n\n.page-items .limited {\n  position: fixed;\n  right: 16.66667%;\n  bottom: 20%;\n  width: 210px;\n  text-align: right;\n  font-size: 24px;\n  line-height: 32px;\n  color: #ffffff; }\n\n@media screen and (max-width: 800px) {\n  .page-items h1 {\n    left: 16%;\n    top: 25%; }\n  .page-items .btn.btn-longsleeve, .page-items .btn.btn-jacket {\n    display: none; }\n  .page-items .btn.btn-viewmore {\n    display: block;\n    top: 46%;\n    left: 16%; }\n    .page-items .btn.btn-viewmore .flag-container {\n      display: block; }\n  .page-items .limited {\n    display: none; } }\n\n.page-journey h1 {\n  display: inline-block;\n  position: fixed;\n  left: 16.66667%;\n  top: 26.66667%;\n  z-index: 100; }\n\n.page-journey .intro {\n  position: fixed;\n  left: 16.66667%;\n  bottom: 20%;\n  width: 100%;\n  max-width: 420px; }\n\n.page-journey .video-container {\n  position: fixed;\n  right: 16.66667%;\n  top: 26.66667%;\n  z-index: 210;\n  width: 210px;\n  text-align: right; }\n  .page-journey .video-container .img {\n    width: 210px;\n    height: 118px;\n    -webkit-transition: -webkit-transform 150ms ease-out;\n    transition: -webkit-transform 150ms ease-out;\n    transition: transform 150ms ease-out;\n    transition: transform 150ms ease-out, -webkit-transform 150ms ease-out;\n    background: url(/assets/images/journeyvideo-bg.jpg) no-repeat center center;\n    background-size: 210px 118px;\n    margin-bottom: 5px; }\n  .page-journey .video-container:hover .img {\n    -webkit-transform: scale(1.05);\n            transform: scale(1.05); }\n\n.page-journey .btn.btn-viewmore {\n  display: none;\n  position: absolute;\n  left: 62px;\n  top: 343px; }\n  .page-journey .btn.btn-viewmore .copy {\n    display: block;\n    width: 136px;\n    margin-top: 6px; }\n    .page-journey .btn.btn-viewmore .copy span {\n      display: block;\n      margin-top: 6px;\n      color: #fff; }\n\n.page-journey .btn.btn-story {\n  position: fixed;\n  right: 16.66667%;\n  bottom: 20%;\n  width: 100%;\n  max-width: 210px;\n  text-align: right; }\n\n@media screen and (max-width: 800px) {\n  .page-journey h1 {\n    left: 16%;\n    top: 25%; }\n  .page-journey .video-container {\n    display: none; }\n  .page-journey .intro {\n    display: none; }\n  .page-journey .btn.btn-story {\n    display: none; }\n  .page-journey .btn.btn-viewmore {\n    display: block;\n    top: 46%;\n    left: 16%; } }\n\n.page-gallery h1 {\n  display: inline-block;\n  position: fixed;\n  left: 16.66667%;\n  top: 33.33333%;\n  z-index: 200;\n  -webkit-transform-origin: 0 100%;\n          transform-origin: 0 100%; }\n\n.page-gallery .intro {\n  display: inline-block;\n  position: fixed;\n  left: 16.66667%;\n  bottom: 33.33333%;\n  width: 12.5%;\n  z-index: 210;\n  -webkit-transform-origin: 0 0;\n          transform-origin: 0 0; }\n  .page-gallery .intro h2 {\n    font-size: 24px;\n    line-height: 1;\n    margin: 0 0 20px 0; }\n\n.page-gallery .slider-container {\n  position: absolute;\n  left: 0;\n  top: 50%;\n  width: 100%;\n  height: auto;\n  z-index: 300;\n  -webkit-transform: translateY(-50%);\n          transform: translateY(-50%); }\n  .page-gallery .slider-container .slick-list {\n    cursor: hand; }\n  .page-gallery .slider-container .slide {\n    width: 50%;\n    height: 100%;\n    outline: none;\n    overflow: hidden; }\n    .page-gallery .slider-container .slide a {\n      display: block;\n      overflow: hidden;\n      width: 100%;\n      height: 100%; }\n    .page-gallery .slider-container .slide .img-wrapper {\n      overflow: hidden;\n      width: 100%;\n      height: 100%; }\n    .page-gallery .slider-container .slide img {\n      width: 100%;\n      height: auto;\n      -webkit-transition: -webkit-transform 1400ms ease-in-out;\n      transition: -webkit-transform 1400ms ease-in-out;\n      transition: transform 1400ms ease-in-out;\n      transition: transform 1400ms ease-in-out, -webkit-transform 1400ms ease-in-out;\n      -webkit-transform-origin: center center;\n              transform-origin: center center; }\n    .page-gallery .slider-container .slide:hover img {\n      -webkit-transform: scale(1.1);\n              transform: scale(1.1); }\n\n.page-gallery .drag-indicator, .page-gallery .go-button {\n  border-top: solid 2px #ffffff;\n  width: 4.16667%;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  position: absolute;\n  z-index: 400;\n  -webkit-transform: translateY(-50%);\n          transform: translateY(-50%);\n  text-align: left;\n  padding-top: 5px;\n  overflow: hidden;\n  -webkit-transition: width 300ms cubic-bezier(0.24, 0.715, 0.285, 0.94), -webkit-transform 200ms ease-in-out;\n  transition: width 300ms cubic-bezier(0.24, 0.715, 0.285, 0.94), -webkit-transform 200ms ease-in-out;\n  transition: transform 200ms ease-in-out, width 300ms cubic-bezier(0.24, 0.715, 0.285, 0.94);\n  transition: transform 200ms ease-in-out, width 300ms cubic-bezier(0.24, 0.715, 0.285, 0.94), -webkit-transform 200ms ease-in-out; }\n  .page-gallery .drag-indicator:hover, .page-gallery .go-button:hover {\n    width: 5.20833%; }\n  .page-gallery .drag-indicator.prev, .page-gallery .go-button.prev {\n    position: fixed;\n    left: 4.16667%;\n    bottom: 26.66667%;\n    left: 0;\n    text-align: right;\n    -webkit-transform: translateX(0);\n            transform: translateX(0); }\n    .page-gallery .drag-indicator.prev.hidden, .page-gallery .go-button.prev.hidden {\n      -webkit-transform: translateX(-100%);\n              transform: translateX(-100%); }\n  .page-gallery .drag-indicator.next, .page-gallery .go-button.next {\n    position: fixed;\n    right: 4.16667%;\n    bottom: 26.66667%;\n    right: 0;\n    -webkit-transform: translateX(0);\n            transform: translateX(0); }\n    .page-gallery .drag-indicator.next.hidden, .page-gallery .go-button.next.hidden {\n      -webkit-transform: translateX(100%);\n              transform: translateX(100%); }\n\n@media screen and (max-width: 800px) {\n  .page-gallery h1 {\n    left: 16%;\n    top: 25%; }\n  .page-gallery .intro {\n    display: none; }\n  .page-gallery .drag-indicator {\n    display: none; }\n  .page-gallery .slider-container {\n    top: 60%; }\n  .page-gallery .mobile-swipe-info {\n    position: absolute;\n    width: 100%;\n    height: 50%;\n    background-color: rgba(0, 0, 0, 0);\n    z-index: 500;\n    top: 35%; }\n    .page-gallery .mobile-swipe-info p {\n      -webkit-transform: rotate(-90deg);\n              transform: rotate(-90deg);\n      -webkit-transform-origin: center;\n              transform-origin: center;\n      display: inline-block;\n      position: absolute;\n      top: 50%;\n      left: 10%;\n      opacity: 0.3;\n      pointer-events: none;\n      -webkit-user-select: none;\n         -moz-user-select: none;\n          -ms-user-select: none;\n              user-select: none; }\n      .page-gallery .mobile-swipe-info p span {\n        display: block;\n        position: absolute;\n        width: 32px;\n        height: 2px;\n        background-color: #fff;\n        -webkit-transform-origin: top left;\n                transform-origin: top left;\n        -webkit-transform: rotate(90deg);\n                transform: rotate(90deg);\n        left: 50%;\n        top: 30px; }\n  .page-gallery .slider-fullview {\n    display: none;\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    overflow: hidden;\n    z-index: 500;\n    background-color: #000; }\n    .page-gallery .slider-fullview .img-container {\n      display: block;\n      position: absolute;\n      left: 0;\n      top: 0;\n      width: 100%;\n      height: 100%;\n      overflow: hidden;\n      overflow-x: auto;\n      -webkit-overflow-scrolling: touch; }\n    .page-gallery .slider-fullview img {\n      width: auto;\n      height: 100%;\n      max-width: 8000px; } }\n\n.page-image {\n  background: #111111; }\n  .page-image .slider-container {\n    position: absolute;\n    left: 0;\n    top: 0;\n    z-index: 200;\n    width: 100%;\n    height: 100%;\n    z-index: 300; }\n    .page-image .slider-container .slick-list {\n      height: 100%;\n      cursor: hand; }\n    .page-image .slider-container .slick-track {\n      height: 100%;\n      cursor: hand; }\n    .page-image .slider-container .slide, .page-image .slider-container .slick-slide {\n      width: 100%;\n      height: 100%;\n      outline: none;\n      overflow: hidden;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center; }\n      .page-image .slider-container .slide div, .page-image .slider-container .slick-slide div {\n        width: 100%;\n        height: 100%; }\n      .page-image .slider-container .slide .img, .page-image .slider-container .slick-slide .img {\n        background-position: center;\n        background-size: cover; }\n      .page-image .slider-container .slide img, .page-image .slider-container .slick-slide img {\n        width: 100%;\n        height: auto; }\n  .page-image .btn {\n    border-top: solid 2px #ffffff;\n    width: 4.16667%;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    z-index: 400;\n    height: 18px;\n    padding-top: 5px;\n    -webkit-transition: width 300ms cubic-bezier(0.24, 0.715, 0.285, 0.94);\n    transition: width 300ms cubic-bezier(0.24, 0.715, 0.285, 0.94);\n    -webkit-transform: translateY(-50%);\n            transform: translateY(-50%); }\n    .page-image .btn.prev-btn {\n      position: fixed;\n      left: 4.16667%;\n      top: 93.33333%;\n      left: 0;\n      text-align: right; }\n    .page-image .btn.next-btn {\n      position: fixed;\n      right: 4.16667%;\n      top: 93.33333%;\n      right: 0;\n      text-align: left; }\n    .page-image .btn:hover {\n      width: 5.20833%; }\n  .page-image .image-indicator {\n    list-style: none;\n    margin: -8px 0 0 0;\n    padding: 0;\n    display: block;\n    overflow: hidden;\n    height: 18px;\n    position: fixed;\n    left: 4.16667%;\n    top: 93.33333%;\n    left: 50%;\n    z-index: 500;\n    -webkit-transform: translateX(-50%);\n            transform: translateX(-50%); }\n    .page-image .image-indicator li {\n      list-style: none;\n      margin: 0 3px 0 2px;\n      padding: 0;\n      display: block;\n      float: left;\n      width: 30px;\n      height: 2px;\n      background: rgba(182, 188, 206, 0.7);\n      position: relative;\n      overflow: hidden; }\n      .page-image .image-indicator li .bar {\n        height: 2px;\n        width: 60px;\n        background: #FFFFFF;\n        -webkit-transform: scaleX(0);\n                transform: scaleX(0); }\n    @media screen and (max-width: 800px) {\n      .page-image .image-indicator {\n        display: none; } }\n\n.page-container.Getthechance {\n  z-index: 500; }\n\n.page-getthechance {\n  color: #000000;\n  background: transparent; }\n  .page-getthechance video {\n    position: absolute;\n    left: 50%;\n    top: 50%;\n    -webkit-transform: translate(-50%, -50%);\n            transform: translate(-50%, -50%);\n    z-index: 100;\n    -webkit-transform-origin: 50% 50%;\n            transform-origin: 50% 50%; }\n  .page-getthechance .overview, .page-getthechance .shops {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    left: 0;\n    top: 0;\n    z-index: 100; }\n  .page-getthechance .overview {\n    display: block; }\n  .page-getthechance .shops {\n    display: none;\n    overflow: auto; }\n    .page-getthechance .shops .back-button {\n      display: block;\n      position: fixed;\n      left: 0;\n      top: 50%;\n      width: 70px;\n      height: 26px;\n      text-align: right;\n      color: #000000;\n      padding: 12px 0 0 0;\n      border-top: solid 2px black;\n      -webkit-transition: all 300ms ease-out;\n      transition: all 300ms ease-out; }\n      .page-getthechance .shops .back-button:hover {\n        width: 105px; }\n    .page-getthechance .shops h1 {\n      position: absolute; }\n  .page-getthechance .shops-lists {\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    margin: 0 0 0 16.66667%; }\n    .page-getthechance .shops-lists ul {\n      list-style: none;\n      margin: 0 0 100px 0;\n      padding: 0;\n      width: 400px;\n      float: left; }\n      .page-getthechance .shops-lists ul li {\n        display: block;\n        width: 100%;\n        margin: 0 0 25px 0;\n        line-height: 1; }\n        .page-getthechance .shops-lists ul li em {\n          display: inline-block;\n          margin: 0 0 0 10px;\n          color: rgba(182, 188, 206, 0.7);\n          font-style: normal; }\n        .page-getthechance .shops-lists ul li.header {\n          font-size: 24px; }\n        .page-getthechance .shops-lists ul li.spacer {\n          height: 10px; }\n  .page-getthechance h1 {\n    display: inline-block;\n    position: fixed;\n    left: 16.66667%;\n    top: 26.66667%;\n    z-index: 200;\n    color: #000000; }\n  .page-getthechance .close-button span {\n    color: #000000; }\n  .page-getthechance .close-button .icon-container .circle {\n    background: #000000; }\n  .page-getthechance .close-button .icon-container .line {\n    background: #ffffff; }\n  .page-getthechance .sub {\n    position: fixed;\n    left: 16.66667%;\n    top: 40%;\n    z-index: 200; }\n    .page-getthechance .sub ul {\n      list-style: none;\n      margin: 0;\n      padding: 0;\n      display: block; }\n      .page-getthechance .sub ul li {\n        display: block;\n        float: left;\n        width: 210px; }\n        .page-getthechance .sub ul li.article-details {\n          line-height: 28px; }\n        @media screen and (min-width: 801px) and (max-width: 1200px) {\n          .page-getthechance .sub ul li {\n            width: 160px; } }\n    .page-getthechance .sub small {\n      color: #9B9B9B;\n      display: block;\n      margin: 0 0 5px 0; }\n      .page-getthechance .sub small.article-head {\n        margin-bottom: 10px;\n        line-height: 1; }\n    .page-getthechance .sub span {\n      color: #000000; }\n      .page-getthechance .sub span.date {\n        font-size: 24px;\n        line-height: 32px; }\n  .page-getthechance .intro {\n    position: fixed;\n    left: 16.66667%;\n    bottom: 20%;\n    z-index: 220;\n    width: 210px; }\n    .page-getthechance .intro .first {\n      color: #000000;\n      font-size: 16px;\n      line-height: 20px; }\n    .page-getthechance .intro .second {\n      display: block;\n      clear: left;\n      color: #9B9B9B;\n      font-size: 16px;\n      line-height: 20px;\n      margin: 10px 0 0 0; }\n  .page-getthechance .form-head, .page-getthechance .shops-head {\n    position: fixed;\n    left: 66.66667%;\n    top: 40%;\n    z-index: 220;\n    width: 280px;\n    color: #000000;\n    font-size: 24px;\n    line-height: 32px; }\n  .page-getthechance .shops-button-wrapper {\n    position: fixed;\n    left: 66.66667%;\n    bottom: 20%;\n    z-index: 220; }\n  .page-getthechance .form-container {\n    position: fixed;\n    left: 66.66667%;\n    bottom: 20%;\n    z-index: 220;\n    width: 280px;\n    color: #000000; }\n    .page-getthechance .form-container form {\n      display: block;\n      width: 100%; }\n      .page-getthechance .form-container form .group {\n        display: block;\n        width: 100%;\n        clear: left; }\n      .page-getthechance .form-container form input, .page-getthechance .form-container form select {\n        -webkit-box-sizing: border-box;\n                box-sizing: border-box;\n        background: transparent;\n        outline: none;\n        border: none;\n        width: 100%;\n        border-bottom: solid 2px #000000;\n        padding: 5px 2px 13px 2px;\n        line-height: 1;\n        font-size: 16px;\n        color: #000000;\n        border-radius: 0px;\n        margin: 0 0 20px 0;\n        display: block;\n        -webkit-appearance: none;\n        -moz-appearance: none;\n        background: transparent; }\n        .page-getthechance .form-container form input::-webkit-input-placeholder, .page-getthechance .form-container form select::-webkit-input-placeholder {\n          color: #000000; }\n        .page-getthechance .form-container form input::-moz-placeholder, .page-getthechance .form-container form select::-moz-placeholder {\n          color: #000000; }\n        .page-getthechance .form-container form input::-ms-input-placeholder, .page-getthechance .form-container form select::-ms-input-placeholder {\n          color: #000000; }\n        .page-getthechance .form-container form input::placeholder, .page-getthechance .form-container form select::placeholder {\n          color: #000000; }\n        .page-getthechance .form-container form input.select, .page-getthechance .form-container form select.select {\n          background: transparent url(/assets/images/arrow-down-black.png) no-repeat right 5px top 10px;\n          background-size: 12px 8px;\n          text-indent: 0.01px;\n          text-overflow: ''; }\n          .page-getthechance .form-container form input.select option, .page-getthechance .form-container form select.select option {\n            background: #ffffff;\n            color: #000000; }\n        .page-getthechance .form-container form input.button, .page-getthechance .form-container form select.button {\n          display: inline-block;\n          background: #000000;\n          border-bottom: none;\n          color: white;\n          width: auto;\n          padding: 20px 35px 20px 35px;\n          cursor: pointer;\n          -webkit-transition: -webkit-transform 150ms ease-out;\n          transition: -webkit-transform 150ms ease-out;\n          transition: transform 150ms ease-out;\n          transition: transform 150ms ease-out, -webkit-transform 150ms ease-out;\n          margin-bottom: 0; }\n          .page-getthechance .form-container form input.button:hover, .page-getthechance .form-container form select.button:hover {\n            -webkit-transform: scale(1.05);\n                    transform: scale(1.05); }\n        .page-getthechance .form-container form input.error, .page-getthechance .form-container form select.error {\n          border-bottom: solid 2px #CE3232;\n          color: #CE3232; }\n          .page-getthechance .form-container form input.error::-webkit-input-placeholder, .page-getthechance .form-container form select.error::-webkit-input-placeholder {\n            color: #CE3232; }\n          .page-getthechance .form-container form input.error::-moz-placeholder, .page-getthechance .form-container form select.error::-moz-placeholder {\n            color: #CE3232; }\n          .page-getthechance .form-container form input.error::-ms-input-placeholder, .page-getthechance .form-container form select.error::-ms-input-placeholder {\n            color: #CE3232; }\n          .page-getthechance .form-container form input.error::placeholder, .page-getthechance .form-container form select.error::placeholder {\n            color: #CE3232; }\n  @media screen and (max-width: 800px) {\n    .page-getthechance {\n      background: #ffffff; }\n      .page-getthechance .tgwo-link,\n      .page-getthechance .adidas-link {\n        display: none; }\n      .page-getthechance .close-button {\n        display: none; }\n      .page-getthechance .form-head {\n        position: relative;\n        left: auto;\n        top: auto;\n        font-size: 18px;\n        width: 100%;\n        line-height: 28px; }\n      .page-getthechance .form-container {\n        position: relative;\n        bottom: auto;\n        left: auto;\n        margin-top: 20px;\n        width: 100%; }\n      .page-getthechance h1 {\n        left: 10%;\n        width: 80%;\n        top: 18%;\n        font-size: 32px;\n        line-height: 26px; }\n      .page-getthechance .shops-lists {\n        margin: 130px 0 0 0 !important;\n        overflow: hidden; }\n        .page-getthechance .shops-lists ul {\n          width: 100%;\n          margin-bottom: 40px; }\n          .page-getthechance .shops-lists ul li {\n            margin-bottom: 15px; }\n      .page-getthechance .sub {\n        left: 10%;\n        top: 32%;\n        width: 80%; }\n        .page-getthechance .sub ul li {\n          width: 45%; }\n        .page-getthechance .sub span.date {\n          font-size: 16px;\n          line-height: 32px; }\n        .page-getthechance .sub span.article-details {\n          line-height: 28px; }\n        .page-getthechance .sub .button {\n          -webkit-box-sizing: border-box;\n                  box-sizing: border-box;\n          background: transparent;\n          outline: none;\n          border: none;\n          line-height: 1;\n          font-size: 16px;\n          border-radius: 0px;\n          margin: 10px 0 0;\n          display: inline-block;\n          background: #000000;\n          color: white;\n          width: auto;\n          padding: 16px 20px;\n          cursor: pointer;\n          -webkit-transition: -webkit-transform 150ms ease-out;\n          transition: -webkit-transform 150ms ease-out;\n          transition: transform 150ms ease-out;\n          transition: transform 150ms ease-out, -webkit-transform 150ms ease-out; }\n      .page-getthechance .intro {\n        position: relative;\n        left: 0px;\n        bottom: auto;\n        top: 20px; }\n      .page-getthechance .mobile-first {\n        position: absolute;\n        display: block;\n        width: 100%;\n        height: 100%;\n        z-index: 200; }\n      .page-getthechance .mobile-second {\n        position: absolute;\n        display: block;\n        width: 100%;\n        height: 100%;\n        z-index: 200;\n        -webkit-transform: translateX(100%);\n                transform: translateX(100%);\n        padding: 100px 10% 40px;\n        -webkit-box-sizing: border-box;\n                box-sizing: border-box;\n        overflow-y: auto;\n        -webkit-overflow-scrolling: touch; }\n        .page-getthechance .mobile-second .close-button {\n          display: block;\n          position: fixed !important; }\n      .page-getthechance .form-info {\n        margin-top: 30px; } }\n\n.page-credits div {\n  overflow: visible; }\n\n.page-credits .content-container {\n  width: 100%;\n  height: 100%;\n  overflow-y: scroll;\n  -webkit-overflow-scrolling: touch; }\n\n.page-credits h1 {\n  font-size: 90px;\n  line-height: 75px;\n  display: inline-block;\n  margin-top: 46.66667%;\n  width: 100%;\n  z-index: 200;\n  text-align: center; }\n  .page-credits h1 small {\n    color: rgba(182, 188, 206, 0.7);\n    font-size: 16px;\n    text-align: center;\n    display: block;\n    clear: left;\n    margin: 10px 0 0 0;\n    line-height: 1; }\n\n.page-credits .logos {\n  margin: 120px auto;\n  width: 548px;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -ms-flex-wrap: nowrap;\n      flex-wrap: nowrap;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -ms-flex-pack: distribute;\n      justify-content: space-around; }\n  .page-credits .logos a {\n    -webkit-transition: -webkit-transform 150ms ease-out;\n    transition: -webkit-transform 150ms ease-out;\n    transition: transform 150ms ease-out;\n    transition: transform 150ms ease-out, -webkit-transform 150ms ease-out; }\n    .page-credits .logos a:hover {\n      -webkit-transform: scale(1.05);\n              transform: scale(1.05); }\n  .page-credits .logos img.dayy {\n    width: 129px;\n    float: left; }\n  .page-credits .logos img.adidas {\n    width: 63px; }\n  .page-credits .logos img.tgwo {\n    width: 70px;\n    float: right; }\n\n.page-credits .line {\n  width: 60px;\n  height: 2px;\n  background: #ffffff;\n  clear: left;\n  margin: 120px 0 120px calc(50% - 30px); }\n\n.page-credits .spacer {\n  width: 100%;\n  height: 120px;\n  clear: left; }\n\n.page-credits .block {\n  clear: left;\n  width: 70.83333%;\n  margin: 0 auto 90px auto; }\n  .page-credits .block .row {\n    width: 100%;\n    padding: 0 0 20px 0;\n    line-height: 120%;\n    overflow: hidden; }\n    .page-credits .block .row > .left {\n      width: 50%;\n      float: left;\n      font-size: 20px;\n      color: rgba(182, 188, 206, 0.7);\n      text-align: right;\n      -webkit-box-sizing: border-box;\n              box-sizing: border-box;\n      padding: 0 35px 0 0; }\n    .page-credits .block .row > .right {\n      width: 50%;\n      float: left;\n      font-size: 20px;\n      -webkit-box-sizing: border-box;\n              box-sizing: border-box;\n      padding: 0 0 0 35px; }\n\n@media screen and (max-width: 800px) {\n  .page-credits h1 {\n    font-size: 48px;\n    line-height: 37px; }\n  .page-credits .logos {\n    width: 100%; }\n    .page-credits .logos a {\n      width: 33.3%;\n      display: block;\n      text-align: center; }\n    .page-credits .logos img.dayy {\n      width: 89px;\n      float: none; }\n    .page-credits .logos img.adidas {\n      width: 53px; }\n    .page-credits .logos img.tgwo {\n      width: 60px;\n      float: none; }\n  .page-credits .block {\n    width: 90%; }\n    .page-credits .block .row > .left {\n      font-size: 14px;\n      padding: 0 20px 0 0; }\n    .page-credits .block .row > .right {\n      font-size: 14px;\n      padding: 0 0 0 20px; } }\n\n.page-imprint .content-container {\n  width: 100%;\n  max-width: 600px;\n  margin: 0 auto;\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  -webkit-transform: translate(-50%, -50%);\n          transform: translate(-50%, -50%); }\n  .page-imprint .content-container h2 {\n    display: block;\n    width: 100%;\n    margin: 0 0 50px 0; }\n  .page-imprint .content-container a {\n    display: inline-block;\n    width: auto;\n    position: relative; }\n    .page-imprint .content-container a span {\n      display: inline-block;\n      width: auto; }\n\n@media screen and (max-width: 800px) {\n  .page-imprint .content-container {\n    width: 80%; } }\n\n.page-viewtrailer .trailer-container {\n  width: 100%;\n  height: 100%;\n  position: relative; }\n\n.page-viewtrailer .video-container {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 120;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  padding: 175px 0; }\n  .page-viewtrailer .video-container .video-wrapper {\n    position: relative;\n    width: 100%;\n    height: 100%;\n    margin: 0; }\n    .page-viewtrailer .video-container .video-wrapper video {\n      display: block;\n      height: 100%;\n      width: auto;\n      margin: 0 auto;\n      /*\n        position: absolute;\n        left: 50%;\n        top: 50%;\n        transform: translate(-50%, -50%);\n        //object-fit: cover;\n        z-index: 100;\n        */ }\n    .page-viewtrailer .video-container .video-wrapper .progress-bar {\n      opacity: 0;\n      position: absolute;\n      left: 0;\n      bottom: 0;\n      z-index: 200;\n      width: 0;\n      height: 2px;\n      background: #ffffff;\n      -webkit-transition: opacity 200ms linear;\n      transition: opacity 200ms linear; }\n    .page-viewtrailer .video-container .video-wrapper:hover .progress-bar {\n      opacity: 1; }\n\n.page-viewtrailer .playpausecontrols {\n  position: fixed;\n  left: 4.16667%;\n  bottom: 6.66667%;\n  z-index: 300;\n  width: 100px;\n  height: 20px; }\n  .page-viewtrailer .playpausecontrols a {\n    display: none;\n    width: auto; }\n    .page-viewtrailer .playpausecontrols a span {\n      display: inline-block;\n      width: auto; }\n\n.page-viewtrailer .time {\n  position: fixed;\n  left: 4.16667%;\n  bottom: 6.66667%;\n  z-index: 310;\n  left: 50%;\n  -webkit-transform: translateX(-50%);\n          transform: translateX(-50%);\n  color: rgba(182, 188, 206, 0.7); }\n  .page-viewtrailer .time .current {\n    color: #ffffff;\n    font-weight: bold; }\n\n.page-viewtrailer .fullscreen {\n  position: fixed;\n  right: 12.5%;\n  bottom: 6.66667%;\n  z-index: 310; }\n\nbody {\n  background: #000;\n  color: #fff;\n  font-family: 'DIN Next Pro Medium', 'Helvetica', Helvetica, sans-serif;\n  font-weight: normal;\n  font-style: normal;\n  font-size: 16px;\n  line-height: 1;\n  width: 100%;\n  height: 100%;\n  padding: 0;\n  margin: 0;\n  overflow: hidden; }\n\nbody, div, span {\n  text-rendering: optimizeLegibility !important;\n  -webkit-font-smoothing: antialiased !important; }\n\na {\n  color: #fff;\n  text-decoration: none; }\n  a .hover-effect {\n    display: inline-block; }\n    a .hover-effect:after {\n      display: block;\n      content: '';\n      margin-top: 1px;\n      border-bottom: solid 2px #ffffff;\n      -webkit-transform: scaleX(0);\n              transform: scaleX(0);\n      -webkit-transition: -webkit-transform 150ms ease-in-out;\n      transition: -webkit-transform 150ms ease-in-out;\n      transition: transform 150ms ease-in-out;\n      transition: transform 150ms ease-in-out, -webkit-transform 150ms ease-in-out;\n      -webkit-transform-origin: left center;\n              transform-origin: left center; }\n  a .hover-effect-dark {\n    display: inline-block; }\n    a .hover-effect-dark:after {\n      display: block;\n      content: '';\n      margin-top: 1px;\n      border-bottom: solid 2px #000000;\n      -webkit-transform: scaleX(0);\n              transform: scaleX(0);\n      -webkit-transition: -webkit-transform 150ms ease-in-out;\n      transition: -webkit-transform 150ms ease-in-out;\n      transition: transform 150ms ease-in-out;\n      transition: transform 150ms ease-in-out, -webkit-transform 150ms ease-in-out;\n      -webkit-transform-origin: left center;\n              transform-origin: left center; }\n  a:hover .hover-effect:after, a:hover .hover-effect-dark:after {\n    -webkit-transform: scaleX(1);\n            transform: scaleX(1); }\n\n.btn-white {\n  background: #ffffff;\n  color: #000000;\n  display: inline-block;\n  width: 100%;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  padding: 18px 22px; }\n  .btn-white img {\n    width: 22px;\n    height: 25px;\n    float: left;\n    margin: -2px 10px 0 0; }\n\n.btn-black {\n  background: #000000;\n  display: inline-block;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  border-bottom: none;\n  color: white;\n  width: auto;\n  padding: 20px 35px 20px 35px;\n  cursor: pointer;\n  -webkit-transition: -webkit-transform 150ms ease-out;\n  transition: -webkit-transform 150ms ease-out;\n  transition: transform 150ms ease-out;\n  transition: transform 150ms ease-out, -webkit-transform 150ms ease-out;\n  margin-bottom: 0; }\n  .btn-black:hover {\n    -webkit-transform: scale(1.05);\n            transform: scale(1.05); }\n\np {\n  margin: 0 0 10px 0;\n  overflow: visible; }\n\np.copy {\n  display: inline-block;\n  clear: left;\n  font-family: 'DIN Next Pro Medium', 'Helvetica', Helvetica, sans-serif;\n  font-weight: normal;\n  font-style: normal;\n  font-size: 16px;\n  line-height: 20px;\n  color: rgba(182, 188, 206, 0.7); }\n\n.white {\n  color: #ffffff; }\n\n.big-white-copy, .page-journey .intro {\n  font-size: 24px;\n  line-height: 32px;\n  color: #ffffff; }\n  @media screen and (max-width: 1300px) {\n    .big-white-copy, .page-journey .intro {\n      font-size: 18px;\n      line-height: 24px; } }\n\nimg {\n  max-width: 100%;\n  height: auto; }\n\nmain {\n  position: fixed;\n  left: 0;\n  top: 0;\n  z-index: 500;\n  width: 100%;\n  height: 100%; }\n\n#app {\n  position: fixed;\n  left: 0;\n  top: 0;\n  z-index: 510;\n  width: 100%;\n  height: 100%; }\n\nsection.page, .page-container {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 200; }\n\n.animation-slice .char {\n  display: inline-block; }\n\n.flag-container .signs-container {\n  position: absolute;\n  left: 0;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 200; }\n\n.flag-container img.sign {\n  display: block; }\n\n.flag-container.flag-vertical img.sign {\n  margin: 21px auto; }\n\n.flag-container.flag-vertical.flag-big {\n  width: 54px;\n  height: 134px; }\n  .flag-container.flag-vertical.flag-big .signs-container {\n    width: 54px;\n    height: 134px; }\n\n.animation-line, .line {\n  display: inline-block;\n  clear: left; }\n\nspan.hover-effect {\n  line-height: 1; }\n\n/* FLAG BUTTONS */\n.btn-flag .flag-container {\n  display: inline-block;\n  width: auto;\n  height: auto;\n  position: relative;\n  overflow: visible; }\n  .btn-flag .flag-container svg.flag {\n    z-index: 200;\n    -webkit-transition: 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275);\n    transition: 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275); }\n    .btn-flag .flag-container svg.flag path {\n      fill: #ffffff;\n      border: none;\n      stroke: none; }\n    .btn-flag .flag-container svg.flag path.characters {\n      -webkit-transition: fill 150ms linear 150ms;\n      transition: fill 150ms linear 150ms; }\n    .btn-flag .flag-container svg.flag rect {\n      fill: #ffffff;\n      border-right: 50px solid transparent;\n      border-bottom: 100px solid #ffffff;\n      -webkit-transform: rotate(45deg) translate(-50%, -50%) scale(0);\n              transform: rotate(45deg) translate(-50%, -50%) scale(0);\n      -webkit-transition: 300ms linear 0ms;\n      transition: 300ms linear 0ms; }\n\n.btn-flag h3 {\n  display: inline-block;\n  width: 100%;\n  clear: both;\n  margin: 20px 0 10px 0;\n  font-size: 24px;\n  line-height: 1; }\n\n.btn-flag:hover .flag-container svg.flag {\n  -webkit-transform: scale(1.1);\n          transform: scale(1.1); }\n  .btn-flag:hover .flag-container svg.flag path.characters {\n    fill: #000000; }\n  .btn-flag:hover .flag-container svg.flag rect {\n    -webkit-transform: rotate(45deg) translate(-150px, -150px) scale(1);\n            transform: rotate(45deg) translate(-150px, -150px) scale(1); }\n\nbody.ie-edge .btn-flag .flag-container svg.flag rect {\n  opacity: 0;\n  -webkit-transition: opacity 150ms ease-out;\n  transition: opacity 150ms ease-out; }\n\nbody.ie-edge .btn-flag:hover .flag-container svg.flag rect {\n  -webkit-transform: none;\n          transform: none;\n  opacity: 1; }\n\n.mobile-rotation-info {\n  display: none;\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  overflow: hidden;\n  color: #fff;\n  background: #000;\n  z-index: 9000; }\n  .mobile-rotation-info div {\n    position: absolute;\n    display: block;\n    text-align: center;\n    left: 50%;\n    top: 50%;\n    -webkit-transform: translate(-50%, -50%);\n            transform: translate(-50%, -50%); }\n    .mobile-rotation-info div img {\n      width: 200px; }\n    .mobile-rotation-info div p {\n      margin-top: 10px; }\n      .mobile-rotation-info div p span {\n        color: rgba(182, 188, 206, 0.7); }\n  @media screen and (max-width: 800px) and (orientation: landscape) {\n    .mobile-rotation-info {\n      display: block; } }\n",
+        "",
         "",
       ]);
   },
@@ -40500,45 +40454,103 @@ object-assign
                       "Singularity society."
                     ),
                     d.default.createElement(
-                      "div",
-                      {
+                      "div", {
                         className: "decode-container",
                       },
                       d.default.createElement(
-                        "div",
-                        {
-                          className: "Team-div",
+                        "div", {
+                          id: "btn-team",
                         },
                         d.default.createElement(
-                          "a",
-                          {
+                          "a", {
                             className: "link-decode",
                             href: "javascript:void(0);",
                             onClick: this.onClick,
                             "data-pagehash": "itemsdetails/guillermo",
                           },
+                          d.default.createElement(
+                            "p",
+                            null,
+                            d.default.createElement("span", {
+                              className: "bg",
+                            }),
+                            d.default.createElement("span", {
+                              className: "base",
+                            }),
+                            d.default.createElement(
+                              "span", {
+                                className: "text",
+                              },
+                              "私たちのチーム"
+                            )
+                          )
+                        ),
+                        d.default.createElement(
+                          "h3", {
+                            className: "animation-default"
+                          },
                           "Our Team"
+                        ),
+                        d.default.createElement(
+                          "div", {
+                            className: "paras btn-team"
+                          },
+                          d.default.createElement(
+                            "p", {
+                              className: "copy animation-lines"
+                            },
+                            "Meet Our Team"
+                          )
                         )
                       ),
-                      d.default.createElement("div", {
-                        className: "orb",
-                      }),
                       d.default.createElement(
-                        "div",
-                        {
-                          className: "Team-div",
+                        "div", {
+                          id: "btn-corporate",
                         },
                         d.default.createElement(
-                          "a",
-                          {
+                          "a", {
                             className: "link-decode-1",
-                            href:
-                              "https://facelessdevhack.github.io/MetaStudio-2/company-profile.html",
+                            href: "http://futurevizion.jp/",
                             target: "_blank",
                           },
-                          "Corporate Profile"
+                          d.default.createElement(
+                            "p",
+                            null,
+                            d.default.createElement("span", {
+                              className: "bg",
+                            }),
+                            d.default.createElement("span", {
+                              className: "base",
+                            }),
+                            d.default.createElement(
+                              "span", {
+                                className: "text",
+                              },
+                              "会社概要"
+                            )
+                          )
+                        ),
+                        d.default.createElement(
+                          "h3", {
+                            className: "animation-default"
+                          },
+                          "Photography"
+                        ),
+                        d.default.createElement(
+                          "div", {
+                            className: "paras btn-corp"
+                          },
+                          d.default.createElement(
+                            "p", {
+                              className: "copy animation-lines"
+                            },
+                            "Guillermo Alarcon's Photography"
+                          )
                         )
                       )
+                      // d.default.createElement("div", {
+                      //   className: "orb",
+                      // }),
                     )
                   );
                 },
@@ -41083,10 +41095,6 @@ object-assign
                   return d.default.createElement(
                     "section",
                     { className: "page page-items", ref: "element" },
-                    d.default.createElement("img", {
-                      className: "project-back",
-                      src: "./imgs/mesh-background.png",
-                    }),
                     d.default.createElement(
                       "div",
                       { className: "head-hint items" },
@@ -41112,27 +41120,25 @@ object-assign
                       )
                     ),
                     d.default.createElement(
-                      "a",
-                      {
+                      "a", {
                         href: "javascript:void(0);",
                         className: "btn btn-flag btn-viewmore",
                         onClick: this.onClick,
                         "data-pagehash": "itemsdetails/",
                       },
                       d.default.createElement(
-                        "div",
-                        { className: "flag-container animation-default" },
+                        "div", {
+                          className: "flag-container animation-default"
+                        },
                         d.default.createElement(
-                          "svg",
-                          {
+                          "svg", {
                             width: "120px",
                             height: "50px",
                             viewBox: "0 0 120 50",
                             version: "1.1",
                           },
                           d.default.createElement(
-                            "g",
-                            {
+                            "g", {
                               id: "Page-1",
                               stroke: "none",
                               strokeWidth: "1",
@@ -41140,14 +41146,15 @@ object-assign
                               fillRule: "evenodd",
                             },
                             d.default.createElement(
-                              "g",
-                              { id: "Artboard-2" },
+                              "g", {
+                                id: "Artboard-2"
+                              },
                               d.default.createElement(
-                                "g",
-                                { id: "Group-7" },
+                                "g", {
+                                  id: "Group-7"
+                                },
                                 d.default.createElement("path", {
-                                  d:
-                                    "M21.888,18.544 L33.888,18.544 L34.72,19.296 C34.112,20.512 33.52,21.52 32.944,22.32 C32.208,23.312 31.344,24.176 30.384,24.928 L29.2,23.792 C30.672,22.64 31.744,21.392 32.416,20.08 L21.888,20.08 L21.888,18.544 Z M26.944,21.36 L28.608,21.36 L28.608,23.536 C28.608,25.328 28.256,26.8 27.568,27.984 C26.848,29.216 25.696,30.208 24.096,30.944 L23.056,29.664 C24.448,28.992 25.44,28.208 26.048,27.28 C26.64,26.336 26.944,25.088 26.944,23.536 L26.944,21.36 Z M53.4719998,17.424 C52.1759998,18.784 50.4959998,20.176 48.4319998,21.584 C46.3519998,22.992 44.3199998,24.096 42.3679998,24.928 L43.2319998,26.32 C45.0559998,25.552 46.8639998,24.608 48.6559998,23.472 L48.6559998,30.816 L50.3199998,30.816 L50.3199998,22.336 C52.0159998,21.12 53.4879998,19.84 54.7039998,18.512 L53.4719998,17.424 Z M64.9919996,18.464 L64.9919996,20 L75.2159996,20 L75.2159996,18.464 L64.9919996,18.464 Z M63.5839996,22.24 L63.5839996,23.76 L69.6319996,23.76 C69.5359996,25.168 69.1999996,26.304 68.6399996,27.184 C68.0319996,28.128 66.9439996,29.008 65.3919996,29.84 L66.4799996,31.072 C68.2879996,30.08 69.5519996,28.96 70.2719996,27.728 C70.8479996,26.704 71.1999996,25.392 71.2959996,23.76 L77.0239996,23.76 L77.0239996,22.24 L63.5839996,22.24 Z M93.9039994,22.96 L92.5919994,23.904 C93.3119994,24.8 94.1119994,26 95.0079994,27.472 L95.3599994,28.048 C93.3119994,28.304 90.8639994,28.512 87.9999994,28.688 C89.4719994,24.608 90.8319994,21.024 92.0479994,17.952 L90.4639994,17.424 C88.6399994,22.176 87.2159994,25.968 86.1919994,28.784 L84.6079994,28.848 L84.6719994,30.352 C89.1839994,30.192 93.0079994,29.904 96.1599994,29.456 C96.4799994,30.016 96.7999994,30.624 97.1359994,31.264 L98.6079994,30.464 C96.8159994,27.056 95.2479994,24.56 93.9039994,22.96 Z",
+                                  d: "M21.888,18.544 L33.888,18.544 L34.72,19.296 C34.112,20.512 33.52,21.52 32.944,22.32 C32.208,23.312 31.344,24.176 30.384,24.928 L29.2,23.792 C30.672,22.64 31.744,21.392 32.416,20.08 L21.888,20.08 L21.888,18.544 Z M26.944,21.36 L28.608,21.36 L28.608,23.536 C28.608,25.328 28.256,26.8 27.568,27.984 C26.848,29.216 25.696,30.208 24.096,30.944 L23.056,29.664 C24.448,28.992 25.44,28.208 26.048,27.28 C26.64,26.336 26.944,25.088 26.944,23.536 L26.944,21.36 Z M53.4719998,17.424 C52.1759998,18.784 50.4959998,20.176 48.4319998,21.584 C46.3519998,22.992 44.3199998,24.096 42.3679998,24.928 L43.2319998,26.32 C45.0559998,25.552 46.8639998,24.608 48.6559998,23.472 L48.6559998,30.816 L50.3199998,30.816 L50.3199998,22.336 C52.0159998,21.12 53.4879998,19.84 54.7039998,18.512 L53.4719998,17.424 Z M64.9919996,18.464 L64.9919996,20 L75.2159996,20 L75.2159996,18.464 L64.9919996,18.464 Z M63.5839996,22.24 L63.5839996,23.76 L69.6319996,23.76 C69.5359996,25.168 69.1999996,26.304 68.6399996,27.184 C68.0319996,28.128 66.9439996,29.008 65.3919996,29.84 L66.4799996,31.072 C68.2879996,30.08 69.5519996,28.96 70.2719996,27.728 C70.8479996,26.704 71.1999996,25.392 71.2959996,23.76 L77.0239996,23.76 L77.0239996,22.24 L63.5839996,22.24 Z M93.9039994,22.96 L92.5919994,23.904 C93.3119994,24.8 94.1119994,26 95.0079994,27.472 L95.3599994,28.048 C93.3119994,28.304 90.8639994,28.512 87.9999994,28.688 C89.4719994,24.608 90.8319994,21.024 92.0479994,17.952 L90.4639994,17.424 C88.6399994,22.176 87.2159994,25.968 86.1919994,28.784 L84.6079994,28.848 L84.6719994,30.352 C89.1839994,30.192 93.0079994,29.904 96.1599994,29.456 C96.4799994,30.016 96.7999994,30.624 97.1359994,31.264 L98.6079994,30.464 C96.8159994,27.056 95.2479994,24.56 93.9039994,22.96 Z",
                                   id: "\u30A2\u30A4\u30C6\u30E0",
                                   fill: "#FFFFFF",
                                 }),
@@ -41155,8 +41162,7 @@ object-assign
                                   id: "Rectangle",
                                   stroke: "#FFFFFF",
                                   strokeWidth: "2",
-                                  transform:
-                                    "translate(60.000000, 25.000000) rotate(-270.000000) translate(-60.000000, -25.000000) ",
+                                  transform: "translate(60.000000, 25.000000) rotate(-270.000000) translate(-60.000000, -25.000000) ",
                                   x: "36",
                                   y: "-34",
                                   width: "48",
@@ -41177,22 +41183,21 @@ object-assign
                         )
                       ),
                       d.default.createElement(
-                        "p",
-                        { className: "copy animation-lines" },
+                        "p", {
+                          className: "copy animation-lines"
+                        },
                         "Details about the Kimoto Jacket, longsleeve",
                         d.default.createElement("span", null, "View more")
                       )
                     ),
                     d.default.createElement(
-                      "div",
-                      {
+                      "div", {
                         id: "btn-mapping",
                       },
                       d.default.createElement(
-                        "a",
-                        {
-                          href:
-                            "https://facelessdevhack.github.io/MetaStudio-2/videomapping.html",
+                        "a", {
+                          href: "https://facelessdevhack.github.io/MetaStudio-2/videomapping.html",
+                          target: "_blank",
                           className: "btn btn-flag btn-longsleeve",
                         },
                         d.default.createElement(
@@ -41205,8 +41210,7 @@ object-assign
                             className: "base",
                           }),
                           d.default.createElement(
-                            "span",
-                            {
+                            "span", {
                               className: "text",
                             },
                             "マッピング"
@@ -41214,33 +41218,35 @@ object-assign
                         )
                       ),
                       d.default.createElement(
-                        "h3",
-                        { className: "animation-default" },
+                        "h3", {
+                          className: "animation-default"
+                        },
                         "Video Maping"
                       ),
                       d.default.createElement(
-                        "div",
-                        { className: "paras" },
+                        "div", {
+                          className: "paras"
+                        },
                         d.default.createElement(
-                          "p",
-                          { className: "copy animation-lines" },
+                          "p", {
+                            className: "copy animation-lines"
+                          },
                           "Responsive multimedia"
                         ),
                         d.default.createElement(
-                          "p",
-                          { className: "copy animation-lines" },
+                          "p", {
+                            className: "copy animation-lines"
+                          },
                           "art meets projections"
                         )
                       )
                     ),
                     d.default.createElement(
-                      "div",
-                      {
+                      "div", {
                         id: "btn-design",
                       },
                       d.default.createElement(
-                        "a",
-                        {
+                        "a", {
                           href: "apps.html",
                           target: "_blank",
                           className: "btn btn-flag btn-longsleeve",
@@ -41255,8 +41261,7 @@ object-assign
                             className: "base",
                           }),
                           d.default.createElement(
-                            "span",
-                            {
+                            "span", {
                               className: "text",
                             },
                             "デザイン"
@@ -41265,35 +41270,88 @@ object-assign
                       ),
                       d.default.createElement("br"),
                       d.default.createElement(
-                        "h3",
-                        { className: "animation-default" },
-                        "Design"
+                        "h3", {
+                          className: "animation-default"
+                        },
+                        "Game Design"
                       ),
                       d.default.createElement(
-                        "div",
-                        {
+                        "div", {
                           className: "paras",
                         },
                         d.default.createElement(
-                          "p",
-                          { className: "copy animation-lines" },
-                          "Design is the fuel of"
+                          "p", {
+                            className: "copy animation-lines"
+                          },
+                          "Augmented Reality"
                         ),
                         d.default.createElement(
-                          "p",
-                          { className: "copy animation-lines" },
-                          "intelligence."
+                          "p", {
+                            className: "copy animation-lines"
+                          },
+                          "Experiences."
                         )
                       )
                     ),
                     d.default.createElement(
-                      "div",
-                      {
+                      "div", {
+                        id: "btn-commercial",
+                      },
+                      d.default.createElement(
+                        "a", {
+                          href: "commercial.html",
+                          target: "_blank",
+                          className: "btn btn-flag btn-longsleeve",
+                        },
+                        d.default.createElement(
+                          "p",
+                          null,
+                          d.default.createElement("span", {
+                            className: "bg",
+                          }),
+                          d.default.createElement("span", {
+                            className: "base",
+                          }),
+                          d.default.createElement(
+                            "span", {
+                              className: "text",
+                            },
+                            "デザイン"
+                          )
+                        )
+                      ),
+                      d.default.createElement("br"),
+                      d.default.createElement(
+                        "h3", {
+                          className: "animation-default"
+                        },
+                        "Commercials"
+                      ),
+                      d.default.createElement(
+                        "div", {
+                          className: "paras",
+                        },
+                        d.default.createElement(
+                          "p", {
+                            className: "copy animation-lines"
+                          },
+                          "Our Recent"
+                        ),
+                        d.default.createElement("br"),
+                        d.default.createElement(
+                          "p", {
+                            className: "copy animation-lines"
+                          },
+                          "Projects."
+                        )
+                      )
+                    ),
+                    d.default.createElement(
+                      "div", {
                         id: "btn-apps",
                       },
                       d.default.createElement(
-                        "a",
-                        {
+                        "a", {
                           href: "apps.html",
                           target: "_blank",
                           className: "btn btn-flag btn-longsleeve",
@@ -41308,8 +41366,7 @@ object-assign
                             className: "base",
                           }),
                           d.default.createElement(
-                            "span",
-                            {
+                            "span", {
                               className: "text",
                             },
                             "アプリ"
@@ -41317,26 +41374,31 @@ object-assign
                         )
                       ),
                       d.default.createElement(
-                        "h3",
-                        { className: "animation-default" },
+                        "h3", {
+                          className: "animation-default"
+                        },
                         "Apps"
                       ),
                       d.default.createElement(
-                        "div",
-                        { className: "paras" },
+                        "div", {
+                          className: "paras"
+                        },
                         d.default.createElement(
-                          "p",
-                          { className: "copy animation-lines" },
+                          "p", {
+                            className: "copy animation-lines"
+                          },
                           "Some of our industry"
                         ),
                         d.default.createElement(
-                          "p",
-                          { className: "copy animation-lines" },
+                          "p", {
+                            className: "copy animation-lines"
+                          },
                           "dirsupting Apps"
                         ),
                         d.default.createElement(
-                          "p",
-                          { className: "copy animation-lines" },
+                          "p", {
+                            className: "copy animation-lines"
+                          },
                           "we have developed"
                         )
                       )
@@ -41659,8 +41721,7 @@ object-assign
                           "li",
                           null,
                           p.default.createElement(
-                            "a",
-                            {
+                            "a", {
                               href: "/",
                               onClick: this.onNavClick,
                               "data-detail": "guillermo",
@@ -41673,8 +41734,7 @@ object-assign
                           "li",
                           null,
                           p.default.createElement(
-                            "a",
-                            {
+                            "a", {
                               href: "/",
                               onClick: this.onNavClick,
                               "data-detail": "IAN",
@@ -41687,8 +41747,7 @@ object-assign
                           "li",
                           null,
                           p.default.createElement(
-                            "a",
-                            {
+                            "a", {
                               href: "/",
                               onClick: this.onNavClick,
                               "data-detail": "HIDEYO",
@@ -41701,8 +41760,7 @@ object-assign
                           "li",
                           null,
                           p.default.createElement(
-                            "a",
-                            {
+                            "a", {
                               href: "/",
                               onClick: this.onNavClick,
                               "data-detail": "NANA",
@@ -41715,8 +41773,7 @@ object-assign
                           "li",
                           null,
                           p.default.createElement(
-                            "a",
-                            {
+                            "a", {
                               href: "/",
                               onClick: this.onNavClick,
                               "data-detail": "RAFAEL",
@@ -41724,15 +41781,49 @@ object-assign
                             },
                             "RAFAEL"
                           )
+                        ),
+                        p.default.createElement(
+                          "li",
+                          null,
+                          p.default.createElement(
+                            "a", {
+                              href: "/",
+                              onClick: this.onNavClick,
+                              "data-detail": "ANTONIO",
+                              className: "ANTONIO",
+                            },
+                            "ANTONIO"
+                          )
+                        ),
+                        p.default.createElement(
+                          "li",
+                          null,
+                          p.default.createElement(
+                            "a", {
+                              href: "/",
+                              onClick: this.onNavClick,
+                              "data-detail": "JOAO",
+                              className: "JOAO",
+                            },
+                            "JOAO"
+                          )
                         )
                       )
                     ),
                     p.default.createElement(
-                      "div",
-                      { className: "detail-container" },
+                      "div", {
+                        className: "detail-container"
+                      },
                       p.default.createElement(
-                        "div",
-                        { className: "detail RAFAEL" },
+                        "div", {
+                          className: "detail RAFAEL"
+                        },
+                        p.default.createElement(
+                          "p", {
+                            className: "job-title",
+                          },
+                          "Line Producer"
+                        ),
                         p.default.createElement(
                           "p",
                           null,
@@ -41756,8 +41847,15 @@ object-assign
                         )
                       ),
                       p.default.createElement(
-                        "div",
-                        { className: "detail GUILLERMO" },
+                        "div", {
+                          className: "detail GUILLERMO"
+                        },
+                        p.default.createElement(
+                          "p", {
+                            className: "job-title",
+                          },
+                          "CTO | Co Founder"
+                        ),
                         p.default.createElement(
                           "p",
                           null,
@@ -41789,8 +41887,78 @@ object-assign
                         )
                       ),
                       p.default.createElement(
-                        "div",
-                        { className: "detail IAN" },
+                        "div", {
+                          className: "detail ANTONIO"
+                        },
+                        p.default.createElement(
+                          "p", {
+                            className: "job-title",
+                          },
+                          "Filmmaker"
+                        ),
+                        p.default.createElement(
+                          "p",
+                          null,
+                          "Born and raised in central Europe, Antonio started",
+                          p.default.createElement("br"),
+                          "his early career between Paris and Geneva.",
+                          p.default.createElement("br")
+                        ),
+                        p.default.createElement(
+                          "p",
+                          null,
+                          "He then joined the HypeBeast team in London before",
+                          p.default.createElement("br"),
+                          "getting into commercial videos in Japan",
+                          p.default.createElement("br")
+                        ),
+                        p.default.createElement(
+                          "p",
+                          null,
+                          "Antonio Joined Meta Studios Team in 2019, working",
+                          p.default.createElement("br"),
+                          "along side creating Commercial Videos for major",
+                          p.default.createElement("br"),
+                          "Brands and clients."
+                        )
+                      ),
+                      p.default.createElement(
+                        "div", {
+                          className: "detail JOAO"
+                        },
+                        p.default.createElement(
+                          "p", {
+                            className: "job-title",
+                          },
+                          "Visionary 3d Artist"
+                        ),
+                        p.default.createElement(
+                          "p",
+                          null,
+                          "Joao was born in Lisbon, Portugal and has been part of Meta Studios",
+                          p.default.createElement("br"),
+                          "creative team for numerous years with many collaborations.",
+                          p.default.createElement("br")
+                        ),
+                        p.default.createElement(
+                          "p",
+                          null,
+                          "Joao a crucial member of our team is ready to deliver your next visual",
+                          p.default.createElement("br"),
+                          "experience.",
+                          p.default.createElement("br")
+                        )
+                      ),
+                      p.default.createElement(
+                        "div", {
+                          className: "detail IAN"
+                        },
+                        p.default.createElement(
+                          "p", {
+                            className: "job-title",
+                          },
+                          "CTO | Co Founder"
+                        ),
                         p.default.createElement(
                           "p",
                           null,
@@ -41818,28 +41986,48 @@ object-assign
                         )
                       ),
                       p.default.createElement(
-                        "div",
-                        { className: "detail HIDEYO" },
+                        "div", {
+                          className: "detail HIDEYO"
+                        },
                         p.default.createElement(
-                          "p",
-                          null,
-                          "Hideyo Tsuda also known as Hideyo Black moon a pioneer in",
-                          p.default.createElement("br"),
-                          "Electronic Music for the past 30 years, she's is Meta Studios",
-                          p.default.createElement("br"),
-                          "Executive Producer."
+                          "p", {
+                            className: "job-title",
+                          },
+                          "Executive Producer"
                         ),
                         p.default.createElement(
-                          "p",
-                          null,
-                          "Currently working on her new album and building a new Spiritual",
+                          "p", {
+                            style: {
+                              width: "790px"
+                            },
+                          },
+                          "Hideyo Tsuda, Meta Studios Executive Producer, also known as Hideyo Blackmoon,",
                           p.default.createElement("br"),
-                          "multimedia platform coming for 2021."
+                          "composer/Vocalist/DJ for electronic music scene worldwide. Founder for a company's",
+                          p.default.createElement("br"),
+                          "new conscious education multimedia platform project which coming for 2021."
+                        ),
+                        p.default.createElement(
+                          "p", {
+                            style: {
+                              width: "790px"
+                            },
+                          },
+                          "She has been innovating lifestyle with Meditation, Toga, Healing Art, Dance Therapy,",
+                          p.default.createElement("br"),
+                          "Bio Hacking, Tantra, Taoism, etc."
                         )
                       ),
                       p.default.createElement(
-                        "div",
-                        { className: "detail NANA" },
+                        "div", {
+                          className: "detail NANA"
+                        },
+                        p.default.createElement(
+                          "p", {
+                            className: "job-title",
+                          },
+                          "Development"
+                        ),
                         p.default.createElement(
                           "p",
                           null,
@@ -42013,46 +42201,54 @@ object-assign
                     "section",
                     { className: "page page-journey", ref: "element" },
                     d.default.createElement(
-                      "div",
-                      { className: "head-hint journey" },
+                      "div", {
+                        className: "head-hint journey"
+                      },
                       d.default.createElement(
-                        "p",
-                        { className: "copy" },
+                        "p", {
+                          className: "copy"
+                        },
                         d.default.createElement(
-                          "span",
-                          { className: "white" },
+                          "span", {
+                            className: "white"
+                          },
                           "私達の旅"
                         ),
                         d.default.createElement("br", null),
-                        "Pixels are the resolvanle unit of the universe"
+                        "Pixels are the resolution of the universe"
                       )
                     ),
                     d.default.createElement(
                       "h1",
                       null,
                       d.default.createElement(
-                        "span",
-                        { className: "animation-slice" },
+                        "span", {
+                          className: "animation-slice"
+                        },
                         "Visual"
                       ),
                       d.default.createElement("br", null),
                       d.default.createElement(
-                        "span",
-                        { className: "animation-slice" },
+                        "span", {
+                          className: "animation-slice"
+                        },
                         "Journey_"
                       )
                     ),
                     d.default.createElement(
-                      "div",
-                      { className: "intro animation-lines" },
+                      "div", {
+                        className: "intro animation-lines"
+                      },
                       d.default.createElement(
-                        "p",
-                        { className: "copy white animation-lines" },
+                        "p", {
+                          className: "copy2 white animation-lines"
+                        },
                         "French sociologist Jean Baudrillard, wrote a thesis novel"
                       ),
                       d.default.createElement(
-                        "p",
-                        { className: "copy white animation-lines" },
+                        "p", {
+                          className: "copy2 white animation-lines"
+                        },
                         "called",
                         d.default.createElement(
                           "i",
@@ -42062,76 +42258,94 @@ object-assign
                         "in 1981, in which it claims"
                       ),
                       d.default.createElement(
-                        "p",
-                        { className: "copy white animation-lines" },
+                        "p", {
+                          className: "copy2 white animation-lines"
+                        },
                         "that our current society has replaced all reality and meaning"
                       ),
                       d.default.createElement(
-                        "p",
-                        { className: "copy white animation-lines" },
+                        "p", {
+                          className: "copy2 white animation-lines"
+                        },
                         "with symbols and signs, and that human experience is a"
                       ),
                       d.default.createElement("br"),
                       d.default.createElement(
-                        "p",
-                        { className: "copy white animation-lines" },
+                        "p", {
+                          className: "copy2 white animation-lines"
+                        },
                         "simulation of reality."
                       )
                     ),
                     d.default.createElement(
-                      "div",
-                      { className: "intro2 animation-lines paras2" },
+                      "div", {
+                        className: "intro2 animation-lines paras2"
+                      },
                       d.default.createElement(
-                        "p",
-                        { className: "copy white animation-lines" },
+                        "p", {
+                          className: "copy2 white animation-lines"
+                        },
                         "Our entire construct of reality is filled with meaningless"
                       ),
                       d.default.createElement(
-                        "p",
-                        { className: "copy white animation-lines" },
+                        "p", {
+                          className: "copy2 white animation-lines"
+                        },
                         "symbols, but what if we could change that by using higher"
                       ),
                       d.default.createElement(
-                        "p",
-                        { className: "copy white animation-lines" },
+                        "p", {
+                          className: "copy2 white animation-lines"
+                        },
                         "frequency imagery, then the semantics of design could"
                       ),
                       d.default.createElement("br"),
                       d.default.createElement(
-                        "p",
-                        { className: "copy white animation-lines" },
+                        "p", {
+                          className: "copy2 white animation-lines"
+                        },
                         "change reality itself."
                       )
                     ),
+
                     d.default.createElement(
-                      "a",
-                      {
+                      "a", {
                         href: "/#viewtrailer",
                         className: "video-container animation-default",
                         onClick: this.onClick,
                         "data-pagehash": "viewtrailer",
                       },
-                      d.default.createElement("div", { className: "img" }),
                       d.default.createElement(
-                        "p",
-                        { className: "big-white-copy" },
+                        "div", {
+                          className: "img2"
+                        },
+                        d.default.createElement("img", {
+                          className: "img2",
+                          height: 400,
+                          width: 400,
+                          src: "./imgs/vidSnip.jpg",
+                        })
+                      ),
+                      d.default.createElement(
+                        "p", {
+                          className: "big-white-copy"
+                        },
                         "Watch the film"
                       )
                     ),
                     d.default.createElement(
-                      "a",
-                      {
+                      "a", {
                         href: "/#journeydetails/",
                         className: "btn btn-flag btn-viewmore",
                         onClick: this.onClick,
                         "data-pagehash": "journeydetails",
                       },
                       d.default.createElement(
-                        "div",
-                        { className: "flag-container animation-default" },
+                        "div", {
+                          className: "flag-container animation-default"
+                        },
                         d.default.createElement(
-                          "svg",
-                          {
+                          "svg", {
                             className: "flag",
                             width: "175px",
                             height: "50px",
@@ -42144,18 +42358,17 @@ object-assign
                           }),
                           d.default.createElement("path", {
                             className: "characters",
-                            d:
-                              "M36.4,25.416 L36.4,32.696 L34.944,32.696 L34.944,32.04 L30.656,32.04 L30.656,32.728 L29.184,32.728 L29.184,25.416 L36.4,25.416 Z M30.656,30.728 L34.944,30.728 L34.944,29.4 L30.656,29.4 L30.656,30.728 Z M30.656,28.12 L34.944,28.12 L34.944,26.728 L30.656,26.728 L30.656,28.12 Z M32.912,17.736 C33.104,18.2 33.296,18.728 33.488,19.304 L36.944,19.304 L36.944,20.744 L35.744,20.744 C35.584,21.56 35.36,22.328 35.104,23.064 L37.184,23.064 L37.184,24.504 L28.368,24.504 L28.368,23.064 L30.496,23.064 L29.92,20.744 L28.768,20.744 L28.768,19.304 L31.968,19.304 C31.776,18.824 31.568,18.392 31.344,17.992 L32.912,17.736 Z M31.92,23.064 L33.68,23.064 C33.984,22.312 34.208,21.544 34.368,20.744 L31.344,20.744 L31.92,23.064 Z M27.76,18.84 L27.76,30.776 L26.304,30.776 L26.304,30.024 L24.592,30.024 L24.592,31.112 L23.12,31.112 L23.12,18.84 L27.76,18.84 Z M24.592,28.584 L26.304,28.584 L26.304,25.176 L24.592,25.176 L24.592,28.584 Z M24.592,23.736 L26.304,23.736 L26.304,20.264 L24.592,20.264 L24.592,23.736 Z M52.208,18.424 L63.792,18.424 L63.792,24.328 L58.752,24.328 L58.752,25.32 L64.032,25.32 L64.032,26.616 L58.752,26.616 L58.752,27.656 L64.96,27.656 L64.96,28.984 L51.024,28.984 L51.024,27.656 L57.248,27.656 L57.248,26.616 L51.952,26.616 L51.952,25.32 L57.248,25.32 L57.248,24.328 L52.208,24.328 L52.208,18.424 Z M62.336,23.064 L62.336,22.008 L58.704,22.008 L58.704,23.064 L62.336,23.064 Z M57.296,23.064 L57.296,22.008 L53.648,22.008 L53.648,23.064 L57.296,23.064 Z M53.648,20.808 L57.296,20.808 L57.296,19.672 L53.648,19.672 L53.648,20.808 Z M58.704,19.672 L58.704,20.808 L62.336,20.808 L62.336,19.672 L58.704,19.672 Z M52.432,29.416 C52.048,30.536 51.6,31.448 51.088,32.184 L52.496,32.68 C53.008,31.848 53.424,30.872 53.76,29.768 L52.432,29.416 Z M56.48,29.592 L55.12,29.88 C55.424,30.68 55.68,31.624 55.888,32.68 L57.36,32.344 C57.104,31.352 56.8,30.424 56.48,29.592 Z M59.84,29.512 L58.48,29.8 C58.896,30.616 59.232,31.56 59.52,32.648 L60.976,32.312 C60.656,31.304 60.272,30.376 59.84,29.512 Z M63.04,29.304 L61.872,30.04 C62.64,31.016 63.264,31.896 63.712,32.696 L64.912,31.848 C64.48,31.128 63.856,30.28 63.04,29.304 Z M80.16,18.04 C81.232,18.888 82.144,19.72 82.88,20.552 L81.808,21.608 C81.168,20.808 80.272,19.96 79.12,19.032 L80.16,18.04 Z M89.344,32.408 C88.464,32.408 87.504,32.392 86.48,32.376 C85.44,32.36 84.592,32.264 83.936,32.072 C83.296,31.88 82.736,31.512 82.256,30.968 C82.032,30.68 81.824,30.552 81.648,30.552 C81.296,30.552 80.72,31.272 79.904,32.712 L78.784,31.672 C79.584,30.376 80.32,29.56 80.96,29.24 L80.96,24.712 L78.816,24.712 L78.816,23.304 L82.384,23.304 L82.384,29.384 C82.448,29.448 82.528,29.512 82.608,29.608 C82.992,30.056 83.376,30.392 83.776,30.616 C84.256,30.872 84.96,31 85.904,31.032 C86.816,31.048 87.888,31.064 89.136,31.064 C89.92,31.064 90.72,31.048 91.52,31.032 C92.32,31.016 92.944,30.984 93.376,30.952 L93.04,32.408 L89.344,32.408 Z M88.896,21.848 L88.784,21.848 L88.784,24.04 L87.312,24.04 L87.312,21.848 L87.2,21.848 C86.416,23.064 85.216,24.056 83.616,24.856 L82.864,23.608 C84.176,23.128 85.168,22.536 85.856,21.848 L83.552,21.848 L83.552,20.536 L87.312,20.536 L87.312,19.736 C86.384,19.784 85.376,19.816 84.304,19.816 L83.888,18.632 C86.8,18.632 89.248,18.408 91.232,17.976 L91.904,19.128 C90.992,19.336 89.952,19.496 88.784,19.624 L88.784,20.536 L92.544,20.536 L92.544,21.848 L90.224,21.848 C90.992,22.488 92.032,23.048 93.328,23.528 L92.672,24.776 C91.136,24.04 89.872,23.064 88.896,21.848 Z M84.592,24.504 L90.736,24.504 L90.736,25.176 C90.64,25.592 90.528,25.96 90.4,26.312 L92.416,26.312 L92.416,27.048 C92.256,28.584 92.032,29.512 91.712,29.864 C91.392,30.184 90.944,30.376 90.336,30.408 C89.808,30.408 89.152,30.424 88.352,30.424 L87.904,29.048 C88.608,29.144 89.152,29.192 89.504,29.192 C89.968,29.192 90.32,29.112 90.544,28.952 C90.768,28.792 90.928,28.312 91.024,27.496 L88.704,27.496 C88.896,26.984 89.056,26.44 89.216,25.848 L87.296,25.848 C87.056,27.88 85.936,29.368 83.952,30.296 L83.152,29.016 C84.752,28.376 85.664,27.32 85.904,25.848 L84.592,25.848 L84.592,24.504 Z M108.656,26.488 C108.176,27.016 107.648,27.544 107.072,28.056 L106.592,26.472 C108.448,24.744 109.696,23.064 110.368,21.432 L106.944,21.432 L106.944,19.976 L108.96,19.976 C108.768,19.352 108.528,18.744 108.272,18.152 L109.712,17.736 C110,18.552 110.224,19.304 110.384,19.976 L111.872,19.976 L111.872,21.256 C111.504,22.392 110.928,23.512 110.16,24.632 C110.896,25.096 111.584,25.64 112.224,26.248 L111.392,27.512 C110.976,27.032 110.576,26.616 110.16,26.264 L110.16,32.6 L108.656,32.6 L108.656,26.488 Z M112.528,18.392 L120.24,18.392 L120.24,27.512 L118.432,27.512 L118.432,30.584 C118.432,30.84 118.544,30.984 118.8,31.032 L119.568,31.032 C119.824,31 119.968,30.792 120,30.392 C120.048,29.944 120.08,29.32 120.08,28.488 L121.408,28.984 C121.408,30.52 121.28,31.48 121.056,31.832 C120.848,32.152 120.368,32.328 119.632,32.392 L118.752,32.392 C117.584,32.392 117.008,31.88 117.008,30.872 L117.008,27.512 L115.552,27.512 C115.328,29.848 114.16,31.544 112.048,32.6 L111.248,31.336 C112.944,30.568 113.904,29.304 114.128,27.512 L112.528,27.512 L112.528,18.392 Z M118.752,26.232 L118.752,24.808 L114.016,24.808 L114.016,26.232 L118.752,26.232 Z M114.016,23.608 L118.752,23.608 L118.752,22.2 L114.016,22.2 L114.016,23.608 Z M114.016,20.984 L118.752,20.984 L118.752,19.688 L114.016,19.688 L114.016,20.984 Z M146.576,32.504 L145.04,32.504 L144.72,31.096 C145.2,31.16 145.648,31.192 146.064,31.192 C146.384,31.192 146.56,31.016 146.56,30.664 L146.56,24.392 L144.816,24.392 L144.816,22.952 L149.312,22.952 L149.312,24.392 L148.032,24.392 L148.032,31.016 C148.032,32.008 147.536,32.504 146.576,32.504 Z M145.056,18.824 L145.056,20.248 L149.088,20.248 L149.088,18.824 L145.056,18.824 Z M137.744,17.912 L139.04,18.536 C138.256,20.232 136.928,21.768 135.056,23.144 L134.608,21.688 C136.016,20.6 137.072,19.352 137.744,17.912 Z M137.872,21.96 L139.168,22.552 C138.88,23.208 138.512,23.832 138.096,24.44 L138.096,32.6 L136.624,32.6 L136.624,26.152 C136.144,26.616 135.616,27.064 135.072,27.496 L134.64,26.072 C136.112,24.888 137.184,23.512 137.872,21.96 Z M144.032,18.584 C144.32,19.192 144.56,19.848 144.784,20.552 L143.744,21.016 C143.52,20.232 143.264,19.544 142.992,18.936 L144.032,18.584 Z M141.008,22.808 L139.408,22.808 L139.408,21.432 L141.248,21.432 L141.248,17.944 L142.656,17.944 L142.656,21.432 L144.512,21.432 L144.512,22.808 L142.656,22.808 L142.656,24.232 C143.408,25.16 144.176,26.216 144.96,27.368 L144.096,28.648 C143.552,27.528 143.072,26.616 142.656,25.896 L142.656,32.6 L141.248,32.6 L141.248,26.264 C140.736,27.928 140.096,29.384 139.328,30.632 L138.464,29.24 C139.632,27.544 140.48,25.4 141.008,22.808 Z",
+                            d: "M36.4,25.416 L36.4,32.696 L34.944,32.696 L34.944,32.04 L30.656,32.04 L30.656,32.728 L29.184,32.728 L29.184,25.416 L36.4,25.416 Z M30.656,30.728 L34.944,30.728 L34.944,29.4 L30.656,29.4 L30.656,30.728 Z M30.656,28.12 L34.944,28.12 L34.944,26.728 L30.656,26.728 L30.656,28.12 Z M32.912,17.736 C33.104,18.2 33.296,18.728 33.488,19.304 L36.944,19.304 L36.944,20.744 L35.744,20.744 C35.584,21.56 35.36,22.328 35.104,23.064 L37.184,23.064 L37.184,24.504 L28.368,24.504 L28.368,23.064 L30.496,23.064 L29.92,20.744 L28.768,20.744 L28.768,19.304 L31.968,19.304 C31.776,18.824 31.568,18.392 31.344,17.992 L32.912,17.736 Z M31.92,23.064 L33.68,23.064 C33.984,22.312 34.208,21.544 34.368,20.744 L31.344,20.744 L31.92,23.064 Z M27.76,18.84 L27.76,30.776 L26.304,30.776 L26.304,30.024 L24.592,30.024 L24.592,31.112 L23.12,31.112 L23.12,18.84 L27.76,18.84 Z M24.592,28.584 L26.304,28.584 L26.304,25.176 L24.592,25.176 L24.592,28.584 Z M24.592,23.736 L26.304,23.736 L26.304,20.264 L24.592,20.264 L24.592,23.736 Z M52.208,18.424 L63.792,18.424 L63.792,24.328 L58.752,24.328 L58.752,25.32 L64.032,25.32 L64.032,26.616 L58.752,26.616 L58.752,27.656 L64.96,27.656 L64.96,28.984 L51.024,28.984 L51.024,27.656 L57.248,27.656 L57.248,26.616 L51.952,26.616 L51.952,25.32 L57.248,25.32 L57.248,24.328 L52.208,24.328 L52.208,18.424 Z M62.336,23.064 L62.336,22.008 L58.704,22.008 L58.704,23.064 L62.336,23.064 Z M57.296,23.064 L57.296,22.008 L53.648,22.008 L53.648,23.064 L57.296,23.064 Z M53.648,20.808 L57.296,20.808 L57.296,19.672 L53.648,19.672 L53.648,20.808 Z M58.704,19.672 L58.704,20.808 L62.336,20.808 L62.336,19.672 L58.704,19.672 Z M52.432,29.416 C52.048,30.536 51.6,31.448 51.088,32.184 L52.496,32.68 C53.008,31.848 53.424,30.872 53.76,29.768 L52.432,29.416 Z M56.48,29.592 L55.12,29.88 C55.424,30.68 55.68,31.624 55.888,32.68 L57.36,32.344 C57.104,31.352 56.8,30.424 56.48,29.592 Z M59.84,29.512 L58.48,29.8 C58.896,30.616 59.232,31.56 59.52,32.648 L60.976,32.312 C60.656,31.304 60.272,30.376 59.84,29.512 Z M63.04,29.304 L61.872,30.04 C62.64,31.016 63.264,31.896 63.712,32.696 L64.912,31.848 C64.48,31.128 63.856,30.28 63.04,29.304 Z M80.16,18.04 C81.232,18.888 82.144,19.72 82.88,20.552 L81.808,21.608 C81.168,20.808 80.272,19.96 79.12,19.032 L80.16,18.04 Z M89.344,32.408 C88.464,32.408 87.504,32.392 86.48,32.376 C85.44,32.36 84.592,32.264 83.936,32.072 C83.296,31.88 82.736,31.512 82.256,30.968 C82.032,30.68 81.824,30.552 81.648,30.552 C81.296,30.552 80.72,31.272 79.904,32.712 L78.784,31.672 C79.584,30.376 80.32,29.56 80.96,29.24 L80.96,24.712 L78.816,24.712 L78.816,23.304 L82.384,23.304 L82.384,29.384 C82.448,29.448 82.528,29.512 82.608,29.608 C82.992,30.056 83.376,30.392 83.776,30.616 C84.256,30.872 84.96,31 85.904,31.032 C86.816,31.048 87.888,31.064 89.136,31.064 C89.92,31.064 90.72,31.048 91.52,31.032 C92.32,31.016 92.944,30.984 93.376,30.952 L93.04,32.408 L89.344,32.408 Z M88.896,21.848 L88.784,21.848 L88.784,24.04 L87.312,24.04 L87.312,21.848 L87.2,21.848 C86.416,23.064 85.216,24.056 83.616,24.856 L82.864,23.608 C84.176,23.128 85.168,22.536 85.856,21.848 L83.552,21.848 L83.552,20.536 L87.312,20.536 L87.312,19.736 C86.384,19.784 85.376,19.816 84.304,19.816 L83.888,18.632 C86.8,18.632 89.248,18.408 91.232,17.976 L91.904,19.128 C90.992,19.336 89.952,19.496 88.784,19.624 L88.784,20.536 L92.544,20.536 L92.544,21.848 L90.224,21.848 C90.992,22.488 92.032,23.048 93.328,23.528 L92.672,24.776 C91.136,24.04 89.872,23.064 88.896,21.848 Z M84.592,24.504 L90.736,24.504 L90.736,25.176 C90.64,25.592 90.528,25.96 90.4,26.312 L92.416,26.312 L92.416,27.048 C92.256,28.584 92.032,29.512 91.712,29.864 C91.392,30.184 90.944,30.376 90.336,30.408 C89.808,30.408 89.152,30.424 88.352,30.424 L87.904,29.048 C88.608,29.144 89.152,29.192 89.504,29.192 C89.968,29.192 90.32,29.112 90.544,28.952 C90.768,28.792 90.928,28.312 91.024,27.496 L88.704,27.496 C88.896,26.984 89.056,26.44 89.216,25.848 L87.296,25.848 C87.056,27.88 85.936,29.368 83.952,30.296 L83.152,29.016 C84.752,28.376 85.664,27.32 85.904,25.848 L84.592,25.848 L84.592,24.504 Z M108.656,26.488 C108.176,27.016 107.648,27.544 107.072,28.056 L106.592,26.472 C108.448,24.744 109.696,23.064 110.368,21.432 L106.944,21.432 L106.944,19.976 L108.96,19.976 C108.768,19.352 108.528,18.744 108.272,18.152 L109.712,17.736 C110,18.552 110.224,19.304 110.384,19.976 L111.872,19.976 L111.872,21.256 C111.504,22.392 110.928,23.512 110.16,24.632 C110.896,25.096 111.584,25.64 112.224,26.248 L111.392,27.512 C110.976,27.032 110.576,26.616 110.16,26.264 L110.16,32.6 L108.656,32.6 L108.656,26.488 Z M112.528,18.392 L120.24,18.392 L120.24,27.512 L118.432,27.512 L118.432,30.584 C118.432,30.84 118.544,30.984 118.8,31.032 L119.568,31.032 C119.824,31 119.968,30.792 120,30.392 C120.048,29.944 120.08,29.32 120.08,28.488 L121.408,28.984 C121.408,30.52 121.28,31.48 121.056,31.832 C120.848,32.152 120.368,32.328 119.632,32.392 L118.752,32.392 C117.584,32.392 117.008,31.88 117.008,30.872 L117.008,27.512 L115.552,27.512 C115.328,29.848 114.16,31.544 112.048,32.6 L111.248,31.336 C112.944,30.568 113.904,29.304 114.128,27.512 L112.528,27.512 L112.528,18.392 Z M118.752,26.232 L118.752,24.808 L114.016,24.808 L114.016,26.232 L118.752,26.232 Z M114.016,23.608 L118.752,23.608 L118.752,22.2 L114.016,22.2 L114.016,23.608 Z M114.016,20.984 L118.752,20.984 L118.752,19.688 L114.016,19.688 L114.016,20.984 Z M146.576,32.504 L145.04,32.504 L144.72,31.096 C145.2,31.16 145.648,31.192 146.064,31.192 C146.384,31.192 146.56,31.016 146.56,30.664 L146.56,24.392 L144.816,24.392 L144.816,22.952 L149.312,22.952 L149.312,24.392 L148.032,24.392 L148.032,31.016 C148.032,32.008 147.536,32.504 146.576,32.504 Z M145.056,18.824 L145.056,20.248 L149.088,20.248 L149.088,18.824 L145.056,18.824 Z M137.744,17.912 L139.04,18.536 C138.256,20.232 136.928,21.768 135.056,23.144 L134.608,21.688 C136.016,20.6 137.072,19.352 137.744,17.912 Z M137.872,21.96 L139.168,22.552 C138.88,23.208 138.512,23.832 138.096,24.44 L138.096,32.6 L136.624,32.6 L136.624,26.152 C136.144,26.616 135.616,27.064 135.072,27.496 L134.64,26.072 C136.112,24.888 137.184,23.512 137.872,21.96 Z M144.032,18.584 C144.32,19.192 144.56,19.848 144.784,20.552 L143.744,21.016 C143.52,20.232 143.264,19.544 142.992,18.936 L144.032,18.584 Z M141.008,22.808 L139.408,22.808 L139.408,21.432 L141.248,21.432 L141.248,17.944 L142.656,17.944 L142.656,21.432 L144.512,21.432 L144.512,22.808 L142.656,22.808 L142.656,24.232 C143.408,25.16 144.176,26.216 144.96,27.368 L144.096,28.648 C143.552,27.528 143.072,26.616 142.656,25.896 L142.656,32.6 L141.248,32.6 L141.248,26.264 C140.736,27.928 140.096,29.384 139.328,30.632 L138.464,29.24 C139.632,27.544 140.48,25.4 141.008,22.808 Z",
                           }),
                           d.default.createElement("path", {
-                            d:
-                              "M2,2 L2,48 L173,48 L173,2 L2,2 Z M0,0 L175,0 L175,50 L0,50 L0,0 Z",
+                            d: "M2,2 L2,48 L173,48 L173,2 L2,2 Z M0,0 L175,0 L175,50 L0,50 L0,0 Z",
                           })
                         )
                       ),
                       d.default.createElement(
-                        "p",
-                        { className: "copy animation-lines" },
+                        "p", {
+                          className: "copy animation-lines"
+                        },
                         "The journey of Izuya raised in Ny\u014Dk\u014D and the  legendary artefact",
                         d.default.createElement(
                           "span",
@@ -42165,19 +42378,18 @@ object-assign
                       )
                     ),
                     d.default.createElement(
-                      "a",
-                      {
+                      "a", {
                         href: "/#journeydetails/chapter1",
                         className: "btn btn-flag btn-story",
                         onClick: this.onClick,
                         "data-pagehash": "journeydetails/chapter1",
                       },
                       d.default.createElement(
-                        "div",
-                        { className: "flag-container animation-default" },
+                        "div", {
+                          className: "flag-container animation-default"
+                        },
                         d.default.createElement(
-                          "svg",
-                          {
+                          "svg", {
                             className: "flag",
                             width: "175px",
                             height: "50px",
@@ -42190,36 +42402,39 @@ object-assign
                           }),
                           d.default.createElement("path", {
                             className: "characters",
-                            d:
-                              "M36.4,25.416 L36.4,32.696 L34.944,32.696 L34.944,32.04 L30.656,32.04 L30.656,32.728 L29.184,32.728 L29.184,25.416 L36.4,25.416 Z M30.656,30.728 L34.944,30.728 L34.944,29.4 L30.656,29.4 L30.656,30.728 Z M30.656,28.12 L34.944,28.12 L34.944,26.728 L30.656,26.728 L30.656,28.12 Z M32.912,17.736 C33.104,18.2 33.296,18.728 33.488,19.304 L36.944,19.304 L36.944,20.744 L35.744,20.744 C35.584,21.56 35.36,22.328 35.104,23.064 L37.184,23.064 L37.184,24.504 L28.368,24.504 L28.368,23.064 L30.496,23.064 L29.92,20.744 L28.768,20.744 L28.768,19.304 L31.968,19.304 C31.776,18.824 31.568,18.392 31.344,17.992 L32.912,17.736 Z M31.92,23.064 L33.68,23.064 C33.984,22.312 34.208,21.544 34.368,20.744 L31.344,20.744 L31.92,23.064 Z M27.76,18.84 L27.76,30.776 L26.304,30.776 L26.304,30.024 L24.592,30.024 L24.592,31.112 L23.12,31.112 L23.12,18.84 L27.76,18.84 Z M24.592,28.584 L26.304,28.584 L26.304,25.176 L24.592,25.176 L24.592,28.584 Z M24.592,23.736 L26.304,23.736 L26.304,20.264 L24.592,20.264 L24.592,23.736 Z M52.208,18.424 L63.792,18.424 L63.792,24.328 L58.752,24.328 L58.752,25.32 L64.032,25.32 L64.032,26.616 L58.752,26.616 L58.752,27.656 L64.96,27.656 L64.96,28.984 L51.024,28.984 L51.024,27.656 L57.248,27.656 L57.248,26.616 L51.952,26.616 L51.952,25.32 L57.248,25.32 L57.248,24.328 L52.208,24.328 L52.208,18.424 Z M62.336,23.064 L62.336,22.008 L58.704,22.008 L58.704,23.064 L62.336,23.064 Z M57.296,23.064 L57.296,22.008 L53.648,22.008 L53.648,23.064 L57.296,23.064 Z M53.648,20.808 L57.296,20.808 L57.296,19.672 L53.648,19.672 L53.648,20.808 Z M58.704,19.672 L58.704,20.808 L62.336,20.808 L62.336,19.672 L58.704,19.672 Z M52.432,29.416 C52.048,30.536 51.6,31.448 51.088,32.184 L52.496,32.68 C53.008,31.848 53.424,30.872 53.76,29.768 L52.432,29.416 Z M56.48,29.592 L55.12,29.88 C55.424,30.68 55.68,31.624 55.888,32.68 L57.36,32.344 C57.104,31.352 56.8,30.424 56.48,29.592 Z M59.84,29.512 L58.48,29.8 C58.896,30.616 59.232,31.56 59.52,32.648 L60.976,32.312 C60.656,31.304 60.272,30.376 59.84,29.512 Z M63.04,29.304 L61.872,30.04 C62.64,31.016 63.264,31.896 63.712,32.696 L64.912,31.848 C64.48,31.128 63.856,30.28 63.04,29.304 Z M80.16,18.04 C81.232,18.888 82.144,19.72 82.88,20.552 L81.808,21.608 C81.168,20.808 80.272,19.96 79.12,19.032 L80.16,18.04 Z M89.344,32.408 C88.464,32.408 87.504,32.392 86.48,32.376 C85.44,32.36 84.592,32.264 83.936,32.072 C83.296,31.88 82.736,31.512 82.256,30.968 C82.032,30.68 81.824,30.552 81.648,30.552 C81.296,30.552 80.72,31.272 79.904,32.712 L78.784,31.672 C79.584,30.376 80.32,29.56 80.96,29.24 L80.96,24.712 L78.816,24.712 L78.816,23.304 L82.384,23.304 L82.384,29.384 C82.448,29.448 82.528,29.512 82.608,29.608 C82.992,30.056 83.376,30.392 83.776,30.616 C84.256,30.872 84.96,31 85.904,31.032 C86.816,31.048 87.888,31.064 89.136,31.064 C89.92,31.064 90.72,31.048 91.52,31.032 C92.32,31.016 92.944,30.984 93.376,30.952 L93.04,32.408 L89.344,32.408 Z M88.896,21.848 L88.784,21.848 L88.784,24.04 L87.312,24.04 L87.312,21.848 L87.2,21.848 C86.416,23.064 85.216,24.056 83.616,24.856 L82.864,23.608 C84.176,23.128 85.168,22.536 85.856,21.848 L83.552,21.848 L83.552,20.536 L87.312,20.536 L87.312,19.736 C86.384,19.784 85.376,19.816 84.304,19.816 L83.888,18.632 C86.8,18.632 89.248,18.408 91.232,17.976 L91.904,19.128 C90.992,19.336 89.952,19.496 88.784,19.624 L88.784,20.536 L92.544,20.536 L92.544,21.848 L90.224,21.848 C90.992,22.488 92.032,23.048 93.328,23.528 L92.672,24.776 C91.136,24.04 89.872,23.064 88.896,21.848 Z M84.592,24.504 L90.736,24.504 L90.736,25.176 C90.64,25.592 90.528,25.96 90.4,26.312 L92.416,26.312 L92.416,27.048 C92.256,28.584 92.032,29.512 91.712,29.864 C91.392,30.184 90.944,30.376 90.336,30.408 C89.808,30.408 89.152,30.424 88.352,30.424 L87.904,29.048 C88.608,29.144 89.152,29.192 89.504,29.192 C89.968,29.192 90.32,29.112 90.544,28.952 C90.768,28.792 90.928,28.312 91.024,27.496 L88.704,27.496 C88.896,26.984 89.056,26.44 89.216,25.848 L87.296,25.848 C87.056,27.88 85.936,29.368 83.952,30.296 L83.152,29.016 C84.752,28.376 85.664,27.32 85.904,25.848 L84.592,25.848 L84.592,24.504 Z M108.656,26.488 C108.176,27.016 107.648,27.544 107.072,28.056 L106.592,26.472 C108.448,24.744 109.696,23.064 110.368,21.432 L106.944,21.432 L106.944,19.976 L108.96,19.976 C108.768,19.352 108.528,18.744 108.272,18.152 L109.712,17.736 C110,18.552 110.224,19.304 110.384,19.976 L111.872,19.976 L111.872,21.256 C111.504,22.392 110.928,23.512 110.16,24.632 C110.896,25.096 111.584,25.64 112.224,26.248 L111.392,27.512 C110.976,27.032 110.576,26.616 110.16,26.264 L110.16,32.6 L108.656,32.6 L108.656,26.488 Z M112.528,18.392 L120.24,18.392 L120.24,27.512 L118.432,27.512 L118.432,30.584 C118.432,30.84 118.544,30.984 118.8,31.032 L119.568,31.032 C119.824,31 119.968,30.792 120,30.392 C120.048,29.944 120.08,29.32 120.08,28.488 L121.408,28.984 C121.408,30.52 121.28,31.48 121.056,31.832 C120.848,32.152 120.368,32.328 119.632,32.392 L118.752,32.392 C117.584,32.392 117.008,31.88 117.008,30.872 L117.008,27.512 L115.552,27.512 C115.328,29.848 114.16,31.544 112.048,32.6 L111.248,31.336 C112.944,30.568 113.904,29.304 114.128,27.512 L112.528,27.512 L112.528,18.392 Z M118.752,26.232 L118.752,24.808 L114.016,24.808 L114.016,26.232 L118.752,26.232 Z M114.016,23.608 L118.752,23.608 L118.752,22.2 L114.016,22.2 L114.016,23.608 Z M114.016,20.984 L118.752,20.984 L118.752,19.688 L114.016,19.688 L114.016,20.984 Z M146.576,32.504 L145.04,32.504 L144.72,31.096 C145.2,31.16 145.648,31.192 146.064,31.192 C146.384,31.192 146.56,31.016 146.56,30.664 L146.56,24.392 L144.816,24.392 L144.816,22.952 L149.312,22.952 L149.312,24.392 L148.032,24.392 L148.032,31.016 C148.032,32.008 147.536,32.504 146.576,32.504 Z M145.056,18.824 L145.056,20.248 L149.088,20.248 L149.088,18.824 L145.056,18.824 Z M137.744,17.912 L139.04,18.536 C138.256,20.232 136.928,21.768 135.056,23.144 L134.608,21.688 C136.016,20.6 137.072,19.352 137.744,17.912 Z M137.872,21.96 L139.168,22.552 C138.88,23.208 138.512,23.832 138.096,24.44 L138.096,32.6 L136.624,32.6 L136.624,26.152 C136.144,26.616 135.616,27.064 135.072,27.496 L134.64,26.072 C136.112,24.888 137.184,23.512 137.872,21.96 Z M144.032,18.584 C144.32,19.192 144.56,19.848 144.784,20.552 L143.744,21.016 C143.52,20.232 143.264,19.544 142.992,18.936 L144.032,18.584 Z M141.008,22.808 L139.408,22.808 L139.408,21.432 L141.248,21.432 L141.248,17.944 L142.656,17.944 L142.656,21.432 L144.512,21.432 L144.512,22.808 L142.656,22.808 L142.656,24.232 C143.408,25.16 144.176,26.216 144.96,27.368 L144.096,28.648 C143.552,27.528 143.072,26.616 142.656,25.896 L142.656,32.6 L141.248,32.6 L141.248,26.264 C140.736,27.928 140.096,29.384 139.328,30.632 L138.464,29.24 C139.632,27.544 140.48,25.4 141.008,22.808 Z",
+                            d: "M36.4,25.416 L36.4,32.696 L34.944,32.696 L34.944,32.04 L30.656,32.04 L30.656,32.728 L29.184,32.728 L29.184,25.416 L36.4,25.416 Z M30.656,30.728 L34.944,30.728 L34.944,29.4 L30.656,29.4 L30.656,30.728 Z M30.656,28.12 L34.944,28.12 L34.944,26.728 L30.656,26.728 L30.656,28.12 Z M32.912,17.736 C33.104,18.2 33.296,18.728 33.488,19.304 L36.944,19.304 L36.944,20.744 L35.744,20.744 C35.584,21.56 35.36,22.328 35.104,23.064 L37.184,23.064 L37.184,24.504 L28.368,24.504 L28.368,23.064 L30.496,23.064 L29.92,20.744 L28.768,20.744 L28.768,19.304 L31.968,19.304 C31.776,18.824 31.568,18.392 31.344,17.992 L32.912,17.736 Z M31.92,23.064 L33.68,23.064 C33.984,22.312 34.208,21.544 34.368,20.744 L31.344,20.744 L31.92,23.064 Z M27.76,18.84 L27.76,30.776 L26.304,30.776 L26.304,30.024 L24.592,30.024 L24.592,31.112 L23.12,31.112 L23.12,18.84 L27.76,18.84 Z M24.592,28.584 L26.304,28.584 L26.304,25.176 L24.592,25.176 L24.592,28.584 Z M24.592,23.736 L26.304,23.736 L26.304,20.264 L24.592,20.264 L24.592,23.736 Z M52.208,18.424 L63.792,18.424 L63.792,24.328 L58.752,24.328 L58.752,25.32 L64.032,25.32 L64.032,26.616 L58.752,26.616 L58.752,27.656 L64.96,27.656 L64.96,28.984 L51.024,28.984 L51.024,27.656 L57.248,27.656 L57.248,26.616 L51.952,26.616 L51.952,25.32 L57.248,25.32 L57.248,24.328 L52.208,24.328 L52.208,18.424 Z M62.336,23.064 L62.336,22.008 L58.704,22.008 L58.704,23.064 L62.336,23.064 Z M57.296,23.064 L57.296,22.008 L53.648,22.008 L53.648,23.064 L57.296,23.064 Z M53.648,20.808 L57.296,20.808 L57.296,19.672 L53.648,19.672 L53.648,20.808 Z M58.704,19.672 L58.704,20.808 L62.336,20.808 L62.336,19.672 L58.704,19.672 Z M52.432,29.416 C52.048,30.536 51.6,31.448 51.088,32.184 L52.496,32.68 C53.008,31.848 53.424,30.872 53.76,29.768 L52.432,29.416 Z M56.48,29.592 L55.12,29.88 C55.424,30.68 55.68,31.624 55.888,32.68 L57.36,32.344 C57.104,31.352 56.8,30.424 56.48,29.592 Z M59.84,29.512 L58.48,29.8 C58.896,30.616 59.232,31.56 59.52,32.648 L60.976,32.312 C60.656,31.304 60.272,30.376 59.84,29.512 Z M63.04,29.304 L61.872,30.04 C62.64,31.016 63.264,31.896 63.712,32.696 L64.912,31.848 C64.48,31.128 63.856,30.28 63.04,29.304 Z M80.16,18.04 C81.232,18.888 82.144,19.72 82.88,20.552 L81.808,21.608 C81.168,20.808 80.272,19.96 79.12,19.032 L80.16,18.04 Z M89.344,32.408 C88.464,32.408 87.504,32.392 86.48,32.376 C85.44,32.36 84.592,32.264 83.936,32.072 C83.296,31.88 82.736,31.512 82.256,30.968 C82.032,30.68 81.824,30.552 81.648,30.552 C81.296,30.552 80.72,31.272 79.904,32.712 L78.784,31.672 C79.584,30.376 80.32,29.56 80.96,29.24 L80.96,24.712 L78.816,24.712 L78.816,23.304 L82.384,23.304 L82.384,29.384 C82.448,29.448 82.528,29.512 82.608,29.608 C82.992,30.056 83.376,30.392 83.776,30.616 C84.256,30.872 84.96,31 85.904,31.032 C86.816,31.048 87.888,31.064 89.136,31.064 C89.92,31.064 90.72,31.048 91.52,31.032 C92.32,31.016 92.944,30.984 93.376,30.952 L93.04,32.408 L89.344,32.408 Z M88.896,21.848 L88.784,21.848 L88.784,24.04 L87.312,24.04 L87.312,21.848 L87.2,21.848 C86.416,23.064 85.216,24.056 83.616,24.856 L82.864,23.608 C84.176,23.128 85.168,22.536 85.856,21.848 L83.552,21.848 L83.552,20.536 L87.312,20.536 L87.312,19.736 C86.384,19.784 85.376,19.816 84.304,19.816 L83.888,18.632 C86.8,18.632 89.248,18.408 91.232,17.976 L91.904,19.128 C90.992,19.336 89.952,19.496 88.784,19.624 L88.784,20.536 L92.544,20.536 L92.544,21.848 L90.224,21.848 C90.992,22.488 92.032,23.048 93.328,23.528 L92.672,24.776 C91.136,24.04 89.872,23.064 88.896,21.848 Z M84.592,24.504 L90.736,24.504 L90.736,25.176 C90.64,25.592 90.528,25.96 90.4,26.312 L92.416,26.312 L92.416,27.048 C92.256,28.584 92.032,29.512 91.712,29.864 C91.392,30.184 90.944,30.376 90.336,30.408 C89.808,30.408 89.152,30.424 88.352,30.424 L87.904,29.048 C88.608,29.144 89.152,29.192 89.504,29.192 C89.968,29.192 90.32,29.112 90.544,28.952 C90.768,28.792 90.928,28.312 91.024,27.496 L88.704,27.496 C88.896,26.984 89.056,26.44 89.216,25.848 L87.296,25.848 C87.056,27.88 85.936,29.368 83.952,30.296 L83.152,29.016 C84.752,28.376 85.664,27.32 85.904,25.848 L84.592,25.848 L84.592,24.504 Z M108.656,26.488 C108.176,27.016 107.648,27.544 107.072,28.056 L106.592,26.472 C108.448,24.744 109.696,23.064 110.368,21.432 L106.944,21.432 L106.944,19.976 L108.96,19.976 C108.768,19.352 108.528,18.744 108.272,18.152 L109.712,17.736 C110,18.552 110.224,19.304 110.384,19.976 L111.872,19.976 L111.872,21.256 C111.504,22.392 110.928,23.512 110.16,24.632 C110.896,25.096 111.584,25.64 112.224,26.248 L111.392,27.512 C110.976,27.032 110.576,26.616 110.16,26.264 L110.16,32.6 L108.656,32.6 L108.656,26.488 Z M112.528,18.392 L120.24,18.392 L120.24,27.512 L118.432,27.512 L118.432,30.584 C118.432,30.84 118.544,30.984 118.8,31.032 L119.568,31.032 C119.824,31 119.968,30.792 120,30.392 C120.048,29.944 120.08,29.32 120.08,28.488 L121.408,28.984 C121.408,30.52 121.28,31.48 121.056,31.832 C120.848,32.152 120.368,32.328 119.632,32.392 L118.752,32.392 C117.584,32.392 117.008,31.88 117.008,30.872 L117.008,27.512 L115.552,27.512 C115.328,29.848 114.16,31.544 112.048,32.6 L111.248,31.336 C112.944,30.568 113.904,29.304 114.128,27.512 L112.528,27.512 L112.528,18.392 Z M118.752,26.232 L118.752,24.808 L114.016,24.808 L114.016,26.232 L118.752,26.232 Z M114.016,23.608 L118.752,23.608 L118.752,22.2 L114.016,22.2 L114.016,23.608 Z M114.016,20.984 L118.752,20.984 L118.752,19.688 L114.016,19.688 L114.016,20.984 Z M146.576,32.504 L145.04,32.504 L144.72,31.096 C145.2,31.16 145.648,31.192 146.064,31.192 C146.384,31.192 146.56,31.016 146.56,30.664 L146.56,24.392 L144.816,24.392 L144.816,22.952 L149.312,22.952 L149.312,24.392 L148.032,24.392 L148.032,31.016 C148.032,32.008 147.536,32.504 146.576,32.504 Z M145.056,18.824 L145.056,20.248 L149.088,20.248 L149.088,18.824 L145.056,18.824 Z M137.744,17.912 L139.04,18.536 C138.256,20.232 136.928,21.768 135.056,23.144 L134.608,21.688 C136.016,20.6 137.072,19.352 137.744,17.912 Z M137.872,21.96 L139.168,22.552 C138.88,23.208 138.512,23.832 138.096,24.44 L138.096,32.6 L136.624,32.6 L136.624,26.152 C136.144,26.616 135.616,27.064 135.072,27.496 L134.64,26.072 C136.112,24.888 137.184,23.512 137.872,21.96 Z M144.032,18.584 C144.32,19.192 144.56,19.848 144.784,20.552 L143.744,21.016 C143.52,20.232 143.264,19.544 142.992,18.936 L144.032,18.584 Z M141.008,22.808 L139.408,22.808 L139.408,21.432 L141.248,21.432 L141.248,17.944 L142.656,17.944 L142.656,21.432 L144.512,21.432 L144.512,22.808 L142.656,22.808 L142.656,24.232 C143.408,25.16 144.176,26.216 144.96,27.368 L144.096,28.648 C143.552,27.528 143.072,26.616 142.656,25.896 L142.656,32.6 L141.248,32.6 L141.248,26.264 C140.736,27.928 140.096,29.384 139.328,30.632 L138.464,29.24 C139.632,27.544 140.48,25.4 141.008,22.808 Z",
                           }),
                           d.default.createElement("path", {
-                            d:
-                              "M2,2 L2,48 L173,48 L173,2 L2,2 Z M0,0 L175,0 L175,50 L0,50 L0,0 Z",
+                            d: "M2,2 L2,48 L173,48 L173,2 L2,2 Z M0,0 L175,0 L175,50 L0,50 L0,0 Z",
                           })
                         )
                       ),
                       d.default.createElement(
-                        "h3",
-                        { className: "animation-default" },
+                        "h3", {
+                          className: "animation-default"
+                        },
                         "OUR FILM WORK"
                       ),
                       d.default.createElement(
-                        "div",
-                        { className: "paras" },
+                        "div", {
+                          className: "paras"
+                        },
                         d.default.createElement(
-                          "p",
-                          { className: "copy animation-lines" },
+                          "p", {
+                            className: "copy animation-lines"
+                          },
                           "Experience some of our"
                         ),
                         d.default.createElement(
-                          "p",
-                          { className: "copy animation-lines" },
+                          "p", {
+                            className: "copy animation-lines"
+                          },
                           "Films and Music videos we"
                         ),
                         d.default.createElement(
-                          "p",
-                          { className: "copy animation-lines" },
+                          "p", {
+                            className: "copy animation-lines"
+                          },
                           "created"
                         )
                       )
@@ -42475,11 +42690,32 @@ object-assign
                           showBackgroundVideo: !0,
                           backgroundVideo: "videoJourneyChapter3",
                         })
-                      : "chapter4" == e &&
+                      : "chapter4" == e ?
                         g.default.sendTo("setGlobalState", {
                           showBackgroundVideo: !0,
                           backgroundVideo: "videoJourneyChapter4",
+                        }) :
+                        "chapter5" == e ?
+                        g.default.sendTo("setGlobalState", {
+                          showBackgroundVideo: !0,
+                          backgroundVideo: "videoJourneyChapter5",
+                        }) :
+                        "chapter6" == e ?
+                        g.default.sendTo("setGlobalState", {
+                          showBackgroundVideo: !0,
+                          backgroundVideo: "videoJourneyChapter6",
+                        }) :
+                        "chapter7" == e ?
+                        g.default.sendTo("setGlobalState", {
+                          showBackgroundVideo: !0,
+                          backgroundVideo: "videoJourneyChapter7",
+                        }) :
+                        "chapter8" == e &&
+                        g.default.sendTo("setGlobalState", {
+                          showBackgroundVideo: !0,
+                          backgroundVideo: "videoJourneyChapter8",
                         });
+                      var t = this.$eleme
                   var t = this.$element.find(".detail." + e);
                   if ("" == this.detailpage) b.pageAnimations.detailsCopyIn(t);
                   else {
@@ -42553,8 +42789,7 @@ object-assign
                           "li",
                           null,
                           p.default.createElement(
-                            "a",
-                            {
+                            "a", {
                               href: "/#journeydetails/chapter1",
                               onClick: this.onNavClick,
                               "data-detail": "chapter1",
@@ -42567,8 +42802,7 @@ object-assign
                           "li",
                           null,
                           p.default.createElement(
-                            "a",
-                            {
+                            "a", {
                               href: "/#journeydetails/chapter2",
                               onClick: this.onNavClick,
                               "data-detail": "chapter2",
@@ -42581,8 +42815,7 @@ object-assign
                           "li",
                           null,
                           p.default.createElement(
-                            "a",
-                            {
+                            "a", {
                               href: "/#journeydetails/chapter3",
                               onClick: this.onNavClick,
                               "data-detail": "chapter3",
@@ -42595,8 +42828,7 @@ object-assign
                           "li",
                           null,
                           p.default.createElement(
-                            "a",
-                            {
+                            "a", {
                               href: "/#journeydetails/chapter4",
                               onClick: this.onNavClick,
                               "data-detail": "chapter4",
@@ -42604,15 +42836,69 @@ object-assign
                             },
                             "Music Video 2"
                           )
+                        ),
+                        p.default.createElement(
+                          "li",
+                          null,
+                          p.default.createElement(
+                            "a", {
+                              href: "/#journeydetails/chapter5",
+                              onClick: this.onNavClick,
+                              "data-detail": "chapter5",
+                              className: "chapter5",
+                            },
+                            "Arcadia"
+                          )
+                        ),
+                        p.default.createElement(
+                          "li",
+                          null,
+                          p.default.createElement(
+                            "a", {
+                              href: "/#journeydetails/chapter6",
+                              onClick: this.onNavClick,
+                              "data-detail": "chapter6",
+                              className: "chapter6",
+                            },
+                            "Uniqulo"
+                          )
+                        ),
+                        p.default.createElement(
+                          "li",
+                          null,
+                          p.default.createElement(
+                            "a", {
+                              href: "/#journeydetails/chapter7",
+                              onClick: this.onNavClick,
+                              "data-detail": "chapter7",
+                              className: "chapter7",
+                            },
+                            "Adidas"
+                          )
+                        ),
+                        p.default.createElement(
+                          "li",
+                          null,
+                          p.default.createElement(
+                            "a", {
+                              href: "/#journeydetails/chapter8",
+                              onClick: this.onNavClick,
+                              "data-detail": "chapter8",
+                              className: "chapter8",
+                            },
+                            "Suntory"
+                          )
                         )
                       )
                     ),
                     p.default.createElement(
-                      "div",
-                      { className: "detail-container" },
+                      "div", {
+                        className: "detail-container"
+                      },
                       p.default.createElement(
-                        "div",
-                        { className: "detail chapter1" },
+                        "div", {
+                          className: "detail chapter1"
+                        },
                         p.default.createElement("img", {
                           src: "./imgs/stripes.png",
                           className: "uber-stripe",
@@ -42634,8 +42920,9 @@ object-assign
                         )
                       ),
                       p.default.createElement(
-                        "div",
-                        { className: "detail chapter2" },
+                        "div", {
+                          className: "detail chapter2"
+                        },
                         p.default.createElement("img", {
                           src: "./imgs/stripes.png",
                           className: "uber-stripe",
@@ -42652,8 +42939,9 @@ object-assign
                           "Omotenashi お持もて成なし in Japanese means the act of servitude towards the customer not expecting anything in return, this is the foundation of Japanese culture so we wanted the story to highlight this important part of Japanese society."
                         ),
                         p.default.createElement(
-                          "p",
-                          { className: "italic" },
+                          "p", {
+                            className: "italic"
+                          },
                           "Shot | Directed: Guillermo Alarcon\
                             Producer: Jonathan Ealey\
                             Assistant Camera: Rodger Sono &  Hagen Van  Holland\
@@ -42661,8 +42949,9 @@ object-assign
                         )
                       ),
                       p.default.createElement(
-                        "div",
-                        { className: "detail chapter3" },
+                        "div", {
+                          className: "detail chapter3"
+                        },
                         p.default.createElement("h3", null, "Music Video 1"),
                         p.default.createElement("img", {
                           src: "./imgs/stripes.png",
@@ -42686,29 +42975,128 @@ object-assign
                         )
                       ),
                       p.default.createElement(
-                        "div",
-                        { className: "detail chapter4" },
+                        "div", {
+                          className: "detail chapter4",
+                          style: {
+                            bottom: "40vh"
+                          },
+                        },
                         p.default.createElement("h3", null, "Music Video 2"),
                         p.default.createElement("img", {
                           src: "./imgs/stripes.png",
                           className: "uber-stripe",
                         }),
+                        p.default.createElement("p", null, "Kevin Lasean"),
+                        p.default.createElement("br"),
                         p.default.createElement(
                           "p",
                           null,
-                          "Oluse is a Nigerian-American rapper based in\
-                          Los Angeles, CA. Oluse is an artist that you want\
-                          to know more about, to dive into what inspired him\
-                          to be the person he is today."
+                          "World Famous youtuber Kevin Lasean with over 7 million subscribers"
                         ),
                         p.default.createElement(
                           "p",
                           null,
-                          "As a Nigerian-American, you can hear subtle hints\
-                          that his style is not like the typical rapper. each song\
-                          is different and good in its own right. It has different\
-                          elements and a different style of cadence than what\
-                          we are used to in the world of music today."
+                          "Meta Studios shot his music video campaign during his visit to Japan."
+                        )
+                      ),
+                      p.default.createElement(
+                        "div", {
+                          className: "detail chapter5"
+                        },
+                        p.default.createElement("h3", null, "Arcadia"),
+                        p.default.createElement("img", {
+                          src: "./imgs/stripes.png",
+                          className: "uber-stripe",
+                        }),
+                        p.default.createElement("p", null, "Arcadia"),
+                        p.default.createElement(
+                          "p",
+                          null,
+                          "An adobe for the unconventional"
+                        ),
+                        p.default.createElement(
+                          "p",
+                          null,
+                          "Remember, captivate, and imagine through a collection of dynamice fine fragrances made in Dubai, UAE."
+                        )
+                      ),
+                      p.default.createElement(
+                        "div", {
+                          className: "detail chapter6"
+                        },
+                        p.default.createElement("h3", null, "Uniqlo"),
+                        p.default.createElement("img", {
+                          src: "./imgs/stripes.png",
+                          className: "uber-stripe",
+                        }),
+                        p.default.createElement("p", null, "Uniqlo"),
+                        p.default.createElement(
+                          "p",
+                          null,
+                          "UNIQULO proudly presents the special collection to celebrate the release of this memorable film."
+                        ),
+                        p.default.createElement(
+                          "p",
+                          null,
+                          "All of the arts drawn by acclaimed artists from Japan, US and UK express the world of Star Wars in their own ways."
+                        )
+                      ),
+                      p.default.createElement(
+                        "div", {
+                          className: "detail chapter7",
+                          style: {
+                            width: "800px"
+                          },
+                        },
+                        p.default.createElement("h3", null, "Adidas"),
+                        p.default.createElement("img", {
+                          src: "./imgs/stripes.png",
+                          className: "uber-stripe",
+                        }),
+                        p.default.createElement("p", null, "Adidas"),
+                        p.default.createElement(
+                          "p",
+                          null,
+                          "Wear the streets of Tokyo into our visuals."
+                        ),
+                        p.default.createElement(
+                          "p",
+                          null,
+                          "Adidas Originals has unvaulted the Japan exclusive NMD R1 in the US for the first time"
+                        ),
+                        p.default.createElement(
+                          "p",
+                          null,
+                          "Originally released in Japan 2019, the adidas Unvaulted NMD collection was conceived"
+                        ),
+                        p.default.createElement(
+                          "p",
+                          null,
+                          "by the adidas Creation Center in Tokyo through a visual collaboration with Foot Locker Inc."
+                        )
+                      ),
+                      p.default.createElement(
+                        "div", {
+                          className: "detail chapter8"
+                        },
+                        p.default.createElement("h3", null, "Suntory"),
+                        p.default.createElement("img", {
+                          src: "./imgs/stripes.png",
+                          className: "uber-stripe",
+                        }),
+                        p.default.createElement("p", null, "Suntory"),
+                        p.default.createElement(
+                          "p",
+                          null,
+                          "A visual series where renowned Tokyo-based photographer, Yuma Yamashita,\
+                          captures imagery highlighting the country's culture to bring the feel of these\
+                          Japanese high quality whiskies."
+                        ),
+                        p.default.createElement(
+                          "p",
+                          null,
+                          "Upon the first smell of the herbal notes, allow Hakushu® to bring you to its mountain\
+                          forest distillery with the fresh air of spring."
                         )
                       )
                     ),
@@ -43974,1499 +44362,1393 @@ object-assign
                   var e = window.APP.isMobile;
                   return e
                     ? p.default.createElement(
-                        "section",
-                        { className: "page page-getthechance", ref: "element" },
+                      "section", {
+                        className: "page page-getthechance",
+                        ref: "element"
+                      },
+                      p.default.createElement("video", {
+                        className: "cover-video",
+                        id: "cover-video",
+                        "data-origwidth": "292",
+                        "data-origheight": "183",
+                        loop: !0,
+                        muted: !0,
+                        playsInline: !0,
+                        preload: "auto",
+                      }),
+                      p.default.createElement(
+                        u.default, {
+                          component: m.firstChild.get
+                        },
+                        p.default.createElement(b.default, {
+                          clickhandler: this.onCloseButtonClick,
+                        })
+                      ),
+                      p.default.createElement(
+                        "div", {
+                          className: "stripe-section"
+                        },
                         p.default.createElement(
-                          "video",
-                          {
-                            className: "cover-video",
-                            "data-origwidth": "292",
-                            "data-origheight": "183",
-                            loop: !0,
-                            muted: !0,
-                            playsInline: !0,
-                            preload: "auto",
+                          "h1", {
+                            className: "animation-wrapper"
                           },
-                          p.default.createElement("source", {
-                            src: "/assets/videos/_mobile/flags/flag_white.mp4",
-                            type: "video/mp4",
-                          })
-                        ),
-                        p.default.createElement(
-                          "a",
-                          {
-                            href: "https://www.thegoodwillout.de/",
-                            target: "_blank",
-                            className: "tgwo-link",
-                            ref: "element",
-                          },
-                          p.default.createElement("img", {
-                            src:
-                              "https://www.ankoku-toshi-jutsu.com/assets/images/tgwo-logo-black.png",
-                            alt: "The Good Will Out",
-                            className: "tgwo-logo",
-                          })
-                        ),
-                        p.default.createElement(
-                          "a",
-                          {
-                            href: "http://www.adidas.de/",
-                            target: "_blank",
-                            className: "adidas-link",
-                            ref: "element",
-                          },
-                          p.default.createElement("img", {
-                            src:
-                              "https://www.ankoku-toshi-jutsu.com/assets/images/adidas-logo-black.png",
-                            alt: "Adidas",
-                            className: "adidas-logo",
-                          })
-                        ),
-                        p.default.createElement(
-                          "div",
-                          { className: "mobile-first" },
                           p.default.createElement(
-                            "h1",
-                            { className: "animation-wrapper" },
-                            p.default.createElement(
-                              "span",
-                              { className: "animation-slice" },
-                              "How\xA0to\xA0buy"
-                            )
+                            "span", {
+                              className: "animation-slice"
+                            },
+                            "Hiring"
                           ),
+                          p.default.createElement("br", null),
                           p.default.createElement(
-                            "div",
-                            { className: "sub" },
-                            p.default.createElement(
-                              "ul",
-                              null,
-                              p.default.createElement(
-                                "li",
-                                { className: "animation-default" },
-                                p.default.createElement(
-                                  "small",
-                                  null,
-                                  "TGWO release"
-                                ),
-                                p.default.createElement(
-                                  "span",
-                                  { className: "date" },
-                                  "16\xA0\u2014\xA009\xA0\u2014\xA017"
-                                )
-                              ),
-                              p.default.createElement(
-                                "li",
-                                { className: "animation-default" },
-                                p.default.createElement(
-                                  "small",
-                                  null,
-                                  "worldwide release"
-                                ),
-                                p.default.createElement(
-                                  "span",
-                                  { className: "date" },
-                                  "23\xA0\u2014\xA009\xA0\u2014\xA017"
-                                )
-                              )
-                            ),
-                            p.default.createElement(
-                              "div",
-                              { className: "intro animation-default" },
-                              p.default.createElement(
-                                "p",
-                                { className: "first" },
-                                "The The adidas Consortium x The Good Will Out NMD CS1 \u201AAnkoku Toshi Jutsu\u2019 is available at selected adidas consortium stores worldwide."
-                              ),
-                              p.default.createElement(
-                                "button",
-                                {
-                                  className: "button",
-                                  onClick: this.onShowFormButtonClick,
-                                },
-                                "View store list"
-                              )
-                            )
+                            "span", {
+                              className: "animation-slice"
+                            },
+                            "Teamwork _"
+                          )
+                        )
+                      ),
+                      p.default.createElement(
+                        "div", {
+                          className: "teaser-hiring animation-lines ",
+                          id: "decode-text",
+                        },
+                        "We are looking for a team of creative",
+                        p.default.createElement("br"),
+                        "artists, interested in working to develop",
+                        p.default.createElement("br"),
+                        "our upcoming video | community platform",
+                        p.default.createElement(
+                          "button", {
+                            className: "button-hiring",
+                          },
+                          "Learn More"
+                        )
+                      ),
+                      p.default.createElement(
+                        "div", {
+                          className: "hiring-back",
+                        },
+                        p.default.createElement("img", {
+                          src: "./imgs/hiring.png",
+                        })
+                      ),
+
+                      p.default.createElement(
+                        "div", {
+                          className: "shops"
+                        },
+                        p.default.createElement(
+                          "a", {
+                            href: "/#howtobuy",
+                            className: "back-button playclicksound",
+                          },
+                          "back"
+                        ),
+                        p.default.createElement(
+                          "h1", {
+                            className: "animation-wrapper"
+                          },
+                          p.default.createElement(
+                            "span", {
+                              className: "animation-slice"
+                            },
+                            "Adidas"
+                          ),
+                          p.default.createElement("br", null),
+                          p.default.createElement(
+                            "span", {
+                              className: "animation-slice"
+                            },
+                            "Consortium\xA0Stores"
                           )
                         ),
                         p.default.createElement(
-                          "div",
-                          { className: "mobile-second" },
+                          "div", {
+                            className: "shops-lists"
+                          },
                           p.default.createElement(
-                            u.default,
-                            { component: m.firstChild.get },
-                            p.default.createElement(b.default, {
-                              clickhandler: this.onFormCloseButtonClick,
-                            })
-                          ),
-                          p.default.createElement(
-                            "h1",
-                            { className: "animation-wrapper" },
+                            "ul", {
+                              className: "animation-lines"
+                            },
                             p.default.createElement(
-                              "span",
-                              { className: "animation-slice" },
-                              "Adidas"
+                              "li", {
+                                className: "header"
+                              },
+                              "North America"
                             ),
-                            p.default.createElement("br", null),
                             p.default.createElement(
-                              "span",
-                              { className: "animation-slice" },
-                              "Consortium\xA0Stores"
+                              "li",
+                              null,
+                              "Haven ",
+                              p.default.createElement("em", null, "CAN")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Livestock ",
+                              p.default.createElement("em", null, "CAN")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "NRML ",
+                              p.default.createElement("em", null, "CAN")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "OTH ",
+                              p.default.createElement("em", null, "CAN")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Addict ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "BAIT / Diamond Bar ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Barneys NYC (Madison Ave + ecom) ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Bodega ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Concepts ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Creme ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Dover Street Market NY ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Juice LA ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Kith NYC ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Mr. Porter ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Nice Kicks ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Packer Shoes, Inc. ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Proper ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "RSVP Gallery ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Shoe Gallery ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Sneaker Politics ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Sneakersnstuff USA ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Social Status ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "St. Alfred ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Ubiq / Mason ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Undefeated ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Wish Atlanta LLC ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Xhibition ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Commonwealth US ",
+                              p.default.createElement(
+                                "em",
+                                null,
+                                "Washington"
+                              )
                             )
                           ),
                           p.default.createElement(
-                            "div",
-                            { className: "shops-lists" },
+                            "ul", {
+                              className: "animation-lines"
+                            },
                             p.default.createElement(
-                              "ul",
-                              { className: "animation-lines" },
+                              "li", {
+                                className: "header"
+                              },
+                              "Europe"
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Avenue ",
+                              p.default.createElement("em", null, "Belgium")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Hunting & Collecting ",
+                              p.default.createElement("em", null, "Belgium")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Footshop ",
                               p.default.createElement(
-                                "li",
-                                { className: "header" },
-                                "North America"
-                              ),
-                              p.default.createElement(
-                                "li",
+                                "em",
                                 null,
-                                "Haven ",
-                                p.default.createElement("em", null, "CAN")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Livestock ",
-                                p.default.createElement("em", null, "CAN")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "NRML ",
-                                p.default.createElement("em", null, "CAN")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "OTH ",
-                                p.default.createElement("em", null, "CAN")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Addict ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "BAIT / Diamond Bar ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Barneys NYC (Madison Ave + ecom) ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Bodega ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Concepts ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Creme ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Dover Street Market NY ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Juice LA ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Kith NYC ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Mr. Porter ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Nice Kicks ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Packer Shoes, Inc. ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Proper ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "RSVP Gallery ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Shoe Gallery ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Sneaker Politics ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Sneakersnstuff USA ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Social Status ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "St. Alfred ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Ubiq / Mason ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Undefeated ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Wish Atlanta LLC ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Xhibition ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Commonwealth US ",
-                                p.default.createElement(
-                                  "em",
-                                  null,
-                                  "Washington"
-                                )
+                                "Czech Republic"
                               )
                             ),
                             p.default.createElement(
-                              "ul",
-                              { className: "animation-lines" },
+                              "li",
+                              null,
+                              "Naked ",
+                              p.default.createElement("em", null, "Denmark")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Norse Project ",
+                              p.default.createElement("em", null, "Denmark")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Wood Wood Denmark ",
+                              p.default.createElement("em", null, "Denmark")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Beamhill ",
+                              p.default.createElement("em", null, "Finland")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Acte2 ",
+                              p.default.createElement("em", null, "France")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Starcow ",
+                              p.default.createElement("em", null, "France")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Summer ",
+                              p.default.createElement("em", null, "France")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "No. 74 ",
+                              p.default.createElement("em", null, "Germany")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Overkill ",
+                              p.default.createElement("em", null, "Germany")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Solebox ",
+                              p.default.createElement("em", null, "Germany")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "The Good Will Out ",
+                              p.default.createElement("em", null, "Germany")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Uebervart ",
+                              p.default.createElement("em", null, "Germany")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Wood Wood Berlin ",
+                              p.default.createElement("em", null, "Germany")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Device1 ",
+                              p.default.createElement("em", null, "Greece")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "PHAT SOLES ",
+                              p.default.createElement("em", null, "Greece")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Slam Jam ",
+                              p.default.createElement("em", null, "Italy")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Sneakers 76 ",
+                              p.default.createElement("em", null, "Italy")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Suede ",
+                              p.default.createElement("em", null, "Italy")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Patta ",
                               p.default.createElement(
-                                "li",
-                                { className: "header" },
-                                "Europe"
-                              ),
-                              p.default.createElement(
-                                "li",
+                                "em",
                                 null,
-                                "Avenue ",
-                                p.default.createElement("em", null, "Belgium")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Hunting & Collecting ",
-                                p.default.createElement("em", null, "Belgium")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Footshop ",
-                                p.default.createElement(
-                                  "em",
-                                  null,
-                                  "Czech Republic"
-                                )
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Naked ",
-                                p.default.createElement("em", null, "Denmark")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Norse Project ",
-                                p.default.createElement("em", null, "Denmark")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Wood Wood Denmark ",
-                                p.default.createElement("em", null, "Denmark")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Beamhill ",
-                                p.default.createElement("em", null, "Finland")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Acte2 ",
-                                p.default.createElement("em", null, "France")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Starcow ",
-                                p.default.createElement("em", null, "France")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Summer ",
-                                p.default.createElement("em", null, "France")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "No. 74 ",
-                                p.default.createElement("em", null, "Germany")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Overkill ",
-                                p.default.createElement("em", null, "Germany")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Solebox ",
-                                p.default.createElement("em", null, "Germany")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "The Good Will Out ",
-                                p.default.createElement("em", null, "Germany")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Uebervart ",
-                                p.default.createElement("em", null, "Germany")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Wood Wood Berlin ",
-                                p.default.createElement("em", null, "Germany")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Device1 ",
-                                p.default.createElement("em", null, "Greece")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "PHAT SOLES ",
-                                p.default.createElement("em", null, "Greece")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Slam Jam ",
-                                p.default.createElement("em", null, "Italy")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Sneakers 76 ",
-                                p.default.createElement("em", null, "Italy")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Suede ",
-                                p.default.createElement("em", null, "Italy")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Patta ",
-                                p.default.createElement(
-                                  "em",
-                                  null,
-                                  "Netherlands"
-                                )
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "YME ",
-                                p.default.createElement("em", null, "Norway")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "limitEditions ",
-                                p.default.createElement("em", null, "Spain")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Sivas Des Calzo ",
-                                p.default.createElement("em", null, "Spain")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Sneakers'n'Stuff ",
-                                p.default.createElement("em", null, "Sweden")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Tres Bien Shop ",
-                                p.default.createElement("em", null, "Sweden")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Titolo ",
-                                p.default.createElement(
-                                  "em",
-                                  null,
-                                  "Switzerland"
-                                )
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Chmielna 20 Lab Store ",
-                                p.default.createElement("em", null, "Warsaw")
+                                "Netherlands"
                               )
                             ),
                             p.default.createElement(
-                              "ul",
-                              { className: "animation-lines" },
+                              "li",
+                              null,
+                              "YME ",
+                              p.default.createElement("em", null, "Norway")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "limitEditions ",
+                              p.default.createElement("em", null, "Spain")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Sivas Des Calzo ",
+                              p.default.createElement("em", null, "Spain")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Sneakers'n'Stuff ",
+                              p.default.createElement("em", null, "Sweden")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Tres Bien Shop ",
+                              p.default.createElement("em", null, "Sweden")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Titolo ",
                               p.default.createElement(
-                                "li",
-                                { className: "header" },
-                                "Asia"
-                              ),
-                              p.default.createElement(
-                                "li",
+                                "em",
                                 null,
-                                "Juice ",
-                                p.default.createElement("em", null, "China")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "CONCEPTS DUBAI ",
-                                p.default.createElement("em", null, "Dubai ")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "THE GOOD LIFE ",
-                                p.default.createElement("em", null, "Dubai ")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Level Shoedistrict ",
-                                p.default.createElement("em", null, "Emirates ")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "THE GOOD LIFE ",
-                                p.default.createElement("em", null, "Lebanon ")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "D-Mop / J-01 Hong ",
-                                p.default.createElement("em", null, "Kong ")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "EXI.T Hong ",
-                                p.default.createElement("em", null, "Kong")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Dice & Dice ",
-                                p.default.createElement("em", null, "JP")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "DSM Ginza ",
-                                p.default.createElement("em", null, "JP")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Mita Sneakers ",
-                                p.default.createElement("em", null, "JP")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Styles / VA ",
-                                p.default.createElement("em", null, "JP")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Undefeated JP ",
-                                p.default.createElement("em", null, "JP")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "United Arrows & Sons ",
-                                p.default.createElement("em", null, "JP ")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "CDG Seoul ",
-                                p.default.createElement("em", null, "Korea")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Kasina Korea Commonwealth ",
-                                p.default.createElement(
-                                  "em",
-                                  null,
-                                  "Philippines "
-                                )
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Brandshop ",
-                                p.default.createElement("em", null, "Russia")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "KM20 ",
-                                p.default.createElement("em", null, "Russia")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "DSM Singapore ",
-                                p.default.createElement("em", null, "Singapore")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "LE Vault/ The Chamber ",
-                                p.default.createElement("em", null, "Singapore")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Invincible ",
-                                p.default.createElement("em", null, "Taiwan ")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Juice ",
-                                p.default.createElement("em", null, "Taiwan")
-                              ),
-                              p.default.createElement("li", {
-                                className: "spacer",
-                              }),
-                              p.default.createElement(
-                                "li",
-                                { className: "header" },
-                                "Australia"
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Highs & Lows ",
-                                p.default.createElement("em", null, "Australia")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Sneakerboy ",
-                                p.default.createElement("em", null, "Australia")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Loaded ",
-                                p.default.createElement(
-                                  "em",
-                                  null,
-                                  "New Zealand"
-                                )
-                              ),
-                              p.default.createElement("li", {
-                                className: "spacer",
-                              }),
-                              p.default.createElement(
-                                "li",
-                                { className: "header" },
-                                "Africa"
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Shelflife ",
-                                p.default.createElement(
-                                  "em",
-                                  null,
-                                  "South-Africa"
-                                )
-                              ),
-                              p.default.createElement("li", {
-                                className: "spacer",
-                              }),
-                              p.default.createElement(
-                                "li",
-                                { className: "header" },
-                                "South America"
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Cartel ",
-                                p.default.createElement("em", null, "Brazil")
+                                "Switzerland"
                               )
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Chmielna 20 Lab Store ",
+                              p.default.createElement("em", null, "Warsaw")
+                            )
+                          ),
+                          p.default.createElement(
+                            "ul", {
+                              className: "animation-lines"
+                            },
+                            p.default.createElement(
+                              "li", {
+                                className: "header"
+                              },
+                              "Asia"
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Juice ",
+                              p.default.createElement("em", null, "China")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "CONCEPTS DUBAI ",
+                              p.default.createElement("em", null, "Dubai ")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "THE GOOD LIFE ",
+                              p.default.createElement("em", null, "Dubai ")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Level Shoedistrict ",
+                              p.default.createElement("em", null, "Emirates ")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "THE GOOD LIFE ",
+                              p.default.createElement("em", null, "Lebanon ")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "D-Mop / J-01 Hong ",
+                              p.default.createElement("em", null, "Kong ")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "EXI.T Hong ",
+                              p.default.createElement("em", null, "Kong")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Dice & Dice ",
+                              p.default.createElement("em", null, "JP")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "DSM Ginza ",
+                              p.default.createElement("em", null, "JP")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Mita Sneakers ",
+                              p.default.createElement("em", null, "JP")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Styles / VA ",
+                              p.default.createElement("em", null, "JP")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Undefeated JP ",
+                              p.default.createElement("em", null, "JP")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "United Arrows & Sons ",
+                              p.default.createElement("em", null, "JP ")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "CDG Seoul ",
+                              p.default.createElement("em", null, "Korea")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Kasina Korea Commonwealth ",
+                              p.default.createElement(
+                                "em",
+                                null,
+                                "Philippines "
+                              )
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Brandshop ",
+                              p.default.createElement("em", null, "Russia")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "KM20 ",
+                              p.default.createElement("em", null, "Russia")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "DSM Singapore ",
+                              p.default.createElement("em", null, "Singapore")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "LE Vault/ The Chamber ",
+                              p.default.createElement("em", null, "Singapore")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Invincible ",
+                              p.default.createElement("em", null, "Taiwan ")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Juice ",
+                              p.default.createElement("em", null, "Taiwan")
+                            ),
+                            p.default.createElement("li", {
+                              className: "spacer",
+                            }),
+                            p.default.createElement(
+                              "li", {
+                                className: "header"
+                              },
+                              "Australia"
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Highs & Lows ",
+                              p.default.createElement("em", null, "Australia")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Sneakerboy ",
+                              p.default.createElement("em", null, "Australia")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Loaded ",
+                              p.default.createElement(
+                                "em",
+                                null,
+                                "New Zealand"
+                              )
+                            ),
+                            p.default.createElement("li", {
+                              className: "spacer",
+                            }),
+                            p.default.createElement(
+                              "li", {
+                                className: "header"
+                              },
+                              "Africa"
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Shelflife ",
+                              p.default.createElement(
+                                "em",
+                                null,
+                                "South-Africa"
+                              )
+                            ),
+                            p.default.createElement("li", {
+                              className: "spacer",
+                            }),
+                            p.default.createElement(
+                              "li", {
+                                className: "header"
+                              },
+                              "South America"
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Cartel ",
+                              p.default.createElement("em", null, "Brazil")
                             )
                           )
                         )
                       )
+                    )
                     : p.default.createElement(
-                        "section",
-                        { className: "page page-getthechance", ref: "element" },
+                      "section", {
+                        className: "page page-getthechance",
+                        ref: "element"
+                      },
+                      p.default.createElement("video", {
+                        className: "cover-video",
+                        id: "cover-video",
+                        "data-origwidth": "292",
+                        "data-origheight": "183",
+                        loop: !0,
+                        muted: !0,
+                        playsInline: !0,
+                        preload: "auto",
+                      }),
+                      p.default.createElement(
+                        u.default, {
+                          component: m.firstChild.get
+                        },
+                        p.default.createElement(b.default, {
+                          clickhandler: this.onCloseButtonClick,
+                        })
+                      ),
+                      p.default.createElement(
+                        "div", {
+                          className: "stripe-section"
+                        },
                         p.default.createElement(
-                          "video",
-                          {
-                            className: "cover-video",
-                            "data-origwidth": "292",
-                            "data-origheight": "183",
-                            loop: !0,
-                            muted: !0,
-                            playsInline: !0,
-                            preload: "auto",
+                          "h1", {
+                            className: "animation-wrapper"
                           },
-                          p.default.createElement("source", {
-                            src: "/assets/videos/flags/flag_white.mp4",
-                            type: "video/mp4",
-                          })
-                        ),
-                        p.default.createElement(
-                          u.default,
-                          { component: m.firstChild.get },
-                          p.default.createElement(b.default, {
-                            clickhandler: this.onCloseButtonClick,
-                          })
-                        ),
-                        p.default.createElement(
-                          "a",
-                          {
-                            href: "/#home",
-                            target: "_blank",
-                            className: "tgwo-link",
-                            ref: "element",
-                            onClick: this.onLogoClick,
-                          },
-                          p.default.createElement("img", {
-                            src:
-                              "https://www.ankoku-toshi-jutsu.com/assets/images/tgwo-logo-black.png",
-                            alt: "The Good Will Out",
-                            className: "tgwo-logo",
-                          })
-                        ),
-                        p.default.createElement(
-                          "a",
-                          {
-                            href: "/#home",
-                            target: "_blank",
-                            className: "adidas-link",
-                            ref: "element",
-                            onClick: this.onLogoClick,
-                          },
-                          p.default.createElement("img", {
-                            src:
-                              "https://www.ankoku-toshi-jutsu.com/assets/images/adidas-logo-black.png",
-                            alt: "Adidas",
-                            className: "adidas-logo",
-                          })
-                        ),
-                        p.default.createElement(
-                          "div",
-                          { className: "overview" },
                           p.default.createElement(
-                            "h1",
-                            { className: "animation-wrapper" },
-                            p.default.createElement(
-                              "span",
-                              { className: "animation-slice" },
-                              "How\xA0to\xA0buy"
-                            )
+                            "span", {
+                              className: "animation-slice"
+                            },
+                            "Hiring"
                           ),
+                          p.default.createElement("br", null),
                           p.default.createElement(
-                            "div",
-                            { className: "sub" },
-                            p.default.createElement(
-                              "ul",
-                              null,
-                              p.default.createElement(
-                                "li",
-                                { className: "animation-lines" },
-                                p.default.createElement(
-                                  "small",
-                                  null,
-                                  "TGWO release"
-                                ),
-                                p.default.createElement(
-                                  "span",
-                                  { className: "date" },
-                                  "16\xA0\u2014\xA009\xA0\u2014\xA017"
-                                )
-                              ),
-                              p.default.createElement(
-                                "li",
-                                { className: "animation-lines" },
-                                p.default.createElement(
-                                  "small",
-                                  null,
-                                  "worldwide release"
-                                ),
-                                p.default.createElement(
-                                  "span",
-                                  { className: "date" },
-                                  "23\xA0\u2014\xA009\xA0\u2014\xA017"
-                                )
-                              ),
-                              p.default.createElement(
-                                "li",
-                                {
-                                  className: "animation-lines article-details",
-                                },
-                                p.default.createElement(
-                                  "small",
-                                  { className: "article-head" },
-                                  "Article ID:"
-                                ),
-                                "BB5994",
-                                p.default.createElement("br", null),
-                                "Black",
-                                p.default.createElement("br", null),
-                                "US 4.5 - 13.0",
-                                p.default.createElement("br", null),
-                                "unisex",
-                                p.default.createElement("br", null),
-                                "Retail price: 220,- \u20AC"
-                              )
-                            ),
-                            p.default.createElement(
-                              "div",
-                              { className: "intro" },
-                              p.default.createElement(
-                                "p",
-                                { className: "first animation-lines" },
-                                "In a contemporary homage to the covert agents of feudal Japan, the adidas Consortium x The Good Will Out NMD CS1 \u201AAnkoku Toshi Jutsu\u2019 arrives in full-on stealth mode.",
-                                p.default.createElement(
-                                  "span",
-                                  { className: "second" },
-                                  "\u2014 The Art of Seeing through Darkness"
-                                )
-                              )
-                            ),
-                            p.default.createElement(
-                              "div",
-                              { className: "shops-head animation-lines" },
-                              "The adidas Consortium x The Good Will Out NMD CS1 \u201AAnkoku Toshi Jutsu\u2019 is available at selected adidas consortium stores worldwide."
-                            ),
-                            p.default.createElement(
-                              "div",
-                              {
-                                className:
-                                  "shops-button-wrapper animation-default",
-                              },
-                              p.default.createElement(
-                                "a",
-                                {
-                                  href: "/#howtobuy",
-                                  className:
-                                    "shops-button btn-black playclicksound",
-                                },
-                                "View store list"
-                              )
-                            )
+                            "span", {
+                              className: "animation-slice"
+                            },
+                            "Teamwork _"
+                          )
+                        )
+                      ),
+                      p.default.createElement(
+                        "div", {
+                          className: "teaser-hiring animation-lines ",
+                          id: "decode-text",
+                        },
+                        "We are looking for a team of creative",
+                        p.default.createElement("br"),
+                        "artists, interested in working to develop",
+                        p.default.createElement("br"),
+                        "our upcoming video | community platform",
+                        p.default.createElement(
+                          "button", {
+                            className: "button-hiring",
+                          },
+                          "Learn More"
+                        )
+                      ),
+                      p.default.createElement(
+                        "div", {
+                          className: "hiring-back",
+                        },
+                        p.default.createElement("img", {
+                          src: "./imgs/hiring.png",
+                        })
+                      ),
+
+                      p.default.createElement(
+                        "div", {
+                          className: "shops"
+                        },
+                        p.default.createElement(
+                          "a", {
+                            href: "/#howtobuy",
+                            className: "back-button playclicksound",
+                          },
+                          "back"
+                        ),
+                        p.default.createElement(
+                          "h1", {
+                            className: "animation-wrapper"
+                          },
+                          p.default.createElement(
+                            "span", {
+                              className: "animation-slice"
+                            },
+                            "Adidas"
+                          ),
+                          p.default.createElement("br", null),
+                          p.default.createElement(
+                            "span", {
+                              className: "animation-slice"
+                            },
+                            "Consortium\xA0Stores"
                           )
                         ),
                         p.default.createElement(
-                          "div",
-                          { className: "shops" },
+                          "div", {
+                            className: "shops-lists"
+                          },
                           p.default.createElement(
-                            "a",
-                            {
-                              href: "/#howtobuy",
-                              className: "back-button playclicksound",
+                            "ul", {
+                              className: "animation-lines"
                             },
-                            "back"
-                          ),
-                          p.default.createElement(
-                            "h1",
-                            { className: "animation-wrapper" },
                             p.default.createElement(
-                              "span",
-                              { className: "animation-slice" },
-                              "Adidas"
+                              "li", {
+                                className: "header"
+                              },
+                              "North America"
                             ),
-                            p.default.createElement("br", null),
                             p.default.createElement(
-                              "span",
-                              { className: "animation-slice" },
-                              "Consortium\xA0Stores"
+                              "li",
+                              null,
+                              "Haven ",
+                              p.default.createElement("em", null, "CAN")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Livestock ",
+                              p.default.createElement("em", null, "CAN")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "NRML ",
+                              p.default.createElement("em", null, "CAN")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "OTH ",
+                              p.default.createElement("em", null, "CAN")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Addict ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "BAIT / Diamond Bar ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Barneys NYC (Madison Ave + ecom) ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Bodega ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Concepts ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Creme ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Dover Street Market NY ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Juice LA ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Kith NYC ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Mr. Porter ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Nice Kicks ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Packer Shoes, Inc. ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Proper ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "RSVP Gallery ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Shoe Gallery ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Sneaker Politics ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Sneakersnstuff USA ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Social Status ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "St. Alfred ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Ubiq / Mason ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Undefeated ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Wish Atlanta LLC ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Xhibition ",
+                              p.default.createElement("em", null, "USA")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Commonwealth US ",
+                              p.default.createElement(
+                                "em",
+                                null,
+                                "Washington"
+                              )
                             )
                           ),
                           p.default.createElement(
-                            "div",
-                            { className: "shops-lists" },
+                            "ul", {
+                              className: "animation-lines"
+                            },
                             p.default.createElement(
-                              "ul",
-                              { className: "animation-lines" },
+                              "li", {
+                                className: "header"
+                              },
+                              "Europe"
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Avenue ",
+                              p.default.createElement("em", null, "Belgium")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Hunting & Collecting ",
+                              p.default.createElement("em", null, "Belgium")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Footshop ",
                               p.default.createElement(
-                                "li",
-                                { className: "header" },
-                                "North America"
-                              ),
-                              p.default.createElement(
-                                "li",
+                                "em",
                                 null,
-                                "Haven ",
-                                p.default.createElement("em", null, "CAN")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Livestock ",
-                                p.default.createElement("em", null, "CAN")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "NRML ",
-                                p.default.createElement("em", null, "CAN")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "OTH ",
-                                p.default.createElement("em", null, "CAN")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Addict ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "BAIT / Diamond Bar ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Barneys NYC (Madison Ave + ecom) ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Bodega ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Concepts ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Creme ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Dover Street Market NY ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Juice LA ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Kith NYC ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Mr. Porter ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Nice Kicks ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Packer Shoes, Inc. ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Proper ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "RSVP Gallery ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Shoe Gallery ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Sneaker Politics ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Sneakersnstuff USA ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Social Status ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "St. Alfred ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Ubiq / Mason ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Undefeated ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Wish Atlanta LLC ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Xhibition ",
-                                p.default.createElement("em", null, "USA")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Commonwealth US ",
-                                p.default.createElement(
-                                  "em",
-                                  null,
-                                  "Washington"
-                                )
+                                "Czech Republic"
                               )
                             ),
                             p.default.createElement(
-                              "ul",
-                              { className: "animation-lines" },
+                              "li",
+                              null,
+                              "Naked ",
+                              p.default.createElement("em", null, "Denmark")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Norse Project ",
+                              p.default.createElement("em", null, "Denmark")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Wood Wood Denmark ",
+                              p.default.createElement("em", null, "Denmark")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Beamhill ",
+                              p.default.createElement("em", null, "Finland")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Acte2 ",
+                              p.default.createElement("em", null, "France")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Starcow ",
+                              p.default.createElement("em", null, "France")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Summer ",
+                              p.default.createElement("em", null, "France")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "No. 74 ",
+                              p.default.createElement("em", null, "Germany")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Overkill ",
+                              p.default.createElement("em", null, "Germany")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Solebox ",
+                              p.default.createElement("em", null, "Germany")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "The Good Will Out ",
+                              p.default.createElement("em", null, "Germany")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Uebervart ",
+                              p.default.createElement("em", null, "Germany")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Wood Wood Berlin ",
+                              p.default.createElement("em", null, "Germany")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Device1 ",
+                              p.default.createElement("em", null, "Greece")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "PHAT SOLES ",
+                              p.default.createElement("em", null, "Greece")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Slam Jam ",
+                              p.default.createElement("em", null, "Italy")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Sneakers 76 ",
+                              p.default.createElement("em", null, "Italy")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Suede ",
+                              p.default.createElement("em", null, "Italy")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Patta ",
                               p.default.createElement(
-                                "li",
-                                { className: "header" },
-                                "Europe"
-                              ),
-                              p.default.createElement(
-                                "li",
+                                "em",
                                 null,
-                                "Avenue ",
-                                p.default.createElement("em", null, "Belgium")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Hunting & Collecting ",
-                                p.default.createElement("em", null, "Belgium")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Footshop ",
-                                p.default.createElement(
-                                  "em",
-                                  null,
-                                  "Czech Republic"
-                                )
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Naked ",
-                                p.default.createElement("em", null, "Denmark")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Norse Project ",
-                                p.default.createElement("em", null, "Denmark")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Wood Wood Denmark ",
-                                p.default.createElement("em", null, "Denmark")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Beamhill ",
-                                p.default.createElement("em", null, "Finland")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Acte2 ",
-                                p.default.createElement("em", null, "France")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Starcow ",
-                                p.default.createElement("em", null, "France")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Summer ",
-                                p.default.createElement("em", null, "France")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "No. 74 ",
-                                p.default.createElement("em", null, "Germany")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Overkill ",
-                                p.default.createElement("em", null, "Germany")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Solebox ",
-                                p.default.createElement("em", null, "Germany")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "The Good Will Out ",
-                                p.default.createElement("em", null, "Germany")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Uebervart ",
-                                p.default.createElement("em", null, "Germany")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Wood Wood Berlin ",
-                                p.default.createElement("em", null, "Germany")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Device1 ",
-                                p.default.createElement("em", null, "Greece")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "PHAT SOLES ",
-                                p.default.createElement("em", null, "Greece")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Slam Jam ",
-                                p.default.createElement("em", null, "Italy")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Sneakers 76 ",
-                                p.default.createElement("em", null, "Italy")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Suede ",
-                                p.default.createElement("em", null, "Italy")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Patta ",
-                                p.default.createElement(
-                                  "em",
-                                  null,
-                                  "Netherlands"
-                                )
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "YME ",
-                                p.default.createElement("em", null, "Norway")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "limitEditions ",
-                                p.default.createElement("em", null, "Spain")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Sivas Des Calzo ",
-                                p.default.createElement("em", null, "Spain")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Sneakers'n'Stuff ",
-                                p.default.createElement("em", null, "Sweden")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Tres Bien Shop ",
-                                p.default.createElement("em", null, "Sweden")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Titolo ",
-                                p.default.createElement(
-                                  "em",
-                                  null,
-                                  "Switzerland"
-                                )
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Chmielna 20 Lab Store ",
-                                p.default.createElement("em", null, "Warsaw")
+                                "Netherlands"
                               )
                             ),
                             p.default.createElement(
-                              "ul",
-                              { className: "animation-lines" },
+                              "li",
+                              null,
+                              "YME ",
+                              p.default.createElement("em", null, "Norway")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "limitEditions ",
+                              p.default.createElement("em", null, "Spain")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Sivas Des Calzo ",
+                              p.default.createElement("em", null, "Spain")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Sneakers'n'Stuff ",
+                              p.default.createElement("em", null, "Sweden")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Tres Bien Shop ",
+                              p.default.createElement("em", null, "Sweden")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Titolo ",
                               p.default.createElement(
-                                "li",
-                                { className: "header" },
-                                "Asia"
-                              ),
-                              p.default.createElement(
-                                "li",
+                                "em",
                                 null,
-                                "Juice ",
-                                p.default.createElement("em", null, "China")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "CONCEPTS DUBAI ",
-                                p.default.createElement("em", null, "Dubai ")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "THE GOOD LIFE ",
-                                p.default.createElement("em", null, "Dubai ")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Level Shoedistrict ",
-                                p.default.createElement("em", null, "Emirates ")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "THE GOOD LIFE ",
-                                p.default.createElement("em", null, "Lebanon ")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "D-Mop / J-01 Hong ",
-                                p.default.createElement("em", null, "Kong ")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "EXI.T Hong ",
-                                p.default.createElement("em", null, "Kong")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Dice & Dice ",
-                                p.default.createElement("em", null, "JP")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "DSM Ginza ",
-                                p.default.createElement("em", null, "JP")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Mita Sneakers ",
-                                p.default.createElement("em", null, "JP")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Styles / VA ",
-                                p.default.createElement("em", null, "JP")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Undefeated JP ",
-                                p.default.createElement("em", null, "JP")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "United Arrows & Sons ",
-                                p.default.createElement("em", null, "JP ")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "CDG Seoul ",
-                                p.default.createElement("em", null, "Korea")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Kasina Korea Commonwealth ",
-                                p.default.createElement(
-                                  "em",
-                                  null,
-                                  "Philippines "
-                                )
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Brandshop ",
-                                p.default.createElement("em", null, "Russia")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "KM20 ",
-                                p.default.createElement("em", null, "Russia")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "DSM Singapore ",
-                                p.default.createElement("em", null, "Singapore")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "LE Vault/ The Chamber ",
-                                p.default.createElement("em", null, "Singapore")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Invincible ",
-                                p.default.createElement("em", null, "Taiwan ")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Juice ",
-                                p.default.createElement("em", null, "Taiwan")
-                              ),
-                              p.default.createElement("li", {
-                                className: "spacer",
-                              }),
-                              p.default.createElement(
-                                "li",
-                                { className: "header" },
-                                "Australia"
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Highs & Lows ",
-                                p.default.createElement("em", null, "Australia")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Sneakerboy ",
-                                p.default.createElement("em", null, "Australia")
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Loaded ",
-                                p.default.createElement(
-                                  "em",
-                                  null,
-                                  "New Zealand"
-                                )
-                              ),
-                              p.default.createElement("li", {
-                                className: "spacer",
-                              }),
-                              p.default.createElement(
-                                "li",
-                                { className: "header" },
-                                "Africa"
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Shelflife ",
-                                p.default.createElement(
-                                  "em",
-                                  null,
-                                  "South-Africa"
-                                )
-                              ),
-                              p.default.createElement("li", {
-                                className: "spacer",
-                              }),
-                              p.default.createElement(
-                                "li",
-                                { className: "header" },
-                                "South America"
-                              ),
-                              p.default.createElement(
-                                "li",
-                                null,
-                                "Cartel ",
-                                p.default.createElement("em", null, "Brazil")
+                                "Switzerland"
                               )
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Chmielna 20 Lab Store ",
+                              p.default.createElement("em", null, "Warsaw")
+                            )
+                          ),
+                          p.default.createElement(
+                            "ul", {
+                              className: "animation-lines"
+                            },
+                            p.default.createElement(
+                              "li", {
+                                className: "header"
+                              },
+                              "Asia"
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Juice ",
+                              p.default.createElement("em", null, "China")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "CONCEPTS DUBAI ",
+                              p.default.createElement("em", null, "Dubai ")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "THE GOOD LIFE ",
+                              p.default.createElement("em", null, "Dubai ")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Level Shoedistrict ",
+                              p.default.createElement("em", null, "Emirates ")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "THE GOOD LIFE ",
+                              p.default.createElement("em", null, "Lebanon ")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "D-Mop / J-01 Hong ",
+                              p.default.createElement("em", null, "Kong ")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "EXI.T Hong ",
+                              p.default.createElement("em", null, "Kong")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Dice & Dice ",
+                              p.default.createElement("em", null, "JP")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "DSM Ginza ",
+                              p.default.createElement("em", null, "JP")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Mita Sneakers ",
+                              p.default.createElement("em", null, "JP")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Styles / VA ",
+                              p.default.createElement("em", null, "JP")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Undefeated JP ",
+                              p.default.createElement("em", null, "JP")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "United Arrows & Sons ",
+                              p.default.createElement("em", null, "JP ")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "CDG Seoul ",
+                              p.default.createElement("em", null, "Korea")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Kasina Korea Commonwealth ",
+                              p.default.createElement(
+                                "em",
+                                null,
+                                "Philippines "
+                              )
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Brandshop ",
+                              p.default.createElement("em", null, "Russia")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "KM20 ",
+                              p.default.createElement("em", null, "Russia")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "DSM Singapore ",
+                              p.default.createElement("em", null, "Singapore")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "LE Vault/ The Chamber ",
+                              p.default.createElement("em", null, "Singapore")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Invincible ",
+                              p.default.createElement("em", null, "Taiwan ")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Juice ",
+                              p.default.createElement("em", null, "Taiwan")
+                            ),
+                            p.default.createElement("li", {
+                              className: "spacer",
+                            }),
+                            p.default.createElement(
+                              "li", {
+                                className: "header"
+                              },
+                              "Australia"
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Highs & Lows ",
+                              p.default.createElement("em", null, "Australia")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Sneakerboy ",
+                              p.default.createElement("em", null, "Australia")
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Loaded ",
+                              p.default.createElement(
+                                "em",
+                                null,
+                                "New Zealand"
+                              )
+                            ),
+                            p.default.createElement("li", {
+                              className: "spacer",
+                            }),
+                            p.default.createElement(
+                              "li", {
+                                className: "header"
+                              },
+                              "Africa"
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Shelflife ",
+                              p.default.createElement(
+                                "em",
+                                null,
+                                "South-Africa"
+                              )
+                            ),
+                            p.default.createElement("li", {
+                              className: "spacer",
+                            }),
+                            p.default.createElement(
+                              "li", {
+                                className: "header"
+                              },
+                              "South America"
+                            ),
+                            p.default.createElement(
+                              "li",
+                              null,
+                              "Cartel ",
+                              p.default.createElement("em", null, "Brazil")
                             )
                           )
                         )
-                      );
+                      )
+                    );
                 },
               },
             ]),
@@ -47008,7 +47290,7 @@ object-assign
                     t,
                     function (t, n) {
                       var a = e(
-                        '<video class="cover-video" preload="auto" loop muted playsinline>'
+                        '<video class="cover-video" id="cover" preload="auto" loop muted playsinline>'
                       );
                       a.append('<source src="' + n + '" type="video/mp4" />'),
                         this.$element.append(a),
@@ -47601,7 +47883,7 @@ object-assign
                           },
                           d.default.createElement("source", {
                             src:
-                              "https://www.ankoku-toshi-jutsu.com/assets/videos/flags/flag_black.mp4",
+                              "./videos/menu_background_video.mp4",
                             type: "video/mp4",
                           })
                         ),
@@ -47738,90 +48020,69 @@ object-assign
                               "data-pagehash": "howtobuy",
                             },
                             d.default.createElement("span", null, "EMAIL")
+                          ),
+                          d.default.createElement("br"),
+                        d.default.createElement("br"),
+                        d.default.createElement(
+                          "div", {
+                            className: "social-div",
+                          },
+                          d.default.createElement(
+                            "a", {
+                              href: "https://www.facebook.com/futurevizionphotography",
+                              target: "_blank",
+                              className: "hover-social hover-slide",
+                            },
+                            d.default.createElement("img", {
+                              className: "hover-svg",
+                              src: "./imgs/fb.svg",
+                              alt: "FB",
+                              width: "18px",
+                              height: "18px",
+                            })
+                          ),
+                          d.default.createElement(
+                            "a", {
+                              href: "https://www.facebook.com/futurevizionphotography",
+                              target: "_blank",
+                              className: "hover-social hover-slide",
+                            },
+                            d.default.createElement("img", {
+                              className: "hover-svg",
+                              src: "./imgs/ig.svg",
+                              alt: "IG",
+                              width: "18px",
+                              height: "18px",
+                            })
+                          ),
+                          d.default.createElement(
+                            "a", {
+                              href: "https://www.facebook.com/futurevizionphotography",
+                              target: "_blank",
+                              className: "hover-social hover-slide",
+                            },
+                            d.default.createElement("img", {
+                              className: "hover-svg",
+                              src: "./imgs/tw.svg",
+                              alt: "TW",
+                              width: "18px",
+                              height: "18px",
+                              fill: "white",
+                            })
                           )
                         ),
-                        // d.default.createElement("br"),
-                        // d.default.createElement("br"),
-                        d.default.createElement(
-                          "a",
-                          {
-                            href:
-                              "https://www.facebook.com/futurevizionphotography",
-                            target: "_blank",
-                            className: "hover-social hover-slide",
-                          },
-                          d.default.createElement("img", {
-                            className: "hover-svg",
-                            src:
-                              "https://facelessdevhack.github.io/MetaStudio-2/imgs/fb.svg",
-                            alt: "FB",
-                            width: "18px",
-                            height: "18px",
-                          })
                         ),
                         d.default.createElement(
-                          "a",
-                          {
-                            href:
-                              "https://www.facebook.com/futurevizionphotography",
-                            target: "_blank",
-                            className: "hover-social hover-slide",
-                          },
-                          d.default.createElement("img", {
-                            className: "hover-svg",
-                            src:
-                              "https://facelessdevhack.github.io/MetaStudio-2/imgs/ig.svg",
-                            alt: "IG",
-                            width: "18px",
-                            height: "18px",
-                          })
-                        ),
-                        d.default.createElement(
-                          "a",
-                          {
-                            href:
-                              "https://www.facebook.com/futurevizionphotography",
-                            target: "_blank",
-                            className: "hover-social hover-slide",
-                          },
-                          d.default.createElement("img", {
-                            className: "hover-svg",
-                            src:
-                              "https://facelessdevhack.github.io/MetaStudio-2/imgs/ig.svg",
-                            alt: "IG",
-                            width: "18px",
-                            height: "18px",
-                          })
-                        ),
-                        d.default.createElement(
-                          "a",
-                          {
-                            href:
-                              "https://www.facebook.com/futurevizionphotography",
-                            target: "_blank",
-                            className: "hover-social hover-slide",
-                          },
-                          d.default.createElement("img", {
-                            className: "hover-svg",
-                            src:
-                              "https://facelessdevhack.github.io/MetaStudio-2/imgs/tw.svg",
-                            alt: "TW",
-                            width: "18px",
-                            height: "18px",
-                            fill: "white",
-                          })
-                        ),
-                        d.default.createElement(
-                          "a",
-                          {
+                          "a", {
                             href: "javascript:void(0);",
                             onClick: this.onCloseButtonClick,
                             className: "close-button",
                           },
                           d.default.createElement("span", null, "Close"),
                           d.default.createElement(
-                            "div",
-                            { className: "icon-container" },
+                            "div", {
+                              className: "icon-container"
+                            },
                             d.default.createElement("div", {
                               className: "circle",
                             }),
@@ -47834,21 +48095,22 @@ object-assign
                           )
                         ),
                         d.default.createElement(
-                          "ul",
-                          { className: "small" },
+                          "ul", {
+                            className: "small"
+                          },
                           d.default.createElement(
                             "li",
                             null,
                             d.default.createElement(
-                              "a",
-                              {
+                              "a", {
                                 href: "/",
                                 onClick: this.onClick,
                                 "data-pagehash": "credits",
                               },
                               d.default.createElement(
-                                "span",
-                                { className: "hover-effect" },
+                                "span", {
+                                  className: "hover-effect"
+                                },
                                 "futurevizion.jp"
                               )
                             )
@@ -47857,15 +48119,15 @@ object-assign
                             "li",
                             null,
                             d.default.createElement(
-                              "a",
-                              {
+                              "a", {
                                 href: "/",
                                 onClick: this.onClick,
                                 "data-pagehash": "imprint",
                               },
                               d.default.createElement(
-                                "span",
-                                { className: "hover-effect" },
+                                "span", {
+                                  className: "hover-effect"
+                                },
                                 "Blog"
                               )
                             )
@@ -48768,7 +49030,7 @@ object-assign
                           d.default.createElement("img", {
                             src:
                               "https://facelessdevhack.github.io/MetaStudio-2/imgs/Layer%2017.png",
-                            alt: "How to buy",
+                            alt: "We are Hiring",
                           })
                         )
                       )
@@ -48781,7 +49043,7 @@ object-assign
                           ref: "element",
                           onClick: this.onClick,
                         },
-                        d.default.createElement("span", null, "How to buy"),
+                        d.default.createElement("span", null, "We are Hiring"),
                         d.default.createElement(
                           "div",
                           { className: "icon-container" },
@@ -48791,7 +49053,7 @@ object-assign
                           d.default.createElement("img", {
                             src:
                               "https://facelessdevhack.github.io/MetaStudio-2/imgs/Layer%2017.png",
-                            alt: "How to buy",
+                            alt: "We are Hiring",
                           })
                         )
                       );
