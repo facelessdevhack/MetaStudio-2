@@ -144,14 +144,8 @@
   width: 71vw !important;
   font-size: 1.5em !important;
   line-height: 32px;
-  /* font-family: "SF Display"; */
+  font-family: "SF Display";
   font-weight: 400;
-  /* display: inline-block; */
-  z-index: 100;
-  margin: 0 0 -50px 0;
-  font-size: 20px !important;
-  color: rgba(182, 188, 206, 0.7) !important;
-  line-height: 32px;
 }
 @media (max-width: 1400px) {
   .teaser-decode {
@@ -161,8 +155,7 @@
     width: 71vw !important;
     font-size: 1em !important;
     line-height: 32px;
-    /* font-family: "SF Display"; */
-    color: rgba(182, 188, 206, 0.7) !important;
+    font-family: "SF Display";
   }
 }
 .decode-container {
