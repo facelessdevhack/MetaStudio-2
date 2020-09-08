@@ -41152,6 +41152,10 @@ object-assign
                   return d.default.createElement(
                     "section",
                     { className: "page page-items", ref: "element" },
+                    d.default.createElement("img", {
+                      className: "project-back",
+                      src: "./imgs/mesh-background.png",
+                    }),
                     d.default.createElement(
                       "div",
                       { className: "head-hint items" },
@@ -41258,7 +41262,6 @@ object-assign
                         {
                           href:
                             "https://facelessdevhack.github.io/MetaStudio-2/videomapping.html",
-                          target: "_blank",
                           className: "btn btn-flag btn-longsleeve",
                         },
                         d.default.createElement(
