@@ -10474,13 +10474,18 @@ object-assign
         "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/flags/flag_black.mp4",
         "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/flags/flag_white.mp4",
       ],
-      videoTrailer: "./videos/uber_eats_v6.mp4",
-      videoTrailerMobile: "./videos/uber_eats_v6.mp4",
+      videoTrailer:
+        "./videos/uber_eats_v6.mp4",
+      videoTrailerMobile:
+        "./videos/uber_eats_v6.mp4",
       videos: {
         videoHome: "./videos/Render_1.mp4",
-        videoProduct: "./videos/Calum_Tunnel_FOR_WEB.mp4",
-        videoProductdetails: "./videos/Calum_Tunnel_FOR_WEB.mp4",
-        videoItems: "./videos/calum_walking_tunnel_FOR_WEB.mp4",
+        videoProduct:
+          "https://www.ankoku-toshi-jutsu.com/assets/videos/02_shoe_overview.mp4",
+        videoProductdetails:
+          "https://www.ankoku-toshi-jutsu.com/assets/videos/02_shoe_details.mp4",
+        videoItems:
+          "./videos/calum_walking_tunnel_FOR_WEB.mp4",
         videoLongsleeve:
           "https://www.ankoku-toshi-jutsu.com/assets/videos/03_longsleeve.mp4",
         videoJacket:
@@ -10497,8 +10502,10 @@ object-assign
       videosMobile: {
         videoHome:
           "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/01_start.mp4",
-        videoProduct: "./videos/Calum_Tunnel_FOR_WEB.mp4",
-        videoItems: "./videos/calum_walking_tunnel_FOR_WEB.mp4",
+        videoProduct:
+          "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/02_shoe.mp4",
+        videoItems:
+          "./videos/calum_walking_tunnel_FOR_WEB.mp4",
         videoItemsdetails:
           "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/03_item-details.mp4",
         videoJourney: "./videos/proxy_tunnel_FOR_WEB.mp4",
@@ -40556,8 +40563,8 @@ object-assign
                             "p",
                             { className: "copy animation-lines" },
                             "Meet Our Team"
-                          )
-                        )
+                          ),
+                        ),
                       ),
                       d.default.createElement(
                         "div",
@@ -40602,9 +40609,9 @@ object-assign
                             "p",
                             { className: "copy animation-lines" },
                             "Take A Look At Our Profile"
-                          )
-                        )
-                      )
+                          ),
+                        ),
+                      ),
                       // d.default.createElement("div", {
                       //   className: "orb",
                       // }),
@@ -42181,14 +42188,8 @@ object-assign
                         onClick: this.onClick,
                         "data-pagehash": "viewtrailer",
                       },
-                      d.default.createElement(
-                        "div",
-                        { className: "img" },
-                        d.default.createElement("img", {
-                          height: 400,
-                          width: 400,
-                          src: "./imgs/vidSnip.jpg",
-                        })
+                      d.default.createElement("div", { className: "img" },
+                      d.default.createElement("img", {height: 400, width: 400, src:'./imgs/vidSnip.jpg'})
                       ),
                       d.default.createElement(
                         "p",
@@ -47817,8 +47818,8 @@ object-assign
                             },
                             d.default.createElement("span", null, "EMAIL")
                           ),
-                          d.default.createElement("br"),
-                          d.default.createElement("br"),
+                          d.default.createElement('br'),
+                          d.default.createElement('br'),
                           d.default.createElement(
                             "a",
                             {
@@ -47829,7 +47830,8 @@ object-assign
                             },
                             d.default.createElement("img", {
                               className: "hover-svg",
-                              src: "./imgs/fb.svg",
+                              src:
+                                "./imgs/fb.svg",
                               alt: "FB",
                               width: "18px",
                               height: "18px",
@@ -47845,7 +47847,8 @@ object-assign
                             },
                             d.default.createElement("img", {
                               className: "hover-svg",
-                              src: "./imgs/ig.svg",
+                              src:
+                                "./imgs/ig.svg",
                               alt: "IG",
                               width: "18px",
                               height: "18px",
@@ -47861,13 +47864,14 @@ object-assign
                             },
                             d.default.createElement("img", {
                               className: "hover-svg",
-                              src: "./imgs/tw.svg",
+                              src:
+                                "./imgs/tw.svg",
                               alt: "TW",
                               width: "18px",
                               height: "18px",
                               fill: "white",
                             })
-                          )
+                          ),
                         ),
                         d.default.createElement(
                           "a",
