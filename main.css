@@ -193,7 +193,7 @@
   .teaser-hiring {
     position: fixed;
     left: 16.66667%;
-    bottom: 21%;
+    bottom: 9%;
     width: 71vw !important;
     font-size: 1.5em !important;
     line-height: 32px;
@@ -240,7 +240,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 22px;
-    margin-top: 3%;
+    margin-top: 10%;
   }
 }
 .decode-container {
