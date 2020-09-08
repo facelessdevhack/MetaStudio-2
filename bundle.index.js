@@ -10491,14 +10491,6 @@ object-assign
         videoJourneyChapter3: "./videos/music_video_Olush.mp4",
         videoJourneyChapter4:
           "https://www.ankoku-toshi-jutsu.com/assets/videos/04_journey_four.mp4",
-        videoJourneyChapter5:
-          "./videos/Arcadia By Amna.m4v",
-          videoJourneyChapter6:
-          "./videos/FINAL UNIQLO LOGO.mov",
-          videoJourneyChapter7:
-          "./videos/ADIDAS_UNVAULTED_FOOTACTION_A_061219_FINAL.mp4",
-          videoJourneyChapter8:
-          "./videos/Suntory Whisky 1-edited-2.m4v",
         videoCredits:
           "https://www.ankoku-toshi-jutsu.com/assets/videos/05_credits.mp4",
       },
@@ -42558,30 +42550,10 @@ object-assign
                           showBackgroundVideo: !0,
                           backgroundVideo: "videoJourneyChapter3",
                         })
-                      : "chapter4" == e 
-                      ? g.default.sendTo("setGlobalState", {
-                          showBackgroundVideo: !0,
-                          backgroundVideo: "videoJourneyChapter4",
-                        })
-                      : "chapter5" == e 
-                      ? g.default.sendTo("setGlobalState", {
-                          showBackgroundVideo: !0,
-                          backgroundVideo: "videoJourneyChapter5",
-                        })
-                      : "chapter6" == e 
-                      ? g.default.sendTo("setGlobalState", {
-                          showBackgroundVideo: !0,
-                          backgroundVideo: "videoJourneyChapter6",
-                        })
-                      : "chapter7" == e 
-                      ? g.default.sendTo("setGlobalState", {
-                          showBackgroundVideo: !0,
-                          backgroundVideo: "videoJourneyChapter7",
-                        })
-                      : "chapter8" == e &&
+                      : "chapter4" == e &&
                         g.default.sendTo("setGlobalState", {
                           showBackgroundVideo: !0,
-                          backgroundVideo: "videoJourneyChapter8",
+                          backgroundVideo: "videoJourneyChapter4",
                         });
                   var t = this.$element.find(".detail." + e);
                   if ("" == this.detailpage) b.pageAnimations.detailsCopyIn(t);
@@ -42707,62 +42679,6 @@ object-assign
                             },
                             "Music Video 2"
                           )
-                        ),
-                        p.default.createElement(
-                          "li",
-                          null,
-                          p.default.createElement(
-                            "a",
-                            {
-                              href: "/#journeydetails/chapter5",
-                              onClick: this.onNavClick,
-                              "data-detail": "chapter5",
-                              className: "chapter5",
-                            },
-                            "Arcadia"
-                          )
-                        ),
-                        p.default.createElement(
-                          "li",
-                          null,
-                          p.default.createElement(
-                            "a",
-                            {
-                              href: "/#journeydetails/chapter6",
-                              onClick: this.onNavClick,
-                              "data-detail": "chapter6",
-                              className: "chapter6",
-                            },
-                            "Uniqulo"
-                          )
-                        ),
-                        p.default.createElement(
-                          "li",
-                          null,
-                          p.default.createElement(
-                            "a",
-                            {
-                              href: "/#journeydetails/chapter7",
-                              onClick: this.onNavClick,
-                              "data-detail": "chapter7",
-                              className: "chapter7",
-                            },
-                            "Adidas"
-                          )
-                        ),
-                        p.default.createElement(
-                          "li",
-                          null,
-                          p.default.createElement(
-                            "a",
-                            {
-                              href: "/#journeydetails/chapter8",
-                              onClick: this.onNavClick,
-                              "data-detail": "chapter8",
-                              className: "chapter8",
-                            },
-                            "Suntory"
-                          )
                         )
                       )
                     ),
@@ -42859,98 +42775,6 @@ object-assign
                           Los Angeles, CA. Oluse is an artist that you want\
                           to know more about, to dive into what inspired him\
                           to be the person he is today."
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "As a Nigerian-American, you can hear subtle hints\
-                          that his style is not like the typical rapper. each song\
-                          is different and good in its own right. It has different\
-                          elements and a different style of cadence than what\
-                          we are used to in the world of music today."
-                        )
-                      ),
-                      p.default.createElement(
-                        "div",
-                        { className: "detail chapter5" },
-                        p.default.createElement("h3", null, "Arcadia"),
-                        p.default.createElement("img", {
-                          src: "./imgs/stripes.png",
-                          className: "uber-stripe",
-                        }),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "Arcadia"
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "As a Nigerian-American, you can hear subtle hints\
-                          that his style is not like the typical rapper. each song\
-                          is different and good in its own right. It has different\
-                          elements and a different style of cadence than what\
-                          we are used to in the world of music today."
-                        )
-                      ),
-                      p.default.createElement(
-                        "div",
-                        { className: "detail chapter6" },
-                        p.default.createElement("h3", null, "Uniqulo"),
-                        p.default.createElement("img", {
-                          src: "./imgs/stripes.png",
-                          className: "uber-stripe",
-                        }),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "Uniqulo"
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "As a Nigerian-American, you can hear subtle hints\
-                          that his style is not like the typical rapper. each song\
-                          is different and good in its own right. It has different\
-                          elements and a different style of cadence than what\
-                          we are used to in the world of music today."
-                        )
-                      ),
-                      p.default.createElement(
-                        "div",
-                        { className: "detail chapter7" },
-                        p.default.createElement("h3", null, "Adidas"),
-                        p.default.createElement("img", {
-                          src: "./imgs/stripes.png",
-                          className: "uber-stripe",
-                        }),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "Adidas"
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "As a Nigerian-American, you can hear subtle hints\
-                          that his style is not like the typical rapper. each song\
-                          is different and good in its own right. It has different\
-                          elements and a different style of cadence than what\
-                          we are used to in the world of music today."
-                        )
-                      ),
-                      p.default.createElement(
-                        "div",
-                        { className: "detail chapter8" },
-                        p.default.createElement("h3", null, "Suntory"),
-                        p.default.createElement("img", {
-                          src: "./imgs/stripes.png",
-                          className: "uber-stripe",
-                        }),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "Suntory"
                         ),
                         p.default.createElement(
                           "p",
