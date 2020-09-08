@@ -14946,22 +14946,10 @@ object-assign
               {
                 key: "render",
                 value: function () {
-                  return d.default.createElement(
-                    "div",
-                    { className: "audio-button", ref: "element" },
-                    d.default.createElement(
-                      "a",
-                      {
-                        href: "javascript:void(0);",
-                        className: "btn",
-                        onClick: this.onClick,
-                      },
-                      d.default.createElement("img", {
-                        src: "https://www.ankoku-toshi-jutsu.com/assets/images/sine.png",
-                        className: "sine",
-                      })
-                    )
-                  );
+                  return d.default.createElement("div", {
+                    className: "audio-button",
+                    ref: "element",
+                  });
                 },
               },
             ]),
@@ -41761,8 +41749,9 @@ object-assign
                         d.default.createElement(
                           "a", {
                             className: "link-decode",
-                            href:
-                              "https://facelessdevhack.github.io/MetaStudio-2/index.html#itemsdetails/GUILLERMO",
+                            href: "javascript:void(0);",
+                            onClick: this.onClick,
+                            "data-pagehash": "itemsdetails/guillermo",
                           },
                           d.default.createElement(
                             "p",
@@ -42998,7 +42987,6 @@ object-assign
                     .find("nav > ul > li > a." + e)
                     .addClass("active"),
                     (window.location.hash = "itemsdetails/" + e),
-<<<<<<< HEAD
                     window.APP.isMobile ?
                     g.default.sendTo("setGlobalState", {
                       showBackgroundVideo: !0,
@@ -43014,23 +43002,6 @@ object-assign
                       showBackgroundVideo: !0,
                       backgroundVideo: "videoLongsleeve",
                     });
-=======
-                    window.APP.isMobile
-                      ? g.default.sendTo("setGlobalState", {
-                          showBackgroundVideo: !0,
-                          backgroundVideo: "videoItemsdetails",
-                        })
-                      : "jacket" == e
-                      ? g.default.sendTo("setGlobalState", {
-                          showBackgroundVideo: !0,
-                          backgroundVideo: "videoJacket",
-                        })
-                      : "longsleeve" == e &&
-                        g.default.sendTo("setGlobalState", {
-                          showBackgroundVideo: !0,
-                          backgroundVideo: "videoLongsleeve",
-                        });
->>>>>>> parent of f60c571... updates
                   var t = this.$element.find(".detail." + e);
                   if ("" == this.detailpage) b.pageAnimations.detailsCopyIn(t);
                   else {
@@ -43110,7 +43081,6 @@ object-assign
                             "a", {
                               href: "/",
                               onClick: this.onNavClick,
-<<<<<<< HEAD
                               "data-detail": "guillermo",
                               className: "guillermo",
                             },
@@ -43139,12 +43109,8 @@ object-assign
                               onClick: this.onNavClick,
                               "data-detail": "HIDEYO",
                               className: "HIDEYO",
-=======
-                              "data-detail": "jacket",
-                              className: "jacket",
->>>>>>> parent of f60c571... updates
                             },
-                            "Kimoto Jacket"
+                            "HIDEYO"
                           )
                         ),
                         p.default.createElement(
@@ -43154,10 +43120,9 @@ object-assign
                             "a", {
                               href: "/",
                               onClick: this.onNavClick,
-                              "data-detail": "longsleeve",
-                              className: "longsleeve",
+                              "data-detail": "NANA",
+                              className: "NANA",
                             },
-<<<<<<< HEAD
                             "NANA"
                           )
                         ),
@@ -43172,9 +43137,6 @@ object-assign
                               className: "RAFAEL",
                             },
                             "RAFAEL"
-=======
-                            "Longsleeve"
->>>>>>> parent of f60c571... updates
                           )
                         ),
                         p.default.createElement(
@@ -43210,7 +43172,6 @@ object-assign
                         className: "detail GUILLERMO"
                       },
                       p.default.createElement(
-<<<<<<< HEAD
                         "p", {
                           className: "job-title",
                         },
@@ -43371,18 +43332,17 @@ object-assign
                           p.default.createElement("br"),
                           "to bring their vision to Japan."
                         ),
-=======
-                        "div",
-                        { className: "detail longsleeve" },
->>>>>>> parent of f60c571... updates
                         p.default.createElement(
                           "p",
                           null,
-                          'The all black longsleeve is made of 100% organic cotton. The fabric weighs 190gr/sqm and was knitted in Finland. It comes with a crew neckline. The chest features the The Good Will Out box logo. The back shows the logo stripe as seen on the heel of the NMD CS. It reads "The Good Will Out" and "\u6700\u826F\u306E\u7269\u306F\u5B9F\u73FE\u3059\u308B" (Japanese for "The Good Will Out"). Both prints are reflective. The longsleeve is Made in Germany.'
+                          "Ian Rever a certified Funktion One Sound Engineer,",
+                          p.default.createElement("br"),
+                          "handles Meta Studios Sound Division and equipment",
+                          p.default.createElement("br"),
+                          "rentals for our clientele in Japan."
                         )
                       ),
                       p.default.createElement(
-<<<<<<< HEAD
                         "div", {
                           className: "detail HIDEYO"
                         },
@@ -43431,24 +43391,13 @@ object-assign
                           "Nana Kawaguchi currently works for Meta Studios as our Japanese",
                           p.default.createElement("br"),
                           "creative development staff and account management."
-=======
-                        "div",
-                        { className: "detail jacket" },
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "The all black Kimoto Jacket is made of 100% Stotz EtaProof fabric. It brings together year old techniques of Japanese Martial Arts with its silhoutte and the art of pattern making which is still used for the kimono or shozoko today and mastered in a way to have full freedom of movement and offers a timeless look to themselves."
                         ),
                         p.default.createElement(
                           "p",
                           null,
-                          "The front features a black on black The Good Will Out box logo patch above one of the patch on pockets. The back shows the logo stripe as seen on the heel of the NMD CS."
->>>>>>> parent of f60c571... updates
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "EtaProof is a development of British traditional performance cotton, extra long staple fibre yarns are gently spun and twisted, then woven into an extremely dense plain weave cloth. The result is a dense all weather fabric which has a natural touch and comfort with rain and wind protection and natural breathability that is recognised worldwide to be the best of its kind."
+                          "She is an important valuable component to Meta Studios creative",
+                          p.default.createElement("br"),
+                          "vision and our link to Japanese establishment."
                         )
                       )
                     ),
@@ -44925,43 +44874,10 @@ object-assign
                           className: "animation-wrapper",
                         },
                         d.default.createElement(
-<<<<<<< HEAD
                           "span", {
                             className: "animation-slice contact-left-head"
                           },
                           "Ready To Talk To Us?"
-=======
-                          "p",
-                          {
-                            className: "copy animation-default contact-des",
-                          },
-                          "Meta Studios Creative Agency Team Is Ready to create your",
-                          d.default.createElement("br"),
-                          "En-Vision your next idea into working results."
-                        ),
-                        d.default.createElement(
-                          "p",
-                          { className: "animation-wrapper" },
-                          d.default.createElement(
-                            "span",
-                            {
-                              className:
-                                "copy white animation-default contact-us-left-head",
-                            },
-                            "Meta Studios Creative Agency K.K 株式会社"
-                          )
-                        ),
-                        d.default.createElement(
-                          "p",
-                          {
-                            className: "copy animation-default contact-us-des",
-                          },
-                          "6F Tobu Building 6-28-9 Jingumae",
-                          d.default.createElement("br"),
-                          "Shibuya, Tokyo Japan",
-                          d.default.createElement("br"),
-                          "+81-505-539-META [6382]"
->>>>>>> parent of f60c571... updates
                         )
                       ),
                       d.default.createElement(
@@ -44983,9 +44899,8 @@ object-assign
                           "span", {
                             className: "copy animation-default contact-des",
                           },
-                          "META STUDIOS CREATIVE AGENCY TEAM IS READY TO CREATE YOUR",
+                          "Meta Studios Creative Agency Team Is Ready to create your",
                           d.default.createElement("br"),
-<<<<<<< HEAD
                           "En-Vision your next idea into working results."
                         )
                       ),
@@ -44993,10 +44908,6 @@ object-assign
                         "p", {
                           className: "animation-wrapper"
                         },
-=======
-                          "EN-VISION YOUR NEXT IDEA INTO WORKING RESULTS."
-                        ),
->>>>>>> parent of f60c571... updates
                         d.default.createElement(
                           "span", {
                             className: "copy white animation-default contact-us-left-head",
