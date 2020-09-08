@@ -44121,7 +44121,7 @@ object-assign
                                 p.default.createElement(
                                   "small",
                                   null,
-                                  "Hahahahaha"
+                                  "TGWO release"
                                 ),
                                 p.default.createElement(
                                   "span",
@@ -44778,7 +44778,6 @@ object-assign
                           "video",
                           {
                             className: "cover-video",
-                            id: "cover-video",
                             "data-origwidth": "292",
                             "data-origheight": "183",
                             loop: !0,
@@ -44786,6 +44785,10 @@ object-assign
                             playsInline: !0,
                             preload: "auto",
                           },
+                          p.default.createElement("source", {
+                            src: "/assets/videos/flags/flag_white.mp4",
+                            type: "video/mp4",
+                          })
                         ),
                         p.default.createElement(
                           u.default,
@@ -44795,46 +44798,141 @@ object-assign
                           })
                         ),
                         p.default.createElement(
+                          "a",
+                          {
+                            href: "/#home",
+                            target: "_blank",
+                            className: "tgwo-link",
+                            ref: "element",
+                            onClick: this.onLogoClick,
+                          },
+                          p.default.createElement("img", {
+                            src:
+                              "https://www.ankoku-toshi-jutsu.com/assets/images/tgwo-logo-black.png",
+                            alt: "The Good Will Out",
+                            className: "tgwo-logo",
+                          })
+                        ),
+                        p.default.createElement(
+                          "a",
+                          {
+                            href: "/#home",
+                            target: "_blank",
+                            className: "adidas-link",
+                            ref: "element",
+                            onClick: this.onLogoClick,
+                          },
+                          p.default.createElement("img", {
+                            src:
+                              "https://www.ankoku-toshi-jutsu.com/assets/images/adidas-logo-black.png",
+                            alt: "Adidas",
+                            className: "adidas-logo",
+                          })
+                        ),
+                        p.default.createElement(
                           "div",
-                          { className: "stripe-section" },
+                          { className: "overview" },
                           p.default.createElement(
                             "h1",
                             { className: "animation-wrapper" },
                             p.default.createElement(
                               "span",
                               { className: "animation-slice" },
-                              "Hiring"
-                            ),
-                            p.default.createElement("br", null),
-                            p.default.createElement(
-                              "span",
-                              { className: "animation-slice" },
-                              "Teamwork _"
+                              "How\xA0to\xA0buy"
                             )
                           ),
-                        ),
-                        p.default.createElement(
-                          "div",
-                          {
-                            className: "teaser-hiring animation-lines ",
-                            id: "decode-text",
-                          },
-                          "Meta Studios Creative Agency was born in 2017 with the goal to manifest",
-                          p.default.createElement("br"),
-                          "intentional design that can reconnect science and spirituality, merging",
-                          p.default.createElement("br"),
-                          "energy field optics with interactive multimedia for a emerging Neo technolgical",
-                          p.default.createElement("br"),
-                          "Singularity society.",
                           p.default.createElement(
-                            "button",
-                            {
-                              className: "button-hiring"
-                            },
-                            "Learn More"
+                            "div",
+                            { className: "sub" },
+                            p.default.createElement(
+                              "ul",
+                              null,
+                              p.default.createElement(
+                                "li",
+                                { className: "animation-lines" },
+                                p.default.createElement(
+                                  "small",
+                                  null,
+                                  "TGWO release"
+                                ),
+                                p.default.createElement(
+                                  "span",
+                                  { className: "date" },
+                                  "16\xA0\u2014\xA009\xA0\u2014\xA017"
+                                )
+                              ),
+                              p.default.createElement(
+                                "li",
+                                { className: "animation-lines" },
+                                p.default.createElement(
+                                  "small",
+                                  null,
+                                  "worldwide release"
+                                ),
+                                p.default.createElement(
+                                  "span",
+                                  { className: "date" },
+                                  "23\xA0\u2014\xA009\xA0\u2014\xA017"
+                                )
+                              ),
+                              p.default.createElement(
+                                "li",
+                                {
+                                  className: "animation-lines article-details",
+                                },
+                                p.default.createElement(
+                                  "small",
+                                  { className: "article-head" },
+                                  "Article ID:"
+                                ),
+                                "BB5994",
+                                p.default.createElement("br", null),
+                                "Black",
+                                p.default.createElement("br", null),
+                                "US 4.5 - 13.0",
+                                p.default.createElement("br", null),
+                                "unisex",
+                                p.default.createElement("br", null),
+                                "Retail price: 220,- \u20AC"
+                              )
+                            ),
+                            p.default.createElement(
+                              "div",
+                              { className: "intro" },
+                              p.default.createElement(
+                                "p",
+                                { className: "first animation-lines" },
+                                "In a contemporary homage to the covert agents of feudal Japan, the adidas Consortium x The Good Will Out NMD CS1 \u201AAnkoku Toshi Jutsu\u2019 arrives in full-on stealth mode.",
+                                p.default.createElement(
+                                  "span",
+                                  { className: "second" },
+                                  "\u2014 The Art of Seeing through Darkness"
+                                )
+                              )
+                            ),
+                            p.default.createElement(
+                              "div",
+                              { className: "shops-head animation-lines" },
+                              "The adidas Consortium x The Good Will Out NMD CS1 \u201AAnkoku Toshi Jutsu\u2019 is available at selected adidas consortium stores worldwide."
+                            ),
+                            p.default.createElement(
+                              "div",
+                              {
+                                className:
+                                  "shops-button-wrapper animation-default",
+                              },
+                              p.default.createElement(
+                                "a",
+                                {
+                                  href: "/#howtobuy",
+                                  className:
+                                    "shops-button btn-black playclicksound",
+                                },
+                                "View store list"
+                              )
+                            )
                           )
                         ),
-                        
                         p.default.createElement(
                           "div",
                           { className: "shops" },
@@ -48725,7 +48823,7 @@ object-assign
                           d.default.createElement("img", {
                             src:
                               "https://facelessdevhack.github.io/MetaStudio-2/imgs/Layer%2017.png",
-                            alt: "We are Hiring",
+                            alt: "How to buy",
                           })
                         )
                       )
@@ -48738,7 +48836,7 @@ object-assign
                           ref: "element",
                           onClick: this.onClick,
                         },
-                        d.default.createElement("span", null, "We are Hiring"),
+                        d.default.createElement("span", null, "How to buy"),
                         d.default.createElement(
                           "div",
                           { className: "icon-container" },
@@ -48748,7 +48846,7 @@ object-assign
                           d.default.createElement("img", {
                             src:
                               "https://facelessdevhack.github.io/MetaStudio-2/imgs/Layer%2017.png",
-                            alt: "We are Hiring",
+                            alt: "How to buy",
                           })
                         )
                       );
