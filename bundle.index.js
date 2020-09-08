@@ -10436,8 +10436,8 @@ object-assign
       ],
       defaultMobile: [
       ],
-      videoTrailer: "https://facelessdevhack.github.io/MetaStudio-2/videos/intro.mp4",
-      videoTrailerMobile: "https://facelessdevhack.github.io/MetaStudio-2/videos/intro.mp4",
+      videoTrailer: "./videos/intro.mp4",
+      videoTrailerMobile: "./videos/intro.mp4",
       videos: {
         videoHome: "./videos/Render_1.mp4",
         videoProduct: "./videos/Calum_Tunnel_FOR_WEB.mp4",
