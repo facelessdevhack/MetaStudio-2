@@ -14209,6 +14209,7 @@ object-assign
                             backgroundAudio: this.state.backgroundAudio,
                           }),
                           function () {}
+<<<<<<< HEAD
                         )) :
                       "Getthechance" === e ?
                       window.APP.isMobile ?
@@ -14276,6 +14277,75 @@ object-assign
                         })) :
                       "Imprint" === e ?
                       ((this.watchMousewheel = !1),
+=======
+                        ))
+                      : "Getthechance" === e
+                      ? window.APP.isMobile
+                        ? ((this.watchMousewheel = !0),
+                          this.setState({
+                            page: "Getthechance",
+                            pageNumber: 6,
+                            appendVideoBackgrounds: !0,
+                            showMainMenu: !1,
+                            showBackgroundVideo: !1,
+                            backgroundVideo: "",
+                            showTgwoLogo: !1,
+                            showAdidasLogo: !1,
+                            showShopButton: !1,
+                            showScrollIcon: !1,
+                            showNavIcon: !0,
+                            showAudioButton: !0,
+                            showShareIcons: !1,
+                          }))
+                        : ((this.watchMousewheel = !1),
+                          this.setState({
+                            page: "Getthechance",
+                            showMainMenu: !1,
+                            showPageIndicator: !1,
+                            showBackgroundVideo: !1,
+                            backgroundVideo: "",
+                            showTgwoLogo: !0,
+                            showAdidasLogo: !0,
+                            showShopButton: !0,
+                            showScrollIcon: !0,
+                            showNavIcon: !0,
+                            showAudioButton: !0,
+                            showShareIcons: !0,
+                          }))
+                      : "Credits" === e
+                      ? window.APP.isMobile
+                        ? ((this.watchMousewheel = !1),
+                          this.setState({
+                            page: "Credits",
+                            showMainMenu: !1,
+                            showBackgroundVideo: !0,
+                            backgroundVideo: "videoCredits",
+                            showTgwoLogo: !1,
+                            showAdidasLogo: !1,
+                            showShopButton: !1,
+                            showScrollIcon: !1,
+                            showNavIcon: !1,
+                            showAudioButton: !0,
+                            showShareIcons: !1,
+                          }))
+                        : ((this.watchMousewheel = !1),
+                          this.setState({
+                            page: "Credits",
+                            showMainMenu: !1,
+                            showPageIndicator: !1,
+                            showBackgroundVideo: !0,
+                            backgroundVideo: "videoCredits",
+                            showTgwoLogo: !1,
+                            showAdidasLogo: !1,
+                            showShopButton: !1,
+                            showScrollIcon: !1,
+                            showNavIcon: !1,
+                            showAudioButton: !0,
+                            showShareIcons: !1,
+                          }))
+                      : "Imprint" === e
+                      ? ((this.watchMousewheel = !1),
+>>>>>>> parent of 6a46559... Update bundle.index.js
                         this.setState({
                           page: "Imprint",
                           showMainMenu: !1,
@@ -49410,6 +49480,7 @@ object-assign
               {
                 key: "render",
                 value: function () {
+<<<<<<< HEAD
                   return window.APP.isMobile ?
                     d.default.createElement(
                       "div", {
@@ -49433,6 +49504,216 @@ object-assign
                         "div", {
                           className: "scroll-container"
                         },
+=======
+                  return window.APP.isMobile
+                    ? d.default.createElement(
+                        "div",
+                        { className: "main-menu", ref: "element" },
+                        d.default.createElement(
+                          "video",
+                          {
+                            className: "cover-video",
+                            loop: !0,
+                            muted: !0,
+                            playsInline: !0,
+                            preload: "auto",
+                          },
+                          d.default.createElement("source", {
+                            src: "./videos/menu_background_video.mp4",
+                            type: "video/mp4",
+                          })
+                        ),
+                        d.default.createElement(
+                          "div",
+                          { className: "scroll-container" },
+                          d.default.createElement(
+                            "ul",
+                            { className: "nav" },
+                            d.default.createElement(
+                              "li",
+                              {
+                                className:
+                                  "Home" === this.props.current ? "active" : "",
+                                onClick: this.onClick,
+                                "data-pagehash": "home",
+                              },
+                              d.default.createElement(
+                                "span",
+                                { className: "number" },
+                                ".01"
+                              ),
+                              d.default.createElement(
+                                "span",
+                                { className: "title" },
+                                "\u2014 Home",
+                                d.default.createElement("br", null),
+                                ""
+                              )
+                            ),
+                            d.default.createElement(
+                              "li",
+                              {
+                                className:
+                                  "Product" === this.props.current
+                                    ? "active"
+                                    : "",
+                                onClick: this.onClick,
+                                "data-pagehash": "product",
+                              },
+                              d.default.createElement(
+                                "span",
+                                { className: "number" },
+                                ".02"
+                              ),
+                              d.default.createElement(
+                                "span",
+                                { className: "title" },
+                                "\u2014 OUR",
+                                d.default.createElement("br", null),
+                                "VIZION"
+                              )
+                            ),
+                            d.default.createElement(
+                              "li",
+                              {
+                                className:
+                                  "Items" === this.props.current
+                                    ? "active"
+                                    : "",
+                                onClick: this.onClick,
+                                "data-pagehash": "items",
+                              },
+                              d.default.createElement(
+                                "span",
+                                { className: "number" },
+                                ".03"
+                              ),
+                              d.default.createElement(
+                                "span",
+                                { className: "title" },
+                                "_Projects"
+                              )
+                            ),
+                            d.default.createElement(
+                              "li",
+                              {
+                                className:
+                                  "Journey" === this.props.current
+                                    ? "active"
+                                    : "",
+                                onClick: this.onClick,
+                                "data-pagehash": "journey",
+                              },
+                              d.default.createElement(
+                                "span",
+                                { className: "number" },
+                                ".04"
+                              ),
+                              d.default.createElement(
+                                "span",
+                                { className: "title" },
+                                "Visual Journey_"
+                              )
+                            ),
+                            d.default.createElement(
+                              "li",
+                              {
+                                className:
+                                  "Gallery" === this.props.current
+                                    ? "active"
+                                    : "",
+                                onClick: this.onClick,
+                                "data-pagehash": "gallery",
+                              },
+                              d.default.createElement(
+                                "span",
+                                { className: "number" },
+                                ".05"
+                              ),
+                              d.default.createElement(
+                                "span",
+                                { className: "title" },
+                                "Contact Us"
+                              )
+                            ),
+                            d.default.createElement(
+                              "li",
+                              {
+                                className:
+                                  "Getthechance" === this.props.current
+                                    ? "active"
+                                    : "",
+                                onClick: this.onClick,
+                                "data-pagehash": "gallery",
+                              },
+                              d.default.createElement(
+                                "span",
+                                { className: "number" },
+                                ".06"
+                              ),
+                              d.default.createElement(
+                                "span",
+                                { className: "title" },
+                                "BLOG"
+                              )
+                            ),
+                            d.default.createElement(
+                              "li",
+                              {
+                                className:
+                                  "Credits" === this.props.current
+                                    ? "active"
+                                    : "",
+                                onClick: this.onClick,
+                                "data-pagehash": "gallery",
+                              },
+                              d.default.createElement(
+                                "span",
+                                { className: "number" },
+                                ".07"
+                              ),
+                              d.default.createElement(
+                                "span",
+                                { className: "title" },
+                                "E-MAIL"
+                              )
+                            )
+                          ),
+                          d.default.createElement(
+                            "ul",
+                            { className: "small" },
+                            d.default.createElement(
+                              "li",
+                              null,
+                              d.default.createElement(
+                                "a",
+                                {
+                                  href: "/",
+                                  onClick: this.onClick,
+                                  "data-pagehash": "imprint",
+                                },
+                                d.default.createElement(
+                                  "span",
+                                  { className: "hover-effect" },
+                                  "Imprint"
+                                )
+                              )
+                            )
+                          )
+                        ),
+                        d.default.createElement(
+                          c.default,
+                          { component: u.firstChild.get },
+                          this.state.showCloseButton &&
+                            d.default.createElement(b.default, {
+                              clickhandler: this.onCloseButtonClick,
+                            })
+                        )
+                      )
+                    : d.default.createElement(
+                        "div",
+                        { className: "main-menu", ref: "element" },
+>>>>>>> parent of 6a46559... Update bundle.index.js
                         d.default.createElement(
                           "ul", {
                             className: "nav"
@@ -50485,9 +50766,14 @@ object-assign
                           "5"
                         ),
                         p.default.createElement(
+<<<<<<< HEAD
                           "div", {
                             className: "number6"
                           },
+=======
+                          "div",
+                          { className: "number6" },
+>>>>>>> parent of 6a46559... Update bundle.index.js
                           "6"
                         )
                       )
@@ -50867,6 +51153,7 @@ object-assign
                         "div", {
                           className: "icon-container"
                         },
+<<<<<<< HEAD
                         d.default.createElement("div", {
                           className: "circle",
                         }),
@@ -50874,6 +51161,21 @@ object-assign
                           src: "https://facelessdevhack.github.io/MetaStudio-2/imgs/Layer%2017.png",
                           alt: "We are Hiring",
                         })
+=======
+                        d.default.createElement("span", null, "Get it"),
+                        d.default.createElement(
+                          "div",
+                          { className: "icon-container" },
+                          d.default.createElement("div", {
+                            className: "circle",
+                          }),
+                          d.default.createElement("img", {
+                            src:
+                              "https://facelessdevhack.github.io/MetaStudio-2/imgs/Layer%2017.png",
+                            alt: "We are Hiring",
+                          })
+                        )
+>>>>>>> parent of 6a46559... Update bundle.index.js
                       )
                     ) :
                     d.default.createElement(
