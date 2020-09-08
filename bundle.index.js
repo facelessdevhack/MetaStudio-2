@@ -13492,9 +13492,6 @@ object-assign
                     case 5:
                       this.gotToPageByHash("gallery");
                       break;
-                    case 6:
-                      this.gotToPageByHash("howtobuy");
-                      break;
                     default:
                       this.gotToPageByHash("home");
                   }
@@ -13684,24 +13681,7 @@ object-assign
                           function () {}
                         ))
                       : "Getthechance" === e
-                      ? window.APP.isMobile
-                        ? ((this.watchMousewheel = !0),
-                          this.setState({
-                            page: "Getthechance",
-                            pageNumber: 6,
-                            appendVideoBackgrounds: !0,
-                            showMainMenu: !1,
-                            showBackgroundVideo: !1,
-                            backgroundVideo: "",
-                            showTgwoLogo: !1,
-                            showAdidasLogo: !1,
-                            showShopButton: !1,
-                            showScrollIcon: !1,
-                            showNavIcon: !0,
-                            showAudioButton: !0,
-                            showShareIcons: !1,
-                          }))
-                        : ((this.watchMousewheel = !1),
+                      ? ((this.watchMousewheel = !1),
                           this.setState({
                             page: "Getthechance",
                             showMainMenu: !1,
@@ -13800,7 +13780,7 @@ object-assign
                       case "Gallery":
                         this.gotToPageByHash("journey");
                         break;
-                      case "Getthechance":
+                      case "journey":
                         window.APP.isMobile && this.gotToPageByHash("gallery");
                     }
                   else
@@ -13931,7 +13911,7 @@ object-assign
                       (window.APP.isTablet =
                         e <= window.APP.tabletBreakpoint &&
                         e > window.APP.mobileBreakpoint),
-                      window.APP.isMobile && (this.state.pagesCount = 6));
+                      window.APP.isMobile && (this.state.pagesCount = 5));
                 },
               },
               {
@@ -47651,48 +47631,6 @@ object-assign
                                 "Contact Us"
                               )
                             ),
-                            d.default.createElement(
-                              "li",
-                              {
-                                className:
-                                  "Getthechance" === this.props.current
-                                    ? "active"
-                                    : "",
-                                onClick: this.onClick,
-                                "data-pagehash": "howtobuy",
-                              },
-                              d.default.createElement(
-                                "span",
-                                { className: "number" },
-                                ".06"
-                              ),
-                              d.default.createElement(
-                                "span",
-                                { className: "title" },
-                                "BLOG"
-                              )
-                            ),
-                            d.default.createElement(
-                              "li",
-                              {
-                                className:
-                                  "Credits" === this.props.current
-                                    ? "active"
-                                    : "",
-                                onClick: this.onClick,
-                                "data-pagehash": "credits",
-                              },
-                              d.default.createElement(
-                                "span",
-                                { className: "number" },
-                                ".07"
-                              ),
-                              d.default.createElement(
-                                "span",
-                                { className: "title" },
-                                "E-MAIL"
-                              )
-                            )
                           ),
                           d.default.createElement(
                             "ul",
@@ -47705,12 +47643,12 @@ object-assign
                                 {
                                   href: "/",
                                   onClick: this.onClick,
-                                  "data-pagehash": "imprint",
+                                  "data-pagehash": "gallery",
                                 },
                                 d.default.createElement(
                                   "span",
                                   { className: "hover-effect" },
-                                  "Imprint"
+                                  "Email"
                                 )
                               )
                             )
@@ -48486,7 +48424,6 @@ object-assign
                     .removeClass("number3")
                     .removeClass("number4")
                     .removeClass("number5")
-                    .removeClass("number6")
                     .addClass("number" + this.state.pagenumber);
                 },
               },
@@ -48527,11 +48464,6 @@ object-assign
                           { className: "number5" },
                           "5"
                         ),
-                        p.default.createElement(
-                          "div",
-                          { className: "number6" },
-                          "6"
-                        )
                       )
                     ),
                     p.default.createElement(
