@@ -14209,6 +14209,7 @@ object-assign
                             backgroundAudio: this.state.backgroundAudio,
                           }),
                           function () {}
+<<<<<<< HEAD
                         )) :
                       "Getthechance" === e ?
                       window.APP.isMobile ?
@@ -14276,6 +14277,75 @@ object-assign
                         })) :
                       "Imprint" === e ?
                       ((this.watchMousewheel = !1),
+=======
+                        ))
+                      : "Getthechance" === e
+                      ? window.APP.isMobile
+                        ? ((this.watchMousewheel = !0),
+                          this.setState({
+                            page: "Getthechance",
+                            pageNumber: 6,
+                            appendVideoBackgrounds: !0,
+                            showMainMenu: !1,
+                            showBackgroundVideo: !1,
+                            backgroundVideo: "",
+                            showTgwoLogo: !1,
+                            showAdidasLogo: !1,
+                            showShopButton: !1,
+                            showScrollIcon: !1,
+                            showNavIcon: !0,
+                            showAudioButton: !0,
+                            showShareIcons: !1,
+                          }))
+                        : ((this.watchMousewheel = !1),
+                          this.setState({
+                            page: "Getthechance",
+                            showMainMenu: !1,
+                            showPageIndicator: !1,
+                            showBackgroundVideo: !1,
+                            backgroundVideo: "",
+                            showTgwoLogo: !0,
+                            showAdidasLogo: !0,
+                            showShopButton: !0,
+                            showScrollIcon: !0,
+                            showNavIcon: !0,
+                            showAudioButton: !0,
+                            showShareIcons: !0,
+                          }))
+                      : "Credits" === e
+                      ? window.APP.isMobile
+                        ? ((this.watchMousewheel = !1),
+                          this.setState({
+                            page: "Credits",
+                            showMainMenu: !1,
+                            showBackgroundVideo: !0,
+                            backgroundVideo: "videoCredits",
+                            showTgwoLogo: !1,
+                            showAdidasLogo: !1,
+                            showShopButton: !1,
+                            showScrollIcon: !1,
+                            showNavIcon: !1,
+                            showAudioButton: !0,
+                            showShareIcons: !1,
+                          }))
+                        : ((this.watchMousewheel = !1),
+                          this.setState({
+                            page: "Credits",
+                            showMainMenu: !1,
+                            showPageIndicator: !1,
+                            showBackgroundVideo: !0,
+                            backgroundVideo: "videoCredits",
+                            showTgwoLogo: !1,
+                            showAdidasLogo: !1,
+                            showShopButton: !1,
+                            showScrollIcon: !1,
+                            showNavIcon: !1,
+                            showAudioButton: !0,
+                            showShareIcons: !1,
+                          }))
+                      : "Imprint" === e
+                      ? ((this.watchMousewheel = !1),
+>>>>>>> parent of 6a46559... Update bundle.index.js
                         this.setState({
                           page: "Imprint",
                           showMainMenu: !1,
@@ -14876,10 +14946,22 @@ object-assign
               {
                 key: "render",
                 value: function () {
-                  return d.default.createElement("div", {
-                    className: "audio-button",
-                    ref: "element",
-                  });
+                  return d.default.createElement(
+                    "div",
+                    { className: "audio-button", ref: "element" },
+                    d.default.createElement(
+                      "a",
+                      {
+                        href: "javascript:void(0);",
+                        className: "btn",
+                        onClick: this.onClick,
+                      },
+                      d.default.createElement("img", {
+                        src: "https://www.ankoku-toshi-jutsu.com/assets/images/sine.png",
+                        className: "sine",
+                      })
+                    )
+                  );
                 },
               },
             ]),
@@ -41679,9 +41761,8 @@ object-assign
                         d.default.createElement(
                           "a", {
                             className: "link-decode",
-                            href: "javascript:void(0);",
-                            onClick: this.onClick,
-                            "data-pagehash": "itemsdetails/guillermo",
+                            href:
+                              "https://facelessdevhack.github.io/MetaStudio-2/index.html#itemsdetails/GUILLERMO",
                           },
                           d.default.createElement(
                             "p",
@@ -42782,7 +42863,7 @@ object-assign
                   (this.$element = a(this.refs.element)),
                   (this.$nav = this.$element.find("nav")),
                   TweenMax.set(this.$nav, {
-                      opacity: 1
+                      opacity: 0
                     }),
                     (this.$navButtons = this.$element.find(
                       "nav > ul > li > a"
@@ -42805,11 +42886,11 @@ object-assign
                     }),
                     window.APP.isMobile &&
                     (TweenMax.set(this.$detailContainer, {
-                        opacity: 1
+                        opacity: 0
                       }),
                       this.addMobileSwipeOnce()),
                     TweenMax.set(this.$element, {
-                      opacity: 1
+                      opacity: 0
                     });
                 },
               },
@@ -42917,14 +42998,15 @@ object-assign
                     .find("nav > ul > li > a." + e)
                     .addClass("active"),
                     (window.location.hash = "itemsdetails/" + e),
+<<<<<<< HEAD
                     window.APP.isMobile ?
                     g.default.sendTo("setGlobalState", {
                       showBackgroundVideo: !0,
                       backgroundVideo: "videoItemsdetails",
                     }) :
-                    "guillermo" == e ?
+                    "IAN" == e ?
                     g.default.sendTo("setGlobalState", {
-                      showBackgroundVideo: !1,
+                      showBackgroundVideo: !0,
                       backgroundVideo: "videoJacket",
                     }) :
                     "longsleeve" == e &&
@@ -42932,6 +43014,23 @@ object-assign
                       showBackgroundVideo: !0,
                       backgroundVideo: "videoLongsleeve",
                     });
+=======
+                    window.APP.isMobile
+                      ? g.default.sendTo("setGlobalState", {
+                          showBackgroundVideo: !0,
+                          backgroundVideo: "videoItemsdetails",
+                        })
+                      : "jacket" == e
+                      ? g.default.sendTo("setGlobalState", {
+                          showBackgroundVideo: !0,
+                          backgroundVideo: "videoJacket",
+                        })
+                      : "longsleeve" == e &&
+                        g.default.sendTo("setGlobalState", {
+                          showBackgroundVideo: !0,
+                          backgroundVideo: "videoLongsleeve",
+                        });
+>>>>>>> parent of f60c571... updates
                   var t = this.$element.find(".detail." + e);
                   if ("" == this.detailpage) b.pageAnimations.detailsCopyIn(t);
                   else {
@@ -43011,6 +43110,7 @@ object-assign
                             "a", {
                               href: "/",
                               onClick: this.onNavClick,
+<<<<<<< HEAD
                               "data-detail": "guillermo",
                               className: "guillermo",
                             },
@@ -43039,8 +43139,12 @@ object-assign
                               onClick: this.onNavClick,
                               "data-detail": "HIDEYO",
                               className: "HIDEYO",
+=======
+                              "data-detail": "jacket",
+                              className: "jacket",
+>>>>>>> parent of f60c571... updates
                             },
-                            "HIDEYO"
+                            "Kimoto Jacket"
                           )
                         ),
                         p.default.createElement(
@@ -43050,9 +43154,10 @@ object-assign
                             "a", {
                               href: "/",
                               onClick: this.onNavClick,
-                              "data-detail": "NANA",
-                              className: "NANA",
+                              "data-detail": "longsleeve",
+                              className: "longsleeve",
                             },
+<<<<<<< HEAD
                             "NANA"
                           )
                         ),
@@ -43067,6 +43172,9 @@ object-assign
                               className: "RAFAEL",
                             },
                             "RAFAEL"
+=======
+                            "Longsleeve"
+>>>>>>> parent of f60c571... updates
                           )
                         ),
                         p.default.createElement(
@@ -43102,6 +43210,7 @@ object-assign
                         className: "detail GUILLERMO"
                       },
                       p.default.createElement(
+<<<<<<< HEAD
                         "p", {
                           className: "job-title",
                         },
@@ -43262,17 +43371,18 @@ object-assign
                           p.default.createElement("br"),
                           "to bring their vision to Japan."
                         ),
+=======
+                        "div",
+                        { className: "detail longsleeve" },
+>>>>>>> parent of f60c571... updates
                         p.default.createElement(
                           "p",
                           null,
-                          "Ian Rever a certified Funktion One Sound Engineer,",
-                          p.default.createElement("br"),
-                          "handles Meta Studios Sound Division and equipment",
-                          p.default.createElement("br"),
-                          "rentals for our clientele in Japan."
+                          'The all black longsleeve is made of 100% organic cotton. The fabric weighs 190gr/sqm and was knitted in Finland. It comes with a crew neckline. The chest features the The Good Will Out box logo. The back shows the logo stripe as seen on the heel of the NMD CS. It reads "The Good Will Out" and "\u6700\u826F\u306E\u7269\u306F\u5B9F\u73FE\u3059\u308B" (Japanese for "The Good Will Out"). Both prints are reflective. The longsleeve is Made in Germany.'
                         )
                       ),
                       p.default.createElement(
+<<<<<<< HEAD
                         "div", {
                           className: "detail HIDEYO"
                         },
@@ -43321,13 +43431,24 @@ object-assign
                           "Nana Kawaguchi currently works for Meta Studios as our Japanese",
                           p.default.createElement("br"),
                           "creative development staff and account management."
+=======
+                        "div",
+                        { className: "detail jacket" },
+                        p.default.createElement(
+                          "p",
+                          null,
+                          "The all black Kimoto Jacket is made of 100% Stotz EtaProof fabric. It brings together year old techniques of Japanese Martial Arts with its silhoutte and the art of pattern making which is still used for the kimono or shozoko today and mastered in a way to have full freedom of movement and offers a timeless look to themselves."
                         ),
                         p.default.createElement(
                           "p",
                           null,
-                          "She is an important valuable component to Meta Studios creative",
-                          p.default.createElement("br"),
-                          "vision and our link to Japanese establishment."
+                          "The front features a black on black The Good Will Out box logo patch above one of the patch on pockets. The back shows the logo stripe as seen on the heel of the NMD CS."
+>>>>>>> parent of f60c571... updates
+                        ),
+                        p.default.createElement(
+                          "p",
+                          null,
+                          "EtaProof is a development of British traditional performance cotton, extra long staple fibre yarns are gently spun and twisted, then woven into an extremely dense plain weave cloth. The result is a dense all weather fabric which has a natural touch and comfort with rain and wind protection and natural breathability that is recognised worldwide to be the best of its kind."
                         )
                       )
                     ),
@@ -44804,10 +44925,43 @@ object-assign
                           className: "animation-wrapper",
                         },
                         d.default.createElement(
+<<<<<<< HEAD
                           "span", {
                             className: "animation-slice contact-left-head"
                           },
                           "Ready To Talk To Us?"
+=======
+                          "p",
+                          {
+                            className: "copy animation-default contact-des",
+                          },
+                          "Meta Studios Creative Agency Team Is Ready to create your",
+                          d.default.createElement("br"),
+                          "En-Vision your next idea into working results."
+                        ),
+                        d.default.createElement(
+                          "p",
+                          { className: "animation-wrapper" },
+                          d.default.createElement(
+                            "span",
+                            {
+                              className:
+                                "copy white animation-default contact-us-left-head",
+                            },
+                            "Meta Studios Creative Agency K.K 株式会社"
+                          )
+                        ),
+                        d.default.createElement(
+                          "p",
+                          {
+                            className: "copy animation-default contact-us-des",
+                          },
+                          "6F Tobu Building 6-28-9 Jingumae",
+                          d.default.createElement("br"),
+                          "Shibuya, Tokyo Japan",
+                          d.default.createElement("br"),
+                          "+81-505-539-META [6382]"
+>>>>>>> parent of f60c571... updates
                         )
                       ),
                       d.default.createElement(
@@ -44829,8 +44983,9 @@ object-assign
                           "span", {
                             className: "copy animation-default contact-des",
                           },
-                          "Meta Studios Creative Agency Team Is Ready to create your",
+                          "META STUDIOS CREATIVE AGENCY TEAM IS READY TO CREATE YOUR",
                           d.default.createElement("br"),
+<<<<<<< HEAD
                           "En-Vision your next idea into working results."
                         )
                       ),
@@ -44838,6 +44993,10 @@ object-assign
                         "p", {
                           className: "animation-wrapper"
                         },
+=======
+                          "EN-VISION YOUR NEXT IDEA INTO WORKING RESULTS."
+                        ),
+>>>>>>> parent of f60c571... updates
                         d.default.createElement(
                           "span", {
                             className: "copy white animation-default contact-us-left-head",
@@ -49410,6 +49569,7 @@ object-assign
               {
                 key: "render",
                 value: function () {
+<<<<<<< HEAD
                   return window.APP.isMobile ?
                     d.default.createElement(
                       "div", {
@@ -49433,6 +49593,216 @@ object-assign
                         "div", {
                           className: "scroll-container"
                         },
+=======
+                  return window.APP.isMobile
+                    ? d.default.createElement(
+                        "div",
+                        { className: "main-menu", ref: "element" },
+                        d.default.createElement(
+                          "video",
+                          {
+                            className: "cover-video",
+                            loop: !0,
+                            muted: !0,
+                            playsInline: !0,
+                            preload: "auto",
+                          },
+                          d.default.createElement("source", {
+                            src: "./videos/menu_background_video.mp4",
+                            type: "video/mp4",
+                          })
+                        ),
+                        d.default.createElement(
+                          "div",
+                          { className: "scroll-container" },
+                          d.default.createElement(
+                            "ul",
+                            { className: "nav" },
+                            d.default.createElement(
+                              "li",
+                              {
+                                className:
+                                  "Home" === this.props.current ? "active" : "",
+                                onClick: this.onClick,
+                                "data-pagehash": "home",
+                              },
+                              d.default.createElement(
+                                "span",
+                                { className: "number" },
+                                ".01"
+                              ),
+                              d.default.createElement(
+                                "span",
+                                { className: "title" },
+                                "\u2014 Home",
+                                d.default.createElement("br", null),
+                                ""
+                              )
+                            ),
+                            d.default.createElement(
+                              "li",
+                              {
+                                className:
+                                  "Product" === this.props.current
+                                    ? "active"
+                                    : "",
+                                onClick: this.onClick,
+                                "data-pagehash": "product",
+                              },
+                              d.default.createElement(
+                                "span",
+                                { className: "number" },
+                                ".02"
+                              ),
+                              d.default.createElement(
+                                "span",
+                                { className: "title" },
+                                "\u2014 OUR",
+                                d.default.createElement("br", null),
+                                "VIZION"
+                              )
+                            ),
+                            d.default.createElement(
+                              "li",
+                              {
+                                className:
+                                  "Items" === this.props.current
+                                    ? "active"
+                                    : "",
+                                onClick: this.onClick,
+                                "data-pagehash": "items",
+                              },
+                              d.default.createElement(
+                                "span",
+                                { className: "number" },
+                                ".03"
+                              ),
+                              d.default.createElement(
+                                "span",
+                                { className: "title" },
+                                "_Projects"
+                              )
+                            ),
+                            d.default.createElement(
+                              "li",
+                              {
+                                className:
+                                  "Journey" === this.props.current
+                                    ? "active"
+                                    : "",
+                                onClick: this.onClick,
+                                "data-pagehash": "journey",
+                              },
+                              d.default.createElement(
+                                "span",
+                                { className: "number" },
+                                ".04"
+                              ),
+                              d.default.createElement(
+                                "span",
+                                { className: "title" },
+                                "Visual Journey_"
+                              )
+                            ),
+                            d.default.createElement(
+                              "li",
+                              {
+                                className:
+                                  "Gallery" === this.props.current
+                                    ? "active"
+                                    : "",
+                                onClick: this.onClick,
+                                "data-pagehash": "gallery",
+                              },
+                              d.default.createElement(
+                                "span",
+                                { className: "number" },
+                                ".05"
+                              ),
+                              d.default.createElement(
+                                "span",
+                                { className: "title" },
+                                "Contact Us"
+                              )
+                            ),
+                            d.default.createElement(
+                              "li",
+                              {
+                                className:
+                                  "Getthechance" === this.props.current
+                                    ? "active"
+                                    : "",
+                                onClick: this.onClick,
+                                "data-pagehash": "gallery",
+                              },
+                              d.default.createElement(
+                                "span",
+                                { className: "number" },
+                                ".06"
+                              ),
+                              d.default.createElement(
+                                "span",
+                                { className: "title" },
+                                "BLOG"
+                              )
+                            ),
+                            d.default.createElement(
+                              "li",
+                              {
+                                className:
+                                  "Credits" === this.props.current
+                                    ? "active"
+                                    : "",
+                                onClick: this.onClick,
+                                "data-pagehash": "gallery",
+                              },
+                              d.default.createElement(
+                                "span",
+                                { className: "number" },
+                                ".07"
+                              ),
+                              d.default.createElement(
+                                "span",
+                                { className: "title" },
+                                "E-MAIL"
+                              )
+                            )
+                          ),
+                          d.default.createElement(
+                            "ul",
+                            { className: "small" },
+                            d.default.createElement(
+                              "li",
+                              null,
+                              d.default.createElement(
+                                "a",
+                                {
+                                  href: "/",
+                                  onClick: this.onClick,
+                                  "data-pagehash": "imprint",
+                                },
+                                d.default.createElement(
+                                  "span",
+                                  { className: "hover-effect" },
+                                  "Imprint"
+                                )
+                              )
+                            )
+                          )
+                        ),
+                        d.default.createElement(
+                          c.default,
+                          { component: u.firstChild.get },
+                          this.state.showCloseButton &&
+                            d.default.createElement(b.default, {
+                              clickhandler: this.onCloseButtonClick,
+                            })
+                        )
+                      )
+                    : d.default.createElement(
+                        "div",
+                        { className: "main-menu", ref: "element" },
+>>>>>>> parent of 6a46559... Update bundle.index.js
                         d.default.createElement(
                           "ul", {
                             className: "nav"
@@ -50485,9 +50855,14 @@ object-assign
                           "5"
                         ),
                         p.default.createElement(
+<<<<<<< HEAD
                           "div", {
                             className: "number6"
                           },
+=======
+                          "div",
+                          { className: "number6" },
+>>>>>>> parent of 6a46559... Update bundle.index.js
                           "6"
                         )
                       )
@@ -50867,6 +51242,7 @@ object-assign
                         "div", {
                           className: "icon-container"
                         },
+<<<<<<< HEAD
                         d.default.createElement("div", {
                           className: "circle",
                         }),
@@ -50874,6 +51250,21 @@ object-assign
                           src: "https://facelessdevhack.github.io/MetaStudio-2/imgs/Layer%2017.png",
                           alt: "We are Hiring",
                         })
+=======
+                        d.default.createElement("span", null, "Get it"),
+                        d.default.createElement(
+                          "div",
+                          { className: "icon-container" },
+                          d.default.createElement("div", {
+                            className: "circle",
+                          }),
+                          d.default.createElement("img", {
+                            src:
+                              "https://facelessdevhack.github.io/MetaStudio-2/imgs/Layer%2017.png",
+                            alt: "We are Hiring",
+                          })
+                        )
+>>>>>>> parent of 6a46559... Update bundle.index.js
                       )
                     ) :
                     d.default.createElement(
@@ -51940,7 +52331,7 @@ object-assign
             if (((l = r[s]), 0 === l.refs)) {
               for (var p = 0; p < l.parts.length; p++) l.parts[p]();
               delete f[l.id];
-            }s
+            }
         }
       );
     };
