@@ -41849,35 +41849,7 @@ object-assign
                             },
                             "RAFAEL"
                           )
-                        ),
-                        p.default.createElement(
-                          "li",
-                          null,
-                          p.default.createElement(
-                            "a",
-                            {
-                              href: "/",
-                              onClick: this.onNavClick,
-                              "data-detail": "ANTONIO",
-                              className: "ANTONIO",
-                            },
-                            "ANTONIO"
-                          )
-                        ),
-                        p.default.createElement(
-                          "li",
-                          null,
-                          p.default.createElement(
-                            "a",
-                            {
-                              href: "/",
-                              onClick: this.onNavClick,
-                              "data-detail": "JOAO",
-                              className: "JOAO",
-                            },
-                            "JOAO"
-                          )
-                        ),
+                        )
                       )
                     ),
                     p.default.createElement(
@@ -41891,7 +41863,7 @@ object-assign
                           {
                             className: "job-title",
                           },
-                          "Line Producer"
+                          "CTO | Co Founder"
                         ),
                         p.default.createElement(
                           "p",
@@ -41918,86 +41890,6 @@ object-assign
                       p.default.createElement(
                         "div",
                         { className: "detail GUILLERMO" },
-                        p.default.createElement(
-                          "p",
-                          {
-                            className: "job-title",
-                          },
-                          "CTO | Co Founder"
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "Founder and CEO of Meta Studios, Head of",
-                          p.default.createElement("br"),
-                          "UI & UX Department, IOS Engineer and lover",
-                          p.default.createElement("br"),
-                          "of simple & interactive 3D futuristic design."
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "Constantly foreseeing future innovations and",
-                          p.default.createElement("br"),
-                          "creative solutions, expanding the boundaries",
-                          p.default.createElement("br"),
-                          "of medium and format."
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "His friends call him “Memo”. He spends most",
-                          p.default.createElement("br"),
-                          "of his time exploring Ancient sites,",
-                          p.default.createElement("br"),
-                          "astrophotography, learning languages and",
-                          p.default.createElement("br"),
-                          "exploring Virtual Reality."
-                        )
-                      ),
-                      p.default.createElement(
-                        "div",
-                        { className: "detail ANTONIO" },
-                        p.default.createElement(
-                          "p",
-                          {
-                            className: "job-title",
-                          },
-                          "CTO | Co Founder"
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "Founder and CEO of Meta Studios, Head of",
-                          p.default.createElement("br"),
-                          "UI & UX Department, IOS Engineer and lover",
-                          p.default.createElement("br"),
-                          "of simple & interactive 3D futuristic design."
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "Constantly foreseeing future innovations and",
-                          p.default.createElement("br"),
-                          "creative solutions, expanding the boundaries",
-                          p.default.createElement("br"),
-                          "of medium and format."
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "His friends call him “Memo”. He spends most",
-                          p.default.createElement("br"),
-                          "of his time exploring Ancient sites,",
-                          p.default.createElement("br"),
-                          "astrophotography, learning languages and",
-                          p.default.createElement("br"),
-                          "exploring Virtual Reality."
-                        )
-                      ),
-                      p.default.createElement(
-                        "div",
-                        { className: "detail JOAO" },
                         p.default.createElement(
                           "p",
                           {
@@ -42079,7 +41971,7 @@ object-assign
                           {
                             className: "job-title",
                           },
-                          "Executive Producer"
+                          "CTO | Co Founder"
                         ),
                         p.default.createElement(
                           "p",
@@ -42106,7 +41998,7 @@ object-assign
                           {
                             className: "job-title",
                           },
-                          "Development"
+                          "CTO | Co Founder"
                         ),
                         p.default.createElement(
                           "p",
