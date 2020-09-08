@@ -823,8 +823,8 @@
     -webkit-box-direction: normal;
     flex-flow: column;
     position: absolute;
-    left: 16vw;
-    top: 25vh;
+    left: 5vw;
+    top: 38vh;
   }
   #btn-mapping .paras {
     display: none;
@@ -956,8 +956,8 @@
     -webkit-box-direction: normal;
     flex-flow: column;
     position: absolute;
-    left: 16vw;
-    top: 75vh;
+    left: 55vw;
+    top: 64vh;
   }
   #btn-apps .paras {
     display: none;
@@ -1091,8 +1091,8 @@
     -webkit-box-direction: normal;
     flex-flow: column;
     position: absolute;
-    left: 16vw;
-    top: 42vh;
+    left: 55vw;
+    top: 38vh;
   }
   #btn-design br {
     display: none;
@@ -1279,8 +1279,8 @@
     -webkit-box-direction: normal;
     flex-flow: column;
     position: absolute;
-    left: 16vw;
-    top: 59vh;
+    left: 5vw;
+    top: 64vh;
   }
   #btn-commercial br {
     display: none;
@@ -1694,7 +1694,23 @@ form {
     width: 100%;
   }
 }
-
+.contactFrame {
+  border-width: 0px;
+    overflow: hidden;
+    width: 36vw;
+    float: right;
+    height: 89vh;
+    position: relative;
+    top: 24vh;
+}
+.contactFrameMob {
+  border-width: 0px;
+    width: 100vw;
+    top: 20vh;
+    position: relative;
+    height: 100vh;
+    left: 1vw;
+}
 /* Contact Form End  */
 /* Page 5 Edits End  */
 @font-face {
@@ -2708,7 +2724,7 @@ main.Howtobuy .audio-button .btn.play svg path {
     top: auto;
     bottom: 32px;
     right: 32px;
-    width: 90px;
+    width: 142px !important;
   }
 }
 @media screen and (min-width: 580px) and (max-width: 800px) {
@@ -4108,8 +4124,8 @@ main.Trailer .share-icons {
   .shop-button span {
     display: inline-block;
     margin-top: 14px;
-    text-align: right;
-    float: right;
+    text-align: left;
+    float: left;
     margin-left: 54px;
     color: #fff;
   }

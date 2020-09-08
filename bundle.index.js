@@ -10437,9 +10437,9 @@ object-assign
       defaultMobile: [
       ],
       videoTrailer:
-        "https://facelessdevhack.github.io/MetaStudio-2/videos/intro.mp4",
+        "./videos/intro.mp4",
       videoTrailerMobile:
-        "https://facelessdevhack.github.io/MetaStudio-2/videos/intro.mp4",
+        "./videos/intro.mp4",
       videos: {
         videoHome: "./videos/Render_1.mp4",
         videoProduct: "./videos/Calum_Tunnel_FOR_WEB.mp4",
@@ -41248,7 +41248,7 @@ object-assign
                       },
                       d.default.createElement(
                         "a", {
-                          href: "apps.html",
+                          href: "http://mictlanthegame.com/",
                           target: "_blank",
                           className: "btn btn-flag btn-longsleeve",
                         },
@@ -41580,7 +41580,7 @@ object-assign
               {
                 key: "onCloseButtonClick",
                 value: function (t) {
-                  t.preventDefault(), g.default.sendTo("goToPageHash", "items");
+                  t.preventDefault(), g.default.sendTo("goToPageHash", "product");
                 },
               },
               {
@@ -43444,73 +43444,12 @@ object-assign
                   var e = window.APP.isMobile;
                   return e
                     ? d.default.createElement(
-                        "section",
-                        {
-                          className: "page page-gallery",
-                          ref: "element",
-                        },
-                        d.default.createElement("div", {
-                          className: "bg",
-                        }),
-                        d.default.createElement(
-                          "h2",
-                          {
-                            className: "animation-wrapper",
-                          },
-                          d.default.createElement(
-                            "span",
-                            { className: "animation-slice contact-left-head" },
-                            "Ready To Talk To Us?"
-                          )
-                        ),
-                        d.default.createElement(
-                          "p",
-                          { className: "animation-wrapper" },
-                          d.default.createElement(
-                            "span",
-                            { className: "copy animation-default contact-p" },
-                            "Lets Talk About Your Future Project"
-                          )
-                        ),
-                        d.default.createElement(
-                          "p",
-                          {
-                            className: "animation-wrapper",
-                          },
-                          d.default.createElement(
-                            "span",
-                            {
-                              className: "copy animation-default contact-des",
-                            },
-                            "Meta Studios Creative Agency Team Is Ready to create your",
-                            d.default.createElement("br"),
-                            "En-Vision your next idea into working results."
-                          )
-                        ),
-                        d.default.createElement(
-                          "p",
-                          { className: "animation-wrapper" },
-                          d.default.createElement(
-                            "span",
-                            {
-                              className:
-                                "copy white animation-default contact-us-left-head",
-                            },
-                            "Meta Studios Creative Agency K.K 株式会社"
-                          )
-                        ),
-                        d.default.createElement(
-                          "p",
-                          {
-                            className: "copy animation-default contact-us-des",
-                          },
-                          "6F Tobu Building 6-28-9 Jingumae",
-                          d.default.createElement("br"),
-                          "Shibuya, Tokyo Japan",
-                          d.default.createElement("br"),
-                          "+81-505-539-META [6382]"
-                        )
-                      )
+                      "iframe",
+                      {
+                        src: "./formMob.html",
+                        className: 'contactFrameMob'
+                      },
+                    )
                     : d.default.createElement(
                         "section",
                         { className: "page page-gallery", ref: "element" },
@@ -43570,95 +43509,11 @@ object-assign
                           "+81-505-539-META [6382]"
                         ),
                         d.default.createElement(
-                          "form",
+                          "iframe",
                           {
-                            className: "contact-form",
+                            src: "./form.html",
+                            className: 'contactFrame'
                           },
-                          d.default.createElement(
-                            "div",
-                            {
-                              className: "segment",
-                            },
-                            d.default.createElement("h2", null, "_CONTACT US")
-                          ),
-                          d.default.createElement(
-                            "div",
-                            {
-                              className: "ms-contact",
-                            },
-                            d.default.createElement(
-                              "label",
-                              null,
-                              d.default.createElement("input", {
-                                type: "text",
-                                placeholder: "Name",
-                                className: "form-control name",
-                              })
-                            ),
-                            d.default.createElement(
-                              "div",
-                              {
-                                className: "form-group second-line",
-                              },
-                              d.default.createElement(
-                                "div",
-                                {
-                                  className: "email-left",
-                                },
-                                d.default.createElement("input", {
-                                  type: "Email",
-                                  placeholder: "Email",
-                                  className: "form-control email",
-                                  name: "email",
-                                  required: "",
-                                })
-                              ),
-                              d.default.createElement(
-                                "div",
-                                {
-                                  className: "sec-right",
-                                },
-                                d.default.createElement("input", {
-                                  type: "text",
-                                  placeholder: "How You Found Us?",
-                                  className: "form-control how-find",
-                                  name: "company_name",
-                                  required: "",
-                                })
-                              )
-                            ),
-                            d.default.createElement(
-                              "div",
-                              {
-                                className: "form-group",
-                              },
-                              d.default.createElement("textarea", {
-                                className: "form-control text-area",
-                                rows: "5",
-                                placeholder: "Your Message",
-                                name: "message",
-                                required: "",
-                              })
-                            ),
-                            d.default.createElement(
-                              "div",
-                              {
-                                className: "form-group describe-check",
-                              },
-                              d.default.createElement(
-                                "div",
-                                {
-                                  className: "btn-contact",
-                                },
-                                d.default.createElement("input", {
-                                  type: "submit",
-                                  className: "btn-ms",
-                                  value: "Send",
-                                  id: "submit_btn",
-                                })
-                              )
-                            )
-                          )
                         )
                       );
                 },
