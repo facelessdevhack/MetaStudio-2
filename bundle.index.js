@@ -9943,7 +9943,7 @@ object-assign
                       ref: "element",
                       className: "close-button",
                     },
-                    l.default.createElement("span", null, ""),
+                    l.default.createElement("span", null, "Close"),
                     l.default.createElement(
                       "div",
                       { className: "icon-container" },
@@ -41862,13 +41862,6 @@ object-assign
                         { className: "detail RAFAEL" },
                         p.default.createElement(
                           "p",
-                          {
-                            className: 'job-title'
-                          },
-                          "CTO | Co Founder"
-                        ),
-                        p.default.createElement(
-                          "p",
                           null,
                           "Rafael Daly has been part of Meta Studios since the early days in",
                           p.default.createElement("br"),
@@ -41892,13 +41885,6 @@ object-assign
                       p.default.createElement(
                         "div",
                         { className: "detail GUILLERMO" },
-                        p.default.createElement(
-                          "p",
-                          {
-                            className: 'job-title'
-                          },
-                          "CTO | Co Founder"
-                        ),
                         p.default.createElement(
                           "p",
                           null,
@@ -41934,13 +41920,6 @@ object-assign
                         { className: "detail IAN" },
                         p.default.createElement(
                           "p",
-                          {
-                            className: 'job-title'
-                          },
-                          "CTO | Co Founder"
-                        ),
-                        p.default.createElement(
-                          "p",
                           null,
                           "Meta Studios Chief Technology Officer,",
                           p.default.createElement("br"),
@@ -41970,13 +41949,6 @@ object-assign
                         { className: "detail HIDEYO" },
                         p.default.createElement(
                           "p",
-                          {
-                            className: 'job-title'
-                          },
-                          "CTO | Co Founder"
-                        ),
-                        p.default.createElement(
-                          "p",
                           null,
                           "Hideyo Tsuda also known as Hideyo Black moon a pioneer in",
                           p.default.createElement("br"),
@@ -41995,13 +41967,6 @@ object-assign
                       p.default.createElement(
                         "div",
                         { className: "detail NANA" },
-                        p.default.createElement(
-                          "p",
-                          {
-                            className: 'job-title'
-                          },
-                          "CTO | Co Founder"
-                        ),
                         p.default.createElement(
                           "p",
                           null,
@@ -47621,7 +47586,7 @@ object-assign
                 key: "onShopButtonClick",
                 value: function (t) {
                   t.preventDefault(),
-                    h.default.sendTo("goDirectlyToPageHash", "gallery");
+                    h.default.sendTo("goDirectlyToPageHash", "howtobuy");
                 },
               },
               {
@@ -47773,7 +47738,7 @@ object-assign
                                     ? "active"
                                     : "",
                                 onClick: this.onClick,
-                                "data-pagehash": "gallery",
+                                "data-pagehash": "howtobuy",
                               },
                               d.default.createElement(
                                 "span",
@@ -47794,7 +47759,7 @@ object-assign
                                     ? "active"
                                     : "",
                                 onClick: this.onClick,
-                                "data-pagehash": "gallery",
+                                "data-pagehash": "credits",
                               },
                               d.default.createElement(
                                 "span",
@@ -47984,21 +47949,15 @@ object-assign
                           d.default.createElement(
                             "a",
                             {
-                              href: "/#gallery",
+                              href: "/#howtobuy",
                               className: "btn-white",
                               onClick: this.onShopButtonClick,
-                              "data-pagehash": "gallery",
+                              "data-pagehash": "howtobuy",
                             },
                             d.default.createElement("span", null, "EMAIL")
                           ),
                           d.default.createElement("br"),
                           d.default.createElement("br"),
-                        ),
-                        d.default.createElement(
-                          "div",
-                          {
-                            className: 'social-div'
-                          },
                           d.default.createElement(
                             "a",
                             {
@@ -48047,7 +48006,7 @@ object-assign
                               height: "18px",
                               fill: "white",
                             })
-                          ),
+                          )
                         ),
                         d.default.createElement(
                           "a",
