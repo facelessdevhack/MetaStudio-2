@@ -144,7 +144,7 @@
   width: 71vw !important;
   font-size: 1.5em !important;
   line-height: 32px;
-  /* font-family: "sf_compact_displayregular", sans-serif; */
+  font-family: "sf_compact_displayregular", sans-serif;
 }
 @media (max-width: 1400px) {
   .teaser-decode {
@@ -4647,8 +4647,8 @@ p.copy {
 
 .big-white-copy,
 .page-journey .intro {
-  font-size: 1.06em !important;
-  line-height: 1em !important;
+  font-size: 1.06em;
+  line-height: 1em;
   color: #ffffff;
 }
 @media screen and (max-width: 1300px) {
