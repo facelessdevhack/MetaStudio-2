@@ -40568,7 +40568,8 @@ object-assign
                           "a",
                           {
                             className: "link-decode-1",
-                            href: "http://futurevizion.jp/",
+                            href:
+                              "https://facelessdevhack.github.io/MetaStudio-2/company-profile.html",
                             target: "_blank",
                           },
                           d.default.createElement(
@@ -40592,7 +40593,7 @@ object-assign
                         d.default.createElement(
                           "h3",
                           { className: "animation-default" },
-                          "Photography"
+                          "Corporate Profile"
                         ),
                         d.default.createElement(
                           "div",
@@ -40600,7 +40601,7 @@ object-assign
                           d.default.createElement(
                             "p",
                             { className: "copy animation-lines" },
-                            "Guillermo Alarcon's Photography"
+                            "Take A Look At Our Profile"
                           )
                         )
                       )
@@ -41332,7 +41333,7 @@ object-assign
                       d.default.createElement(
                         "h3",
                         { className: "animation-default" },
-                        "Game Design"
+                        "Design"
                       ),
                       d.default.createElement(
                         "div",
@@ -41342,12 +41343,12 @@ object-assign
                         d.default.createElement(
                           "p",
                           { className: "copy animation-lines" },
-                          "Augmented Reality"
+                          "Design is the fuel of"
                         ),
                         d.default.createElement(
                           "p",
                           { className: "copy animation-lines" },
-                          "Experiences."
+                          "intelligence."
                         )
                       )
                     ),
@@ -42179,9 +42180,8 @@ object-assign
                       },
                       d.default.createElement(
                         "div",
-                        { className: "img2" },
+                        { className: "img" },
                         d.default.createElement("img", {
-                          className: "img2",
                           height: 400,
                           width: 400,
                           src: "./imgs/vidSnip.jpg",
