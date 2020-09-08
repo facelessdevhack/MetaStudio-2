@@ -42928,23 +42928,6 @@ object-assign
                     .find("nav > ul > li > a." + e)
                     .addClass("active"),
                     (window.location.hash = "itemsdetails/" + e),
-<<<<<<< HEAD
-                    window.APP.isMobile ?
-                    g.default.sendTo("setGlobalState", {
-                      showBackgroundVideo: !0,
-                      backgroundVideo: "videoItemsdetails",
-                    }) :
-                    "guillermo" == e ?
-                    g.default.sendTo("setGlobalState", {
-                      showBackgroundVideo: !1,
-                      backgroundVideo: "videoJacket",
-                    }) :
-                    "longsleeve" == e &&
-                    g.default.sendTo("setGlobalState", {
-                      showBackgroundVideo: !0,
-                      backgroundVideo: "videoLongsleeve",
-                    });
-=======
                     window.APP.isMobile
                       ? g.default.sendTo("setGlobalState", {
                           showBackgroundVideo: !0,
@@ -42960,7 +42943,6 @@ object-assign
                           showBackgroundVideo: !0,
                           backgroundVideo: "videoLongsleeve",
                         });
->>>>>>> parent of f60c571... updates
                   var t = this.$element.find(".detail." + e);
                   if ("" == this.detailpage) b.pageAnimations.detailsCopyIn(t);
                   else {
@@ -43040,39 +43022,8 @@ object-assign
                             "a", {
                               href: "/",
                               onClick: this.onNavClick,
-<<<<<<< HEAD
-                              "data-detail": "guillermo",
-                              className: "guillermo",
-                            },
-                            "GUILLERMO"
-                          )
-                        ),
-                        p.default.createElement(
-                          "li",
-                          null,
-                          p.default.createElement(
-                            "a", {
-                              href: "/",
-                              onClick: this.onNavClick,
-                              "data-detail": "IAN",
-                              className: "IAN",
-                            },
-                            "IAN"
-                          )
-                        ),
-                        p.default.createElement(
-                          "li",
-                          null,
-                          p.default.createElement(
-                            "a", {
-                              href: "/",
-                              onClick: this.onNavClick,
-                              "data-detail": "HIDEYO",
-                              className: "HIDEYO",
-=======
                               "data-detail": "jacket",
                               className: "jacket",
->>>>>>> parent of f60c571... updates
                             },
                             "Kimoto Jacket"
                           )
@@ -43087,24 +43038,7 @@ object-assign
                               "data-detail": "longsleeve",
                               className: "longsleeve",
                             },
-<<<<<<< HEAD
-                            "NANA"
-                          )
-                        ),
-                        p.default.createElement(
-                          "li",
-                          null,
-                          p.default.createElement(
-                            "a", {
-                              href: "/",
-                              onClick: this.onNavClick,
-                              "data-detail": "RAFAEL",
-                              className: "RAFAEL",
-                            },
-                            "RAFAEL"
-=======
                             "Longsleeve"
->>>>>>> parent of f60c571... updates
                           )
                         ),
                         p.default.createElement(
@@ -43140,171 +43074,8 @@ object-assign
                         className: "detail GUILLERMO"
                       },
                       p.default.createElement(
-<<<<<<< HEAD
-                        "p", {
-                          className: "job-title",
-                        },
-                        "CTO | Co Founder"
-                      ),
-                      p.default.createElement(
-                        "p",
-                        null,
-                        "Founder and CEO of Meta Studios, Head of",
-                        p.default.createElement("br"),
-                        "UI & UX Department, IOS Engineer and lover",
-                        p.default.createElement("br"),
-                        "of simple & interactive 3D futuristic design."
-                      ),
-                      p.default.createElement(
-                        "p",
-                        null,
-                        "Constantly foreseeing future innovations and",
-                        p.default.createElement("br"),
-                        "creative solutions, expanding the boundaries",
-                        p.default.createElement("br"),
-                        "of medium and format."
-                      ),
-                      p.default.createElement(
-                        "p",
-                        null,
-                        "His friends call him “Memo”. He spends most",
-                        p.default.createElement("br"),
-                        "of his time exploring Ancient sites,",
-                        p.default.createElement("br"),
-                        "astrophotography, learning languages and",
-                        p.default.createElement("br"),
-                        "exploring Virtual Reality."
-                      )
-                    ),
-                    p.default.createElement(
-                      "div", {
-                        className: "detail-container"
-                      },
-                      p.default.createElement(
-                        "div", {
-                          className: "detail RAFAEL"
-                        },
-                        p.default.createElement(
-                          "p", {
-                            className: "job-title",
-                          },
-                          "Line Producer"
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "Rafael Daly has been part of Meta Studios since the early days in",
-                          p.default.createElement("br"),
-                          "San Francisco, a crucial backbone of the development and",
-                          p.default.createElement("br"),
-                          "establishment of Meta Studios in Japan."
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "Rafael coordinates and manages our video production organizing",
-                          p.default.createElement("br"),
-                          "as line producer."
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "Rafael originally from Santiago, Chile."
-                        )
-                      ),
-                      p.default.createElement(
-                        "div", {
-                          className: "detail ANTONIO"
-                        },
-                        p.default.createElement(
-                          "p", {
-                            className: "job-title",
-                          },
-                          "Filmmaker"
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "Born and raised in central Europe, Antonio started",
-                          p.default.createElement("br"),
-                          "his early career between Paris and Geneva.",
-                          p.default.createElement("br")
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "He then joined the HypeBeast team in London before",
-                          p.default.createElement("br"),
-                          "getting into commercial videos in Japan",
-                          p.default.createElement("br")
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "Antonio Joined Meta Studios Team in 2019, working",
-                          p.default.createElement("br"),
-                          "along side creating Commercial Videos for major",
-                          p.default.createElement("br"),
-                          "Brands and clients."
-                        )
-                      ),
-                      p.default.createElement(
-                        "div", {
-                          className: "detail JOAO"
-                        },
-                        p.default.createElement(
-                          "p", {
-                            className: "job-title",
-                          },
-                          "Visionary 3d Artist"
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "Joao was born in Lisbon, Portugal and has been part of Meta Studios",
-                          p.default.createElement("br"),
-                          "creative team for numerous years with many collaborations.",
-                          p.default.createElement("br")
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "Joao a crucial member of our team is ready to deliver your next visual",
-                          p.default.createElement("br"),
-                          "experience.",
-                          p.default.createElement("br")
-                        )
-                      ),
-                      p.default.createElement(
-                        "div", {
-                          className: "detail IAN"
-                        },
-                        p.default.createElement(
-                          "p", {
-                            className: "job-title",
-                          },
-                          "CTO | Co Founder"
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "Meta Studios Chief Technology Officer,",
-                          p.default.createElement("br"),
-                          "Ian Rever co-founded the company along with",
-                          p.default.createElement("br"),
-                          "Guillermo Alarcon."
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "Both originally from San Francisco, CA they decided",
-                          p.default.createElement("br"),
-                          "to bring their vision to Japan."
-                        ),
-=======
                         "div",
                         { className: "detail longsleeve" },
->>>>>>> parent of f60c571... updates
                         p.default.createElement(
                           "p",
                           null,
@@ -43312,56 +43083,6 @@ object-assign
                         )
                       ),
                       p.default.createElement(
-<<<<<<< HEAD
-                        "div", {
-                          className: "detail HIDEYO"
-                        },
-                        p.default.createElement(
-                          "p", {
-                            className: "job-title",
-                          },
-                          "Executive Producer"
-                        ),
-                        p.default.createElement(
-                          "p", {
-                            style: {
-                              width: "790px"
-                            },
-                          },
-                          "Hideyo Tsuda, Meta Studios Executive Producer, also known as Hideyo Blackmoon,",
-                          p.default.createElement("br"),
-                          "composer/Vocalist/DJ for electronic music scene worldwide. Founder for a company's",
-                          p.default.createElement("br"),
-                          "new conscious education multimedia platform project which coming for 2021."
-                        ),
-                        p.default.createElement(
-                          "p", {
-                            style: {
-                              width: "790px"
-                            },
-                          },
-                          "She has been innovating lifestyle with Meditation, Toga, Healing Art, Dance Therapy,",
-                          p.default.createElement("br"),
-                          "Bio Hacking, Tantra, Taoism, etc."
-                        )
-                      ),
-                      p.default.createElement(
-                        "div", {
-                          className: "detail NANA"
-                        },
-                        p.default.createElement(
-                          "p", {
-                            className: "job-title",
-                          },
-                          "Development"
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "Nana Kawaguchi currently works for Meta Studios as our Japanese",
-                          p.default.createElement("br"),
-                          "creative development staff and account management."
-=======
                         "div",
                         { className: "detail jacket" },
                         p.default.createElement(
@@ -43373,7 +43094,6 @@ object-assign
                           "p",
                           null,
                           "The front features a black on black The Good Will Out box logo patch above one of the patch on pockets. The back shows the logo stripe as seen on the heel of the NMD CS."
->>>>>>> parent of f60c571... updates
                         ),
                         p.default.createElement(
                           "p",
@@ -44858,9 +44578,6 @@ object-assign
                           "span", {
                             className: "animation-slice contact-left-head"
                           },
-<<<<<<< HEAD
-                          "Ready To Talk To Us?"
-=======
                           d.default.createElement(
                             "span",
                             { className: "animation-slice contact-left-head" },
@@ -44907,7 +44624,6 @@ object-assign
                           "Shibuya, Tokyo Japan",
                           d.default.createElement("br"),
                           "+81-505-539-META [6382]"
->>>>>>> parent of f60c571... updates
                         )
                       ),
                       d.default.createElement(
@@ -44931,18 +44647,8 @@ object-assign
                           },
                           "META STUDIOS CREATIVE AGENCY TEAM IS READY TO CREATE YOUR",
                           d.default.createElement("br"),
-<<<<<<< HEAD
-                          "En-Vision your next idea into working results."
-                        )
-                      ),
-                      d.default.createElement(
-                        "p", {
-                          className: "animation-wrapper"
-                        },
-=======
                           "EN-VISION YOUR NEXT IDEA INTO WORKING RESULTS."
                         ),
->>>>>>> parent of f60c571... updates
                         d.default.createElement(
                           "span", {
                             className: "copy white animation-default contact-us-left-head",
