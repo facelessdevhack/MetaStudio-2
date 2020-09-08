@@ -24,10 +24,6 @@
 }
 /* Nav Elements Edits End  */
 /* Decode Button Start  */
-.btn-decode-text{
-  margin-right: 17px;
-  text-align: right;
-}
 #btn-decode {
   display: -webkit-box;
   display: flex;
