@@ -176,7 +176,7 @@
 .teaser-hiring {
   position: fixed;
   left: 16.66667%;
-  top: 48vh;
+  bottom: 27%;
   width: 71vw !important;
   font-size: 1.5em !important;
   line-height: 32px;
@@ -217,32 +217,6 @@
     line-height: 32px;
     /* font-family: "SF Display"; */
     color: rgba(182, 188, 206, 0.7) !important;
-  }
-}
-.hiring-back img{
-  height: auto;
-  width: 64%;
-  float: right;
-  position: relative;
-  top: 17vh;
-}
-@media (max-width: 2000px) {
-  .hiring-back img{
-    height: auto;
-    width: 60%;
-    float: right;
-    position: relative;
-    top: 17vh;
-  }
-}
-@media (max-width: 1400px) {
-  .hiring-back img {
-    height: auto;
-    width: 56%;
-    float: right;
-    position: relative;
-    top: 21vh;
-    right: -5vw;
   }
 }
 .button-hiring {

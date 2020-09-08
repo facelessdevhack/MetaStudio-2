@@ -44819,29 +44819,19 @@ object-assign
                             className: "teaser-hiring animation-lines ",
                             id: "decode-text",
                           },
-                          "We are looking for a team of creative",
+                          "Meta Studios Creative Agency was born in 2017 with the goal to manifest",
                           p.default.createElement("br"),
-                          "artists, interested in working to develop",
+                          "intentional design that can reconnect science and spirituality, merging",
                           p.default.createElement("br"),
-                          "our upcoming video | community platform",
+                          "energy field optics with interactive multimedia for a emerging Neo technolgical",
+                          p.default.createElement("br"),
+                          "Singularity society.",
                           p.default.createElement(
                             "button",
                             {
                               className: "button-hiring"
                             },
                             "Learn More"
-                          )
-                        ),
-                        p.default.createElement(
-                          "div",
-                          {
-                            className: 'hiring-back'
-                          },
-                          p.default.createElement(
-                            "img",
-                            {
-                              src: './imgs/hiring.png'
-                            }
                           )
                         ),
                         
