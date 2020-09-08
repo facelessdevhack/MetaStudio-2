@@ -32619,9 +32619,8 @@ object-assign
                         "div",
                         { id: "status" },
                         p.default.createElement("img", {
-                          src: "./imgs/meta-logo.gif",
+                          src: "./imgs/meta-logo.png",
                           alt: "The Good Will Out",
-                          id: "logopre",
                           // className: "tgwo-logo logo-right",
                         }),
                         // p.default.createElement(
@@ -32696,7 +32695,7 @@ object-assign
                         p.default.createElement(
                           "div",
                           { className: "hint" },
-                          "Loading Something Cool And Exciting..."
+                          "Use Headphones for the best experience"
                         ),
                         p.default.createElement(
                           "div",
