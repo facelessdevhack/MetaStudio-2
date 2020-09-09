@@ -1987,28 +1987,28 @@ h3 {
     display: none !important;
   }
   body.android main.Home .video-background {
-    background-image: url(https://cdn.ankoku-toshi-jutsu.com/assets/images/videofallbackmobile/01_overview.jpg);
+    background-image: url(./assets/images/videofallbackmobile/01_overview.jpg);
   }
   body.android main.Product .video-background {
-    background-image: url(https://cdn.ankoku-toshi-jutsu.com/assets/images/videofallbackmobile/02_product_overview.jpg);
+    background-image: url(./assets/images/videofallbackmobile/02_product_overview.jpg);
   }
   body.android main.Productdetails .video-background {
-    background-image: url(https://cdn.ankoku-toshi-jutsu.com/assets/images/videofallbackmobile/02_product_details.jpg);
+    background-image: url(./assets/images/videofallbackmobile/02_product_details.jpg);
   }
   body.android main.Items .video-background {
-    background-image: url(https://cdn.ankoku-toshi-jutsu.com/assets/images/videofallbackmobile/03_items_overview.jpg);
+    background-image: url(./assets/images/videofallbackmobile/03_items_overview.jpg);
   }
   body.android main.Itemsdetails .video-background {
-    background-image: url(https://cdn.ankoku-toshi-jutsu.com/assets/images/videofallbackmobile/03_jacket.jpg);
+    background-image: url(./assets/images/videofallbackmobile/03_jacket.jpg);
   }
   body.android main.Journey .video-background {
-    background-image: url(https://cdn.ankoku-toshi-jutsu.com/assets/images/videofallbackmobile/04_journey_overview.jpg);
+    background-image: url(./assets/images/videofallbackmobile/04_journey_overview.jpg);
   }
   body.android main.Journeydetails .video-background {
-    background-image: url(https://cdn.ankoku-toshi-jutsu.com/assets/images/videofallbackmobile/04_journey_02.jpg);
+    background-image: url(./assets/images/videofallbackmobile/04_journey_02.jpg);
   }
   body.android main.Credits .video-background {
-    background-image: url(https://cdn.ankoku-toshi-jutsu.com/assets/images/videofallbackmobile/05_credits.jpg);
+    background-image: url(./assets/images/videofallbackmobile/05_credits.jpg);
   }
 }
 
