@@ -64,7 +64,7 @@
     top: 71vh;
   }
 }
-#btn-decode p {
+/* #btn-decode p {
   display: inline-block;
     clear: left;
     font-family: "DIN Next Pro Medium", "Helvetica", Helvetica, sans-serif;
@@ -73,7 +73,7 @@
     font-size: 20px;
     line-height: 20px;
     color: white;
-}
+} */
 
 #btn-decode a {
   width: 100%;
