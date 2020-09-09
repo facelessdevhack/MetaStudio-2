@@ -1703,6 +1703,30 @@ form {
     position: relative;
     top: 24vh;
 }
+@media screen and (max-width: 1920px){
+  .contactFrame {
+    border-width: 0px;
+      overflow: hidden;
+      width: 30vw;
+      float: right;
+      height: 70vh;
+      position: relative;
+      top: 24vh;
+      right: 7vw;
+  }
+}
+@media screen and (max-width: 500px) {
+  .contactFrame {
+    border-width: 0px;
+      overflow: hidden;
+      width: 86vw;
+      float: right;
+      height: 70vh;
+      position: relative;
+      top: 24vh;
+      right: 7vw;
+  }
+}
 .contactFrameMob {
   border-width: 0px;
     width: 100vw;

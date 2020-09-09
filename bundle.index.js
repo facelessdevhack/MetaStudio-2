@@ -10418,9 +10418,9 @@ object-assign
     Object.defineProperty(t, "__esModule", { value: !0 });
     var n = {
       default: [
-        "https://facelessdevhack.github.io/MetaStudio-2/imgs/Layer%2017.png",
-        "https://facelessdevhack.github.io/MetaStudio-2/sounds/bg.mp3",
-        "https://facelessdevhack.github.io/MetaStudio-2/sounds/bg.ogg",
+        "./imgs/Layer%2017.png",
+        "./sounds/bg.mp3",
+        "./sounds/bg.ogg",
       ],
       defaultDesktop: [
         "./sounds/big_hover_01_01.mp3",
@@ -10439,7 +10439,7 @@ object-assign
       videoTrailer:
         "https://facelessdevhack.github.io/MetaStudio-2/videos/intro.mp4",
       videoTrailerMobile:
-        "https://facelessdevhack.github.io/MetaStudio-2s/videos/intro.mp4",
+        "https://facelessdevhack.github.io/MetaStudio-2/videos/intro.mp4",
       videos: {
         videoHome: "./videos/Render_1.mp4",
         videoProduct: "./videos/Calum_Tunnel_FOR_WEB.mp4",
@@ -43426,8 +43426,8 @@ object-assign
                     ? d.default.createElement(
                       "iframe",
                       {
-                        src: "./formMob.html",
-                        className: 'contactFrameMob'
+                        src: "./form/index.php",
+                        className: 'contactFrame'
                       },
                     )
                     : d.default.createElement(
@@ -43491,7 +43491,7 @@ object-assign
                         d.default.createElement(
                           "iframe",
                           {
-                            src: "./form.html",
+                            src: "./form/index.php",
                             className: 'contactFrame'
                           },
                         )
@@ -48817,7 +48817,7 @@ object-assign
                           }),
                           d.default.createElement("img", {
                             src:
-                              "https://facelessdevhack.github.io/MetaStudio-2/imgs/Layer%2017.png",
+                              "./imgs/Layer%2017.png",
                             alt: "We are Hiring",
                           })
                         )
@@ -48840,7 +48840,7 @@ object-assign
                           }),
                           d.default.createElement("img", {
                             src:
-                              "https://facelessdevhack.github.io/MetaStudio-2/imgs/Layer%2017.png",
+                              "./imgs/Layer%2017.png",
                             alt: "We are Hiring",
                           })
                         )
@@ -48971,7 +48971,7 @@ object-assign
                       l.default.createElement("img", {
                         className: "hover-svg",
                         src:
-                          "https://facelessdevhack.github.io/MetaStudio-2/imgs/fb.svg",
+                          "./imgs/fb.svg",
                         alt: "FB",
                         width: "18px",
                         height: "18px",
@@ -48987,7 +48987,7 @@ object-assign
                       l.default.createElement("img", {
                         className: "hover-svg",
                         src:
-                          "https://facelessdevhack.github.io/MetaStudio-2/imgs/ig.svg",
+                          "./imgs/ig.svg",
                         alt: "IG",
                         width: "18px",
                         height: "18px",
@@ -49003,7 +49003,7 @@ object-assign
                       l.default.createElement("img", {
                         className: "hover-svg",
                         src:
-                          "https://facelessdevhack.github.io/MetaStudio-2/imgs/tw.svg",
+                          "./imgs/tw.svg",
                         alt: "TW",
                         width: "18px",
                         height: "18px",
