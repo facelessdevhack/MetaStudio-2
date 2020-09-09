@@ -371,7 +371,7 @@ li {
   padding: 0;
 }
 a[target="_blank"]:after {
-  content: "e";
+  content: "";
   position: relative;
   display: inline-block;
   font-size: 12px;
@@ -561,24 +561,54 @@ a[target="_blank"].btn:after {
   height: 125vh;
   margin-bottom: 160px;
 }
-.intro.type2 .intro_body {
-  position: fixed;
+@media screen and (max-width: 900px) {
+  .intro.type2{
+    margin-bottom: 0;
+    height: 90vh;
+  }
 }
 .intro.type2 .intro_body {
+  position: fixed;
   height: 100vh;
+}
+
+@media screen and (max-width: 900px) {
+  .intro.type2 .intro_body {
+    position: relative;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 30px;
+  }
 }
 .intro.type2 .leadbox {
   width: 900px;
   margin: 0 auto;
   text-align: center;
 }
+@media screen and (max-width: 900px) {
+  .intro.type2 .leadbox {
+    width: 86%;
+  }
+}
 .intro.type2 .leadbox h2 {
   font-size: 3em;
   margin: 0.3em 0 0.3em 0.2em;
   text-transform: uppercase;
 }
+@media screen and (max-width: 900px) {
+  .intro.type2 .leadbox h2 {
+    font-size: 34px;
+    margin: 0.3em 0 0.3em;
+    line-height: 1.2;
+  }
+}
 .intro.type2 .leadbox .typewriter {
   font-size: 24px;
+}
+@media screen and (max-width: 900px) {
+  .intro.type2 .leadbox .typewriter {
+    font-size: 14px;
+  }
 }
 .intro.type3 {
   width: 100%;
@@ -2424,6 +2454,11 @@ a .blurtx .dummy2,
   position: relative;
   height: 750px;
 }
+@media screen and (max-width: 900px) {
+  .message_bottom {
+    height: auto;
+  }
+}
 .content-blocks {
   display: flex;
   justify-content: space-around;
@@ -2463,12 +2498,12 @@ a .blurtx .dummy2,
     position: relative;
     background: #fff;
     color: #111;
-    padding: 60px 60px 30px;
+    padding: 34px 40px 30px;
     width: 86vw;
     box-sizing: border-box;
     margin-left: -11px;
     letter-spacing: 0.1em;
-    font-size: 8px;
+    font-size: 11px;
   }
 }
 
@@ -2513,12 +2548,12 @@ a .blurtx .dummy2,
     position: relative;
     background: #fff;
     color: #111;
-    padding: 60px 60px 30px;
+    padding: 34px 40px 30px;
     width: 86vw;
     box-sizing: border-box;
     margin-left: -11px;
     letter-spacing: 0.1em;
-    font-size: 8px;
+    font-size: 11px;
     margin-top: 20px;
   }
 }
@@ -2570,6 +2605,15 @@ a .blurtx .dummy2,
 .double_door {
   margin-bottom: 160px;
 }
+@media screen and (max-width: 900px) {
+  .double_door {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    margin: 100px 0 80px;
+  }
+}
 .double_door > div {
   float: left;
   width: 50%;
@@ -2580,6 +2624,13 @@ a .blurtx .dummy2,
   letter-spacing: 0.2em;
   padding: 0 30px;
   box-sizing: border-box;
+}
+@media screen and (max-width: 900px) {
+  .double_door > div {
+    height: 120px;
+    font-size: 16px;
+    padding: 0;
+  }
 }
 .double_door a {
   position: relative;
