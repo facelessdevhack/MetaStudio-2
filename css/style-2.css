@@ -497,6 +497,12 @@ a[target="_blank"].btn:after {
   top: 60px;
   line-height: 10px;
 }
+@media screen and (max-width: 900px) {
+  .sub_logo {
+    left: 15px;
+    top: 26px;
+  }
+}
 .sub_logo img {
   vertical-align: bottom;
 }
