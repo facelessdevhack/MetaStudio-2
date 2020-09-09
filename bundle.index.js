@@ -40226,10 +40226,10 @@ object-assign
                       "We are Meta Studios Creative Agency located in the Harajuku District of Neo Tokyo, Japan"
                     ),
                     d.default.createElement(
-                      "div",
+                      "a",
                       {
                         className: "playfilm-btn",
-                        onClick: this.onPlayFilmButtonClick,
+                        href: "./decode.html",
                       },
                       d.default.createElement("span", {
                         className: "play-btn-bg",
