@@ -40236,7 +40236,7 @@ object-assign
                         { className: "play-icon" },
                         "\u2023"
                       ),
-                      "Play film \u2013 1:34"
+                      "Play Trailer \u2013 1:34"
                     ),
                     d.default.createElement(
                       "div",
