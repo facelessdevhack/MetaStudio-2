@@ -13166,7 +13166,7 @@ object-assign
                 initialPageShown: !1,
                 page: "",
                 pageNumber: 0,
-                pagesCount: 5,
+                pagesCount: 6,
                 showMainMenu: !1,
                 showPageIndicator: !1,
                 showBackgroundVideo: !1,
@@ -13492,6 +13492,9 @@ object-assign
                     case 5:
                       this.gotToPageByHash("gallery");
                       break;
+                    case 6:
+                      this.gotToPageByHash("howtobuy");
+                      break;
                     default:
                       this.gotToPageByHash("home");
                   }
@@ -13798,7 +13801,7 @@ object-assign
                         this.gotToPageByHash("gallery");
                         break;
                       case "Gallery":
-                        window.APP.isMobile && this.gotToPageByHash("howtobuy");
+                        window.APP.isMobile && this.gotToPageByHash("home");
                     }
                 },
               },
@@ -40234,9 +40237,9 @@ object-assign
                       d.default.createElement(
                         "span",
                         { className: "play-icon" },
-                        "\u2023"
+                        ""
                       ),
-                      "Play Trailer \u2013 1:34"
+                      "私たちについて"
                     ),
                     d.default.createElement(
                       "div",
@@ -42316,6 +42319,32 @@ object-assign
                     ),
                     d.default.createElement(
                       "a", {
+                        href: "/#viewtrailer",
+                        id: "mobTrailer",
+                        className: "video-container animation-default",
+                        onClick: this.onClick,
+                        "data-pagehash": "viewtrailer",
+                      },
+                      d.default.createElement(
+                        "div", {
+                          className: "img2"
+                        },
+                        d.default.createElement("img", {
+                          className: "img2",
+                          height: 400,
+                          width: 400,
+                          src: "./imgs/vidSnip.jpg",
+                        })
+                      ),
+                      d.default.createElement(
+                        "p", {
+                          className: "big-white-copy"
+                        },
+                        "Watch the film"
+                      )
+                    ),
+                    d.default.createElement(
+                      "a", {
                         href: "/#journeydetails/",
                         className: "btn btn-flag btn-viewmore",
                         onClick: this.onClick,
@@ -42344,17 +42373,18 @@ object-assign
                           d.default.createElement("path", {
                             d: "M2,2 L2,48 L173,48 L173,2 L2,2 Z M0,0 L175,0 L175,50 L0,50 L0,0 Z",
                           })
-                        )
+                        ),
+                        
                       ),
                       d.default.createElement(
                         "p", {
                           className: "copy animation-lines"
                         },
-                        "The journey of Izuya raised in Ny\u014Dk\u014D and the  legendary artefact",
+                        "",
                         d.default.createElement(
                           "span",
                           null,
-                          "Explore the story"
+                          "Our Film Work"
                         )
                       )
                     ),
@@ -48792,7 +48822,7 @@ object-assign
                 key: "onClick",
                 value: function (t) {
                   t.preventDefault(),
-                    c.default.sendTo("goToPageHash", "howtobuy");
+                    c.default.sendTo("goToPageHash", "gallery");
                 },
               },
               {
@@ -48803,12 +48833,11 @@ object-assign
                         "a",
                         {
                           href: "javascript:void(0);",
-                          target: "_blank",
                           className: "shop-button",
                           ref: "element",
                           onClick: this.onClick,
                         },
-                        d.default.createElement("span", null, "Get it"),
+                        d.default.createElement("span", null, "Contact Us"),
                         d.default.createElement(
                           "div",
                           { className: "icon-container" },
