@@ -2,7 +2,8 @@ body,
 html {
   font-size: 18px;
   line-height: 1.66667;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: 'SF Compact Display Medium';
+
   box-sizing: border-box;
   width: 100%;
   min-height: 100%;
@@ -36,7 +37,8 @@ html {
 .btm {
   padding-top: 2.2222222222222223rem;
   padding-left: 60px;
-  font-family: "FK Grotesk", sans-serif;
+  font-family: 'SF Compact Display Medium';
+
 }
 
 .top-text {
@@ -47,7 +49,8 @@ html {
   font-size: 1.33333rem;
   line-height: 1.88889rem;
   padding: 0 1.667rem;
-  font-family: "FK Grotesk", sans-serif;
+  font-family: 'SF Compact Display Medium';
+
   font-weight: 500;
 }
 .img {
@@ -75,7 +78,8 @@ a {
 }
 .foot {
   padding: 0 1.66667rem 0 1.66667rem;
-  font-family: "FK Grotesk", sans-serif;
+  font-family: 'SF Compact Display Medium';
+
 }
 .footercontainer {
   margin-top: 8.333333333333334rem;
@@ -84,7 +88,8 @@ a {
   padding-left: 0rem;
 }
 .nav-link a {
-  font-family: "FK Grotesk", sans-serif;
+  font-family: 'SF Compact Display Medium';
+
   font-weight: 500;
   padding: 0;
   font-style: normal;
@@ -102,4 +107,21 @@ a {
   padding: 0;
   height: 100%;
   align-items: center;
+}
+@font-face {
+  font-family: 'SF Compact Display Thin';
+  src: url('../fonts/SFCompactDisplay-Thin.woff2') format('woff2'),
+    url('../fonts/SFCompactDisplay-Thin.woff') format('woff'),
+    url('../fonts/SFCompactDisplay-Thin.ttf') format('truetype');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Compact Display Medium';
+  src: url('../fonts/SFCompactDisplay-Medium.woff2') format('woff2'),
+    url('../fonts/SFCompactDisplay-Medium.woff') format('woff'),
+    url('../fonts/SFCompactDisplay-Medium.ttf') format('truetype');
+  font-style: normal;
+  font-display: swap;
 }

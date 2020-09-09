@@ -10437,9 +10437,9 @@ object-assign
       defaultMobile: [
       ],
       videoTrailer:
-        "https://facelessdevhack.github.io/MetaStudio-2/videos/intro.mp4",
+        "./videos/intro.mp4",
       videoTrailerMobile:
-        "https://facelessdevhack.github.io/MetaStudio-2/videos/intro.mp4",
+        "./videos/intro.mp4",
       videos: {
         videoHome: "./videos/Render_1.mp4",
         videoProduct: "./videos/Calum_Tunnel_FOR_WEB.mp4",
@@ -47671,9 +47671,7 @@ object-assign
                               d.default.createElement(
                                 "a",
                                 {
-                                  href: "/",
-                                  onClick: this.onClick,
-                                  "data-pagehash": "gallery",
+                                  href: "mailto:contact@metastudios.jp",
                                 },
                                 d.default.createElement(
                                   "span",
@@ -47838,10 +47836,8 @@ object-assign
                           d.default.createElement(
                             "a",
                             {
-                              href: "/#howtobuy",
+                              href: "mailto:contact@metastudios.jp",
                               className: "btn-white",
-                              onClick: this.onShopButtonClick,
-                              "data-pagehash": "howtobuy",
                             },
                             d.default.createElement("span", null, "EMAIL")
                           ),
