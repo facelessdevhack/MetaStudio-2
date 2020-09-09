@@ -13166,7 +13166,7 @@ object-assign
                 initialPageShown: !1,
                 page: "",
                 pageNumber: 0,
-                pagesCount: 6,
+                pagesCount: 5,
                 showMainMenu: !1,
                 showPageIndicator: !1,
                 showBackgroundVideo: !1,
