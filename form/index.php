@@ -59,13 +59,13 @@
   }
   @media screen and (max-width: 1300px) {
     h2 {
-      font-size: 48px;
+      font-size: 34px;
       line-height: 40px;
     }
   }
   @media screen and (min-width: 580px) and (max-width: 800px) {
     h2 {
-      font-size: 48px;
+      font-size: 34px;
       line-height: 40px;
     }
   }
@@ -89,10 +89,10 @@
     }
   }
   .form-control {
-      margin-top: 3vh;
+      margin-top: 2vh;
     background: none;
     border: 1px solid #fff;
-    height: 53px;
+    height: 45px;
     border-radius: 4px;
     padding: 12px 20px;
     color: #fff;
@@ -345,7 +345,7 @@
                 <input id="name" placeholder="Name" class="form-control">
                 <input id="email" placeholder="Email" class="form-control">
                 <input id="subject" placeholder="How You Found Us?" class="form-control">
-                <textarea class="form-control" id="body" placeholder="Email Address"></textarea>
+                <textarea class="form-control" id="body" placeholder="Your Message"></textarea>
                 <input type="button" onclick="sendEmail()" value="Send" class="btn btn-primary" style="margin-top: 3vh;">
             </div>
         </div>

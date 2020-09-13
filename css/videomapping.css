@@ -826,6 +826,7 @@ p.copy {
 .sub_logo {
     left: 15px;
     top: 26px;
+    position: absolute;
   }
 }
 .sub_logo img {
@@ -5226,7 +5227,7 @@ skew to change the 'thickness' of the glitch.*/
   }
   #section2 {
     width: 80%;
-    height: 85%;
+    height: 70%;
     margin: 0 auto;
     text-align: center;
   }
@@ -5297,16 +5298,63 @@ skew to change the 'thickness' of the glitch.*/
   .shop-button {
     display: inline-block;
     width: 140px;
-    position: fixed;
+    position: absolute;
     right: 5.16667%;
-    top: 2.2%;
+    top: 0.26%;
     z-index: 360;
     overflow: visible;
     background: rgba(0, 0, 0, 0);
   }
-  .copyright {
-    position: relative;
-    bottom: 11vh;
+
+}
+@media screen and (max-width: 900px) {
+  .footer {
+    margin-top: -10vh !important;
+  }
+  .ft_c {
+    margin: 0;
+    width: 0;
+    text-align: left;
+  }
+  .inner {
+    margin: 12px 35px 0 !important;
+  }
+  .contact {
+    display: block !important;
+    height: 6px;
+  }
+  .contact li{
     opacity: 1 !important;
+  }
+  .contact li:last-child {
+    display: block !important;
+    width: 100vw;
+  }
+  .copyright {
+    opacity: 1 !important;
+    width: 100vw;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 0;
+  }
+  .snslink {
+    display: block !important;
+    position: relative;
+    opacity: 1 !important;
+    left: 0;
+    padding: 0 0 6px 0;
+    width: 100vw;
+  }
+  .snslink ul {
+    margin: 0 auto;
+    position: relative;
+    left: 9vw;
+    top: 1.5vh;
+    display: block !important;
+  }
+  .door {
+    display: block;
   }
 }

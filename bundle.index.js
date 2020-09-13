@@ -42671,10 +42671,10 @@ object-assign
                     ),
                     d.default.createElement(
                       "a", {
-                        href: "/#journeydetails/",
+                        href: "/#journeydetails/chapter1",
                         className: "btn btn-flag btn-viewmore",
                         onClick: this.onClick,
-                        "data-pagehash": "journeydetails",
+                        "data-pagehash": "journeydetails/chapter1",
                       },
                       d.default.createElement(
                         "div", {
@@ -43143,7 +43143,7 @@ object-assign
                               "data-detail": "chapter3",
                               className: "chapter3",
                             },
-                            "Olsen"
+                            "Oluse"
                           )
                         ),
                         p.default.createElement(
@@ -43156,7 +43156,7 @@ object-assign
                               "data-detail": "chapter4",
                               className: "chapter4",
                             },
-                            "Kevin"
+                            "Kevin LA"
                           )
                         ),
                         p.default.createElement(
@@ -43278,7 +43278,7 @@ object-assign
                           src: "./imgs/stripes.png",
                           className: "uber-stripe",
                         }),
-                        p.default.createElement("h3", null, "Olsen"),
+                        p.default.createElement("h3", null, "Oluse"),
                         p.default.createElement(
                           "p",
                           null,
@@ -43315,7 +43315,7 @@ object-assign
                           src: "./imgs/stripes.png",
                           className: "uber-stripe",
                         }),
-                        p.default.createElement("h3", null, "Kevin"),
+                        p.default.createElement("h3", null, "Kevin LA"),
                         p.default.createElement("p", null, "Kevin Lasean"),
                         p.default.createElement("br"),
                         p.default.createElement(
