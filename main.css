@@ -2676,7 +2676,7 @@ main.Getthechance .audio-button .btn.play svg path,
 main.Howtobuy .audio-button .btn.play svg path {
   stroke: #000000;
 }
-.job-title {
+#job-title {
   padding: 7px;
   background-color: rgba(0, 0, 0, 0.7);
   text-align: center;
@@ -2842,11 +2842,7 @@ main.Trailer .share-icons {
   display: inline-block;
   color: #ffffff;
 }
-@media screen and (max-width: 800px) {
-  .head-hint {
-    display: none;
-  }
-}
+
 
 .close-button {
   display: inline-block;
@@ -2946,6 +2942,97 @@ main.Trailer .share-icons {
     top: 6.66667%;
   }
 }
+@media screen and (max-width: 800px) {
+  .head-hint {
+    display: none;
+  }
+  .close-button {
+    display: inline-block;
+    width: 70px;
+    position: fixed;
+    right: 4.66667%;
+    top: 15.66667%;
+    top: 14.66667%;
+    z-index: 500;
+    overflow: visible;
+    background: rgba(0,0,0,0);
+  }
+  .close-button span {
+    display: inline-block;
+    margin-top: 14px;
+    text-align: left;
+    float: left;
+    color: #fff;
+    /*
+      &:after {
+        display:block;
+        content: '';
+        margin-top: 1px;
+        border-bottom: solid 2px #ffffff;
+        transform: scaleX(0);
+        transition: transform 150ms ease-in-out;
+        transform-origin: left center;
+      }
+      */
+  }
+  .close-button .icon-container {
+    float: right;
+    position: relative;
+    width: 43px;
+    height: 43px;
+    overflow: visible;
+  }
+  .close-button .icon-container .circle {
+    background: #ffffff;
+    width: 25px;
+    height: 25px;
+    border-radius: 22px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 100;
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+  }
+  .close-button .icon-container .line {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 200;
+    margin: -1px 0 0 -5px;
+    width: 11px;
+    height: 2px;
+    background: #000000;
+    -webkit-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+  }
+  .close-button:hover .line.line1 {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .close-button:hover .line.line2 {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  .close-button:hover span {
+    /*
+        &:after {
+          transform: scaleX(1);
+        }
+        */
+  }
+  .close-button:hover .icon-container .circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+  }
+  
+}
 
 .page-indicator {
   list-style: none;
@@ -3027,7 +3114,7 @@ main.Trailer .share-icons {
   width: 140px;
   position: absolute;
   left: 50%;
-  top: 21vh;
+  top: 29vh;
   margin: 30px 0 0 -70px;
   font-size: 15px;
   line-height: 20px;
@@ -3045,7 +3132,7 @@ main.Trailer .share-icons {
   text-align: center;
   position: absolute;
   left: 50%;
-  top: 23vh;
+  top: 26vh;
   margin: -22px 0 0 -68px;
   z-index: 450;
   height: 30px;
@@ -3818,6 +3905,10 @@ main.Trailer .share-icons {
 .JOAO {
   bottom: 38% !important;
 }
+.guillermoImg{
+  display: none;
+  
+}
 @media screen and (max-width: 1920px) {
   .GUILLERMO {
     bottom: 16% !important;
@@ -3859,6 +3950,36 @@ main.Trailer .share-icons {
     opacity: 0;
     font-size: 20px;
     line-height: 28px;
+  }
+}
+@media screen and (max-width:800px ) {
+  .guillermoImg{
+    display: block;
+    max-width: 44vw;
+    height: 29vh;
+    margin-left: 10px;
+    position: relative;
+}
+  .GUILLERMO {
+    display: flex !important;
+  }
+  .IAN {
+    bottom: 34% !important;
+  }
+  .HIDEYO {
+    bottom: 42% !important;
+  }
+  .NANA {
+    bottom: 44% !important;
+  }
+  .RAFAEL {
+    bottom: 40% !important;
+  }
+  .ANTONIO {
+    bottom: 30% !important;
+  }
+  .JOAO {
+    bottom: 38% !important;
   }
 }
 .page-details .detail h3 {
@@ -3917,12 +4038,12 @@ main.Trailer .share-icons {
 
 @media screen and (max-width: 800px) {
   .page-details nav {
-    opacity: 0;
-    display: none;
+    opacity: 1 !important;
   }
   .page-details .detail-container {
     position: fixed;
-    display: none;
+    display: block !important;
+    opacity: 1;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     height: 100%;
@@ -3936,23 +4057,44 @@ main.Trailer .share-icons {
   }
   .page-details .detail {
     position: relative;
-    left: auto;
+    top: 2vh;
     bottom: auto;
-    display: block;
+    display: none;
     opacity: 1;
-    width: 65%;
+    width: 100vw;
     margin: 0 auto 70px auto;
     color: rgba(182, 188, 206, 0.7);
-    text-align: justify;
-    font-size: 16px;
-    line-height: 24px;
+    text-align: left;
+    font-size: 0.6em;
+    line-height: 17px;
   }
+  .page-details .detail p {
+    width: 47vw !important;
+  }
+  .page-details .detail p br { content: " "; }
+  .page-details .detail p br::after { content: " "; }
   .page-details .detail h3 {
     display: block;
   }
   .page-details .readmore-btn,
   .page-details .readless-btn {
     display: inline-block;
+  }
+  .page-details nav ul li {
+    margin: 0px 3vw 0 0;
+    font-size: 12.5px;
+  }
+  .page-details .close-button {
+    width: 82px;
+    top: 10.66667%;
+  }
+  #job-title {
+    padding: 7px;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    width: 100px !important;
+  }
+  .detailpara {
   }
 }
 

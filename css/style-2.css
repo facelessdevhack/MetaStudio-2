@@ -2469,7 +2469,7 @@ a .blurtx .dummy2,
   display: flex;
   justify-content: space-around;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   .content-blocks {
     display: block;
     justify-content: space-around;
@@ -2499,7 +2499,7 @@ a .blurtx .dummy2,
     font-size: 14px;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   .message_text .message_body {
     position: relative;
     background: #fff;
@@ -2516,7 +2516,7 @@ a .blurtx .dummy2,
 .message_text .message_body h3 {
   margin-bottom: 1.5em;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   .message_text .message_body h1 {
     margin-bottom: 1.5em;
     font-size: 36px !important;
@@ -2536,6 +2536,11 @@ a .blurtx .dummy2,
   letter-spacing: 0.1em;
   font-size: 14px;
 }
+@media screen and (max-width: 1920px) {
+  .message_text .message_body_2 {
+    margin-left: 42px;
+  }
+}
 @media screen and (max-width: 1480px) {
   .message_text .message_body_2 {
     position: relative;
@@ -2549,7 +2554,7 @@ a .blurtx .dummy2,
     font-size: 14px;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   .message_text .message_body_2 {
     position: relative;
     background: #fff;
@@ -2566,7 +2571,7 @@ a .blurtx .dummy2,
 .message_text .message_body_2 h3 {
   margin-bottom: 1.5em;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   .message_text .message_body_2 h1 {
     margin-bottom: 1.5em;
     font-size: 30px !important;

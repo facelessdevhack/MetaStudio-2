@@ -10445,7 +10445,7 @@ object-assign
         videoProduct: "./videos/Calum_Tunnel_FOR_WEB.mp4",
         videoProductdetails: "./videos/Calum_Tunnel_FOR_WEB.mp4",
         videoItems: "./videos/projects_background_video.MOV",
-        videoLongsleeve: "./videos/projects_background_video.MOV",
+        videoLongsleeve: "./videos/hideyo_background_video.mp4",
         videoJacket: "./videos/projects_background_video.MOV",
         videoJourney: "./videos/proxy_tunnel_FOR_WEB.mp4",
         videoJourneyChapter1: "./videos/spiritual_machines_v_3.mp4",
@@ -10462,7 +10462,8 @@ object-assign
         videoHome: "./videos/projects_background_video.MOV",
         videoProduct: "./videos/Calum_Tunnel_FOR_WEB.mp4",
         videoItems: "./videos/projects_background_video.MOV",
-        videoItemsdetails: "./videos/projects_background_video.MOV",
+        videoJacket: "./videos/projects_background_video.MOV",
+        videoLongsleeve: "./videos/hideyo_background_video.mp4",
         videoJourney: "./videos/proxy_tunnel_FOR_WEB.mp4",
         videoCredits: "./videos/projects_background_video.MOV",
       },
@@ -40188,7 +40189,7 @@ object-assign
                         {
                           target: "_blank",
                           href:
-                            "https://facelessdevhack.github.io/MetaStudio-2/decode.html",
+                            "http://www.metastudios.jp/decode.html",
                           className: "btn btn-flag btn-explore",
                         },
                         d.default.createElement(
@@ -41180,7 +41181,7 @@ object-assign
                       },
                       d.default.createElement(
                         "a", {
-                          href: "https://facelessdevhack.github.io/MetaStudio-2/videomapping.html",
+                          href: "http://www.metastudios.jp/videomapping.html",
                           target: "_blank",
                           className: "btn btn-flag btn-longsleeve",
                         },
@@ -41497,7 +41498,7 @@ object-assign
                 value: function () {
                   (this.$element = a(this.refs.element)),
                     (this.$nav = this.$element.find("nav")),
-                    TweenMax.set(this.$nav, { opacity: 0 }),
+                    TweenMax.set(this.$nav, { opacity: 1 }),
                     (this.$navButtons = this.$element.find(
                       "nav > ul > li > a"
                     )),
@@ -41518,9 +41519,9 @@ object-assign
                       y: -this.$readLessButton.height() - 20,
                     }),
                     window.APP.isMobile &&
-                      (TweenMax.set(this.$detailContainer, { opacity: 0 }),
+                      (TweenMax.set(this.$detailContainer, { opacity: 1 }),
                       this.addMobileSwipeOnce()),
-                    TweenMax.set(this.$element, { opacity: 0 });
+                    TweenMax.set(this.$element, { opacity: 1 });
                 },
               },
               {
@@ -41529,24 +41530,12 @@ object-assign
                   TweenMax.to(this.$element, 1, { opacity: 1, onComplete: t }),
                     e.delay(
                       function () {
-                        if (window.APP.isMobile)
-                          g.default.sendTo("setGlobalState", {
-                            showBackgroundVideo: !0,
-                            backgroundVideo: "videoItemsdetails",
-                          }),
-                            TweenMax.to(this.$readMoreButton, 0.5, {
-                              y: 0,
-                              delay: 0.2,
-                              ease: Power2.easeOut,
-                            });
-                        else {
                           var e = window.location.hash
                             .trim()
-                            .replace("#", "")
+                            .replace("#","")
                             .split("/");
                           this.showDetail(e[1]),
                             b.elementAnimations.subnavIn(this.$nav);
-                        }
                       }.bind(this),
                       500
                     );
@@ -41588,13 +41577,6 @@ object-assign
               {
                 key: "addMobileSwipeOnce",
                 value: function () {
-                  var e = this;
-                  a(e.$element).swipe({
-                    threshold: window.APP.swipeThreshold,
-                    swipeUp: function () {
-                      e.showDetailMobile();
-                    },
-                  });
                 },
               },
               {
@@ -41616,18 +41598,38 @@ object-assign
                     this.$element
                       .find("nav > ul > li > a." + e)
                       .addClass("active"),
-                    (window.location.hash = "itemsdetails/" + e),
-                    window.APP.isMobile
-                      ? g.default.sendTo("setGlobalState", {
-                          showBackgroundVideo: !0,
-                          backgroundVideo: "videoItemsdetails",
-                        })
-                      : "guillermo" == e
+                    (window.location.hash = "itemsdetails/" + e)
+                        "guillermo" == e
                       ? g.default.sendTo("setGlobalState", {
                           showBackgroundVideo: !0,
                           backgroundVideo: "videoJacket",
                         })
-                      : "longsleeve" == e &&
+                      : "IAN" == e 
+                      ?  g.default.sendTo("setGlobalState", {
+                          showBackgroundVideo: !0,
+                          backgroundVideo: "videoJacket",
+                        })
+                      : "NANA" == e 
+                      ?  g.default.sendTo("setGlobalState", {
+                          showBackgroundVideo: !0,
+                          backgroundVideo: "videoJacket",
+                        })
+                      : "RAFAEL" == e 
+                      ?  g.default.sendTo("setGlobalState", {
+                          showBackgroundVideo: !0,
+                          backgroundVideo: "videoJacket",
+                        })
+                      : "ANTONIO" == e 
+                      ?  g.default.sendTo("setGlobalState", {
+                          showBackgroundVideo: !0,
+                          backgroundVideo: "videoJacket",
+                        })
+                      : "JOAO" == e 
+                      ?  g.default.sendTo("setGlobalState", {
+                          showBackgroundVideo: !0,
+                          backgroundVideo: "videoJacket",
+                        })
+                      : "HIDEYO" == e &&
                         g.default.sendTo("setGlobalState", {
                           showBackgroundVideo: !0,
                           backgroundVideo: "videoLongsleeve",
@@ -41835,40 +41837,47 @@ object-assign
                           className: "detail GUILLERMO"
                         },
                         p.default.createElement(
-                          "p", {
-                            className: "job-title",
+                          "div",
+                          {
+                            className: "detailPara"
                           },
-                          "CTO | Co Founder"
+                          p.default.createElement(
+                            "p", {
+                              id: "job-title",
+                            },
+                            "CTO | Co Founder"
+                          ),
+                          p.default.createElement(
+                            "p",
+                            null,
+                            "Founder and CEO of Meta Studios, Head of",
+                            p.default.createElement("br"),
+                            "UI & UX Department, IOS Engineer and lover",
+                            p.default.createElement("br"),
+                            "of simple & interactive 3D futuristic design."
+                          ),
+                          p.default.createElement(
+                            "p",
+                            null,
+                            "Constantly foreseeing future innovations and",
+                            p.default.createElement("br"),
+                            "creative solutions, expanding the boundaries",
+                            p.default.createElement("br"),
+                            "of medium and format."
+                          ),
+                          p.default.createElement(
+                            "p",
+                            null,
+                            "His friends call him “Memo”. He spends most",
+                            p.default.createElement("br"),
+                            "of his time exploring Ancient sites,",
+                            p.default.createElement("br"),
+                            "astrophotography, learning languages and",
+                            p.default.createElement("br"),
+                            "exploring Virtual Reality."
+                          ),
                         ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "Founder and CEO of Meta Studios, Head of",
-                          p.default.createElement("br"),
-                          "UI & UX Department, IOS Engineer and lover",
-                          p.default.createElement("br"),
-                          "of simple & interactive 3D futuristic design."
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "Constantly foreseeing future innovations and",
-                          p.default.createElement("br"),
-                          "creative solutions, expanding the boundaries",
-                          p.default.createElement("br"),
-                          "of medium and format."
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "His friends call him “Memo”. He spends most",
-                          p.default.createElement("br"),
-                          "of his time exploring Ancient sites,",
-                          p.default.createElement("br"),
-                          "astrophotography, learning languages and",
-                          p.default.createElement("br"),
-                          "exploring Virtual Reality."
-                        )
+                        p.default.createElement("img", {className: "guillermoImg", src: "./imgs/video-pic-1.png"})
                       ),
                       p.default.createElement(
                         "div", {
@@ -42560,7 +42569,7 @@ object-assign
                 value: function () {
                   (this.$element = a(this.refs.element)),
                     (this.$nav = this.$element.find("nav")),
-                    TweenMax.set(this.$nav, { opacity: 0 }),
+                    TweenMax.set(this.$nav, { opacity: 1 }),
                     (this.$navButtons = this.$element.find(
                       "nav > ul > li > a"
                     )),
@@ -42581,9 +42590,9 @@ object-assign
                       y: -this.$readLessButton.height() - 20,
                     }),
                     window.APP.isMobile &&
-                      (TweenMax.set(this.$detailContainer, { opacity: 0 }),
+                      (TweenMax.set(this.$detailContainer, { opacity: 1 }),
                       this.addMobileSwipeOnce()),
-                    TweenMax.set(this.$element, { opacity: 0 });
+                    TweenMax.set(this.$element, { opacity: 1 });
                 },
               },
               {
@@ -42592,24 +42601,12 @@ object-assign
                   TweenMax.to(this.$element, 1, { opacity: 1, onComplete: t }),
                     e.delay(
                       function () {
-                        if (window.APP.isMobile)
-                          g.default.sendTo("setGlobalState", {
-                            showBackgroundVideo: !0,
-                            backgroundVideo: "videoJourney",
-                          }),
-                            TweenMax.to(this.$readMoreButton, 0.5, {
-                              y: 0,
-                              delay: 0.2,
-                              ease: Power2.easeOut,
-                            });
-                        else {
                           var e = window.location.hash
                             .trim()
                             .replace("#", "")
                             .split("/");
                           this.showDetail(e[1]),
                             b.elementAnimations.subnavIn(this.$nav);
-                        }
                       }.bind(this),
                       500
                     );
@@ -47923,9 +47920,7 @@ object-assign
                             null,
                             d.default.createElement(
                               "a", {
-                                href: "/",
-                                onClick: this.onClick,
-                                "data-pagehash": "credits",
+                                href: "https://futurevizion.jp",
                               },
                               d.default.createElement(
                                 "span", {

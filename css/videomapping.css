@@ -39,7 +39,7 @@ textarea {
   font-family: "SF Compact Text", sans-serif;
   font-size: 7pt;
 }
-@import url(//db.onlinewebfonts.com/c/1e16b363a6dabda72a084d971738be58?family=SF + Compact + Text);
+@import url(//db.onlinewebfonts.com/c/1e16b363a6dabda72a084d971738be58?family=SF+Compact+Text);
 @font-face {
   font-family: "SF Compact Text";
   src: url("//db.onlinewebfonts.com/t/1e16b363a6dabda72a084d971738be58.eot");
@@ -821,6 +821,12 @@ p.copy {
   left: 47px;
   top: 60px;
   line-height: 10px;
+}
+@media screen and (max-width: 900px) {
+.sub_logo {
+    left: 15px;
+    top: 26px;
+  }
 }
 .sub_logo img {
   vertical-align: bottom;
@@ -2609,7 +2615,11 @@ skew to change the 'thickness' of the glitch.*/
 .section-left p {
   float: left;
 }
-.section-right p {
+#section-right {
+  float: right;
+  margin-top: 250px;
+}
+#section-right p {
   float: right;
 }
 #video-center {
@@ -2942,7 +2952,7 @@ skew to change the 'thickness' of the glitch.*/
   position: relative;
   top: 0;
   left: 0;
-  padding: 20px 40px;
+  padding:1em 2em;
   border-radius: 100px;
   display: inline-block;
   transition: all 0.5s;
@@ -5132,5 +5142,171 @@ skew to change the 'thickness' of the glitch.*/
   60% {
     -webkit-transform: translateY(-12px);
     transform: translateY(-12px);
+  }
+}
+.topMargin {
+  margin-top: 10vh;
+}
+.paras {
+  width: 39%;
+    height: fit-content;
+    margin: 0 auto;
+}
+.paras div {
+  text-align: center;
+}
+#box-div {
+  margin-top: 16vh;
+}
+#imgs-group {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-top: 9vh;
+}
+.imgs-inner-1 {
+  margin-left: 5vw;
+  width: 16.6vw;
+}
+.imgs-inner-2 {
+  margin-left: 5vw;
+  width: 20vw;
+}
+.imgs-inner-3 {
+  margin-left: 5vw;
+  width: 16.45vw;
+}
+#seeDemodiv {
+  width: 100%;
+  margin: 0 0;
+}
+#seeDemo {
+  text-align: center;
+                    margin-top: 50px;
+                    font-size: 3em;
+                    line-height: 90px;
+}
+#section1 {
+  width: 70%;
+  height: 50%;
+  margin: 0 auto;
+}
+#section2 {
+  width: 53%;
+  height: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 1920px){
+  .paras {
+    width: 48%;
+  }
+  #section1 {
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+  }
+  #section2 {
+    width: 53%;
+    height: 66%;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 900px) {
+  .intro.type2 {
+    margin-bottom: 0;
+    height: 100vh;
+  }
+  #section1 {
+    width: 70%;
+    height: 90%;
+    margin: 0 auto;
+  }
+  #section2 {
+    width: 80%;
+    height: 85%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .intro.type2 .intro_body {
+    position: relative;
+    height: 80%;
+    box-sizing: border-box;
+    padding-top: 30px;
+  }
+  .intro.type2 .leadbox h2 {
+    font-size: 34px;
+    margin: 0.3em 0 0.3em;
+    line-height: 1.2;
+  }
+  .glitch {
+    font-size: 1.5em;
+  }
+  #seeDemodiv {
+    width: 80%;
+    margin: 0 auto;
+  }
+  #seeDemo {
+    text-align: center;
+      margin-top: 50px;
+      font-size: 1.5em;
+      line-height: 2;
+  }
+  #future-head {
+    text-align: center;
+    font-weight: 300;
+    font-size: 2em;
+    width: 76vw;
+    margin: 0 auto;
+  }
+  #video-center{
+    width: 80%;
+    margin: 0 auto;
+  }
+  #video-left {
+    float: none;
+    width: 100%;
+  }
+  #video-right {
+    float: none;
+    width: 100%;
+    margin-top: 5em;
+  }
+  .paras {
+    width: 80%;
+  }
+  .paras div {
+    text-align: justify;
+  }
+  #imgs-group {
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+  .imgs-inner {
+    margin-left: 9vw;
+    width: 82%;
+    margin-top: 3vh;
+  }
+  #section-right {
+    float: right;
+    margin-top: 10vh;
+  }
+  .shop-button {
+    display: inline-block;
+    width: 140px;
+    position: fixed;
+    right: 5.16667%;
+    top: 2.2%;
+    z-index: 360;
+    overflow: visible;
+    background: rgba(0, 0, 0, 0);
+  }
+  .copyright {
+    position: relative;
+    bottom: 11vh;
+    opacity: 1 !important;
   }
 }

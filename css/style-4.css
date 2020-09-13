@@ -821,6 +821,13 @@ p.copy {
   /* letter-spacing: 0.3em; */
   line-height: 1.5;
 }
+@media screen and (max-width: 900px) {
+  .leadbox h2 {
+    font-size: 22px;
+    letter-spacing: 0.1em;
+    line-height: 1.5;
+  }
+}
 .leadbox .sep {
   display: block;
   width: 18px;
@@ -875,9 +882,20 @@ p.copy {
 }
 .intro.type2 .intro_body {
   position: fixed;
-}
-.intro.type2 .intro_body {
   height: 100vh;
+
+}
+
+@media screen and (max-width: 900px) {
+  .intro.type2 {
+    margin-bottom: 0;
+  }
+  .intro.type2 .intro_body {
+    position: relative;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 30px;
+  }
 }
 .subtitle {
     position: relative;
@@ -889,6 +907,7 @@ p.copy {
         top:90;
     }
 }
+
 .head-holo {
     position: relative;
     top:-170;
@@ -908,6 +927,13 @@ p.copy {
   font-size: 4em;
   /* margin: 0.3em 0 0.3em 0.2em; */
   text-transform: uppercase;
+}
+@media screen and (max-width: 900px) {
+  .intro.type2 .leadbox h2 {
+    font-size: 34px;
+    margin: 0.3em 0 0.3em;
+    line-height: 1.2;
+  }
 }
 .intro.type2 .leadbox .typewriter {
   font-size: 24px;
@@ -1706,6 +1732,9 @@ a .blurtx .dummy2,
   -ms-transform: translateY(10px);
   transform: translateY(10px);
   opacity: 0;
+}
+.copyright{
+  opacity: 1 !important;
 }
 .show_ft .footer .btn_goup,
 .show_ft .footer .ft_l,
@@ -2595,6 +2624,12 @@ skew to change the 'thickness' of the glitch.*/
     width: 30%;
     margin: 0 auto;
 }
+@media screen and (max-width: 900px) {
+  #video-center{
+    width: 80%;
+    margin: 0 auto;
+  }
+}
 .video-outer {
     border: 2px solid rgb(97, 194, 226);
 }
@@ -2612,9 +2647,22 @@ skew to change the 'thickness' of the glitch.*/
     float: left;
     width: 45%;
 }
+@media screen and (max-width: 900px) {
+  #video-left {
+    float: none;
+    width: 100%;
+  }
+}
 #video-right {
     float: right;
     width: 45%;
+}
+@media screen and (max-width: 900px) {
+  #video-right {
+    float: none;
+    width: 100%;
+    margin-top: 5em;
+  }
 }
 .carousel {
   height: 300px;
@@ -2907,7 +2955,7 @@ skew to change the 'thickness' of the glitch.*/
   position:relative;
   top:0;
   left:0;
-  padding:20px 40px;
+  padding:1em 2em;
   border-radius:100px;
   display:inline-block;
   transition: all .5s;
@@ -5084,4 +5132,62 @@ skew to change the 'thickness' of the glitch.*/
 		-webkit-transform: translateY(-12px);
 		        transform: translateY(-12px);
 	}
+}
+#seeDemodiv {
+  width: 100%;
+  margin: 0 0;
+}
+#seeDemo {
+  text-align: center;
+                    margin-top: 50px;
+                    font-size: 3em;
+                    line-height: 90px;
+}
+@media screen and (max-width: 900px) {
+  #seeDemodiv {
+    width: 80%;
+    margin: 0 auto;
+  }
+  #seeDemo {
+    text-align: center;
+      margin-top: 50px;
+      font-size: 1.5em;
+      line-height: 2;
+  }
+  #future-head {
+    text-align: center;
+    font-weight: 300;
+    font-size: 2em;
+  }
+  #carousel {
+    display: none;
+  }
+}
+.topMargin {
+  margin-top: 10vh;
+}
+.paras {
+  width: 39%;
+    height: fit-content;
+    margin: 0 auto;
+}
+.paras div {
+  text-align: center;
+}
+@media screen and (max-width: 1920px){
+  .paras {
+    width: 48%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .paras {
+    width: 80%;
+  }
+  .paras div {
+    text-align: justify;
+  }
+  
+}
+#box-div {
+  margin-top: 16vh;
 }
