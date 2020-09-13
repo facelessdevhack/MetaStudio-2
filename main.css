@@ -973,12 +973,18 @@
     position: absolute;
     background: #000;
     width: 0px;
-    height: 85%;
+    height: 100%;
     z-index: 3;
     -webkit-transition: 0.3s ease-out all;
     transition: 0.3s ease-out all;
     -webkit-transform: skewX(-3deg);
     transform: skewX(-3deg);
+  }
+  #btn-guillermo a:hover {
+    color: white;
+  }
+  #btn-guillermo a p span.base:hover {
+    border: 2px solid black;
   }
 }
 /* Mobile Our Team Buttons End  */
