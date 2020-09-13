@@ -63,6 +63,10 @@
     left: 9%;
     top: 71vh;
   }
+  .project-nav ul li {
+    margin: 8px 2vw 0 0 !important;
+    font-size: 9.8px !important;
+  }
 }
 /* #btn-decode p {
   display: inline-block;
@@ -4176,26 +4180,26 @@ main.Trailer .share-icons {
     margin-left: 10px;
     position: relative;
 }
-  .GUILLERMO {
+  .GUILLERMO-inner {
     display: flex !important;
   }
-  .IAN {
-    bottom: 34% !important;
+  .IAN-inner {
+    display: flex !important;
   }
-  .HIDEYO {
-    bottom: 42% !important;
+  .HIDEYO-inner {
+    display: flex !important;
   }
-  .NANA {
-    bottom: 44% !important;
+  .NANA-inner {
+    display: flex !important;
   }
-  .RAFAEL {
-    bottom: 40% !important;
+  .RAFAEL-inner {
+    display: flex !important;
   }
-  .ANTONIO {
-    bottom: 30% !important;
+  .ANTONIO-inner {
+    display: flex !important;
   }
-  .JOAO {
-    bottom: 38% !important;
+  .JOAO-inner {
+    display: flex !important;
   }
 }
 .page-details .detail h3 {
@@ -4272,8 +4276,9 @@ main.Trailer .share-icons {
     background-color: rgba(0, 0, 0, 0.6);
   }
   .page-details .detail {
-    position: relative;
-    top: 2vh;
+    position: absolute;
+    display: flex;
+    top: 38vh;
     bottom: auto;
     display: none;
     opacity: 1;
@@ -4302,7 +4307,7 @@ main.Trailer .share-icons {
   }
   .page-details .close-button {
     width: 82px;
-    top: 10.66667%;
+    top: 13.66667%;
   }
   #job-title {
     padding: 7px;

@@ -10465,6 +10465,14 @@ object-assign
         videoJacket: "./videos/projects_background_video.MOV",
         videoLongsleeve: "./videos/hideyo_background_video.mp4",
         videoJourney: "./videos/proxy_tunnel_FOR_WEB.mp4",
+        videoJourneyChapter1: "./videos/spiritual_machines_v_3.mp4",
+        videoJourneyChapter2: "./videos/uber_eats_v6.mp4",
+        videoJourneyChapter3: "./videos/music_video_Olush.mp4",
+        videoJourneyChapter4: "./videos/kevin.mp4",
+        videoJourneyChapter5: "./videos/Arcadia By Amna.m4v",
+        videoJourneyChapter6: "./videos/FINAL UNIQLO LOGO.mov",
+        videoJourneyChapter7: "./videos/adidas.m4v",
+        videoJourneyChapter8: "./videos/suntory.m4v",
         videoCredits: "./videos/projects_background_video.MOV",
       },
     };
@@ -41804,32 +41812,78 @@ object-assign
                         "div", {
                           className: "detail RAFAEL"
                         },
+
                         p.default.createElement(
-                          "p", {
-                            className: "job-title",
+                          "div",
+                          {
+                            className: "GUILLERMO-inner"
                           },
-                          "Line Producer"
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "Rafael Daly has been part of Meta Studios since the early days in",
-                          p.default.createElement("br"),
-                          "San Francisco, a crucial backbone of the development and",
-                          p.default.createElement("br"),
-                          "establishment of Meta Studios in Japan."
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "Rafael coordinates and manages our video production organizing",
-                          p.default.createElement("br"),
-                          "as line producer."
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "Rafael originally from Santiago, Chile."
+                          p.default.createElement(
+                            "div",
+                            {
+                              className: "detailPara"
+                            },
+                            p.default.createElement(
+                              "p", {
+                                className: "job-title",
+                              },
+                              "Line Producer"
+                            ),
+                            p.default.createElement(
+                              "p",
+                              null,
+                              "Rafael Daly has been part of Meta Studios since the early days in",
+                              p.default.createElement("br"),
+                              "San Francisco, a crucial backbone of the development and",
+                              p.default.createElement("br"),
+                              "establishment of Meta Studios in Japan."
+                            ),
+                            p.default.createElement(
+                              "p",
+                              null,
+                              "Rafael coordinates and manages our video production organizing",
+                              p.default.createElement("br"),
+                              "as line producer."
+                            ),
+                            p.default.createElement(
+                              "p",
+                              null,
+                              "Rafael originally from Santiago, Chile."
+                            )
+                          ),
+                          p.default.createElement(
+                            "div",
+                            null,
+                            p.default.createElement("img", {className: "guillermoImg", src: "./imgs/video-pic-1.png"}),
+                            p.default.createElement(
+                              "div", {
+                                id: "btn-guillermo",
+                              },
+                              p.default.createElement(
+                                "a", {
+                                  href: "http://mictlanthegame.com/",
+                                  target: "_blank",
+                                  className: "btn btn-flag btn-longsleeve",
+                                },
+                                p.default.createElement(
+                                  "p",
+                                  null,
+                                  p.default.createElement("span", {
+                                    className: "bg",
+                                  }),
+                                  p.default.createElement("span", {
+                                    className: "base",
+                                  }),
+                                  p.default.createElement(
+                                    "span", {
+                                      className: "text",
+                                    },
+                                    "contact@metastudios.jp"
+                                  )
+                                )
+                              ),
+                            ),
+                          )
                         )
                       ),
                       p.default.createElement(
@@ -41839,76 +41893,82 @@ object-assign
                         p.default.createElement(
                           "div",
                           {
-                            className: "detailPara"
+                            className: "GUILLERMO-inner"
                           },
                           p.default.createElement(
-                            "p", {
-                              id: "job-title",
-                            },
-                            "CTO | Co Founder"
-                          ),
-                          p.default.createElement(
-                            "p",
-                            null,
-                            "Founder and CEO of Meta Studios, Head of",
-                            p.default.createElement("br"),
-                            "UI & UX Department, IOS Engineer and lover",
-                            p.default.createElement("br"),
-                            "of simple & interactive 3D futuristic design."
-                          ),
-                          p.default.createElement(
-                            "p",
-                            null,
-                            "Constantly foreseeing future innovations and",
-                            p.default.createElement("br"),
-                            "creative solutions, expanding the boundaries",
-                            p.default.createElement("br"),
-                            "of medium and format."
-                          ),
-                          p.default.createElement(
-                            "p",
-                            null,
-                            "His friends call him “Memo”. He spends most",
-                            p.default.createElement("br"),
-                            "of his time exploring Ancient sites,",
-                            p.default.createElement("br"),
-                            "astrophotography, learning languages and",
-                            p.default.createElement("br"),
-                            "exploring Virtual Reality."
-                          ),
-                        ),
-                        p.default.createElement(
-                          "div",
-                          null,
-                          p.default.createElement("img", {className: "guillermoImg", src: "./imgs/video-pic-1.png"}),
-                          p.default.createElement(
-                            "div", {
-                              id: "btn-guillermo",
+                            "div",
+                            {
+                              className: "detailPara"
                             },
                             p.default.createElement(
-                              "a", {
-                                href: "http://mictlanthegame.com/",
-                                target: "_blank",
-                                className: "btn btn-flag btn-longsleeve",
+                              "p", {
+                                id: "job-title",
                               },
-                              p.default.createElement(
-                                "p",
-                                null,
-                                p.default.createElement("span", {
-                                  className: "bg",
-                                }),
-                                p.default.createElement("span", {
-                                  className: "base",
-                                }),
-                                p.default.createElement(
-                                  "span", {
-                                    className: "text",
-                                  },
-                                  "contact@metastudios.jp"
-                                )
-                              )
+                              "CTO | Co Founder"
+                            ),
+                            p.default.createElement(
+                              "p",
+                              null,
+                              "Founder and CEO of Meta Studios, Head of",
+                              p.default.createElement("br"),
+                              "UI & UX Department, IOS Engineer and lover",
+                              p.default.createElement("br"),
+                              "of simple & interactive 3D futuristic design."
+                            ),
+                            p.default.createElement(
+                              "p",
+                              null,
+                              "Constantly foreseeing future innovations and",
+                              p.default.createElement("br"),
+                              "creative solutions, expanding the boundaries",
+                              p.default.createElement("br"),
+                              "of medium and format."
+                            ),
+                            p.default.createElement(
+                              "p",
+                              null,
+                              "His friends call him “Memo”. He spends most",
+                              p.default.createElement("br"),
+                              "of his time exploring Ancient sites,",
+                              p.default.createElement("br"),
+                              "astrophotography, learning languages and",
+                              p.default.createElement("br"),
+                              "exploring Virtual Reality."
                             ),
                           ),
+                          p.default.createElement(
+                            "div",
+                            null,
+                            p.default.createElement("img", {className: "guillermoImg", src: "./imgs/video-pic-1.png"}),
+                            p.default.createElement(
+                              "div", {
+                                id: "btn-guillermo",
+                              },
+                              p.default.createElement(
+                                "a", {
+                                  href: "http://mictlanthegame.com/",
+                                  target: "_blank",
+                                  className: "btn btn-flag btn-longsleeve",
+                                },
+                                p.default.createElement(
+                                  "p",
+                                  null,
+                                  p.default.createElement("span", {
+                                    className: "bg",
+                                  }),
+                                  p.default.createElement("span", {
+                                    className: "base",
+                                  }),
+                                  p.default.createElement(
+                                    "span", {
+                                      className: "text",
+                                    },
+                                    "contact@metastudios.jp"
+                                  )
+                                )
+                              ),
+                            ),
+                          )
                         )
                       ),
                       p.default.createElement(
@@ -41918,72 +41978,78 @@ object-assign
                         p.default.createElement(
                           "div",
                           {
-                            className: "detailPara"
+                            className: "GUILLERMO-inner"
                           },
                           p.default.createElement(
-                            "p", {
-                              className: "job-title",
-                            },
-                            "Filmmaker"
-                          ),
-                          p.default.createElement(
-                            "p",
-                            null,
-                            "Born and raised in central Europe, Antonio started",
-                            p.default.createElement("br"),
-                            "his early career between Paris and Geneva.",
-                            p.default.createElement("br")
-                          ),
-                          p.default.createElement(
-                            "p",
-                            null,
-                            "He then joined the HypeBeast team in London before",
-                            p.default.createElement("br"),
-                            "getting into commercial videos in Japan",
-                            p.default.createElement("br")
-                          ),
-                          p.default.createElement(
-                            "p",
-                            null,
-                            "Antonio Joined Meta Studios Team in 2019, working",
-                            p.default.createElement("br"),
-                            "along side creating Commercial Videos for major",
-                            p.default.createElement("br"),
-                            "Brands and clients."
-                          ),
-                        ),
-                        p.default.createElement(
-                          "div",
-                          null,
-                          p.default.createElement("img", {className: "guillermoImg", src: "./imgs/video-pic-1.png"}),
-                          p.default.createElement(
-                            "div", {
-                              id: "btn-guillermo",
+                            "div",
+                            {
+                              className: "detailPara"
                             },
                             p.default.createElement(
-                              "a", {
-                                href: "http://mictlanthegame.com/",
-                                target: "_blank",
-                                className: "btn btn-flag btn-longsleeve",
+                              "p", {
+                                id: "job-title",
                               },
-                              p.default.createElement(
-                                "p",
-                                null,
-                               p.default.createElement("span", {
-                                  className: "bg",
-                                }),
-                                p.default.createElement("span", {
-                                  className: "base",
-                                }),
-                                p.default.createElement(
-                                  "span", {
-                                    className: "text",
-                                  },
-                                  "デザイン"
-                                )
-                              )
+                              "Filmmaker"
+                            ),
+                            p.default.createElement(
+                              "p",
+                              null,
+                              "Born and raised in central Europe, Antonio started",
+                              p.default.createElement("br"),
+                              "his early career between Paris and Geneva.",
+                              p.default.createElement("br")
+                            ),
+                            p.default.createElement(
+                              "p",
+                              null,
+                              "He then joined the HypeBeast team in London before",
+                              p.default.createElement("br"),
+                              "getting into commercial videos in Japan",
+                              p.default.createElement("br")
+                            ),
+                            p.default.createElement(
+                              "p",
+                              null,
+                              "Antonio Joined Meta Studios Team in 2019, working",
+                              p.default.createElement("br"),
+                              "along side creating Commercial Videos for major",
+                              p.default.createElement("br"),
+                              "Brands and clients."
                             ),
                           ),
+                          p.default.createElement(
+                            "div",
+                            null,
+                            p.default.createElement("img", {className: "guillermoImg", src: "./imgs/video-pic-1.png"}),
+                            p.default.createElement(
+                              "div", {
+                                id: "btn-guillermo",
+                              },
+                              p.default.createElement(
+                                "a", {
+                                  href: "http://mictlanthegame.com/",
+                                  target: "_blank",
+                                  className: "btn btn-flag btn-longsleeve",
+                                },
+                                p.default.createElement(
+                                  "p",
+                                  null,
+                                  p.default.createElement("span", {
+                                    className: "bg",
+                                  }),
+                                  p.default.createElement("span", {
+                                    className: "base",
+                                  }),
+                                  p.default.createElement(
+                                    "span", {
+                                      className: "text",
+                                    },
+                                    "contact@metastudios.jp"
+                                  )
+                                )
+                              ),
+                            ),
+                          )
                         )
                       ),
                       p.default.createElement(
@@ -41991,26 +42057,71 @@ object-assign
                           className: "detail JOAO"
                         },
                         p.default.createElement(
-                          "p", {
-                            className: "job-title",
+                          "div",
+                          {
+                            className: "GUILLERMO-inner"
                           },
-                          "Visionary 3d Artist"
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "Joao was born in Lisbon, Portugal and has been part of Meta Studios",
-                          p.default.createElement("br"),
-                          "creative team for numerous years with many collaborations.",
-                          p.default.createElement("br")
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "Joao a crucial member of our team is ready to deliver your next visual",
-                          p.default.createElement("br"),
-                          "experience.",
-                          p.default.createElement("br")
+                          p.default.createElement(
+                            "div",
+                            {
+                              className: "detailPara"
+                            },
+                            p.default.createElement(
+                              "p", {
+                                id: "job-title",
+                              },
+                              "Visionary 3d Artist"
+                            ),
+                            p.default.createElement(
+                              "p",
+                              null,
+                              "Joao was born in Lisbon, Portugal and has been part of Meta Studios",
+                              p.default.createElement("br"),
+                              "creative team for numerous years with many collaborations.",
+                              p.default.createElement("br")
+                            ),
+                            p.default.createElement(
+                              "p",
+                              null,
+                              "Joao a crucial member of our team is ready to deliver your next visual",
+                              p.default.createElement("br"),
+                              "experience.",
+                              p.default.createElement("br")
+                            )
+                          ),
+                          p.default.createElement(
+                            "div",
+                            null,
+                            p.default.createElement("img", {className: "guillermoImg", src: "./imgs/video-pic-1.png"}),
+                            p.default.createElement(
+                              "div", {
+                                id: "btn-guillermo",
+                              },
+                              p.default.createElement(
+                                "a", {
+                                  href: "http://mictlanthegame.com/",
+                                  target: "_blank",
+                                  className: "btn btn-flag btn-longsleeve",
+                                },
+                                p.default.createElement(
+                                  "p",
+                                  null,
+                                  p.default.createElement("span", {
+                                    className: "bg",
+                                  }),
+                                  p.default.createElement("span", {
+                                    className: "base",
+                                  }),
+                                  p.default.createElement(
+                                    "span", {
+                                      className: "text",
+                                    },
+                                    "contact@metastudios.jp"
+                                  )
+                                )
+                              ),
+                            ),
+                          )
                         )
                       ),
                       p.default.createElement(
@@ -42018,35 +42129,80 @@ object-assign
                           className: "detail IAN"
                         },
                         p.default.createElement(
-                          "p", {
-                            className: "job-title",
+                          "div",
+                          {
+                            className: "GUILLERMO-inner"
                           },
-                          "CTO | Co Founder"
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "Meta Studios Chief Technology Officer,",
-                          p.default.createElement("br"),
-                          "Ian Rever co-founded the company along with",
-                          p.default.createElement("br"),
-                          "Guillermo Alarcon."
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "Both originally from San Francisco, CA they decided",
-                          p.default.createElement("br"),
-                          "to bring their vision to Japan."
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "Ian Rever a certified Funktion One Sound Engineer,",
-                          p.default.createElement("br"),
-                          "handles Meta Studios Sound Division and equipment",
-                          p.default.createElement("br"),
-                          "rentals for our clientele in Japan."
+                          p.default.createElement(
+                            "div",
+                            {
+                              className: "detailPara"
+                            },
+                            p.default.createElement(
+                              "p", {
+                                id: "job-title",
+                              },
+                              "CTO | Co Founder"
+                            ),
+                            p.default.createElement(
+                              "p",
+                              null,
+                              "Meta Studios Chief Technology Officer,",
+                              p.default.createElement("br"),
+                              "Ian Rever co-founded the company along with",
+                              p.default.createElement("br"),
+                              "Guillermo Alarcon."
+                            ),
+                            p.default.createElement(
+                              "p",
+                              null,
+                              "Both originally from San Francisco, CA they decided",
+                              p.default.createElement("br"),
+                              "to bring their vision to Japan."
+                            ),
+                            p.default.createElement(
+                              "p",
+                              null,
+                              "Ian Rever a certified Funktion One Sound Engineer,",
+                              p.default.createElement("br"),
+                              "handles Meta Studios Sound Division and equipment",
+                              p.default.createElement("br"),
+                              "rentals for our clientele in Japan."
+                            )
+                          ),
+                          p.default.createElement(
+                            "div",
+                            null,
+                            p.default.createElement("img", {className: "guillermoImg", src: "./imgs/video-pic-1.png"}),
+                            p.default.createElement(
+                              "div", {
+                                id: "btn-guillermo",
+                              },
+                              p.default.createElement(
+                                "a", {
+                                  href: "http://mictlanthegame.com/",
+                                  target: "_blank",
+                                  className: "btn btn-flag btn-longsleeve",
+                                },
+                                p.default.createElement(
+                                  "p",
+                                  null,
+                                  p.default.createElement("span", {
+                                    className: "bg",
+                                  }),
+                                  p.default.createElement("span", {
+                                    className: "base",
+                                  }),
+                                  p.default.createElement(
+                                    "span", {
+                                      className: "text",
+                                    },
+                                    "contact@metastudios.jp"
+                                  )
+                                )
+                              ),
+                            ),
+                          )
                         )
                       ),
                       p.default.createElement(
@@ -42054,32 +42210,77 @@ object-assign
                           className: "detail HIDEYO"
                         },
                         p.default.createElement(
-                          "p", {
-                            className: "job-title",
+                          "div",
+                          {
+                            className: "GUILLERMO-inner"
                           },
-                          "Executive Producer"
-                        ),
-                        p.default.createElement(
-                          "p", {
-                            style: {
-                              width: "790px"
+                          p.default.createElement(
+                            "div",
+                            {
+                              className: "detailPara"
                             },
-                          },
-                          "Hideyo Tsuda, Meta Studios Executive Producer, also known as Hideyo Blackmoon,",
-                          p.default.createElement("br"),
-                          "composer/Vocalist/DJ for electronic music scene worldwide. Founder for a company's",
-                          p.default.createElement("br"),
-                          "new conscious education multimedia platform project which coming for 2021."
-                        ),
-                        p.default.createElement(
-                          "p", {
-                            style: {
-                              width: "790px"
-                            },
-                          },
-                          "She has been innovating lifestyle with Meditation, Toga, Healing Art, Dance Therapy,",
-                          p.default.createElement("br"),
-                          "Bio Hacking, Tantra, Taoism, etc."
+                            p.default.createElement(
+                              "p", {
+                                id: "job-title",
+                              },
+                              "Executive Producer"
+                            ),
+                            p.default.createElement(
+                              "p", {
+                                style: {
+                                  width: "790px"
+                                },
+                              },
+                              "Hideyo Tsuda, Meta Studios Executive Producer, also known as Hideyo Blackmoon,",
+                              p.default.createElement("br"),
+                              "composer/Vocalist/DJ for electronic music scene worldwide. Founder for a company's",
+                              p.default.createElement("br"),
+                              "new conscious education multimedia platform project which coming for 2021."
+                            ),
+                            p.default.createElement(
+                              "p", {
+                                style: {
+                                  width: "790px"
+                                },
+                              },
+                              "She has been innovating lifestyle with Meditation, Toga, Healing Art, Dance Therapy,",
+                              p.default.createElement("br"),
+                              "Bio Hacking, Tantra, Taoism, etc."
+                            )
+                          ),
+                          p.default.createElement(
+                            "div",
+                            null,
+                            p.default.createElement("img", {className: "guillermoImg", src: "./imgs/video-pic-1.png"}),
+                            p.default.createElement(
+                              "div", {
+                                id: "btn-guillermo",
+                              },
+                              p.default.createElement(
+                                "a", {
+                                  href: "http://mictlanthegame.com/",
+                                  target: "_blank",
+                                  className: "btn btn-flag btn-longsleeve",
+                                },
+                                p.default.createElement(
+                                  "p",
+                                  null,
+                                  p.default.createElement("span", {
+                                    className: "bg",
+                                  }),
+                                  p.default.createElement("span", {
+                                    className: "base",
+                                  }),
+                                  p.default.createElement(
+                                    "span", {
+                                      className: "text",
+                                    },
+                                    "contact@metastudios.jp"
+                                  )
+                                )
+                              ),
+                            ),
+                          )
                         )
                       ),
                       p.default.createElement(
@@ -42087,24 +42288,69 @@ object-assign
                           className: "detail NANA"
                         },
                         p.default.createElement(
-                          "p", {
-                            className: "job-title",
+                          "div",
+                          {
+                            className: "GUILLERMO-inner"
                           },
-                          "Development"
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "Nana Kawaguchi currently works for Meta Studios as our Japanese",
-                          p.default.createElement("br"),
-                          "creative development staff and account management."
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "She is an important valuable component to Meta Studios creative",
-                          p.default.createElement("br"),
-                          "vision and our link to Japanese establishment."
+                          p.default.createElement(
+                            "div",
+                            {
+                              className: "detailPara"
+                            },
+                            p.default.createElement(
+                              "p", {
+                                className: "job-title",
+                              },
+                              "Development"
+                            ),
+                            p.default.createElement(
+                              "p",
+                              null,
+                              "Nana Kawaguchi currently works for Meta Studios as our Japanese",
+                              p.default.createElement("br"),
+                              "creative development staff and account management."
+                            ),
+                            p.default.createElement(
+                              "p",
+                              null,
+                              "She is an important valuable component to Meta Studios creative",
+                              p.default.createElement("br"),
+                              "vision and our link to Japanese establishment."
+                            )
+                          ),
+                          p.default.createElement(
+                            "div",
+                            null,
+                            p.default.createElement("img", {className: "guillermoImg", src: "./imgs/video-pic-1.png"}),
+                            p.default.createElement(
+                              "div", {
+                                id: "btn-guillermo",
+                              },
+                              p.default.createElement(
+                                "a", {
+                                  href: "http://mictlanthegame.com/",
+                                  target: "_blank",
+                                  className: "btn btn-flag btn-longsleeve",
+                                },
+                                p.default.createElement(
+                                  "p",
+                                  null,
+                                  p.default.createElement("span", {
+                                    className: "bg",
+                                  }),
+                                  p.default.createElement("span", {
+                                    className: "base",
+                                  }),
+                                  p.default.createElement(
+                                    "span", {
+                                      className: "text",
+                                    },
+                                    "contact@metastudios.jp"
+                                  )
+                                )
+                              ),
+                            ),
+                          )
                         )
                       )
                     ),
@@ -42749,12 +42995,7 @@ object-assign
                       .find("nav > ul > li > a." + e)
                       .addClass("active"),
                     (window.location.hash = "journeydetails/" + e),
-                    window.APP.isMobile
-                      ? g.default.sendTo("setGlobalState", {
-                          showBackgroundVideo: !0,
-                          backgroundVideo: "videoJourney",
-                        })
-                      : "chapter1" == e
+                        "chapter1" == e
                       ? g.default.sendTo("setGlobalState", {
                           showBackgroundVideo: !0,
                           backgroundVideo: "videoJourneyChapter1",
@@ -42860,7 +43101,9 @@ object-assign
                     },
                     p.default.createElement(
                       "nav",
-                      null,
+                      {
+                        className: "project-nav"
+                      },
                       p.default.createElement(
                         "ul",
                         null,
@@ -42887,7 +43130,7 @@ object-assign
                               "data-detail": "chapter2",
                               className: "chapter2",
                             },
-                            "Uber Eats Japan"
+                            "Uber Eats"
                           )
                         ),
                         p.default.createElement(
@@ -42900,7 +43143,7 @@ object-assign
                               "data-detail": "chapter3",
                               className: "chapter3",
                             },
-                            "Music Video 1"
+                            "Olsen"
                           )
                         ),
                         p.default.createElement(
@@ -42913,7 +43156,7 @@ object-assign
                               "data-detail": "chapter4",
                               className: "chapter4",
                             },
-                            "Music Video 2"
+                            "Kevin"
                           )
                         ),
                         p.default.createElement(
@@ -42939,7 +43182,7 @@ object-assign
                               "data-detail": "chapter6",
                               className: "chapter6",
                             },
-                            "Uniqulo"
+                            "Uniqlo"
                           )
                         ),
                         p.default.createElement(
@@ -43031,26 +43274,34 @@ object-assign
                         "div", {
                           className: "detail chapter3"
                         },
-                        p.default.createElement("h3", null, "Music Video 1"),
                         p.default.createElement("img", {
                           src: "./imgs/stripes.png",
                           className: "uber-stripe",
                         }),
+                        p.default.createElement("h3", null, "Olsen"),
                         p.default.createElement(
                           "p",
                           null,
-                          "Music video produced for American famous\
-                          YouTuber, gamer, and rapper. He has over 5 Million\
-                          subscribers on his gaming channel, XpertThief, and\
-                          over 1.8 million followers subscribers on his rap channel,\
-                          KevinLaSean."
+                          "Oluse is a Nigerian-American Rapper based in",
+                          p.default.createElement("br"),
+                          "Los Angeles, CA. Oluse is an artist that you want",
+                          p.default.createElement("br"),
+                          "to know more about, to dive into what inspired him",
+                          p.default.createElement("br"),
+                          "to be the person he is today"
                         ),
                         p.default.createElement(
                           "p",
                           null,
-                          "Kevin Lasean a big anime and gamer wanted to have a\
-                          music video with cyberpunk influence and to showcase \
-                          his love for Tokyo and gaming culture."
+                          "As a Nigerian-American, you can hear subtle hints",
+                          p.default.createElement("br"),
+                          "that his style is not like the typical rapper. Each song",
+                          p.default.createElement("br"),
+                          "is different and good in its own right. It has different",
+                          p.default.createElement("br"),
+                          "elements and a different style of cadence than what",
+                          p.default.createElement("br"),
+                          "we are used to in the world of music today."
                         )
                       ),
                       p.default.createElement(
@@ -43060,34 +43311,45 @@ object-assign
                             bottom: "40vh"
                           },
                         },
-                        p.default.createElement("h3", null, "Music Video 2"),
                         p.default.createElement("img", {
                           src: "./imgs/stripes.png",
                           className: "uber-stripe",
                         }),
+                        p.default.createElement("h3", null, "Kevin"),
                         p.default.createElement("p", null, "Kevin Lasean"),
                         p.default.createElement("br"),
                         p.default.createElement(
                           "p",
                           null,
-                          "World Famous youtuber Kevin Lasean with over 7 million subscribers"
+                          "Music video produced for American famous",
+                          p.default.createElement("br"),
+                          "YouTuber, gamer, and rapper. He has over 5 Million",
+                          p.default.createElement("br"),
+                          "subscribers on his gaming channel, XpertThief, and",
+                          p.default.createElement("br"),
+                          "over 1.8 million followers subscribers on his rap channel,",
+                          p.default.createElement("br"),
+                          "KevinLaSean."
                         ),
                         p.default.createElement(
                           "p",
                           null,
-                          "Meta Studios shot his music video campaign during his visit to Japan."
+                          "Kevin Lasean a big anime and gamer wanted to have a",
+                          p.default.createElement("br"),
+                          "music video with cyberpunk influence and to showcase",
+                          p.default.createElement("br"),
+                          "his love for Tokyo and gaming culture."
                         )
                       ),
                       p.default.createElement(
                         "div", {
                           className: "detail chapter5"
                         },
-                        p.default.createElement("h3", null, "Arcadia"),
                         p.default.createElement("img", {
                           src: "./imgs/stripes.png",
                           className: "uber-stripe",
                         }),
-                        p.default.createElement("p", null, "Arcadia"),
+                        p.default.createElement("h3", null, "Arcadia"),
                         p.default.createElement(
                           "p",
                           null,
@@ -43103,16 +43365,15 @@ object-assign
                         "div", {
                           className: "detail chapter6"
                         },
-                        p.default.createElement("h3", null, "Uniqlo"),
                         p.default.createElement("img", {
                           src: "./imgs/stripes.png",
                           className: "uber-stripe",
                         }),
-                        p.default.createElement("p", null, "Uniqlo"),
+                        p.default.createElement("h3", null, "Uniqlo"),
                         p.default.createElement(
                           "p",
                           null,
-                          "UNIQULO proudly presents the special collection to celebrate the release of this memorable film."
+                          "UNIQLO proudly presents the special collection to celebrate the release of this memorable film."
                         ),
                         p.default.createElement(
                           "p",
@@ -43127,12 +43388,11 @@ object-assign
                             width: "800px"
                           },
                         },
-                        p.default.createElement("h3", null, "Adidas"),
                         p.default.createElement("img", {
                           src: "./imgs/stripes.png",
                           className: "uber-stripe",
                         }),
-                        p.default.createElement("p", null, "Adidas"),
+                        p.default.createElement("h3", null, "Adidas"),
                         p.default.createElement(
                           "p",
                           null,
@@ -43158,12 +43418,11 @@ object-assign
                         "div", {
                           className: "detail chapter8"
                         },
-                        p.default.createElement("h3", null, "Suntory"),
                         p.default.createElement("img", {
                           src: "./imgs/stripes.png",
                           className: "uber-stripe",
                         }),
-                        p.default.createElement("p", null, "Suntory"),
+                        p.default.createElement("h3", null, "Suntory"),
                         p.default.createElement(
                           "p",
                           null,
