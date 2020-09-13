@@ -41877,42 +41877,113 @@ object-assign
                             "exploring Virtual Reality."
                           ),
                         ),
-                        p.default.createElement("img", {className: "guillermoImg", src: "./imgs/video-pic-1.png"})
+                        p.default.createElement(
+                          "div",
+                          null,
+                          p.default.createElement("img", {className: "guillermoImg", src: "./imgs/video-pic-1.png"}),
+                          p.default.createElement(
+                            "div", {
+                              id: "btn-guillermo",
+                            },
+                            p.default.createElement(
+                              "a", {
+                                href: "http://mictlanthegame.com/",
+                                target: "_blank",
+                                className: "btn btn-flag btn-longsleeve",
+                              },
+                              p.default.createElement(
+                                "p",
+                                null,
+                                p.default.createElement("span", {
+                                  className: "bg",
+                                }),
+                                p.default.createElement("span", {
+                                  className: "base",
+                                }),
+                                p.default.createElement(
+                                  "span", {
+                                    className: "text",
+                                  },
+                                  "contact@metastudios.jp"
+                                )
+                              )
+                            ),
+                          ),
+                        )
                       ),
                       p.default.createElement(
                         "div", {
                           className: "detail ANTONIO"
                         },
                         p.default.createElement(
-                          "p", {
-                            className: "job-title",
+                          "div",
+                          {
+                            className: "detailPara"
                           },
-                          "Filmmaker"
+                          p.default.createElement(
+                            "p", {
+                              className: "job-title",
+                            },
+                            "Filmmaker"
+                          ),
+                          p.default.createElement(
+                            "p",
+                            null,
+                            "Born and raised in central Europe, Antonio started",
+                            p.default.createElement("br"),
+                            "his early career between Paris and Geneva.",
+                            p.default.createElement("br")
+                          ),
+                          p.default.createElement(
+                            "p",
+                            null,
+                            "He then joined the HypeBeast team in London before",
+                            p.default.createElement("br"),
+                            "getting into commercial videos in Japan",
+                            p.default.createElement("br")
+                          ),
+                          p.default.createElement(
+                            "p",
+                            null,
+                            "Antonio Joined Meta Studios Team in 2019, working",
+                            p.default.createElement("br"),
+                            "along side creating Commercial Videos for major",
+                            p.default.createElement("br"),
+                            "Brands and clients."
+                          ),
                         ),
                         p.default.createElement(
-                          "p",
+                          "div",
                           null,
-                          "Born and raised in central Europe, Antonio started",
-                          p.default.createElement("br"),
-                          "his early career between Paris and Geneva.",
-                          p.default.createElement("br")
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "He then joined the HypeBeast team in London before",
-                          p.default.createElement("br"),
-                          "getting into commercial videos in Japan",
-                          p.default.createElement("br")
-                        ),
-                        p.default.createElement(
-                          "p",
-                          null,
-                          "Antonio Joined Meta Studios Team in 2019, working",
-                          p.default.createElement("br"),
-                          "along side creating Commercial Videos for major",
-                          p.default.createElement("br"),
-                          "Brands and clients."
+                          p.default.createElement("img", {className: "guillermoImg", src: "./imgs/video-pic-1.png"}),
+                          p.default.createElement(
+                            "div", {
+                              id: "btn-guillermo",
+                            },
+                            p.default.createElement(
+                              "a", {
+                                href: "http://mictlanthegame.com/",
+                                target: "_blank",
+                                className: "btn btn-flag btn-longsleeve",
+                              },
+                              p.default.createElement(
+                                "p",
+                                null,
+                               p.default.createElement("span", {
+                                  className: "bg",
+                                }),
+                                p.default.createElement("span", {
+                                  className: "base",
+                                }),
+                                p.default.createElement(
+                                  "span", {
+                                    className: "text",
+                                  },
+                                  "デザイン"
+                                )
+                              )
+                            ),
+                          ),
                         )
                       ),
                       p.default.createElement(
