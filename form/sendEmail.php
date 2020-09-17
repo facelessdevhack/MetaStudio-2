@@ -15,12 +15,12 @@
 
         //SMTP Settings
         $mail->isSMTP();
-        $mail->Host = "smtp.gmail.com";
+        $mail->Host = "smtp.mailtrap.io";
         $mail->SMTPAuth = true;
-        $mail->Username = "preetdass2020@gmail.com";
-        $mail->Password = 'Satkabir2020';
+        $mail->Username = "158d80ae99117b";
+        $mail->Password = 'd6af6296921476';
         $mail->Port = 465; //587
-        $mail->SMTPSecure = "ssl"; //tls
+        $mail->SMTPSecure = "tls"; //tls
 
         //Email Settings
         $mail->isHTML(true);

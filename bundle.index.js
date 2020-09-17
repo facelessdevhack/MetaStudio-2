@@ -10437,9 +10437,9 @@ object-assign
       defaultMobile: [
       ],
       videoTrailer:
-        "./videos/intro.mp4",
+        "http://metastudios.jp/videos/intro.mp4",
       videoTrailerMobile:
-        "./videos/intro.mp4",
+        "http://metastudios.jp/videos/intro.mp4",
       videos: {
         videoHome: "./videos/Render_1.mp4",
         videoProduct: "./videos/Calum_Tunnel_FOR_WEB.mp4",
@@ -13239,23 +13239,23 @@ object-assign
                 window.APP.isIos ||
                 ((n.transitionAudio = new y.Howl({
                   src: [
-                    "/assets/sounds/jump_to_detail_transition_01.mp3",
-                    "/assets/sounds/jump_to_detail_transition_01.ogg",
+                    "/",
+                    "/",
                   ],
                   autoplay: !1,
                   volume: 0.7,
                   loop: !1,
                 })),
                 (n.bgAudio = new y.Howl({
-                  src: ["/assets/sounds/bg.mp3", "/assets/sounds/bg.ogg"],
+                  src: ["/", "/"],
                   autoplay: !1,
                   volume: 0.6,
                   loop: !0,
                 })),
                 (n.clickAudio = new y.Howl({
                   src: [
-                    "/assets/sounds/click_01.mp3",
-                    "/assets/sounds/click_01.ogg",
+                    "/",
+                    "/",
                   ],
                   autoplay: !1,
                   volume: 0.7,
@@ -14109,7 +14109,7 @@ object-assign
                         "div",
                         null,
                         d.default.createElement("img", {
-                          src: "assets/images/rotate_icon.png",
+                          src: "/",
                         }),
                         d.default.createElement(
                           "p",
@@ -32666,7 +32666,7 @@ object-assign
                         // ),
                         p.default.createElement("img", {
                           src:
-                            "/assets/images/desktop_icon.png",
+                            "/",
                           className: "desktop-icon",
                         }),
                         p.default.createElement(
@@ -42671,10 +42671,8 @@ object-assign
                     ),
                     d.default.createElement(
                       "a", {
-                        href: "/#journeydetails/chapter1",
+                        href: "./commercial.html",
                         className: "btn btn-flag btn-viewmore",
-                        onClick: this.onClick,
-                        "data-pagehash": "journeydetails/chapter1",
                       },
                       d.default.createElement(
                         "div", {
@@ -43783,7 +43781,7 @@ object-assign
                     ? d.default.createElement(
                       "iframe",
                       {
-                        src: "./form/index.php",
+                        src: "https://facelessdevhack.github.io/MetaStudio-2/form/index.php",
                         className: 'contactFrame'
                       },
                     )
@@ -43848,7 +43846,7 @@ object-assign
                         d.default.createElement(
                           "iframe",
                           {
-                            src: "./form/index.php",
+                            src: "https://facelessdevhack.github.io/MetaStudio-2/form/index.php",
                             className: 'contactFrame'
                           },
                         )
@@ -44080,7 +44078,7 @@ object-assign
                           className: "img",
                           style: {
                             backgroundImage:
-                              "url(https://www.ankoku-toshi-jutsu.com/assets/images/gallery/1.jpg",
+                              "url(/",
                           },
                         })
                       ),
@@ -44091,7 +44089,7 @@ object-assign
                           className: "img",
                           style: {
                             backgroundImage:
-                              "url(https://www.ankoku-toshi-jutsu.com/assets/images/gallery/2.jpg",
+                              "url(/",
                           },
                         })
                       ),
@@ -44102,7 +44100,7 @@ object-assign
                           className: "img",
                           style: {
                             backgroundImage:
-                              "url(https://www.ankoku-toshi-jutsu.com/assets/images/gallery/3.jpg",
+                              "url(/",
                           },
                         })
                       ),
@@ -44113,7 +44111,7 @@ object-assign
                           className: "img",
                           style: {
                             backgroundImage:
-                              "url(https://www.ankoku-toshi-jutsu.com/assets/images/gallery/4.jpg",
+                              "url(/",
                           },
                         })
                       ),
@@ -44124,7 +44122,7 @@ object-assign
                           className: "img",
                           style: {
                             backgroundImage:
-                              "url(https://www.ankoku-toshi-jutsu.com/assets/images/gallery/5.jpg",
+                              "url(/",
                           },
                         })
                       ),
@@ -44135,7 +44133,7 @@ object-assign
                           className: "img",
                           style: {
                             backgroundImage:
-                              "url(https://www.ankoku-toshi-jutsu.com/assets/images/gallery/6.jpg",
+                              "url(/",
                           },
                         })
                       ),
@@ -44146,7 +44144,7 @@ object-assign
                           className: "img",
                           style: {
                             backgroundImage:
-                              "url(https://www.ankoku-toshi-jutsu.com/assets/images/gallery/7.jpg",
+                              "url(/",
                           },
                         })
                       ),
@@ -44157,7 +44155,7 @@ object-assign
                           className: "img",
                           style: {
                             backgroundImage:
-                              "url(https://www.ankoku-toshi-jutsu.com/assets/images/gallery/8.jpg",
+                              "url(/",
                           },
                         })
                       ),
@@ -44168,7 +44166,7 @@ object-assign
                           className: "img",
                           style: {
                             backgroundImage:
-                              "url(https://www.ankoku-toshi-jutsu.com/assets/images/gallery/9.jpg",
+                              "url(/",
                           },
                         })
                       ),
@@ -44179,7 +44177,7 @@ object-assign
                           className: "img",
                           style: {
                             backgroundImage:
-                              "url(https://www.ankoku-toshi-jutsu.com/assets/images/gallery/10.jpg",
+                              "url(/",
                           },
                         })
                       )
@@ -46106,20 +46104,20 @@ object-assign
                           { className: "logos" },
                           d.default.createElement(
                             "a",
-                            { href: "http://www.dayy.de/", target: "_blank" },
+                            { href: "/", target: "_blank" },
                             d.default.createElement("img", {
                               src:
-                                "https://www.ankoku-toshi-jutsu.com/assets/images/dayy-logo.png",
+                                "/",
                               className: "dayy",
                               alt: "dayy",
                             })
                           ),
                           d.default.createElement(
                             "a",
-                            { href: "http://www.adidas.de/", target: "_blank" },
+                            { href: "/", target: "_blank" },
                             d.default.createElement("img", {
                               src:
-                                "https://www.ankoku-toshi-jutsu.com/assets/images/adidas-logo.png",
+                                "/",
                               className: "adidas",
                               alt: "adidas",
                             })
@@ -46127,12 +46125,12 @@ object-assign
                           d.default.createElement(
                             "a",
                             {
-                              href: "https://www.thegoodwillout.de/",
+                              href: "/",
                               target: "_blank",
                             },
                             d.default.createElement("img", {
                               src:
-                                "https://www.ankoku-toshi-jutsu.com/assets/images/tgwo-logo.png",
+                                "/",
                               className: "tgwo",
                               alt: "tgwo",
                             })
@@ -47871,7 +47869,7 @@ object-assign
                           },
                           d.default.createElement("source", {
                             src:
-                              "https://www.ankoku-toshi-jutsu.com/assets/videos/_mobile/flags/flag_black.mp4",
+                              "/",
                             type: "video/mp4",
                           })
                         ),
@@ -49790,8 +49788,8 @@ object-assign
                       ((this.bigHoversAudio = [
                         new u.Howl({
                           src: [
-                            "/assets/sounds/big_hover_01_01.mp3",
-                            "/assets/sounds/big_hover_01_01.ogg",
+                            "/",
+                            "/",
                           ],
                           autoplay: !1,
                           volume: 0.2,
@@ -49799,8 +49797,8 @@ object-assign
                         }),
                         new u.Howl({
                           src: [
-                            "/assets/sounds/big_hover_02_01.mp3",
-                            "/assets/sounds/big_hover_02_01.ogg",
+                            "/",
+                            "/",
                           ],
                           autoplay: !1,
                           volume: 0.2,
@@ -49808,8 +49806,8 @@ object-assign
                         }),
                         new u.Howl({
                           src: [
-                            "/assets/sounds/big_hover_03_01.mp3",
-                            "/assets/sounds/big_hover_03_01.ogg",
+                            "/",
+                            "/",
                           ],
                           autoplay: !1,
                           volume: 0.2,
@@ -49818,8 +49816,8 @@ object-assign
                       ]),
                       (this.clickAudio = new u.Howl({
                         src: [
-                          "/assets/sounds/click_01.mp3",
-                          "/assets/sounds/click_01.ogg",
+                          "/",
+                          "/",
                         ],
                         autoplay: !1,
                         volume: 0.5,

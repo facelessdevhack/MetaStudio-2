@@ -806,6 +806,15 @@
 }
 /* Page 2 Edits End  */
 /* MOBILE Our Team Buttons Start  */
+.video-background .video::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.67);
+}
 #btn-guillermo {
   width: 177px;
   flex-flow: column;
@@ -813,6 +822,7 @@
   left: 17vw;
   top: 51vh;
   text-align: left;
+  display: none
 }
 @media (max-width: 1400px) {
   #btn-guillermo {
@@ -846,6 +856,7 @@
     flex-flow: column;
     position: relative;
     left: 2.5vw;
+    display: block;
     top: 0vh;
   }
   #btn-guillermo br {
@@ -5959,5 +5970,11 @@ body.ie-edge .btn-flag:hover .flag-container svg.flag rect {
   }
   .Gallery .shop-button {
     display: none;
+  }
+}
+@media screen and (max-width: 4100px) and (min-width: 800px) {
+  #cover-hideyo {
+    position: absolute;
+    left: 49vw;
   }
 }

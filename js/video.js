@@ -1,0 +1,2 @@
+var vid = document.getElementById('cover'); vid.playbackRate = 0.50; console.log(vid.playbackRate);
+var vid = document.getElementsByClassName('cover-video'); vid.playbackRate = 0.50; console.log(vid.playbackRate);

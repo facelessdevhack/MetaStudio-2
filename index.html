@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="main.css" />
   <link rel="shortcut icon" type="image/png" href="./imgs/flaticon3.png"
     sizes="256x256" />
-  <script src="fitie.js"></script>
+  <script src="./js/fitie.js"></script>
   <!-- <script src="/assets/scripts/calc.min.js"></script> -->
   <style type="text/css">
     #preload {
@@ -43,98 +43,6 @@
 
 <body class="windows" data-gr-c-s-loaded="true">
   <div id="app">
-    <main data-reactroot="" class="Preloading">
-      <div class="video-background">
-        <script>
-          var vid = document.getElementById("cover");
-          vid.playbackRate = 0.50;
-        </script>
-        <video class="cover-video" id="cover" preload="auto" loop="" muted="" playsinline=""
-          style="width: 1440px; height: 720px;">
-          <source src="./videos/intro.mp4" type="video/mp4" />
-        </video>
-      </div>
-      <div class="page-container Preloading">
-      </div>
-      <div class="main-menu" style="opacity: 0;">
-        <script>
-          var vid = document.querySelector("video");
-          vid.playbackRate = 0.05;
-        </script>
-        <video class="cover-video" id="cover" loop="" playsinline="" preload="auto"
-          style="width: 1518.72px; height: 358px;">
-          <source src="./videos/menu_background_video.mp4" type="video/mp4" />
-        </video>
-        <ul class="nav withhovers">
-          <li class="" data-pagehash="home">
-            <span class="number">.01</span><span class="title">
-              <!-- react-text: 10 -->— Ankoku
-              <!-- /react-text --><br /><!-- react-text: 12 -->Toshi
-              Jutsu
-              <!-- /react-text --></span>
-          </li>
-          <li class="" data-pagehash="product">
-            <span class="number">.02</span><span class="title">
-              <!-- react-text: 16 -->The
-              <!-- /react-text --><br /><!-- react-text: 18 -->Artefact
-              <!-- /react-text --></span>
-          </li>
-          <li class="" data-pagehash="items">
-            <span class="number">.03</span><span class="title">_Items</span>
-          </li>
-          <li class="" data-pagehash="journey">
-            <span class="number">.04</span><span class="title">The Journey_</span>
-          </li>
-          <li class="" data-pagehash="gallery">
-            <span class="number">.05</span><span class="title">G-llery</span>
-          </li>
-        </ul>
-        <div class="shop-container">
-          <p class="copy white">
-            The adidas Consortium x The Good Will Out – NMD CS1 PK “Ankoku
-            Toshi Jutsu“ will be available on September 16th.
-          </p>
-          <p class="copy">In store first, remaining stock online.</p>
-          <a href="/#howtobuy" class="btn-white" data-pagehash="howtobuy"><img src="./imgs/apps.svg"
-              alt="How to buy" /><span>How to buy</span></a>
-        </div>
-        <a href="javascript:void(0);" class="close-button" style="opacity: 0;"><span>Close</span>
-          <div class="icon-container">
-            <div class="circle"></div>
-            <div class="line line1"></div>
-            <div class="line line2"></div>
-          </div>
-        </a>
-        <ul class="small">
-          <li>
-            <a href="/" data-pagehash="credits"><span class="hover-effect">Credits</span></a>
-          </li>
-          <li>
-            <a href="/" data-pagehash="imprint"><span class="hover-effect">Imprint</span></a>
-          </li>
-        </ul>
-      </div>
-      <!-- react-empty: 47 -->
-      <!-- react-empty: 48 -->
-      <!-- react-empty: 49 -->
-      <!-- react-empty: 50 -->
-      <!-- react-empty: 51 -->
-      <!-- react-empty: 52 -->
-      <!-- react-empty: 53 -->
-      <!-- react-empty: 54 -->
-      <!-- react-empty: 55 -->
-      <div class="audio-events"></div>
-      <div class="mobile-rotation-info">
-        <div>
-          <img src="./imgs/apps.svg" />
-          <p>
-            <span>Shinobi, please</span><br /><!-- react-text: 63 -->rotate
-            your device...
-            <!-- /react-text -->
-          </p>
-        </div>
-      </div>
-    </main>
   </div>
 
 
@@ -152,10 +60,5 @@
     <path id="SvgjsPath1004" d="M0 0 "></path>
   </svg>
 </body>
-<script>
-  var vid = document.getElementsByClassName("cover-video");
-  vid.playbackRate = 0.50;
-  console.log(vid.playbackRate);
-</script>
 
 </html>

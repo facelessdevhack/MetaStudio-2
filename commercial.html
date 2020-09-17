@@ -97,15 +97,10 @@
         </div>
 
         <div class="col-xl-6 col-sm-12 col-xs-12">
-          <!-- <button onclick="getPlaySpeed()" type="button">
-            What is the playback speed?
-          </button>
-          <button onclick="setPlaySpeed()" type="button">
-            Set video to be play in slow motion</button
-          ><br /> -->
           <a href="./commercials/uber.html">
             <video
               class="myVideo"
+              id="one"
               webkit-playsinline=""
               playsinline=""
               loop=""
@@ -138,11 +133,11 @@
             ><img class="img no-mobile-img" src="./imgs/unicom1.png" alt=""
           /></a>
         </div>
-
         <div class="col-xl-6 col-sm-12 col-xs-12">
           <a href="./commercials/uniqulo.html">
             <video
               class="myVideo"
+              id="two"
               webkit-playsinline=""
               playsinline=""
               loop=""
@@ -183,6 +178,7 @@
           <a href="./commercials/adidas.html"
             ><video
               class="myVideo"
+              id="three"
               webkit-playsinline=""
               playsinline=""
               loop=""
@@ -220,6 +216,7 @@
           <a href="./commercials/spiritualMachines.html"
             ><video
               class="myVideo"
+              id="four"
               webkit-playsinline=""
               playsinline=""
               loop=""
@@ -260,6 +257,7 @@
           <a href="./commercials/suntory.html">
             <video
               class="myVideo"
+              id="five"
               webkit-playsinline=""
               playsinline=""
               loop=""
@@ -298,6 +296,7 @@
           <a href="./commercials/arcadia.html">
             <video
               class="myVideo"
+              id="six"
               webkit-playsinline=""
               playsinline=""
               loop=""
@@ -336,6 +335,7 @@
           <a href="./commercials/vfx.html">
             <video
               class="myVideo"
+              id="seven"
               webkit-playsinline=""
               playsinline=""
               loop=""
@@ -451,16 +451,42 @@
     </div>
     <script>
       var vid = document.getElementsByClassName("myVideo");
-      vid.playbackRate = 0.75;
-      // function getPlaySpeed() {
-      //   alert(vid.playbackRate);
-      // }
+      function getPlaySpeed() {
+        alert(vid.playbackRate);
+      }
 
-      // function setPlaySpeed() {
-      //   vid.playbackRate = 0.9;
-      // }
+      function setPlaySpeed() {
+        vid.playbackRate = 0.25;
+      }
     </script>
-
+    <script>
+      document.getElementById("one").playbackRate = 0.75;
+      console.log("one" + document.getElementById("one").playbackRate);
+    </script>
+    <script>
+      document.getElementById("two").playbackRate = 0.75;
+      console.log("two" + document.getElementById("two").playbackRate);
+    </script>
+    <script>
+      document.getElementById("three").playbackRate = 0.75;
+      console.log("three" + document.getElementById("three").playbackRate);
+    </script>
+    <script>
+      document.getElementById("four").playbackRate = 0.75;
+      console.log("four" + document.getElementById("four").playbackRate);
+    </script>
+    <script>
+      document.getElementById("five").playbackRate = 0.75;
+      console.log("five" + document.getElementById("five").playbackRate);
+    </script>
+    <script>
+      document.getElementById("six").playbackRate = 0.75;
+      console.log("six" + document.getElementById("six").playbackRate);
+    </script>
+    <script>
+      document.getElementById("seven").playbackRate = 0.75;
+      console.log("seven" + document.getElementById("seven").playbackRate);
+    </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
